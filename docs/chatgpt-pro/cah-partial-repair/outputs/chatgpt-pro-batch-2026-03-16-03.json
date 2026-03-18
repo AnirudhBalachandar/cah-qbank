@@ -1,0 +1,481 @@
+{
+  "questions": [
+    {
+      "stem_markdown": "A 7-month-old infant has had persistent watering of one eye since early infancy. There is no fever and no sign of local infection. The parents ask when specialist referral is usually needed if this has still not resolved. What is the **best advice**?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Arrange urgent ophthalmology review now because spontaneous resolution after 6 months is unlikely"
+        },
+        {
+          "key": "B",
+          "text": "Start antibiotics now despite there being no signs of infection"
+        },
+        {
+          "key": "C",
+          "text": "Continue observation for now; if it is still blocked at **12 months**, then refer"
+        },
+        {
+          "key": "D",
+          "text": "Immediate lacrimal probing is the standard next step in primary care"
+        },
+        {
+          "key": "E",
+          "text": "Patch the unaffected eye to reduce the risk of amblyopia"
+        }
+      ],
+      "correctKey": "C",
+      "explanation_markdown": "The source material supports **observation for nasolacrimal duct obstruction**, with spontaneous resolution expected by about **1 year of age**. Referral is suggested if it remains blocked at that point, and antibiotics are reserved for **signs of infection**.",
+      "why_others_wrong": {
+        "A": "The source material does not support routine urgent referral at 7 months in an otherwise uncomplicated case.",
+        "B": "Antibiotics are only indicated when there are signs of infection.",
+        "D": "Immediate probing is not the usual first step described in the uploaded files.",
+        "E": "Patching is not the management approach given for nasolacrimal duct obstruction in the source material."
+      },
+      "key_takeaways": [
+        "Nasolacrimal duct obstruction often resolves spontaneously.",
+        "Persistent uncomplicated obstruction is usually observed until about 12 months.",
+        "Antibiotics are for superimposed infection, not simple tearing alone."
+      ],
+      "tags": [
+        "General Paediatrics",
+        "ophthalmology",
+        "newborn care",
+        "nasolacrimal duct obstruction"
+      ],
+      "moduleCode": null,
+      "difficulty": "Basic",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "A previously well 10-year-old has a soft systolic murmur at routine review. Which **additional finding on examination** would most weaken the impression of an innocent murmur and instead suggest an atrial septal defect?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A vibratory early systolic quality"
+        },
+        {
+          "key": "B",
+          "text": "Fixed splitting of the second heart sound"
+        },
+        {
+          "key": "C",
+          "text": "Normal growth and exercise tolerance"
+        },
+        {
+          "key": "D",
+          "text": "No cyanosis"
+        },
+        {
+          "key": "E",
+          "text": "A murmur heard in an otherwise well child"
+        }
+      ],
+      "correctKey": "B",
+      "explanation_markdown": "The uploaded files link **fixed splitting of the second heart sound** with **atrial septal defect**. They separately describe an **innocent murmur** as **vibratory early systolic**, making fixed splitting the key feature that should shift the differential away from reassurance alone.",
+      "why_others_wrong": {
+        "A": "A vibratory early systolic murmur is the reassuring innocent-murmur description given in the source material.",
+        "C": "Normal growth and exercise tolerance do not provide the specific discriminator asked for here.",
+        "D": "Lack of cyanosis does not distinguish an innocent murmur from ASD in the uploaded files.",
+        "E": "Being otherwise well is not the examination clue that changes the diagnosis."
+      },
+      "key_takeaways": [
+        "Fixed splitting of the second heart sound is a classic clue for ASD in the source set.",
+        "Innocent murmurs are described as vibratory early systolic.",
+        "Examination pattern recognition can change whether a murmur is simply observed or investigated."
+      ],
+      "tags": [
+        "Paediatric Sub-specialties",
+        "cardiology",
+        "murmur",
+        "atrial septal defect"
+      ],
+      "moduleCode": null,
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Paeds exam MCQs.docx",
+          "title": "Paeds exam MCQs.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Questions (with Answers) - 2012 July.docx",
+          "title": "Stage 3 CAH - Questions (with Answers) - 2012 July.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "A cyanosed newborn undergoes a hyperoxia test. After breathing 100% oxygen, the arterial **PaO2** remains **6.0 kPa**. Which interpretation is **most appropriate**?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Restricted pulmonary blood flow is likely"
+        },
+        {
+          "key": "B",
+          "text": "This is a reassuringly normal hyperoxia response"
+        },
+        {
+          "key": "C",
+          "text": "This fits no pulmonary restriction with arterial-venous mixing"
+        },
+        {
+          "key": "D",
+          "text": "A primary parenchymal respiratory cause is confirmed"
+        },
+        {
+          "key": "E",
+          "text": "A cardiac cause has effectively been ruled out"
+        }
+      ],
+      "correctKey": "A",
+      "explanation_markdown": "The uploaded summary states that **very low PaO2 despite 100% oxygen** supports **restricted pulmonary blood flow**. Intermediate responses are used for venous-arterial mixing patterns, whereas a strong rise would argue away from that severe cardiac physiology.",
+      "why_others_wrong": {
+        "B": "The source material does not describe a persistently very low PaO2 after 100% oxygen as normal.",
+        "C": "The source distinguishes intermediate responses from the very low range used here.",
+        "D": "The uploaded material instead points to restricted pulmonary blood flow for this degree of non-response.",
+        "E": "The source specifically treats poor hyperoxia response as evidence against ruling out a cardiac problem."
+      },
+      "key_takeaways": [
+        "Hyperoxia testing is about how much PaO2 rises with 100% oxygen.",
+        "A very poor rise suggests restricted pulmonary blood flow.",
+        "Intermediate responses are interpreted differently from profoundly low ones."
+      ],
+      "tags": [
+        "Paediatric Sub-specialties",
+        "cardiology",
+        "hyperoxia test",
+        "cyanosis"
+      ],
+      "moduleCode": null,
+      "difficulty": "Intermediate",
+      "ausScore": 5,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "In the resus bay, a 5-year-old with a facial fracture is distressed and cannot yet tolerate cannulation. Which drug would **best allow rapid intranasal analgesia**?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pethidine"
+        },
+        {
+          "key": "B",
+          "text": "Fentanyl"
+        },
+        {
+          "key": "C",
+          "text": "Morphine"
+        },
+        {
+          "key": "D",
+          "text": "Ketamine"
+        },
+        {
+          "key": "E",
+          "text": "Midazolam"
+        }
+      ],
+      "correctKey": "B",
+      "explanation_markdown": "The source material explicitly identifies **intranasal fentanyl** as the appropriate analgesic choice for the facial-fracture scenario.",
+      "why_others_wrong": {
+        "A": "Pethidine was listed as an option in the source material but was not the selected intranasal agent.",
+        "C": "Morphine was not the source-supported intranasal choice for this question.",
+        "D": "Ketamine is not the intranasal analgesic answer given in the uploaded files.",
+        "E": "Midazolam may sedate but it is not the analgesic option selected in the source material."
+      },
+      "key_takeaways": [
+        "Intranasal fentanyl is a useful rapid analgesic option in children.",
+        "Analgesia can be started before IV access is secured.",
+        "The remembered source specifically ties this choice to facial trauma."
+      ],
+      "tags": [
+        "Emergency Paediatrics",
+        "analgesia",
+        "trauma",
+        "intranasal fentanyl"
+      ],
+      "moduleCode": null,
+      "difficulty": "Basic",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Paeds exam MCQs.docx",
+          "title": "Paeds exam MCQs.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Remembered Questions (with Answers) - 2011 Term D.docx",
+          "title": "Stage 3 CAH - Remembered Questions (with Answers) - 2011 Term D.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "A parent notices a painless scrotal swelling during nappy change. Which **bedside feature** would most support a benign hydrocele rather than a time-critical acute scrotal emergency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A bluish tinge to the swelling"
+        },
+        {
+          "key": "B",
+          "text": "The swelling transilluminates"
+        },
+        {
+          "key": "C",
+          "text": "Sudden marked pain"
+        },
+        {
+          "key": "D",
+          "text": "Repeated vomiting"
+        },
+        {
+          "key": "E",
+          "text": "Systemic illness and irritability"
+        }
+      ],
+      "correctKey": "B",
+      "explanation_markdown": "The source material explicitly links a scrotal swelling that **transilluminates** with **hydrocele**. A **bluish tinge** is less helpful because another uploaded source notes that this can also occur with **torsion**.",
+      "why_others_wrong": {
+        "A": "A bluish tinge is not specific enough, because the uploaded material notes it may also be seen in torsion.",
+        "C": "Pain points away from the benign hydrocele pattern in the source files.",
+        "D": "Vomiting would increase concern for a more urgent surgical problem rather than reassure.",
+        "E": "Systemic illness is not part of the benign hydrocele pattern described in the uploaded material."
+      },
+      "key_takeaways": [
+        "Transillumination is the key reassuring sign for hydrocele in the source pack.",
+        "Not every visually reassuring scrotal clue is specific; bluish colour alone is not enough.",
+        "Painless and transilluminating swellings are approached differently from the acute painful scrotum."
+      ],
+      "tags": [
+        "Paediatric Surgery",
+        "urology",
+        "scrotal swelling",
+        "hydrocele"
+      ],
+      "moduleCode": null,
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
+          "title": "Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Remembered Questions - September 2014.docx",
+          "title": "Stage 3 CAH - Remembered Questions - September 2014.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "A paediatric clinic is redesigning its transition process for teenagers with chronic disease. Which practical step is **most likely to improve transition readiness**?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Defer all planning until the first adult appointment is already booked"
+        },
+        {
+          "key": "B",
+          "text": "Use a checklist to structure transition planning"
+        },
+        {
+          "key": "C",
+          "text": "Insist that every young person must transfer to an adult specialist rather than a GP"
+        },
+        {
+          "key": "D",
+          "text": "Avoid discussing transition until late adolescence"
+        },
+        {
+          "key": "E",
+          "text": "Wait for the family to raise the topic before planning begins"
+        }
+      ],
+      "correctKey": "B",
+      "explanation_markdown": "The source material presents **using a checklist** and **starting in early adolescence** as important parts of good transition care. It specifically contrasts these with **transferring to a specialist rather than a GP**, which is treated as less important.",
+      "why_others_wrong": {
+        "A": "The source material supports planned preparation rather than waiting until transfer is already imminent.",
+        "C": "The uploaded files explicitly indicate that specialist-only transfer is not the key priority.",
+        "D": "Good transition planning should begin earlier, not be postponed.",
+        "E": "The source material supports a proactive process rather than a purely reactive one."
+      },
+      "key_takeaways": [
+        "Transition works best when it is structured and started early.",
+        "A checklist is a practical tool highlighted in the uploaded files.",
+        "The destination clinician matters less than the quality of preparation."
+      ],
+      "tags": [
+        "Adolescent Medicine",
+        "transition",
+        "chronic disease",
+        "health systems"
+      ],
+      "moduleCode": null,
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "CAH MCQs - Term H.docx",
+          "title": "CAH MCQs - Term H.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Paeds Exam July TERM I 2012.docx",
+          "title": "Paeds Exam July TERM I 2012.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
+          "title": "Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "A school counsellor is trying to distinguish ordinary oppositional behaviour from a more serious conduct problem. Which history feature is the **clearest red flag**?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Frequent arguments with adults"
+        },
+        {
+          "key": "B",
+          "text": "Cruelty to animals"
+        },
+        {
+          "key": "C",
+          "text": "Poor homework completion"
+        },
+        {
+          "key": "D",
+          "text": "Irritability after school"
+        },
+        {
+          "key": "E",
+          "text": "Wanting to spend more time alone"
+        }
+      ],
+      "correctKey": "B",
+      "explanation_markdown": "The conduct-disorder vignette in the uploaded files includes **hurting animals**, **fire-setting**, theft, and school exclusion. Among the options here, **cruelty to animals** is the strongest match to that source-grounded pattern.",
+      "why_others_wrong": {
+        "A": "Argumentative behaviour alone does not match the more serious pattern highlighted in the source vignette.",
+        "C": "Poor homework completion is non-specific and is not the key red-flag behaviour drawn from the uploaded files.",
+        "D": "Irritability is not the distinctive conduct-disorder clue used in the source material.",
+        "E": "Social withdrawal is not the behaviour cluster used to signal conduct disorder in the uploaded vignette."
+      },
+      "key_takeaways": [
+        "Cruelty to animals is a major red-flag behaviour in the uploaded conduct-disorder vignette.",
+        "The source vignette uses high-impact antisocial behaviours, not just argumentativeness, as the key clue.",
+        "A single high-yield behaviour can be more discriminating than a long list of non-specific concerns."
+      ],
+      "tags": [
+        "Adolescent Medicine",
+        "mental health",
+        "behaviour",
+        "conduct disorder"
+      ],
+      "moduleCode": null,
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Paeds exam MCQs.docx",
+          "title": "Paeds exam MCQs.docx"
+        },
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx"
+        }
+      ]
+    },
+    {
+      "stem_markdown": "At a community immunisation visit, a parent reports that a 12-month-old developed hives after eating egg and asks whether MMR should be delayed. What is the **best response**?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Defer MMR indefinitely because egg allergy is a contraindication"
+        },
+        {
+          "key": "B",
+          "text": "Give MMR only after vaccine skin testing has been arranged"
+        },
+        {
+          "key": "C",
+          "text": "Give MMR under medical supervision because the benefits outweigh the risks"
+        },
+        {
+          "key": "D",
+          "text": "Replace MMR with varicella vaccine only"
+        },
+        {
+          "key": "E",
+          "text": "Avoid all future live vaccines"
+        }
+      ],
+      "correctKey": "C",
+      "explanation_markdown": "The uploaded source material states that a child with **egg allergy should still receive MMR under medical supervision**, and that the **benefits outweigh the risks**.",
+      "why_others_wrong": {
+        "A": "The source material does not treat egg allergy as a reason to defer MMR indefinitely.",
+        "B": "Routine vaccine skin testing is not the pathway described in the uploaded files.",
+        "D": "Varicella alone does not replace the immunisation need addressed by MMR.",
+        "E": "The source material does not recommend avoiding all live vaccines because of egg allergy."
+      },
+      "key_takeaways": [
+        "Egg allergy does not automatically prevent MMR vaccination.",
+        "The source pack supports giving MMR under appropriate supervision.",
+        "Parent counselling on contraindications is an important community paediatrics skill."
+      ],
+      "tags": [
+        "Community-based Paediatrics",
+        "immunisation",
+        "MMR",
+        "egg allergy"
+      ],
+      "moduleCode": null,
+      "difficulty": "Basic",
+      "ausScore": 4,
+      "citations": [
+        {
+          "type": "internal",
+          "source": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
+          "title": "Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "workflowId": "cah-notes-mega-2026-03-16",
+  "title": "CAH Notes Mega Workflow 2026-03-16",
+  "rootDir": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16",
+  "evidenceMode": "strict_internal",
+  "defaultStrictness": "strict_internal",
+  "defaultModelProfile": "generator",
+  "sourceFiles": [
+    {
+      "label": "Louisa notes",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "role": "primary_notes"
+    },
+    {
+      "label": "CAH Bible",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/CAH Bible (shared 2025).pdf",
+      "role": "secondary_notes"
+    },
+    {
+      "label": "Question zip",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/cah-chatgpt-pro-source-files-2026-03-16.zip",
+      "role": "concept_hint"
+    },
+    {
+      "label": "Workflow doc",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/WORKFLOW.md",
+      "role": "workflow_doc"
+    },
+    {
+      "label": "Batch briefs",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs",
+      "role": "batch_brief"
+    },
+    {
+      "label": "Historical outputs",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs",
+      "role": "outputs_dir"
+    }
+  ],
+  "sourcePriority": [
+    {
+      "rank": 1,
+      "label": "Louisa notes",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "role": "primary_notes"
+    },
+    {
+      "rank": 2,
+      "label": "CAH Bible",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/CAH Bible (shared 2025).pdf",
+      "role": "secondary_notes"
+    },
+    {
+      "rank": 3,
+      "label": "Question zip",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/cah-chatgpt-pro-source-files-2026-03-16.zip",
+      "role": "concept_hint"
+    }
+  ],
+  "outputSpecPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/OUTPUT_SPEC.md",
+  "rejectedPatternsPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/REJECTED_PATTERNS_SUMMARY.md",
+  "artifactDirs": {
+    "raw": "workflow/artifacts/raw",
+    "reports": "workflow/artifacts/reports",
+    "prompts": "workflow/artifacts/prompts",
+    "reviewPacks": "workflow/artifacts/review-packs",
+    "state": "workflow/state"
+  },
+  "workerLanes": {
+    "semanticOriginalityAudit": true,
+    "reviewPackSynthesis": true
+  },
+  "retryPolicy": {
+    "maxAttempts": 4,
+    "invalidJsonRepairRetries": 1,
+    "validationRepairRetries": 1
+  },
+  "saturationPolicy": {
+    "freezeOnZeroAcceptedWhenRemainingAtMost": 5,
+    "freezeOnConsecutiveLowYieldRetries": 2,
+    "lowYieldAcceptedThreshold": 1
+  },
+  "batches": [
+    {
+      "batchId": "B01",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Adolescent foundations and interview structure",
+      "subtopics": [
+        "resilience",
+        "parenting style",
+        "developmental tasks of adolescence",
+        "HEEADSS assessment",
+        "adolescent brain maturation and risk-taking"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Adolescent Health opening block",
+      "overlapRisk": "Low; keep items applied and avoid simple list recall",
+      "status": "completed",
+      "maxAttempts": 4,
+      "acceptedCountHint": 12,
+      "notes": "Completed manually before Codex-native orchestration.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B01.md"
+    },
+    {
+      "batchId": "B02",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Consent, confidentiality, and service access",
+      "subtopics": [
+        "mature minor / Gillick competence",
+        "consent in emergencies",
+        "refusal and conflict",
+        "special medical treatment",
+        "Medicare access for adolescents"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Adolescent Health consent + Medicare block",
+      "overlapRisk": "Low; avoid legal trivia-only items",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 9,
+      "notes": "Manual workflow froze this batch after repeated low-yield replacements.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B02.md",
+      "frozenReason": "manual_freeze_at_9_of_12_after_low_yield_retries"
+    },
+    {
+      "batchId": "B03",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Sexual health and risky sexual behaviour",
+      "subtopics": [
+        "sexual health framing",
+        "age of consent in NSW",
+        "adolescent sexual behaviour",
+        "risky sexual behaviour",
+        "counselling and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Adolescent Sexual Health block",
+      "overlapRisk": "Low-moderate; keep scenarios counselling-heavy",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 9,
+      "notes": "Manual workflow froze this batch after repeated low-yield replacements.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B03.md",
+      "frozenReason": "manual_freeze_at_9_of_12_after_low_yield_retries"
+    },
+    {
+      "batchId": "B04",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Alcohol, vaping, cannabis, and screening",
+      "subtopics": [
+        "alcohol and other drugs",
+        "e-cigarettes",
+        "cannabis harms and withdrawal",
+        "CRAFFT and AUDIT-C",
+        "brief intervention / 5 A's"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Alcohol and Other Drugs block",
+      "overlapRisk": "Moderate; avoid the rejected parental-alcohol-supply pattern family",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 10,
+      "notes": "Manual workflow froze this batch after final low-yield retries.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B04.md",
+      "frozenReason": "manual_freeze_at_10_of_12_after_low_yield_retries"
+    },
+    {
+      "batchId": "B05",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Sleep, chronic illness, and transition",
+      "subtopics": [
+        "chronic illness in adolescence",
+        "adolescent sleep regulation",
+        "delayed sleep phase disorder",
+        "narcolepsy",
+        "transition principles and services"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Chronic Illness and Disability; Adolescent Sleep Disorders; Transition",
+      "overlapRisk": "Low; strong note density and low past-paper pull",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 7,
+      "notes": "Manual workflow froze this batch after late zero-yield replacement round.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B05.md",
+      "frozenReason": "manual_freeze_at_7_of_12_after_zero_yield_final_retry"
+    },
+    {
+      "batchId": "B06",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Dentistry foundations and prevention",
+      "subtopics": [
+        "dental anatomy",
+        "saliva and oral tissues",
+        "oro-facial infections",
+        "eruption cyst",
+        "natal tooth",
+        "ankyloglossia",
+        "dental caries risk and prevention",
+        "normal dental development"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Dentistry pp.132-133",
+      "overlapRisk": "Low; highly note-specific",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 8,
+      "notes": "Codex-native workflow imported 8 of 12 before the final replacement stalled and the small-remaining saturation rule froze the batch.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B06.md",
+      "frozenReason": "zero_acceptance_with_small_remaining"
+    }
+  ]
+}

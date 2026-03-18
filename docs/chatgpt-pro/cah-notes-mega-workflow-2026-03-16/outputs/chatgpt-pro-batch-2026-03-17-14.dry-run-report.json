@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "batchId": "B04",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 12,
+  "created": 6,
+  "rejected": 6,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 15-year-old says, \"I only vape, and at least I'm not smoking cigarettes.\" Which response is **most appropriate**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-86f97e188fdc34b849e0",
+      "overlapScore": 0.29770992366412213,
+      "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-1"
+    },
+    {
+      "index": 1,
+      "stem": "A 16-year-old says, \"I only drink at parties, so it's just social and not really a health issue.\" Which response is **best supported** by the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-899cc229bc20dac3a65c",
+      "overlapScore": 0.3968253968253968,
+      "overlapQuestionId": "accepted-1",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A 17-year-old says she uses cannabis before bed because it \"treats\" her anxiety. Which response is **most appropriate**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-b7663e05110e002c5370",
+      "overlapScore": 0.47115384615384615,
+      "overlapQuestionId": "accepted-1",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A 14-year-old who has tried alcohol twice asks why you keep asking about alcohol and vaping when he is \"obviously not addicted.\" What is the **best explanation**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-a2bed3a3ccd2f536902a",
+      "overlapScore": 0.3850574712643678,
+      "overlapQuestionId": "fb8ef949-fa4c-4364-b5bf-1c48812a9a1d",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 4,
+      "stem": "A 15-year-old says he \"hardly ever drinks\" but sometimes accepts rides home from older friends after parties. Which additional question from a validated adolescent substance-use screen most directly addresses this immediate safety issue?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-1e1dffb3061325858428",
+      "overlapScore": 0.33495145631067963,
+      "overlapQuestionId": "4de8a552-f327-406e-915f-3cb3f3cbef3c",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-5"
+    },
+    {
+      "index": 5,
+      "stem": "A 17-year-old denies cannabis or other drug use but describes repeated heavy drinking on weekends. You want to add an alcohol-specific screen for dependence rather than a broad mixed-substance screen. Which tool **best matches** that aim?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-d23e8a7321c85b920df1",
+      "overlapScore": 0.3300970873786408,
+      "overlapQuestionId": "accepted-5",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-6"
+    },
+    {
+      "index": 6,
+      "stem": "During review, a 16-year-old answers 'yes' to using alcohol to relax or fit in, using substances while alone, and forgetting things while using them. What is the **best interpretation**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-a060a70be2a29891ada6",
+      "overlapScore": 0.3390804597701149,
+      "overlapQuestionId": "fb8ef949-fa4c-4364-b5bf-1c48812a9a1d",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-7"
+    },
+    {
+      "index": 7,
+      "stem": "You have asked about a 16-year-old's daily vaping and assessed her stage of change and possible dependence. According to the 5 A's framework in the notes, what is the **best next step**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-327b8df8f735903b30fd",
+      "overlapScore": 0.4230769230769231,
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 8,
+      "stem": "A 17-year-old wants help stopping vaping. You have already asked about use, assessed readiness and dependence, and clearly advised quitting. Which next plan **best fits** the brief intervention model in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-a53bb3b711a54846e471",
+      "overlapScore": 0.3333333333333333,
+      "overlapQuestionId": "37a8b366-8561-4a8a-8a01-6ca0d7c88e77",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-9"
+    },
+    {
+      "index": 9,
+      "stem": "A 15-year-old presents after escalating weekend alcohol use, daily vaping, and recent cannabis use. He has become withdrawn and his school performance is falling. What is the **most appropriate next approach**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-7710e32b7e29a6f70fb4",
+      "overlapScore": 0.3854166666666667,
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 10,
+      "stem": "A 16-year-old stopped daily cannabis use 4 days ago. Since then he has been irritable, restless, eating poorly, and having vivid dreams. Which explanation **best fits** the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-dfc6c6a32c2ea73644db",
+      "overlapScore": 0.3785310734463277,
+      "overlapQuestionId": "accepted-9",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 11,
+      "stem": "A 17-year-old presents shortly after using cannabis. Which additional feature would support **acute cannabis effects** rather than cannabis withdrawal?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-fa46ffc314387f42b925",
+      "overlapScore": 0.2549019607843137,
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-12"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "batchId": "B03",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 3,
+  "created": 0,
+  "rejected": 3,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 17-year-old says, 'My girlfriend and I are both 17 and have been together for ages, so consent is basically assumed now.' Which response is **most appropriate** in NSW?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-6f04f5bda358b891bbc6",
+      "overlapScore": 0.3598130841121495,
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A 16-year-old with a long-term chronic illness attends transition clinic and says, 'You can skip the sexual-health part. People with conditions like mine do not really get into those risks.' Which response is **most consistent** with the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-8e6b7e940d72a49c0a8e",
+      "overlapScore": 0.3691588785046729,
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "During an adolescent review, a 14-year-old says, 'Everyone in my year is already doing sexual things, so it does not really matter what I think about it.' Which counselling response is **most appropriate**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-fcd8a8047d0e3bb47b4b",
+      "overlapScore": 0.43457943925233644,
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

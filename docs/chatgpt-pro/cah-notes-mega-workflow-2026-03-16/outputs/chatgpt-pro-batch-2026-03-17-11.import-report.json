@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "batchId": "B03",
+  "persist": true,
+  "runId": "cmmu8ub740001rj8johkx6fu6",
+  "totalQuestions": 6,
+  "created": 2,
+  "rejected": 4,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 17-year-old attends a Sydney adolescent clinic for contraception review and says, \"I’m using protection and I don’t think I have an STI, so there isn’t really a sexual health issue even though sex is making me stressed about the relationship.\" What is the **best response** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-b9a83e12f53104832c2c",
+      "overlapScore": 0.3975409836065574,
+      "overlapQuestionId": "04f9e5f8-c7d7-41ea-98d3-b5924f0fdf6f",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A 16-year-old in NSW says her new partner is 17 and worries that any consensual sexual activity would automatically be illegal because the partner is older. What is the **best clinician response** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-2e6101a643dd74f8d1c2",
+      "overlapScore": 0.4823529411764706,
+      "overlapQuestionId": "f0c6269a-3148-4fda-b383-7358030bde35",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A school health coordinator sees that teen pregnancy and birth rates have been relatively stable since the 1990s and concludes that sexual health promotion can probably be scaled back because adolescent sexual risk must be falling overall. Which interpretation best fits the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-15740209396a3af65f2c",
+      "overlapScore": 0.33031674208144796,
+      "overlapQuestionId": "f174fdb8-f78b-4359-80ea-6ee93f5e1ac7",
+      "status": "created",
+      "reason": null,
+      "questionId": "215e6236-b437-4f48-aa6f-62f48edc714b"
+    },
+    {
+      "index": 3,
+      "stem": "A 14-year-old asks for help \"not making stupid relationship decisions.\" She has started dating early, spends a lot of time home alone, is missing school, feels bad about herself, and has recently started drinking at parties. According to the notes, what is the **best focus for follow-up**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-483044cb77f94877f7c5",
+      "overlapScore": 0.3167420814479638,
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "status": "created",
+      "reason": null,
+      "questionId": "141a39f7-8b4d-4771-900e-856cc68cf1c6"
+    },
+    {
+      "index": 4,
+      "stem": "A 13-year-old says, \"I’ve only done oral stuff, not intercourse, so sexual health counselling can wait.\" Which response best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-d674a0f767fb7139ea64",
+      "overlapScore": 0.3582089552238806,
+      "overlapQuestionId": "f0c6269a-3148-4fda-b383-7358030bde35",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "A GP writes after a 16-year-old’s first consensual sexual experience, \"Future sexual health review is probably less important now because first sex usually coincides with monogamy.\" According to the notes, which correction is best?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-8f88f4bab0a866951149",
+      "overlapScore": 0.3541666666666667,
+      "overlapQuestionId": "b85faa52-dd68-4a57-aaad-e8a49589f3ac",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

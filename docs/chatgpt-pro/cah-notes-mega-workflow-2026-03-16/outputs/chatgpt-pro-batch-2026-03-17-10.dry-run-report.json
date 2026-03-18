@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "batchId": "B03",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 12,
+  "created": 6,
+  "rejected": 6,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A parent in a Sydney adolescent clinic asks why the doctor is asking about sexuality during a routine health review when there is no known STI or pregnancy concern. What is the **best explanation** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-74dfc3f4e27782dcd60a",
+      "overlapScore": 0.43915343915343913,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A 15-year-old asks a clinician in NSW, \"Does the law mean that any sexual activity before 16 is automatically a crime?\" Which reply best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-66cfe483859ff07e52b8",
+      "overlapScore": 0.3358208955223881,
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-2"
+    },
+    {
+      "index": 2,
+      "stem": "A school nurse says condom and protection counselling should mainly focus on younger adolescents because older teenagers in relationships are less of a concern. Which correction best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-bb5b6d8c6339f53471d1",
+      "overlapScore": 0.35978835978835977,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A registrar assumes that most sexually active adolescents feel positive after sex unless there is a pregnancy scare, so emotional impact does not need to be asked about routinely. Which response best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-e3d420f84ec49a706834",
+      "overlapScore": 0.3386243386243386,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-4"
+    },
+    {
+      "index": 4,
+      "stem": "A parent says sexually oriented content on social media must be the single cause of their teenager's recent sexual behaviour. What is the **best explanation** from the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-cc43810f57ec33c648ca",
+      "overlapScore": 0.35374149659863946,
+      "overlapQuestionId": "227d9f33-2f0c-46ea-a29a-a458eafe8aa1",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "Which background pattern should most alert a clinician to a **higher likelihood of risky sexual behaviour** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-645cb3c31f94202fddb5",
+      "overlapScore": 0.3826086956521739,
+      "overlapQuestionId": "67be093b-e636-49cf-ae0c-f1488329fec7",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 6,
+      "stem": "A 16-year-old with ADHD describes impulsive sexual decisions that they later regret. Which note-based interpretation is **best**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-578b7d4ebc28eb4ef084",
+      "overlapScore": 0.3208955223880597,
+      "overlapQuestionId": "accepted-2",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-7"
+    },
+    {
+      "index": 7,
+      "stem": "Which disclosure during an adolescent sexual health review in NSW should most clearly alert the clinician to a **serious legal concern** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-1700e76fe43cae45d428",
+      "overlapScore": 0.41134751773049644,
+      "overlapQuestionId": "67be093b-e636-49cf-ae0c-f1488329fec7",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 8,
+      "stem": "A 17-year-old says sex in her current relationship gives her no pleasure, leaves her feeling worse emotionally, and is starting to affect her wellbeing. There is no immediate pregnancy concern raised. What is the **best next step** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-867701865eb6cd57b807",
+      "overlapScore": 0.35655737704918034,
+      "overlapQuestionId": "04f9e5f8-c7d7-41ea-98d3-b5924f0fdf6f",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 9,
+      "stem": "A 16-year-old reports several sexual partners over a short period and says condoms are used inconsistently. What is the **best focus for follow-up** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-2d77274d8afe90e7a34f",
+      "overlapScore": 0.33783783783783783,
+      "overlapQuestionId": "227d9f33-2f0c-46ea-a29a-a458eafe8aa1",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-10"
+    },
+    {
+      "index": 10,
+      "stem": "A school-based clinician reviews a survey showing students can answer most HIV questions correctly but struggle when asked about common STIs. What is the **best educational follow-up** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-d428d0669442134f2c82",
+      "overlapScore": 0.3333333333333333,
+      "overlapQuestionId": "accepted-10",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-11"
+    },
+    {
+      "index": 11,
+      "stem": "Which scenario is **least consistent** with the note-based definition of risky sexual behaviour?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-4ba9a0e70cb4814005c5",
+      "overlapScore": 0.3130434782608696,
+      "overlapQuestionId": "accepted-7",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-12"
+    }
+  ]
+}

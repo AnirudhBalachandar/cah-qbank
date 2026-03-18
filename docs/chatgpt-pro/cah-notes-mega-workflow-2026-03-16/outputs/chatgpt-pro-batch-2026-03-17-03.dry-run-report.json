@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "batchId": "B01-last-1-alt",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 1,
+  "created": 0,
+  "rejected": 1,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A registrar has established rapport with a 16-year-old during an adolescent review in a Sydney clinic and is about to move from the presenting complaint into more sensitive psychosocial screening. According to the notes, what is the **best next step** in structuring the consultation?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-last-1-alt-5840b52714a4f82d87d1",
+      "overlapScore": 0.3508771929824561,
+      "overlapQuestionId": "b85faa52-dd68-4a57-aaad-e8a49589f3ac",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

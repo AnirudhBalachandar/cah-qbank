@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "batchId": "B01-last-1",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 1,
+  "created": 0,
+  "rejected": 1,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "At a routine adolescent clinic review in Sydney, the registrar asks to spend part of a 15-year-old’s consultation alone with the young person, even though the parent is supportive and wants to stay. Which explanation best matches the interview approach described in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-last-1-d41710b7d24011a02890",
+      "overlapScore": 0.40969162995594716,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

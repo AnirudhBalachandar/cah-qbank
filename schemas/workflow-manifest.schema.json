@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WorkflowManifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "workflowId",
+    "title",
+    "rootDir",
+    "evidenceMode",
+    "defaultStrictness",
+    "defaultModelProfile",
+    "sourceFiles",
+    "sourcePriority",
+    "outputSpecPath",
+    "rejectedPatternsPath",
+    "artifactDirs",
+    "workerLanes",
+    "retryPolicy",
+    "saturationPolicy",
+    "batches"
+  ],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "title": { "type": "string" },
+    "rootDir": { "type": "string" },
+    "evidenceMode": { "type": "string", "enum": ["strict_internal", "hybrid_australia_verified"] },
+    "defaultStrictness": { "type": "string", "enum": ["strict_internal", "augmented"] },
+    "defaultModelProfile": { "type": "string" },
+    "sourceFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "path", "role"],
+        "properties": {
+          "label": { "type": "string" },
+          "path": { "type": "string" },
+          "role": {
+            "type": "string",
+            "enum": ["primary_notes", "secondary_notes", "concept_hint", "operational", "batch_brief", "workflow_doc", "outputs_dir"]
+          }
+        }
+      }
+    },
+    "sourcePriority": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rank", "label", "path", "role"],
+        "properties": {
+          "rank": { "type": "integer", "minimum": 1 },
+          "label": { "type": "string" },
+          "path": { "type": "string" },
+          "role": { "type": "string", "enum": ["primary_notes", "secondary_notes", "concept_hint"] }
+        }
+      }
+    },
+    "outputSpecPath": { "type": "string" },
+    "rejectedPatternsPath": { "type": "string" },
+    "existingContentIndexPath": { "type": "string" },
+    "artifactDirs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw", "reports", "prompts", "reviewPacks", "state"],
+      "properties": {
+        "raw": { "type": "string" },
+        "reports": { "type": "string" },
+        "prompts": { "type": "string" },
+        "reviewPacks": { "type": "string" },
+        "state": { "type": "string" }
+      }
+    },
+    "workerLanes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["semanticOriginalityAudit", "reviewPackSynthesis"],
+      "properties": {
+        "semanticOriginalityAudit": { "type": "boolean" },
+        "reviewPackSynthesis": { "type": "boolean" }
+      }
+    },
+    "retryPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["maxAttempts", "invalidJsonRepairRetries", "validationRepairRetries"],
+      "properties": {
+        "maxAttempts": { "type": "integer", "minimum": 1 },
+        "invalidJsonRepairRetries": { "type": "integer", "minimum": 0 },
+        "validationRepairRetries": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "saturationPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["freezeOnZeroAcceptedWhenRemainingAtMost", "freezeOnConsecutiveLowYieldRetries", "lowYieldAcceptedThreshold"],
+      "properties": {
+        "freezeOnZeroAcceptedWhenRemainingAtMost": { "type": "integer", "minimum": 1 },
+        "freezeOnConsecutiveLowYieldRetries": { "type": "integer", "minimum": 1 },
+        "lowYieldAcceptedThreshold": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "batches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "batchId",
+          "curriculumArea",
+          "topicCluster",
+          "subtopics",
+          "targetCount",
+          "styleMix",
+          "sourcePriorityNotes",
+          "overlapRisk",
+          "status",
+          "notes"
+        ],
+        "properties": {
+          "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+          "curriculumArea": { "type": "string" },
+          "topicCluster": { "type": "string" },
+          "subtopics": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+          "targetCount": { "type": "integer", "minimum": 1 },
+          "styleMix": { "type": "string" },
+          "sourcePriorityNotes": { "type": "string" },
+          "overlapRisk": { "type": "string" },
+          "status": { "type": "string", "enum": ["pending", "running", "completed", "saturated", "failed"] },
+          "maxAttempts": { "type": "integer", "minimum": 1 },
+          "acceptedCountHint": { "type": "integer", "minimum": 0 },
+          "notes": { "type": "string" },
+          "briefPath": { "type": "string" },
+          "frozenReason": { "type": "string" }
+        }
+      }
+    }
+  }
+}

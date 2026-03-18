@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "batchId": "chatgpt-pro-batch-2026-03-16-03",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 8,
+  "created": 0,
+  "rejected": 8,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 7-month-old infant has had persistent watering of one eye since early infancy. There is no fever and no sign of local infection. The parents ask when specialist referral is usually needed if this has still not resolved. What is the **best advice**?",
+      "curriculumArea": "General Paediatrics",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-be2bc3bf183b42259f2d",
+      "overlapScore": 0.875,
+      "overlapQuestionId": "5190a0d2-82e5-4d51-809c-c1edb3332ccb",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A previously well 10-year-old has a soft systolic murmur at routine review. Which **additional finding on examination** would most weaken the impression of an innocent murmur and instead suggest an atrial septal defect?",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-9396da4f998cc8c7b471",
+      "overlapScore": 0.5555555555555556,
+      "overlapQuestionId": "9bbb4772-fdbb-4880-b1c3-529db8c8c28e",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A cyanosed newborn undergoes a hyperoxia test. After breathing 100% oxygen, the arterial **PaO2** remains **6.0 kPa**. Which interpretation is **most appropriate**?",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-fa7f8df32801cece33dc",
+      "overlapScore": 0.37037037037037035,
+      "overlapQuestionId": "5de47587-7374-44be-86e2-8b6f6ab35546",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "In the resus bay, a 5-year-old with a facial fracture is distressed and cannot yet tolerate cannulation. Which drug would **best allow rapid intranasal analgesia**?",
+      "curriculumArea": "Emergency Paediatrics",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-19e7af2e37972fcd1464",
+      "overlapScore": 0.6615384615384615,
+      "overlapQuestionId": "5b69376a-a2e0-4cd2-9567-d942f6919ca0",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 4,
+      "stem": "A parent notices a painless scrotal swelling during nappy change. Which **bedside feature** would most support a benign hydrocele rather than a time-critical acute scrotal emergency?",
+      "curriculumArea": "Paediatric Surgery",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-d0750558dfe200ae3b08",
+      "overlapScore": 0.5,
+      "overlapQuestionId": "77df38e1-bd61-4f7d-8d39-b7745839883b",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "A paediatric clinic is redesigning its transition process for teenagers with chronic disease. Which practical step is **most likely to improve transition readiness**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-3cdfeec1c02a3b14728e",
+      "overlapScore": 0.625,
+      "overlapQuestionId": "fc908ad2-611d-43bd-aa7a-a53850c0febf",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 6,
+      "stem": "A school counsellor is trying to distinguish ordinary oppositional behaviour from a more serious conduct problem. Which history feature is the **clearest red flag**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-ba4939949576b53a2596",
+      "overlapScore": 0.5333333333333333,
+      "overlapQuestionId": "64f1f2cf-2ace-4915-869b-0bbbe9b70ee2",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 7,
+      "stem": "At a community immunisation visit, a parent reports that a 12-month-old developed hives after eating egg and asks whether MMR should be delayed. What is the **best response**?",
+      "curriculumArea": "Community-based Paediatrics",
+      "sourceFingerprint": "manual-chatgpt-pro-chatgpt-pro-batch-2026-03-16-03-2bb1d79a7afee1f6b746",
+      "overlapScore": 1,
+      "overlapQuestionId": "538dcf77-d792-4bfe-917c-c440624a8d00",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

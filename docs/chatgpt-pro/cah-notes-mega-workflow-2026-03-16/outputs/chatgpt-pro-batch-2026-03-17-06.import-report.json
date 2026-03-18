@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "batchId": "B02",
+  "persist": true,
+  "runId": "cmmu3bjip0001rjg7wl3napfg",
+  "totalQuestions": 8,
+  "created": 2,
+  "rejected": 6,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "In a Sydney adolescent clinic, a 17-year-old clearly understands a recommended non-urgent treatment, can explain the main risks and longer-term consequences, and wants to proceed. Her mother says, \"Because she is under 18, my consent is still required.\" What is the **best response** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-5921ad3f2286ff2f8547",
+      "overlapScore": 0.35714285714285715,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "During a consent discussion for a non-urgent procedure, a 16-year-old gives a clear answer when alone but changes position completely whenever one parent enters the room and cannot explain the change. Which concern from the notes is **most relevant** when assessing competence?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-bcdafd409e76621e11c9",
+      "overlapScore": 0.34134615384615385,
+      "overlapQuestionId": "b85faa52-dd68-4a57-aaad-e8a49589f3ac",
+      "status": "created",
+      "reason": null,
+      "questionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d"
+    },
+    {
+      "index": 2,
+      "stem": "A 15-year-old and parents disagree about whether the young person truly understands the proposed treatment. The main uncertainty is the adolescent’s **decision-making capacity**, not the medical plan itself. According to the notes, what is the **best additional step**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-85ab1560b24e61a3ce5e",
+      "overlapScore": 0.3671497584541063,
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "In a NSW paediatric service, the family and treating team all accept that a 16-year-old understands the situation well, but there is a major dispute about the **recommended treatment plan itself**. According to the notes, what is the **best next step**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-3ad24e8dc12635dffd66",
+      "overlapScore": 0.3686868686868687,
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 4,
+      "stem": "A registrar says that once a 16-year-old agrees to a confidential alcohol and drug assessment, the team should keep the discussion narrow and avoid exploring anything else. Which response is **most consistent** with the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-59337c4c5b1c7ea8aa7e",
+      "overlapScore": 0.3701923076923077,
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "Parents keep asking to postpone a time-sensitive treatment for their 16-year-old by \"another few weeks\" while they think about it. Which communication point is **specifically listed** in the notes for this kind of consent conflict?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-e53ced2b8e1834f51722",
+      "overlapScore": 0.32211538461538464,
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "status": "created",
+      "reason": null,
+      "questionId": "f33eccad-3830-4575-9f39-4bde36daf256"
+    },
+    {
+      "index": 6,
+      "stem": "A 15-year-old is being considered for a treatment course that would involve administering a **drug of addiction for more than 10 days**. What is the **most important implication** for the consent pathway based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-ef973f6cec9d9d526ff7",
+      "overlapScore": 0.3507853403141361,
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 7,
+      "stem": "A 15-year-old wants to attend GP reviews more independently and is worried about having to borrow a parent’s Medicare card and about parents checking visit-related Medicare claims online afterwards. Which note-based explanation is **best**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-542b9f6093d12cf3cfdb",
+      "overlapScore": 0.4126984126984127,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

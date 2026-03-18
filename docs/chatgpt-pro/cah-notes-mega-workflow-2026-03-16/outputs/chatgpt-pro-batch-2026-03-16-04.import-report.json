@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "batchId": "B01",
+  "persist": true,
+  "runId": "cmmt2w89c0001rjgc79ejmqbe",
+  "totalQuestions": 12,
+  "created": 8,
+  "rejected": 4,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "During a routine adolescent review, a parent says, \"My 15-year-old can explain why risky dares are dangerous, but still does reckless things with friends.\" Which explanation best matches the note-based model of adolescent risk-taking?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-d901dd4ab9894db90cf8",
+      "overlapScore": 0.265625,
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "status": "created",
+      "reason": null,
+      "questionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd"
+    },
+    {
+      "index": 1,
+      "stem": "A GP is helping a 13-year-old recover after major family stress. Which single protective factor is most clearly identified in the notes as supporting adolescent resilience?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-5cb7d4c56202dde994ad",
+      "overlapScore": 0.2751322751322751,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "created",
+      "reason": null,
+      "questionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4"
+    },
+    {
+      "index": 2,
+      "stem": "A 15-year-old asks why the paediatrician is asking about home, school, peers, alcohol, sex, mood, sleep, safety, spirituality, and social media during a review for abdominal pain. What is the best explanation?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-51920c47599ca19bf498",
+      "overlapScore": 0.31216931216931215,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "created",
+      "reason": null,
+      "questionId": "fb8ef949-fa4c-4364-b5bf-1c48812a9a1d"
+    },
+    {
+      "index": 3,
+      "stem": "Parents of a 12-year-old ask how to set limits without damaging independence. Which advice best matches the parenting approach described in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-3e0d2acfe9c7cc7bd7e4",
+      "overlapScore": 0.31746031746031744,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "created",
+      "reason": null,
+      "questionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0"
+    },
+    {
+      "index": 4,
+      "stem": "Which adolescent is most clearly in a group that the notes say may have poorer health outcomes because of isolation and marginalisation?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-2ec53828ccd04e5cf090",
+      "overlapScore": 0.3202614379084967,
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "status": "created",
+      "reason": null,
+      "questionId": "ffa66ea0-953e-489f-85bb-38a68a7f4b73"
+    },
+    {
+      "index": 5,
+      "stem": "A 14-year-old has no trusted adult outside the immediate family, feels school is pointless, has dropped all outside activities, and says, \"Nothing I do changes anything.\" Which interpretation is best?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-3b349e2fbc03a28f7df0",
+      "overlapScore": 0.2891566265060241,
+      "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+      "status": "created",
+      "reason": null,
+      "questionId": "9184f6e6-f88c-4364-a637-27932fd106f4"
+    },
+    {
+      "index": 6,
+      "stem": "During HEEADSS, a 15-year-old says she has lost interest in friends and sometimes thinks \"it would be easier not to wake up.\" Which HEEADSS area must be explored directly today?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-b485a2990715315dbada",
+      "overlapScore": 0.291005291005291,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "created",
+      "reason": null,
+      "questionId": "4de8a552-f327-406e-915f-3cb3f3cbef3c"
+    },
+    {
+      "index": 7,
+      "stem": "A 14-year-old's HEEADSS review shows worsening school disengagement and no activities outside home. Which follow-up goal best aligns with the resilience factors highlighted in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-3d419ae0837dccc9cb74",
+      "overlapScore": 0.3727810650887574,
+      "overlapQuestionId": "9184f6e6-f88c-4364-a637-27932fd106f4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 8,
+      "stem": "A clinic team describes a stressed parent of a young person with a long-term condition as \"hopeless\" after several missed appointments. Which response best matches the notes on supporting parents in the health system?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-01962b2270d930e52b3a",
+      "overlapScore": 0.35555555555555557,
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 9,
+      "stem": "A 13-year-old increasingly wants private time in clinic and more say in daily routines. Which parental response is most consistent with the developmental tasks of adolescence described in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-114876fd93762177bffd",
+      "overlapScore": 0.36416184971098264,
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 10,
+      "stem": "A 16-year-old can think abstractly, compare several possible futures, and reason in more than one dimension, but is still vulnerable to risk-taking and poor regulation of affect. Which stage of adolescence best fits?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-2da7560c9b2ce8defe23",
+      "overlapScore": 0.38095238095238093,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 11,
+      "stem": "A 15-year-old is increasingly working out personal values, autonomy, and responsibility rather than simply copying family views. Which developmental task domain is most directly illustrated?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-bd162ec5dce80d11d4d5",
+      "overlapScore": 0.28735632183908044,
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "status": "created",
+      "reason": null,
+      "questionId": "b2c092b1-7a68-4fb6-a9af-5e0e5e15087f"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "batchId": "B02",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 6,
+  "created": 2,
+  "rejected": 4,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "During a non-urgent consent discussion in a Sydney paediatric clinic, a mother answers every question for her 16-year-old son and says the team can rely on her explanation because she is the parent. What is the **best response** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-a7fb4ed5fcec1ce24894",
+      "overlapScore": 0.5,
+      "overlapQuestionId": "227d9f33-2f0c-46ea-a29a-a458eafe8aa1",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A 17-year-old has long managed routine day-to-day decisions for a chronic condition. The team is now discussing a much more serious elective intervention with major long-term consequences. Why should the clinician assess decision-making capacity especially carefully in this situation?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-50e3db0d907ce9175d13",
+      "overlapScore": 0.3103448275862069,
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-2"
+    },
+    {
+      "index": 2,
+      "stem": "A treatment dispute between a 16-year-old, parents, and the treating team has continued despite repeated discussion and other management steps. According to the notes, how should a court order be viewed in this pathway?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-24f336f2e7851279113c",
+      "overlapScore": 0.39204545454545453,
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A trainee reads the notes on **special medical treatment (<16 years old)** and tries to apply that pathway automatically to a 16-year-old with an unusual proposed intervention. What is the **best correction**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-98fc719efe4b7814f034",
+      "overlapScore": 0.379746835443038,
+      "overlapQuestionId": "67be093b-e636-49cf-ae0c-f1488329fec7",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 4,
+      "stem": "A 15-year-old with gender dysphoria attends with her mother and stepfather, both of whom support proceeding with gender-affirming medical treatment. Her biological father also has parental responsibility but has not been consulted. Based on the notes, what is the **main unresolved issue**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-e5d3115d3257f79011f8",
+      "overlapScore": 0.3242009132420091,
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-5"
+    },
+    {
+      "index": 5,
+      "stem": "A 15-year-old is avoiding follow-up appointments because she assumes any Medicare-linked healthcare must stay fully under parental control and therefore cannot be arranged more independently. What is the **best counselling response** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-6f5744f87403b867104a",
+      "overlapScore": 0.3789954337899543,
+      "overlapQuestionId": "accepted-5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

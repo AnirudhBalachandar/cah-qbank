@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "batchId": "B03",
+  "persist": true,
+  "runId": "cmmub4iev0001rjehvyhsysvs",
+  "totalQuestions": 4,
+  "created": 1,
+  "rejected": 3,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 14-year-old is seen alone during a general paediatric review. She says she has never been sexually active but feels increasingly distressed about being attracted to girls and asks whether sexual health even applies to her. Which response is **most appropriate**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-ac7bb3fbcfe00c8afda5",
+      "overlapScore": 0.3438914027149321,
+      "overlapQuestionId": "141a39f7-8b4d-4771-900e-856cc68cf1c6",
+      "status": "created",
+      "reason": null,
+      "questionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937"
+    },
+    {
+      "index": 1,
+      "stem": "A 15-year-old asks to speak privately and says she has been having consensual sex with her 18-year-old boyfriend. She asks you to reassure her that it is fine because she agreed. Based on the notes, what is the **best response**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-8ac70d17472f90d854f1",
+      "overlapScore": 0.3742690058479532,
+      "overlapQuestionId": "fadb2ca0-8590-46da-bd81-cdc4ada1c9fb",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A 15-year-old says she had sexual intercourse once 4 months ago and is not currently in a relationship. She thinks there is nothing else to cover because it was just one time. Which response is **best supported** by the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-e3f6d4a8cf3d4ce804c0",
+      "overlapScore": 0.4756756756756757,
+      "overlapQuestionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A 17-year-old says she only ever has sex when she has been drinking at parties and thinks that means her risk is really just an alcohol issue, not a sexual-health issue. What is the **best next approach**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B03-dcb149bfa1bba36261a4",
+      "overlapScore": 0.37383177570093457,
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

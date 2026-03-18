@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "batchId": "B01-replacements-final-2",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 2,
+  "created": 1,
+  "rejected": 1,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A parent of a 15-year-old says, \"He used to want to do everything with us, but now he is focused on friends, has started a first romantic relationship, and seems to be trying out different social roles.\" Which explanation best matches the developmental tasks described in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-final-2-190def624d861338f959",
+      "overlapScore": 0.4329004329004329,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "During a follow-up consultation, a 16-year-old is trying to balance school, sport, casual work, and future study plans. Which consultation approach best uses the cognitive developmental changes described in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-final-2-a64550bd0a6d65987e4a",
+      "overlapScore": 0.3425414364640884,
+      "overlapQuestionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-2"
+    }
+  ]
+}

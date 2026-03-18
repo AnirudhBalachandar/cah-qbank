@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "batchId": "B02",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 6,
+  "created": 0,
+  "rejected": 6,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "At the start of a comprehensive adolescent alcohol and drug assessment in a Sydney clinic, a 16-year-old says she will only continue if the clinician explains how private the discussion is. Which response best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-b9c7b9841fac1dafde28",
+      "overlapScore": 0.3811881188118812,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A 15-year-old easily explains a simple dressing change and then wants to make an independent decision about a much more serious proposed intervention. According to the notes, which additional factor means the second decision requires especially careful competence assessment?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-7da5ad86bc0316b73c21",
+      "overlapScore": 0.39737991266375544,
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "Parents of a 16-year-old keep refusing a recommended treatment because they insist there must be another equally effective option somewhere else. According to the notes, which communication point should the team make as part of managing this conflict?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-bcdbf673ad70df226f37",
+      "overlapScore": 0.49261083743842365,
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A 17-year-old, both parents, and the treating team have had several consultations about a disputed treatment plan, with changing views over time and multiple discussions recorded verbally. Which ongoing practice from the notes should continue throughout this process?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-f436896301553e82204d",
+      "overlapScore": 0.3607305936073059,
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 4,
+      "stem": "A 15-year-old with gender dysphoria is referred to discuss gender-affirming medical treatment and appears Gillick competent. Which statement best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-e9dc8a2e2c44ce612139",
+      "overlapScore": 0.35374149659863946,
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "A 15-year-old is avoiding follow-up appointments because she thinks she must always use a parent’s Medicare arrangements and that this makes independent care impossible. Which explanation best matches the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-6d067fb4c4b269bcd21e",
+      "overlapScore": 0.3915343915343915,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "batchId": "B04",
+  "persist": true,
+  "runId": "cmmuid3a00001rj9690rno7up",
+  "totalQuestions": 3,
+  "created": 1,
+  "rejected": 2,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 17-year-old says he only drinks on some weekends but often uses cannabis later in the same session because it helps him \"balance out\" the alcohol. Which response is **most appropriate**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-762e739ced6c9374a0db",
+      "overlapScore": 0.3836477987421384,
+      "overlapQuestionId": "37a8b366-8561-4a8a-8a01-6ca0d7c88e77",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "During a teaching session, an intern says adolescent alcohol and other drug review can probably be de-emphasised because tobacco smoking and the use of alcohol and illicit drugs are declining overall. Which reply is **best supported** by the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-674c7c4ef8e2a35c3159",
+      "overlapScore": 0.36199095022624433,
+      "overlapQuestionId": "215e6236-b437-4f48-aa6f-62f48edc714b",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A 15-year-old who uses cannabis regularly says, \"It might make people feel weird on the night, but it doesn't cause real longer-term mental health problems.\" Which response is **most appropriate**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-7727c53092c93089b3b2",
+      "overlapScore": 0.3273809523809524,
+      "overlapQuestionId": "abf8fa9a-8ac4-4df2-9cb0-024d9c637b02",
+      "status": "created",
+      "reason": null,
+      "questionId": "f24b494b-510d-4a17-a8bc-daa7404fbb20"
+    }
+  ]
+}

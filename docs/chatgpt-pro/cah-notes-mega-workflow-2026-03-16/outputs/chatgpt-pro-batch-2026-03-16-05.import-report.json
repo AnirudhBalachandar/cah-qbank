@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "batchId": "B01-replacements-1",
+  "persist": true,
+  "runId": "cmmt4dbns0001rj6zn4mwxyog",
+  "totalQuestions": 4,
+  "created": 2,
+  "rejected": 2,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A junior doctor reviewing a 15-year-old with recurrent headaches says he has covered **Home, Education, Activities, Drugs, Sexuality, and mood**. According to the notes, which additional group of issues should still be included in the adolescent assessment?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-1-6c5cfceed9b9bbdfb79c",
+      "overlapScore": 0.3532110091743119,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "A 14-year-old spends much of the consultation talking about **who she is becoming**, wanting more independence, and struggling to manage intense changing feelings. Which developmental domain is **most directly represented** in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-1-e798ec3074f8be485a9f",
+      "overlapScore": 0.3915343915343915,
+      "overlapQuestionId": "b2c092b1-7a68-4fb6-a9af-5e0e5e15087f",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A 15-year-old says, \"There is no point trying to improve things at school because whether things go badly or well is just luck.\" Which clinician response best supports the **resilience factor** highlighted in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-1-69071f56b58c6334be16",
+      "overlapScore": 0.34444444444444444,
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "status": "created",
+      "reason": null,
+      "questionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f"
+    },
+    {
+      "index": 3,
+      "stem": "A 13-year-old says vaping and weekend drinking with friends are harmless because \"the brain is already grown by secondary school\". Which reply is **most consistent** with the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-1-b603c701829f525523ab",
+      "overlapScore": 0.33548387096774196,
+      "overlapQuestionId": "4de8a552-f327-406e-915f-3cb3f3cbef3c",
+      "status": "created",
+      "reason": null,
+      "questionId": "37a8b366-8561-4a8a-8a01-6ca0d7c88e77"
+    }
+  ]
+}

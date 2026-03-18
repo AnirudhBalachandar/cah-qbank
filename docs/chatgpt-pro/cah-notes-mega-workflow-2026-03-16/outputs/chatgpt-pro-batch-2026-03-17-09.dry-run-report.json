@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "batchId": "B02",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 4,
+  "created": 1,
+  "rejected": 3,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 17-year-old with a chronic condition wants his mother involved in the discussion of a non-urgent treatment because she helps him remember details, but he also wants the clinician to make sure the decision is based on **his own** understanding. What is the **best interpretation** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-a15220f06263b1690a05",
+      "overlapScore": 0.39545454545454545,
+      "overlapQuestionId": "8af725d1-7484-4118-83ff-70878fea01b9",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 1,
+      "stem": "Two siblings attend elective treatment counselling in a Sydney service. One is **17 years** old and the other has just turned **18 years** old. Both communicate well. Why does the clinician start from a different legal presumption in the older sibling?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-c90c8144ebb77392fa7c",
+      "overlapScore": 0.30808080808080807,
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-2"
+    },
+    {
+      "index": 2,
+      "stem": "In a NSW consent-planning meeting, the consultant says a **16-year-old** is \"a **young person**, not a child, but still a minor\" according to the notes. The parents ask what that wording actually means in practice. What is the **best explanation**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-a76b48942278d7e192fb",
+      "overlapScore": 0.37714285714285717,
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A team has already determined that a proposed intervention for a **15-year-old** falls within the notes’ category of **special medical treatment**. The adolescent and both parents all agree and ask to sign the usual consent paperwork that day. What is the **best response**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-533f401288e15f0f2642",
+      "overlapScore": 0.410958904109589,
+      "overlapQuestionId": "8af725d1-7484-4118-83ff-70878fea01b9",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

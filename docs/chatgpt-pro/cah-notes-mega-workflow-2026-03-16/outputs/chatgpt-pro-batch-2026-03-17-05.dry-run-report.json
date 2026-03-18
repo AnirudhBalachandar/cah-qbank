@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "batchId": "B02",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 12,
+  "created": 4,
+  "rejected": 8,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A father in a Sydney paediatric clinic says, \"My daughter is 17, so either she can always consent for herself or she cannot. Which is it?\" What is the **best explanation** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-86efa4d9085f0b08a957",
+      "overlapScore": 0.3319672131147541,
+      "overlapQuestionId": "04f9e5f8-c7d7-41ea-98d3-b5924f0fdf6f",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-1"
+    },
+    {
+      "index": 1,
+      "stem": "Which adolescent most clearly fits the note-based description of a **mature minor** who may be competent to consent to medical treatment?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-b890b358f6c7fc016312",
+      "overlapScore": 0.3709677419354839,
+      "overlapQuestionId": "ffa66ea0-953e-489f-85bb-38a68a7f4b73",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 2,
+      "stem": "A 16-year-old can explain part of a proposed non-urgent treatment but struggles to weigh longer-term consequences. Which consent approach best matches the **intermediate understanding** row in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-92aa874cd3d8dd58c900",
+      "overlapScore": 0.37037037037037035,
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A 13-year-old arrives in the Emergency Department with a life-threatening condition and no parent can be contacted. According to the notes, what is the **best next step**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-8a53bd0139be36874596",
+      "overlapScore": 0.3402777777777778,
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-4"
+    },
+    {
+      "index": 4,
+      "stem": "A minor is scheduled for heart surgery, and the parents object in advance to a blood transfusion that may be needed during the operation. According to the notes, what additional step **may be required**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-10b35a33fd7fb8f1759b",
+      "overlapScore": 0.36809815950920244,
+      "overlapQuestionId": "accepted-4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "A 16-year-old with decision-making capacity refuses a recommended treatment. The parent asks whether that refusal always ends the matter. What is the **best response** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-ea00fcd768059e087f4b",
+      "overlapScore": 0.38095238095238093,
+      "overlapQuestionId": "accepted-4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 6,
+      "stem": "A parent refuses a recommended treatment for a younger child, and the team becomes concerned that the refusal could place the child at **risk of significant harm**. Which additional step does the notes say **may need to be considered**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-012ff6787a804278bbe2",
+      "overlapScore": 0.2727272727272727,
+      "overlapQuestionId": "accepted-4",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-7"
+    },
+    {
+      "index": 7,
+      "stem": "A 15-year-old and both parents disagree about a recommended treatment plan. The registrar has already explained that there is no suitable alternative and has obtained a second medical opinion. According to the notes, what is the **best next step before considering a court order**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-cd38ec7c856870bf45c8",
+      "overlapScore": 0.36771300448430494,
+      "overlapQuestionId": "accepted-4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 8,
+      "stem": "Which proposed treatment for a 15-year-old should most clearly alert the clinician to **special medical treatment** in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-b56a47802d5a0318bdce",
+      "overlapScore": 0.2875816993464052,
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-9"
+    },
+    {
+      "index": 9,
+      "stem": "A 15-year-old is being considered for a treatment that is expected to cause **permanent infertility**. Which statement best matches the consent pathway in the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-c4081add59fec0091a17",
+      "overlapScore": 0.3819444444444444,
+      "overlapQuestionId": "accepted-4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 10,
+      "stem": "A 14-year-old wants more private control over Medicare access before attending clinic without a parent. Which advice is **most accurate** based on the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-9ae644722309fa29550c",
+      "overlapScore": 0.38686131386861317,
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 11,
+      "stem": "A 19-year-old with a chronic condition is studying full-time and worries they will lose Medicare Safety Net protection because they are no longer a child. Based on the notes, what is the **best advice**?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B02-91e8b5a24665d0f9fc34",
+      "overlapScore": 0.38271604938271603,
+      "overlapQuestionId": "accepted-4",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    }
+  ]
+}

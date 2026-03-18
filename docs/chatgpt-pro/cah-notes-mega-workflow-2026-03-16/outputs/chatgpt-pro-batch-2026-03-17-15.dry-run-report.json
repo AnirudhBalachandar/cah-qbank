@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "batchId": "B04",
+  "persist": false,
+  "runId": null,
+  "totalQuestions": 6,
+  "created": 3,
+  "rejected": 3,
+  "skippedExisting": 0,
+  "decisions": [
+    {
+      "index": 0,
+      "stem": "A 15-year-old comes to an adolescent clinic with his mother. When you are about to use CRAFFT, his mother answers the questions for him and he becomes guarded. What is the most appropriate next step?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-6754969e6443ebf43c23",
+      "overlapScore": 0.34502923976608185,
+      "overlapQuestionId": "6a8f815d-e1cc-4e24-9b01-475e4f59d18d",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-1"
+    },
+    {
+      "index": 1,
+      "stem": "A clinician asks a 16-year-old how often she vapes, then immediately says, \"You should quit,\" without exploring readiness to change or whether there are signs of dependence. Within the 5 A's framework, which element was skipped?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-ae4adc25733d2e80d1db",
+      "overlapScore": 0.32211538461538464,
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-2"
+    },
+    {
+      "index": 2,
+      "stem": "A 16-year-old says, \"I barely drink, but I sometimes take a friend's sedative after big nights. That has to be lower risk than alcohol because not many teenagers do it.\" Which response is most supported by the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-d7abadbe3222880fe0f5",
+      "overlapScore": 0.3697916666666667,
+      "overlapQuestionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 3,
+      "stem": "A 17-year-old binge drinks most Saturdays and says his poor concentration at school on Wednesday cannot be alcohol-related because he is sober by then. Which reply is best supported by the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-6b0ebc8364fc22b87d64",
+      "overlapScore": 0.43902439024390244,
+      "overlapQuestionId": "37a8b366-8561-4a8a-8a01-6ca0d7c88e77",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 4,
+      "stem": "A 15-year-old uses cannabis most evenings and says, \"I've never been paranoid or hallucinated, so it can't be affecting my schoolwork.\" Which response is best supported by the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-da030af849b33f076102",
+      "overlapScore": 0.4166666666666667,
+      "overlapQuestionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f",
+      "status": "rejected",
+      "reason": "local_trigram_overlap_threshold",
+      "questionId": null
+    },
+    {
+      "index": 5,
+      "stem": "A 17-year-old is brought to the ED after smoking cannabis. He is anxious, says \"nothing feels real,\" and believes people nearby are watching him. Which explanation best fits the notes?",
+      "curriculumArea": "Adolescent Medicine",
+      "sourceFingerprint": "manual-chatgpt-pro-B04-e216417f97f171021116",
+      "overlapScore": 0.3433734939759036,
+      "overlapQuestionId": "9184f6e6-f88c-4364-a637-27932fd106f4",
+      "status": "created",
+      "reason": null,
+      "questionId": "accepted-6"
+    }
+  ]
+}

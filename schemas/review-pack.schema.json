@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReviewPack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "workflowId",
+    "scope",
+    "generatedAt",
+    "acceptedTotals",
+    "batchSummaries",
+    "coverageSummary",
+    "styleMixSummary",
+    "overlapTrapSummary",
+    "verificationSummary",
+    "unresolvedExternalConflicts",
+    "recommendedImprovementPrompts",
+    "nextRecommendedBatches",
+    "artifactPaths"
+  ],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+        "fromBatchId": { "type": "string", "pattern": "^B\\d{2}$" },
+        "toBatchId": { "type": "string", "pattern": "^B\\d{2}$" }
+      }
+    },
+    "generatedAt": { "type": "string" },
+    "acceptedTotals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accepted", "target"],
+      "properties": {
+        "accepted": { "type": "integer", "minimum": 0 },
+        "target": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "batchSummaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["batchId", "status", "acceptedTotal", "targetCount", "remaining", "saturationReason", "overlapTraps"],
+        "properties": {
+          "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+          "status": { "type": "string", "enum": ["pending", "running", "completed", "saturated", "failed"] },
+          "acceptedTotal": { "type": "integer", "minimum": 0 },
+          "targetCount": { "type": "integer", "minimum": 1 },
+          "remaining": { "type": "integer", "minimum": 0 },
+          "saturationReason": { "type": ["string", "null"] },
+          "overlapTraps": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "coverageSummary": { "type": "array", "items": { "type": "string" } },
+    "styleMixSummary": { "type": "array", "items": { "type": "string" } },
+    "overlapTrapSummary": { "type": "array", "items": { "type": "string" } },
+    "verificationSummary": { "type": "array", "items": { "type": "string" } },
+    "unresolvedExternalConflicts": { "type": "array", "items": { "type": "string" } },
+    "recommendedImprovementPrompts": { "type": "array", "items": { "type": "string" } },
+    "nextRecommendedBatches": { "type": "array", "items": { "type": "string" } },
+    "artifactPaths": { "type": "array", "items": { "type": "string" } }
+  }
+}

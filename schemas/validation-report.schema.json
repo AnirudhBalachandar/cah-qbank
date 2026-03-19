@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ValidationReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["workflowId", "batchId", "attempt", "ok", "structuralOk", "formatOk", "scopeOk", "sourcePolicyOk", "evidenceModeOk", "issues"],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+    "attempt": { "type": "integer", "minimum": 1 },
+    "ok": { "type": "boolean" },
+    "structuralOk": { "type": "boolean" },
+    "formatOk": { "type": "boolean" },
+    "scopeOk": { "type": "boolean" },
+    "sourcePolicyOk": { "type": "boolean" },
+    "evidenceModeOk": { "type": "boolean" },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["category", "severity", "message"],
+        "properties": {
+          "questionIndex": { "type": ["integer", "null"] },
+          "category": {
+            "type": "string",
+            "enum": ["structural", "format", "scope", "source_policy", "originality", "evidence_mode", "clinical_framing"]
+          },
+          "severity": { "type": "string", "enum": ["warning", "error"] },
+          "message": { "type": "string" }
+        }
+      }
+    }
+  }
+}

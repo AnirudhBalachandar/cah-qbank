@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", serif;
+  --background: 210 25% 98%;
+  --foreground: 220 25% 14%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 24% 14%;
+  --border: 215 22% 88%;
+  --input: 214 25% 92%;
+  --primary: 199 82% 36%;
+  --primary-foreground: 210 40% 98%;
+  --muted: 210 30% 95%;
+  --muted-foreground: 218 11% 42%;
+  --accent: 170 35% 88%;
+  --accent-foreground: 180 40% 20%;
+  --success: 160 65% 32%;
+  --danger: 0 70% 44%;
+  --radius: 0.8rem;
+}
+
+.dark {
+  --background: 222 30% 10%;
+  --foreground: 210 35% 96%;
+  --card: 221 28% 13%;
+  --card-foreground: 210 35% 96%;
+  --border: 219 16% 26%;
+  --input: 220 15% 22%;
+  --primary: 194 86% 44%;
+  --primary-foreground: 220 35% 8%;
+  --muted: 221 21% 18%;
+  --muted-foreground: 214 18% 74%;
+  --accent: 184 30% 26%;
+  --accent-foreground: 180 25% 90%;
+  --success: 158 78% 37%;
+  --danger: 0 72% 55%;
+}
+
+* {
+  @apply border-border;
+}
+
+html,
+body {
+  @apply bg-background text-foreground min-h-full;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 0% 0%, hsl(196 62% 92% / 0.45), transparent 34%),
+    radial-gradient(circle at 100% 0%, hsl(171 54% 88% / 0.28), transparent 36%);
+}
+
+.dark body {
+  background-image:
+    radial-gradient(circle at 0% 0%, hsl(193 68% 24% / 0.35), transparent 34%),
+    radial-gradient(circle at 100% 0%, hsl(182 44% 20% / 0.24), transparent 36%);
+}
+
+.prose-content h1,
+.prose-content h2,
+.prose-content h3,
+.prose-content h4 {
+  @apply font-semibold;
+}
+
+.prose-content p {
+  @apply leading-relaxed;
+}

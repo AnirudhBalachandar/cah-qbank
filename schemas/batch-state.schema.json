@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BatchState",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "workflowId",
+    "batchId",
+    "status",
+    "attempts",
+    "acceptedTotal",
+    "rejectedTotal",
+    "remaining",
+    "importedQuestionIds",
+    "acceptedAngleFamilies",
+    "rejectedAngleFamilies",
+    "overlapWarnings",
+    "evidenceSummary",
+    "lastAttempt",
+    "attemptHistory",
+    "artifactPaths",
+    "saturationReason",
+    "nextAction",
+    "updatedAt"
+  ],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+    "status": { "type": "string", "enum": ["pending", "running", "completed", "saturated", "failed"] },
+    "attempts": { "type": "integer", "minimum": 0 },
+    "acceptedTotal": { "type": "integer", "minimum": 0 },
+    "rejectedTotal": { "type": "integer", "minimum": 0 },
+    "remaining": { "type": "integer", "minimum": 0 },
+    "importedQuestionIds": { "type": "array", "items": { "type": "string" } },
+    "acceptedAngleFamilies": { "type": "array", "items": { "type": "string" } },
+    "rejectedAngleFamilies": { "type": "array", "items": { "type": "string" } },
+    "overlapWarnings": { "type": "array", "items": { "type": "string" } },
+    "evidenceSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidenceMode", "strictness", "externalFindingCount", "unresolvedConflictCount"],
+      "properties": {
+        "evidenceMode": { "type": "string", "enum": ["strict_internal", "hybrid_australia_verified"] },
+        "strictness": { "type": "string", "enum": ["strict_internal", "augmented"] },
+        "externalFindingCount": { "type": "integer", "minimum": 0 },
+        "unresolvedConflictCount": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "lastAttempt": {
+      "type": ["object", "null"]
+    },
+    "attemptHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["attemptNumber", "mode", "acceptedCount", "rejectedCount", "remainingCount", "recordedAt"],
+        "properties": {
+          "attemptNumber": { "type": "integer", "minimum": 1 },
+          "mode": { "type": "string", "enum": ["initial", "replacement", "resume"] },
+          "acceptedCount": { "type": "integer", "minimum": 0 },
+          "rejectedCount": { "type": "integer", "minimum": 0 },
+          "remainingCount": { "type": "integer", "minimum": 0 },
+          "recordedAt": { "type": "string" }
+        }
+      }
+    },
+    "artifactPaths": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statePath", "batchDir", "rawDir", "reportsDir", "promptsDir", "reviewPackDir"],
+      "properties": {
+        "statePath": { "type": "string" },
+        "batchDir": { "type": "string" },
+        "rawDir": { "type": "string" },
+        "reportsDir": { "type": "string" },
+        "promptsDir": { "type": "string" },
+        "reviewPackDir": { "type": "string" },
+        "summaryPath": { "type": ["string", "null"] },
+        "reviewPackPath": { "type": ["string", "null"] }
+      }
+    },
+    "saturationReason": { "type": ["string", "null"] },
+    "nextAction": { "type": ["string", "null"] },
+    "updatedAt": { "type": "string" }
+  }
+}

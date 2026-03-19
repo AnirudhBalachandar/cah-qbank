@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SemanticOriginalityReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["workflowId", "batchId", "attempt", "findings", "warnings"],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+    "attempt": { "type": "integer", "minimum": 1 },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["questionIndex", "classification", "angleFamily", "confidence", "shouldReject", "reason"],
+        "properties": {
+          "questionIndex": { "type": "integer", "minimum": 0 },
+          "classification": {
+            "type": "string",
+            "enum": [
+              "existing_bank_overlap",
+              "local_batch_overlap",
+              "accepted_angle_reuse",
+              "rejected_angle_reuse",
+              "same_teaching_point"
+            ]
+          },
+          "angleFamily": { "type": "string", "minLength": 1 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "shouldReject": { "type": "boolean" },
+          "reason": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

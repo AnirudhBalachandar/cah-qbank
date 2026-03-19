@@ -1,0 +1,126 @@
+{
+  "databaseProvider": "postgresql",
+  "exportedAt": "2026-03-19T20:12:23.692Z",
+  "files": {
+    "question-tag-links.json": {
+      "bytes": 465375,
+      "records": 4309,
+      "sha256": "dd0f0419efd717bf6d973a896252b745029871fdc58a43316eec7cdb2e8f6052"
+    },
+    "questions.json": {
+      "bytes": 5233060,
+      "records": 2083,
+      "sha256": "368ce13b7ffd1d2b023c286da848854aceba40984908fb384363a2b56866e852"
+    },
+    "summary.json": {
+      "bytes": 624,
+      "sha256": "4758c2dfc528a60ddc46d6da447d2bbd1c892125e574d3c83b983f4d5f3b3cfb"
+    },
+    "tags.json": {
+      "bytes": 2193,
+      "records": 12,
+      "sha256": "c203a8d486d0c16d2b2d24fb51c61f1f2d86e1cd70bb3525227c8061defa5783"
+    }
+  },
+  "gitCommit": "cd245e7b91a78f72da6584a5faf67c70e7e67a5a",
+  "notes": [
+    "This snapshot is a GitHub-safe qbank domain backup of questions and tags.",
+    "It intentionally excludes local corpus files in content/ and runtime workflow/orchestration state."
+  ],
+  "outputDirectory": "backups/qbank-state/2026-03-20",
+  "summary": {
+    "curriculumCounts": {
+      "Adolescent Medicine": 146,
+      "Community-based Paediatrics": 197,
+      "Emergency Paediatrics": 174,
+      "General Paediatrics": 176,
+      "Paediatric Sub-specialties": 820,
+      "Paediatric Surgery": 313
+    },
+    "notebookLmByStatus": {
+      "draft": 480,
+      "published": 673
+    },
+    "notebookLmTaggedQuestions": 1153,
+    "questionsByCreatedBy": {
+      "ai": 496,
+      "import": 433,
+      "manual": 1154
+    },
+    "questionsByStatus": {
+      "draft": 976,
+      "published": 1107
+    },
+    "questionsByType": {
+      "SBA": 2083
+    },
+    "totalQuestions": 2083,
+    "totalQuestionTagLinks": 4309,
+    "totalTags": 12
+  },
+  "tagHierarchySample": [
+    {
+      "id": "cmmsh3rxx000drj81hcqe395e",
+      "kind": "topic",
+      "name": "Adolescent Medicine",
+      "parentId": "cmmsh3rxu0003rj81sd6d229k",
+      "parentName": "CAH KAT"
+    },
+    {
+      "id": "cmmsh3rxu0003rj81sd6d229k",
+      "kind": "topic",
+      "name": "CAH KAT",
+      "parentId": "cmmsh3rxs0001rj813nkna7t2",
+      "parentName": "CAH Exam Blueprint"
+    },
+    {
+      "id": "cmmsh3rxy000frj81kj1jacdh",
+      "kind": "topic",
+      "name": "Community-based Paediatrics",
+      "parentId": "cmmsh3rxu0003rj81sd6d229k",
+      "parentName": "CAH KAT"
+    },
+    {
+      "id": "cmmsh3rxx000brj81r3yjb4j0",
+      "kind": "topic",
+      "name": "Emergency Paediatrics",
+      "parentId": "cmmsh3rxu0003rj81sd6d229k",
+      "parentName": "CAH KAT"
+    },
+    {
+      "id": "cmmsh3pb40002rj6ac94omrgn",
+      "kind": "topic",
+      "name": "General Paediatrics",
+      "parentId": null,
+      "parentName": null
+    },
+    {
+      "id": "cmmsh3rxv0005rj812icfqrxt",
+      "kind": "topic",
+      "name": "General Paediatrics",
+      "parentId": "cmmsh3rxu0003rj81sd6d229k",
+      "parentName": "CAH KAT"
+    },
+    {
+      "id": "cmmsh3rxv0007rj81y699slyk",
+      "kind": "topic",
+      "name": "Paediatric Sub-specialties",
+      "parentId": "cmmsh3rxu0003rj81sd6d229k",
+      "parentName": "CAH KAT"
+    },
+    {
+      "id": "cmmsh3rxw0009rj81xx4fvbjd",
+      "kind": "topic",
+      "name": "Paediatric Surgery",
+      "parentId": "cmmsh3rxu0003rj81sd6d229k",
+      "parentName": "CAH KAT"
+    },
+    {
+      "id": "cmmx94lcj0002rjya1p4dmpls",
+      "kind": "meta",
+      "name": "notebookLM",
+      "parentId": null,
+      "parentName": null
+    }
+  ]
+}

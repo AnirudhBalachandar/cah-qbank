@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VerificationReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["workflowId", "batchId", "attempt", "evidenceMode", "findings"],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+    "attempt": { "type": "integer", "minimum": 1 },
+    "evidenceMode": { "type": "string", "enum": ["strict_internal", "hybrid_australia_verified"] },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["questionIndex", "claim", "status", "riskLevel", "changeAllowedInMode", "sources"],
+        "properties": {
+          "questionIndex": { "type": "integer", "minimum": 0 },
+          "claim": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["no_issue", "possible_outdated_internal_source", "external_support_available", "external_conflict_detected", "needs_human_decision"]
+          },
+          "riskLevel": { "type": "string", "enum": ["low", "medium", "high"] },
+          "suggestedChange": { "type": ["string", "null"] },
+          "changeAllowedInMode": { "type": "boolean" },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["title", "url"],
+              "properties": {
+                "title": { "type": "string" },
+                "url": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

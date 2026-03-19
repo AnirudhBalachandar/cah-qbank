@@ -1,0 +1,380 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/src/lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum TagKind {
+  topic
+  module
+  ranZcogDomain
+  meta
+}
+
+enum QuestionType {
+  SBA
+  EMQ_STEM
+}
+
+enum CreatedBy {
+  import
+  ai
+  manual
+}
+
+enum QuestionStatus {
+  published
+  draft
+  archived
+}
+
+enum AttemptMode {
+  revision
+  timed
+  weakness
+  custom
+}
+
+enum UserRole {
+  ADMIN
+  USER
+}
+
+enum GenerationStrictness {
+  strict_internal
+  augmented
+}
+
+enum MasteryModel {
+  beta
+  elo
+}
+
+enum SourceType {
+  pdf
+  docx
+  web
+}
+
+enum GeneratedRunStatus {
+  queued
+  processing
+  completed
+  failed
+}
+
+enum GeneratedItemStatus {
+  draft
+  published
+  archived
+  rejected
+}
+
+enum SyncDeviceStatus {
+  pending
+  active
+  revoked
+}
+
+enum SyncJobDirection {
+  push_to_desktop
+  pull_from_desktop
+}
+
+enum SyncJobStatus {
+  pending
+  processing
+  succeeded
+  failed
+  rejected
+}
+
+model User {
+  id                         String                 @id @default(cuid())
+  email                      String                 @unique
+  passwordHash               String
+  role                       UserRole               @default(USER)
+  examDate                   DateTime?
+  dailyTarget                Int?
+  defaultGenerationStrictness GenerationStrictness  @default(strict_internal)
+  onboardingCompletedAt      DateTime?
+  createdAt                  DateTime               @default(now())
+  attempts                   Attempt[]
+  flags                      Flag[]
+  notes                      UserNote[]
+  issues                     IssueReport[]
+  sessions                   PracticeSession[]
+  mastery                    Mastery[]
+  generatedRuns              GeneratedQuestionRun[]
+  syncDevices                SyncDevice[]
+  syncJobs                   SyncJob[]
+  syncStates                 SyncState[]
+}
+
+model Tag {
+  id           String        @id @default(cuid())
+  name         String
+  kind         TagKind
+  parentId     String?
+  parent       Tag?          @relation("TagTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children     Tag[]         @relation("TagTree")
+  createdAt    DateTime      @default(now())
+  questionTags QuestionTag[]
+  mastery      Mastery[]
+
+  @@unique([name, parentId, kind])
+}
+
+model Question {
+  id                String         @id @default(uuid())
+  type              QuestionType
+  stem              String
+  options           Json
+  correctKey        String?
+  explanation       String?
+  rationale         String?
+  whyOthersWrong    Json?
+  citations         Json?
+  difficulty        String?
+  ausScore          Int?
+  moduleCode        String?
+  createdBy         CreatedBy      @default(import)
+  status            QuestionStatus @default(published)
+  source            Json
+  sourceFingerprint String         @unique
+  createdAt         DateTime       @default(now())
+  attempts          Attempt[]
+  flags             Flag[]
+  notes             UserNote[]
+  issues            IssueReport[]
+  questionTags      QuestionTag[]
+  emqLinks          QuestionEmqSet[]
+  generatedItems    GeneratedQuestionItem[]
+
+  @@index([status, createdBy, createdAt])
+}
+
+model EmqSet {
+  id                String           @id @default(cuid())
+  title             String?
+  instructions      String?
+  optionList        Json
+  source            Json
+  sourceFingerprint String           @unique
+  createdAt         DateTime         @default(now())
+  questionLinks     QuestionEmqSet[]
+}
+
+model QuestionEmqSet {
+  questionId String
+  emqSetId   String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  emqSet     EmqSet   @relation(fields: [emqSetId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, emqSetId])
+}
+
+model QuestionTag {
+  questionId String
+  tagId      String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  tag        Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, tagId])
+}
+
+model PracticeSession {
+  id              String      @id @default(uuid())
+  userId          String
+  mode            AttemptMode
+  durationMinutes Int?
+  questionIds     Json
+  filters         Json
+  currentIndex    Int         @default(0)
+  completedAt     DateTime?
+  createdAt       DateTime    @default(now())
+  user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempts        Attempt[]
+
+  @@index([userId, createdAt])
+}
+
+model Attempt {
+  id          String      @id @default(cuid())
+  userId      String
+  questionId  String
+  sessionId   String?
+  selectedKey String?
+  isCorrect   Boolean
+  timeSpentMs Int?
+  confidence  Int?
+  mode        AttemptMode
+  createdAt   DateTime    @default(now())
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question    Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  session     PracticeSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([questionId])
+  @@index([mode])
+  @@index([sessionId])
+}
+
+model Flag {
+  userId     String
+  questionId String
+  createdAt  DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([userId, questionId])
+}
+
+model UserNote {
+  userId       String
+  questionId   String
+  noteMarkdown String
+  updatedAt    DateTime @updatedAt
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question     Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([userId, questionId])
+}
+
+model IssueReport {
+  id         String   @id @default(cuid())
+  userId     String
+  questionId String
+  message    String
+  createdAt  DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+model Mastery {
+  userId        String
+  tagId         String
+  model         MasteryModel @default(beta)
+  masteryScore  Float        @default(0.5)
+  elo           Int?
+  alpha         Float        @default(1)
+  beta          Float        @default(1)
+  lastUpdatedAt DateTime     @updatedAt
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tag           Tag          @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([userId, tagId])
+  @@index([userId, masteryScore])
+}
+
+model ContentChunk {
+  id         String                @id @default(cuid())
+  sourceType SourceType
+  sourceRef  String
+  title      String?
+  heading    String?
+  pageStart  Int?
+  pageEnd    Int?
+  text       String
+  embedding  Unsupported("vector(1536)")?
+  metadata   Json
+  createdAt  DateTime              @default(now())
+
+  @@index([sourceType, sourceRef])
+}
+
+model GeneratedQuestionRun {
+  id           String               @id @default(cuid())
+  userId        String
+  weaknessTags  Json
+  strictness    GenerationStrictness
+  status        GeneratedRunStatus  @default(queued)
+  logs          Json?
+  createdAt     DateTime            @default(now())
+  user          User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items         GeneratedQuestionItem[]
+
+  @@index([userId, createdAt])
+}
+
+model GeneratedQuestionItem {
+  id                String              @id @default(cuid())
+  runId              String
+  questionId         String?
+  status             GeneratedItemStatus @default(draft)
+  similarityScore    Float?
+  overlapScore       Float?
+  validationErrors   Json?
+  reviewerNotes      String?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  run                GeneratedQuestionRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  question           Question?            @relation(fields: [questionId], references: [id], onDelete: SetNull)
+
+  @@index([runId, status])
+}
+
+model SyncDevice {
+  id              String           @id @default(cuid())
+  userId          String
+  devicePublicId  String
+  deviceName      String
+  platform        String
+  status          SyncDeviceStatus @default(pending)
+  pairingId       String?          @unique
+  pairingCodeHash String?
+  pairingExpiresAt DateTime?
+  syncTokenHash   String?
+  pairedAt        DateTime?
+  lastSeenAt      DateTime?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  user            User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  jobs            SyncJob[]
+  states          SyncState[]
+
+  @@unique([userId, devicePublicId])
+  @@index([userId, status])
+}
+
+model SyncJob {
+  id          String           @id @default(cuid())
+  userId      String
+  deviceId    String?
+  direction   SyncJobDirection
+  status      SyncJobStatus    @default(pending)
+  summary     Json?
+  error       String?
+  createdAt   DateTime         @default(now())
+  startedAt   DateTime?
+  completedAt DateTime?
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  device      SyncDevice?      @relation(fields: [deviceId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([deviceId, createdAt])
+}
+
+model SyncState {
+  id                String            @id @default(cuid())
+  userId            String
+  deviceId          String
+  lastSyncAt        DateTime?
+  lastExportAt      DateTime?
+  lastImportAt      DateTime?
+  lastBundleChecksum String?
+  lastDirection     SyncJobDirection?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  user              User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  device            SyncDevice        @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, deviceId])
+  @@index([userId, updatedAt])
+}

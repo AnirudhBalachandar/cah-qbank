@@ -1,0 +1,28 @@
+model = "gpt-5.4"
+profile = "controller"
+web_search = "cached"
+
+[profiles.controller]
+model = "gpt-5.4"
+reasoning_effort = "high"
+web_search = "cached"
+
+[profiles.generator]
+model = "gpt-5.4"
+reasoning_effort = "low"
+web_search = "disabled"
+
+[profiles.fast_auditor]
+model = "gpt-5.4-mini"
+reasoning_effort = "low"
+web_search = "disabled"
+
+[profiles.au_verifier]
+model = "gpt-5.4-mini"
+reasoning_effort = "medium"
+web_search = "live"
+
+[profiles.final_reviewer]
+model = "gpt-5.4"
+reasoning_effort = "high"
+web_search = "live"

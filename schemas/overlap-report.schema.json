@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OverlapReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["workflowId", "batchId", "attempt", "generatedCount", "acceptedIndices", "rejectedIndices", "findings", "warnings"],
+  "properties": {
+    "workflowId": { "type": "string" },
+    "batchId": { "type": "string", "pattern": "^B\\d{2}$" },
+    "attempt": { "type": "integer", "minimum": 1 },
+    "generatedCount": { "type": "integer", "minimum": 0 },
+    "acceptedIndices": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+    "rejectedIndices": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["questionIndex", "classification", "angleFamily", "reason"],
+        "properties": {
+          "questionIndex": { "type": "integer", "minimum": 0 },
+          "classification": {
+            "type": "string",
+            "enum": ["accepted", "existing_bank_overlap", "local_batch_overlap", "accepted_angle_reuse", "rejected_angle_reuse", "same_teaching_point"]
+          },
+          "angleFamily": { "type": "string" },
+          "matchedQuestionId": { "type": ["string", "null"] },
+          "score": { "type": ["number", "null"] },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "warnings": { "type": "array", "items": { "type": "string" } }
+  }
+}

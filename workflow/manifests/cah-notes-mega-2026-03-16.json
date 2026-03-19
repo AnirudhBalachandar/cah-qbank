@@ -1,0 +1,1758 @@
+{
+  "workflowId": "cah-notes-mega-2026-03-16",
+  "title": "CAH Notes Mega Workflow 2026-03-16",
+  "rootDir": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16",
+  "evidenceMode": "strict_internal",
+  "defaultStrictness": "strict_internal",
+  "defaultModelProfile": "generator",
+  "sourceFiles": [
+    {
+      "label": "Louisa notes",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "role": "primary_notes"
+    },
+    {
+      "label": "CAH Bible",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/CAH Bible (shared 2025).pdf",
+      "role": "secondary_notes"
+    },
+    {
+      "label": "Question zip",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/cah-chatgpt-pro-source-files-2026-03-16.zip",
+      "role": "concept_hint"
+    },
+    {
+      "label": "Workflow doc",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/WORKFLOW.md",
+      "role": "workflow_doc"
+    },
+    {
+      "label": "Batch briefs",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs",
+      "role": "batch_brief"
+    },
+    {
+      "label": "Historical outputs",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs",
+      "role": "outputs_dir"
+    }
+  ],
+  "sourcePriority": [
+    {
+      "rank": 1,
+      "label": "Louisa notes",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "role": "primary_notes"
+    },
+    {
+      "rank": 2,
+      "label": "CAH Bible",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/CAH Bible (shared 2025).pdf",
+      "role": "secondary_notes"
+    },
+    {
+      "rank": 3,
+      "label": "Question zip",
+      "path": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/cah-chatgpt-pro-source-files-2026-03-16.zip",
+      "role": "concept_hint"
+    }
+  ],
+  "outputSpecPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/OUTPUT_SPEC.md",
+  "rejectedPatternsPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/REJECTED_PATTERNS_SUMMARY.md",
+  "artifactDirs": {
+    "raw": "workflow/artifacts/raw",
+    "reports": "workflow/artifacts/reports",
+    "prompts": "workflow/artifacts/prompts",
+    "reviewPacks": "workflow/artifacts/review-packs",
+    "state": "workflow/state"
+  },
+  "workerLanes": {
+    "semanticOriginalityAudit": true,
+    "reviewPackSynthesis": true
+  },
+  "retryPolicy": {
+    "maxAttempts": 4,
+    "invalidJsonRepairRetries": 1,
+    "validationRepairRetries": 1
+  },
+  "saturationPolicy": {
+    "freezeOnZeroAcceptedWhenRemainingAtMost": 5,
+    "freezeOnConsecutiveLowYieldRetries": 2,
+    "lowYieldAcceptedThreshold": 1
+  },
+  "batches": [
+    {
+      "batchId": "B01",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Adolescent foundations and interview structure",
+      "subtopics": [
+        "resilience",
+        "parenting style",
+        "developmental tasks of adolescence",
+        "HEEADSS assessment",
+        "adolescent brain maturation and risk-taking"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Adolescent Health opening block",
+      "overlapRisk": "Low; keep items applied and avoid simple list recall",
+      "status": "completed",
+      "maxAttempts": 4,
+      "acceptedCountHint": 12,
+      "notes": "Completed manually before Codex-native orchestration.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B01.md"
+    },
+    {
+      "batchId": "B02",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Consent, confidentiality, and service access",
+      "subtopics": [
+        "mature minor / Gillick competence",
+        "consent in emergencies",
+        "refusal and conflict",
+        "special medical treatment",
+        "Medicare access for adolescents"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Adolescent Health consent + Medicare block",
+      "overlapRisk": "Low; avoid legal trivia-only items",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 9,
+      "notes": "Manual workflow froze this batch after repeated low-yield replacements.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B02.md",
+      "frozenReason": "manual_freeze_at_9_of_12_after_low_yield_retries"
+    },
+    {
+      "batchId": "B03",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Sexual health and risky sexual behaviour",
+      "subtopics": [
+        "sexual health framing",
+        "age of consent in NSW",
+        "adolescent sexual behaviour",
+        "risky sexual behaviour",
+        "counselling and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Adolescent Sexual Health block",
+      "overlapRisk": "Low-moderate; keep scenarios counselling-heavy",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 9,
+      "notes": "Manual workflow froze this batch after repeated low-yield replacements.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B03.md",
+      "frozenReason": "manual_freeze_at_9_of_12_after_low_yield_retries"
+    },
+    {
+      "batchId": "B04",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Alcohol, vaping, cannabis, and screening",
+      "subtopics": [
+        "alcohol and other drugs",
+        "e-cigarettes",
+        "cannabis harms and withdrawal",
+        "CRAFFT and AUDIT-C",
+        "brief intervention / 5 A's"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Alcohol and Other Drugs block",
+      "overlapRisk": "Moderate; avoid the rejected parental-alcohol-supply pattern family",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 10,
+      "notes": "Manual workflow froze this batch after final low-yield retries.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B04.md",
+      "frozenReason": "manual_freeze_at_10_of_12_after_low_yield_retries"
+    },
+    {
+      "batchId": "B05",
+      "curriculumArea": "Adolescent Medicine",
+      "topicCluster": "Sleep, chronic illness, and transition",
+      "subtopics": [
+        "chronic illness in adolescence",
+        "adolescent sleep regulation",
+        "delayed sleep phase disorder",
+        "narcolepsy",
+        "transition principles and services"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Chronic Illness and Disability; Adolescent Sleep Disorders; Transition",
+      "overlapRisk": "Low; strong note density and low past-paper pull",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 7,
+      "notes": "Manual workflow froze this batch after late zero-yield replacement round.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B05.md",
+      "frozenReason": "manual_freeze_at_7_of_12_after_zero_yield_final_retry"
+    },
+    {
+      "batchId": "B06",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Dentistry foundations and prevention",
+      "subtopics": [
+        "dental anatomy",
+        "saliva and oral tissues",
+        "oro-facial infections",
+        "eruption cyst",
+        "natal tooth",
+        "ankyloglossia",
+        "dental caries risk and prevention",
+        "normal dental development"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Dentistry pp.132-133",
+      "overlapRisk": "Low; highly note-specific",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "acceptedCountHint": 8,
+      "notes": "Codex-native workflow imported 8 of 12 before the final replacement stalled and the small-remaining saturation rule froze the batch.",
+      "briefPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/batch-briefs/B06.md",
+      "frozenReason": "zero_acceptance_with_small_remaining"
+    },
+    {
+      "batchId": "B07",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Dental trauma and the medical-dental interface",
+      "subtopics": [
+        "oro-facial trauma",
+        "avulsed primary vs permanent teeth",
+        "mandibular fracture clues",
+        "dental causes of facial swelling",
+        "medical conditions presenting with dental findings"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Dentistry trauma + medical-dental interface",
+      "overlapRisk": "Low-moderate; avoid copying classic tooth-avulsion stem structure",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "notes": "",
+      "frozenReason": "max_attempts_reached"
+    },
+    {
+      "batchId": "B08",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "Aboriginal and Torres Strait Islander child health",
+      "subtopics": [
+        "health access barriers",
+        "immunisation differences",
+        "high-risk conditions including iron deficiency, otitis media, MRSA, rheumatic heart disease, CKD, FASD",
+        "culturally safe framing"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Aboriginal and Torres Strait Islander Health",
+      "overlapRisk": "Low; prioritise prevention and disparity interpretation",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "notes": "",
+      "frozenReason": "max_attempts_reached"
+    },
+    {
+      "batchId": "B09",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "Children and adolescents at risk",
+      "subtopics": [
+        "mandatory reporting",
+        "MRG / Child Wellbeing Unit / Helpline pathways",
+        "TEN-4-FACESp bruising concerns",
+        "section 173",
+        "child sexual assault referral principles"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Children and Adolescents at Risk",
+      "overlapRisk": "Moderate; prefer threshold, escalation, and documentation reasoning",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "notes": "",
+      "frozenReason": "max_attempts_reached"
+    },
+    {
+      "batchId": "B10",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Lumbar puncture and CSF basics",
+      "subtopics": [
+        "LP consent and positioning",
+        "needle level and technique",
+        "CSF tube collection",
+        "common CSF appearances",
+        "indications to delay LP"
+      ],
+      "targetCount": 12,
+      "styleMix": "F",
+      "sourcePriorityNotes": "Louisa - Miscellaneous > Lumbar Puncture",
+      "overlapRisk": "Low; keep safety and contraindication reasoning central",
+      "status": "saturated",
+      "maxAttempts": 4,
+      "notes": "",
+      "frozenReason": "max_attempts_reached"
+    },
+    {
+      "batchId": "B11",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Paediatric imaging essentials",
+      "subtopics": [
+        "chest X-ray basics including thymus and silhouette sign",
+        "common lung patterns",
+        "neonatal lung disease",
+        "AXR indications",
+        "NEC, line positions, obstruction, free gas, neonatal bowel imaging"
+      ],
+      "targetCount": 12,
+      "styleMix": "F",
+      "sourcePriorityNotes": "Louisa - Miscellaneous > Medical Imaging / Chest X-Ray / Abdominal Imaging",
+      "overlapRisk": "Moderate; avoid recreating classic inhaled-FB and double-bubble stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B12",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "ASD recognition and assessment",
+      "subtopics": [
+        "autism red flags",
+        "absolute referral indicators",
+        "assessment tools",
+        "investigations",
+        "DSM-5 framing",
+        "social communication vs global delay"
+      ],
+      "targetCount": 12,
+      "styleMix": "E",
+      "sourcePriorityNotes": "Louisa - Community/Developmental > ASD",
+      "overlapRisk": "Moderate; avoid stock vignette bundles",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B13",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "ADHD recognition and assessment",
+      "subtopics": [
+        "ADHD symptom domains",
+        "diagnostic requirements",
+        "comorbidities",
+        "history and examination",
+        "psychometric and rating-scale assessment"
+      ],
+      "targetCount": 12,
+      "styleMix": "E",
+      "sourcePriorityNotes": "Louisa - Community/Developmental > ADHD assessment block",
+      "overlapRisk": "Moderate; avoid generic fidgety-schoolchild stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B14",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "ADHD treatment and longitudinal care",
+      "subtopics": [
+        "behavioural strategies",
+        "classroom supports",
+        "stimulants and non-stimulants",
+        "side effects",
+        "monitoring",
+        "prognosis"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Community/Developmental > ADHD treatment block",
+      "overlapRisk": "Moderate; prefer follow-up and adverse-effect reasoning",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B15",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Growth, nutrition, and obesity",
+      "subtopics": [
+        "growth assessment",
+        "nutritional reasoning",
+        "growth chart use",
+        "obesity risk factors",
+        "obesity complications",
+        "counselling and prevention"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Growth and Nutrition; Obesity",
+      "overlapRisk": "Moderate; keep questions counselling and prevention focused",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B16",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Normal development and formal developmental assessment",
+      "subtopics": [
+        "milestones",
+        "developmental surveillance",
+        "structured developmental assessment",
+        "interpretation of normal variation",
+        "when to escalate"
+      ],
+      "targetCount": 12,
+      "styleMix": "E",
+      "sourcePriorityNotes": "Louisa - Child Development; Formalised Developmental Assessment",
+      "overlapRisk": "Low-moderate; avoid stock milestone one-liners",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B17",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Developmental delay and initial workup",
+      "subtopics": [
+        "global vs domain-specific delay",
+        "red flags",
+        "first-line investigations",
+        "hearing/vision checks",
+        "referral priorities"
+      ],
+      "targetCount": 12,
+      "styleMix": "E",
+      "sourcePriorityNotes": "Louisa - Developmental Delay",
+      "overlapRisk": "Moderate; keep note-first assessment logic central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B18",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Faltering growth",
+      "subtopics": [
+        "definitions",
+        "organic vs non-organic contributors",
+        "feeding history",
+        "red flags",
+        "workup",
+        "management and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Faltering Growth (Failure to Thrive)",
+      "overlapRisk": "Moderate; use longitudinal management rather than single-diagnosis reveal",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B19",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "BRUE and SIDS prevention",
+      "subtopics": [
+        "BRUE definition and risk framing",
+        "explanation to caregivers",
+        "when to investigate",
+        "SIDS risk reduction and counselling"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - BRUE; SIDS",
+      "overlapRisk": "Low-moderate; emphasise counselling and safety-netting",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B20",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Common paediatric primary-care presentations",
+      "subtopics": [
+        "constipation",
+        "lactose intolerance",
+        "gastroesophageal reflux",
+        "vitamin D deficiency",
+        "nocturnal enuresis"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Constipation; Lactose Intolerance; Gastroesophageal Reflux; Vitamin D Deficiency; Nocturnal Enuresis",
+      "overlapRisk": "Moderate; avoid single-buzzword diagnosis items",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B21",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Ear problems I",
+      "subtopics": [
+        "foreign body in ear",
+        "otitis externa",
+        "fungal otitis externa",
+        "wax impaction",
+        "exostoses",
+        "prevention and office management"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - ENT > Ear opening pages",
+      "overlapRisk": "Low-moderate; note-specific management details are useful here",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B22",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Ear problems II",
+      "subtopics": [
+        "acute otitis media",
+        "when to use antibiotics",
+        "mastoiditis",
+        "otitis media with effusion",
+        "CSOM",
+        "hearing assessment and tympanometry"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - ENT > AOM / OME / CSOM / hearing assessment blocks",
+      "overlapRisk": "High; avoid classic AOM and chronic-OM question-bank patterns",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B23",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Nose and throat",
+      "subtopics": [
+        "nasal foreign body",
+        "epistaxis",
+        "neonatal nasal obstruction",
+        "adenoids",
+        "sinusitis",
+        "septal haematoma",
+        "viral pharyngitis",
+        "EBV",
+        "herpangina"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - ENT > Nose and Throat",
+      "overlapRisk": "Moderate; avoid one-clue diagnosis stems where possible",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B24",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Acute upper-airway respiratory reasoning",
+      "subtopics": [
+        "acute respiratory problems - upper airway",
+        "stridor localisation",
+        "severity assessment",
+        "upper-airway differentials",
+        "first-line and escalation management"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Respiratory > Acute Respiratory Problems > Upper Airway",
+      "overlapRisk": "Moderate; avoid recreating croup-only stem patterns",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B25",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Acute lower-airway respiratory reasoning",
+      "subtopics": [
+        "acute respiratory problems - lower airway",
+        "wheeze vs crackles",
+        "bronchiolitis/pneumonia-style reasoning",
+        "oxygen need",
+        "escalation thresholds"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Respiratory > Acute Respiratory Problems > Lower Airway",
+      "overlapRisk": "Moderate; use interpretation and follow-up instead of imported one-step diagnosis stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B26",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Chronic airway problems foundations",
+      "subtopics": [
+        "chronic airway symptoms",
+        "pattern recognition across chronic airway problems",
+        "long-term assessment",
+        "monitoring and prevention"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Respiratory > Chronic Airway Problems",
+      "overlapRisk": "Low-moderate; chronic-care framing lowers overlap risk",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B27",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Asthma diagnosis and chronic management",
+      "subtopics": [
+        "asthma pattern recognition",
+        "severity/control assessment",
+        "preventer reasoning",
+        "trigger reduction",
+        "written plans and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Respiratory > Asthma",
+      "overlapRisk": "Moderate; avoid stock acute-attack stems and prefer chronic management decisions",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B28",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Asthma spirometry and acute exacerbation reasoning",
+      "subtopics": [
+        "spirometry interpretation",
+        "bronchodilator response",
+        "acute asthma escalation",
+        "discharge planning",
+        "review timing"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Asthma Spirometry + asthma management content",
+      "overlapRisk": "Moderate-high; keep spirometry and discharge reasoning central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B29",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Cystic fibrosis and sleep across childhood",
+      "subtopics": [
+        "cystic fibrosis core features and follow-up",
+        "nutrition and lung care",
+        "sleep in infancy and children",
+        "sleep history, red flags, and common sleep disorders"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Cystic Fibrosis; Sleep in Infancy and Children",
+      "overlapRisk": "Low-moderate; keep longitudinal care and parent counselling central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B30",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Gastroenteritis and rehydration reasoning",
+      "subtopics": [
+        "gastroenteritis assessment",
+        "dehydration severity",
+        "oral vs enteral vs IV rehydration",
+        "discharge advice",
+        "complications"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Gastroenterology > Gastroenteritis",
+      "overlapRisk": "High; avoid the rejected stable-gastroenteritis/discharge stem family",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B31",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Diarrhoea, malabsorption, and chronic GI reasoning",
+      "subtopics": [
+        "diarrhoea and malabsorption",
+        "chronic gastrointestinal conditions in children",
+        "stool pattern interpretation",
+        "red flags",
+        "first-line workup"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Chronic GI Conditions; Diarrhoea and Malabsorption",
+      "overlapRisk": "High; avoid the rejected coeliac low-IgA/villous-atrophy pattern family",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B32",
+      "curriculumArea": "General Paediatrics",
+      "topicCluster": "Specific GI conditions and jaundice in children",
+      "subtopics": [
+        "specific GI conditions from the GI block",
+        "paediatric jaundice beyond the newborn period",
+        "investigation selection and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Specific GI Conditions; Jaundice in Children",
+      "overlapRisk": "Moderate; keep the questions broad and note-first",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B33",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Food allergy and IgE-mediated allergy",
+      "subtopics": [
+        "food allergy approach",
+        "IgE-mediated reactions",
+        "triggers",
+        "diagnosis",
+        "allergy action planning",
+        "prevention and counselling"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Immunology > Food Allergy; IgE-mediated Food Allergy",
+      "overlapRisk": "Moderate-high; avoid sliding into stock anaphylaxis-adjacent stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B34",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Mixed and non-IgE-mediated food allergy",
+      "subtopics": [
+        "mixed IgE/non-IgE food allergy",
+        "non-IgE-mediated food allergy",
+        "symptom patterns",
+        "elimination and reintroduction logic",
+        "follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Immunology > Mixed and Non-IgE-mediated blocks",
+      "overlapRisk": "Low-moderate; longitudinal reasoning works well here",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B35",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Immunodeficiency",
+      "subtopics": [
+        "warning signs for immunodeficiency",
+        "pattern recognition from infection history",
+        "baseline investigations",
+        "escalation and referral"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Immunology > Immunodeficiency",
+      "overlapRisk": "Moderate; avoid esoteric syndrome recall",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B36",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Acute sepsis in children",
+      "subtopics": [
+        "recognition of sepsis",
+        "toxicity signs",
+        "blood culture and sepsis workup logic",
+        "antibiotics without delay",
+        "deterioration monitoring"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Infectious Disease > Acute Sepsis in Children",
+      "overlapRisk": "Moderate; use threshold and prioritisation tasks",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B37",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "Immunisation principles and AEFI",
+      "subtopics": [
+        "immunisation principles",
+        "adverse events following immunisation",
+        "contraindications vs precautions",
+        "parent counselling"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Infectious Disease > Immunisation; AEFI",
+      "overlapRisk": "High; avoid the rejected MMR-in-egg-allergy pattern family",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B38",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "National schedule and special populations",
+      "subtopics": [
+        "National Immunisation Schedule",
+        "catch-up logic",
+        "special populations",
+        "Aboriginal and Torres Strait Islander additions",
+        "chronic disease and immunisation"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - National Immunisation Schedule and Immunisation for Special Populations",
+      "overlapRisk": "Moderate-high; prefer applied timing logic over rote recall",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B39",
+      "curriculumArea": "Community-based Paediatrics",
+      "topicCluster": "Infectious disease epidemiology and prevention",
+      "subtopics": [
+        "global and regional perspective in childhood infection",
+        "burden and prevention framing",
+        "public health reasoning",
+        "communication"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Infectious Disease in Childhood: Global and Regional Perspective",
+      "overlapRisk": "Low; public-health framing is less overlap-prone",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B40",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Conjunctivitis, strabismus, and amblyopia",
+      "subtopics": [
+        "conjunctivitis in children",
+        "red-flag eye features",
+        "strabismus recognition",
+        "amblyopia risk, referral, and management principles"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Ophthalmology > Conjunctivitis; Strabismus; Amblyopia",
+      "overlapRisk": "Moderate; keep referral thresholds and screening logic central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B41",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Leukocoria and urgent paediatric eye disease",
+      "subtopics": [
+        "leukocoria differentials",
+        "urgency",
+        "family counselling",
+        "vision-threatening and life-threatening implications"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Ophthalmology > Leukocoria",
+      "overlapRisk": "Low-moderate; centre on urgency and differential discrimination",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B42",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "UTI and renal tract imaging",
+      "subtopics": [
+        "paediatric UTI assessment",
+        "urine testing choices",
+        "imaging indications",
+        "renal tract imaging interpretation and sequence"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Renal > UTI; Renal Tract Imaging",
+      "overlapRisk": "High; avoid the rejected recurrent-febrile-UTI -> DMSA stem family",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B43",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Nephrotic syndrome",
+      "subtopics": [
+        "clinical recognition",
+        "oedema reasoning",
+        "complications",
+        "first-line management",
+        "relapse and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Renal > Nephrotic Syndrome",
+      "overlapRisk": "Moderate; keep management and follow-up central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B44",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Nephritic syndrome, haematuria, and childhood hypertension",
+      "subtopics": [
+        "nephritic syndrome",
+        "haematuria approach",
+        "hypertension in childhood",
+        "investigation selection and escalation"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Renal > Nephritic Syndrome and Haematuria; Hypertension in Childhood",
+      "overlapRisk": "Moderate; emphasise structured approach",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B45",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Cardiology foundations and acquired disease",
+      "subtopics": [
+        "foetal circulation and postnatal transition",
+        "congenital vs acquired heart disease",
+        "acute rheumatic fever",
+        "Kawasaki-related coronary disease",
+        "endocarditis",
+        "first-line investigations"
+      ],
+      "targetCount": 12,
+      "styleMix": "G",
+      "sourcePriorityNotes": "Louisa - Cardiology opening pages",
+      "overlapRisk": "Low-moderate; physiology-heavy framing keeps this clean",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B46",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Acyanotic congenital heart disease and murmur interpretation",
+      "subtopics": [
+        "VSD",
+        "ASD",
+        "AVSD",
+        "PDA",
+        "murmur timing and quality",
+        "fixed split S2",
+        "growth and heart-failure clues"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Cardiology > Common congenital heart defects; murmurs",
+      "overlapRisk": "Moderate; use auscultation interpretation and follow-up rather than one-buzzword lesion stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B47",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Cyanotic / obstructive lesions, innocent murmurs, and arrhythmias",
+      "subtopics": [
+        "Tetralogy of Fallot",
+        "TGA",
+        "TAPVR",
+        "Ebstein anomaly",
+        "coarctation",
+        "HLHS",
+        "innocent murmurs",
+        "WPW and ectopics",
+        "Tet-spell principles"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Cardiology later pages",
+      "overlapRisk": "Moderate-high; avoid classic TOF/TGA radiology-clue bundles",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B48",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Birthmarks and developmental skin lesions",
+      "subtopics": [
+        "birthmarks",
+        "vascular vs pigmented lesions",
+        "counselling on natural history",
+        "red flags for referral"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Dermatology > Birthmarks",
+      "overlapRisk": "Low; low past-paper pull",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B49",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Eczema, psoriasis, and inflammatory dermatoses",
+      "subtopics": [
+        "eczema",
+        "psoriasis",
+        "barrier care",
+        "flare management",
+        "trigger avoidance",
+        "counselling and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Dermatology > Eczema and Psoriasis",
+      "overlapRisk": "Moderate; keep management-heavy framing",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B50",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Dermatological infections, other important conditions, and exanthems",
+      "subtopics": [
+        "dermatological infections",
+        "other important conditions",
+        "viral and bacterial exanthema",
+        "severity and referral logic"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Dermatology > infections / other conditions / exanthema",
+      "overlapRisk": "Moderate; avoid the rejected measles clue-sequence family",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B51",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Puberty and short stature",
+      "subtopics": [
+        "normal puberty",
+        "pubertal staging",
+        "short stature approach",
+        "growth-pattern interpretation",
+        "family counselling"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Endocrinology > Puberty; Short Stature",
+      "overlapRisk": "Low-moderate; good note-first reasoning topic",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B52",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Delayed puberty and precocious puberty",
+      "subtopics": [
+        "delayed puberty",
+        "precocious puberty",
+        "benign vs pathological change",
+        "initial investigations",
+        "referral priorities"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Endocrinology > Delayed Puberty; Precocious Puberty and Other Changes",
+      "overlapRisk": "Moderate; frame around workup and follow-up",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B53",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Diabetes diagnosis and ongoing management",
+      "subtopics": [
+        "diabetes in children and adolescents",
+        "diagnosis",
+        "insulin principles",
+        "monitoring",
+        "education",
+        "outpatient follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Endocrinology > Diabetes in Children and Adolescents",
+      "overlapRisk": "Moderate; keep paediatric education and review central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B54",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Diabetic ketoacidosis",
+      "subtopics": [
+        "DKA recognition",
+        "severity",
+        "fluid and insulin principles",
+        "monitoring",
+        "complications",
+        "escalation"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Endocrinology > Diabetic Ketoacidosis",
+      "overlapRisk": "Moderate-high; use paediatric DKA management reasoning, not rote facts",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B55",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Sick-day management and adrenal insufficiency",
+      "subtopics": [
+        "diabetes sick-day management",
+        "ketone logic",
+        "when to seek help",
+        "adrenal insufficiency presentation",
+        "steroid stress-dosing principles"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Endocrinology > Diabetes Sick Day Management; Adrenal Insufficiency",
+      "overlapRisk": "Low-moderate; strong counselling and follow-up potential",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B56",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Coagulation studies and bleeding disorders",
+      "subtopics": [
+        "coagulation study interpretation",
+        "primary vs secondary haemostasis",
+        "common bleeding disorders",
+        "next-test selection"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Haematology > Coagulation Studies; Bleeding Disorders",
+      "overlapRisk": "Moderate; keep interpretation central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B57",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Red blood cell problems and iron deficiency anaemia",
+      "subtopics": [
+        "RBC problem framework",
+        "iron deficiency anaemia",
+        "causes, prevention, counselling, and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Haematology > Red Blood Cell Problems; Iron Deficiency Anaemia",
+      "overlapRisk": "High; avoid the rejected no-response-to-iron / non-adherence family",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B58",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "White blood cell disorders",
+      "subtopics": [
+        "WBC disorders",
+        "neutropenia-style reasoning",
+        "infection risk",
+        "first-line investigations",
+        "referral"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Haematology > WBC Disorders",
+      "overlapRisk": "Low-moderate; low overlap if phrased around workup and monitoring",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B59",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Seizures - emergency management",
+      "subtopics": [
+        "immediate seizure care",
+        "status principles",
+        "glucose and first-line medication logic",
+        "escalation"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Neurology > Seizures - Emergency Management",
+      "overlapRisk": "Moderate; avoid direct reuse of classic glucose-after-seizure stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B60",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Paroxysmal disorders",
+      "subtopics": [
+        "non-epileptic paroxysmal events",
+        "history discrimination",
+        "reassurance vs investigation",
+        "red flags"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Neurology > Paroxysmal Disorders",
+      "overlapRisk": "Low-moderate; discrimination tasks work well",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B61",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Epilepsy",
+      "subtopics": [
+        "epilepsy classification principles",
+        "seizure history",
+        "investigation selection",
+        "longitudinal counselling and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Neurology > Epilepsy",
+      "overlapRisk": "Moderate-high; avoid classic absence or focal-lesion stock stems unless clearly reframed",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B62",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Motor difficulties",
+      "subtopics": [
+        "motor difficulties",
+        "examination logic",
+        "central vs peripheral patterns",
+        "referral thresholds",
+        "parent communication"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Neurology > Motor Difficulties",
+      "overlapRisk": "Low; note-rich and low pull from old banks",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B63",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Headache, microcephaly, and macrocephaly",
+      "subtopics": [
+        "headache red flags",
+        "common headache reasoning",
+        "head-size assessment",
+        "when to image or refer"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Neurology > Headache; Microcephaly and Macrocephaly",
+      "overlapRisk": "Moderate; use red-flag and follow-up logic rather than stock tumour clues",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B64",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "What not to miss in neurology",
+      "subtopics": [
+        "neurological red flags",
+        "dangerous differentials",
+        "escalation",
+        "investigation prioritisation"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Neurology > What Not to Miss in Neurology",
+      "overlapRisk": "Low-moderate; highly note-specific if framed around prioritisation",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B65",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Childhood cancer recognition",
+      "subtopics": [
+        "cardinal symptoms of cancer",
+        "ALL/AML",
+        "brain tumours",
+        "neuroblastoma",
+        "Wilms tumour",
+        "lymphoma",
+        "sarcomas",
+        "late effects overview"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Oncology opening pages",
+      "overlapRisk": "Moderate; keep recognition broad rather than single-hallmark syndrome cues",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B66",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Oncological emergencies",
+      "subtopics": [
+        "febrile neutropenia",
+        "spinal cord compression",
+        "mediastinal mass / SVCO",
+        "raised intracranial pressure"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Oncological Emergencies",
+      "overlapRisk": "Low-moderate; this block is distinct and emergency-focused",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B67",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Congenital malformations and dysmorphology approach",
+      "subtopics": [
+        "congenital malformations",
+        "pattern recognition in dysmorphology",
+        "associated anomalies",
+        "first-line genetics workup"
+      ],
+      "targetCount": 12,
+      "styleMix": "G",
+      "sourcePriorityNotes": "Louisa - Genetics > Congenital Malformations",
+      "overlapRisk": "Low-moderate; safe if framed around approach rather than isolated buzzwords",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B68",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Common genetic syndromes",
+      "subtopics": [
+        "common genetic syndromes from the note block",
+        "associated features",
+        "counselling",
+        "screening implications"
+      ],
+      "targetCount": 12,
+      "styleMix": "G",
+      "sourcePriorityNotes": "Louisa - Genetics > Common Genetic Syndromes",
+      "overlapRisk": "Moderate-high; avoid classic syndrome clue bundles from older banks",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B69",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Recognising and managing the sick child",
+      "subtopics": [
+        "paediatric assessment triangle",
+        "ABCD toxicity clues",
+        "primary assessment",
+        "serious-illness red flags",
+        "early action"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Emergency Medicine/Surgery > Recognising and Managing the Sick Child",
+      "overlapRisk": "Moderate; keep prioritisation and escalation central",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B70",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "The febrile infant",
+      "subtopics": [
+        "investigation thresholds by age",
+        "urine/LP/CXR logic",
+        "toxicity",
+        "discharge review",
+        "parent safety-netting"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Emergency Medicine/Surgery > The Febrile Infant",
+      "overlapRisk": "Moderate-high; use threshold and follow-up logic rather than one-step septic workup recall",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B71",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Foreign body aspiration and ingestion",
+      "subtopics": [
+        "airway foreign body",
+        "choking response",
+        "bronchoscopy thresholds",
+        "ingestion high-risk objects",
+        "button batteries",
+        "magnets",
+        "imaging logic"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Emergency Medicine/Surgery > Foreign Body Aspiration block, including ingestion subsection",
+      "overlapRisk": "High; avoid the rejected expiratory-hyperinflation and swallowed-magnet pattern families",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B72",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Anaphylaxis and basic life support",
+      "subtopics": [
+        "anaphylaxis diagnosis",
+        "adrenaline dosing logic",
+        "positioning",
+        "repeat doses",
+        "PBLS sequence",
+        "choking integration"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Emergency Medicine/Surgery > Anaphylaxis; Paediatric Basic Life Support",
+      "overlapRisk": "High; avoid the classic peanut-plus-hypotension immediate-adrenaline stem style",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B73",
+      "curriculumArea": "Emergency Paediatrics",
+      "topicCluster": "Fluids, electrolytes, and emergency drug dosing",
+      "subtopics": [
+        "managing fluids in young children and infants",
+        "sodium and potassium patterns",
+        "hypoglycaemia correction",
+        "shock fluids",
+        "emergency drug dose application"
+      ],
+      "targetCount": 12,
+      "styleMix": "F",
+      "sourcePriorityNotes": "Louisa - Emergency Medicine/Surgery > Managing Fluids; Emergency Drug Dosing",
+      "overlapRisk": "High; avoid the rejected hypernatraemia and hypoglycaemia-after-seizure pattern families",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B74",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Orthopaedic examination and normal variants",
+      "subtopics": [
+        "orthopaedic examination findings",
+        "flat feet",
+        "intoeing",
+        "out-toeing",
+        "genu varum/valgum",
+        "gait observation"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Fractures and Orthopaedics > Orthopaedic Examination and Findings",
+      "overlapRisk": "Low; reassurance and normal-variant counselling fit well here",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B75",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "The limping child, DDH, and hip pain",
+      "subtopics": [
+        "limping/non-weight-bearing child",
+        "DDH",
+        "hip pain differentials",
+        "referral urgency",
+        "imaging choice"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Fractures and Orthopaedics > Limping Child; DDH; Hip Pain",
+      "overlapRisk": "Moderate; avoid single-diagnosis buzzword stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B76",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Paediatric fractures",
+      "subtopics": [
+        "fracture principles",
+        "common fracture patterns",
+        "neurovascular checks",
+        "immobilisation",
+        "follow-up",
+        "NAI awareness where relevant"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Fractures and Orthopaedics > Fractures",
+      "overlapRisk": "Moderate; keep paediatric principles central rather than adult-style fracture trivia",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B77",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "pGALS and musculoskeletal symptom approach",
+      "subtopics": [
+        "pGALS screen",
+        "structured MSK assessment",
+        "inflammatory vs mechanical symptom patterns",
+        "referral thresholds"
+      ],
+      "targetCount": 12,
+      "styleMix": "E",
+      "sourcePriorityNotes": "Louisa - Rheumatology > pGALS; Musculoskeletal Symptoms",
+      "overlapRisk": "Low; assessment-focused and note-specific",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B78",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Juvenile idiopathic arthritis",
+      "subtopics": [
+        "JIA pattern recognition",
+        "uveitis risk",
+        "chronic monitoring",
+        "functional support",
+        "follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Rheumatology > JIA",
+      "overlapRisk": "Moderate-high; avoid classic oligoarticular-uveitis one-liners",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B79",
+      "curriculumArea": "Paediatric Sub-specialties",
+      "topicCluster": "Vasculitis",
+      "subtopics": [
+        "vasculitis presentations",
+        "red flags",
+        "initial investigations",
+        "escalation",
+        "counselling"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Rheumatology > Vasculitis",
+      "overlapRisk": "Low-moderate; red-flag and investigation reasoning works well",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B80",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Approach to acute abdominal pain",
+      "subtopics": [
+        "acute abdominal pain framework",
+        "surgical red flags",
+        "examination",
+        "imaging escalation",
+        "safety-netting"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Approach to Acute Abdominal Pain",
+      "overlapRisk": "Moderate; broad framing is safer than single-diagnosis recall",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B81",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Vomiting in surgical disease",
+      "subtopics": [
+        "vomiting patterns in surgical conditions",
+        "bilious vs non-bilious reasoning",
+        "dehydration and obstruction clues",
+        "next-step imaging"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Vomiting",
+      "overlapRisk": "High; avoid direct reuse of classic malrotation, pyloric, and neonatal obstruction clue bundles",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B82",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Additional congenital surgical problems",
+      "subtopics": [
+        "additional congenital surgical problems from the note block",
+        "congenital obstruction reasoning",
+        "counselling and follow-up"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Additional Congenital Surgical Problems",
+      "overlapRisk": "High; avoid hallmark clue bundles and lean on counselling, imaging choice, and complication tasks",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B83",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Inguino-scrotal disorders in children",
+      "subtopics": [
+        "inguinal hernia",
+        "hydrocele",
+        "acute scrotum",
+        "urgency and referral"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Inguino-Scrotal Disorders in Children",
+      "overlapRisk": "Moderate-high; avoid direct torsion/hydrocele stock stems",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B84",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Penile disorders",
+      "subtopics": [
+        "penile disorders from the note block",
+        "foreskin issues",
+        "balanitis / paraphimosis-style reasoning where covered",
+        "counselling and referral"
+      ],
+      "targetCount": 12,
+      "styleMix": "A",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Penile Disorders",
+      "overlapRisk": "Moderate; prefer counselling and next-step reasoning over normal-variant recall",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B85",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Acute and chronic neck lumps",
+      "subtopics": [
+        "neck lump differential",
+        "congenital vs inflammatory vs malignant clues",
+        "examination",
+        "imaging and referral strategy"
+      ],
+      "targetCount": 12,
+      "styleMix": "B",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Acute and Chronic Neck Lumps",
+      "overlapRisk": "Low-moderate; broad differential framing keeps overlap low",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B86",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Burns and trauma",
+      "subtopics": [
+        "burn depth and extent",
+        "first aid",
+        "transfer thresholds",
+        "trauma assessment",
+        "paediatric injury priorities"
+      ],
+      "targetCount": 12,
+      "styleMix": "C",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Burns; Trauma",
+      "overlapRisk": "High; avoid the rejected hot-coffee-running-water and trauma-series/intubation families",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    },
+    {
+      "batchId": "B87",
+      "curriculumArea": "Paediatric Surgery",
+      "topicCluster": "Pain management and procedural pain",
+      "subtopics": [
+        "pain assessment",
+        "multimodal analgesia",
+        "nitrous and local techniques",
+        "procedural pain planning",
+        "family counselling"
+      ],
+      "targetCount": 12,
+      "styleMix": "D",
+      "sourcePriorityNotes": "Louisa - Paediatric Surgery > Pain Management in Childhood; Procedural Pain Management",
+      "overlapRisk": "Low; highly note-specific and well suited to explanation and safety tasks",
+      "status": "pending",
+      "maxAttempts": 4,
+      "notes": ""
+    }
+  ]
+}

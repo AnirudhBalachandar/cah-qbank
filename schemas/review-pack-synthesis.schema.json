@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReviewPackSynthesis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "coverageSummary",
+    "overlapTrapSummary",
+    "verificationSummary",
+    "recommendedImprovementPrompts",
+    "nextRecommendedBatches"
+  ],
+  "properties": {
+    "coverageSummary": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "overlapTrapSummary": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "verificationSummary": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "recommendedImprovementPrompts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "nextRecommendedBatches": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^B\\d{2}$"
+      }
+    }
+  }
+}

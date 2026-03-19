@@ -1,0 +1,51 @@
+{
+  "name": "cah-qbank",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "dev": "pnpm --filter app dev",
+    "build": "pnpm --filter app build",
+    "start": "pnpm --filter app start",
+    "lint": "pnpm --filter app lint",
+    "typecheck": "pnpm --filter app typecheck && tsc --noEmit",
+    "format": "prettier --write .",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy --schema prisma/schema.prisma",
+    "db:seed": "tsx scripts/seed.ts",
+    "corpus:prepare": "tsx scripts/ingest/prepare_corpus.ts",
+    "ingest": "tsx scripts/ingest/index.ts",
+    "chunks:ingest": "tsx scripts/ingest/ingest_content_chunks.ts",
+    "embeddings:build": "tsx scripts/embeddings/build_embeddings.ts",
+    "mastery:recompute": "tsx scripts/mastery/recompute.ts",
+    "blueprint:apply": "tsx scripts/audit/apply_exam_blueprint_tags.ts",
+    "blueprint:dry-run": "tsx scripts/audit/apply_exam_blueprint_tags.ts --dry-run",
+    "blueprint:verify": "tsx scripts/audit/apply_exam_blueprint_tags.ts --dry-run --strict",
+    "generation:test": "tsx scripts/generation/test_generation_schema.ts",
+    "templates:lecture": "python3 scripts/templates/generate_lecture_docx_templates.py",
+    "test": "pnpm run test:unit && pnpm run test:e2e",
+    "test:unit": "vitest run",
+    "test:e2e": "pnpm --filter app test:e2e"
+  },
+  "dependencies": {
+    "@cah-qbank/domain": "workspace:*",
+    "@prisma/client": "^6.3.1",
+    "bcryptjs": "^3.0.3",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "mammoth": "^1.8.0",
+    "node-html-parser": "^7.0.1",
+    "openai": "^4.104.0",
+    "pdfjs-dist": "^4.10.38",
+    "robots-parser": "^3.0.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "prettier": "^3.5.3",
+    "prisma": "^6.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

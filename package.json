@@ -5,7 +5,7 @@
     "cah": "./tools/cli/dist/index.js"
   },
   "scripts": {
-    "postinstall": "pnpm --filter app prisma:generate",
+    "postinstall": "pnpm --filter app prisma:generate && pnpm build:cli",
     "dev": "pnpm --filter app dev",
     "build": "pnpm --filter app build",
     "typecheck": "pnpm -r typecheck",

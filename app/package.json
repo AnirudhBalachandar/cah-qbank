@@ -8,9 +8,9 @@
     "start": "next start",
     "test": "vitest run --passWithNoTests",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "prisma generate --schema prisma/schema.prisma && next typegen && tsc --noEmit",
     "prisma:generate": "prisma generate --schema prisma/schema.prisma",
-    "prisma:push": "prisma db push --schema prisma/schema.prisma --skip-generate"
+    "prisma:bootstrap": "tsx scripts/ensure-db.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.0.0",

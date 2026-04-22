@@ -1,10 +1,13 @@
 import fs from "node:fs/promises"
 import path from "node:path"
 
-import { questionSchema } from "@cah/domain"
+import { isQuestionAnswerable, questionSchema } from "@cah/domain"
 
 const repoRoot = process.cwd()
-const targetDirs = [path.join(repoRoot, "questions"), path.join(repoRoot, "drafts")]
+const targetDirs = [
+  { dirPath: path.join(repoRoot, "questions"), expectedStatus: "published" as const },
+  { dirPath: path.join(repoRoot, "drafts"), expectedStatus: "draft" as const },
+]
 
 async function listJsonFiles(dirPath: string) {
   try {
@@ -21,11 +24,14 @@ async function listJsonFiles(dirPath: string) {
   }
 }
 
-async function validateFile(filePath: string) {
+async function validateFile(filePath: string, expectedStatus: "draft" | "published") {
   const raw = JSON.parse(await fs.readFile(filePath, "utf8"))
   const parsed = questionSchema.safeParse(raw)
   if (!parsed.success) {
     throw new Error(`${filePath}\n${JSON.stringify(parsed.error.flatten(), null, 2)}`)
+  }
+  if (parsed.data.status !== expectedStatus) {
+    throw new Error(`${filePath}\nExpected status ${expectedStatus} but found ${parsed.data.status}`)
   }
   return parsed.data
 }
@@ -34,14 +40,22 @@ async function main() {
   const summary = {
     questions: 0,
     drafts: 0,
+    publishedAnswerable: 0,
+    publishedBrowseOnly: 0,
   }
 
-  for (const dirPath of targetDirs) {
+  for (const { dirPath, expectedStatus } of targetDirs) {
     const files = await listJsonFiles(dirPath)
     for (const filePath of files) {
-      const question = await validateFile(filePath)
+      const question = await validateFile(filePath, expectedStatus)
       if (question.status === "published") summary.questions += 1
       if (question.status === "draft") summary.drafts += 1
+      if (question.status === "published" && isQuestionAnswerable(question)) {
+        summary.publishedAnswerable += 1
+      }
+      if (question.status === "published" && !isQuestionAnswerable(question)) {
+        summary.publishedBrowseOnly += 1
+      }
     }
   }
 

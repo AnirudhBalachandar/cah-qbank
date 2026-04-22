@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CAH QBank',
-  description: 'Paediatric medical question bank',
+  title: 'CAH QBank v2',
+  description: 'Single-user paediatrics question bank for local revision',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+      <body className="min-h-screen bg-slate-50 text-slate-950">
         {children}
       </body>
     </html>

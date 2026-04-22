@@ -1,21 +1,24 @@
 import fs from "node:fs/promises"
+import { existsSync } from "node:fs"
 import path from "node:path"
 
 import {
-  LEGACY_CURRICULA,
   Question,
+  findCurriculumByLabel,
   humanizeTagSlug,
   questionSchema,
   slugifyTagSegment,
 } from "@cah/domain"
 
-const backupRoot =
-  process.env.CAH_BACKUP_DIR ??
-  "/Users/anirudhbalachandar/Projects/cah-qbank/backups/qbank-state/2026-04-22"
-
 const repoRoot = process.cwd()
 const questionsDir = path.join(repoRoot, "questions")
 const draftsDir = path.join(repoRoot, "drafts")
+const backupCandidates = [
+  process.env.CAH_BACKUP_DIR,
+  path.resolve(repoRoot, "..", "cah-qbank", "backups", "qbank-state", "2026-04-22"),
+  path.resolve(repoRoot, "..", "cah-qbank-v1-archive", "backups", "qbank-state", "2026-04-22"),
+  path.resolve(repoRoot, "backups", "qbank-state", "2026-04-22"),
+].filter((candidate): candidate is string => Boolean(candidate))
 
 type LegacyQuestion = {
   id: string
@@ -99,6 +102,22 @@ function normalizeCitations(citations: LegacyQuestion["citations"]) {
   }))
 }
 
+function resolveBackupRoot() {
+  const match = backupCandidates.find((candidate) =>
+    ["questions.json", "tags.json", "question-tag-links.json"].every((fileName) =>
+      existsSync(path.join(candidate, fileName)),
+    ),
+  )
+
+  if (match) {
+    return match
+  }
+
+  throw new Error(
+    `Could not locate the backup snapshot. Set CAH_BACKUP_DIR to one of the expected snapshot folders.\nChecked:\n${backupCandidates.join("\n")}`,
+  )
+}
+
 function resolveCurriculum(params: {
   tagSlugs: string[]
   question: LegacyQuestion
@@ -107,7 +126,8 @@ function resolveCurriculum(params: {
     new Set(
       params.tagSlugs
         .map((slug) => humanizeTagSlug(slug))
-        .filter((value): value is Question["curriculum"] => LEGACY_CURRICULA.has(value as Question["curriculum"])),
+        .map((value) => findCurriculumByLabel(value))
+        .filter((value): value is Question["curriculum"] => Boolean(value) && value !== "Unclassified"),
     ),
   )
 
@@ -118,9 +138,9 @@ function resolveCurriculum(params: {
   const originalTags = Array.isArray(params.question.source?.originalTags)
     ? params.question.source.originalTags.filter((value): value is string => typeof value === "string")
     : []
-  const matchedFromSource = originalTags.find((tag) =>
-    LEGACY_CURRICULA.has(tag as Question["curriculum"]),
-  ) as Question["curriculum"] | undefined
+  const matchedFromSource = originalTags
+    .map((tag) => findCurriculumByLabel(tag))
+    .find((value): value is Question["curriculum"] => Boolean(value) && value !== "Unclassified")
 
   if (matchedFromSource) {
     return matchedFromSource
@@ -181,6 +201,7 @@ async function writeQuestionFile(question: Question) {
 }
 
 async function main() {
+  const backupRoot = resolveBackupRoot()
   const [questions, tags, links] = await Promise.all([
     loadJson<LegacyQuestion[]>(path.join(backupRoot, "questions.json")),
     loadJson<LegacyTag[]>(path.join(backupRoot, "tags.json")),

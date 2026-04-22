@@ -1,10 +1,11 @@
 import fs from "node:fs/promises"
 import path from "node:path"
 
-import { Question, humanizeTagSlug, questionSchema } from "@cah/domain"
+import { Question, findCurriculumByLabel, humanizeTagSlug, questionSchema } from "@cah/domain"
 
 const repoRoot = path.resolve(process.cwd(), "..")
 const questionsDir = path.join(repoRoot, "questions")
+const draftsDir = path.join(repoRoot, "drafts")
 
 export type TagDescriptor = {
   slug: string
@@ -14,26 +15,41 @@ export type TagDescriptor = {
 }
 
 async function listQuestionFiles() {
-  const entries = await fs.readdir(questionsDir, { withFileTypes: true })
-  return entries
-    .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
-    .map((entry) => path.join(questionsDir, entry.name))
-    .sort((a, b) => a.localeCompare(b))
+  const directories = [questionsDir, draftsDir]
+  const fileGroups = await Promise.all(
+    directories.map(async (dirPath) => {
+      try {
+        const entries = await fs.readdir(dirPath, { withFileTypes: true })
+        return entries
+          .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+          .map((entry) => path.join(dirPath, entry.name))
+      } catch (error) {
+        if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+          return []
+        }
+        throw error
+      }
+    }),
+  )
+
+  return fileGroups.flat().sort((a, b) => a.localeCompare(b))
 }
 
-export async function loadPublishedQuestions() {
+export async function loadAllQuestions() {
   const files = await listQuestionFiles()
   const questions: Question[] = []
 
   for (const filePath of files) {
     const raw = JSON.parse(await fs.readFile(filePath, "utf8"))
     const parsed = questionSchema.parse(raw)
-    if (parsed.status === "published") {
-      questions.push(parsed)
-    }
+    questions.push(parsed)
   }
 
   return questions
+}
+
+export async function loadPublishedQuestions() {
+  return (await loadAllQuestions()).filter((question) => question.status === "published")
 }
 
 function inferTagKind(slug: string): TagDescriptor["kind"] {
@@ -42,16 +58,7 @@ function inferTagKind(slug: string): TagDescriptor["kind"] {
   }
 
   const label = humanizeTagSlug(slug)
-  if (
-    [
-      "General Paediatrics",
-      "Paediatric Sub Specialties",
-      "Paediatric Surgery",
-      "Emergency Paediatrics",
-      "Adolescent Medicine",
-      "Community Based Paediatrics",
-    ].includes(label)
-  ) {
+  if (findCurriculumByLabel(label) && label !== "Unclassified") {
     return "curriculum"
   }
 

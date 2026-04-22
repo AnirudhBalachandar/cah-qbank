@@ -54,8 +54,8 @@ model Question {
   source             Json
   isAnswerable       Boolean        @default(false)
   attempts           Attempt[]
-  flags              Flag[]
-  notes              UserNote[]
+  flag               Flag?
+  note               UserNote?
   tags               QuestionTag[]
 
   @@index([status])
@@ -84,28 +84,29 @@ model QuestionTag {
 }
 
 model PracticeSession {
-  id          String       @id @default(uuid())
-  mode        PracticeMode
-  questionIds Json
-  currentIndex Int         @default(0)
-  createdAt   DateTime     @default(now())
-  completedAt DateTime?
-  attempts    Attempt[]
+  id           String       @id @default(uuid())
+  mode         PracticeMode
+  questionIds  Json
+  currentIndex Int          @default(0)
+  createdAt    DateTime     @default(now())
+  completedAt  DateTime?
+  attempts     Attempt[]
 }
 
 model Attempt {
-  id         String          @id @default(cuid())
-  questionId String
-  sessionId  String
+  id          String          @id @default(cuid())
+  questionId  String
+  sessionId   String
   selectedKey String?
-  isCorrect  Boolean
+  isCorrect   Boolean
   timeSpentMs Int?
-  confidence Int?
-  createdAt  DateTime        @default(now())
-  question   Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
-  session    PracticeSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  confidence  Int?
+  createdAt   DateTime        @default(now())
+  question    Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  session     PracticeSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
 
   @@index([sessionId, createdAt])
+  @@unique([sessionId, questionId])
 }
 
 model Flag {
@@ -115,10 +116,10 @@ model Flag {
 }
 
 model UserNote {
-  questionId    String   @id
-  noteMarkdown  String
-  updatedAt     DateTime @updatedAt
-  question      Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  questionId   String   @id
+  noteMarkdown String
+  updatedAt    DateTime @updatedAt
+  question     Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
 }
 
 model TagMastery {

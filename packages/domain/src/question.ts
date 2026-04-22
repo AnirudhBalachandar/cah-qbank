@@ -57,6 +57,23 @@ export type QuestionCreatedBy = z.infer<typeof questionCreatedBySchema>
 export type Curriculum = z.infer<typeof curriculumSchema>
 
 export const LEGACY_CURRICULA = new Set(curriculumSchema.options.filter((value) => value !== "Unclassified"))
+const curriculumLookup = new Map(
+  curriculumSchema.options.map((value) => [normalizeCurriculumLabel(value), value]),
+)
+
+export function normalizeCurriculumLabel(value: string) {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+export function findCurriculumByLabel(value: string) {
+  return curriculumLookup.get(normalizeCurriculumLabel(value)) ?? null
+}
 
 export function slugifyTagSegment(value: string) {
   return value

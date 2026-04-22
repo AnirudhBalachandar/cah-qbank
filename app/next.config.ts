@@ -1,7 +1,9 @@
+import path from "node:path"
+
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  // Phase 0 scaffold — minimal config
+  outputFileTracingRoot: path.resolve(__dirname, ".."),
 }
 
 export default nextConfig

@@ -2,7 +2,7 @@ import { Prisma } from "@prisma/client"
 import { isQuestionAnswerable } from "@cah/domain"
 
 import { prisma } from "../lib/prisma"
-import { collectTagDescriptors, loadPublishedQuestions } from "../lib/question-files"
+import { collectTagDescriptors, loadAllQuestions } from "../lib/question-files"
 
 function chunk<T>(items: T[], size: number) {
   const chunks: T[][] = []
@@ -17,7 +17,7 @@ function asJson(value: unknown) {
 }
 
 async function upsertTags() {
-  const questions = await loadPublishedQuestions()
+  const questions = await loadAllQuestions()
   const tags = collectTagDescriptors(questions)
 
   for (const batch of chunk(tags, 100)) {
@@ -46,6 +46,8 @@ async function upsertTags() {
 
 async function upsertQuestions() {
   const { questions, tags } = await upsertTags()
+  const questionIds = questions.map((question) => question.id)
+  const tagIds = tags.map((tag) => tag.slug)
 
   for (const batch of chunk(questions, 50)) {
     await prisma.$transaction(
@@ -96,12 +98,16 @@ async function upsertQuestions() {
     )
   }
 
-  await prisma.questionTag.deleteMany({
-    where: { questionId: { in: questions.map((question) => question.id) } },
-  })
+  await prisma.questionTag.deleteMany(
+    questionIds.length > 0
+      ? {
+          where: { questionId: { in: questionIds } },
+        }
+      : undefined,
+  )
 
   const questionTags = questions.flatMap((question) =>
-    question.tags.map((tagId) => ({ questionId: question.id, tagId })),
+    Array.from(new Set(question.tags)).map((tagId) => ({ questionId: question.id, tagId })),
   )
 
   for (const batch of chunk(questionTags, 500)) {
@@ -110,8 +116,28 @@ async function upsertQuestions() {
     })
   }
 
+  await prisma.question.deleteMany(
+    questionIds.length > 0
+      ? {
+          where: { id: { notIn: questionIds } },
+        }
+      : undefined,
+  )
+  await prisma.tag.deleteMany(
+    tagIds.length > 0
+      ? {
+          where: { slug: { notIn: tagIds } },
+        }
+      : undefined,
+  )
+
   return {
     questionCount: questions.length,
+    publishedCount: questions.filter((question) => question.status === "published").length,
+    draftCount: questions.filter((question) => question.status === "draft").length,
+    answerablePublishedCount: questions.filter(
+      (question) => question.status === "published" && isQuestionAnswerable(question),
+    ).length,
     tagCount: tags.length,
     questionTagCount: questionTags.length,
   }

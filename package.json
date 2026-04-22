@@ -5,13 +5,14 @@
     "cah": "./tools/cli/dist/index.js"
   },
   "scripts": {
+    "postinstall": "pnpm --filter app prisma:generate",
     "dev": "pnpm --filter app dev",
     "build": "pnpm --filter app build",
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm test:unit",
     "test:unit": "pnpm -r test",
     "generation:test": "pnpm --filter @cah/generate test",
-    "sync-db": "pnpm --filter app tsx scripts/sync-db.ts",
+    "sync-db": "pnpm --filter app prisma:generate && pnpm --filter app prisma:push && pnpm --filter app exec tsx scripts/sync-db.ts",
     "migrate:backup": "pnpm exec tsx tools/migrate-from-backup.ts",
     "validate:questions": "pnpm exec tsx tools/validate-questions.ts",
     "build:cli": "pnpm --filter @cah/cli build",

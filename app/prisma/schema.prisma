@@ -1,6 +1,3 @@
-// Prisma schema — placeholder for Phase 2
-// Full models added in Phase 2
-
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
@@ -8,4 +5,129 @@ datasource db {
 
 generator client {
   provider = "prisma-client-js"
+}
+
+enum QuestionStatus {
+  draft
+  published
+}
+
+enum CreatedBy {
+  ai
+  import
+  manual
+}
+
+enum QuestionType {
+  SBA
+}
+
+enum TagKind {
+  curriculum
+  topic
+  meta
+}
+
+enum PracticeMode {
+  revision
+  weakness
+  custom
+}
+
+model Question {
+  id                 String         @id
+  stem               String
+  questionType       QuestionType
+  options            Json
+  explanation        String?
+  citations          Json
+  curriculum         String
+  status             QuestionStatus
+  createdBy          CreatedBy
+  createdAt          DateTime
+  sourceFingerprint  String         @unique
+  rationale          String?
+  optionExplanations Json
+  moduleCode         String?
+  difficulty         String?
+  ausScore           Int?
+  source             Json
+  isAnswerable       Boolean        @default(false)
+  attempts           Attempt[]
+  flags              Flag[]
+  notes              UserNote[]
+  tags               QuestionTag[]
+
+  @@index([status])
+}
+
+model Tag {
+  slug          String        @id
+  name          String
+  kind          TagKind
+  parentSlug    String?
+  parent        Tag?          @relation("TagTree", fields: [parentSlug], references: [slug], onDelete: SetNull)
+  children      Tag[]         @relation("TagTree")
+  questions     QuestionTag[]
+  mastery       TagMastery?
+
+  @@index([slug])
+}
+
+model QuestionTag {
+  questionId String
+  tagId      String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  tag        Tag      @relation(fields: [tagId], references: [slug], onDelete: Cascade)
+
+  @@id([questionId, tagId])
+}
+
+model PracticeSession {
+  id          String       @id @default(uuid())
+  mode        PracticeMode
+  questionIds Json
+  currentIndex Int         @default(0)
+  createdAt   DateTime     @default(now())
+  completedAt DateTime?
+  attempts    Attempt[]
+}
+
+model Attempt {
+  id         String          @id @default(cuid())
+  questionId String
+  sessionId  String
+  selectedKey String?
+  isCorrect  Boolean
+  timeSpentMs Int?
+  confidence Int?
+  createdAt  DateTime        @default(now())
+  question   Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  session    PracticeSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId, createdAt])
+}
+
+model Flag {
+  questionId String   @id
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model UserNote {
+  questionId    String   @id
+  noteMarkdown  String
+  updatedAt     DateTime @updatedAt
+  question      Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model TagMastery {
+  tagId        String   @id
+  elo          Float    @default(1000)
+  attemptCount Int      @default(0)
+  correctCount Int      @default(0)
+  updatedAt    DateTime @updatedAt
+  tag          Tag      @relation(fields: [tagId], references: [slug], onDelete: Cascade)
+
+  @@index([tagId])
 }

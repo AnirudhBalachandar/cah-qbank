@@ -1,6 +1,8 @@
 # Migration History
 
-This document records the migration path from the legacy CAH qbank into the JSON-first `cah-qbank` workflow.
+This document is archival. The migration and cutover are complete; use `README.md` for current operational guidance.
+
+It records the migration path from the legacy CAH qbank into the JSON-first `cah-qbank` workflow.
 
 The core migration rule was simple:
 
@@ -9,9 +11,9 @@ The core migration rule was simple:
 - rebuild local SQLite from JSON
 - treat `drafts/` and `cah.db` as local working state, not canonical migration artifacts
 
-## What Changed
+## What Changed During Migration
 
-In v1, SQLite-backed app state and backup artifacts were part of the day-to-day workflow. In the current repo:
+In v1, SQLite-backed app state and backup artifacts were part of the day-to-day workflow. During the migration, the target repo changed to:
 
 - published content is stored in `questions/*.json`
 - local unpublished work is stored in `drafts/*.json`
@@ -20,7 +22,7 @@ In v1, SQLite-backed app state and backup artifacts were part of the day-to-day 
 - the app stays local-first
 - the legacy repo stayed untouched until the explicit rename
 
-## Backup snapshot input
+## Backup Snapshot Input
 
 The migration script expects a snapshot directory that contains:
 
@@ -51,7 +53,9 @@ Important boundary:
 - `CAH_BACKUP_DIR` is not used by `pnpm cah db backup`
 - `pnpm cah db backup` always writes SQLite backups to `~/.cah/backups/`
 
-## Migration steps
+## Historical Migration Steps
+
+At the time, the migration followed this sequence:
 
 1. Keep the legacy repo unchanged.
 2. In `cah-qbank`, point `CAH_BACKUP_DIR` at the chosen snapshot if you are not using one of the built-in default locations.
@@ -100,7 +104,7 @@ Current import normalization note:
 - the current schema is effectively SBA-only
 - `pnpm migrate:backup` normalizes imported legacy questions to `questionType: "SBA"`
 
-## Local-only artifacts
+## Local-Only Artifacts
 
 These artifacts are intentionally local-only:
 
@@ -121,7 +125,7 @@ Practical rule:
 - use `pnpm sync-db` to rebuild question/tag rows
 - use `pnpm cah db backup` if you want to preserve local notes, flags, mastery, or session history before recreating `cah.db`
 
-## Generate workflow during migration
+## Generation Behavior During Migration
 
 The generation boundary is:
 
@@ -178,11 +182,9 @@ pnpm validate:questions
 pnpm sync-db
 ```
 
-## Safe cutover guidance
+## Archived Cutover Notes
 
-The migration is complete and the cutover has already happened.
-
-Before cutover, the guidance was:
+Before the cutover, the operating guidance was:
 
 - keep the legacy repo in place
 - keep legacy backups in place
@@ -190,9 +192,9 @@ Before cutover, the guidance was:
 - avoid changing external scripts, aliases, or automation that still point at the legacy repo
 - use the next-version repo for side-by-side validation, not destructive replacement
 
-## Cutover Sequence Used
+## Historical Cutover Sequence
 
-Use this sequence:
+When the cutover was executed, it used this sequence:
 
 1. Stop any running local CAH app processes.
 2. Take a final legacy backup snapshot.

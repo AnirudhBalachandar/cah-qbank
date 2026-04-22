@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CAH QBank v2',
+  title: 'CAH QBank',
   description: 'Single-user paediatrics question bank for local revision',
 }
 

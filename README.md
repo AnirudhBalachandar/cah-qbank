@@ -1,6 +1,6 @@
 # cah-qbank
 
-`cah-qbank` is the JSON-first local workspace for the CAH qbank. It is now the canonical live repo after the v1 to v2 cutover.
+`cah-qbank` is the canonical live repo for the CAH qbank.
 
 ## Workflow
 
@@ -197,6 +197,4 @@ Operational guidance:
 
 ## Migration note
 
-The v1 to v2 cutover is complete. Keep the archived legacy repo and rescue artifacts only as long as you still want fallback or re-import options.
-
-The migration and historical cutover checklist lives in `docs/MIGRATION.md`.
+Historical migration notes are archived in `docs/MIGRATION.md`.

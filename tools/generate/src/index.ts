@@ -155,7 +155,7 @@ function printHelp() {
 
 Notes:
   - generation config is loaded from ${path.join(repoRoot, ".env")}
-  - repo .env values override stale exported shell values for generation keys
+  - repo .env values override shell-exported values for managed generation keys
   - provider: GENERATE_API_PROVIDER=openai|openrouter
   - OpenAI defaults to model gpt-5.4-mini
   - OpenRouter defaults to model google/gemma-4-31b-it:free

@@ -38,7 +38,7 @@ describe("generate env loading", () => {
     })
   })
 
-  it("prefers repo env values over stale shell exports for managed generation keys", async () => {
+  it("prefers repo env values over shell exports for managed generation keys", async () => {
     const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "cah-generate-env-"))
     temporaryDirectories.push(tempDir)
     const envPath = path.join(tempDir, ".env")

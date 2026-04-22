@@ -44,11 +44,11 @@ describe("generation provider config", () => {
     expect(
       resolveOpenRouterHeaders({
         OPENROUTER_HTTP_REFERER: "https://localhost:3000",
-        OPENROUTER_TITLE: "CAH QBank v2",
+        OPENROUTER_TITLE: "CAH QBank",
       }),
     ).toEqual({
       "HTTP-Referer": "https://localhost:3000",
-      "X-OpenRouter-Title": "CAH QBank v2",
+      "X-OpenRouter-Title": "CAH QBank",
     })
   })
 })

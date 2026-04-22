@@ -2,10 +2,11 @@
   "name": "cah-qbank-v2",
   "private": true,
   "bin": {
-    "cah": "./tools/cli/dist/index.js"
+    "cah": "./tools/cli/dist/index.js",
+    "generate": "./tools/generate/dist/index.js"
   },
   "scripts": {
-    "postinstall": "pnpm --filter app prisma:generate && pnpm build:cli",
+    "postinstall": "pnpm --filter app prisma:generate && pnpm build:cli && pnpm build:generate",
     "dev": "pnpm --filter app dev",
     "build": "pnpm --filter app build",
     "typecheck": "pnpm -r typecheck",
@@ -16,7 +17,9 @@
     "migrate:backup": "pnpm exec tsx tools/migrate-from-backup.ts",
     "validate:questions": "pnpm exec tsx tools/validate-questions.ts",
     "build:cli": "pnpm --filter @cah/cli build",
-    "cah": "node tools/cli/dist/index.js"
+    "build:generate": "pnpm --filter @cah/generate build",
+    "cah": "node tools/cli/dist/index.js",
+    "generate": "node tools/generate/dist/index.js"
   },
   "devDependencies": {
     "tsx": "^4.21.0",

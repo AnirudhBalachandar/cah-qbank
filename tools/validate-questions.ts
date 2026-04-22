@@ -30,6 +30,10 @@ async function validateFile(filePath: string, expectedStatus: "draft" | "publish
   if (!parsed.success) {
     throw new Error(`${filePath}\n${JSON.stringify(parsed.error.flatten(), null, 2)}`)
   }
+  const expectedId = path.basename(filePath, ".json")
+  if (parsed.data.id !== expectedId) {
+    throw new Error(`${filePath}\nExpected filename id ${expectedId} but found ${parsed.data.id}`)
+  }
   if (parsed.data.status !== expectedStatus) {
     throw new Error(`${filePath}\nExpected status ${expectedStatus} but found ${parsed.data.status}`)
   }
@@ -43,11 +47,21 @@ async function main() {
     publishedAnswerable: 0,
     publishedBrowseOnly: 0,
   }
+  const seenIds = new Set<string>()
+  const seenFingerprints = new Set<string>()
 
   for (const { dirPath, expectedStatus } of targetDirs) {
     const files = await listJsonFiles(dirPath)
     for (const filePath of files) {
       const question = await validateFile(filePath, expectedStatus)
+      if (seenIds.has(question.id)) {
+        throw new Error(`Duplicate question id detected: ${question.id}`)
+      }
+      if (seenFingerprints.has(question.sourceFingerprint)) {
+        throw new Error(`Duplicate sourceFingerprint detected: ${question.sourceFingerprint}`)
+      }
+      seenIds.add(question.id)
+      seenFingerprints.add(question.sourceFingerprint)
       if (question.status === "published") summary.questions += 1
       if (question.status === "draft") summary.drafts += 1
       if (question.status === "published" && isQuestionAnswerable(question)) {

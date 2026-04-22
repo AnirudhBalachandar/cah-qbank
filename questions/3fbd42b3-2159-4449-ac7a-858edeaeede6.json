@@ -1,0 +1,69 @@
+{
+  "id": "3fbd42b3-2159-4449-ac7a-858edeaeede6",
+  "stem": "What strategy is suggested to help protect immunosuppressed patients who cannot mount an adequate immune response themselves?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ensuring all household contacts are fully vaccinated.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Administering live vaccines at double the standard dose.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Providing daily doses of prophylactic immunoglobulin.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Strict isolation for the duration of their immunosuppression.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vaccinating those in close proximity creates a 'ring' of protection, reducing the likelihood that the pathogen reaches the vulnerable patient.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.955Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-deca837f4a109c52f28c",
+  "rationale": "This approach involves vaccinating the people surrounding the patient.",
+  "optionExplanations": {
+    "A": "Vaccinating those in close proximity creates a 'ring' of protection, reducing the likelihood that the pathogen reaches the vulnerable patient.",
+    "B": "Increasing the dose of a live vaccine in an immunosuppressed patient significantly increases the risk of vaccine-induced disease.",
+    "C": "This is a treatment for specific conditions, but the primary preventative strategy discussed is vaccinating the patient's social circle.",
+    "D": "While caution is needed, the goal of immunization strategies is to allow for safe social interaction through community immunity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This approach involves vaccinating the people surrounding the patient.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "questionIndex": 15,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

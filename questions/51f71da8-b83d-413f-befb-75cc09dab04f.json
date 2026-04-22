@@ -1,0 +1,69 @@
+{
+  "id": "51f71da8-b83d-413f-befb-75cc09dab04f",
+  "stem": "Cystic Fibrosis, a common cause of pancreatic insufficiency in children, is caused by a genetic defect on which chromosome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chromosome $7$.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Chromosome $11$.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Chromosome $21$.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Chromosome $X$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The gene responsible for Cystic Fibrosis is located on chromosome $7$.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+      "title": "00026 diarrhoea-assessment-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.184Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8b0464ef3c19e5b97359",
+  "rationale": "The lecturer identifies this specific chromosome when discussing the genetics of CF.",
+  "optionExplanations": {
+    "A": "The gene responsible for Cystic Fibrosis is located on chromosome $7$.",
+    "B": "While many genetic disorders are on chromosome $11$, it is not the locus for the CFTR gene.",
+    "C": "Chromosome $21$ is associated with Down syndrome, a condition where patients should be screened for Celiac disease, not the cause of CF.",
+    "D": "Cystic Fibrosis is an autosomal recessive disorder, meaning it is not linked to the sex chromosomes."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The lecturer identifies this specific chromosome when discussing the genetics of CF.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "26",
+    "lectureTitle": "00026 diarrhoea-assessment-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_026.json",
+    "quizTitle": "Gastroenterology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2d08b08-eeb8-480c-9490-cde49601e0d5",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "d29c3498-84fb-4169-8478-5dcdf41d0a3c",
+  "stem": "In a premature neonate, a 'granular' or 'ground-glass' lung pattern on X-ray is most indicative of which condition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Transient Tachypnea of the Newborn (TTN)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Meconium Aspiration Syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Respiratory Distress Syndrome (RDS) or Hyaline Membrane Disease (HMD)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Congenital Diaphragmatic Hernia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lecture describes RDS/HMD as occurring in premature babies and characterized by a diffuse, bilateral granular pattern.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.462Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a4669f1e5680f249f425",
+  "rationale": "This condition is specifically associated with surfactant deficiency in those born early.",
+  "optionExplanations": {
+    "A": "TTN is typically seen in term babies and presents with radiating interstitial lines, not a granular pattern.",
+    "B": "Meconium aspiration usually occurs in term or post-term babies and presents with coarse, patchy densities.",
+    "C": "The lecture describes RDS/HMD as occurring in premature babies and characterized by a diffuse, bilateral granular pattern.",
+    "D": "This condition presents with bowel loops in the chest and mediastinal shift rather than a diffuse granular lung pattern."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition is specifically associated with surfactant deficiency in those born early.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

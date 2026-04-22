@@ -1,0 +1,69 @@
+{
+  "id": "e207a082-30c7-4f01-abda-701cf8b803ad",
+  "stem": "Which treatment is specifically noted as being **ineffective** for Guillain-Barré Syndrome, despite being used for other demyelinating conditions?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intravenous immunoglobulin (IVIG)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Plasma exchange (Plasmapheresis)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Corticosteroids",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Occupational therapy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lecture explicitly states that steroids are not effective in GBS, unlike their use in DMD or central demyelination.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.713Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-79c7e6ca0426cdd4e782",
+  "rationale": "Identify a medication that is helpful in DMD but not in the treatment of GBS.",
+  "optionExplanations": {
+    "A": "IVIG is a standard and effective treatment for non-ambulant GBS patients.",
+    "B": "Plasmapheresis is an effective method of filtering antibodies from the blood in severe GBS cases.",
+    "C": "The lecture explicitly states that steroids are not effective in GBS, unlike their use in DMD or central demyelination.",
+    "D": "Therapy is a necessary part of the multi-disciplinary recovery and management process for motor disorders."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify a medication that is helpful in DMD but not in the treatment of GBS.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

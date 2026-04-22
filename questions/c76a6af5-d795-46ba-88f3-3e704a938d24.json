@@ -1,0 +1,69 @@
+{
+  "id": "c76a6af5-d795-46ba-88f3-3e704a938d24",
+  "stem": "Which medication is considered the first-line preventer therapy for children with asthma, regardless of their age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Montelukast (Singulair)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fluticasone (Flixotide)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Salbutamol (Ventolin)",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Iotropium (Atrovent)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Inhaled corticosteroids like fluticasone are the preferred first-line preventer for children exhibiting frequent symptoms or severe flares.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.563Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f8f6fb8181feb78698ae",
+  "rationale": "The standard first-line treatment is an inhaled corticosteroid.",
+  "optionExplanations": {
+    "A": "Montelukast is typically considered an alternative or add-on therapy rather than the universal first-line choice.",
+    "B": "Inhaled corticosteroids like fluticasone are the preferred first-line preventer for children exhibiting frequent symptoms or severe flares.",
+    "C": "Salbutamol is a short-acting reliever used for acute symptoms, not a long-term preventer.",
+    "D": "Iotropium is a reliever medication used specifically for severe exacerbations in a hospital setting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The standard first-line treatment is an inhaled corticosteroid.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "df18a3dc-a463-4dd4-be26-ce7857ec3626",
+  "stem": "Based on the PEDIG studies mentioned, what is the recommended daily patching duration for moderate to severe amblyopia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$4$ hours of patching a day.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$2$ hours of patching a day.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$24$ hours of patching a day.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$8$ to $10$ hours of patching a day.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The PEDIG studies found that for moderate to severe amblyopia, $4$ hours is as effective as all-day patching.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.348Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-38c2c478515b1ac9b106",
+  "rationale": "The source mentions that for severe cases, half of an $8$-hour workday's worth of patching is sufficient.",
+  "optionExplanations": {
+    "A": "The PEDIG studies found that for moderate to severe amblyopia, $4$ hours is as effective as all-day patching.",
+    "B": "Two hours of patching was found to be sufficient for mild to moderate amblyopia, but not the recommendation for severe cases.",
+    "C": "Continuous patching is not recommended and was shown to be no more effective than limited daily patching.",
+    "D": "While historically common, the cited studies show that fewer hours are equally effective for treating amblyopia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The source mentions that for severe cases, half of an $8$-hour workday's worth of patching is sufficient.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "questionIndex": 12,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

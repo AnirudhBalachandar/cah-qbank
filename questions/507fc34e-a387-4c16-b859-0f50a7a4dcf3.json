@@ -1,0 +1,69 @@
+{
+  "id": "507fc34e-a387-4c16-b859-0f50a7a4dcf3",
+  "stem": "What is the clinical significance of performing a cardiac check at $6$ weeks of age rather than just immediately after birth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The $PVR$ has dropped, allowing pressure differentials to reveal defects.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The foramen ovale remains patent in $100\\%$ of infants until $6$ weeks.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Heart rates are at their lowest point at $6$ weeks of age.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Congenital heart disease only develops after the first month of life.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "As pulmonary vascular resistance falls, blood flow through defects like $VSD$s increases, making murmurs audible that were hidden by high fetal pressures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.936Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-67b370f22d38e009520f",
+  "rationale": "Recall how the change in lung resistance over time affects the sound of blood flowing through a hole in the heart.",
+  "optionExplanations": {
+    "A": "As pulmonary vascular resistance falls, blood flow through defects like $VSD$s increases, making murmurs audible that were hidden by high fetal pressures.",
+    "B": "The foramen ovale typically closes functionally at birth due to pressure changes, though it may remain probe-patent in some adults.",
+    "C": "The heart rate actually reaches a maximum between $3$ weeks and $3$ months of age according to the lecture graph.",
+    "D": "Congenital heart disease is present at birth by definition, though its clinical signs may take time to manifest."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall how the change in lung resistance over time affects the sound of blood flowing through a hole in the heart.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

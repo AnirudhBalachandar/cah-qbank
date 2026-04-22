@@ -1,0 +1,69 @@
+{
+  "id": "7517bbeb-7f32-49bc-a43f-0bb98ab63492",
+  "stem": "Why are children at a significantly higher risk for hypothermia during trauma management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They have a higher metabolic rate.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They have a larger surface area to body mass ratio.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They cannot shiver effectively.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Trauma inhibits the hypothalamus more in children.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A larger surface area relative to their weight means they lose heat to the environment much faster than adults.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.254Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-05be61ded9a0ec79fe91",
+  "rationale": "Think about the relationship between body size and the skin exposed to the air.",
+  "optionExplanations": {
+    "A": "While they do have higher metabolic needs, this would theoretically produce more heat; the risk stems from how they lose heat.",
+    "B": "A larger surface area relative to their weight means they lose heat to the environment much faster than adults.",
+    "C": "While true for neonates, the primary reason discussed for the broader pediatric population is their physical proportions.",
+    "D": "Hypothermia in trauma is generally a result of environmental exposure and fluid administration rather than primary brain dysfunction."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the relationship between body size and the skin exposed to the air.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "d7bfc752-3663-41e4-8555-21d582088c13",
+  "stem": "According to the provided material, how is conjugated jaundice defined biochemically?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Conjugated fraction $\\ge 20\\%$ of the total bilirubin",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Conjugated fraction $\\ge 50\\%$ of the total bilirubin",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Total bilirubin above the $95^{th}$ centile for age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of any detectable conjugated bilirubin in the serum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This specific threshold distinguishes conjugated hyperbilirubinemia from other forms of neonatal jaundice.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.663Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-10d915019893764e129e",
+  "rationale": "Focus on the ratio of the conjugated portion relative to the total bilirubin level.",
+  "optionExplanations": {
+    "A": "This specific threshold distinguishes conjugated hyperbilirubinemia from other forms of neonatal jaundice.",
+    "B": "While a value this high is certainly abnormal, the clinical threshold for investigation begins at a lower percentage.",
+    "C": "Total bilirubin levels determine the presence of jaundice but not the specific subtype (conjugated vs. unconjugated) required for diagnosis.",
+    "D": "Small amounts of conjugated bilirubin may be present normally; a specific percentage of the total is required for a pathological definition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the ratio of the conjugated portion relative to the total bilirubin level.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 2,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

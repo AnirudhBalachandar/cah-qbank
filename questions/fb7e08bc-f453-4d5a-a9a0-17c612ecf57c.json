@@ -1,0 +1,69 @@
+{
+  "id": "fb7e08bc-f453-4d5a-a9a0-17c612ecf57c",
+  "stem": "According to the pathophysiology of vitamin D deficiency, why does the body increase parathyroid hormone (PTH) secretion?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To increase phosphorus absorption from the diet.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To compensate for low serum calcium levels.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To directly stimulate the skin to produce more vitamin D3.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To reduce the activation of vitamin D in the liver.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Low calcium caused by vitamin D deficiency stimulates the parathyroid glands to release PTH, which then works to raise blood calcium.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.281Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9bd15184899d0132f098",
+  "rationale": "Think about how the body reacts when there isn't enough calcium being absorbed from the gut.",
+  "optionExplanations": {
+    "A": "PTH actually increases the renal excretion of phosphorus to prevent the formation of kidney stones.",
+    "B": "Low calcium caused by vitamin D deficiency stimulates the parathyroid glands to release PTH, which then works to raise blood calcium.",
+    "C": "PTH does not affect the skin's reaction to sunlight; its primary targets are the kidneys and bones.",
+    "D": "PTH actually stimulates the final activation of vitamin D in the kidneys, not its suppression in the liver."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the body reacts when there isn't enough calcium being absorbed from the gut.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

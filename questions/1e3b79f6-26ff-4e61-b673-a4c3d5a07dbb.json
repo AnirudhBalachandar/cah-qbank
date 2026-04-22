@@ -1,0 +1,69 @@
+{
+  "id": "1e3b79f6-26ff-4e61-b673-a4c3d5a07dbb",
+  "stem": "Why is early diagnosis of retinoblastoma critical regarding the tumor's spread to the rest of the body?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can spread via the optic nerve into the cerebrospinal fluid (CSF).",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It spreads primarily through the lacrimal ducts into the sinuses.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It moves through the cornea into the external environment.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It remains localized within the lens and never leaves the globe.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Extension into the optic nerve allows the tumor to reach the CSF and eventually the brain or the rest of the body through the blood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.943Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0d13ddfb9efef23fdc2d",
+  "rationale": "Consider the anatomical structure that connects the eye directly to the central nervous system.",
+  "optionExplanations": {
+    "A": "Extension into the optic nerve allows the tumor to reach the CSF and eventually the brain or the rest of the body through the blood.",
+    "B": "The lacrimal system is related to tear drainage and is not the primary pathway for this intraocular tumor's metastasis.",
+    "C": "Tumors spread internally through vascular or neural pathways rather than exiting through the anterior surface of the eye.",
+    "D": "Retinoblastoma is malignant and can spread beyond the eye if not treated early, making localization a false assumption."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the anatomical structure that connects the eye directly to the central nervous system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

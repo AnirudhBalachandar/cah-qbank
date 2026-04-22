@@ -1,0 +1,69 @@
+{
+  "id": "1ce8362a-7177-4f39-bbdb-5becec79097b",
+  "stem": "What is the characteristic appearance of the tachycardia often observed in CPVT patients during exercise?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bidirectional VT, where complexes alternate going up and down.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A perfectly regular narrow-complex tachycardia.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A heart rate that gradually returns to normal during exertion.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Multiple P-waves for every QRS complex.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bidirectional ventricular tachycardia is a classic and highly specific ECG finding for CPVT during exercise or stress.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.811Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ea409b820ad3104a8e1e",
+  "rationale": "Focus on the alternating direction of the electrical signals on the ECG.",
+  "optionExplanations": {
+    "A": "Bidirectional ventricular tachycardia is a classic and highly specific ECG finding for CPVT during exercise or stress.",
+    "B": "This describes SVT; CPVT produces a wide-complex ventricular tachycardia (VT).",
+    "C": "In CPVT, exercise triggers dangerous arrhythmias rather than a normal physiological response.",
+    "D": "This would suggest a type of heart block or atrial flutter, which is not the primary mechanism of CPVT."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the alternating direction of the electrical signals on the ECG.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 14,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

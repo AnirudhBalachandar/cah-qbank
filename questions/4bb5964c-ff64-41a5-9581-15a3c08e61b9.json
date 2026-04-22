@@ -1,0 +1,69 @@
+{
+  "id": "4bb5964c-ff64-41a5-9581-15a3c08e61b9",
+  "stem": "What is 'paradoxical embolism,' and why is it a risk in patients with right-to-left shunts?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Blood clots from the venous system bypass the lungs and enter the brain.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Air bubbles from the lungs enter the right atrium.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is a type of bleeding disorder caused by high platelet counts.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The heart rhythm becomes irregular due to atrial septal defects.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In a right-to-left shunt, the lungs no longer filter the blood, allowing clots to pass directly into the systemic circulation and potentially reach the brain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:29.129Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4afa1254cb95230ddd0c",
+  "rationale": "This risk occurs when the usual 'filter' for venous blood is bypassed.",
+  "optionExplanations": {
+    "A": "In a right-to-left shunt, the lungs no longer filter the blood, allowing clots to pass directly into the systemic circulation and potentially reach the brain.",
+    "B": "Embolism in this context refers to clots or debris traveling through the shunt from the right heart to the left heart.",
+    "C": "Cyanotic patients often have polycythemia (high red cells), but paradoxical embolism is a mechanical transport issue of clots, not a coagulation disorder.",
+    "D": "While arrhythmias can occur, 'paradoxical embolism' specifically describes the movement of a physical clot through a shunt."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This risk occurs when the usual 'filter' for venous blood is bypassed.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "questionIndex": 12,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "fab7d2a6-851a-441b-8ae3-8085e45fed87",
+  "stem": "Legislation requires tempering valves to be installed in new hot water systems to limit bathroom water temperature to what level?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$50^\\circ C$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$60^\\circ C$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$70^\\circ C$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$40^\\circ C$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Setting the temperature to $50^\\circ C$ provides enough time to remove a child from water before a burn occurs, unlike higher temperatures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.385Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-72e57c0ee479126092ee",
+  "rationale": "This temperature is chosen because it allows a short reaction time to prevent a burn.",
+  "optionExplanations": {
+    "A": "Setting the temperature to $50^\\circ C$ provides enough time to remove a child from water before a burn occurs, unlike higher temperatures.",
+    "B": "At $60^\\circ C$, it takes only $1$ second to cause a full thickness burn, making it too dangerous for domestic safety standards.",
+    "C": "This is the typical standard for domestic hot water tanks, but it is too hot for direct delivery to bathrooms without tempering.",
+    "D": "While safer, this is below the specific legislated requirement mentioned for tempering valves."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This temperature is chosen because it allows a short reaction time to prevent a burn.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

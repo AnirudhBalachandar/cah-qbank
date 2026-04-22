@@ -1,0 +1,69 @@
+{
+  "id": "9ef08069-77d2-40e1-85e5-19356cdab7f6",
+  "stem": "Which specialized test is specifically used to identify exercise-induced asthma by looking for a drop in $FEV_1$ after a period of rapid breathing?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Mannitol Challenge",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Eucapnic Voluntary Hyperpnea",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Post-Ventolin Spirometry",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Tracheal Auscultation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This test mimics the high respiratory demands of exercise to trigger airway narrowing in susceptible individuals.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.158Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-80b2d6eb07af6fad342b",
+  "rationale": "This test involves the word 'hyperpnea,' which refers to increased depth and rate of breathing.",
+  "optionExplanations": {
+    "A": "The Mannitol test involves inhaling a powder to trigger a response, rather than using voluntary hyperventilation.",
+    "B": "This test mimics the high respiratory demands of exercise to trigger airway narrowing in susceptible individuals.",
+    "C": "This measures reversibility after medication, not the induction of symptoms through physical effort or hyperventilation.",
+    "D": "Auscultation is a physical exam technique, not a specialized provocation test for exercise-induced symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This test involves the word 'hyperpnea,' which refers to increased depth and rate of breathing.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

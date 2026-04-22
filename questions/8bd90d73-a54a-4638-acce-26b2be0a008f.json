@@ -1,0 +1,69 @@
+{
+  "id": "8bd90d73-a54a-4638-acce-26b2be0a008f",
+  "stem": "In approximately what percentage of congenital cataract cases is no specific cause found despite extensive investigation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$10\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$25\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$50\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$75\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that in half of the cases, no underlying cause (idiopathic) can be determined even after thorough testing.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.037Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c2e382047d08223c2d7d",
+  "rationale": "The term used for cases with no known cause is 'idiopathic', and it accounts for half of all cases.",
+  "optionExplanations": {
+    "A": "This significantly underestimates the frequency of idiopathic cases mentioned in the source.",
+    "B": "This is the percentage associated with familial or infectious causes, not the unknown ones.",
+    "C": "The source states that in half of the cases, no underlying cause (idiopathic) can be determined even after thorough testing.",
+    "D": "This overestimates the number of cases without a cause, as many have identifiable metabolic, genetic, or infectious origins."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The term used for cases with no known cause is 'idiopathic', and it accounts for half of all cases.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

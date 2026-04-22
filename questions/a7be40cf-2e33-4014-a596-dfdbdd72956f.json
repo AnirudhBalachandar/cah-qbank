@@ -1,0 +1,69 @@
+{
+  "id": "a7be40cf-2e33-4014-a596-dfdbdd72956f",
+  "stem": "Congenital diaphragmatic hernia (CDH) is most frequently observed on which side of the body?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The right side",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The left side",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Bilateral (both sides)",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The anterior midline",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Left-sided hernias account for the majority of CDH cases, likely due to the later closure of the left pleuroperitoneal membrane.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:35.232Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-044a183dc8f2e5c0e8a3",
+  "rationale": "Consider the embryological timing of the closure of the pleuroperitoneal membranes.",
+  "optionExplanations": {
+    "A": "Right-sided hernias are less common, partly because the right pleuroperitoneal membrane usually closes earlier than the left.",
+    "B": "Left-sided hernias account for the majority of CDH cases, likely due to the later closure of the left pleuroperitoneal membrane.",
+    "C": "While bilateral defects can occur, they are extremely rare compared to unilateral defects.",
+    "D": "Anterior midline defects (Morgagni hernias) are rare, accounting for only about $2\\%$ of cases."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the embryological timing of the closure of the pleuroperitoneal membranes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "b3ee8630-f168-4f65-a667-9f4cf9a41fdc",
+  "stem": "A prepubertal boy presents with a gradual onset of scrotal pain and a visible 'blue dot' on the upper pole of the testis. What is the most probable cause?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Testicular torsion",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Torsion of the appendix testis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Acute epididymitis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hydrocele with secondary infection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The 'blue dot' is a classic clinical sign representing the ischemic appendix testis seen through the scrotal skin.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:44.324Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a3ea77bcc98b67b9dbc6",
+  "rationale": "This condition involves a vestigial structure rather than the main testis or cord.",
+  "optionExplanations": {
+    "A": "Testicular torsion usually presents more acutely and lacks the specific 'blue dot' sign associated with appendages.",
+    "B": "The 'blue dot' is a classic clinical sign representing the ischemic appendix testis seen through the scrotal skin.",
+    "C": "Epididymitis involves inflammation of the epididymis and does not typically present with an isolated blue spot on the testis pole.",
+    "D": "An infected hydrocele would cause generalized swelling and redness rather than a localized blue ischemic dot."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition involves a vestigial structure rather than the main testis or cord.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

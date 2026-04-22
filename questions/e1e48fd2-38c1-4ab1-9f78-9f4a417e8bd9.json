@@ -1,0 +1,69 @@
+{
+  "id": "e1e48fd2-38c1-4ab1-9f78-9f4a417e8bd9",
+  "stem": "What mechanism triggers mast cells to degranulate and release histamine during re-exposure to an allergen?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Direct destruction of the cell by macrophages",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Cross-linking of $\\text{IgE}$ antibodies on the mast cell surface",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Production of $\\text{IgG}$ by memory $\\text{B}$-cells",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Immediate activation of the complement cascade",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "When the allergen is recognized again, it causes cross-linking of $\\text{IgE}$ on the mast cell, triggering degranulation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.120Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3fcb2918cb42d08cfb4d",
+  "rationale": "Think about what happens when an allergen binds to multiple antibodies on a cell simultaneously.",
+  "optionExplanations": {
+    "A": "Macrophages process the allergen initially but do not cause mast cell degranulation via destruction.",
+    "B": "When the allergen is recognized again, it causes cross-linking of $\\text{IgE}$ on the mast cell, triggering degranulation.",
+    "C": "$\\text{IgG}$ is not the trigger for the immediate release of histamine in $\\text{IgE}$-mediated allergies.",
+    "D": "While involved in other immune processes, the text focuses on the $\\text{IgE}$ and mast cell mechanism."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what happens when an allergen binds to multiple antibodies on a cell simultaneously.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

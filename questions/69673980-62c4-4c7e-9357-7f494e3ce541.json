@@ -1,0 +1,69 @@
+{
+  "id": "69673980-62c4-4c7e-9357-7f494e3ce541",
+  "stem": "In a case of suspected esophageal atresia, what does the presence of gas in the bowel loops indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "There is a fistula between the airway and the distal esophagus.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The esophagus is narrowed but still patent.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The nasogastric tube has successfully bypassed the obstruction.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The patient has swallowed a significant amount of air before the pouch formed.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "If the esophagus is disconnected but gas still reaches the bowel, it must be entering via a tracheoesophageal fistula.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.385Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1375780c67667aa652c7",
+  "rationale": "Think about how air could bypass a disconnected upper esophagus to reach the stomach.",
+  "optionExplanations": {
+    "A": "If the esophagus is disconnected but gas still reaches the bowel, it must be entering via a tracheoesophageal fistula.",
+    "B": "Esophageal atresia by definition means a discontinuity (blind pouch), not just a narrowing.",
+    "C": "The source material shows a coiled NG tube in a blind pouch, indicating it cannot bypass the atresia.",
+    "D": "Continuous gas in the bowel loops in a newborn with atresia indicates a permanent connection (fistula) to the airway."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how air could bypass a disconnected upper esophagus to reach the stomach.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

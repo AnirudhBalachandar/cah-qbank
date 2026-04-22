@@ -1,0 +1,69 @@
+{
+  "id": "bc7157a8-5254-4688-8c12-35e6f395adb8",
+  "stem": "What is 'Benign Ethnic Neutropenia'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A disorder caused by migration to a new climate with different viruses.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A situation where individuals naturally have lower neutrophil counts based on their genetic background.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "An allergy to specific foods common in certain ethnic diets.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A transient drop in white cells seen only in children born to immigrant parents.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Certain populations, such as those of African or Middle Eastern descent, may have lower normal ranges that do not indicate disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.610Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d85e9096c2a4070f0974",
+  "rationale": "This concept highlights that 'normal' reference ranges are often based on specific populations and may not apply to everyone.",
+  "optionExplanations": {
+    "A": "This condition is constitutional and genetic, not an environmental or infectious reaction.",
+    "B": "Certain populations, such as those of African or Middle Eastern descent, may have lower normal ranges that do not indicate disease.",
+    "C": "Dietary factors can affect blood counts, but 'ethnic neutropenia' refers to a baseline physiological difference in the population.",
+    "D": "This is a lifelong constitutional trait, not a transient pediatric condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This concept highlights that 'normal' reference ranges are often based on specific populations and may not apply to everyone.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

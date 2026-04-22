@@ -1,0 +1,69 @@
+{
+  "id": "970ce6eb-7b1f-45a0-805e-eb8894f2929b",
+  "stem": "Comparing Morphine and Oxycodone, which statement is true regarding their potency and bioavailability?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Morphine has a higher oral bioavailability than Oxycodone.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Oxycodone is approximately 1.5 times more potent than Morphine.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Morphine is 2 times stronger than Oxycodone.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Both medications have the same starting dose of $0.5 \\text{ mg/kg}$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that Oxycodone is slightly stronger, with a potency about 1.5 times that of Morphine.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.887Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-07200d8ebc63ca4e93c9",
+  "rationale": "Consider which medication requires a lower dose to achieve the same effect.",
+  "optionExplanations": {
+    "A": "Morphine has a poor oral bioavailability ($30-40\\%$) compared to Oxycodone ($80\\%$).",
+    "B": "The source states that Oxycodone is slightly stronger, with a potency about 1.5 times that of Morphine.",
+    "C": "Oxycodone is actually the more potent of the two medications.",
+    "D": "Starting doses differ: Oxycodone starts at $0.1 \\text{ mg/kg}$ and Morphine starts at $0.2 \\text{ mg/kg}$."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which medication requires a lower dose to achieve the same effect.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

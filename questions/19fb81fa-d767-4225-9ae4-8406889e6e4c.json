@@ -1,0 +1,69 @@
+{
+  "id": "19fb81fa-d767-4225-9ae4-8406889e6e4c",
+  "stem": "In a child under age $4$ with a head injury, what is a key factor used to exclude non-accidental injury (NAI)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The presence of a skull fracture",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A history that is consistent with the injury mechanism",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child is non-verbal.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The injury is located on the chest rather than the head.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "If the history provided by the caregiver matches the clinical findings and the injury was reported promptly, NAI is less likely.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.308Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3f6fe06dd5d7a52ca7da",
+  "rationale": "Focus on the relationship between what is said happened and what the medical evidence shows.",
+  "optionExplanations": {
+    "A": "Skull fractures can occur in both accidental and non-accidental trauma; they do not by themselves exclude NAI.",
+    "B": "If the history provided by the caregiver matches the clinical findings and the injury was reported promptly, NAI is less likely.",
+    "C": "Non-verbal status is a risk factor that makes identifying the true cause of injury more difficult, not a reason to exclude NAI.",
+    "D": "Head injuries are actually the most common injury in NAI cases for children under four."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the relationship between what is said happened and what the medical evidence shows.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

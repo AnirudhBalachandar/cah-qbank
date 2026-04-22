@@ -1,0 +1,69 @@
+{
+  "id": "c14f69e4-69fd-4f66-9afc-5ac6a809bd66",
+  "stem": "Which seizure type is an absolute requirement for the diagnosis of Juvenile Myoclonic Epilepsy (JME)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Typical absence seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Generalized tonic-clonic seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Myoclonic jerks",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Focal aware seizures",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Myoclonic jerks, typically occurring upon awakening, are the hallmark feature and required for a JME diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.097Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a49c950669f83c44fda6",
+  "rationale": "The name of the syndrome itself provides a clue to the mandatory seizure manifestation.",
+  "optionExplanations": {
+    "A": "Absence seizures occur in only a minority of JME patients and are not necessary for the diagnosis.",
+    "B": "While the vast majority of patients will have these, the diagnosis specifically hinges on a different, more characteristic seizure type.",
+    "C": "Myoclonic jerks, typically occurring upon awakening, are the hallmark feature and required for a JME diagnosis.",
+    "D": "JME is an idiopathic generalized epilepsy; focal seizures would suggest a different classification."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The name of the syndrome itself provides a clue to the mandatory seizure manifestation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

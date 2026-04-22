@@ -1,0 +1,69 @@
+{
+  "id": "b748ce10-e32e-4632-a562-7c0536f79961",
+  "stem": "Which imaging modality is specifically mentioned as being the best for assessing lesions within the bone or occult fractures, despite the disadvantage of radiation exposure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CT scanning",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "MRI",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ultrasound",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bone scan",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "CT provides excellent bony detail for detecting subtle fractures that are not visible on plain films.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.652Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2e303a2d6261f5a417ed",
+  "rationale": "Look for the modality that offers high-resolution bony assessment but uses ionizing radiation.",
+  "optionExplanations": {
+    "A": "CT provides excellent bony detail for detecting subtle fractures that are not visible on plain films.",
+    "B": "MRI is excellent for soft tissues and occult fractures but does not carry the radiation risk associated with CT.",
+    "C": "Ultrasound is primarily useful for assessing fluid structures and joint effusions rather than cortical bone detail.",
+    "D": "A bone scan identifies areas of increased metabolic activity but is generally less specific for bony anatomy than CT."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the modality that offers high-resolution bony assessment but uses ionizing radiation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

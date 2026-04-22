@@ -1,0 +1,69 @@
+{
+  "id": "9158ca10-2fd8-45a0-a431-c72778f9a7f3",
+  "stem": "What clinical sign might be found alongside DDH as a result of 'fetal packing'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Postural foot deformities",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Excessive joint laxity in the upper limbs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Delayed cognitive development",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High incidence of hearing loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Physical constraints in the womb (fetal packing) can lead to both hip dysplasia and other deformities like foot issues or plagiocephaly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:42.069Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e7bd6388b91dcbe3b6a2",
+  "rationale": "Look for other physical conditions caused by limited space in the uterus.",
+  "optionExplanations": {
+    "A": "Physical constraints in the womb (fetal packing) can lead to both hip dysplasia and other deformities like foot issues or plagiocephaly.",
+    "B": "Fetal packing specifically relates to postural constraints, often affecting the head and the lower extremities rather than general limb laxity.",
+    "C": "DDH and fetal packing are physical orthopedic conditions and are not linked to cognitive developmental delays in the source.",
+    "D": "There is no clinical connection mentioned between the physical constraints of fetal packing and auditory issues."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for other physical conditions caused by limited space in the uterus.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "questionIndex": 12,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

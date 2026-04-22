@@ -1,0 +1,69 @@
+{
+  "id": "39d54f02-115c-41ea-8af8-a4deff322748",
+  "stem": "Why is the pulmonary vascular resistance ($PVR$) significantly higher in a fetus compared to a neonate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The fetal lungs are collapsed and filled with fluid.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The fetus has a naturally lower systemic blood pressure.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The ductus venosus increases back-pressure on the lungs.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fetal hemoglobin has a low affinity for oxygen.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "High pressure is required to push blood through collapsed, fluid-filled lungs, creating high resistance until the first breath expands the alveoli.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.888Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cf0c4603fa8ecc68fb5e",
+  "rationale": "Think about the physical environment of the lungs before the first breath is taken.",
+  "optionExplanations": {
+    "A": "High pressure is required to push blood through collapsed, fluid-filled lungs, creating high resistance until the first breath expands the alveoli.",
+    "B": "While systemic pressure is lower, fetal $PVR$ is primarily high due to the physical state of the lungs rather than systemic pressure levels.",
+    "C": "The ductus venosus handles venous return from the placenta and does not directly impact the resistance within the pulmonary arterial circuit.",
+    "D": "Fetal hemoglobin actually has a higher affinity for oxygen to facilitate extraction from the placenta, which is unrelated to mechanical vascular resistance."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the physical environment of the lungs before the first breath is taken.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

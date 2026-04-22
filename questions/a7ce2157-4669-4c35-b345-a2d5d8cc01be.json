@@ -1,0 +1,69 @@
+{
+  "id": "a7ce2157-4669-4c35-b345-a2d5d8cc01be",
+  "stem": "Why might a healthy child's ECG show very large QRS voltages that mimic ventricular hypertrophy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The minimal distance between the heart and the ECG leads on a thin chest wall.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "An abnormally thick ventricular myocardium.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Increased electrical resistance from the skin.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of an accessory pathway conducting forward.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In children with thin chest walls, the heart is closer to the electrodes, resulting in larger electrical amplitudes being recorded.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.584Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e7a890f45988f0eb5b64",
+  "rationale": "Think about the physical proximity of the sensor to the electrical source.",
+  "optionExplanations": {
+    "A": "In children with thin chest walls, the heart is closer to the electrodes, resulting in larger electrical amplitudes being recorded.",
+    "B": "While this causes high voltage in hypertrophy, the source notes that high voltage in children is often a normal variant due to anatomy.",
+    "C": "Increased resistance would typically decrease the recorded voltage rather than increase it.",
+    "D": "An accessory pathway causes a delta wave or pre-excitation but is not the reason for generally high QRS amplitudes in a normal ECG."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the physical proximity of the sensor to the electrical source.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

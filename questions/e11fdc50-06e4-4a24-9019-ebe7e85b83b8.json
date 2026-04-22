@@ -1,0 +1,69 @@
+{
+  "id": "e11fdc50-06e4-4a24-9019-ebe7e85b83b8",
+  "stem": "Why does the lecturer suggest using a stethoscope to elicit signs of peritonitis in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It allows for better amplification of bowel sounds during palpation.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is a gentler equivalent to the crude sign of rebound tenderness.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is the only way to confirm a diagnosis of appendicitis.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It helps the doctor avoid touching the child's skin directly.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Eliciting rebound tenderness with a hand can be scary and painful for a child; a stethoscope is smaller and less intimidating to use for the same purpose.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.586Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3adce456acbb13f3af01",
+  "rationale": "Consider the psychological impact of using a hand versus a familiar medical tool to check for tenderness.",
+  "optionExplanations": {
+    "A": "The goal in this context is not auscultation but finding a less threatening way to check for peritoneal irritation.",
+    "B": "Eliciting rebound tenderness with a hand can be scary and painful for a child; a stethoscope is smaller and less intimidating to use for the same purpose.",
+    "C": "Appendicitis is diagnosed through a combination of history, physical exam, and sometimes imaging, not just a stethoscope.",
+    "D": "Direct palpation is necessary, but the stethoscope is used as a specific tool to check for tenderness while minimizing the child's anxiety."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the psychological impact of using a hand versus a familiar medical tool to check for tenderness.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

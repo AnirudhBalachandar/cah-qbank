@@ -1,0 +1,69 @@
+{
+  "id": "791e6cbf-88cc-42ce-a52e-814084826048",
+  "stem": "Why is fecal testing for 'reducing substances' often considered difficult or unreliable for diagnosing lactose intolerance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bacteria in the specimen can alter the results if left sitting",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The test only works on solid, well-formed stools",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It requires the patient to fast for 48 hours prior to collection",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The test cannot distinguish between lactose and glucose",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The presence of bacteria in the stool can change the chemical composition, leading to inaccurate readings of reducing substances.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.614Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0a8727c07ac900168e57",
+  "rationale": "Consider the impact of biological contaminants and the time sensitivity of the sample.",
+  "optionExplanations": {
+    "A": "The presence of bacteria in the stool can change the chemical composition, leading to inaccurate readings of reducing substances.",
+    "B": "The source material specifies that the stool specimen actually needs to be liquid for the test to be valid.",
+    "C": "The difficulty lies in specimen handling and stool consistency rather than patient fasting requirements.",
+    "D": "While technically true of the chemistry, the primary practical difficulty mentioned is specimen degradation and the requirement for liquid samples."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the impact of biological contaminants and the time sensitivity of the sample.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

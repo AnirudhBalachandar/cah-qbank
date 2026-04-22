@@ -1,0 +1,69 @@
+{
+  "id": "0d2e3d5d-42cf-4e67-9365-d535ae05cda5",
+  "stem": "What is the typical male-to-female ratio for children affected by Perthes disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$1:1$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$10:1$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$4:1$",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$2:1$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Clinical observation shows that males are affected approximately four times as often as females.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:41.524Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-67459f5a60b2b8c911a8",
+  "rationale": "Consider the strong male predilection mentioned for this childhood hip condition.",
+  "optionExplanations": {
+    "A": "This suggests equal distribution, but the source indicates a significant male predominance.",
+    "B": "This ratio overestimates the male predilection mentioned in the clinical data.",
+    "C": "Clinical observation shows that males are affected approximately four times as often as females.",
+    "D": "While males are more affected, this ratio underestimates the four-fold difference described."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the strong male predilection mentioned for this childhood hip condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

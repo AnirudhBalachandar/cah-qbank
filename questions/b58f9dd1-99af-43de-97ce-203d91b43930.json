@@ -1,0 +1,69 @@
+{
+  "id": "b58f9dd1-99af-43de-97ce-203d91b43930",
+  "stem": "Why is 'ropey' saliva a concerning finding during a dental examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It indicates that the saliva is too acidic and will cause immediate erosion.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is a sign that salivary flow is inadequate and not protecting the teeth.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It suggests the patient has consumed too many carbohydrates.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is a precursor to the development of a bifid uvula.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Thick, ropey saliva indicates poor flow from the submandibular and sublingual glands, which increases the risk of decay.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.867Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ebce5df1735e8345cf26",
+  "rationale": "This texture suggests the saliva is not 'flowing' as it should.",
+  "optionExplanations": {
+    "A": "While acidity matters, the 'ropey' texture specifically signals a problem with the quantity and flow of saliva.",
+    "B": "Thick, ropey saliva indicates poor flow from the submandibular and sublingual glands, which increases the risk of decay.",
+    "C": "Carbohydrates feed decay, but the texture of the saliva itself is a marker of gland function or blockage.",
+    "D": "Bifid uvula is a congenital structural defect and is not caused by salivary consistency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This texture suggests the saliva is not 'flowing' as it should.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

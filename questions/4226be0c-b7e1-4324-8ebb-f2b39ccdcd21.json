@@ -1,0 +1,69 @@
+{
+  "id": "4226be0c-b7e1-4324-8ebb-f2b39ccdcd21",
+  "stem": "In pediatric sinusitis management, how long should decongestants be used to avoid complications?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "No longer than $2$ to $3$ days",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "At least $7$ days to ensure full drainage",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only until the fever breaks",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Throughout the entire course of antibiotics",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Extended use of decongestants can lead to rebound congestion and should only be used short-term to encourage drainage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+      "title": "00003 ENT_nose-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.807Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bf0a65a589bbd08e009b",
+  "rationale": "Think about the typical short window used to prevent 'rebound' symptoms.",
+  "optionExplanations": {
+    "A": "Extended use of decongestants can lead to rebound congestion and should only be used short-term to encourage drainage.",
+    "B": "Using decongestants for a full week increases the risk of rhinitis medicamentosa or rebound swelling.",
+    "C": "Fever is managed with antibiotics or antipyretics; decongestant duration is strictly limited to prevent mucosal damage.",
+    "D": "Antibiotic courses are typically $10$ to $14$ days, which is far too long for safe decongestant use."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the typical short window used to prevent 'rebound' symptoms.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "3",
+    "lectureTitle": "00003 ENT_nose-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_003.json",
+    "quizTitle": "Rhinology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2bcb4c85-ae5a-4aff-97a5-112b3fd58317",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

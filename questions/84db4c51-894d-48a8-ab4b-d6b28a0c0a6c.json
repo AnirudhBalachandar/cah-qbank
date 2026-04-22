@@ -1,0 +1,69 @@
+{
+  "id": "84db4c51-894d-48a8-ab4b-d6b28a0c0a6c",
+  "stem": "Which differential diagnosis for Guillain-Barré Syndrome should be particularly considered during the springtime?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Botulism",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tick paralysis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Spinal cord infarction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Myasthenia Gravis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source suggests examining for ticks in the spring as their toxins can mimic the acute weakness seen in GBS.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.792Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dcae669c2243570f57f0",
+  "rationale": "Consider an environmental factor or a small creature that might be more active during that season.",
+  "optionExplanations": {
+    "A": "Botulism causes descending paralysis and is not specifically linked to springtime seasonality in the source.",
+    "B": "The source suggests examining for ticks in the spring as their toxins can mimic the acute weakness seen in GBS.",
+    "C": "Infarction is a vascular event that is not associated with seasonal changes or environmental exposures like ticks.",
+    "D": "This is a neuromuscular junction disorder that presents with fatigue rather than the acute seasonal risk mentioned."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider an environmental factor or a small creature that might be more active during that season.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "questionIndex": 13,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

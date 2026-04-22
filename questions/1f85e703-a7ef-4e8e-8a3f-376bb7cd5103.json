@@ -1,0 +1,69 @@
+{
+  "id": "1f85e703-a7ef-4e8e-8a3f-376bb7cd5103",
+  "stem": "Which clinical feature is specifically associated with adenovirus pharyngitis that helps distinguish it from other common respiratory viruses?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Conjunctivitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Gray exudate",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Strawberry tongue",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Vesicles on the palms and soles",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adenovirus often presents with higher fevers and more significant pain than other viruses, frequently accompanied by eye inflammation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+      "title": "00004 ENT the throat-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.925Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2fde96353a3b04d3510f",
+  "rationale": "Look for a symptom that involves the eyes in addition to the throat.",
+  "optionExplanations": {
+    "A": "Adenovirus often presents with higher fevers and more significant pain than other viruses, frequently accompanied by eye inflammation.",
+    "B": "While exudate can occur in various infections, a thick gray exudate is more classically associated with Epstein-Barr Virus (glandular fever).",
+    "C": "This is a characteristic sign of scarlet fever, which is a complication of group A streptococcal infection rather than a viral etiology.",
+    "D": "These cutaneous findings are typical of hand, foot, and mouth disease, usually caused by Coxsackie virus."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a symptom that involves the eyes in addition to the throat.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "4",
+    "lectureTitle": "00004 ENT the throat-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_004.json",
+    "quizTitle": "Throat Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e60d347c-5b08-437d-97c1-f33d7aab798e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "e7dacaed-65ee-4519-908e-2ec5965e4590",
+  "stem": "According to the definition provided by the World Health Organization (WHO), what is a defining characteristic of an Adverse Event Following Immunization (AEFI)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It must have a proven causal relationship with the vaccine.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is any untoward medical occurrence that follows immunization.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It only refers to systemic reactions like fever or seizures.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It must occur within the first 24 hours post-vaccination.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An AEFI is defined broadly as any medical incident occurring after vaccination, regardless of whether the vaccine caused it.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+      "title": "00028 immunisation_adverse-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.412Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-12e651ec861f0df244c8",
+  "rationale": "Consider whether the term 'following' implies a guaranteed cause-and-effect relationship.",
+  "optionExplanations": {
+    "A": "The definition specifically states that an AEFI does not necessarily have a causal relationship with the usage of the vaccine.",
+    "B": "An AEFI is defined broadly as any medical incident occurring after vaccination, regardless of whether the vaccine caused it.",
+    "C": "AEFIs include local reactions, such as injection site swelling, as well as systemic occurrences.",
+    "D": "While many reactions occur early, some AEFIs, like those following live vaccines, can occur days or weeks later."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether the term 'following' implies a guaranteed cause-and-effect relationship.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "28",
+    "lectureTitle": "00028 immunisation_adverse-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_028.json",
+    "quizTitle": "Adverse Events Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cf918a82-1574-470a-a4b0-edd95be5ab28",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

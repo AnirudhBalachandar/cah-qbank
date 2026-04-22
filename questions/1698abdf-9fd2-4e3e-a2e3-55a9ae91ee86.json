@@ -1,0 +1,69 @@
+{
+  "id": "1698abdf-9fd2-4e3e-a2e3-55a9ae91ee86",
+  "stem": "What is a primary reason why spirometry is often not a reliable diagnostic tool for very young children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Children have a higher physiological capacity to deteriorate quickly compared to adults.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Poor technique and low reproducibility of the results in this age group.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The $FEV_1$ to $FVC$ ratio remains constant in children regardless of airway obstruction.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Medication side effects in children interfere with the lung volume measurements.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Spirometry requires specific, forceful breathing maneuvers that young children often struggle to perform consistently or correctly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.039Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-80b3f89c0d5e7974cc64",
+  "rationale": "Consider the level of cooperation and physical coordination required to perform a forced exhalation test.",
+  "optionExplanations": {
+    "A": "While true that children deteriorate quickly, this is a clinical observation of their condition rather than a technical limitation of the lung function test itself.",
+    "B": "Spirometry requires specific, forceful breathing maneuvers that young children often struggle to perform consistently or correctly.",
+    "C": "The ratio does change with obstruction; the issue is the child's ability to perform the test accurately enough to measure that change.",
+    "D": "Side effects like growth changes or behavioral issues do not directly prevent the measurement of lung volumes during the test."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the level of cooperation and physical coordination required to perform a forced exhalation test.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

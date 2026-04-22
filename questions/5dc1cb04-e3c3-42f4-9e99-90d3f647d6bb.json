@@ -1,0 +1,69 @@
+{
+  "id": "5dc1cb04-e3c3-42f4-9e99-90d3f647d6bb",
+  "stem": "A 10-month-old presents with a history of coryza, tachypnea, and audible wheezing. Which clinical finding would most strongly suggest a diagnosis of croup over bronchiolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The presence of a barking cough and inspiratory stridor.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The presence of fine crackles on chest auscultation.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Oxygen saturations of $94\\%$ in room air.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A history of prematurity at 35 weeks.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Barking cough and stridor are hallmark signs of upper airway obstruction seen in croup, whereas wheezing is associated with bronchiolitis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+      "title": "00019 Bronchiolitis and Cr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.285Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-284863d5f903ea55831c",
+  "rationale": "Focus on the specific auditory signs that differentiate upper airway narrowing from lower airway obstruction.",
+  "optionExplanations": {
+    "A": "Barking cough and stridor are hallmark signs of upper airway obstruction seen in croup, whereas wheezing is associated with bronchiolitis.",
+    "B": "Crackles are more commonly associated with bronchiolitis or pneumonia rather than the upper airway narrowing of croup.",
+    "C": "Normal or near-normal saturations can be seen in mild cases of both conditions and do not distinguish between them.",
+    "D": "Prematurity is a risk factor for more severe bronchiolitis but is not a diagnostic tool for distinguishing it from croup."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific auditory signs that differentiate upper airway narrowing from lower airway obstruction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "19",
+    "lectureTitle": "00019 Bronchiolitis and Cr-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_019.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "803ce9ff-ed81-41dd-8916-47b92839b68a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

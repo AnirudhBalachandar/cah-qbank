@@ -1,0 +1,69 @@
+{
+  "id": "c99a43e5-5b76-47cc-93b5-5da851bebc66",
+  "stem": "Why is the use of codeine now avoided for post-operative pain relief in children undergoing tonsillectomy for obstructive sleep apnea (OSA)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It significantly increases the risk of secondary hemorrhage.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Some children are hyper-metabolizers who produce dangerous levels of morphine.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It causes gastrointestinal complications like ulcers.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It interferes with the healing of the tonsillar bed.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Genetic variations can cause rapid conversion of codeine to morphine, leading to respiratory depression and death, particularly in children with already compromised airways.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+      "title": "00004 ENT the throat-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.019Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-65aa16fc5a842eb69e2b",
+  "rationale": "Focus on how the body processes the drug and the risk of respiratory depression.",
+  "optionExplanations": {
+    "A": "Hemorrhage is a serious complication, but it is typically related to surgical site healing rather than the specific metabolism of codeine.",
+    "B": "Genetic variations can cause rapid conversion of codeine to morphine, leading to respiratory depression and death, particularly in children with already compromised airways.",
+    "C": "Gastrointestinal concerns are more commonly associated with the use of non-steroidal anti-inflammatory drugs like Nurofen (ibuprofen).",
+    "D": "Codeine does not directly affect tissue regeneration; its primary risks are related to central nervous system and respiratory effects."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on how the body processes the drug and the risk of respiratory depression.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "4",
+    "lectureTitle": "00004 ENT the throat-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_004.json",
+    "quizTitle": "Throat Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e60d347c-5b08-437d-97c1-f33d7aab798e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

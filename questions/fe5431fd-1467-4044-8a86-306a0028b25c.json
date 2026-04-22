@@ -1,0 +1,69 @@
+{
+  "id": "fe5431fd-1467-4044-8a86-306a0028b25c",
+  "stem": "Which assessment tool is noted for having an accuracy of greater than $90\\%$ in monitoring sleep-wake activity and is considered more accurate than a Fitbit?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Actigraphy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Sleep diaries",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Formal Polyomnography",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Flender's Fatigue Scale",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Actigraphy monitors light and movement and has been validated as a highly accurate tool for estimating sleep patterns outside of a lab.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:37.461Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e3f8a7f93d8f12d3bfc4",
+  "rationale": "This device is worn on the wrist and measures light exposure and movement.",
+  "optionExplanations": {
+    "A": "Actigraphy monitors light and movement and has been validated as a highly accurate tool for estimating sleep patterns outside of a lab.",
+    "B": "While useful, sleep diaries are subjective and prone to recall bias, making them less precise than objective movement monitoring.",
+    "C": "While the gold standard, the $90\\%$ accuracy comparison specifically refers to the wearable actigraphy device's performance in field settings.",
+    "D": "This is a questionnaire designed to measure fatigue levels, not a device that monitors light and movement."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This device is worn on the wrist and measures light exposure and movement.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "8c8620bc-822f-414b-803d-bfa80ab80d43",
+  "stem": "Before 'stepping up' asthma therapy due to poor control, what critical steps must a clinician perform according to the guidelines?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Conduct a formal lung function test and a skin prick allergy test.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Review the child's inhaler technique and verify medication compliance.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immediately switch to a different class of medication to rule out drug resistance.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Consult a respiratory physician for any child aged 1 to 5 years.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "It is essential to ensure the child is actually receiving the current dose correctly before assuming the medication itself is failing.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.649Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6087d0f18f91992ba20b",
+  "rationale": "Check if the medication is actually reaching the lungs and if the family is following the prescribed schedule.",
+  "optionExplanations": {
+    "A": "While useful, these are not the primary mandatory reviews mentioned before adjusting the medication level.",
+    "B": "It is essential to ensure the child is actually receiving the current dose correctly before assuming the medication itself is failing.",
+    "C": "The first response to poor control should be checking the current regimen's execution, not automatically changing the drug class.",
+    "D": "General practitioners can manage initial step-ups; specialist consultation is recommended for high-dose or specialized add-on therapy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Check if the medication is actually reaching the lungs and if the family is following the prescribed schedule.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

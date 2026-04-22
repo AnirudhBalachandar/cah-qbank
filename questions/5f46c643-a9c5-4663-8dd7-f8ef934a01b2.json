@@ -1,0 +1,69 @@
+{
+  "id": "5f46c643-a9c5-4663-8dd7-f8ef934a01b2",
+  "stem": "A neonatal X-ray shows the stomach and bubbly lucencies in the left hemithorax with a shift of the heart to the right. What is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Congenital Diaphragmatic Hernia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Necrotizing Pneumonia with pneumatocele",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Severe Hyaline Membrane Disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bronchopleural Fistula",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lecture describes this condition as abdominal contents (bowel, stomach) herniating into the chest, causing mediastinal shift and lung hypoplasia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.527Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-98c7818bb6292150fbeb",
+  "rationale": "Look for a structural defect that allows organs to move from the abdomen to the chest.",
+  "optionExplanations": {
+    "A": "The lecture describes this condition as abdominal contents (bowel, stomach) herniating into the chest, causing mediastinal shift and lung hypoplasia.",
+    "B": "While pneumonia can show lucencies, it does not typically involve the herniation of abdominal organs like the stomach.",
+    "C": "HMD presents with a diffuse granular pattern throughout the lungs, not localized abdominal contents in the thorax.",
+    "D": "A fistula creates a communication for air but does not cause the migration of the stomach into the chest."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a structural defect that allows organs to move from the abdomen to the chest.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

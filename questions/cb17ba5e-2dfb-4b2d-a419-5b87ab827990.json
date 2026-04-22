@@ -1,0 +1,69 @@
+{
+  "id": "cb17ba5e-2dfb-4b2d-a419-5b87ab827990",
+  "stem": "Why would a clinician choose to use DTPA instead of MAG 3 for a functional scan?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To perform a formal GFR scan in addition to looking for obstruction.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Because the patient is a very young infant.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because DTPA is non-invasive.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To identify areas of cortical scarring.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "DTPA has the unique advantage of allowing for a formal measurement of the glomerular filtration rate during the assessment of obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+      "title": "00044 Renal_imaging of the-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.974Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5ab7a5ac67924d360106",
+  "rationale": "Consider the specific physiological measurement that DTPA can provide beyond simple visualization.",
+  "optionExplanations": {
+    "A": "DTPA has the unique advantage of allowing for a formal measurement of the glomerular filtration rate during the assessment of obstruction.",
+    "B": "MAG 3 is actually the more common tracer used for younger children.",
+    "C": "Both MAG 3 and DTPA are nuclear medicine scans that require intravenous tracer injection.",
+    "D": "Cortical scarring is identified by a DMSA scan, not DTPA or MAG 3."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific physiological measurement that DTPA can provide beyond simple visualization.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "44",
+    "lectureTitle": "00044 Renal_imaging of the-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_044.json",
+    "quizTitle": "Renal Imaging Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8b2444f-bf56-4c42-8ce9-db4bf1399a9a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

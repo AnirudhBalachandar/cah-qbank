@@ -1,0 +1,69 @@
+{
+  "id": "ed4ca61a-cf67-4192-99c2-419bcf32a772",
+  "stem": "What distinguishes Pulmonary Interstitial Emphysema (PIE) on a neonatal X-ray?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A sharp, clear plural line with no lung markings beyond it.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Radiating bubbly lucencies extending from the hilum into the supporting lung structures.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A uniform triangular density suggesting lobar collapse.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The appearance of 'angel wings' due to air in the pericardium.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "PIE is a complication of positive pressure ventilation where air leaks into the interstitial supporting structures of the lung.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.563Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e555f38f93466de3f8a9",
+  "rationale": "Focus on the pattern of air trapped within the tissue that supports the airways.",
+  "optionExplanations": {
+    "A": "This describes a pneumothorax, not interstitial emphysema.",
+    "B": "PIE is a complication of positive pressure ventilation where air leaks into the interstitial supporting structures of the lung.",
+    "C": "Uniform triangular densities are characteristic of atelectasis (collapse), not PIE.",
+    "D": "Angel wings refer to pneumomediastinum affecting the thymus; air in the pericardium is pneumopericardium."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the pattern of air trapped within the tissue that supports the airways.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "questionIndex": 11,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

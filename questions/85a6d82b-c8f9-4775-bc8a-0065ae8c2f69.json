@@ -1,0 +1,69 @@
+{
+  "id": "85a6d82b-c8f9-4775-bc8a-0065ae8c2f69",
+  "stem": "How should a caregiver respond if a child shows signs of both a mild allergic reaction and anaphylaxis simultaneously?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Administer adrenaline immediately and do not delay for antihistamines.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Give a non-sedating antihistamine first to see if the symptoms resolve.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wait for 15 minutes to monitor if the breathing difficulties worsen.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Administer an oral corticosteroid as the primary first-line management.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adrenaline is the life-saving first-line treatment for anaphylaxis; antihistamines can be given afterward if needed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+      "title": "00032 Year 3 CAH Allergy a-s1-low (2).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.635Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b64982ba319899aac108",
+  "rationale": "Identify the most critical medication that addresses life-threatening symptoms immediately.",
+  "optionExplanations": {
+    "A": "Adrenaline is the life-saving first-line treatment for anaphylaxis; antihistamines can be given afterward if needed.",
+    "B": "Antihistamines do not treat the life-threatening respiratory or cardiovascular symptoms of anaphylaxis.",
+    "C": "Delaying adrenaline can lead to worse outcomes in cases of anaphylaxis.",
+    "D": "The source explicitly states there is no role for corticosteroids in the first-line management of anaphylaxis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the most critical medication that addresses life-threatening symptoms immediately.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "32",
+    "lectureTitle": "00032 Year 3 CAH Allergy a-s1-low (2).mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_032.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e70b8ea9-d86e-4479-a30e-e0961c324e09",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

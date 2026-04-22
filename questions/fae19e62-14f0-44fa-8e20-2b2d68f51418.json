@@ -1,0 +1,69 @@
+{
+  "id": "fae19e62-14f0-44fa-8e20-2b2d68f51418",
+  "stem": "Which nuclear medicine scan is the gold standard for identifying renal scarring?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "DMSA scan",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "MAG 3 scan",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "DTPA scan",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "CT scan",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "DMSA binds to healthy renal cortical tissue, making it the most sensitive tool for identifying areas of permanent damage or scarring.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+      "title": "00044 Renal_imaging of the-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.834Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-80678821bdd46fb6dd37",
+  "rationale": "This scan is described as a 'static' scan rather than a functional one.",
+  "optionExplanations": {
+    "A": "DMSA binds to healthy renal cortical tissue, making it the most sensitive tool for identifying areas of permanent damage or scarring.",
+    "B": "MAG 3 is a functional scan primarily used to assess the drainage and excretion of urine rather than cortical scarring.",
+    "C": "While DTPA is a nuclear scan, it is used for checking obstruction or calculating GFR rather than finding scars.",
+    "D": "CT is excellent for stones or tumors, but it is not the primary choice for detecting subtle renal cortical scars."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This scan is described as a 'static' scan rather than a functional one.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "44",
+    "lectureTitle": "00044 Renal_imaging of the-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_044.json",
+    "quizTitle": "Renal Imaging Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8b2444f-bf56-4c42-8ce9-db4bf1399a9a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

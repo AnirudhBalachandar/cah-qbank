@@ -1,0 +1,69 @@
+{
+  "id": "66020551-5f73-45e8-a5ea-3b90ccaa1d02",
+  "stem": "What is the primary definitive surgical treatment for biliary atresia in infants?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Kasai portoenterostomy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediate liver transplantation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Cholecystectomy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Endoscopic retrograde cholangiopancreatography (ERCP)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This surgery involves connecting a loop of the small intestine directly to the liver hilum to facilitate bile drainage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.703Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ab5ae7d9af763930f231",
+  "rationale": "This procedure is named after a Japanese surgeon and involves a Roux-en-Y intestinal loop.",
+  "optionExplanations": {
+    "A": "This surgery involves connecting a loop of the small intestine directly to the liver hilum to facilitate bile drainage.",
+    "B": "While many patients eventually need a transplant, the Kasai procedure is the first-line attempt to preserve the native liver.",
+    "C": "Removing the gallbladder does not address the underlying progressive destruction and scarring of the extrahepatic bile ducts.",
+    "D": "ERCP is a diagnostic and therapeutic tool for certain biliary issues but cannot repair the idiopathic ductal damage found in biliary atresia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This procedure is named after a Japanese surgeon and involves a Roux-en-Y intestinal loop.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 4,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

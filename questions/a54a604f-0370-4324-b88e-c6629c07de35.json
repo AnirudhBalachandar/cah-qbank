@@ -1,0 +1,69 @@
+{
+  "id": "a54a604f-0370-4324-b88e-c6629c07de35",
+  "stem": "What clinical sign was noted as evidence of a luxation injury in the case of the three-year-old who was punched?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Visible darkening of the crown",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Blood at the gingival margin",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Complete avulsion of the tooth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fracture of the enamel only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The presence of blood at the gum line (gingival margin) is a key clinical indicator that the tooth has been loosened or displaced.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+      "title": "00081 Dentistry_infections-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:37.659Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c8edbb4a047be71e47ce",
+  "rationale": "Look for a sign involving the soft tissue immediately surrounding the base of the tooth.",
+  "optionExplanations": {
+    "A": "Discoloration may happen later, but the immediate sign mentioned was related to the area where the tooth meets the gum.",
+    "B": "The presence of blood at the gum line (gingival margin) is a key clinical indicator that the tooth has been loosened or displaced.",
+    "C": "The tooth was loosened (luxated), not completely knocked out (avulsed).",
+    "D": "A fracture was noted on the adjacent tooth, but the luxation specifically refers to the loosening of the other tooth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a sign involving the soft tissue immediately surrounding the base of the tooth.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "81",
+    "lectureTitle": "00081 Dentistry_infections-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_081.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0b63884-45a6-42c2-bb61-89ab7f81259e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

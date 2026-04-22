@@ -1,0 +1,69 @@
+{
+  "id": "219229cf-ef6c-464c-a815-aa323b4946c2",
+  "stem": "What percentage of patients with childhood-onset Systemic Lupus Erythematosus (SLE) die within a 10-year period?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$1\\%$ to $5\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$10\\%$ to $20\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$25\\%$ to $40\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$50\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that $10$ to $20\\%$ of patients die within $10$ years, resulting in an $80$ to $90\\%$ survival rate.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+      "title": "00098 Rheumatology_non juv-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.146Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cdd21293418f923f3c9e",
+  "rationale": "The lecturer mentions a survival rate of $80$ to $90\\%$.",
+  "optionExplanations": {
+    "A": "This range underestimates the mortality rate mentioned in the lecture for childhood-onset cases.",
+    "B": "The source states that $10$ to $20\\%$ of patients die within $10$ years, resulting in an $80$ to $90\\%$ survival rate.",
+    "C": "This rate is higher than the mortality statistics provided for the 10-year survival period.",
+    "D": "While SLE is serious, the survival rate is significantly higher than $50\\%$."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The lecturer mentions a survival rate of $80$ to $90\\%$.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "98",
+    "lectureTitle": "00098 Rheumatology_non juv-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_098.json",
+    "quizTitle": "Rheumatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b2902fa3-3b44-4a19-af87-5f49cdf7e31f",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

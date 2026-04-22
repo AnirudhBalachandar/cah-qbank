@@ -1,0 +1,69 @@
+{
+  "id": "910660c3-d8aa-4c14-bbb2-784a26e978eb",
+  "stem": "How does the distribution of sleep stages change between the first and second halves of a typical night's sleep?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The first half has more REM sleep, while the second half has more slow-wave sleep.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The distribution of REM and non-REM sleep is uniform throughout the night.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The first half has predominantly slow-wave sleep, while the second half has more REM sleep.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Stage 1 sleep is only present in the second half of the night.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "According to the hypnogram description, slow-wave sleep is concentrated in the first half, and REM sleep increases toward the second half.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.480Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c8d5a786ba8a87f68b41",
+  "rationale": "Deep, slow-wave sleep generally occurs earlier to prioritize physical restoration.",
+  "optionExplanations": {
+    "A": "This is the reverse of the actual architecture; deep restorative sleep typically occurs earlier.",
+    "B": "Sleep architecture is cyclical and structured, with different stages predominating at different times.",
+    "C": "According to the hypnogram description, slow-wave sleep is concentrated in the first half, and REM sleep increases toward the second half.",
+    "D": "Stage 1 occurs at the onset of sleep and during transitions between cycles throughout the night."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Deep, slow-wave sleep generally occurs earlier to prioritize physical restoration.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

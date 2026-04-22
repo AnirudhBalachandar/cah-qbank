@@ -1,0 +1,54 @@
+{
+  "id": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+  "stem": "A 4-year-old with viral gastroenteritis is alert, drinking small sips, and has mild dehydration. What is the most appropriate immediate management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Start oral rehydration solution and provide safety-net advice",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediate IV broad-spectrum antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Urgent CT abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Routine fasting until diarrhoea stops",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Discharge without hydration advice",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A child with mild dehydration who is alert and able to drink is usually managed with oral rehydration and clear return precautions. Escalation depends on severity, oral tolerance, and red flags.",
+  "citations": [],
+  "tags": [
+    "general-paediatrics",
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-16T00:56:40.680Z",
+  "sourceFingerprint": "seed:dev-sample-sba-cah-v1",
+  "rationale": "Seed fallback question for local runtime and smoke validation.",
+  "optionExplanations": {},
+  "moduleCode": "CAH 00",
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "file": "seed.ts",
+    "originalQNumber": "seed-1",
+    "sectionTitle": "Development Seed"
+  }
+}

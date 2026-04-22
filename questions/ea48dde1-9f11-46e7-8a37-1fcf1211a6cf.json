@@ -1,0 +1,69 @@
+{
+  "id": "ea48dde1-9f11-46e7-8a37-1fcf1211a6cf",
+  "stem": "In the management of Stevens-Johnson syndrome, what is the purpose of 'sweeping' the fornices with a glass rod?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To prevent the mucous membranes from sticking together and forming symblepharon.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To collect epithelial cells for PCR testing and diagnosis confirmation.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To apply topical acyclovir ointment deep into the upper eyelid.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To remove alkali particles that have become embedded in the conjunctiva.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "During healing, the conjunctival surfaces can adhere to each other; sweeping prevents these adhesions (symblepharon) which lead to dry eye and scarring.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.776Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5a84ded97f78339180a3",
+  "rationale": "This procedure is done to stop different parts of the eye's lining from fusing together during healing.",
+  "optionExplanations": {
+    "A": "During healing, the conjunctival surfaces can adhere to each other; sweeping prevents these adhesions (symblepharon) which lead to dry eye and scarring.",
+    "B": "Diagnosis is usually clinical based on systemic symptoms; the glass rod is a therapeutic tool to prevent adhesions, not a diagnostic one.",
+    "C": "Acyclovir is used for HSV; Stevens-Johnson syndrome requires lubricants and prevention of mechanical adhesions.",
+    "D": "Particle removal is part of chemical burn management, whereas the glass rod in Stevens-Johnson is for preventing tissue fusion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This procedure is done to stop different parts of the eye's lining from fusing together during healing.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

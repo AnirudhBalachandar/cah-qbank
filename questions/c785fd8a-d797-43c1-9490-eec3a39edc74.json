@@ -1,0 +1,69 @@
+{
+  "id": "c785fd8a-d797-43c1-9490-eec3a39edc74",
+  "stem": "What is the specific requirement for the liquid form of the proton pump inhibitor Omeprazole to remain active?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It must be kept at room temperature",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It must be kept in the fridge",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It must be mixed with orange juice",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It must be shielded from all light sources",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Compounded liquid omeprazole is unstable and requires refrigeration to maintain its pharmacological activity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+      "title": "00009 Common_Problems_Refl-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.054Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e37160ad24d5aaad411d",
+  "rationale": "This medication's stability is highly dependent on a cold storage environment.",
+  "optionExplanations": {
+    "A": "Storing compounded omeprazole at room temperature can lead to rapid degradation of the active ingredient.",
+    "B": "Compounded liquid omeprazole is unstable and requires refrigeration to maintain its pharmacological activity.",
+    "C": "Acidic environments can actually trigger the release or degradation of certain PPI formulations prematurely if not handled correctly.",
+    "D": "While light can affect many drugs, the primary stability concern mentioned for compounded omeprazole is temperature."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This medication's stability is highly dependent on a cold storage environment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "9",
+    "lectureTitle": "00009 Common_Problems_Refl-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_009.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "697e57bc-023f-44bd-86ac-677e97816216",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "55709a1d-7fa7-4aea-ac46-d95c3a0889e0",
+  "stem": "How is Cyclical Neutropenia typically diagnosed in a clinical setting?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "By a single blood test showing a neutrophil count of zero.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "By performing a bone marrow biopsy immediately upon presentation.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "By serial full blood counts taken 2-3 times a week for 6-8 weeks.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "By checking for maternal antibodies in the infant's serum.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Establishing a diagnosis requires documenting a strict pattern of neutrophil fluctuations, which usually follow a 21-day cycle.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.570Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e52a06fa9137c905e55f",
+  "rationale": "This diagnosis relies on proving a recurring temporal pattern of blood counts.",
+  "optionExplanations": {
+    "A": "A single test cannot establish a cycle; it could merely represent a transient dip due to a common virus.",
+    "B": "A biopsy might show maturation arrest but is not the primary way to track the characteristic timing of the cycles.",
+    "C": "Establishing a diagnosis requires documenting a strict pattern of neutrophil fluctuations, which usually follow a 21-day cycle.",
+    "D": "This test is used for alloimmune neonatal neutropenia, which is a transient condition of the newborn, not a cyclical genetic disorder."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This diagnosis relies on proving a recurring temporal pattern of blood counts.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

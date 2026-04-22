@@ -1,0 +1,69 @@
+{
+  "id": "a964ea23-50c2-4144-bae2-fee625ed3d89",
+  "stem": "Why must a clinician differentiate 'wheeze' from other airway sounds like 'stridor' or 'secretions' during a physical exam?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because stridor is always caused by a foreign body in the lower airway.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To avoid over-diagnosing asthma in children who actually have upper airway obstruction or simple congestion.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Because wheeze is the only sound that responds to oxygen therapy.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because stridor indicates a chronic underlying inflammatory process like asthma.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Wheeze is a lower airway sound; confusing it with upper airway sounds (stridor) or congestion (secretions) can lead to an incorrect asthma diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.199Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3159bf868e58043468b5",
+  "rationale": "Consider where in the respiratory tract these different sounds originate.",
+  "optionExplanations": {
+    "A": "Stridor usually signifies an upper airway problem, and while a foreign body is possible, it is not the 'only' cause.",
+    "B": "Wheeze is a lower airway sound; confusing it with upper airway sounds (stridor) or congestion (secretions) can lead to an incorrect asthma diagnosis.",
+    "C": "Oxygen therapy treats hypoxia, which can occur regardless of the specific type of airway sound present.",
+    "D": "Stridor typically indicates an acute or structural upper airway issue, whereas asthma involves the lower airways."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider where in the respiratory tract these different sounds originate.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "6fb44b53-052a-4b60-a9b6-a892e508cb18",
+  "stem": "On the bell curve of developmental and cognitive abilities, what statistical threshold defines a developmental delay or intellectual disability?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Falling below the $5$th percentile.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Falling more than $1$ standard deviation below the mean.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Falling below $2$ standard deviations below the mean ($< 2$nd percentile).",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Falling within the middle $95$ percent of the curve.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source defines these conditions as occurring when scores fall below $2$ standard deviations below the mean or less than the $2$nd percentile.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:30.180Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0ed715bad3e073a7b040",
+  "rationale": "Think about the specific distance from the average on the bell curve that marks a significant impairment.",
+  "optionExplanations": {
+    "A": "While the $5$th percentile is low, the specific clinical threshold mentioned is more stringent.",
+    "B": "One standard deviation covers a large portion of the population; the clinical definition requires a more significant discrepancy.",
+    "C": "The source defines these conditions as occurring when scores fall below $2$ standard deviations below the mean or less than the $2$nd percentile.",
+    "D": "The middle $95$ percent represents the typical range of development and cognitive abilities."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the specific distance from the average on the bell curve that marks a significant impairment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

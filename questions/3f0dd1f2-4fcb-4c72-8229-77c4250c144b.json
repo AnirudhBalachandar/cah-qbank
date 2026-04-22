@@ -1,0 +1,69 @@
+{
+  "id": "3f0dd1f2-4fcb-4c72-8229-77c4250c144b",
+  "stem": "Why is neuroimaging, specifically an MRI, recommended when cerebral palsy is suspected?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because MRI results are abnormal in approximately $89\\%$ of CP cases",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To determine if the child has Down Syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because it is the only way to diagnose spasticity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To check for spinal muscular atrophy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Since CP involves disruptions to motor tracts, imaging usually reveals these structural abnormalities in the vast majority of cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+      "title": "00067 neurology_motor diff-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.456Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cb3c3391265c881247ca",
+  "rationale": "Think about the high likelihood of visualizing damage to the motor pathways in the brain.",
+  "optionExplanations": {
+    "A": "Since CP involves disruptions to motor tracts, imaging usually reveals these structural abnormalities in the vast majority of cases.",
+    "B": "Down Syndrome is a genetic diagnosis typically identified through clinical features and genetic testing, not primarily by brain MRI.",
+    "C": "Spasticity is a clinical finding determined through physical examination of muscle tone and reflexes.",
+    "D": "Spinal muscular atrophy is a neuromuscular disorder usually diagnosed through genetic testing or EMG, not brain MRI."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the high likelihood of visualizing damage to the motor pathways in the brain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "67",
+    "lectureTitle": "00067 neurology_motor diff-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_067.json",
+    "quizTitle": "Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "06bc7f92-731c-431e-8c5d-1cce38c39168",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

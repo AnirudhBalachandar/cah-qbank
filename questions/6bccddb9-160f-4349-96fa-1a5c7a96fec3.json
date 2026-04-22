@@ -1,0 +1,69 @@
+{
+  "id": "6bccddb9-160f-4349-96fa-1a5c7a96fec3",
+  "stem": "In a primary practice setting, what are the two most important clinical parameters to monitor in a patient recovering from Henoch-Schönlein purpura (HSP)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Joint range of motion and skin integrity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Abdominal ultrasound and stool guaiac",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Urine analysis and blood pressure",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "C-reactive protein and erythrocyte sedimentation rate",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Regular checks of urine and blood pressure are required to ensure the patient is not developing chronic renal impairment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+      "title": "00098 Rheumatology_non juv-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.028Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0f326023594b9e133473",
+  "rationale": "Think about the specific organ system where rare but significant long-term failure can occur.",
+  "optionExplanations": {
+    "A": "While joints and skin are affected during the acute phase, they are not the primary focus for long-term chronic impairment monitoring.",
+    "B": "Abdominal symptoms are common in the acute phase, but the long-term risk relates to different organ systems.",
+    "C": "Regular checks of urine and blood pressure are required to ensure the patient is not developing chronic renal impairment.",
+    "D": "These are general inflammatory markers rather than specific indicators for the rare but serious renal complications of HSP."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the specific organ system where rare but significant long-term failure can occur.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "98",
+    "lectureTitle": "00098 Rheumatology_non juv-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_098.json",
+    "quizTitle": "Rheumatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b2902fa3-3b44-4a19-af87-5f49cdf7e31f",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

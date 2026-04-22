@@ -1,0 +1,69 @@
+{
+  "id": "ac99ef8c-b268-4b82-9b17-73feb021f418",
+  "stem": "Which developmental factor can predispose a child's tooth to infection even without a history of dental repairs?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Oversized pulp chambers",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Premature tooth eruption",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Poor enamel formation in certain grooves",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Excessive mineralization of the root",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Developmental manifestations like poor enamel in grooves can allow bacteria to reach the marrow (pulp) without prior trauma or decay.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+      "title": "00081 Dentistry_infections-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:37.600Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5d545efff8b616324932",
+  "rationale": "Look for a term related to the quality of the tooth's outer protective layer in specific anatomical areas.",
+  "optionExplanations": {
+    "A": "While pulp size varies, the source specifically highlights surface structural defects as the predisposing factor.",
+    "B": "Eruption timing is not mentioned as a cause for the infection pathway described in the text.",
+    "C": "Developmental manifestations like poor enamel in grooves can allow bacteria to reach the marrow (pulp) without prior trauma or decay.",
+    "D": "The problem lies in the lack of protection (poor enamel), not an excess of mineralized tissue."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a term related to the quality of the tooth's outer protective layer in specific anatomical areas.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "81",
+    "lectureTitle": "00081 Dentistry_infections-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_081.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0b63884-45a6-42c2-bb61-89ab7f81259e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

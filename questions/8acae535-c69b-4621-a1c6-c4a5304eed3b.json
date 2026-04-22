@@ -1,0 +1,69 @@
+{
+  "id": "8acae535-c69b-4621-a1c6-c4a5304eed3b",
+  "stem": "What is the most consistent diagnostic criterion for acute otitis media (AOM) in young children, assuming the eardrum can be visualized?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An opaque, bulging tympanic membrane with reduced mobility",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Persistent pulling or tugging at the ear",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A high fever exceeding $39^{\\circ}C$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of a thin, clear fluid behind the drum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This clinical appearance is cited as the most consistent diagnostic sign for identifying AOM.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+      "title": "00002 ENT-ears-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.510Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fc2eff7c607bbd874895",
+  "rationale": "Look for a description of the eardrum's physical shape and its reaction to air pressure.",
+  "optionExplanations": {
+    "A": "This clinical appearance is cited as the most consistent diagnostic sign for identifying AOM.",
+    "B": "The source notes that pulling at the ear is inconsistent and can indicate many different things in a child.",
+    "C": "While fever is a symptom, it is not specific to AOM and can be caused by various other infections or the common cold.",
+    "D": "Clear fluid without signs of inflammation is more characteristic of otitis media with effusion (glue ear) rather than acute infection."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a description of the eardrum's physical shape and its reaction to air pressure.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "2",
+    "lectureTitle": "00002 ENT-ears-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_002.json",
+    "quizTitle": "Otology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2749f85d-0c75-4339-ad80-96e7b5ac47a2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

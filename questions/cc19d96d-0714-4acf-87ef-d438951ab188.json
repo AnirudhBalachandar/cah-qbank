@@ -1,0 +1,69 @@
+{
+  "id": "cc19d96d-0714-4acf-87ef-d438951ab188",
+  "stem": "Why is bile-stained (green) vomiting considered a critical 'red flag' in pediatric patients?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It indicates severe acid reflux",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is a sign of a urinary tract infection",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It may represent a bowel obstruction such as malrotation",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It suggests the child has a cow's milk protein allergy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bile in the vomit suggests that the obstruction is distal to the ampulla of Vater, which can be a life-threatening surgical emergency.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+      "title": "00009 Common_Problems_Refl-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.013Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-de784a7476836e1ef83d",
+  "rationale": "Bile originates from the gallbladder and enters the small intestine, so its presence in vomit suggests a low-level blockage.",
+  "optionExplanations": {
+    "A": "Acid reflux involves stomach contents, whereas bile indicates a potential blockage further down the digestive tract.",
+    "B": "UTIs cause systemic illness and vomiting, but the vomit is not typically bile-stained.",
+    "C": "Bile in the vomit suggests that the obstruction is distal to the ampulla of Vater, which can be a life-threatening surgical emergency.",
+    "D": "Protein allergies typically present with blood in the stool or chronic diarrhea rather than bilious vomiting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Bile originates from the gallbladder and enters the small intestine, so its presence in vomit suggests a low-level blockage.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "9",
+    "lectureTitle": "00009 Common_Problems_Refl-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_009.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "697e57bc-023f-44bd-86ac-677e97816216",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

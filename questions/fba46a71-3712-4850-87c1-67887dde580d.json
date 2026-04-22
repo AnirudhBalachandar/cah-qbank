@@ -1,0 +1,69 @@
+{
+  "id": "fba46a71-3712-4850-87c1-67887dde580d",
+  "stem": "How do conjugate vaccines improve the immune response compared to pure polysaccharide vaccines?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They use genetic engineering to create a synthetic version of the virus.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "By linking the polysaccharide to a protein, the vaccine triggers a $T$-cell dependent response.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They allow the vaccine to be administered orally rather than intramuscularly.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They eliminate the need for an adjuvant like aluminium.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The protein carrier allows the immune system to engage $T$ cells, leading to better memory and $IgG$ production in infants.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.324Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b1a721a79fe0f3452163",
+  "rationale": "Think about what is added to the 'sugar chain' to make the immune system take notice.",
+  "optionExplanations": {
+    "A": "While some vaccines use genetic engineering (like HPV), conjugation specifically refers to linking an antigen to a protein.",
+    "B": "The protein carrier allows the immune system to engage $T$ cells, leading to better memory and $IgG$ production in infants.",
+    "C": "Conjugate vaccines are typically administered by injection; the 'conjugate' refers to the molecular structure, not the route.",
+    "D": "Conjugate vaccines may still utilize adjuvants to enhance the immune response further."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what is added to the 'sugar chain' to make the immune system take notice.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

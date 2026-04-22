@@ -1,0 +1,69 @@
+{
+  "id": "027128a9-85e6-4953-9ddb-66fd11bc5e43",
+  "stem": "What does a 'Type B' tympanogram (a flat line) typically indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The presence of fluid (glue) in the middle ear",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Normal middle ear pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Negative pressure due to eustachian tube dysfunction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An overly floppy or thin eardrum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A flat result means the eardrum is not moving due to fluid or surface tension, characteristic of glue ear.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+      "title": "00002 ENT-ears-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.660Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-32dde9b3fd0302e9fb46",
+  "rationale": "Think about what would happen to the mobility of a drum if the space behind it were filled with thick liquid.",
+  "optionExplanations": {
+    "A": "A flat result means the eardrum is not moving due to fluid or surface tension, characteristic of glue ear.",
+    "B": "Normal pressure and mobility are represented by a Type A tympanogram with a clear peak at zero.",
+    "C": "Negative pressure is represented by a Type C tympanogram, where the peak is shifted.",
+    "D": "A very thin or floppy eardrum would result in a very tall peak, not a flat line."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what would happen to the mobility of a drum if the space behind it were filled with thick liquid.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "2",
+    "lectureTitle": "00002 ENT-ears-s1-low.mp4",
+    "questionIndex": 15,
+    "quizFileName": "quiz_002.json",
+    "quizTitle": "Otology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2749f85d-0c75-4339-ad80-96e7b5ac47a2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "5b379d12-e1ad-4ea6-9bb5-864d46a6731b",
+  "stem": "In the context of serology, what are medical professionals typically measuring to confirm successful immunization?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The concentration of phagocytic cells in the blood.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The presence of antibodies ($immunoglobulins$) in the serum.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The number of naive $B$ and $T$ cells remaining in the lymph nodes.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The levels of aluminium remaining at the injection site.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Serology refers to the study of serum, specifically looking for antibodies produced in response to an antigen.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.386Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-65ed5093f0cd6a55707b",
+  "rationale": "This term relates to the 'humors' or bodily fluids where $B$ cell products circulate.",
+  "optionExplanations": {
+    "A": "Phagocytic cells are part of the innate system and do not indicate antigen-specific immunity.",
+    "B": "Serology refers to the study of serum, specifically looking for antibodies produced in response to an antigen.",
+    "C": "Successful immunization reduces the pool of naive cells by converting them into memory and effector cells.",
+    "D": "Aluminium is an adjuvant, and its presence does not measure the immune system's success in recognizing a pathogen."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This term relates to the 'humors' or bodily fluids where $B$ cell products circulate.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

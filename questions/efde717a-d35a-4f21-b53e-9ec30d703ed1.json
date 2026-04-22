@@ -1,0 +1,69 @@
+{
+  "id": "efde717a-d35a-4f21-b53e-9ec30d703ed1",
+  "stem": "What finding on a chest X-ray can serve as a clinical screen for Severe Combined Immunodeficiency in infants?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Absent thymus shadow.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bilateral reticular infiltrates.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hyperinflation of the lung fields.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Evidence of cardiomegaly.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The thymus is the site of T-cell maturation; its absence on an X-ray suggests a failure in T-cell development, a key feature of SCID.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.189Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ab0e2f5df7f4d6374941",
+  "rationale": "Think about the anatomical location where T-cells are derived and matured.",
+  "optionExplanations": {
+    "A": "The thymus is the site of T-cell maturation; its absence on an X-ray suggests a failure in T-cell development, a key feature of SCID.",
+    "B": "While seen in PJP infections associated with SCID, infiltrates represent infection rather than the underlying anatomical marker of the immune defect.",
+    "C": "Hyperinflation is common in many respiratory conditions like asthma or bronchiolitis and is not specific to immunodeficiency.",
+    "D": "Heart size is generally unrelated to the primary immune defects discussed in the lecture."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the anatomical location where T-cells are derived and matured.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

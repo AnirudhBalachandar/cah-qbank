@@ -1,0 +1,69 @@
+{
+  "id": "461f267c-0950-4289-ae1c-c143af6cf7d6",
+  "stem": "To confirm a diagnosis of Eosinophilic Esophagitis (EoE), what is the minimum number of eosinophils that must be observed per high-powered field (hpf) on a biopsy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$5$ eosinophils per hpf",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$10$ eosinophils per hpf",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$15$ eosinophils per hpf",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$30$ eosinophils per hpf",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The diagnostic criteria for EoE specifically require a finding of at least $15$ eosinophils per high-powered field in the esophageal mucosa.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.753Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-53e8767044d07dd31fd2",
+  "rationale": "Think of the standard numerical threshold used in histopathological criteria for this condition.",
+  "optionExplanations": {
+    "A": "This count is too low to meet the specific histopathological diagnostic criteria for EoE.",
+    "B": "While eosinophils are present, this number does not reach the established threshold for an EoE diagnosis.",
+    "C": "The diagnostic criteria for EoE specifically require a finding of at least $15$ eosinophils per high-powered field in the esophageal mucosa.",
+    "D": "Although higher counts are often seen, the diagnostic threshold starts at a lower specific value."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the standard numerical threshold used in histopathological criteria for this condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "dd3bdb01-e2b1-4613-92ca-8523c04cecbd",
+  "stem": "At what percentage of Total Body Surface Area (TBSA) does a burn typically trigger a systemic inflammatory response in adults?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Greater than $15\\%$.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Greater than $5\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Greater than $10\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Greater than $25\\%$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In adults, a burn involving more than $15\\%$ TBSA results in a systemic response due to cytokines secreted at the site, requiring IV resuscitation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.679Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5ec08d460b97978debee",
+  "rationale": "The threshold for adults is higher than the threshold for children.",
+  "optionExplanations": {
+    "A": "In adults, a burn involving more than $15\\%$ TBSA results in a systemic response due to cytokines secreted at the site, requiring IV resuscitation.",
+    "B": "Burns less than $5\\%$ typically only induce a local inflammatory process rather than a systemic one.",
+    "C": "While $10\\%$ is the threshold for children, adults have a higher threshold of $15\\%$ for systemic response and IV requirements.",
+    "D": "While a $25\\%$ burn is severe, the systemic response and requirement for IV resuscitation begin at a lower threshold."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The threshold for adults is higher than the threshold for children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "a776c58a-189f-4042-8c20-155e6c3382be",
+  "stem": "Ketamine is used as an adjuvant analgesic. Which receptor does it primarily antagonize?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Mu opioid receptor",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "NMDA receptor",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "COX-2 receptor",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "G-protein coupled receptor",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ketamine is an NMDA receptor antagonist, which plays a role in glutamate transmission and nociception.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.932Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bc96a239291f8082d656",
+  "rationale": "This receptor is involved in glutamatergic neurotransmission and central sensitization.",
+  "optionExplanations": {
+    "A": "Mu receptors are the primary targets for traditional opioids like morphine and oxycodone, not ketamine.",
+    "B": "Ketamine is an NMDA receptor antagonist, which plays a role in glutamate transmission and nociception.",
+    "C": "COX-2 is the target for specific non-steroidal anti-inflammatory drugs like celecoxib.",
+    "D": "While opioid receptors are G-protein coupled, ketamine specifically targets the NMDA ionotropic receptor."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This receptor is involved in glutamatergic neurotransmission and central sensitization.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

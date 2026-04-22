@@ -1,0 +1,69 @@
+{
+  "id": "9d495d5c-52a4-44a6-a1d6-a9ca869be854",
+  "stem": "Papillon-Lefèvre syndrome presents with advanced periodontal disease in very young children. What is the underlying systemic defect mentioned in the text?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A lack of salivary flow causing xerostomia.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A neutrophil function disorder.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Chronic gastroesophageal reflux.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A deficiency in Growth Hormone.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The text explicitly links Papillon-Lefèvre syndrome to a neutrophil function defect, leading to severe periodontal destruction and hyperkeratotic skin.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.777Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0d9d67022fc80fe54e8c",
+  "rationale": "The defect involves a specific type of white blood cell responsible for fighting infection.",
+  "optionExplanations": {
+    "A": "While saliva is important, the primary driver of the severe inflammation in this syndrome is a white blood cell issue.",
+    "B": "The text explicitly links Papillon-Lefèvre syndrome to a neutrophil function defect, leading to severe periodontal destruction and hyperkeratotic skin.",
+    "C": "Reflux causes acid erosion of the enamel, not the inflammatory periodontal disease seen in this syndrome.",
+    "D": "Growth Hormone deficiency is associated with SMMCI, not the aggressive periodontal disease found in Papillon-Lefèvre."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The defect involves a specific type of white blood cell responsible for fighting infection.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

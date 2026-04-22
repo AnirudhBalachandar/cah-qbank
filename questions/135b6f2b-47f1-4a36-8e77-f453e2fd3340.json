@@ -1,0 +1,69 @@
+{
+  "id": "135b6f2b-47f1-4a36-8e77-f453e2fd3340",
+  "stem": "Which of the following tests is identified as lacking clinical evidence and should NOT be trusted for food allergy diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$IgG$ testing to foods",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Serum specific $IgE$ testing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Oral food challenges",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Component resolved diagnostics",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "There is no clinical evidence supporting the use of $IgG$ antibodies to diagnose food allergies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+      "title": "00031 Year 3 CAH Allergy a-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.464Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-982c61fee6d36e3a43c6",
+  "rationale": "Look for a test involving an immunoglobulin class not typically associated with immediate allergic reactions.",
+  "optionExplanations": {
+    "A": "There is no clinical evidence supporting the use of $IgG$ antibodies to diagnose food allergies.",
+    "B": "Serum specific $IgE$ is a validated, evidence-based method used in allergy investigations.",
+    "C": "Oral food challenges are considered the gold standard for diagnosing food allergies.",
+    "D": "Component testing is a sophisticated, evidence-based diagnostic tool for specific protein sensitivities."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a test involving an immunoglobulin class not typically associated with immediate allergic reactions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "31",
+    "lectureTitle": "00031 Year 3 CAH Allergy a-s1-low (1).mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_031.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "40c41a73-b27e-4dfa-acd7-d58320f7e14e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

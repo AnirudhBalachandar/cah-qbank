@@ -1,0 +1,69 @@
+{
+  "id": "acf57bbf-e663-4ff9-b005-6ef68128c3c2",
+  "stem": "What is a primary risk associated with giving bolus feeds directly into the jejunum via a trans-pyloric tube?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Dumping syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Eosinophilic esophagitis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Sandifer syndrome",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The jejunum cannot handle large boluses like the stomach can, which can lead to rapid osmotic shifts and blood sugar fluctuations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+      "title": "00009 Common_Problems_Refl-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.117Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cfcb8998341f54c4429c",
+  "rationale": "Consider the physiological reaction of the small intestine to a sudden influx of high-volume nutrients.",
+  "optionExplanations": {
+    "A": "Pyloric stenosis is a muscular thickening and is not caused by feeding methods.",
+    "B": "The jejunum cannot handle large boluses like the stomach can, which can lead to rapid osmotic shifts and blood sugar fluctuations.",
+    "C": "This is an allergic condition and is unrelated to the rate or location of tube feeding delivery.",
+    "D": "Sandifer syndrome is a symptom of reflux itself, not a complication of jejunal feeding."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the physiological reaction of the small intestine to a sudden influx of high-volume nutrients.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "9",
+    "lectureTitle": "00009 Common_Problems_Refl-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_009.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "697e57bc-023f-44bd-86ac-677e97816216",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

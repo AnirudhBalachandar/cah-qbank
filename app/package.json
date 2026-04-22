@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest run --passWithNoTests",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "prisma:generate": "prisma generate --schema prisma/schema.prisma",
+    "prisma:push": "prisma db push --schema prisma/schema.prisma --skip-generate"
   },
   "dependencies": {
     "@prisma/client": "^6.0.0",

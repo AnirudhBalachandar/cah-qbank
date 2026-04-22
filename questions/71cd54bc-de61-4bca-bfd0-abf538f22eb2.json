@@ -1,0 +1,69 @@
+{
+  "id": "71cd54bc-de61-4bca-bfd0-abf538f22eb2",
+  "stem": "Why is mineral oil generally not recommended for treating constipation in infants under one year of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is ineffective in that age group",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It causes severe diarrhea",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Risk of aspiration",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It interferes with breast milk absorption",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mineral oil poses a significant risk of aspiration in infants, which can lead to serious respiratory issues.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+      "title": "00006 common-problems-cons-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.431Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-886eadcd78eefc8a09f4",
+  "rationale": "Consider the potential respiratory dangers associated with administering oils to very young children.",
+  "optionExplanations": {
+    "A": "Mineral oil is effective as a stool softener, but its safety profile is the primary concern for infants.",
+    "B": "The concern is not the primary effect on the bowels, but a secondary respiratory risk.",
+    "C": "Mineral oil poses a significant risk of aspiration in infants, which can lead to serious respiratory issues.",
+    "D": "There is no evidence cited that it specifically prevents the absorption of nutrients from breast milk."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the potential respiratory dangers associated with administering oils to very young children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "6",
+    "lectureTitle": "00006 common-problems-cons-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_006.json",
+    "quizTitle": "Constipation Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b50f57df-c86d-49e8-b079-40a148286d26",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

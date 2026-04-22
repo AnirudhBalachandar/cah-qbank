@@ -1,0 +1,69 @@
+{
+  "id": "600f8b73-7e98-4da0-a15b-3d0b62ac6e2e",
+  "stem": "Which screening test is specifically recommended for detecting Celiac disease in children who are known to have an $\\text{IgA}$ deficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deamidated antigliadin antibody ($\\text{IgG}$ based).",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Tissue transglutaminase antibody ($\\text{IgA}$ based).",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Combined antigliadin $\\text{IgA}$ and $\\text{IgG}$ antibody panel.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Anti-endomysial antibody ($\\text{IgA}$ based).",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Since standard Celiac screens rely on $\\text{IgA}$, an $\\text{IgG}$-based test like the deamidated antigliadin antibody is necessary for accurate screening in $\\text{IgA}$-deficient patients.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+      "title": "00026 diarrhoea-assessment-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.021Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d98ee103d40e7a0c25f1",
+  "rationale": "Standard screening involves $\\text{IgA}$ antibodies, so a patient lacking $\\text{IgA}$ would require a test based on a different immunoglobulin class.",
+  "optionExplanations": {
+    "A": "Since standard Celiac screens rely on $\\text{IgA}$, an $\\text{IgG}$-based test like the deamidated antigliadin antibody is necessary for accurate screening in $\\text{IgA}$-deficient patients.",
+    "B": "This is the standard screen for the general population, but it will yield a false negative in children who cannot produce $\\text{IgA}$.",
+    "C": "The source material notes that the combined antigliadin $\\text{IgA}$ and $\\text{IgG}$ test is no longer recommended or reliable.",
+    "D": "While highly specific, this is an $\\text{IgA}$-based test and would be ineffective in a patient with an $\\text{IgA}$ deficiency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Standard screening involves $\\text{IgA}$ antibodies, so a patient lacking $\\text{IgA}$ would require a test based on a different immunoglobulin class.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "26",
+    "lectureTitle": "00026 diarrhoea-assessment-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_026.json",
+    "quizTitle": "Gastroenterology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2d08b08-eeb8-480c-9490-cde49601e0d5",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

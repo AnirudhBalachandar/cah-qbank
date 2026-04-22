@@ -1,0 +1,69 @@
+{
+  "id": "7b15efb6-19c6-4d6a-bb35-40724d8ec2be",
+  "stem": "Which condition requires the use of a specialized growth chart rather than standard WHO charts for head circumference?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Achondroplasia.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Simple febrile seizures.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Nutritional iron deficiency.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Acute bacterial meningitis.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Certain genetic conditions have different expected growth patterns, requiring specific charts to determine if growth is pathological for that condition.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.438Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2d11b1e0175bf562ee2b",
+  "rationale": "Identify which of these is a bone or neuro-genetic condition that inherently alters skull proportions.",
+  "optionExplanations": {
+    "A": "Certain genetic conditions have different expected growth patterns, requiring specific charts to determine if growth is pathological for that condition.",
+    "B": "Febrile seizures do not typically alter the expected trajectory of head growth, so standard charts are appropriate.",
+    "C": "While severe malnutrition can affect growth, standard charts are used to track that deviation; specific charts are for intrinsic conditions like NF1 or achondroplasia.",
+    "D": "Standard charts are used to monitor for complications like hydrocephalus during an acute illness."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify which of these is a bone or neuro-genetic condition that inherently alters skull proportions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

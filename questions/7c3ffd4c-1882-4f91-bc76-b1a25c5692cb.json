@@ -1,0 +1,69 @@
+{
+  "id": "7c3ffd4c-1882-4f91-bc76-b1a25c5692cb",
+  "stem": "According to the 1992 Harvard Growth Study, what was the relative risk of all-cause mortality for males who were overweight during adolescence compared to those who were not?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$1.0$ (No increased risk)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$1.8$",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$13.2$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$0.5$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The data showed a $1.8$ relative risk for all-cause mortality in males who were overweight in adolescence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+      "title": "00090 Baur SMP Obesity pre-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:40.492Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5271224df27a46bfddec",
+  "rationale": "This value represents nearly double the risk of death compared to the control group.",
+  "optionExplanations": {
+    "A": "The study found a clear association between adolescent weight and long-term mortality risk.",
+    "B": "The data showed a $1.8$ relative risk for all-cause mortality in males who were overweight in adolescence.",
+    "C": "$13.2$ was the relative risk specifically for atherosclerotic cerebrovascular disease, not all-cause mortality.",
+    "D": "A risk lower than $1.0$ would imply a protective effect, which contradicts the study's findings on obesity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This value represents nearly double the risk of death compared to the control group.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "90",
+    "lectureTitle": "00090 Baur SMP Obesity pre-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_090.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c886d9c4-927e-4f78-9fc5-77a24d552dc0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

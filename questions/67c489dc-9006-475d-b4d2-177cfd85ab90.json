@@ -1,0 +1,69 @@
+{
+  "id": "67c489dc-9006-475d-b4d2-177cfd85ab90",
+  "stem": "Visual acuity is recorded as a fraction. If a child has a recorded vision of $\\frac{6}{60}$, how is this level of vision clinically categorized?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Legally blind",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Standard 'perfect' vision",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Driving standard vision",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Mild refractive error",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A vision of $\\frac{6}{60}$ means the child sees at 6 meters what a person with standard vision sees at 60 meters, which is the threshold for legal blindness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+      "title": "00039 common-eye-problems--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.611Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3525a3e664ae4aa27b00",
+  "rationale": "This fraction represents the largest letter on a standard vision chart.",
+  "optionExplanations": {
+    "A": "A vision of $\\frac{6}{60}$ means the child sees at 6 meters what a person with standard vision sees at 60 meters, which is the threshold for legal blindness.",
+    "B": "Standard or '20/20' equivalent vision in this metric is $\\frac{6}{6}$, where the top and bottom numbers are equal.",
+    "C": "To pass a driver's license test in NSW, a vision level of at least $\\frac{6}{12}$ is typically required.",
+    "D": "$\\frac{6}{60}$ represents a very significant loss of acuity, far beyond a minor or mild need for glasses."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This fraction represents the largest letter on a standard vision chart.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "39",
+    "lectureTitle": "00039 common-eye-problems--s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_039.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e2564b9-536b-41e0-a22e-fe2dc187c45a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

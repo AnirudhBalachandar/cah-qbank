@@ -1,0 +1,69 @@
+{
+  "id": "43846fcd-d897-4fe5-8f92-64b9cda93163",
+  "stem": "In the Hypothalamic-Pituitary-Gonadal (HPG) axis, what is the critical pattern of $GnRH$ secretion required to stimulate puberty?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Continuous, steady-state secretion",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pulsatile secretion",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Diurnal secretion with peaks only at noon",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Secretion triggered only by high levels of leptin",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The amplitude and pulsatile frequency of $GnRH$ release from the hypothalamus are what trigger the production of $LH$ and $FSH$.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+      "title": "00060 Puberty -  Prof Shub-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:31.201Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4e0d8a1a39c4a2e5cefb",
+  "rationale": "Think about how the frequency and rhythm of hormone release affect the pituitary gland.",
+  "optionExplanations": {
+    "A": "Continuous secretion of $GnRH$ actually downregulates the receptors in the pituitary, inhibiting the axis.",
+    "B": "The amplitude and pulsatile frequency of $GnRH$ release from the hypothalamus are what trigger the production of $LH$ and $FSH$.",
+    "C": "Early puberty is characterized by nocturnal (nighttime) surges rather than midday peaks.",
+    "D": "While nutrition and weight play a role, the physiological requirement for pituitary stimulation is the pulsatile nature of the hormone."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the frequency and rhythm of hormone release affect the pituitary gland.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "60",
+    "lectureTitle": "00060 Puberty -  Prof Shub-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_060.json",
+    "quizTitle": "Puberty Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e22baf88-aef5-4335-9bcc-e7ac01f8c0cc",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

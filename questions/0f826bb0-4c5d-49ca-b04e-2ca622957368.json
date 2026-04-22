@@ -1,0 +1,69 @@
+{
+  "id": "0f826bb0-4c5d-49ca-b04e-2ca622957368",
+  "stem": "Which cellular mechanism is responsible for the arrhythmias seen in CPVT?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Abnormal calcium handling within myocardial cells.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A total lack of potassium channels in the ventricles.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The physical tearing of the atrial myocardium.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Delayed closure of the mitral valve.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Excessive calcium release from the sarcoplasmic reticulum makes cells hyperexcitable during stress or exercise.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.787Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ce89f7d1e61376e3d832",
+  "rationale": "Identify the specific mineral involved in cardiac cell excitability.",
+  "optionExplanations": {
+    "A": "Excessive calcium release from the sarcoplasmic reticulum makes cells hyperexcitable during stress or exercise.",
+    "B": "A complete lack of channels would be incompatible with life; CPVT is specifically a calcium regulation issue.",
+    "C": "CPVT is an electrical/calcium handling disorder, not a structural injury or tear.",
+    "D": "Mechanical valve issues are distinct from the electrical and ionic triggers of CPVT."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the specific mineral involved in cardiac cell excitability.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 13,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

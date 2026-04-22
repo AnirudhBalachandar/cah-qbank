@@ -1,0 +1,69 @@
+{
+  "id": "d89d7f33-32da-4822-971f-a3fcda2be4d4",
+  "stem": "When performing the initial assessment of a burn patient, what is the priority before evaluating the burn itself?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Initiating a primary survey using the $A B C D E F$ protocol.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Calculating the total body surface area (TBSA) of the burn.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Applying cold running water to the burn site immediately.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Administering intravenous fluid resuscitation.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Burns are often associated with hidden trauma, requiring a standard primary survey to ensure no life-threatening injuries are missed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.595Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-15f29831dca9efcab42b",
+  "rationale": "Consider the standard procedure used for all trauma patients to identify hidden injuries.",
+  "optionExplanations": {
+    "A": "Burns are often associated with hidden trauma, requiring a standard primary survey to ensure no life-threatening injuries are missed.",
+    "B": "While critical for treatment, TBSA calculation follows the primary survey, as immediate life-saving interventions take precedence.",
+    "C": "First aid is vital but should only be performed after the primary survey to ensure the patient is stabilized first.",
+    "D": "Resuscitation is based on the burn assessment, which occurs after the primary trauma survey is completed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the standard procedure used for all trauma patients to identify hidden injuries.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

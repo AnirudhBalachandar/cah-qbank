@@ -1,0 +1,69 @@
+{
+  "id": "ceb348dc-207f-4938-af49-ea9fe439dd99",
+  "stem": "What is the primary physiological mechanism that leads to hypovolemic shock in a patient with a major burn injury?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increased microvascular permeability and capillary dilatation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Direct external blood loss from the burn site",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sepsis from early bacterial colonization",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Myocardial depression from toxic smoke inhalation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Systemic inflammatory mediators cause fluid to leak from the intravascular space into the tissues, leading to edema and loss of blood volume.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.448Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cc6e614de98447bf19dd",
+  "rationale": "Think about how inflammatory markers affect the 'leakiness' of the circulatory system.",
+  "optionExplanations": {
+    "A": "Systemic inflammatory mediators cause fluid to leak from the intravascular space into the tissues, leading to edema and loss of blood volume.",
+    "B": "While some fluid is lost externally, the primary cause of shock in burns is the internal shift of fluid due to capillary leakage.",
+    "C": "Sepsis occurs later in the course of treatment; early shock is typically hypovolemic rather than septic.",
+    "D": "While toxic gases are dangerous, the systemic fluid loss described is the fundamental cause of early burn shock."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how inflammatory markers affect the 'leakiness' of the circulatory system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

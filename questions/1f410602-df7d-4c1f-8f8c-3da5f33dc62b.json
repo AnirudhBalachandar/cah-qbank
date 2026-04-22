@@ -1,0 +1,69 @@
+{
+  "id": "1f410602-df7d-4c1f-8f8c-3da5f33dc62b",
+  "stem": "What radiographic procedure is recommended for a child showing clinical features of rickets?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chest X-ray for rachitic rosary",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "X-ray of the left wrist",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "X-ray of the weight-bearing ankles",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Full body skeletal survey",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An X-ray of the left wrist is the standard view used to look for metaphyseal widening, fraying, or cupping.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.319Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-72ad4c0c8e9ca5895073",
+  "rationale": "One specific limb joint is the standard for checking metaphysical changes.",
+  "optionExplanations": {
+    "A": "While the rosary is a physical sign, the definitive radiographic changes are best seen in the growth plates of the extremities.",
+    "B": "An X-ray of the left wrist is the standard view used to look for metaphyseal widening, fraying, or cupping.",
+    "C": "While ankles can show signs, the wrist is the preferred and most standardized site for investigating rickets.",
+    "D": "A full skeletal survey is generally unnecessary for the initial diagnosis of rickets when localized X-rays suffice."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One specific limb joint is the standard for checking metaphysical changes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

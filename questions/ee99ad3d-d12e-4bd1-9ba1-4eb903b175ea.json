@@ -1,0 +1,69 @@
+{
+  "id": "ee99ad3d-d12e-4bd1-9ba1-4eb903b175ea",
+  "stem": "What morphological finding on a blood film is classic for Wiskott-Aldrich syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Very large platelets (Macrothrombocytopenia)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Small platelets (Microthrombocytopenia)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Döhle-like bodies in neutrophils",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fibrin strands and platelet clumping",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Small platelets are a very classical finding specifically for Wiskott-Aldrich syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.274Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a6f2e0f9a08d0cb79d86",
+  "rationale": "Think of the prefix 'micro-' when considering the platelet size in this condition.",
+  "optionExplanations": {
+    "A": "Large platelets are seen in conditions like Bernard-Soulier, not Wiskott-Aldrich.",
+    "B": "Small platelets are a very classical finding specifically for Wiskott-Aldrich syndrome.",
+    "C": "These are characteristic of May-Hegglin anomaly, not Wiskott-Aldrich syndrome.",
+    "D": "These are signs of a clotted sample, which is a collection error rather than a genetic syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the prefix 'micro-' when considering the platelet size in this condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

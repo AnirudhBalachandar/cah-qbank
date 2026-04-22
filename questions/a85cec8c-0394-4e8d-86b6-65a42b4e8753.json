@@ -1,0 +1,69 @@
+{
+  "id": "a85cec8c-0394-4e8d-86b6-65a42b4e8753",
+  "stem": "Which investigation is specifically mentioned for use if there is a concern for an aspiration episode?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Video fluoroscopic swallow study",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Computed Tomography (CT) of the chest",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Magnetic Resonance Imaging (MRI) of the brain",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Routine full blood count",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This imaging study evaluates the swallowing mechanism to determine if fluids are entering the airway.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+      "title": "00005 BRUE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.311Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e4e40c093ac3a797ad90",
+  "rationale": "Think of a dynamic imaging test that looks at the actual process of swallowing.",
+  "optionExplanations": {
+    "A": "This imaging study evaluates the swallowing mechanism to determine if fluids are entering the airway.",
+    "B": "While it shows lung anatomy, it is not the primary dynamic study used to assess swallowing safety or active aspiration.",
+    "C": "An MRI would be used to investigate neurological causes like seizures or injury, not the mechanics of feeding.",
+    "D": "A blood count helps identify infection but cannot confirm the physical act of aspiration during a feed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a dynamic imaging test that looks at the actual process of swallowing.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "5",
+    "lectureTitle": "00005 BRUE-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_005.json",
+    "quizTitle": "BRUE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4a12b74d-8495-4ab6-9d09-b6e011b57050",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "98ac788e-8dc5-4007-ae02-b29fa70c0ded",
+  "stem": "Why is the use of aspirin contraindicated in children under the age of $14$ who suffer from headaches?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It may precipitate Reye's syndrome, causing liver and brain failure.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is less effective than paracetamol for pain relief.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It frequently causes severe constipation in adolescents.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It can lead to immediate opioid dependency.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Aspirin is linked to this rare but severe condition in children, characterized by acute encephalopathy and fatty liver.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.015Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-726e88c3b6af208ad079",
+  "rationale": "Think of a severe multi-organ syndrome involving the liver and neurological status.",
+  "optionExplanations": {
+    "A": "Aspirin is linked to this rare but severe condition in children, characterized by acute encephalopathy and fatty liver.",
+    "B": "The contraindication is based on safety risks (Reye's syndrome) rather than relative efficacy for pain.",
+    "C": "Constipation is a noted side effect of anti-emetics like ondansetron, not aspirin.",
+    "D": "Aspirin is a non-steroidal medication; the risk of dependency is associated with opioid prescriptions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a severe multi-organ syndrome involving the liver and neurological status.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

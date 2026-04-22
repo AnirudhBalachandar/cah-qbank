@@ -1,0 +1,69 @@
+{
+  "id": "1ac68ed8-9c4c-4fb5-bb2c-10eb5528e673",
+  "stem": "Which indicator should raise a clinician's suspicion of domestic violence in cases of orofacial trauma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A vague history of the accident that does not align with the observed clinical signs.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Injuries occurring specifically during supervised school-aged sporting events.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A history of falling over while the child is learning to walk or run.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Damage isolated to the posterior mandibular molars.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Non-accidental injuries often present with inconsistent or vague historical accounts from caregivers.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "78fb658e-e8de-46de-96ab-bc0172cba5bc",
+      "title": "00084 Dentistry_orofacial -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.370Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1e16e5c7a0070c8411ce",
+  "rationale": "Focus on the consistency and nature of the provided patient history.",
+  "optionExplanations": {
+    "A": "Non-accidental injuries often present with inconsistent or vague historical accounts from caregivers.",
+    "B": "Sporting injuries are generally well-documented and consistent with the mechanics of the sport, making them less suspicious of domestic violence.",
+    "C": "Falling while learning to walk is a common, documented developmental stage that accounts for many accidental primary tooth injuries.",
+    "D": "Domestic violence often targets the more visible maxillary central incisors rather than the harder-to-reach posterior teeth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "78fb658e-e8de-46de-96ab-bc0172cba5bc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the consistency and nature of the provided patient history.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "84",
+    "lectureTitle": "00084 Dentistry_orofacial -s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_084.json",
+    "quizTitle": "Dental Trauma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d44e7911-1b6f-4e0c-a0f6-74bcf8893ef3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

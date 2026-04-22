@@ -1,0 +1,69 @@
+{
+  "id": "71ef1e9c-6d66-49a4-98c8-3f792b6ad6b1",
+  "stem": "What is the degree of the spiral executed by the aorticopulmonary septum?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$180^\\circ$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$90^\\circ$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$360^\\circ$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$45^\\circ$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The septum spirals $180^\\circ$ to ensure the outflow tracts from the ventricles align correctly with the great arteries.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "fa00b66c-2157-4378-8c03-82cbfbae749d",
+      "title": "00050 heart tube to 4 cham-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.422Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ad7c843bfc5e9afe9c2f",
+  "rationale": "Think of a half-turn that results in the pulmonary artery passing in front of the aorta.",
+  "optionExplanations": {
+    "A": "The septum spirals $180^\\circ$ to ensure the outflow tracts from the ventricles align correctly with the great arteries.",
+    "B": "A quarter-turn would not be sufficient to correctly entwine the aorta and pulmonary artery into their final orientation.",
+    "C": "A full circle rotation would return the vessels to their original orientation relative to one another.",
+    "D": "This angle is mentioned in the source as a viewing perspective, not the degree of septal rotation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "fa00b66c-2157-4378-8c03-82cbfbae749d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a half-turn that results in the pulmonary artery passing in front of the aorta.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "50",
+    "lectureTitle": "00050 heart tube to 4 cham-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_050.json",
+    "quizTitle": "Embryology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "358a151f-6ca7-4ab2-90a0-5fe1e4cc8861",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "3f56ca71-4ccc-44b4-a742-00f39599adb7",
+  "stem": "What is the immediate priority when a parent calls about a child who has splashed a household cleaning agent into their eye?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Instruct them to irrigate the eye immediately with running tap water.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Advise them to keep the eye closed and patched until they reach the emergency room.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ask them to locate the bottle to identify the pH level before taking action.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Recommend applying a thick layer of antibiotic ointment to protect the cornea.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Immediate irrigation is critical to dilute the chemical and minimize penetration, especially with alkalis found in cleaning agents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.801Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fec46f1fc20ba62c9c20",
+  "rationale": "The most important action is to dilute the substance as quickly as possible before seeking professional help.",
+  "optionExplanations": {
+    "A": "Immediate irrigation is critical to dilute the chemical and minimize penetration, especially with alkalis found in cleaning agents.",
+    "B": "Patching the eye traps the chemical against the cornea, worsening the burn; irrigation must happen first.",
+    "C": "While history is important, it should be taken after emergency irrigation has commenced to prevent further damage.",
+    "D": "Ointment should only be applied after thorough irrigation has neutralized the chemical."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The most important action is to dilute the substance as quickly as possible before seeking professional help.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "b6698b95-40f3-4036-9554-7ab64a455812",
+  "stem": "Which imaging modality is considered the gold standard for diagnosing vesicoureteral reflux and posterior urethral valves?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Micturating cystourethrogram (MCUG)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "DMSA scan",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Renal ultrasound",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "CT Angiography",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The MCUG allows clinicians to visualize the flow of contrast as the patient voids, making it the definitive test for reflux and urethral anomalies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+      "title": "00044 Renal_imaging of the-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.790Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-207c165cbd9c297c07c0",
+  "rationale": "This test is highly invasive and involves watching the bladder empty in real-time.",
+  "optionExplanations": {
+    "A": "The MCUG allows clinicians to visualize the flow of contrast as the patient voids, making it the definitive test for reflux and urethral anomalies.",
+    "B": "DMSA is a static scan used to evaluate the renal cortex and scarring rather than the flow of urine during voiding.",
+    "C": "Ultrasound can show the structural consequences of reflux, such as dilation, but it does not directly demonstrate the reflux process itself.",
+    "D": "This modality is used to look at the blood vessels, such as in cases of renal artery stenosis, rather than bladder emptying."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This test is highly invasive and involves watching the bladder empty in real-time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "44",
+    "lectureTitle": "00044 Renal_imaging of the-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_044.json",
+    "quizTitle": "Renal Imaging Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8b2444f-bf56-4c42-8ce9-db4bf1399a9a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

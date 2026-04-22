@@ -1,0 +1,69 @@
+{
+  "id": "ebe7b1d2-f8f2-4b6c-b4ef-8876154ee905",
+  "stem": "Which clinical observation would most likely suggest an underlying issue with the submandibular or sublingual salivary glands?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Severe dental caries on the lower incisors.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Presence of an anterior open bite.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Inflammation and stippling of the upper gingiva.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The appearance of dark stains on the posterior teeth.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lower incisors are usually protected by constant bathing in saliva from these glands; decay here suggests they are absent or blocked.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.133Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3172a575cb49e5aab338",
+  "rationale": "Consider which teeth are normally 'bathed' in saliva and thus rarely decay.",
+  "optionExplanations": {
+    "A": "The lower incisors are usually protected by constant bathing in saliva from these glands; decay here suggests they are absent or blocked.",
+    "B": "An anterior open bite is typically the result of a habit like pacifier use rather than gland dysfunction.",
+    "C": "Stippling is a sign of health in the gingiva, not a pathology related to salivary glands.",
+    "D": "Stains are usually related to diet or supplements like iron, not the functionality of salivary glands."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which teeth are normally 'bathed' in saliva and thus rarely decay.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

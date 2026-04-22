@@ -1,0 +1,69 @@
+{
+  "id": "4bc5e014-6012-4a96-b6ea-947c66c2b065",
+  "stem": "How is a food intolerance categorized differently from a food allergy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intolerances are immune-mediated reactions.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Intolerances are non-immune mediated.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Intolerances always lead to anaphylaxis.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intolerances are characterized by a short 2-hour window.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The key distinction provided is that food intolerances, like lactose intolerance, do not involve the immune system.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.036Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-131fbb137f478811b853",
+  "rationale": "Consider whether the body's immune system is involved in the reaction.",
+  "optionExplanations": {
+    "A": "This is a common misconception; only food allergies are defined by an immune-mediated response.",
+    "B": "The key distinction provided is that food intolerances, like lactose intolerance, do not involve the immune system.",
+    "C": "Anaphylaxis is a severe form of food allergy, not an intolerance.",
+    "D": "The short timeframe is a characteristic of $\\text{IgE}$-mediated food allergies, not necessarily intolerances."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether the body's immune system is involved in the reaction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

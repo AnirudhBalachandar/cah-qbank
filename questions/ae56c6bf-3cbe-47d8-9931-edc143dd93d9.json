@@ -1,0 +1,69 @@
+{
+  "id": "ae56c6bf-3cbe-47d8-9931-edc143dd93d9",
+  "stem": "When selecting an appropriate blood pressure cuff for a child, what is the recommended width for the bladder relative to the upper midarm circumference?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "More than $40\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Exactly $50\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Between $20\\%$ and $30\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "At least $80\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source specifies that the bladder width should be greater than $40\\%$ of the midarm circumference for an adequate reading.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.004Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-859b74a79ed3295a8286",
+  "rationale": "Consider the difference between the requirements for bladder width and bladder length.",
+  "optionExplanations": {
+    "A": "The source specifies that the bladder width should be greater than $40\\%$ of the midarm circumference for an adequate reading.",
+    "B": "While $50\\%$ is more than $40\\%$, the specific guideline mentioned is a minimum threshold of $40\\%$ rather than a fixed midpoint.",
+    "C": "A cuff this narrow would likely result in an overestimation of blood pressure, and the recommended width is significantly higher.",
+    "D": "The $80\\%$ to $100\\%$ range refers to the recommended length of the bladder, not its width."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the difference between the requirements for bladder width and bladder length.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

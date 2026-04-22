@@ -1,0 +1,69 @@
+{
+  "id": "e8476460-c914-4188-b27c-00a8482ea4c6",
+  "stem": "When initiating treatment with Amlodipine, why might a clinician also prescribe Nifedipine for the first $48$ hours?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Amlodipine takes approximately $48$ hours to become fully effective.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Nifedipine prevents the hyperkalemia caused by Amlodipine.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Amlodipine is only given once a day and lacks immediate potency.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To counteract the asthma-inducing effects of long-acting blockers.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nifedipine provides acute cover while the long-acting Amlodipine reaches therapeutic levels.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.201Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c75fc0f913cd47c4921d",
+  "rationale": "Focus on the time required for the primary long-acting medication to 'kick in'.",
+  "optionExplanations": {
+    "A": "Nifedipine provides acute cover while the long-acting Amlodipine reaches therapeutic levels.",
+    "B": "Hyperkalemia is a risk associated with ACE inhibitors, not typically these calcium channel blockers.",
+    "C": "While it is given once daily, the specific reason for dual therapy is the slow onset of action, not the dosing frequency.",
+    "D": "Asthma is a contraindication for beta-blockers, not calcium channel blockers."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the time required for the primary long-acting medication to 'kick in'.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

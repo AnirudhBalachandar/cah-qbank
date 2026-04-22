@@ -1,0 +1,69 @@
+{
+  "id": "0de4a127-04a8-44f6-a25a-b6382c4fccf2",
+  "stem": "Which non-invasive test is described as a useful discriminating marker for intestinal inflammation in children over 2 years of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fecal calprotectin",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "C-reactive protein (CRP)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Stool culture and microscopy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Serum albumin levels",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Calprotectin is a neutrophil-derived protein that reflects the level of inflammation in the bowel mucosa.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.748Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c57a6afcb6c01ea7b28a",
+  "rationale": "This test measures a specific product of neutrophil degradation found in the stool.",
+  "optionExplanations": {
+    "A": "Calprotectin is a neutrophil-derived protein that reflects the level of inflammation in the bowel mucosa.",
+    "B": "While CRP is a marker of systemic inflammation, it is not specific to the gastrointestinal tract and can be normal in some Crohn's patients.",
+    "C": "These tests are used to exclude infectious causes of diarrhea but do not measure the degree of autoimmune bowel inflammation.",
+    "D": "Low albumin can occur in severe IBD due to protein loss, but it is a late and non-specific finding rather than a primary discriminating test."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This test measures a specific product of neutrophil degradation found in the stool.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 6,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

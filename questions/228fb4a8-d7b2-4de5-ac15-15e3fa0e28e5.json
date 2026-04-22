@@ -1,0 +1,69 @@
+{
+  "id": "228fb4a8-d7b2-4de5-ac15-15e3fa0e28e5",
+  "stem": "What does a larger skin prick test wheal size indicate regarding a patient's food allergy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A higher probability that a clinical reaction will occur upon exposure.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The exact severity of the reaction the patient will experience.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The specific dose of allergen required to trigger anaphylaxis.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "That the child has successfully outgrown their previous allergy.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Test size is a predictor of the likelihood of a reaction, but not an indicator of how severe that reaction will be.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+      "title": "00032 Year 3 CAH Allergy a-s1-low (2).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.592Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4591120436bfa184b482",
+  "rationale": "Distinguish between the 'chance' of something happening and the 'intensity' of the event.",
+  "optionExplanations": {
+    "A": "Test size is a predictor of the likelihood of a reaction, but not an indicator of how severe that reaction will be.",
+    "B": "The source clarifies that size does not tell us how severe a reaction is, as severity is unpredictable.",
+    "C": "Test size correlates with the presence of IgE antibodies but does not establish a specific threshold dose.",
+    "D": "A larger wheal usually indicates a persistent sensitivity or allergy rather than resolution."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Distinguish between the 'chance' of something happening and the 'intensity' of the event.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "32",
+    "lectureTitle": "00032 Year 3 CAH Allergy a-s1-low (2).mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_032.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e70b8ea9-d86e-4479-a30e-e0961c324e09",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

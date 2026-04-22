@@ -1,0 +1,69 @@
+{
+  "id": "1cb61378-a15d-4144-806e-ee0acd283fde",
+  "stem": "What is the primary source of vitamin D for the majority of the human population?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Dietary intake of fatty fish and fortified margarine.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Endogenous production in the skin via sunlight exposure.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Intestinal synthesis by beneficial gut microbiota.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Direct absorption from breast milk during infancy.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Over $90\\%$ of the body's vitamin D is derived from the reaction of sunlight with $7$-dehydrocholesterol in the skin.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.177Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5c4472cd35193b195d70",
+  "rationale": "Think about the environmental factor that triggers the conversion of cholesterol in the skin.",
+  "optionExplanations": {
+    "A": "While these are food sources, they contribute a relatively small percentage compared to endogenous production.",
+    "B": "Over $90\\%$ of the body's vitamin D is derived from the reaction of sunlight with $7$-dehydrocholesterol in the skin.",
+    "C": "Vitamin D is not synthesized by gut bacteria; it is obtained through UV exposure or dietary intake.",
+    "D": "Breast milk contains very little vitamin D, which is why exclusively breastfed infants are at higher risk of deficiency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the environmental factor that triggers the conversion of cholesterol in the skin.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

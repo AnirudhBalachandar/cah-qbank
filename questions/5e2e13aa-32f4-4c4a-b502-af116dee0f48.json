@@ -1,0 +1,69 @@
+{
+  "id": "5e2e13aa-32f4-4c4a-b502-af116dee0f48",
+  "stem": "Using the Parkland formula described in the lecture, how much crystalloid fluid should be administered in the first 24 hours?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$3\\text{ ml} \\times \\text{body weight (kg)} \\times \\% \\text{ TBSA burn}$.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$4\\text{ ml} \\times \\text{body weight (kg)} \\times \\% \\text{ TBSA burn}$.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$3\\text{ ml} \\times \\text{body weight (kg)}$ divided by the hours since the burn.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$15\\text{ ml} \\times \\% \\text{ TBSA burn}$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The formula specifies $3\\text{ ml}$ of crystalloid per kilogram of body weight for every percentage of body surface area burned.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.711Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8242646b83232e3b2977",
+  "rationale": "The formula requires three variables: a constant volume, the patient's weight, and the burn size.",
+  "optionExplanations": {
+    "A": "The formula specifies $3\\text{ ml}$ of crystalloid per kilogram of body weight for every percentage of body surface area burned.",
+    "B": "The lecturer notes a common variation but specifies that for this protocol, $3\\text{ ml}$ is the target amount.",
+    "C": "The formula must include the percentage of the burn area to account for the volume of fluid lost.",
+    "D": "The formula must be weight-dependent to accurately reflect the patient's physiological needs."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The formula requires three variables: a constant volume, the patient's weight, and the burn size.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

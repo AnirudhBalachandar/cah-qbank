@@ -1,0 +1,69 @@
+{
+  "id": "b6b7e3eb-3f5d-4e67-af23-06dfdf47f838",
+  "stem": "What device is described as a motion sensor worn on the non-dominant arm to aid in assessing sleep-wake cycles?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pulse Oximeter",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Actigraphy",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Polysomnograph",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "EEG Cap",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Actigraphy uses a wrist-worn motion sensor to track sleep-wake patterns, often used alongside a sleep diary.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.664Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5027b1efd3699df9c31c",
+  "rationale": "This tool is often compared to a wrist watch and is used to monitor activity levels.",
+  "optionExplanations": {
+    "A": "A pulse oximeter measures oxygen saturation and carbon dioxide traces, not movement.",
+    "B": "Actigraphy uses a wrist-worn motion sensor to track sleep-wake patterns, often used alongside a sleep diary.",
+    "C": "A polysomnograph is a complex multi-channel recording done in a lab, not just a wrist-worn sensor.",
+    "D": "An EEG cap measures brain waves directly and is part of a full sleep study, unlike the motion-based actigraphy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This tool is often compared to a wrist watch and is used to monitor activity levels.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "questionIndex": 15,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

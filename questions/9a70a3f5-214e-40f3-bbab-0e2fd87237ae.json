@@ -1,0 +1,69 @@
+{
+  "id": "9a70a3f5-214e-40f3-bbab-0e2fd87237ae",
+  "stem": "A 7-year-old child presents with brief episodes of behavioral arrest and lip smacking. If the EEG shows a typical $3\\text{ Hz}$ spike and wave pattern, what is the drug of choice if no other seizure types are present?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sodium Valproate",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Carbamazepine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ethosuximide",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Levetiracetam",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ethosuximide is the first-line drug of choice for pure childhood absence epilepsy without generalized tonic-clonic seizures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.072Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-34ba8851f25ce9d3766c",
+  "rationale": "Look for the specific medication that is the primary treatment for childhood absence epilepsy.",
+  "optionExplanations": {
+    "A": "While effective, this is generally reserved as a second-line option if the primary drug fails or if tonic-clonic seizures are also present.",
+    "B": "This sodium channel blocker can actually worsen absence seizures and is not indicated for this syndrome.",
+    "C": "Ethosuximide is the first-line drug of choice for pure childhood absence epilepsy without generalized tonic-clonic seizures.",
+    "D": "Though a broad-spectrum medication, it is not the gold-standard first-line treatment for typical absence seizures."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the specific medication that is the primary treatment for childhood absence epilepsy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

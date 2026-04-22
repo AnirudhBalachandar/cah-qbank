@@ -1,0 +1,69 @@
+{
+  "id": "322ed2cd-cff2-4baa-a528-79494d7f90c6",
+  "stem": "What are the primary imaging advantages of ultrasound over X-ray for diagnosing DDH in infants under 6 months?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can visualize the internal blood flow of the femoral artery.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It shows bony structures more clearly than X-ray.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It avoids radiation and allows for dynamic stability testing.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It is the only way to measure leg length discrepancy accurately.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ultrasound is preferred because it safely visualizes cartilage and allows the clinician to move the hip during the scan to check for dislocation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:41.987Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-13094a0e6608e14cdd57",
+  "rationale": "Consider the material's properties (cartilage vs. bone) and the safety profile of the imaging modality.",
+  "optionExplanations": {
+    "A": "While ultrasound can track blood flow, its primary utility in DDH is visualizing cartilaginous structures and joint stability.",
+    "B": "X-rays are generally superior for bone; ultrasound is chosen because the infant hip is mostly cartilage, which X-rays cannot see.",
+    "C": "Ultrasound is preferred because it safely visualizes cartilage and allows the clinician to move the hip during the scan to check for dislocation.",
+    "D": "Leg length discrepancy is mentioned as difficult to measure in infants, and ultrasound's primary role is joint morphology and stability."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the material's properties (cartilage vs. bone) and the safety profile of the imaging modality.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

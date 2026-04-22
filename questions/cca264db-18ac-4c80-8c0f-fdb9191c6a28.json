@@ -1,0 +1,69 @@
+{
+  "id": "cca264db-18ac-4c80-8c0f-fdb9191c6a28",
+  "stem": "When managing constipation with medication, once a child is free of symptoms, how long should they remain symptom-free before weaning the treatment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "One week",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Two weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "One month",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Six months",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source suggests medications should be used for at least two months, with weaning starting only after one month of being symptom-free.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+      "title": "00006 common-problems-cons-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.496Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3080b741798d514bf0b8",
+  "rationale": "Think of a standard monthly interval often used to gauge stability in clinical management.",
+  "optionExplanations": {
+    "A": "One week is too short to ensure the bowel has regained its normal function and tone.",
+    "B": "Longer durations of regular stooling are required to prevent immediate relapse when stopping medication.",
+    "C": "The source suggests medications should be used for at least two months, with weaning starting only after one month of being symptom-free.",
+    "D": "While some children may need long-term therapy, the initial weaning milestone mentioned is much sooner than six months."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a standard monthly interval often used to gauge stability in clinical management.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "6",
+    "lectureTitle": "00006 common-problems-cons-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_006.json",
+    "quizTitle": "Constipation Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b50f57df-c86d-49e8-b079-40a148286d26",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

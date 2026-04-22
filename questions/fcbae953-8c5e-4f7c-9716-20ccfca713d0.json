@@ -1,0 +1,69 @@
+{
+  "id": "fcbae953-8c5e-4f7c-9716-20ccfca713d0",
+  "stem": "What is the primary diagnostic sign used to distinguish pseudo-strabismus from true strabismus?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The symmetry of corneal light reflections.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The presence of broad epicanthic folds.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The patient's ability to fixate on a target.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of a flat nasal bridge.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Hirschberg test showing symmetrical light reflections on the cornea suggests the eyes are aligned despite the appearance of a turn.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.151Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-15aa92b5787cb0f0ca58",
+  "rationale": "Think about the test that involves shining a light into the eyes to look for symmetrical points.",
+  "optionExplanations": {
+    "A": "The Hirschberg test showing symmetrical light reflections on the cornea suggests the eyes are aligned despite the appearance of a turn.",
+    "B": "Broad epicanthic folds are the cause of the illusion of strabismus, not the diagnostic tool used to prove the eyes are straight.",
+    "C": "Fixation can occur in one eye in true strabismus, so it is not the definitive indicator for pseudo-strabismus.",
+    "D": "A flat nose is a common facial feature associated with pseudo-strabismus, but it does not confirm the diagnosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the test that involves shining a light into the eyes to look for symmetrical points.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "f1802f8c-238d-478f-a5e5-dd3432162c74",
+  "stem": "What modification is recommended for the Hepatitis B vaccine course in patients with HIV?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A double dose of the vaccine should be administered.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The vaccine should be avoided entirely.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only the first dose is required if the viral load is low.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The oral version of the vaccine must be used.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Due to potentially reduced vaccine efficacy in immunocompromised individuals, a higher antigen load is used to stimulate an adequate immune response.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.862Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-12de2ee66c43c86209bf",
+  "rationale": "Think about how to overcome a potentially weakened immune response by increasing the amount of antigen provided.",
+  "optionExplanations": {
+    "A": "Due to potentially reduced vaccine efficacy in immunocompromised individuals, a higher antigen load is used to stimulate an adequate immune response.",
+    "B": "Hepatitis B is an inactivated vaccine and is safe for HIV patients; protection is highly encouraged due to shared risk factors.",
+    "C": "A full course is necessary regardless of viral load to ensure long-term immunological memory.",
+    "D": "The Hepatitis B vaccine is administered via injection; there is no oral version of this specific vaccine."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how to overcome a potentially weakened immune response by increasing the amount of antigen provided.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "questionIndex": 11,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "489ece26-40e1-4e85-9088-8b44bd8f64e2",
+  "stem": "In the case study of the young lady with a severe dental infection, what level of medical intervention was ultimately required?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Outpatient oral antibiotics only",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Intubation and ICU care",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A simple filling and observation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Physical therapy for jaw muscles",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source mentions she required intubation and several days of ICU care following the removal of the tooth and drainage of the abscess.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+      "title": "00081 Dentistry_infections-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:37.744Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d8d4af4c16cfbc0732d9",
+  "rationale": "This case illustrates the extreme end of how dangerous an untreated dental infection can become.",
+  "optionExplanations": {
+    "A": "The infection was far too severe for simple outpatient care, as she required hospitalization.",
+    "B": "The source mentions she required intubation and several days of ICU care following the removal of the tooth and drainage of the abscess.",
+    "C": "The tooth required extraction and the abscess required external drainage due to the severity of the infection.",
+    "D": "The primary issue was a life-threatening infection requiring intensive medical support, not a muscular problem."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This case illustrates the extreme end of how dangerous an untreated dental infection can become.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "81",
+    "lectureTitle": "00081 Dentistry_infections-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_081.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0b63884-45a6-42c2-bb61-89ab7f81259e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

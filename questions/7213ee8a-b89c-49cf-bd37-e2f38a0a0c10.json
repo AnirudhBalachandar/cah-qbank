@@ -1,0 +1,69 @@
+{
+  "id": "7213ee8a-b89c-49cf-bd37-e2f38a0a0c10",
+  "stem": "To meet the criteria for a Brief Resolved Unexplained Event (BRUE), the episode must last for less than which duration and occur in a child of what age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Less than $1$ minute in a child under $12$ months of age",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Less than $2$ minutes in a child under $6$ months of age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Less than $1$ minute in a child under $2$ years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Less than $30$ seconds in a child under $2$ months of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A BRUE is defined by its brief nature, typically lasting less than $60$ seconds, and is specific to infants under one year old.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+      "title": "00005 BRUE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.129Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a3ecaed2de5336afe8f4",
+  "rationale": "Focus on the specific time limit and the age threshold that defines infancy in this clinical context.",
+  "optionExplanations": {
+    "A": "A BRUE is defined by its brief nature, typically lasting less than $60$ seconds, and is specific to infants under one year old.",
+    "B": "While many episodes are very short, the official diagnostic criteria extend the age limit to $12$ months and cap the duration at $1$ minute.",
+    "C": "The age limit for BRUE is strictly under $12$ months; events in older children are classified differently.",
+    "D": "Although infants under $2$ months are considered high risk, the general definition of a BRUE covers children up to $12$ months."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific time limit and the age threshold that defines infancy in this clinical context.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "5",
+    "lectureTitle": "00005 BRUE-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_005.json",
+    "quizTitle": "BRUE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4a12b74d-8495-4ab6-9d09-b6e011b57050",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

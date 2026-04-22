@@ -1,0 +1,69 @@
+{
+  "id": "14c80c11-bffb-49bc-8dba-34952a82732b",
+  "stem": "What is the primary mechanism of a bedwetting alarm?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It detects moisture and wakes the child so they can finish voiding in the toilet.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It emits a sound that prevents the bladder from contracting during sleep.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It vibrates to remind the child to use the bathroom every two hours.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It releases a small scent that triggers the child's cortical arousal.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The sensor detects wetness, triggers an alarm to wake the child, and conditions them to recognize the need to go to the bathroom.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+      "title": "00008 common-problems-enur-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.841Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-14a429b3fd7e0c6594c2",
+  "rationale": "The device relies on sensing the very start of an accident to wake the child.",
+  "optionExplanations": {
+    "A": "The sensor detects wetness, triggers an alarm to wake the child, and conditions them to recognize the need to go to the bathroom.",
+    "B": "The alarm does not physically stop bladder contractions; it is a behavioral conditioning tool that works through arousal.",
+    "C": "The alarm is reactive to wetness, not a timed reminder system.",
+    "D": "The device uses an audible alarm triggered by an underwear sensor, not a scent-based system."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The device relies on sensing the very start of an accident to wake the child.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "8",
+    "lectureTitle": "00008 common-problems-enur-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_008.json",
+    "quizTitle": "Bedwetting Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2c9798db-0ebc-4a15-9ccb-95ac659163f6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

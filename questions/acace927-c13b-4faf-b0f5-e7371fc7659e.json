@@ -1,0 +1,69 @@
+{
+  "id": "acace927-c13b-4faf-b0f5-e7371fc7659e",
+  "stem": "Which specific heart defect is highly associated with Down Syndrome ($Trisomy\\ 21$), occurring in approximately $20-25\\%$ of these patients?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Atrioventricular septal defect ($AVSD$)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Coarctation of the aorta",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Tetralogy of Fallot",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Patent ductus arteriosus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lecture specifies that $40-50\\%$ of Down Syndrome patients have heart disease, and about half of those have this specific defect.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.963Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d3a496a391f46849f4a9",
+  "rationale": "This defect involves the central area of the heart where the atrial and ventricular septa meet the valves.",
+  "optionExplanations": {
+    "A": "The lecture specifies that $40-50\\%$ of Down Syndrome patients have heart disease, and about half of those have this specific defect.",
+    "B": "Coarctation is an obstructive lesion but is not the primary defect specifically linked to $Trisomy\\ 21$ in the source.",
+    "C": "While $TOF$ is a common cyanotic heart disease, it is not as classically synonymous with Down Syndrome as the $AVSD$.",
+    "D": "This is a common finding in pre-term infants but is not the hallmark structural defect of Down Syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This defect involves the central area of the heart where the atrial and ventricular septa meet the valves.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

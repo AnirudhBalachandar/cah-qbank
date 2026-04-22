@@ -1,0 +1,69 @@
+{
+  "id": "95e4c3bd-abb1-460a-a523-af48af344f64",
+  "stem": "According to the source material, why is caution advised when prescribing long-acting beta agonists (LABA) to children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The beta receptors can become saturated, potentially reducing the efficacy of short-acting relievers.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "LABAs have been shown to cause significant growth suppression in children under the age of 12.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Children are more likely to develop a permanent allergy to the propellant used in LABA inhalers.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "LABAs act as a central nervous system stimulant, leading to severe sleep disturbances in toddlers.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Regular use of long-acting beta agonists can saturate receptors, making rescue medications like salbutamol less effective when needed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.477Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bac975af064412212813",
+  "rationale": "Consider how the constant presence of a long-acting drug might affect the responsiveness of the body's docking sites for emergency medicine.",
+  "optionExplanations": {
+    "A": "Regular use of long-acting beta agonists can saturate receptors, making rescue medications like salbutamol less effective when needed.",
+    "B": "Growth suppression is a potential concern with high-dose corticosteroids, not specifically the mechanism of LABAs.",
+    "C": "There is no evidence in the source suggesting that children develop specific allergies to the propellants in these medications.",
+    "D": "While beta-agonists can cause jitteriness, the primary reason for caution in children is the impact on receptor sensitivity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how the constant presence of a long-acting drug might affect the responsiveness of the body's docking sites for emergency medicine.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

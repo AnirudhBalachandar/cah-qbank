@@ -1,0 +1,69 @@
+{
+  "id": "64d80dbf-41af-40b3-be96-3e250b59f8b3",
+  "stem": "Approximately what percentage of total sleep is spent in stage 2 sleep?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$20\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$50\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$75\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$10\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The presentation notes that we spend nearly half of our sleep duration in stage 2.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.457Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5ce8a35fc42c5e7ea562",
+  "rationale": "Think of the fraction that represents half of the total sleep time.",
+  "optionExplanations": {
+    "A": "This is more representative of REM sleep or slow-wave sleep durations rather than the dominant stage 2.",
+    "B": "The presentation notes that we spend nearly half of our sleep duration in stage 2.",
+    "C": "While stage 2 is the most frequent stage, it does not occupy three-quarters of the total sleep cycle.",
+    "D": "This percentage is too low for the stage that constitutes the bulk of typical sleep architecture."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the fraction that represents half of the total sleep time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

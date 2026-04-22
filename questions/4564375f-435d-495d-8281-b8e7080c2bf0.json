@@ -1,0 +1,69 @@
+{
+  "id": "4564375f-435d-495d-8281-b8e7080c2bf0",
+  "stem": "In audiology, what do the circle (O) and cross (X) symbols represent on an audiogram?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Circle for the right ear, cross for the left ear",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Circle for air conduction, cross for bone conduction",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Circle for normal hearing, cross for pathological hearing",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Circle for pediatric patients, cross for adult patients",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This is the standardized notation mentioned in the lecture: circles denote right ear results and crosses denote left ear results.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+      "title": "00002 ENT-ears-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.625Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0a57e49f1f84c5e6ddb5",
+  "rationale": "These symbols are the standard way to distinguish between the two sides of the head.",
+  "optionExplanations": {
+    "A": "This is the standardized notation mentioned in the lecture: circles denote right ear results and crosses denote left ear results.",
+    "B": "Air and bone conduction use different symbols (like brackets for bone), while circle/cross specifically differentiate the sides.",
+    "C": "Symbols indicate which ear is being tested, regardless of whether the hearing level is normal or impaired.",
+    "D": "Audiogram symbols are standardized across all age groups to indicate right and left ears."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "These symbols are the standard way to distinguish between the two sides of the head.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "2",
+    "lectureTitle": "00002 ENT-ears-s1-low.mp4",
+    "questionIndex": 13,
+    "quizFileName": "quiz_002.json",
+    "quizTitle": "Otology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2749f85d-0c75-4339-ad80-96e7b5ac47a2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

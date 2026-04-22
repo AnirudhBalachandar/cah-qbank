@@ -1,0 +1,69 @@
+{
+  "id": "aa140a93-44ee-4cde-8627-b295793f183f",
+  "stem": "Why is the current acellular vaccine for \\textit{Bordetella pertussis} (whooping cough) insufficient for achieving full herd immunity in the community?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It only protects against the catarrhal phase of the illness.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It does not reduce mucosal carriage of the bacteria.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is a live vaccine that can cause mild infections in the elderly.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The immunity provided by the vaccine is lifelong after one dose.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because the bacteria can still live in the throat of a vaccinated person, they can unknowingly transmit it to vulnerable individuals.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.345Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f21703fbf499d65d16c8",
+  "rationale": "Consider the difference between a person being sick themselves versus being able to pass the germs to others.",
+  "optionExplanations": {
+    "A": "The vaccine effectively prevents the severe clinical symptoms of the disease across its phases but has a different limitation regarding transmission.",
+    "B": "Because the bacteria can still live in the throat of a vaccinated person, they can unknowingly transmit it to vulnerable individuals.",
+    "C": "The pertussis vaccine used in Australia is acellular (inactivated), not a live attenuated vaccine.",
+    "D": "Vaccine-induced immunity to pertussis actually wanes over time, which is why boosters and maternal immunization are necessary."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the difference between a person being sick themselves versus being able to pass the germs to others.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

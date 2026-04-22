@@ -1,0 +1,69 @@
+{
+  "id": "bc5fcec6-cbbb-4bbf-a4d8-f94746659025",
+  "stem": "How can a clinician differentiate a common injection site reaction from cellulitis in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cellulitis typically results in non-tender lymphadenopathy.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "In an injection site reaction, pain usually settles by the time the redness appears.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Cellulitis allows for a full range of movement in the affected limb.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Injection site reactions are always associated with high-grade systemic fever.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A key clinical marker is that the pain improves as the visual redness develops, and it does not limit limb movement.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+      "title": "00028 immunisation_adverse-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.482Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-06a6f807a2a7eb44cd41",
+  "rationale": "Look for the timing of the pain relative to the appearance of the rash and the impact on limb mobility.",
+  "optionExplanations": {
+    "A": "Injection site reactions often present with non-tender lymphadenopathy, whereas cellulitis is associated with systemic toxicity.",
+    "B": "A key clinical marker is that the pain improves as the visual redness develops, and it does not limit limb movement.",
+    "C": "Unlike a standard vaccine reaction, cellulitis typically affects and restricts the movement of the arm or leg.",
+    "D": "Injection site reactions are local and are not associated with systemic toxicity or high-grade fever."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the timing of the pain relative to the appearance of the rash and the impact on limb mobility.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "28",
+    "lectureTitle": "00028 immunisation_adverse-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_028.json",
+    "quizTitle": "Adverse Events Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cf918a82-1574-470a-a4b0-edd95be5ab28",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

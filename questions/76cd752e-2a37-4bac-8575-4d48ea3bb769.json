@@ -1,0 +1,69 @@
+{
+  "id": "76cd752e-2a37-4bac-8575-4d48ea3bb769",
+  "stem": "In children older than 18 months, why is an open reduction alone often insufficient for treating a dislocated hip?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The femoral head has become too large to fit in the socket.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They lack sufficient remodeling potential for the acetabulum to grow back to normal.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Bracing with a Pavlik harness is more effective at this age.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Closed reduction is always successful in this age group.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "By this age, the natural ability of the hip socket to reshape itself is diminished, requiring surgical intervention (osteotomy) to reshape it.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:42.043Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-647590a7ceda04c43440",
+  "rationale": "Consider the biological limits of bone growth and self-correction as a child ages.",
+  "optionExplanations": {
+    "A": "While size can be an issue, the primary reason provided is the lack of natural growth potential to fix the socket's shape.",
+    "B": "By this age, the natural ability of the hip socket to reshape itself is diminished, requiring surgical intervention (osteotomy) to reshape it.",
+    "C": "A Pavlik harness is typically used for infants under 6 months; it is generally not used for older children needing surgery.",
+    "D": "Closed reduction is actually less likely to succeed as the child gets older, often necessitating open surgery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the biological limits of bone growth and self-correction as a child ages.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "questionIndex": 11,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

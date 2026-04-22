@@ -1,0 +1,69 @@
+{
+  "id": "2bb24800-8c5c-4628-811c-822e6270038c",
+  "stem": "If a child suspected of post-infectious glomerulonephritis continues to have a low $C3$ complement level after several months, what should be considered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The diagnosis was correct and recovery is just slow",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An alternative diagnosis such as membranoproliferative disease",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child requires an immediate increase in salt intake",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The streptococcal infection is still active and needs more antibiotics",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that if $C3$ remains low, you must consider other diagnoses like membranoproliferative disease, as $C3$ should recover in standard cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.693Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-49ee130483d59e976441",
+  "rationale": "Think about why clinicians monitor the recovery of complement factors over time.",
+  "optionExplanations": {
+    "A": "In post-infectious GN, $C3$ typically recovers within weeks to a few months; persistent low levels suggest a different pathology.",
+    "B": "The source states that if $C3$ remains low, you must consider other diagnoses like membranoproliferative disease, as $C3$ should recover in standard cases.",
+    "C": "Salt intake is generally restricted in renal disease to manage edema and has no bearing on complement recovery.",
+    "D": "Post-infectious GN is an immune-mediated sequel, not an active infection, and $C3$ recovery is an immune marker, not a measure of bacterial load."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about why clinicians monitor the recovery of complement factors over time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

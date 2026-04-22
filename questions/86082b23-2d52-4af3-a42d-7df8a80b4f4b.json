@@ -1,0 +1,69 @@
+{
+  "id": "86082b23-2d52-4af3-a42d-7df8a80b4f4b",
+  "stem": "Under what condition should Salbutamol be administered via a nebulizer rather than an MDI and spacer for acute asthma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "In all cases of severe asthma to ensure rapid delivery.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Whenever Ipratropium is also being administered.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only when the patient has mild asthma but prefers the mask.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "When the asthma is life-threatening or the patient cannot use an MDI.",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Nebulization is the preferred route for life-threatening scenarios or when the physical distress prevents effective MDI use.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.883Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7897c286e44f7238f048",
+  "rationale": "Consider the severity levels or physical limitations that would make a spacer and inhaler impractical.",
+  "optionExplanations": {
+    "A": "Studies show MDIs with spacers are as effective as nebulizers for severe asthma unless the patient cannot use the MDI.",
+    "B": "Ipratropium can also be delivered via MDI for severe asthma; nebulization is not mandatory based solely on the drug type.",
+    "C": "Nebulization is generally reserved for more critical situations or inability to use standard devices, not patient preference in mild cases.",
+    "D": "Nebulization is the preferred route for life-threatening scenarios or when the physical distress prevents effective MDI use."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the severity levels or physical limitations that would make a spacer and inhaler impractical.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

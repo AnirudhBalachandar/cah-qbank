@@ -1,0 +1,69 @@
+{
+  "id": "4974dcec-c6c3-47d0-96f8-b6e809dbecbf",
+  "stem": "What is the '4x4' plan mentioned in the context of school and childcare asthma flare-up action plans?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Giving 4 puffs of a reliever every 4 minutes until help arrives",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Taking 4 different medications 4 times a day",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Waiting 4 hours between 4 puffs of Ventolin",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Checking peak flow 4 times in 4 minutes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This is the standard emergency first aid protocol used in community settings like schools until professional medical help is available.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f701645-76aa-48a4-83ee-64804f406836",
+      "title": "00012 AsthmaActionPlan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.754Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9afcd6319b29f1c5a7bc",
+  "rationale": "This is an emergency protocol involving a specific number of puffs and a specific time interval.",
+  "optionExplanations": {
+    "A": "This is the standard emergency first aid protocol used in community settings like schools until professional medical help is available.",
+    "B": "The $4\\times4$ plan refers specifically to emergency reliever administration, not a daily multi-drug regimen.",
+    "C": "In an emergency, waiting $4$ hours is far too long; the protocol requires frequent doses to stabilize the airway.",
+    "D": "Peak flow measurement is not the priority during emergency first aid management of an asthma flare-up."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f701645-76aa-48a4-83ee-64804f406836",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This is an emergency protocol involving a specific number of puffs and a specific time interval.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "12",
+    "lectureTitle": "00012 AsthmaActionPlan-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_012.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "ad94575a-cf7b-4497-8261-459c4933a6f1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

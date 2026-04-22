@@ -1,0 +1,69 @@
+{
+  "id": "b94622d4-7710-46fc-8de9-9f04f546b8f1",
+  "stem": "When performing a red reflex examination to screen for leukocoria, what are the recommended settings for the ophthalmoscope and the distance from the patient?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Set to $10$ diopters at a distance of $\\frac{1}{3}$ meter.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Set to $0$ diopters at a distance of $1$ meter.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Set to $20$ diopters at a distance of $10$ centimeters.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Set to $-5$ diopters at a distance of $2$ meters.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This setting allows for a clear view of the red even glow from the fundus at a standard screening distance.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.874Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0a4499db7a10eb955ab7",
+  "rationale": "Consider the specific measurements mentioned for racking up the scope and the fraction of a meter used.",
+  "optionExplanations": {
+    "A": "This setting allows for a clear view of the red even glow from the fundus at a standard screening distance.",
+    "B": "A neutral setting at a full meter may not provide the necessary magnification or focus to detect subtle obstructions in a child's small eye.",
+    "C": "Being too close with high dioptric power is typically used for detailed retinal examination rather than a general red reflex screen.",
+    "D": "Negative diopters are used to correct for myopia and would not be appropriate for a standard red reflex screening distance."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific measurements mentioned for racking up the scope and the fraction of a meter used.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

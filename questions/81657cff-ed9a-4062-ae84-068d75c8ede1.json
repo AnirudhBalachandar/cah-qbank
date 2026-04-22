@@ -1,0 +1,69 @@
+{
+  "id": "81657cff-ed9a-4062-ae84-068d75c8ede1",
+  "stem": "When should routine vaccinations be administered to a pre-term infant to ensure optimal protection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "According to their chronological age.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "According to their corrected age.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only after they reach a weight of $2.5 \\text{ kg}$.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Once they have been discharged from the neonatal intensive care unit.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Administering vaccines based on the actual birth date ensures the infant is protected as early as their immune system allows, regardless of prematurity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.635Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-973b767e411d710f1ca2",
+  "rationale": "Consider whether timing should be based on the date of birth or the expected due date.",
+  "optionExplanations": {
+    "A": "Administering vaccines based on the actual birth date ensures the infant is protected as early as their immune system allows, regardless of prematurity.",
+    "B": "Delaying vaccines until the infant reaches a corrected age leaves them vulnerable to diseases during their most fragile early months.",
+    "C": "While weight is a factor for some specific responses, routine schedules generally depend on time since birth rather than a specific weight threshold.",
+    "D": "Vaccinations often begin while the infant is still hospitalized, particularly to monitor for potential side effects like apnea."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether timing should be based on the date of birth or the expected due date.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

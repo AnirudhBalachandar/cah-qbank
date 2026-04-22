@@ -1,0 +1,69 @@
+{
+  "id": "beb90173-37fe-4cc1-b9d5-64ff1e6300e4",
+  "stem": "How does the source define amblyopia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A reduction in visual acuity due to interrupted development during the sensitive period.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The physical misalignment of the two eyes.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A condition where both eyes require different lens prescriptions.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of an intraocular tumor blocking the macula.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Amblyopia is specifically linked to the interruption of normal visual development in the early years of life.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.306Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3d88ce0255571a3769ed",
+  "rationale": "Focus on the functional visual loss that occurs because the brain doesn't learn to see properly during childhood.",
+  "optionExplanations": {
+    "A": "Amblyopia is specifically linked to the interruption of normal visual development in the early years of life.",
+    "B": "This is the definition of strabismus, which can cause amblyopia, but is not amblyopia itself.",
+    "C": "This describes anisometropia, which is a cause of amblyopia rather than the definition of the condition.",
+    "D": "While a tumor can cause form deprivation leading to amblyopia, it is an underlying pathology rather than the definition of amblyopia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the functional visual loss that occurs because the brain doesn't learn to see properly during childhood.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

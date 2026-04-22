@@ -1,0 +1,69 @@
+{
+  "id": "bbfd4770-9261-466a-91a8-c0664c13aa0c",
+  "stem": "According to the dosing guide, how many puffs of a reliever (such as Ventolin) should a child aged $0$ to $5$ years receive during an acute flare-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6 puffs",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "12 puffs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The guide specifies six puffs every $3$ to $4$ hours for children in the $0$ to $5$ age range during an acute asthma episode.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f701645-76aa-48a4-83ee-64804f406836",
+      "title": "00012 AsthmaActionPlan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.650Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8a33d86eb36f2391cb54",
+  "rationale": "The dose for an acute flare in younger children is higher than the 'not well' dose but lower than the dose for older children.",
+  "optionExplanations": {
+    "A": "Two puffs is the recommended dose for this age group when the child is considered 'well' but experiencing mild symptoms.",
+    "B": "Four puffs is the dose recommended for when the child is 'not well,' such as during a viral illness.",
+    "C": "The guide specifies six puffs every $3$ to $4$ hours for children in the $0$ to $5$ age range during an acute asthma episode.",
+    "D": "Twelve puffs is the recommended acute flare dose for children aged $6$ years and older, not for the younger $0$ to $5$ age group."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f701645-76aa-48a4-83ee-64804f406836",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The dose for an acute flare in younger children is higher than the 'not well' dose but lower than the dose for older children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "12",
+    "lectureTitle": "00012 AsthmaActionPlan-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_012.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "ad94575a-cf7b-4497-8261-459c4933a6f1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

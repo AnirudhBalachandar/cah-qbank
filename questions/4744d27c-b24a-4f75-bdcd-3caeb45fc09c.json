@@ -1,0 +1,69 @@
+{
+  "id": "4744d27c-b24a-4f75-bdcd-3caeb45fc09c",
+  "stem": "What is a major clinical risk associated with the significant buildup of scale (calculus) in patients with special needs or dementia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can lead to the development of osteogenesis imperfecta.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pieces can break off and be inhaled, causing pulmonary complications.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It causes the saliva to become overly 'bubbly'.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It causes the uvula to become bifid over time.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The text warns that large chunks of debris and scale can be aspirated, which is a significant risk for those with poor hygiene or impaired swallowing.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.898Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d573c40b08e06b3ff243",
+  "rationale": "Think about where a large piece of hard material might go if it breaks loose in the mouth of a compromised patient.",
+  "optionExplanations": {
+    "A": "Osteogenesis imperfecta is a genetic condition, not a result of poor oral hygiene.",
+    "B": "The text warns that large chunks of debris and scale can be aspirated, which is a significant risk for those with poor hygiene or impaired swallowing.",
+    "C": "Bubbly saliva is a sign of good flow; calculus buildup is associated with poor hygiene and potential inhalation risks.",
+    "D": "A bifid uvula is a congenital deformity present from birth, not something caused by plaque or scale."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about where a large piece of hard material might go if it breaks loose in the mouth of a compromised patient.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

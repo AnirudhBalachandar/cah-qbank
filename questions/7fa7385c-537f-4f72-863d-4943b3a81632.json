@@ -1,0 +1,69 @@
+{
+  "id": "7fa7385c-537f-4f72-863d-4943b3a81632",
+  "stem": "Which medical investigation is typically arranged to check for genetic conditions associated with autism during the assessment process?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Magnetic Resonance Imaging (MRI)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "CGH microarray and Fragile X testing.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Electroencephalogram (EEG)",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Allergy skin prick testing.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The doctor lists CGH microarray and Fragile X as standard investigations performed during the assessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+      "title": "00054 Autism Spectrum Diso-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:29.612Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ffcab3f04f4020c4ebab",
+  "rationale": "The text mentions two specific tests used to screen for chromosomal and genetic markers.",
+  "optionExplanations": {
+    "A": "The source mentions that there is no imaging test to confirm an autism diagnosis.",
+    "B": "The doctor lists CGH microarray and Fragile X as standard investigations performed during the assessment.",
+    "C": "An EEG is not mentioned in the text as part of the standard initial investigation battery for autism.",
+    "D": "While allergies are checked as part of history, skin prick tests are not listed as a core diagnostic investigation for autism."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The text mentions two specific tests used to screen for chromosomal and genetic markers.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "54",
+    "lectureTitle": "00054 Autism Spectrum Diso-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_054.json",
+    "quizTitle": "Autism Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b26cd104-16f2-4ec7-9fcd-376ca6baec54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

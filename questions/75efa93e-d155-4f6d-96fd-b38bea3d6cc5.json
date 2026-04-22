@@ -1,0 +1,69 @@
+{
+  "id": "75efa93e-d155-4f6d-96fd-b38bea3d6cc5",
+  "stem": "What is a limitation of using head ultrasound for intracranial evaluation in infants?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It cannot be performed in the first month of life.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It requires the anterior fontanelle to be open.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It involves high doses of ionizing radiation.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is more expensive than an MRI.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The skull bone blocks ultrasound waves, so an open 'window' like the fontanelle is necessary to see the brain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.411Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3cf3ba47d3d7dfb64b69",
+  "rationale": "Think about why this test becomes difficult or impossible to perform as a child gets older.",
+  "optionExplanations": {
+    "A": "Ultrasound is very effective in the newborn period when the fontanelles are at their widest.",
+    "B": "The skull bone blocks ultrasound waves, so an open 'window' like the fontanelle is necessary to see the brain.",
+    "C": "Ultrasound uses sound waves and is completely free of ionizing radiation, unlike CT scans.",
+    "D": "Ultrasound is generally one of the least expensive and most accessible imaging modalities."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about why this test becomes difficult or impossible to perform as a child gets older.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

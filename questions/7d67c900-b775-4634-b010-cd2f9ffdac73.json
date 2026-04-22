@@ -1,0 +1,69 @@
+{
+  "id": "7d67c900-b775-4634-b010-cd2f9ffdac73",
+  "stem": "How long should a patient who has undergone a Hematopoietic Stem Cell Transplant (HSCT) wait before receiving live vaccines, assuming no ongoing immunosuppression?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$24$ months",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$6$ months",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$12$ months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$5$ years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A two-year window allows the immune system to reconstitute sufficiently to handle the replication of a live attenuated vaccine virus safely.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.749Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f1ce39f29a36a9dc95b1",
+  "rationale": "This interval is exactly two years post-transplant.",
+  "optionExplanations": {
+    "A": "A two-year window allows the immune system to reconstitute sufficiently to handle the replication of a live attenuated vaccine virus safely.",
+    "B": "Six months is generally too early for HSCT patients to safely receive live vaccines due to the slow recovery of cellular immunity.",
+    "C": "While inactivated vaccines can often be started earlier, live vaccines require a more conservative wait time of two years.",
+    "D": "While long-term monitoring is required, most patients can begin their revaccination schedule with live vaccines after two years."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This interval is exactly two years post-transplant.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

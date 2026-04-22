@@ -1,0 +1,69 @@
+{
+  "id": "877c1b2e-19e9-436d-a3fb-bee266f31090",
+  "stem": "How does the heart rate change during normal breathing in a child exhibiting sinus arrhythmia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The rate quickens during inspiration and slows during expiration.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The rate slows during inspiration and quickens during expiration.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The rate remains constant throughout the respiratory cycle.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The rate fluctuates randomly regardless of the breathing phase.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Inspiration leads to decreased vagal tone, which increases the heart rate, while expiration causes it to slow down.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.560Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c2f75169f1bbaae53a26",
+  "rationale": "Consider the effect of the vagus nerve when taking a breath in.",
+  "optionExplanations": {
+    "A": "Inspiration leads to decreased vagal tone, which increases the heart rate, while expiration causes it to slow down.",
+    "B": "This describes the inverse of the actual physiological response related to vagal tone changes during breathing.",
+    "C": "A fixed heart rate during breathing would indicate the absence of normal sinus arrhythmia, which is very common in children.",
+    "D": "Sinus arrhythmia is specifically synchronized with the respiratory cycle, not random."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the effect of the vagus nerve when taking a breath in.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

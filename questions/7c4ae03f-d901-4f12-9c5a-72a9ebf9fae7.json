@@ -1,0 +1,69 @@
+{
+  "id": "7c4ae03f-d901-4f12-9c5a-72a9ebf9fae7",
+  "stem": "Which pharmacological combination is typically used for conscious sedation during outpatient burn dressing changes?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intravenous fentanyl and a high-dose muscle relaxant.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Oral morphine and an anxiolytic like midazolam, possibly with nitrous oxide.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Topical lidocaine gel and oral ibuprofen only.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intramuscular steroids and a sedative antihistamine.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source mentions using an oral narcotic (morphine) and an anxiolytic (bedazzylam/midazolam) supplemented with gas if needed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.968Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-47b3e05f025a03470f9a",
+  "rationale": "Think about the need for both pain relief and anxiety reduction.",
+  "optionExplanations": {
+    "A": "Muscle relaxants are generally reserved for general anesthesia rather than conscious sedation for dressing changes.",
+    "B": "The source mentions using an oral narcotic (morphine) and an anxiolytic (bedazzylam/midazolam) supplemented with gas if needed.",
+    "C": "While these may be used for very minor burns, the lecture highlights the need for stronger analgesia like narcotics in the outpatient setting.",
+    "D": "Steroids are discussed in the context of scar management, not acute pain management during dressings."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the need for both pain relief and anxiety reduction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

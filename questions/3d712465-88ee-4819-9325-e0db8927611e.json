@@ -1,0 +1,69 @@
+{
+  "id": "3d712465-88ee-4819-9325-e0db8927611e",
+  "stem": "Why is bilateral nasal obstruction life-threatening in neonates?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They have an underdeveloped cough reflex",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They are obligate nasal breathers",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They cannot regulate their oxygen saturation levels",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They have extremely narrow tracheas",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Newborns must breathe through their nose to survive; if both passages are blocked, they experience severe respiratory distress.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+      "title": "00003 ENT_nose-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.770Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3dbf1686a7a384970bb7",
+  "rationale": "Consider the specific physiological breathing requirement unique to newborns.",
+  "optionExplanations": {
+    "A": "While true, the immediate life threat stems from their inability to switch to mouth breathing efficiently.",
+    "B": "Newborns must breathe through their nose to survive; if both passages are blocked, they experience severe respiratory distress.",
+    "C": "Oxygen regulation depends on airway patency, which is compromised due to their anatomical reliance on nasal passages.",
+    "D": "The danger lies in the upper airway obstruction at the level of the nose, regardless of the size of the lower airway."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific physiological breathing requirement unique to newborns.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "3",
+    "lectureTitle": "00003 ENT_nose-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_003.json",
+    "quizTitle": "Rhinology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2bcb4c85-ae5a-4aff-97a5-112b3fd58317",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

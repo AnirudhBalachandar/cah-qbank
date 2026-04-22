@@ -1,0 +1,69 @@
+{
+  "id": "591c0b29-f9e4-4cf7-a6a1-2985bddea5e3",
+  "stem": "If a $12$-year-old girl's bone age is determined to be $14$ years, what is the most likely outcome for her final adult height?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "She will likely attain a taller final height than her current trajectory suggests.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "She will likely follow the $50^{th}$ percentile trajectory until age $18$.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "She will likely stop growing sooner and end up shorter than her current percentile predicts.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Bone age has no predictive value for final height.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because the bones are more mature than her age, the growth plates will close earlier, limiting total height gain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+      "title": "00060 Puberty -  Prof Shub-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:31.277Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-047034e4f1a879b9dc76",
+  "rationale": "Think about the relationship between skeletal maturation (bone age) and the remaining time for growth.",
+  "optionExplanations": {
+    "A": "An advanced bone age means there is less time remaining for growth before the epiphyseal plates fuse.",
+    "B": "Bone age, not chronological age, determines how much more growth is possible.",
+    "C": "Because the bones are more mature than her age, the growth plates will close earlier, limiting total height gain.",
+    "D": "Bone age is a standard tool used by endocrinologists to predict skeletal maturation and final height."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the relationship between skeletal maturation (bone age) and the remaining time for growth.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "60",
+    "lectureTitle": "00060 Puberty -  Prof Shub-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_060.json",
+    "quizTitle": "Puberty Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e22baf88-aef5-4335-9bcc-e7ac01f8c0cc",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

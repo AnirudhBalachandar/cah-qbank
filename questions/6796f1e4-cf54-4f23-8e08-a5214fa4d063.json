@@ -1,0 +1,69 @@
+{
+  "id": "6796f1e4-cf54-4f23-8e08-a5214fa4d063",
+  "stem": "In the springboard case of the $4$-year-old girl with a hemoglobin of $47$ g/L, why was she able to remain relatively stable despite such a low level?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The hemoglobin dropped slowly over time, allowing for physiological adjustments like increased $2,3$-DPG.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Aboriginal children possess a genetic adaptation that allows for higher oxygen carrying capacity at low volumes.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Her high intake of milk provided enough alternative nutrients to offset the lack of oxygen transport.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "She had received a partial blood transfusion prior to her presentation at the outpatient clinic.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A slow transition allows the body to increase oxygen dissociation efficiency, whereas a sudden drop would result in critical illness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+      "title": "00023 ATSI health gap_HG04-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.170Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-91cab63b718a1b28793f",
+  "rationale": "Consider the speed at which the anemia developed and how the body compensates for gradual changes.",
+  "optionExplanations": {
+    "A": "A slow transition allows the body to increase oxygen dissociation efficiency, whereas a sudden drop would result in critical illness.",
+    "B": "There is no mention of a genetic adaptation for low hemoglobin; the stability is attributed to the chronicity of the iron deficiency.",
+    "C": "High milk intake was actually a contributing cause of the iron deficiency, not a compensatory mechanism for low hemoglobin.",
+    "D": "The source explicitly states that she did not require a blood transfusion and was managed with replacement therapy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the speed at which the anemia developed and how the body compensates for gradual changes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "23",
+    "lectureTitle": "00023 ATSI health gap_HG04-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_023.json",
+    "quizTitle": "Indigenous Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cb62cee4-4a49-4f9e-9d69-3b6588737d6d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

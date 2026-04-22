@@ -1,0 +1,69 @@
+{
+  "id": "490a8777-4aa6-4580-88c1-441f673ba5f8",
+  "stem": "In a low-risk BRUE patient, which investigations are recommended before considering discharge with parental reassurance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Blood glucose level and urinalysis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Full blood count, CRP, and a chest X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Electrocardiogram (ECG) and EEG",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Nasopharyngeal aspirate and blood gas",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "These basic tests help rule out immediate metabolic or infectious concerns while avoiding more invasive high-risk workups.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+      "title": "00005 BRUE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.206Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dd9a8d7eeefd8ba3ed02",
+  "rationale": "Identify the two specific, minimally invasive tests mentioned for infants over $60$ days of age.",
+  "optionExplanations": {
+    "A": "These basic tests help rule out immediate metabolic or infectious concerns while avoiding more invasive high-risk workups.",
+    "B": "These are part of a more extensive septic workup reserved for high-risk infants rather than low-risk cases.",
+    "C": "While an ECG might be done in high-risk cases, these specialized tests are not routinely required for all low-risk infants.",
+    "D": "These investigations are generally reserved for infants showing signs of respiratory distress or those in the high-risk category."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the two specific, minimally invasive tests mentioned for infants over $60$ days of age.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "5",
+    "lectureTitle": "00005 BRUE-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_005.json",
+    "quizTitle": "BRUE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4a12b74d-8495-4ab6-9d09-b6e011b57050",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

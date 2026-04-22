@@ -1,0 +1,69 @@
+{
+  "id": "02a217d5-6d31-41e8-9817-761dcffa0a5e",
+  "stem": "What should be suspected if a child experiences fresh blood oozing for a week following a minor injury to the lip's frenum?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Dental caries of the primary dentition.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An underlying bleeding disorder, such as Factor IX deficiency.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Normal healing of a fleshy maxillary freedom.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of a supernumerary tooth blocking the wound.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source notes that prolonged bleeding from minor trauma is a major red flag for conditions like hemophilia B (Factor IX deficiency).",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.000Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a67a62bad997c30dc007",
+  "rationale": "Prolonged bleeding after a small cut usually points to a problem with the blood's ability to clot.",
+  "optionExplanations": {
+    "A": "Caries involves tooth decay and would not cause prolonged bleeding from a soft tissue tear.",
+    "B": "The source notes that prolonged bleeding from minor trauma is a major red flag for conditions like hemophilia B (Factor IX deficiency).",
+    "C": "A week of continuous oozing is not normal for a minor tear and indicates a systemic clotting issue.",
+    "D": "While extra teeth cause crowding, they do not cause prolonged bleeding from soft tissue injuries."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Prolonged bleeding after a small cut usually points to a problem with the blood's ability to clot.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "questionIndex": 13,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

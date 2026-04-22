@@ -1,14 +1,24 @@
 {
   "name": "cah-qbank-v2",
   "private": true,
+  "bin": {
+    "cah": "./tools/cli/dist/index.js"
+  },
   "scripts": {
     "dev": "pnpm --filter app dev",
     "build": "pnpm --filter app build",
-    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm test:unit",
+    "test:unit": "pnpm -r test",
+    "generation:test": "pnpm --filter @cah/generate test",
     "sync-db": "pnpm --filter app tsx scripts/sync-db.ts",
+    "migrate:backup": "pnpm exec tsx tools/migrate-from-backup.ts",
+    "validate:questions": "pnpm exec tsx tools/validate-questions.ts",
+    "build:cli": "pnpm --filter @cah/cli build",
     "cah": "node tools/cli/dist/index.js"
   },
   "devDependencies": {
+    "tsx": "^4.21.0",
     "typescript": "^5.4.0"
   }
 }

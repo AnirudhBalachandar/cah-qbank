@@ -1,0 +1,69 @@
+{
+  "id": "f4ebb692-270f-4cda-8e15-50a452518b05",
+  "stem": "Before the widespread use of antibiotics (c. 1928–1933), what percentage of deaths in Los Angeles County Hospital were attributed to complications of otitis media?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$2.5\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$10\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$0.5\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$25\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source mentions that $25$ per every $1000$ deaths (which is $2.5\\%$) were due to complications from otitis media during that period.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+      "title": "00002 ENT-ears-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.488Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cc9c90b05261b2ac9fd2",
+  "rationale": "Convert the statistic '25 every thousand' into a percentage.",
+  "optionExplanations": {
+    "A": "The source mentions that $25$ per every $1000$ deaths (which is $2.5\\%$) were due to complications from otitis media during that period.",
+    "B": "$10\\%$ refers to the percentage of hospital beds occupied by patients with these complications, not the mortality rate.",
+    "C": "This figure is too low; the lecture emphasizes that otitis media was a very serious and relatively common cause of death pre-antibiotics.",
+    "D": "While serious, otitis media did not account for a quarter of all hospital deaths; the figure was $25$ out of $1000$."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Convert the statistic '25 every thousand' into a percentage.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "2",
+    "lectureTitle": "00002 ENT-ears-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_002.json",
+    "quizTitle": "Otology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2749f85d-0c75-4339-ad80-96e7b5ac47a2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

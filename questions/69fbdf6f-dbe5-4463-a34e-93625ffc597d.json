@@ -1,0 +1,69 @@
+{
+  "id": "69fbdf6f-dbe5-4463-a34e-93625ffc597d",
+  "stem": "Which clinical feature is notably absent in a typical presentation of Food Protein-Induced Enterocolitis Syndrome (FPIES)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Skin rashes or respiratory distress.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Profuse, repetitive vomiting.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Pallor and lethargy.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypotension and hypothermia.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "FPIES is a non-IgE mediated disorder and specifically does not involve the skin or respiratory tract.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.887Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-102adde0477bb05abaad",
+  "rationale": "Distinguish between IgE-mediated symptoms and those of non-IgE mediated enterocolitis.",
+  "optionExplanations": {
+    "A": "FPIES is a non-IgE mediated disorder and specifically does not involve the skin or respiratory tract.",
+    "B": "This is the hallmark symptom of an acute FPIES reaction.",
+    "C": "These systemic features are common in FPIES and can lead to confusion with sepsis or severe infection.",
+    "D": "In severe cases, FPIES can cause these shock-like symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Distinguish between IgE-mediated symptoms and those of non-IgE mediated enterocolitis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

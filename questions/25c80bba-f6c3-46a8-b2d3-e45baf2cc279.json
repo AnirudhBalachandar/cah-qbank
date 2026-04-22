@@ -1,0 +1,69 @@
+{
+  "id": "25c80bba-f6c3-46a8-b2d3-e45baf2cc279",
+  "stem": "Which diagnostic technology has been responsible for identifying virtually all new pathogenic genes related to primary immunodeficiencies since 2013?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Next Generation Sequencing (NGS).",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Flow cytometry.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Nitroblue tetrazolium (NBT) testing.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "T-cell receptor excision circle (TREC) analysis.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "NGS allows for high-throughput, simultaneous sequencing of millions of DNA fragments, making it cost-effective to find rare genetic variants.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.165Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0fd2ca0bbb649227f560",
+  "rationale": "This method involves high-throughput DNA sequencing and established causation for many new syndromes.",
+  "optionExplanations": {
+    "A": "NGS allows for high-throughput, simultaneous sequencing of millions of DNA fragments, making it cost-effective to find rare genetic variants.",
+    "B": "Flow cytometry is used to count and sort cell types (like T, B, and NK cells), but it cannot sequence DNA to identify new genes.",
+    "C": "NBT is a functional assay for neutrophil oxidative burst and does not involve genetic sequencing.",
+    "D": "TRECs are used for newborn screening to detect low T-cell counts, but they are not used for broad gene discovery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This method involves high-throughput DNA sequencing and established causation for many new syndromes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

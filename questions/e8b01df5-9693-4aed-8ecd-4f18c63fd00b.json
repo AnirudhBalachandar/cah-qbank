@@ -1,0 +1,69 @@
+{
+  "id": "e8b01df5-9693-4aed-8ecd-4f18c63fd00b",
+  "stem": "Why is the use of a collection bag considered a 'big no-no' for diagnosing a UTI in a child if the culture comes back positive?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bag material often leaches chemicals that kill $E. coli$, leading to false negatives.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "There is a $50/50$ chance that a positive result is simply due to contamination.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Collection bags are only accurate for children who have already been toilet trained.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The bag prevents the detection of nitrites on a dipstick test.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because the bag collects skin flora along with urine, a positive culture is only truly an infection half of the time, making it diagnostically inadequate.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.346Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-80e8beca3a2762c03863",
+  "rationale": "Consider the likelihood of skin bacteria entering a non-sterile collection vessel taped to the perineum.",
+  "optionExplanations": {
+    "A": "Bag specimens are actually highly reliable for ruling out infection if the result is negative.",
+    "B": "Because the bag collects skin flora along with urine, a positive culture is only truly an infection half of the time, making it diagnostically inadequate.",
+    "C": "Bags are specifically used for children in nappies, but they remain prone to contamination regardless of the child's training status.",
+    "D": "The issue with bags is not the chemical testing (dipstick) but the high rate of bacterial contamination during culture."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the likelihood of skin bacteria entering a non-sterile collection vessel taped to the perineum.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

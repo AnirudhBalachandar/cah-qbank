@@ -1,0 +1,69 @@
+{
+  "id": "697f0541-0cd7-4a18-88f7-48856ea44254",
+  "stem": "If an adult patient is taking high-dose or prolonged corticosteroids, how long should live vaccines be deferred after stopping the medication?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "At least $1$ month",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$24$ hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$6$ months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$1$ year",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A one-month gap allows the immune system to recover from the suppressive effects of the steroids, ensuring both safety and a better vaccine response.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.798Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-229a83341f4cdde7bec1",
+  "rationale": "This timeframe is consistent with the window used to ensure the immune system has regained functional status.",
+  "optionExplanations": {
+    "A": "A one-month gap allows the immune system to recover from the suppressive effects of the steroids, ensuring both safety and a better vaccine response.",
+    "B": "Corticosteroids have lingering effects on immune function that last much longer than one day.",
+    "C": "While some biological drugs require a six-month wait, the standard recommendation for steroids is a shorter one-month interval.",
+    "D": "A full year is excessively long for steroid-induced immunosuppression unless other complicating factors are present."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This timeframe is consistent with the window used to ensure the immune system has regained functional status.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

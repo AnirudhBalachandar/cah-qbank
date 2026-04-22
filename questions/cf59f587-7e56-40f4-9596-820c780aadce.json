@@ -1,0 +1,69 @@
+{
+  "id": "cf59f587-7e56-40f4-9596-820c780aadce",
+  "stem": "What is the primary clinical limitation of the maternal intrapartum antimicrobial prophylaxis used for Group B \\textit{Streptococcus} (GBS)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is only 20% effective against early onset sepsis.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It has no measurable effect on the incidence of late onset GBS sepsis.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It increases the risk of neonatal herpes simplex virus transmission.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It requires screening to be done in the first trimester to be effective.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "While it significantly reduces colonization and early infection, it does not prevent the development of GBS sepsis occurring after the first week of life.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.292Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-54201499093911964964",
+  "rationale": "Focus on the specific timing of the infection that the treatment fails to prevent.",
+  "optionExplanations": {
+    "A": "The prophylaxis is actually highly effective, reducing the incidence of early onset disease by approximately 80%.",
+    "B": "While it significantly reduces colonization and early infection, it does not prevent the development of GBS sepsis occurring after the first week of life.",
+    "C": "There is no evidence suggesting that GBS antibiotic prophylaxis impacts the transmission rates of viral infections like HSV.",
+    "D": "Screening is more protective when performed later in the pregnancy rather than early on."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific timing of the infection that the treatment fails to prevent.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

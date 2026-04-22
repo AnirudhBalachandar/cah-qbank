@@ -1,0 +1,69 @@
+{
+  "id": "5fb3a9ce-0156-40ff-a9af-3e2fe187cc98",
+  "stem": "If a patient has a high $AST$ and $ALT$ but normal $GGT$ and $ALP$, what non-hepatic condition should be screened for?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Muscle breakdown or myopathy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Biliary atresia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hemolytic anemia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Celiac disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "$AST$ and $ALT$ are found in muscle tissue; their elevation without biliary markers ($GGT$, $ALP$) strongly suggests a muscular rather than hepatic source.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.836Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2ce47d3f428afaac006e",
+  "rationale": "These enzymes are not exclusively found in the liver; consider other major tissues in the body.",
+  "optionExplanations": {
+    "A": "$AST$ and $ALT$ are found in muscle tissue; their elevation without biliary markers ($GGT$, $ALP$) strongly suggests a muscular rather than hepatic source.",
+    "B": "Biliary atresia typically presents with high $GGT$ due to the involvement of the bile ducts.",
+    "C": "Hemolysis primarily causes an elevation in unconjugated bilirubin rather than a specific isolated rise in transaminases.",
+    "D": "While celiac can cause mild LFT elevations, it would not typically present with the specific pattern of isolated transaminase elevation without liver involvement."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "These enzymes are not exclusively found in the liver; consider other major tissues in the body.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 10,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

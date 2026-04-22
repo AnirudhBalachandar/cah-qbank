@@ -1,0 +1,69 @@
+{
+  "id": "08946a6c-dbe0-4381-9548-ec44eaa3e04a",
+  "stem": "Regarding the 'Rule of Two' in orthopedic imaging, what is meant by 'two occasions'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fractures may not be obvious initially and may require later imaging.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Every X-ray must be read by two different radiologists.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "X-rays should be taken before and after the patient receives analgesia.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The limb must be imaged in both weight-bearing and non-weight-bearing states.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The position of a fracture can change, or initial radiographs may be occult, requiring follow-up films to confirm the diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.615Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-483407b63d7fc820c533",
+  "rationale": "Consider that an X-ray is only a 'snapshot in time' and injuries can evolve.",
+  "optionExplanations": {
+    "A": "The position of a fracture can change, or initial radiographs may be occult, requiring follow-up films to confirm the diagnosis.",
+    "B": "While peer review exists, the 'Rule of Two' refers to the clinical timing and frequency of the imaging studies themselves.",
+    "C": "Analgesia is important for patient comfort, but the rule specifically addresses the temporal limitations of a single snapshot in time.",
+    "D": "While weight-bearing views are useful in some cases, the 'Rule of Two' focuses on the necessity of serial imaging."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider that an X-ray is only a 'snapshot in time' and injuries can evolve.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

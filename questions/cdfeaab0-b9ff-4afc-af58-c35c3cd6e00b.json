@@ -1,0 +1,69 @@
+{
+  "id": "cdfeaab0-b9ff-4afc-af58-c35c3cd6e00b",
+  "stem": "According to the DSM-5, what is the 'gold standard' for a diagnosis of Autism Spectrum Disorder?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A positive result on a specific blood test.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An abnormality found on a brain scan.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A clinical diagnosis based on history and assessment meeting specific criteria.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The results of the ADOS-2 kit alone.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explains that the DSM-5 diagnosis is clinical, relying on history, examination, and meeting set criteria.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+      "title": "00054 Autism Spectrum Diso-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:29.635Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-45a0a212c033ae93e9d4",
+  "rationale": "Think about whether the diagnosis is based on laboratory results or professional observation and criteria.",
+  "optionExplanations": {
+    "A": "The text explicitly states there is no blood test that can confirm or deny an autism diagnosis.",
+    "B": "The source notes that no imaging test is used to make a clinical diagnosis of autism.",
+    "C": "The source explains that the DSM-5 diagnosis is clinical, relying on history, examination, and meeting set criteria.",
+    "D": "The ADOS-2 is a tool used to aid clinical judgment, but it is not the diagnosis itself."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about whether the diagnosis is based on laboratory results or professional observation and criteria.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "54",
+    "lectureTitle": "00054 Autism Spectrum Diso-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_054.json",
+    "quizTitle": "Autism Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b26cd104-16f2-4ec7-9fcd-376ca6baec54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

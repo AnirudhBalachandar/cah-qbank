@@ -1,0 +1,69 @@
+{
+  "id": "6a80f5f4-68c6-420e-aed2-722e7ad2607d",
+  "stem": "How does an $ECG$ change as a child progresses from infancy to adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The voltages shift from right ventricular dominance to left ventricular dominance.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The heart rate increases significantly until puberty.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The $PR$ interval disappears due to accessory pathways.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The axis shifts further to the right ($> 180^\\circ$).",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Initially, the $RV$ is larger, but as the $LV$ becomes the high-pressure pump for the systemic system, its mass and electrical voltages increase.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:29.106Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c20977497dc0d7393fec",
+  "rationale": "Consider which ventricle becomes the primary high-pressure pump for the body as the person grows.",
+  "optionExplanations": {
+    "A": "Initially, the $RV$ is larger, but as the $LV$ becomes the high-pressure pump for the systemic system, its mass and electrical voltages increase.",
+    "B": "According to the provided data, heart rate generally drops slowly following a peak at around $3$ weeks to $3$ months of age.",
+    "C": "A short $PR$ interval is a sign of pathology like Wolf-Parkinson-White syndrome, not a normal developmental change.",
+    "D": "The axis normally moves toward the left as the left ventricle becomes more dominant during growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which ventricle becomes the primary high-pressure pump for the body as the person grows.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "questionIndex": 11,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

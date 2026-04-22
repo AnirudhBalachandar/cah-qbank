@@ -1,0 +1,69 @@
+{
+  "id": "1b1362c5-a0da-4fd6-97c6-8faeae92cab5",
+  "stem": "What role does Anti-Müllerian Hormone ($AMH$) play in male fetal development as described in the source?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It stimulates the growth of the uterus and fallopian tubes.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It inhibits the development of female reproductive structures like the uterus.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It triggers the descent of the testes into the scrotum.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is the primary hormone responsible for the adolescent growth spurt.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Produced by the testes, $AMH$ ensures that Müllerian structures do not develop in a male fetus.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+      "title": "00060 Puberty -  Prof Shub-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:31.404Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9702b42ed17c06ef81d2",
+  "rationale": "Look at the name of the hormone to understand what it 'opposes' or inhibits.",
+  "optionExplanations": {
+    "A": "$AMH$ does the exact opposite; it prevents these structures from forming.",
+    "B": "Produced by the testes, $AMH$ ensures that Müllerian structures do not develop in a male fetus.",
+    "C": "Testicular descent is primarily controlled by other factors, including insulin-like $3$ and testosterone.",
+    "D": "Linear growth is driven by growth hormone and sex steroids (estrogen/testosterone), not $AMH$."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look at the name of the hormone to understand what it 'opposes' or inhibits.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "60",
+    "lectureTitle": "00060 Puberty -  Prof Shub-s1-low.mp4",
+    "questionIndex": 12,
+    "quizFileName": "quiz_060.json",
+    "quizTitle": "Puberty Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e22baf88-aef5-4335-9bcc-e7ac01f8c0cc",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "c4e802af-f8d8-420a-8581-158b9db485ad",
+  "stem": "How long does it typically take for diagnostic X-ray changes to appear in a child with Perthes disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "4 to 6 months",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "1 to 2 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "24 to 48 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "3 to 4 weeks",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "X-ray changes that confirm Perthes disease are not immediate and usually take several months to manifest.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:41.365Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-00c8a100f2b28dc8c4fc",
+  "rationale": "Consider the long-term observation period required to differentiate this from transient conditions.",
+  "optionExplanations": {
+    "A": "X-ray changes that confirm Perthes disease are not immediate and usually take several months to manifest.",
+    "B": "This is the typical timeframe for recovery from transient synovitis, not for the development of X-ray changes in Perthes.",
+    "C": "X-rays are often normal at the initial presentation of Perthes disease and do not change this quickly.",
+    "D": "While older children might take this long to recover from synovitis, Perthes changes require a longer period to become evident."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the long-term observation period required to differentiate this from transient conditions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

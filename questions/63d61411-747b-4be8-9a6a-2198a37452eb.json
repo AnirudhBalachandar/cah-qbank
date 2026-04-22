@@ -1,0 +1,69 @@
+{
+  "id": "63d61411-747b-4be8-9a6a-2198a37452eb",
+  "stem": "Under what specific condition is orthopedic surgery, such as a pelvic osteotomy, deemed necessary?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The femoral head is subluxed and laterally uncovered",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The child is under $5$ years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Bone cysts are present in the metaphysis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child first presents with a limp",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Surgery is used to improve containment when the femoral head is not adequately covered by the acetabulum.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:41.689Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c0001fa7f1692b570a80",
+  "rationale": "Consider the mechanical relationship between the femoral head and the hip socket.",
+  "optionExplanations": {
+    "A": "Surgery is used to improve containment when the femoral head is not adequately covered by the acetabulum.",
+    "B": "Presentation at a younger age usually carries a better prognosis and often requires less intervention.",
+    "C": "While cysts may be seen on X-ray, their presence alone does not mandate surgery if containment is maintained.",
+    "D": "A limp is a standard symptom for all cases, most of which are treated with observation rather than surgery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the mechanical relationship between the femoral head and the hip socket.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

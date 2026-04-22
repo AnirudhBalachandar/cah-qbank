@@ -1,0 +1,69 @@
+{
+  "id": "175d620c-bb2f-43a5-94c4-c103261652c8",
+  "stem": "Which characteristic is a hallmark of a normal neonatal ECG compared to an adult ECG?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A predominance of the right ventricle.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A predominance of the left ventricle.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A significantly slower heart rate.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A completely flat line between the P-wave and QRS complex.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because the right ventricle is dominant during fetal life, neonates typically show right axis deviation and prominent R waves in anterior leads.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.537Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f0708fd92e1274793789",
+  "rationale": "Think about which side of the heart works harder before birth.",
+  "optionExplanations": {
+    "A": "Because the right ventricle is dominant during fetal life, neonates typically show right axis deviation and prominent R waves in anterior leads.",
+    "B": "Left ventricular dominance is the typical pattern for teenagers and adults, but not for neonates.",
+    "C": "Neonates and babies actually have much faster heart rates compared to adults.",
+    "D": "While this is a normal feature, it is common to both healthy adults and children and does not distinguish a neonatal ECG."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about which side of the heart works harder before birth.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

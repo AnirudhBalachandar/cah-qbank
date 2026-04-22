@@ -1,0 +1,69 @@
+{
+  "id": "bdd28bd4-907d-4df6-b011-c1198eb069f3",
+  "stem": "Which clinical finding is most indicative of life-threatening asthma rather than severe asthma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Oxygen saturations between $90\\%$ and $94\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tracheal tug and subcostal recession.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Soft or absent breath sounds on auscultation.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Inability to complete sentences in one breath.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Silent chest indicates such poor air movement that the situation has become life-threatening.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.838Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6326f57072454e72d59d",
+  "rationale": "Think about what happens to audible air movement when a patient's respiratory effort becomes critically low.",
+  "optionExplanations": {
+    "A": "Oxygen levels in this range are characteristic of severe asthma, whereas life-threatening asthma involves levels below $90\\%$.",
+    "B": "These signs indicate an increased work of breathing typical of the severe category.",
+    "C": "Silent chest indicates such poor air movement that the situation has become life-threatening.",
+    "D": "This level of respiratory distress is common in severe asthma but is superseded by findings like exhaustion or cyanosis in life-threatening cases."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what happens to audible air movement when a patient's respiratory effort becomes critically low.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

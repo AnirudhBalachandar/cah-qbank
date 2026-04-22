@@ -1,0 +1,69 @@
+{
+  "id": "40e9d48f-339c-489d-b232-12699233b73f",
+  "stem": "What radiographic feature is most suggestive of 'mural gas' (pneumatosis intestinalis) in necrotizing enterocolitis (NEC)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bubbly or linear lucencies within the wall of the bowel loops.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A 'double bubble' in the upper abdomen.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The appearance of valvulae conniventes stretching across the bowel.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A 'corkscrew' appearance of the distal duodenum.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "NEC is characterized by gas within the bowel wall, which appears as bubbly or linear lucencies on a plain film.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.335Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a6b562ce861d2631aab7",
+  "rationale": "Look for gas that seems to follow the contour of the bowel wall itself rather than being inside the lumen.",
+  "optionExplanations": {
+    "A": "NEC is characterized by gas within the bowel wall, which appears as bubbly or linear lucencies on a plain film.",
+    "B": "The double bubble is a classic sign of duodenal atresia, not NEC.",
+    "C": "Valvulae conniventes are a normal feature of small bowel folds, though they become more prominent during obstruction.",
+    "D": "A corkscrew appearance is indicative of midgut volvulus, not the intramural gas seen in NEC."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for gas that seems to follow the contour of the bowel wall itself rather than being inside the lumen.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

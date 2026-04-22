@@ -1,0 +1,69 @@
+{
+  "id": "9bf4188d-e442-4576-8104-7f770e6b051e",
+  "stem": "Which laboratory finding might lead to a misdiagnosis of liver disease in a child who actually has DMD?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Low albumin levels",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Elevated ALT and AST",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Raised Bilirubin",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Low Creatine Kinase (CK)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "These enzymes are found in both liver and muscle tissue; in DMD, their elevation is due to muscle breakdown rather than hepatic origin.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.556Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-abc7e09abec99e69e4f3",
+  "rationale": "Focus on enzymes that are common to both the liver and the musculoskeletal system.",
+  "optionExplanations": {
+    "A": "While albumin is a liver marker, it is not typically the value that causes confusion with muscle breakdown in DMD cases.",
+    "B": "These enzymes are found in both liver and muscle tissue; in DMD, their elevation is due to muscle breakdown rather than hepatic origin.",
+    "C": "Bilirubin is a more specific marker for liver or biliary function and is not a standard byproduct of muscle fiber destruction.",
+    "D": "In DMD, CK levels are extremely high, not low, due to the massive release of the enzyme from damaged muscles."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on enzymes that are common to both the liver and the musculoskeletal system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

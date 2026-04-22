@@ -1,0 +1,69 @@
+{
+  "id": "1b3cb28a-fa6a-4a3a-ac00-86037f46b100",
+  "stem": "Which set of symptoms in a child should be treated as a neurosurgical emergency due to potential spinal cord compression?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intractable vomiting and pallor",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Bowel and bladder problems with lower limb symptoms",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Facial nerve palsy and high blood pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Non-epileptic seizures and tunnel vision",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acute or subacute dysfunction of the bowel/bladder combined with leg symptoms suggests a lesion or infection compressing the spinal cord.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+      "title": "00071 Neurology - what not-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.693Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-14e71a819154ae682e2e",
+  "rationale": "Focus on the specific anatomical functions controlled by the lower regions of the central nervous system.",
+  "optionExplanations": {
+    "A": "These symptoms are more indicative of migraine variants or increased intracranial pressure rather than spinal cord issues.",
+    "B": "Acute or subacute dysfunction of the bowel/bladder combined with leg symptoms suggests a lesion or infection compressing the spinal cord.",
+    "C": "This combination is a red flag for hypertension-related neurological issues, not spinal cord compression.",
+    "D": "These are common presentations of functional neurological disorders rather than acute structural emergencies."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific anatomical functions controlled by the lower regions of the central nervous system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "71",
+    "lectureTitle": "00071 Neurology - what not-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_071.json",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e57d3ca2-20dc-4d28-b7fd-7ab669303461",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

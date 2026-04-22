@@ -1,0 +1,69 @@
+{
+  "id": "83470480-3a8d-466d-9753-01d1f0fdde16",
+  "stem": "What is the estimated risk of cardiac arrest or sudden death in the population with Wolff-Parkinson-White syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately $3\\%$ to $5\\%$.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Approximately $15\\%$ to $20\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Less than $0.1\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$0\\%$, as it is a benign condition.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "While small, there is a distinct risk that atrial fibrillation could conduct rapidly over the accessory pathway, leading to ventricular fibrillation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.699Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0a8c6ed4bb0f4770f2bc",
+  "rationale": "It is a low single-digit percentage range.",
+  "optionExplanations": {
+    "A": "While small, there is a distinct risk that atrial fibrillation could conduct rapidly over the accessory pathway, leading to ventricular fibrillation.",
+    "B": "This estimate is significantly higher than the actual risk mentioned in the clinical material.",
+    "C": "While the risk is low, it is high enough ($3\\%$ to $5\\%$) to warrant significant clinical concern and potential treatment.",
+    "D": "WPW is not considered entirely benign due to the specific risk of life-threatening arrhythmias."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It is a low single-digit percentage range.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "08325073-1de2-4c22-b460-aee674221c19",
+  "stem": "Which group of children is identified as being at higher risk for significant reflux due to previous surgical intervention?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Children who had pyloric stenosis repair",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Children who had esophageal atresia repaired",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Children with a history of gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Children born post-term",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Surgical repair of the esophagus can affect motility and increase the risk of strictures and severe reflux.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+      "title": "00009 Common_Problems_Refl-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.075Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4bfccea6c1edd8b1cb8c",
+  "rationale": "Focus on children who have had surgery specifically on the tube connecting the mouth to the stomach.",
+  "optionExplanations": {
+    "A": "Pyloromyotomy generally resolves the issue of vomiting and does not inherently increase long-term reflux risk like esophageal surgery does.",
+    "B": "Surgical repair of the esophagus can affect motility and increase the risk of strictures and severe reflux.",
+    "C": "Gastroenteritis is an acute infection and does not cause the structural or functional changes associated with chronic reflux.",
+    "D": "Prematurity, rather than being born post-term, is a known risk factor for increased reflux severity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on children who have had surgery specifically on the tube connecting the mouth to the stomach.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "9",
+    "lectureTitle": "00009 Common_Problems_Refl-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_009.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "697e57bc-023f-44bd-86ac-677e97816216",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

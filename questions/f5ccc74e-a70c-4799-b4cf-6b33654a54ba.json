@@ -1,0 +1,69 @@
+{
+  "id": "f5ccc74e-a70c-4799-b4cf-6b33654a54ba",
+  "stem": "A child presents with a high fever for four days. Once the temperature abruptly returns to normal, a discrete maculopapular rash appears. What is the most likely causative agent?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Measles virus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Human Herpes Virus 6 (HHV-6)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Parvovirus B19",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Group A \\textit{Streptococcus}",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "HHV-6 is the cause of Roseola infantum, which is uniquely characterized by a fever that 'breaks' just as the rash emerges.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.396Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bab7c064090a51b35bbc",
+  "rationale": "The timing of the fever's resolution in relation to the rash's onset is the key diagnostic clue.",
+  "optionExplanations": {
+    "A": "In measles, the fever typically persists or peaks during the rash, and the lesions often become confluent rather than remaining discrete.",
+    "B": "HHV-6 is the cause of Roseola infantum, which is uniquely characterized by a fever that 'breaks' just as the rash emerges.",
+    "C": "Parvovirus B19 typically presents with a 'slapped cheek' appearance followed by a lacy rash, rather than a sudden drop in a high fever.",
+    "D": "This bacterium is associated with scarlet fever or impetigo, which follow different symptomatic patterns than the fever-then-rash sequence described."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The timing of the fever's resolution in relation to the rash's onset is the key diagnostic clue.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ce398736-2251-4fba-8d63-78209786a034",
+  "stem": "Why do patients with Leukocyte Adhesion Disorder (LAD) typically present with very high peripheral neutrophil counts during an infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Neutrophils cannot migrate out of the bloodstream into the tissues.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The bone marrow overproduces neutrophils to compensate for their lack of function.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Neutrophils are unable to perform an oxidative burst and thus live longer.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The neutrophils are being signaled to multiply by the terminal complement pathway.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because the 'velcro' mechanism that allows neutrophils to stick to and exit blood vessels is broken, they remain trapped in circulation, leading to high blood counts.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.083Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7b1924b1966ca2278a55",
+  "rationale": "Consider the steps of neutrophil recruitment: rolling, activation, and adhesion to the vessel wall.",
+  "optionExplanations": {
+    "A": "Because the 'velcro' mechanism that allows neutrophils to stick to and exit blood vessels is broken, they remain trapped in circulation, leading to high blood counts.",
+    "B": "The high count is not due to overproduction but rather the failure of cells to leave the intravascular space and reach the site of infection.",
+    "C": "Oxidative burst failure is the mechanism for CGD, not LAD; LAD is primarily a recruitment and trafficking defect.",
+    "D": "The complement pathway is involved in lysis and opsonization, but it does not drive the leukocytosis seen in adhesion defects."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the steps of neutrophil recruitment: rolling, activation, and adhesion to the vessel wall.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

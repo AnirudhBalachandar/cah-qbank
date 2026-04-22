@@ -1,0 +1,69 @@
+{
+  "id": "49f43026-6698-4d1e-b373-b578a098fada",
+  "stem": "How is the wheel size measured and reported during a skin prick test to ensure accuracy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "By measuring the greatest wheel direction and the coordinate at $90^\\circ$ to it.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "By calculating the total surface area of the raised wheel using a digital scanner.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "By measuring only the single largest diameter of the wheel in millimeters.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "By comparing the wheel color to a standardized chromatic scale for intensity.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This method uses two axes ($X$ and $Y$ coordinates) to capture the dimensions of the reaction accurately.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+      "title": "00031 Year 3 CAH Allergy a-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.296Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5c052d73bb000f051481",
+  "rationale": "Consider the two-dimensional nature of measuring an irregular shape on the skin.",
+  "optionExplanations": {
+    "A": "This method uses two axes ($X$ and $Y$ coordinates) to capture the dimensions of the reaction accurately.",
+    "B": "While technology exists, the standard clinical procedure described involves manual measurement of two specific diameters.",
+    "C": "Reporting only one dimension may fail to account for the irregular shapes that allergic reactions can take.",
+    "D": "The physical size of the wheel, rather than its color or redness, is the primary metric for reporting skin prick results."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the two-dimensional nature of measuring an irregular shape on the skin.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "31",
+    "lectureTitle": "00031 Year 3 CAH Allergy a-s1-low (1).mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_031.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "40c41a73-b27e-4dfa-acd7-d58320f7e14e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

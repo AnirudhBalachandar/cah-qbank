@@ -1,0 +1,69 @@
+{
+  "id": "8b1edac2-f10a-4d78-9996-3bf9c62366fb",
+  "stem": "Why is the diagnosis of appendicitis sometimes delayed in 'fit teenagers'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They have a higher pain tolerance and do not report symptoms.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They may not elicit an inflammatory response like fever or tachycardia.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They almost always present with localized peritonitis immediately.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Their appendix is usually located in the left upper quadrant.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fit teenagers may have high physiological reserves, meaning classic signs of infection like a high heart rate or fever may be absent.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.704Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4e7fe48f0962a97a4f60",
+  "rationale": "Consider how a very healthy body might respond differently to the early stages of inflammation.",
+  "optionExplanations": {
+    "A": "While they may have high tolerance, the primary issue is the physiological response they elicit during the infection.",
+    "B": "Fit teenagers may have high physiological reserves, meaning classic signs of infection like a high heart rate or fever may be absent.",
+    "C": "The lack of generalized signs often makes the diagnosis harder, not easier, in this specific demographic.",
+    "D": "While the position of the appendix varies, the delay in teenagers is attributed to their physiological response rather than an anatomical shift."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how a very healthy body might respond differently to the early stages of inflammation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

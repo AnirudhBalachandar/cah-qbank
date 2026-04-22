@@ -1,0 +1,69 @@
+{
+  "id": "64820f4c-67cd-4cbc-bb0d-c70e6523836f",
+  "stem": "When considering add-on treatment for life-threatening asthma with a poor response to initial therapy, what is the recommended dose for Magnesium Sulfate in adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$0.5$ to $1.0$ $mmol/kg$ up to $20$ $mmol$.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$0.1$ to $0.2$ $mmol/kg$ with a maximum dose of $10$ $mmol$.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$500$ $\\mu g$ per dose.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$2.5$ $mg$ delivered via continuous nebulization.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The protocol specifies this weight-based range and limits the total dose to $10$ $mmol$ for older children or adults.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.974Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-361e34745b0e83c8eb54",
+  "rationale": "Focus on the specific millimoles per kilogram used for this intravenous add-on treatment.",
+  "optionExplanations": {
+    "A": "This exceeds the recommended dosing range and maximum cap stated in the protocol.",
+    "B": "The protocol specifies this weight-based range and limits the total dose to $10$ $mmol$ for older children or adults.",
+    "C": "This is the nebulized dose for Ipratropium in older children, not the IV Magnesium Sulfate dose.",
+    "D": "This describes a nebulized Salbutamol dose for younger children rather than the IV Magnesium Sulfate protocol."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific millimoles per kilogram used for this intravenous add-on treatment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

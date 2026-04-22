@@ -1,0 +1,69 @@
+{
+  "id": "b2095083-6959-4b06-8197-3dfcc29331dc",
+  "stem": "Why are mid-dermal burns described as 'non-blanching'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The superficial dermal capillary plexus has been damaged.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The burn has reached the subcutaneous fat layer.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The nerve endings have been completely destroyed.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "There is a total lack of keratinocytes in the deeper layers.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Non-blanching occurs because the vessels responsible for the white-to-pink color change are no longer functional or have extravasated blood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.857Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b6fdd1e50cf8e2412a9d",
+  "rationale": "Consider the status of the blood vessels located in the transition zone between the epidermis and dermis.",
+  "optionExplanations": {
+    "A": "Non-blanching occurs because the vessels responsible for the white-to-pink color change are no longer functional or have extravasated blood.",
+    "B": "Reaching the fat layer would characterize a full thickness burn, not a mid-dermal burn.",
+    "C": "Nerve damage affects sensation, but the blanching characteristic specifically refers to the status of the blood supply.",
+    "D": "Mid-dermal burns still have some surviving epidermal remnants in hair follicles and glands, though the capillary plexus is compromised."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the status of the blood vessels located in the transition zone between the epidermis and dermis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

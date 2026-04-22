@@ -1,0 +1,69 @@
+{
+  "id": "a56a46ff-6c9b-412c-a3b2-202fd9244886",
+  "stem": "When diagnosing asthma in a child, what specific change in $FEV_1$ after bronchodilator administration is typically sought to demonstrate reversibility?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A decrease in the Z-score by at least $5\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An improvement in the $FEV_1$ score of more than $10\\%$.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A total lung capacity increase of at least $20\\%$.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A return of the $FEV_1/FVC$ ratio to exactly $1.0$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A significant increase in $FEV_1$ (often cited as $>10\\%$ or a specific Z-score change) following medication indicates that the airway narrowing is reversible.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.064Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cca199399bb9eb2366e2",
+  "rationale": "Look for a percentage threshold associated with the improvement of forced expiratory volume.",
+  "optionExplanations": {
+    "A": "A decrease would indicate worsening obstruction, whereas reversibility requires an improvement in airflow.",
+    "B": "A significant increase in $FEV_1$ (often cited as $>10\\%$ or a specific Z-score change) following medication indicates that the airway narrowing is reversible.",
+    "C": "Asthma diagnosis focuses on dynamic flow rates like $FEV_1$ rather than changes in static total lung capacity.",
+    "D": "A ratio of $1.0$ is not a standard physiological goal for reversibility and does not account for normal residual volumes."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a percentage threshold associated with the improvement of forced expiratory volume.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

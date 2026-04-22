@@ -1,0 +1,69 @@
+{
+  "id": "5af48208-6800-4aac-a3e3-e87bd0501184",
+  "stem": "Why is malrotation referred to as a 'time bomb' in pediatric surgery?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because it causes the stomach to suddenly rupture due to gas.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Because it always presents with massive abdominal distension within minutes of birth.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because the bowel can twist (volvulus), leading to the loss of the entire midgut if not treated quickly.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Because the symptoms only appear once the child reaches adolescence.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The urgency stems from the risk of total midgut necrosis and subsequent short gut syndrome if the volvulus is not reversed immediately.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.921Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b82fe051d9dcce9bca46",
+  "rationale": "Consider the potential consequence of a twisted blood supply to the intestines.",
+  "optionExplanations": {
+    "A": "Rupture is not the primary mechanism of injury; the concern is vascular compromise from twisting.",
+    "B": "Malrotation often presents with a non-distended abdomen, which can lead to a dangerous delay in diagnosis.",
+    "C": "The urgency stems from the risk of total midgut necrosis and subsequent short gut syndrome if the volvulus is not reversed immediately.",
+    "D": "While it can present at any age, it most commonly presents in the neonatal period, usually about a week after birth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the potential consequence of a twisted blood supply to the intestines.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

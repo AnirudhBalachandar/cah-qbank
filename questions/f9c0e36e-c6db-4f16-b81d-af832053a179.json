@@ -1,0 +1,69 @@
+{
+  "id": "f9c0e36e-c6db-4f16-b81d-af832053a179",
+  "stem": "Why might some individuals with lactose intolerance still be able to tolerate foods like yogurt or aged cheeses?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "These products have a naturally low lactose content",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They contain high levels of synthetic lactase additives",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The fat content in these foods neutralizes lactose",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Yogurt and cheese are not mammalian milk products",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The fermentation and aging processes in yogurt and certain cheeses reduce the amount of lactose present in the final product.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.754Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8452c8f82a0e9714ad13",
+  "rationale": "Consider how processing and fermentation change the chemical makeup of dairy.",
+  "optionExplanations": {
+    "A": "The fermentation and aging processes in yogurt and certain cheeses reduce the amount of lactose present in the final product.",
+    "B": "Tolerance is due to the low natural content of lactose, not because of added enzymes in standard yogurt or cheese.",
+    "C": "While fat slows digestion, the primary reason listed for the tolerance of these specific foods is their low lactose levels.",
+    "D": "These are indeed mammalian milk products; they simply undergo processing that reduces lactose."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how processing and fermentation change the chemical makeup of dairy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

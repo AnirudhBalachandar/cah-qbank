@@ -1,0 +1,69 @@
+{
+  "id": "42290543-5deb-4489-b55e-aee77262bcbd",
+  "stem": "In the metabolic pathway of vitamin D, which organ is responsible for converting calcidiol ($25$ hydroxy vitamin D) into its active form, calcitriol?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The Liver",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The Pancreas",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The Kidney",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The Small Intestine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The kidney converts calcidiol into $1,25$ dihydroxy vitamin D, also known as calcitriol, which is the biologically active form.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.200Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-95fc613d4e4cdc56f60a",
+  "rationale": "This organ's function is mediated by parathyroid hormone to produce the active hormone.",
+  "optionExplanations": {
+    "A": "The liver performs the first hydroxylation to create the storage form (calcidiol), but not the final activation.",
+    "B": "The pancreas is involved in insulin and digestive enzyme production rather than vitamin D metabolism.",
+    "C": "The kidney converts calcidiol into $1,25$ dihydroxy vitamin D, also known as calcitriol, which is the biologically active form.",
+    "D": "The small intestine is a target organ where vitamin D exerts its effect on calcium absorption, but it is not the site of the final metabolic activation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This organ's function is mediated by parathyroid hormone to produce the active hormone.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

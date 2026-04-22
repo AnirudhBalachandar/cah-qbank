@@ -1,0 +1,69 @@
+{
+  "id": "0e9eac4b-9f4e-4d52-8563-a6d6413d9b30",
+  "stem": "What characterizes the 'tangential excision' technique developed by Zora Janovich?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The removal of the entire skin layer down to the muscle fascia.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The use of a high-pressure saline jet to selectively dissolve dead tissue.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Removing thin slivers of eschar sequentially until a viable, bleeding base is reached.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Excision of a circular area of skin including a wide margin of healthy tissue.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Tangential excision aims to minimize the loss of healthy tissue by shaving away only the dead layers (eschar).",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:44.056Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-32fb0d2b6d71abd74dc6",
+  "rationale": "Think about how a surgeon might minimize tissue loss by working in layers.",
+  "optionExplanations": {
+    "A": "This describes a more radical excision used in the past, whereas tangential excision is more conservative.",
+    "B": "This describes the Versajet system, which is a modern alternative but not the Janovich technique itself.",
+    "C": "Tangential excision aims to minimize the loss of healthy tissue by shaving away only the dead layers (eschar).",
+    "D": "This technique is more common in oncology than in burn management where tissue preservation is critical."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how a surgeon might minimize tissue loss by working in layers.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

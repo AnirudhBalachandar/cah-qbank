@@ -1,0 +1,69 @@
+{
+  "id": "bf9a2635-b6bd-47fa-8cc4-5458caaa0923",
+  "stem": "When evaluating a child for a potential primary immunodeficiency, what is the purpose of testing 'functional antibodies' like those for tetanus or diphtheria?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To determine if the child's immune system can effectively respond to a known challenge.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To check if the child has received their scheduled immunizations.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To identify specific genetic mutations in the immunoglobulin heavy chain.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To screen for the presence of maternal antibodies in an infant.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Measuring titers after vaccination shows whether the B-cells and T-cells can work together to produce a specific, lasting antibody response.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.137Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-db208ed4a8f97fd3445a",
+  "rationale": "This test moves beyond just counting the number of antibodies to seeing if they actually work following a vaccine.",
+  "optionExplanations": {
+    "A": "Measuring titers after vaccination shows whether the B-cells and T-cells can work together to produce a specific, lasting antibody response.",
+    "B": "The test measures the biological response to the vaccine, not just the administrative fact of whether the vaccine was given.",
+    "C": "Functional testing looks at the output of the immune system; genetic mutations are identified through DNA sequencing.",
+    "D": "In older children (like the 18-month-old in the case study), these tests are meant to evaluate the child's own active immunity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This test moves beyond just counting the number of antibodies to seeing if they actually work following a vaccine.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "6a7b0e6b-b23e-42fa-b34e-f10362872a70",
+  "stem": "What is the only live viral vaccine that is contraindicated during breastfeeding due to the risk of transmission through breast milk?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Yellow Fever vaccine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "MMR vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Varicella vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Influenza nasal spray vaccine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Documented cases have shown the Yellow Fever vaccine virus can be transmitted to the infant via breast milk, potentially causing illness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.911Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9f485bdb7e17f05794b2",
+  "rationale": "This vaccine is typically required for travel to certain tropical regions in Africa and South America.",
+  "optionExplanations": {
+    "A": "Documented cases have shown the Yellow Fever vaccine virus can be transmitted to the infant via breast milk, potentially causing illness.",
+    "B": "The MMR vaccine is considered safe during breastfeeding as the attenuated viruses are not known to cause disease in the infant through milk.",
+    "C": "Breastfeeding is not a contraindication for the chickenpox vaccine; it is safe for both mother and child.",
+    "D": "While a live vaccine, there is no evidence of transmission through breast milk that would preclude its use."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This vaccine is typically required for travel to certain tropical regions in Africa and South America.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "questionIndex": 13,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

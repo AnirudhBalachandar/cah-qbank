@@ -1,0 +1,69 @@
+{
+  "id": "576309a6-32a7-4f9d-ad8f-c27768c51b2b",
+  "stem": "A teenage girl faints immediately after receiving an HPV vaccination at school. Under which WHO AEFI category does this event fall?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vaccine product related reaction",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Immunization anxiety related reaction",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immunization error related reaction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Vaccine quality defect related reaction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fainting (vasovagal syncope) is a common manifestation of anxiety or stress associated with the act of immunization.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+      "title": "00028 immunisation_adverse-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.462Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d4ca722737de188c8710",
+  "rationale": "Focus on the physical response to the stress of the procedure rather than the chemical components of the shot.",
+  "optionExplanations": {
+    "A": "This category refers to reactions caused by the inherent properties of the vaccine itself, not the psychological process of receiving it.",
+    "B": "Fainting (vasovagal syncope) is a common manifestation of anxiety or stress associated with the act of immunization.",
+    "C": "This would apply if the vaccine was administered incorrectly, such as the wrong dose or route.",
+    "D": "This category involves manufacturing errors or issues with the specific batch of vaccine."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the physical response to the stress of the procedure rather than the chemical components of the shot.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "28",
+    "lectureTitle": "00028 immunisation_adverse-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_028.json",
+    "quizTitle": "Adverse Events Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cf918a82-1574-470a-a4b0-edd95be5ab28",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

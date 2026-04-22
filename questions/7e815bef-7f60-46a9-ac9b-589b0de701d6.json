@@ -1,0 +1,69 @@
+{
+  "id": "7e815bef-7f60-46a9-ac9b-589b0de701d6",
+  "stem": "What is the primary reason the speaker recommends teaching a child to use a spacer with a mouthpiece instead of a face mask as soon as they are developmentally ready?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Using a mask results in approximately $20-25\\%$ of the medication being lost.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Face masks cause significant skin irritation and 'mask-mashing' around the mouth.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Children over age five cannot achieve a proper seal with a standard face mask.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The valves in a mask-based spacer require a higher inhalation force than children can provide.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explicitly mentions that medication is lost into the mask and may also be diverted into the nose rather than the lungs.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+      "title": "00015 video3920953157-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.263Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9ce2001c5ea0e513e7bb",
+  "rationale": "Consider the percentage of medication that reaches the lungs versus what is trapped by the delivery interface.",
+  "optionExplanations": {
+    "A": "The source explicitly mentions that medication is lost into the mask and may also be diverted into the nose rather than the lungs.",
+    "B": "While skin irritation can occur, the speaker focuses on the efficiency of medication delivery rather than dermatological concerns.",
+    "C": "A seal can be achieved, but the mouthpiece is preferred because it delivers more medication directly to the lower airways.",
+    "D": "The difficulty mentioned for younger children is actually clearing the volume of a large spacer, not the valve resistance of a mask."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the percentage of medication that reaches the lungs versus what is trapped by the delivery interface.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "15",
+    "lectureTitle": "00015 video3920953157-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_015.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70b6d54f-fbbf-4264-a8de-db63b29df579",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

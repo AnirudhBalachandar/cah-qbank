@@ -1,0 +1,69 @@
+{
+  "id": "c058cd33-1733-4d2b-8526-94dfdb3c3f4a",
+  "stem": "What level of chloride in a sweat test is considered diagnostic for cystic fibrosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Greater than $60 \\text{ mmol/L}$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Less than $29 \\text{ mmol/L}$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Between $30$ and $59 \\text{ mmol/L}$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Greater than $10 \\text{ mmol/L}$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A concentration above this threshold indicates that the sweat glands are failing to reabsorb salt correctly, a hallmark of CF.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.786Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ef798c92582f70794dd9",
+  "rationale": "The diagnostic threshold is a value that clearly separates healthy individuals from those with significantly impaired ion transport.",
+  "optionExplanations": {
+    "A": "A concentration above this threshold indicates that the sweat glands are failing to reabsorb salt correctly, a hallmark of CF.",
+    "B": "This range is actually considered normal and indicates that the CFTR protein in the skin is functioning effectively.",
+    "C": "This is considered the intermediate or 'gray zone,' which often requires repeat testing or further genetic analysis.",
+    "D": "This value is too low; normal individuals can have sweat chloride levels up to $29 \\text{ mmol/L}$ without having the condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The diagnostic threshold is a value that clearly separates healthy individuals from those with significantly impaired ion transport.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "765dba5c-729e-4e32-80fe-8143a7e43187",
+  "stem": "Which rare bleeding disorder is classically associated with bleeding from the umbilical stump or delayed cord separation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Factor $VIII$ deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Factor $XIII$ deficiency",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Bernard-Soulier syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Vitamin C deficiency",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bleeding from the umbilical stump is a classical and specific clinical sign for Factor $XIII$ deficiency.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.145Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-745f6c4dd9e5fbf288b4",
+  "rationale": "This factor is at the very end of the coagulation cascade and is not picked up by routine screening tests.",
+  "optionExplanations": {
+    "A": "Hemophilia A (Factor $VIII$ deficiency) typically presents later when the child becomes mobile and active.",
+    "B": "Bleeding from the umbilical stump is a classical and specific clinical sign for Factor $XIII$ deficiency.",
+    "C": "This is a platelet function disorder which usually presents with mucosal bleeding rather than umbilical stump issues.",
+    "D": "Scurvy is rarely seen in neonates as an immediate cause of umbilical stump bleeding."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This factor is at the very end of the coagulation cascade and is not picked up by routine screening tests.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

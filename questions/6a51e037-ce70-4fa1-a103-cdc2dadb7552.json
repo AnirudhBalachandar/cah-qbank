@@ -1,0 +1,69 @@
+{
+  "id": "6a51e037-ce70-4fa1-a103-cdc2dadb7552",
+  "stem": "In a pediatric emergency setting, what is the most common cause of a seemingly high hemoglobin level, often referred to as fictitious polycythemia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Dehydration",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "High altitude exposure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Polycythemia rubra vera",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cyanotic heart disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Loss of fluid volume concentrates the blood cells, causing the hemoglobin measurement to appear elevated until the patient is rehydrated.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+      "title": "00062 TK Haematology_Red b-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:31.747Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-eee9258df0a4f1bb707b",
+  "rationale": "Consider how a loss of body fluids affects the concentration of cells in the bloodstream.",
+  "optionExplanations": {
+    "A": "Loss of fluid volume concentrates the blood cells, causing the hemoglobin measurement to appear elevated until the patient is rehydrated.",
+    "B": "While hypoxia at high altitudes can drive red cell production, it is categorized as secondary polycythemia rather than fictitious polycythemia.",
+    "C": "This is a primary polycythemia involving high production in the bone marrow, which is common in adults but very rare in children.",
+    "D": "This condition causes secondary polycythemia due to chronic hypoxia, rather than the temporary concentration of blood seen in dehydration."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how a loss of body fluids affects the concentration of cells in the bloodstream.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "62",
+    "lectureTitle": "00062 TK Haematology_Red b-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_062.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bd5904a3-c1dc-4487-8b94-985662f8fe69",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "0f08e870-e3e3-4550-ba80-e48e87258aa9",
+  "stem": "In cases of intractable constipation, what specific dietary trial may be recommended?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "High protein diet",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Cow's milk protein avoidance",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Gluten-free diet",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Low fiber diet",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A $2$ to $4$ week trial of avoiding cow's milk protein is used because it can rarely be an underlying cause of constipation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+      "title": "00006 common-problems-cons-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.514Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-03bc8da3d48641823659",
+  "rationale": "Identify the common allergen that is sometimes linked to persistent bowel issues in children.",
+  "optionExplanations": {
+    "A": "High protein is not typically used to resolve constipation; fiber and fluids are the primary dietary focus.",
+    "B": "A $2$ to $4$ week trial of avoiding cow's milk protein is used because it can rarely be an underlying cause of constipation.",
+    "C": "Gluten avoidance is not mentioned in the source material as a standard trial for intractable constipation.",
+    "D": "Low fiber would likely worsen constipation rather than treat it."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the common allergen that is sometimes linked to persistent bowel issues in children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "6",
+    "lectureTitle": "00006 common-problems-cons-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_006.json",
+    "quizTitle": "Constipation Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b50f57df-c86d-49e8-b079-40a148286d26",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

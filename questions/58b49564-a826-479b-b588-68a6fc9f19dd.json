@@ -1,0 +1,69 @@
+{
+  "id": "58b49564-a826-479b-b588-68a6fc9f19dd",
+  "stem": "How does a 'potentiator' medication like Ivacaftor (Kalydeco) assist a patient with a Class 3 mutation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It holds the gates of the existing surface channels open to allow chloride flow.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It fixes the misfolded protein so it can be transported to the surface.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It increases the total amount of CFTR protein produced by the nucleus.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It prevents the protein from being prematurely removed from the cell surface.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Potentiators address gating defects by increasing the probability that the CFTR channel stays in an open state at the cell membrane.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.909Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-559520c04b867fd1473a",
+  "rationale": "Think of this medication as a 'doorstop' for the chloride channel.",
+  "optionExplanations": {
+    "A": "Potentiators address gating defects by increasing the probability that the CFTR channel stays in an open state at the cell membrane.",
+    "B": "This describes the role of a 'corrector' medication, which is necessary for Class 2 mutations like $F508\\Delta$.",
+    "C": "Modulators generally work on the protein's function or trafficking rather than increasing the initial gene expression or production levels.",
+    "D": "This would be a treatment for Class 6 mutations (stability), whereas potentiators focus on the 'gate' of the channel."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of this medication as a 'doorstop' for the chloride channel.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "de70533e-d474-4a54-9478-b0e4a3946148",
+  "stem": "Deficiencies in the terminal complement pathway (components $C5$ through $C9$) specifically increase the risk of which type of infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Meningococcal (Neisserial) infections.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Opportunistic fungal infections like $Candida$.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Infections with encapsulated bacteria like $Streptococcus$ $pneumoniae$.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Chronic viral infections like CMV.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The terminal pathway forms the membrane attack complex ($MAC$), which is uniquely required to lyse the cell walls of $Neisseria$ species.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.109Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8d6c15d0c9f11ce63095",
+  "rationale": "This deficiency prevents the formation of the Membrane Attack Complex ($MAC$).",
+  "optionExplanations": {
+    "A": "The terminal pathway forms the membrane attack complex ($MAC$), which is uniquely required to lyse the cell walls of $Neisseria$ species.",
+    "B": "Fungal defense is primarily handled by T-cells and phagocytes, not the membrane attack complex of the complement system.",
+    "C": "While complement assists in opsonization, $C5-C9$ defects are much more specific to $Neisseria$; encapsulated bacteria are usually associated with antibody or early complement ($C3$) issues.",
+    "D": "Viral immunity is largely cellular; complement plays a minimal role in controlling chronic intracellular viral pathogens."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This deficiency prevents the formation of the Membrane Attack Complex ($MAC$).",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

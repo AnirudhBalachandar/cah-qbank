@@ -1,0 +1,69 @@
+{
+  "id": "5b1527d7-147e-48f5-9efb-a81512a15145",
+  "stem": "What anatomical feature defines the 'collar stud' abscess often seen on ultrasound in atypical mycobacterial disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A superficial abscess connected to a deeper necrotic lymph node via a break in the fascia.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A multi-loculated cystic lesion that crosses the midline of the neck.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A thyroid gland lesion that extends into the retrosternal space.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An infected fistula tract extending from the skin to the tonsillar bed.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This two-component structure resembles a collar stud, with the 'head' being the superficial collection and the 'base' being the deep node.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+      "title": "00022 surgery-head-neck-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.959Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a4e95592bf6946afa0d3",
+  "rationale": "Consider the relationship between the superficial skin collection and the underlying lymph node.",
+  "optionExplanations": {
+    "A": "This two-component structure resembles a collar stud, with the 'head' being the superficial collection and the 'base' being the deep node.",
+    "B": "This describes a complex lymphatic malformation rather than the specific morphology of a collar stud abscess.",
+    "C": "Collar stud abscesses involve lymph nodes and subcutaneous tissue, not the thyroid gland or retrosternal space.",
+    "D": "This describes the path of a branchial fistula rather than the structure of an abscess."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the relationship between the superficial skin collection and the underlying lymph node.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "22",
+    "lectureTitle": "00022 surgery-head-neck-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_022.json",
+    "quizTitle": "Pediatric Neck Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "193b9d3f-4a97-4e98-8e83-6da631fa992e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

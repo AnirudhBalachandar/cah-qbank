@@ -1,0 +1,69 @@
+{
+  "id": "a34bfe65-ef70-4e7c-9128-7d775a77910d",
+  "stem": "During the sensitization process, which antibody class do $\\text{B}$-cells switch to producing to facilitate an allergic response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$\\text{IgM}$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$\\text{IgG}$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$\\text{IgE}$",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$\\text{IgA}$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The sensitization phase involves $\\text{B}$-cells switching from $\\text{IgM}$ and $\\text{IgG}$ to producing $\\text{IgE}$.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.098Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ce4dc06941f2c4ae80a1",
+  "rationale": "Identify the specific immunoglobulin associated with the letters 'E' for allergy.",
+  "optionExplanations": {
+    "A": "$\\text{B}$-cells actually switch away from $\\text{IgM}$ production during the allergic sensitization process.",
+    "B": "$\\text{IgG}$ is a primary antibody in normal immune responses, but it is not the mediator for immediate allergic reactions.",
+    "C": "The sensitization phase involves $\\text{B}$-cells switching from $\\text{IgM}$ and $\\text{IgG}$ to producing $\\text{IgE}$.",
+    "D": "$\\text{IgA}$ is primarily involved in mucosal immunity and is not the driver of the classic allergic response."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the specific immunoglobulin associated with the letters 'E' for allergy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

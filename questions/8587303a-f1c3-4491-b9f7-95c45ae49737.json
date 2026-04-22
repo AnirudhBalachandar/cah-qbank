@@ -1,0 +1,69 @@
+{
+  "id": "8587303a-f1c3-4491-b9f7-95c45ae49737",
+  "stem": "In which scenario would a TORCH screen be most relevant in the evaluation of microcephaly?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A child born with a head circumference at the $50^{\\text{th}}$ percentile that later drops.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A child whose head circumference has always been exactly on the $3^{\\text{rd}}$ percentile.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A child with a head circumference increasing by $3\\text{ cm}$ per month.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A child with benign familial macrocephaly.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Infections like those in the TORCH screen are common causes of postnatal or secondary microcephaly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.326Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b69cf4356bbd4777d446",
+  "rationale": "Consider the types of conditions that cause a brain to stop growing or to atrophy after it was initially formed correctly.",
+  "optionExplanations": {
+    "A": "Infections like those in the TORCH screen are common causes of postnatal or secondary microcephaly.",
+    "B": "Consistently small heads from birth are more likely related to primary factors like chromosomal disorders or migration defects.",
+    "C": "Rapidly increasing head size indicates macrocephaly, not microcephaly, and would require different investigations.",
+    "D": "Familial macrocephaly is a normal variant and does not require screening for intrauterine infections."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the types of conditions that cause a brain to stop growing or to atrophy after it was initially formed correctly.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

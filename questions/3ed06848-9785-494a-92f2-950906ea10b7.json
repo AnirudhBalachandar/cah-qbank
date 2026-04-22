@@ -1,0 +1,69 @@
+{
+  "id": "3ed06848-9785-494a-92f2-950906ea10b7",
+  "stem": "What is a frequent cause of an 'inaccurate' low platelet count in pediatric blood samples?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The use of a vacuum extraction during birth",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A clotted sample or platelet clumping",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Bone marrow failure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High levels of Vitamin C",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Collection errors, such as clotted samples or fibrin strands, cause the machine to undercount platelets, making the patient appear thrombocytopenic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.197Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9e9f5b96b927872c4aac",
+  "rationale": "This is a technical error related to how the blood is collected and processed.",
+  "optionExplanations": {
+    "A": "While this causes trauma, it does not typically cause a recurring laboratory error in platelet counts.",
+    "B": "Collection errors, such as clotted samples or fibrin strands, cause the machine to undercount platelets, making the patient appear thrombocytopenic.",
+    "C": "This causes a true low platelet count, not an 'inaccurate' or falsely low lab reading.",
+    "D": "Vitamin C levels do not interfere with the automated counting of platelets in a laboratory setting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This is a technical error related to how the blood is collected and processed.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

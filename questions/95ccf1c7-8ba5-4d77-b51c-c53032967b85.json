@@ -1,0 +1,69 @@
+{
+  "id": "95ccf1c7-8ba5-4d77-b51c-c53032967b85",
+  "stem": "Based on the documented clinical criteria for tonsillectomy, how many episodes of tonsillitis must a child have in a single 12-month period to be considered for surgery?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "3 or more",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "5 or more",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "7 or more",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "10 or more",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "To justify tonsillectomy based on a single year of illness, the child must have had at least seven well-documented episodes.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+      "title": "00004 ENT the throat-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.997Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e6dbb5eaa49c6143e610",
+  "rationale": "The number is higher than five for a single-year observation period.",
+  "optionExplanations": {
+    "A": "Three episodes per year is the threshold used if the infections have been occurring consistently for at least three consecutive years.",
+    "B": "Five episodes per year is the threshold for consideration if the frequency has been maintained for two consecutive years.",
+    "C": "To justify tonsillectomy based on a single year of illness, the child must have had at least seven well-documented episodes.",
+    "D": "While ten episodes certainly meet the criteria, the minimum standard established for a 12-month period is seven."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The number is higher than five for a single-year observation period.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "4",
+    "lectureTitle": "00004 ENT the throat-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_004.json",
+    "quizTitle": "Throat Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e60d347c-5b08-437d-97c1-f33d7aab798e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

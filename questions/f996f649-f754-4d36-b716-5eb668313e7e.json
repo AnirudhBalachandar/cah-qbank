@@ -1,0 +1,69 @@
+{
+  "id": "f996f649-f754-4d36-b716-5eb668313e7e",
+  "stem": "Which clinical scenario represents an absolute indication for emergency fracture reduction before completing further investigations?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An obvious clinical deformity that threatens skin necrosis.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A fracture with severe pain that is well-localized to the bone.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "An undisplaced fracture in a pediatric patient with an intact neurovascular status.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A fracture in a patient who has not yet received analgesia.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pressure on the skin from an underlying deformity can lead to tissue death, necessitating immediate repositioning to relieve tension.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+      "title": "00088 fractures-management-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.766Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3e1a62b0a3b31825c9e3",
+  "rationale": "Consider which situation poses an immediate threat to the integrity of the soft tissue envelope.",
+  "optionExplanations": {
+    "A": "Pressure on the skin from an underlying deformity can lead to tissue death, necessitating immediate repositioning to relieve tension.",
+    "B": "While pain is significant, it is an expected symptom of most fractures and does not inherently require emergency reduction before investigation unless neurovascular status is affected.",
+    "C": "Undisplaced fractures with no vascular or nerve compromise can typically wait for formal imaging and elective management.",
+    "D": "Analgesia should be the first step in management, but the lack of it is not an indication for immediate reduction without investigation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which situation poses an immediate threat to the integrity of the soft tissue envelope.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "88",
+    "lectureTitle": "00088 fractures-management-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_088.json",
+    "quizTitle": "Fracture Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "98321e56-9a11-40dd-a47f-af59e92e2b94",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

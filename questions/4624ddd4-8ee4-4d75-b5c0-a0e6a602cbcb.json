@@ -1,0 +1,69 @@
+{
+  "id": "4624ddd4-8ee4-4d75-b5c0-a0e6a602cbcb",
+  "stem": "An infant presents at 3 weeks of age with projectile non-bilious vomiting. On examination, an 'olive-like' mass is felt. Which ultrasound measurements would confirm a diagnosis of pyloric stenosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pyloric thickness of $2$ mm and length of $8$ mm.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pyloric thickness above $4$ mm and length in the range of $16$ mm.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Pyloric thickness of $1$ mm and length of $25$ mm.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pyloric thickness of $6$ mm and length of $5$ mm.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A thickness greater than $4$ mm and a length of approximately $16$ mm are the classic sonographic criteria for the diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.902Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5f55343969d330036fa7",
+  "rationale": "Recall the specific numerical thresholds for thickness and length mentioned for a term baby.",
+  "optionExplanations": {
+    "A": "These measurements are within normal limits and do not meet the criteria for hypertrophic pyloric stenosis.",
+    "B": "A thickness greater than $4$ mm and a length of approximately $16$ mm are the classic sonographic criteria for the diagnosis.",
+    "C": "While the length is increased, the thickness is too low to represent the muscular hypertrophy seen in this condition.",
+    "D": "While the thickness is significant, the length is too short to indicate the elongation characteristic of pyloric stenosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the specific numerical thresholds for thickness and length mentioned for a term baby.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

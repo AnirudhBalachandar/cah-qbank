@@ -1,0 +1,69 @@
+{
+  "id": "acd8ba8b-5b02-4d7f-886a-a9d781e1f0ea",
+  "stem": "What is a potential long-term skeletal complication of chronic inflammation in a child's knee joint?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Leg length discrepancy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bone softening (osteomalacia)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Increased cartilage thickness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Delayed bone age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chronic inflammation causes early maturation and subsequent early fusion of the growth plate, leading to a shorter affected limb.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:42.794Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-98ccafb6a510a5083e00",
+  "rationale": "Consider how inflammation might affect the timing of growth plate closure.",
+  "optionExplanations": {
+    "A": "Chronic inflammation causes early maturation and subsequent early fusion of the growth plate, leading to a shorter affected limb.",
+    "B": "The primary issues mentioned are early maturation, fusion, and osteopenia, rather than the softening seen in Vitamin D deficiency.",
+    "C": "Inflammatory arthritis actually causes degradation and loss of cartilage space, not thickening.",
+    "D": "Inflammation tends to cause earlier maturation, which would appear as an advanced bone age rather than a delayed one."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how inflammation might affect the timing of growth plate closure.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

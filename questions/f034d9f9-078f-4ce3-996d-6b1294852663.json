@@ -1,0 +1,69 @@
+{
+  "id": "f034d9f9-078f-4ce3-996d-6b1294852663",
+  "stem": "Why does a deficiency in Vitamin C lead to a bleeding disorder?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It causes a reduction in the production of Factor $VII$.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It leads to the destruction of platelets in the spleen.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It results in fragile blood vessels due to poor connective tissue.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It inhibits the activation of the intrinsic pathway.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vitamin C is essential for making the connective tissue that supports blood vessels; without it, the vessels become fragile and prone to bleeding.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.086Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dbbb65f85c4caa88c426",
+  "rationale": "Consider the role of this vitamin in the structural integrity of tissues.",
+  "optionExplanations": {
+    "A": "Vitamin C is not a required cofactor for the production of coagulation Factor $VII$.",
+    "B": "Platelet destruction is typically an immune-mediated process, not a result of vitamin deficiency.",
+    "C": "Vitamin C is essential for making the connective tissue that supports blood vessels; without it, the vessels become fragile and prone to bleeding.",
+    "D": "Vitamin C deficiency affects the physical structure of the vessels rather than the biochemical coagulation cascade."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the role of this vitamin in the structural integrity of tissues.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

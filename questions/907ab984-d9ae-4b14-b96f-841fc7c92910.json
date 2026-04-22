@@ -1,0 +1,69 @@
+{
+  "id": "907ab984-d9ae-4b14-b96f-841fc7c92910",
+  "stem": "For which specific body areas might a 'full thickness' skin graft be more appropriate than a 'split thickness' graft?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The anterior chest wall and back.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The palms of the hands and the ears.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The thighs and upper arms.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Wounds that cover more than $50\\%$ of the total body surface area.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Full thickness grafts provide better durability and less contraction for specialized, smaller areas like palms and ears.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:44.087Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7766078e3ee21519fa96",
+  "rationale": "Think of small, functional areas that require high-quality skin and minimal contraction.",
+  "optionExplanations": {
+    "A": "Large areas like the chest and back usually require split thickness grafts due to the limited availability of full thickness donor skin.",
+    "B": "Full thickness grafts provide better durability and less contraction for specialized, smaller areas like palms and ears.",
+    "C": "These are common donor sites for split thickness grafts but rarely require full thickness grafts themselves unless the burn is very localized.",
+    "D": "Large burns require skin expansion techniques (like meshing) which are used with split thickness grafts."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of small, functional areas that require high-quality skin and minimal contraction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

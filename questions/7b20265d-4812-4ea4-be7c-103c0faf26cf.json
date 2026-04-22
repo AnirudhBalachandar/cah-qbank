@@ -1,0 +1,69 @@
+{
+  "id": "7b20265d-4812-4ea4-be7c-103c0faf26cf",
+  "stem": "What is the primary method used to make a provisional diagnosis of a non-IgE mediated food allergy before initiating a food elimination diet?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Skin prick testing and serum specific IgE levels.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Clinical history and physical examination.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Atopic patch testing with fresh food extracts.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "In vitro T-cell proliferation assays.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because there are no reliable diagnostic tests for delayed reactions, the diagnosis relies on the clinical story and physical findings.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.724Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7a56dff936e01851d57b",
+  "rationale": "Consider the limitations of standard allergy tests for delayed-type reactions.",
+  "optionExplanations": {
+    "A": "These tests assess for IgE-mediated sensitization and are not beneficial for delayed, non-IgE mediated reactions.",
+    "B": "Because there are no reliable diagnostic tests for delayed reactions, the diagnosis relies on the clinical story and physical findings.",
+    "C": "Patch testing has poor positive and negative predictive values for these types of food allergies.",
+    "D": "While these tests exist, they are primarily utilized for research purposes rather than clinical diagnosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the limitations of standard allergy tests for delayed-type reactions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

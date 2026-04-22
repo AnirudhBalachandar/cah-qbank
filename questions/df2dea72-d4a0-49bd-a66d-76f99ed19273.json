@@ -1,0 +1,69 @@
+{
+  "id": "df2dea72-d4a0-49bd-a66d-76f99ed19273",
+  "stem": "If a child presents with features belonging to different asthma severity categories, how should their overall severity be determined?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "By the average of all observed features.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "By the feature indicating the highest or worst severity.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "By the category that contains the majority of the features.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "By the child's baseline developmental status only.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "To ensure patient safety, the presence of even a single high-risk feature mandates categorization into the more severe group.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.818Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9910b9442cd74bc794b6",
+  "rationale": "Consider how you would manage a patient who appears stable but has one life-threatening indicator.",
+  "optionExplanations": {
+    "A": "Averaging symptoms would underestimate the clinical risk associated with the most dangerous features.",
+    "B": "To ensure patient safety, the presence of even a single high-risk feature mandates categorization into the more severe group.",
+    "C": "Safety protocols require prioritizing the most severe individual clinical indicator over a majority of milder ones.",
+    "D": "While developmental status helps interpret symptoms like speech ability, the clinical features of the acute episode determine the severity category."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how you would manage a patient who appears stable but has one life-threatening indicator.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

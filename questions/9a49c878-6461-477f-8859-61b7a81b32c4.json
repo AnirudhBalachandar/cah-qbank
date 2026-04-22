@@ -1,0 +1,69 @@
+{
+  "id": "9a49c878-6461-477f-8859-61b7a81b32c4",
+  "stem": "What is a common challenge when evaluating abdominal pain in a preverbal child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They always localize pain to the right lower quadrant.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They cannot express the exact sequence and progression of pain.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They rarely present with surgical causes of pain.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They often over-exaggerate symptoms to avoid movement.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lack of verbal communication and a poor sense of time onset makes it difficult to establish the clinical history in very young children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.537Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fc5e19592526b7c9a764",
+  "rationale": "Think about the limitations of communication and temporal perception in infants.",
+  "optionExplanations": {
+    "A": "Preverbal children typically have a poor sense of location and tend to point to the center of the abdomen regardless of the cause.",
+    "B": "The lack of verbal communication and a poor sense of time onset makes it difficult to establish the clinical history in very young children.",
+    "C": "Young children can present with serious surgical issues like bowel obstructions or intussusception, making evaluation critical.",
+    "D": "A child lying still is often a physiological response to peritonitis rather than an intentional exaggeration of symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the limitations of communication and temporal perception in infants.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

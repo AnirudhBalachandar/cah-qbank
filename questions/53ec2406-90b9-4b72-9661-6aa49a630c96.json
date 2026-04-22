@@ -1,0 +1,69 @@
+{
+  "id": "53ec2406-90b9-4b72-9661-6aa49a630c96",
+  "stem": "What is the primary clinical distinction between localized bullous impetigo and Staphylococcal Scalded Skin Syndrome (SSSS)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The type of bacteria involved",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The depth of skin involvement",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The mode of toxin spread",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The presence of scarring",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In impetigo, the toxin acts locally at the site of infection, whereas in SSSS, the toxin spreads through the bloodstream to affect skin globally.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "51102533-c601-4132-9b61-bdcd05af5c1c",
+      "title": "00059 dermatology-infectio-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:30.921Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-faa0ddc29da11f3f7716",
+  "rationale": "Think about how the toxin reaches different parts of the body in each condition.",
+  "optionExplanations": {
+    "A": "Both conditions are caused by $Staphylococcus$ $aureus$ and its specific exfoliative toxins.",
+    "B": "Both involve the superficial layers of the epidermis; the difference lies in the extent of the spread.",
+    "C": "In impetigo, the toxin acts locally at the site of infection, whereas in SSSS, the toxin spreads through the bloodstream to affect skin globally.",
+    "D": "Because both affect the very top layers of the skin, neither typically results in permanent scarring if treated correctly."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "51102533-c601-4132-9b61-bdcd05af5c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the toxin reaches different parts of the body in each condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "59",
+    "lectureTitle": "00059 dermatology-infectio-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_059.json",
+    "quizTitle": "Dermatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f675632f-c8d2-42ff-9863-8cfa0f929a31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

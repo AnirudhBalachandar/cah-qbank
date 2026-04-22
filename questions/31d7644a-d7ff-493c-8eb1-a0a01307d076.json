@@ -1,0 +1,69 @@
+{
+  "id": "31d7644a-d7ff-493c-8eb1-a0a01307d076",
+  "stem": "What is the specific recommendation for administering reliever medication before exercise or play for children aged $6$ years and older?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 to 4 puffs, 10 to 15 minutes before exercise",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "1 puff immediately after exercise concludes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "12 puffs, 30 minutes before exercise",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "6 puffs, 1 hour before exercise",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This timing allows the medication to open the airways before the physical exertion begins, preventing exercise-induced symptoms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f701645-76aa-48a4-83ee-64804f406836",
+      "title": "00012 AsthmaActionPlan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.796Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0c8b69e5f41b4012a51e",
+  "rationale": "Consider the balance between a sufficient preventative dose and the timing required for the medication to take effect.",
+  "optionExplanations": {
+    "A": "This timing allows the medication to open the airways before the physical exertion begins, preventing exercise-induced symptoms.",
+    "B": "Pre-medication is designed to prevent symptoms from starting, rather than just treating them after they occur.",
+    "C": "$12$ puffs is the dose for an acute flare; using this much before exercise is excessive for standard prevention.",
+    "D": "One hour is too long before the activity, as the peak effect of the reliever might diminish before exercise starts."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f701645-76aa-48a4-83ee-64804f406836",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the balance between a sufficient preventative dose and the timing required for the medication to take effect.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "12",
+    "lectureTitle": "00012 AsthmaActionPlan-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_012.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "ad94575a-cf7b-4497-8261-459c4933a6f1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

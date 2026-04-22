@@ -1,0 +1,69 @@
+{
+  "id": "35e1abb4-05ff-4a71-b789-24c325396c46",
+  "stem": "A child presents with sudden throat pain and fever but also complains of abdominal pain and nausea. Which condition should be highly suspected?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gastroesophageal reflux",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Herpangina",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Group A beta-hemolytic strep tonsillitis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Eosinophilic esophagitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Children with strep throat often present with 'unusual' symptoms like nausea and stomach aches, necessitating a throat exam for all pediatric abdominal pain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+      "title": "00004 ENT the throat-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:16.971Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d542c46f54b872d929e0",
+  "rationale": "This common bacterial infection often presents with referred pain or systemic upset in the digestive tract in young children.",
+  "optionExplanations": {
+    "A": "While reflux can cause discomfort, the acute onset of fever and severe throat pain points toward an infectious etiology.",
+    "B": "Herpangina causes throat pain and fever, but abdominal symptoms are more typically highlighted in streptococcal presentations.",
+    "C": "Children with strep throat often present with 'unusual' symptoms like nausea and stomach aches, necessitating a throat exam for all pediatric abdominal pain.",
+    "D": "This chronic condition is usually associated with food impaction or feeding difficulties rather than acute febrile tonsillar symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This common bacterial infection often presents with referred pain or systemic upset in the digestive tract in young children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "4",
+    "lectureTitle": "00004 ENT the throat-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_004.json",
+    "quizTitle": "Throat Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e60d347c-5b08-437d-97c1-f33d7aab798e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

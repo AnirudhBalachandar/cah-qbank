@@ -1,0 +1,69 @@
+{
+  "id": "b724f8ae-c9e7-472f-b374-fa894b55a7ec",
+  "stem": "In the lungs of an individual with cystic fibrosis, what occurs at the cellular level when the CFTR protein is dysfunctional?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chloride becomes trapped inside the cell, leading to thick, sticky mucus.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Excessive water is pumped out of the cell, diluting the mucus too much.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sodium is unable to enter the cell, causing the mucus to lose its salt content.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Chloride is excessively excreted, creating a hypertonic airway surface.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The inability to pump chloride out prevents the necessary osmotic balance that normally keeps airway surface liquid thin and easy to clear.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.766Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4c66d8b24f55928aba9a",
+  "rationale": "Think about how the 'stuck' ions influence the hydration of the surrounding fluid.",
+  "optionExplanations": {
+    "A": "The inability to pump chloride out prevents the necessary osmotic balance that normally keeps airway surface liquid thin and easy to clear.",
+    "B": "Actually, the lack of chloride transport leads to a compensatory influx of sodium and water into the cell, dehydrating the mucus.",
+    "C": "In the lungs, sodium typically follows water into the cell more aggressively in CF, contributing to the stickiness of the secretions.",
+    "D": "Excessive excretion of chloride actually occurs in the skin/sweat glands of CF patients, which is the opposite of what happens in the respiratory tract."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the 'stuck' ions influence the hydration of the surrounding fluid.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "d38e73f4-6cc5-40fe-8ac7-d8d0a1019b79",
+  "stem": "According to the bedside urinalysis (dipstick) rules, what is the probability of a UTI if both nitrites and leukocytes are positive?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately $50\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Approximately $75\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Approximately $97\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Exactly $100\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The combination of positive nitrites and leukocytes is highly predictive of an infection, with a $97\\%$ probability.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.372Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2da0b3c79bc421d4ce3a",
+  "rationale": "Look for a percentage that indicates very high, but not absolute, diagnostic confidence.",
+  "optionExplanations": {
+    "A": "A $50\\%$ probability is associated with a positive culture from a bag specimen, not a dual-positive dipstick.",
+    "B": "While high, $75\\%$ underestimates the specific sensitivity and specificity provided when both markers are positive.",
+    "C": "The combination of positive nitrites and leukocytes is highly predictive of an infection, with a $97\\%$ probability.",
+    "D": "While very high, no bedside test is $100\\%$ certain; microscopy and culture are still needed for definitive diagnosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a percentage that indicates very high, but not absolute, diagnostic confidence.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

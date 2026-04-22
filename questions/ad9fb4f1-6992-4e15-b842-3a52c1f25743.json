@@ -1,0 +1,69 @@
+{
+  "id": "ad9fb4f1-6992-4e15-b842-3a52c1f25743",
+  "stem": "If a child using an inhaled steroid develops a change in their voice or oral thrush, what does this 'red flag' likely indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child is allergic to the specific steroid prescribed.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The child's inhalation technique is poor, leading to medication landing in the mouth or on the vocal cords.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The medication has expired and the chemical composition has changed.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child is over-using the medication and needs a lower dose.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Poor coordination causes the medication to deposit in the oropharynx rather than reaching the lungs, leading to local side effects.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+      "title": "00015 video3920953157-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:19.411Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5893ac0149984f01bd13",
+  "rationale": "Consider where the medication is actually landing if it isn't going straight into the lungs.",
+  "optionExplanations": {
+    "A": "These symptoms are standard local side effects of steroids, not typically indicative of a systemic allergic reaction.",
+    "B": "Poor coordination causes the medication to deposit in the oropharynx rather than reaching the lungs, leading to local side effects.",
+    "C": "Expiration affects potency, but the deposition of steroids in the mouth is a mechanical issue related to technique.",
+    "D": "While dose matters, even a correct dose will cause these issues if the delivery technique is faulty."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider where the medication is actually landing if it isn't going straight into the lungs.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "15",
+    "lectureTitle": "00015 video3920953157-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_015.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70b6d54f-fbbf-4264-a8de-db63b29df579",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

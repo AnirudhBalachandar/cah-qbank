@@ -1,0 +1,69 @@
+{
+  "id": "c26a3ad2-c3e6-415a-a329-bf4439caa458",
+  "stem": "When reviewing an X-ray for a suspected ingested foreign body, which finding is highly suggestive of a button battery rather than a coin?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A radio-opaque circular shadow",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The presence of a double contour or 'step'.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Location posterior to the trachea on a lateral view.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hyperinflation of the adjacent lung field.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A button battery has a distinctive double-ring appearance on X-ray, which is critical to identify due to the risk of rapid tissue burns.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+      "title": "00004 ENT the throat-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.064Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5ef90414fe4d02c0a41c",
+  "rationale": "Look for a specific structural detail in the shadow that suggests a tiered or layered object.",
+  "optionExplanations": {
+    "A": "Both coins and button batteries appear as radio-opaque circles on a standard anterior-posterior X-ray.",
+    "B": "A button battery has a distinctive double-ring appearance on X-ray, which is critical to identify due to the risk of rapid tissue burns.",
+    "C": "This location indicates that the object is in the esophagus rather than the airway, but it does not distinguish between the type of object.",
+    "D": "Hyperinflation is typically seen with airway foreign bodies that cause a ball-valve effect, not esophageal ingestions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a specific structural detail in the shadow that suggests a tiered or layered object.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "4",
+    "lectureTitle": "00004 ENT the throat-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_004.json",
+    "quizTitle": "Throat Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e60d347c-5b08-437d-97c1-f33d7aab798e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

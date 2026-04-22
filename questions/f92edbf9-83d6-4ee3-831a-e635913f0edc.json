@@ -1,0 +1,69 @@
+{
+  "id": "f92edbf9-83d6-4ee3-831a-e635913f0edc",
+  "stem": "Why must steroids be strictly avoided if a child has active Herpes Simplex keratitis involving the corneal epithelium?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Steroids can cause viral particles to enter the corneal stroma, leading to scarring and vision loss.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Steroids stimulate the rapid replication of the virus on the eyelid skin.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Steroids interfere with the absorption of oral acyclovir medication.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Steroids permanently stain the cornea when combined with the HSV virus.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Steroid use can drive the infection deeper into the stroma, triggering an antigen-antibody reaction that results in permanent scarring.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.723Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-07282d43ce7450c015dd",
+  "rationale": "Think about how the medication might change the location of the infection within the layers of the eye.",
+  "optionExplanations": {
+    "A": "Steroid use can drive the infection deeper into the stroma, triggering an antigen-antibody reaction that results in permanent scarring.",
+    "B": "The concern with steroids is the deep penetration into the corneal tissue, rather than the replication on the skin of the lids.",
+    "C": "There is no known pharmacological interference between topical steroids and the absorption of oral antivirals.",
+    "D": "The issue is biological scarring from an inflammatory reaction, not a staining process."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the medication might change the location of the infection within the layers of the eye.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

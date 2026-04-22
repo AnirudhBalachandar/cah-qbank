@@ -1,0 +1,69 @@
+{
+  "id": "2575cad2-5a0e-4e56-a23d-1f3858f315bd",
+  "stem": "In the context of neonatal intensive care units (NICU), what is the primary reason coagulase-negative \\textit{Staphylococci} (CoNS) frequently cause late onset sepsis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vertical transmission during delivery",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Requirement for prolonged intravenous access and ventilation",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "High rates of maternal colonization during the third trimester",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lack of effective antibiotic prophylaxis for the mother",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nosocomial infections in the NICU are often linked to the invasive procedures and long-term equipment required for pre-term care.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.265Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1a79eb0d0f0ab0e402b7",
+  "rationale": "Think about the environmental and procedural factors unique to the hospital care of pre-term infants.",
+  "optionExplanations": {
+    "A": "Vertical transmission is the mechanism for early onset sepsis, whereas CoNS is typically acquired after birth.",
+    "B": "Nosocomial infections in the NICU are often linked to the invasive procedures and long-term equipment required for pre-term care.",
+    "C": "CoNS is part of the normal skin flora; the risk in NICU is related to clinical interventions rather than maternal colonization status.",
+    "D": "Maternal prophylaxis targets Group B \\textit{Streptococcus} to prevent early onset disease, not late onset NICU-acquired infections."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the environmental and procedural factors unique to the hospital care of pre-term infants.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

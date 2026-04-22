@@ -1,0 +1,69 @@
+{
+  "id": "84f0ea1c-d96e-4ed0-992e-f0d9f62e0d56",
+  "stem": "Why is there often a significant delay in diagnosing SCFE when a patient first seeks medical attention?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pain is frequently referred to the knee or thigh",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The condition is usually asymptomatic",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "X-rays are unable to detect the slip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is often confused with a common ankle sprain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Since more than $50\\%$ of cases present with knee or thigh pain instead of hip pain, clinicians may focus their investigation on the wrong joint.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:41.049Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b951764958c69589110f",
+  "rationale": "Consider how the nervous system might transmit pain signals from the hip joint to other areas.",
+  "optionExplanations": {
+    "A": "Since more than $50\\%$ of cases present with knee or thigh pain instead of hip pain, clinicians may focus their investigation on the wrong joint.",
+    "B": "Patients typically present with noticeable symptoms such as pain and a limp, though the location of the pain can be misleading.",
+    "C": "X-rays are the diagnostic standard, though certain views are better at showing mild slips than others.",
+    "D": "While a limp is present, the referred pain to the knee or thigh is the primary reason for diagnostic confusion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how the nervous system might transmit pain signals from the hip joint to other areas.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

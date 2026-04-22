@@ -1,0 +1,69 @@
+{
+  "id": "13a59355-5c02-4f2a-b174-ea51ee0c29c7",
+  "stem": "To ensure accurate results when testing for Celiac disease, what must be true of the patient's diet?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The patient must be consuming a gluten-containing diet",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The patient must be strictly gluten-free for 8 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The patient must avoid all dairy products",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The patient must be fasting for at least 12 hours prior to serology",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The immune response and intestinal damage that the tests detect are only present when the patient is actively consuming gluten.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.879Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fc2d0108c3e0145132fb",
+  "rationale": "The diagnostic tests look for an immune reaction to a specific dietary protein.",
+  "optionExplanations": {
+    "A": "The immune response and intestinal damage that the tests detect are only present when the patient is actively consuming gluten.",
+    "B": "A gluten-free diet will lead to normalization of serology and histology, resulting in a false-negative test.",
+    "C": "While lactose intolerance can occur with Celiac, dairy is not involved in the specific autoimmune mechanism required for diagnosis.",
+    "D": "Fasting is not required for Celiac antibody testing, as the antibodies remain in the blood regardless of recent meals."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The diagnostic tests look for an immune reaction to a specific dietary protein.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 12,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

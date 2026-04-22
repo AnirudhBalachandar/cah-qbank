@@ -1,0 +1,69 @@
+{
+  "id": "ec008f80-828b-4997-b4d7-f26734ff3c7d",
+  "stem": "Pure polysaccharide vaccines are typically poorly immunogenic in children under two years of age because:",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The immune response is $T$-cell independent and produces mostly $IgM$.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They contain live bacteria that overwhelm a child's immature immune system.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The sugar molecules are too toxic for young developing tissues.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Maternal antibodies completely neutralize the polysaccharide chains.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Without $T$-cell help, the immature immune system cannot effectively switch to $IgG$ production or create strong memory.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.303Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3fb4eb062fee4e6cb3b0",
+  "rationale": "Consider the role of helper $T$ cells and the specific type of immunoglobulin produced without their assistance.",
+  "optionExplanations": {
+    "A": "Without $T$-cell help, the immature immune system cannot effectively switch to $IgG$ production or create strong memory.",
+    "B": "Polysaccharide vaccines are subunit (inactivated) vaccines, not live vaccines.",
+    "C": "The issue is the lack of immune recognition and memory, not the toxicity of the polysaccharides.",
+    "D": "While maternal antibodies interfere with some vaccines, the primary issue with pure polysaccharides is their $T$-cell independent nature."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the role of helper $T$ cells and the specific type of immunoglobulin produced without their assistance.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

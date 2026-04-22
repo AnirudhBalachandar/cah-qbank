@@ -1,0 +1,69 @@
+{
+  "id": "55cbabef-f585-4112-98c9-ce5f12e6f5ca",
+  "stem": "Which ECG feature distinguishes Wolff-Parkinson-White (WPW) syndrome from other forms of SVT?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The presence of a delta wave, which is a slurring at the onset of the QRS complex.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A heart rate that remains below $100$ beats per minute.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A prolonged PR interval on the resting ECG.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The absence of P-waves during sinus rhythm.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The delta wave represents ventricular pre-excitation caused by forward conduction through an accessory pathway.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.672Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-afb2c7a5805bf525448e",
+  "rationale": "Look for an abnormality that occurs right at the start of ventricular contraction.",
+  "optionExplanations": {
+    "A": "The delta wave represents ventricular pre-excitation caused by forward conduction through an accessory pathway.",
+    "B": "WPW is associated with tachycardia episodes, and the rate is typically much higher than $100$ during an event.",
+    "C": "WPW actually features a shortened PR interval because the accessory pathway bypasses the normal delay of the AV node.",
+    "D": "P-waves are present in WPW during sinus rhythm; the abnormality is in how the impulse reaches the ventricles."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for an abnormality that occurs right at the start of ventricular contraction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

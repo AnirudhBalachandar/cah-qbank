@@ -1,0 +1,69 @@
+{
+  "id": "0ef77d5e-81ff-4b8f-963e-94bd8d66052c",
+  "stem": "During 'burst' or rescue treatment in the emergency department, how often should Salbutamol and Ipratropium be repeated during the first hour?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Every $5$ to $10$ minutes.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Every $20$ to $30$ minutes.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Once every hour.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only when oxygen saturations drop below $90\\%$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Standard protocol for initial rescue treatment involves repeating doses at these intervals during the first hour.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.927Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-034b993249fef11cdd63",
+  "rationale": "This interval allows for multiple doses within the first critical hour of emergency care.",
+  "optionExplanations": {
+    "A": "This frequency is too high for standard burst treatment unless the patient is undergoing continuous nebulization.",
+    "B": "Standard protocol for initial rescue treatment involves repeating doses at these intervals during the first hour.",
+    "C": "Hourly dosing is typical for maintenance after the initial stabilization, but insufficient for the intensive 'burst' phase.",
+    "D": "Burst treatment is scheduled to provide a therapeutic loading effect, not just react to oxygen drops."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This interval allows for multiple doses within the first critical hour of emergency care.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

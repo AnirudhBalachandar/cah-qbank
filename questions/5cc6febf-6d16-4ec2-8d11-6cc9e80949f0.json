@@ -1,0 +1,69 @@
+{
+  "id": "5cc6febf-6d16-4ec2-8d11-6cc9e80949f0",
+  "stem": "In the orthopedic examination 'Look, Feel, Move,' why is the 'Move' component often limited during the initial assessment of a suspected fracture?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Moving the limb will cause considerable pain.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Movement can cause the fracture to become open.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is impossible to move a limb with a complete fracture.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Moving the limb interferes with the X-ray results.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Movement should be restricted to essential activities, such as checking for neurologic status or tendon integrity, to minimize distress.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.736Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-12f0505e4483da2c7fd3",
+  "rationale": "Consider the primary concern for the patient's immediate physical experience during the clinical exam.",
+  "optionExplanations": {
+    "A": "Movement should be restricted to essential activities, such as checking for neurologic status or tendon integrity, to minimize distress.",
+    "B": "While movement carries risks, the primary reason stated for limiting it during examination is the severe pain it causes the patient.",
+    "C": "Movement is often possible but extremely painful and potentially damaging; it is not physically impossible.",
+    "D": "Examination occurs before X-rays; while movement during the X-ray is bad, the exam limitation is based on patient comfort."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the primary concern for the patient's immediate physical experience during the clinical exam.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "questionIndex": 12,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

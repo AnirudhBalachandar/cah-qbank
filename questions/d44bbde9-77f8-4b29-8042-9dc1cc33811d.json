@@ -1,0 +1,69 @@
+{
+  "id": "d44bbde9-77f8-4b29-8042-9dc1cc33811d",
+  "stem": "What is the primary source of the biological material used in a Melody valve for transcatheter pulmonary valve replacement?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A pig's aortic valve.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A cow's jugular vein.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Human cadaveric pulmonary artery tissue.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Synthetic polyester fibers.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Melody valve is created by sewing a cow's jugular vein, which contains a natural valve, onto an expandable stent.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "fdc4734f-c621-45ce-b90b-6b33db2f52e7",
+      "title": "00049 Year 3_Cardiology_Ca-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.187Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a3829d1f9724f5cfd162",
+  "rationale": "It involves a specific type of bovine vessel that naturally contains a valve.",
+  "optionExplanations": {
+    "A": "While porcine valves are used in surgery, the Melody valve specifically utilizes a different bovine source.",
+    "B": "The Melody valve is created by sewing a cow's jugular vein, which contains a natural valve, onto an expandable stent.",
+    "C": "Homografts are used in surgery, but the Melody valve is a commercially produced device using bovine tissue.",
+    "D": "The valve leaflets must be biological to function properly in the heart; synthetic materials are typically used for the stent covering or sutures."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "fdc4734f-c621-45ce-b90b-6b33db2f52e7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It involves a specific type of bovine vessel that naturally contains a valve.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "49",
+    "lectureTitle": "00049 Year 3_Cardiology_Ca-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_049.json",
+    "quizTitle": "Intervention Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0634e0dc-137f-4adb-9c66-9351bae049c1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

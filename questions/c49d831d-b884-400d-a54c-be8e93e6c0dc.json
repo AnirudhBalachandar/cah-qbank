@@ -1,0 +1,69 @@
+{
+  "id": "c49d831d-b884-400d-a54c-be8e93e6c0dc",
+  "stem": "What is the primary reason clinicians avoid repositioning luxated primary teeth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Repositioning can cause damage to the underlying developing permanent teeth.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Primary teeth lack the necessary root structure to be successfully moved.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Primary teeth are naturally exfoliated too quickly for repositioning to be effective.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The patient's age makes it impossible to use local anesthesia safely.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Manipulating displaced primary teeth carries a high risk of interfering with the permanent tooth buds positioned directly beneath them.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "78fb658e-e8de-46de-96ab-bc0172cba5bc",
+      "title": "00084 Dentistry_orofacial -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.421Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-052f4da2e3b644b9a054",
+  "rationale": "Consider the relationship between the primary tooth and its future replacement.",
+  "optionExplanations": {
+    "A": "Manipulating displaced primary teeth carries a high risk of interfering with the permanent tooth buds positioned directly beneath them.",
+    "B": "Primary teeth do have roots, but the concern is for the successor teeth, not the lack of existing structure.",
+    "C": "The timing of exfoliation is not the main clinical contraindication; the safety of the permanent dentition is the priority.",
+    "D": "While age is a factor in behavior management, it is not the biological reason why repositioning is avoided."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "78fb658e-e8de-46de-96ab-bc0172cba5bc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the relationship between the primary tooth and its future replacement.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "84",
+    "lectureTitle": "00084 Dentistry_orofacial -s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_084.json",
+    "quizTitle": "Dental Trauma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d44e7911-1b6f-4e0c-a0f6-74bcf8893ef3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

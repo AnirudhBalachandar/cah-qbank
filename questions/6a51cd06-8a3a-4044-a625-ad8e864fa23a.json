@@ -1,0 +1,69 @@
+{
+  "id": "6a51cd06-8a3a-4044-a625-ad8e864fa23a",
+  "stem": "Hirschsprung's disease is characterized as a functional obstruction. What is the underlying anatomical cause of this failure to relax?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A physical blockage caused by a congenital band of tissue.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The hypertrophy of the pyloric sphincter muscle.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The absence of ganglion cells in the distal bowel, usually at the rectosigmoid level.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "An intussusception where one segment of bowel telescopes into another.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lack of these nerve cells prevents the affected segment of the bowel from relaxing, creating a functional blockage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.973Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6d78295d97d3a90bf805",
+  "rationale": "Think about the microscopic neural components needed for bowel motility.",
+  "optionExplanations": {
+    "A": "Congenital bands cause mechanical obstruction, whereas Hirschsprung's is due to a lack of nerve cells in the bowel wall.",
+    "B": "Hypertrophy of the pylorus is the cause of pyloric stenosis, which occurs at the stomach outlet, not the distal bowel.",
+    "C": "The lack of these nerve cells prevents the affected segment of the bowel from relaxing, creating a functional blockage.",
+    "D": "Intussusception is a different form of mechanical obstruction common in infancy, distinct from the neurogenic cause of Hirschsprung's."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the microscopic neural components needed for bowel motility.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "4ec276b0-328e-444d-886f-e48e40bd21ac",
+  "stem": "In the context of the coagulation cascade, why is Factor $XIII$ deficiency NOT picked up by routine PT or APTT screening tests?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Factor $XIII$ is only found in the platelets, not the plasma.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It functions to cross-link fibrin after the initial clot is formed, which occurs after the endpoint of those tests.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Factor $XIII$ is part of the extrinsic pathway, which only the INR measures.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is an inhibitor rather than a factor.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "PT and APTT measure the time to the initial formation of fibrin; Factor $XIII$ works subsequently to stabilize the clot, so its absence doesn't delay the initial 'mesh' formation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.352Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1db911815d7ecf1f7589",
+  "rationale": "Think about the very last step in the 'dreaded' cascade diagram.",
+  "optionExplanations": {
+    "A": "Factor $XIII$ is a plasma protein, but its specific role is at the end of the clotting process.",
+    "B": "PT and APTT measure the time to the initial formation of fibrin; Factor $XIII$ works subsequently to stabilize the clot, so its absence doesn't delay the initial 'mesh' formation.",
+    "C": "The INR is just a calculation of the PT; neither measures Factor $XIII$.",
+    "D": "Factor $XIII$ is a pro-coagulant factor, though its deficiency leads to unstable clots."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the very last step in the 'dreaded' cascade diagram.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "questionIndex": 13,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

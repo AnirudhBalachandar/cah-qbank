@@ -1,0 +1,69 @@
+{
+  "id": "3734c6f9-ea2b-4d7a-a28f-5b7c52b37ff1",
+  "stem": "What primary indicator does a functional MRI (fMRI) use to identify areas of increased neuronal activity in the adolescent brain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The total volume of gray matter in the temporal lobe.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The density and thickness of the white matter tracts.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Increased blood flow and oxygen requirements.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The physical size of the indestructibility cortex.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Active neurons require more energy, which is supplied via increased oxygenated blood flow to specific regions of the brain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+      "title": "00074 Adolescent_brain and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:35.501Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-289447b0147481fc992c",
+  "rationale": "Consider what physiological resources a cell needs more of when it is working harder.",
+  "optionExplanations": {
+    "A": "While gray matter volume is measurable, it provides structural information rather than a real-time indication of neuronal activity.",
+    "B": "White matter density relates to the speed of signal transmission, but it does not measure active neuronal processes during a task.",
+    "C": "Active neurons require more energy, which is supplied via increased oxygenated blood flow to specific regions of the brain.",
+    "D": "The 'indestructibility cortex' was used as a humorous schema in the lecture and is not a real anatomical structure measured by MRI."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider what physiological resources a cell needs more of when it is working harder.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "74",
+    "lectureTitle": "00074 Adolescent_brain and-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_074.json",
+    "quizTitle": "Adolescent Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a867e612-3ad2-424c-9acc-8958e39ef9ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

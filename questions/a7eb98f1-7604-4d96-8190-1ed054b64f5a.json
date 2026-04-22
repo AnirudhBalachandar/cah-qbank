@@ -1,0 +1,69 @@
+{
+  "id": "a7eb98f1-7604-4d96-8190-1ed054b64f5a",
+  "stem": "A $14$-year-old boy presents with delayed puberty and a bone age of $10$ years. His $LH$ and $FSH$ are low. What does this bone age suggest regarding his diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It confirms he has Klinefelter syndrome.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is a normal finding for constitutional delay of growth and puberty.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The significant delay increases the likelihood of a pathological cause, such as hypopituitarism.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It indicates that puberty has already finished and growth plates are fused.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The greater the disparity between bone age and chronological age, the more likely the delay is due to an underlying medical condition.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+      "title": "00060 Puberty -  Prof Shub-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:31.329Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-465b1af1fceeb7c303f4",
+  "rationale": "Consider how the magnitude of the delay impacts the clinical suspicion of a disease versus a normal variation.",
+  "optionExplanations": {
+    "A": "Klinefelter syndrome is a primary gonadal failure that typically results in high $LH$ and $FSH$ levels.",
+    "B": "While constitutional delay involves a delayed bone age, a $4$-year gap is significant and raises suspicion for pathology.",
+    "C": "The greater the disparity between bone age and chronological age, the more likely the delay is due to an underlying medical condition.",
+    "D": "A bone age of $10$ is prepubertal; fusion occurs much later (around $15.5$ in boys)."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how the magnitude of the delay impacts the clinical suspicion of a disease versus a normal variation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "60",
+    "lectureTitle": "00060 Puberty -  Prof Shub-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_060.json",
+    "quizTitle": "Puberty Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e22baf88-aef5-4335-9bcc-e7ac01f8c0cc",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

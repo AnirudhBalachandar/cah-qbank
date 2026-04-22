@@ -1,0 +1,69 @@
+{
+  "id": "8cdff16d-92e8-4a48-9631-a0cb4f8a03f5",
+  "stem": "A child with a positive Trendelenburg test due to Perthes disease in the right hip will exhibit which of the following?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The right side of the pelvis sags",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The left side of the pelvis sags",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child leans backward to maintain balance",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child is unable to lift the right foot",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because the right hip is affected, the abductor muscles cannot stabilize the pelvis, causing the opposite (left) side to drop.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:41.607Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1fed351bdee4b057d71b",
+  "rationale": "The test result is defined by what happens to the 'sound' side of the pelvis.",
+  "optionExplanations": {
+    "A": "In a positive test, the pelvis drops on the 'sound' or unaffected side when standing on the affected leg.",
+    "B": "Because the right hip is affected, the abductor muscles cannot stabilize the pelvis, causing the opposite (left) side to drop.",
+    "C": "A backward lean is more characteristic of gluteus maximus weakness, not the pelvic sag of a Trendelenburg gait.",
+    "D": "The test measures pelvic stability during single-leg standing on the affected side, not the ability to lift that leg."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The test result is defined by what happens to the 'sound' side of the pelvis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "23843fb5-45cc-4d0a-bd2d-a3137dbc1661",
+  "stem": "What is the genetic significance of HLA-$DQ2$ and HLA-$DQ8$ in the context of Celiac disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They are excellent negative predictors for the disease",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Their presence is diagnostic for Celiac disease",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They determine the severity of the Marsh criteria score",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are only found in Swedish and Chinese populations",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Almost all patients with Celiac disease carry these markers; therefore, their absence makes the diagnosis highly unlikely.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.857Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f3d016b8d7585eb05b6c",
+  "rationale": "Consider how useful these tests are for 'ruling out' the condition versus 'ruling it in'.",
+  "optionExplanations": {
+    "A": "Almost all patients with Celiac disease carry these markers; therefore, their absence makes the diagnosis highly unlikely.",
+    "B": "Many people carry these genes without ever developing Celiac disease, so the test has low positive predictive value.",
+    "C": "Marsh scores are based on histological findings from biopsies and are not directly determined by the specific HLA genotype.",
+    "D": "These genetic markers are associated with Celiac disease globally, although the prevalence of the disease varies by region."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how useful these tests are for 'ruling out' the condition versus 'ruling it in'.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 11,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

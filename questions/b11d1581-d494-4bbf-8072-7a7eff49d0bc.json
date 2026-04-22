@@ -1,0 +1,69 @@
+{
+  "id": "b11d1581-d494-4bbf-8072-7a7eff49d0bc",
+  "stem": "In Guillain-Barré Syndrome (GBS), what is the typical pattern of paralysis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Descending symmetrical paralysis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Ascending symmetrical paralysis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Asymmetrical focal weakness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Proximal muscle fatigue",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "GBS classically presents with weakness starting in the feet and legs, progressing toward the torso and upper limbs over hours or days.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:33.633Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6db556d500bd38dc2996",
+  "rationale": "Consider the direction in which the weakness usually travels through the body.",
+  "optionExplanations": {
+    "A": "Descending patterns are more common in conditions like botulism; GBS typically starts in the lower extremities and moves upward.",
+    "B": "GBS classically presents with weakness starting in the feet and legs, progressing toward the torso and upper limbs over hours or days.",
+    "C": "GBS is generally a symmetrical condition; focal or asymmetrical weakness would suggest a different neurological pathology.",
+    "D": "Fatigability is a hallmark of neuromuscular junction disorders like Myasthenia Gravis, whereas GBS involves constant progressive weakness."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the direction in which the weakness usually travels through the body.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

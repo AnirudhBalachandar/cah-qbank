@@ -1,0 +1,69 @@
+{
+  "id": "8789e5f1-ec46-40a3-8bbb-8a9c2e0a48d9",
+  "stem": "How should a clinician approach the diagnosis of a habit or psychogenic cough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It should be the primary consideration in adolescents.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is a diagnosis of exclusion.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is identified by the presence of a moist cough.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is confirmed through viral testing.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This diagnosis should only be considered after all other potential physical and pathological causes have been investigated and ruled out.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.155Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-71d5f0d31f41023b2199",
+  "rationale": "Consider the sequence of diagnostic steps and when this label should finally be applied.",
+  "optionExplanations": {
+    "A": "While relevant for adolescents, smoking and vaping should be the primary considerations for that group before psychogenic causes.",
+    "B": "This diagnosis should only be considered after all other potential physical and pathological causes have been investigated and ruled out.",
+    "C": "A moist cough suggests an underlying bacterial or suppurative lung disease rather than a psychogenic origin.",
+    "D": "Viral testing is used to identify acute infections, not to diagnose a psychogenic cough."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the sequence of diagnostic steps and when this label should finally be applied.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

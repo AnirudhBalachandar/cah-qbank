@@ -1,0 +1,69 @@
+{
+  "id": "e80d56f0-0d1c-47c5-9ae6-556ccf51d310",
+  "stem": "What is the standard first-line treatment for a stable child with intussusception who presents early?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediate open laparotomy.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fluoroscopic (enematic) reduction.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Long-term antibiotic therapy.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Observation and serial abdominal X-rays.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fluoroscopic or enematic reduction is successful in over $90\\%$ of early cases and is the preferred non-surgical intervention.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.728Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a64076aaa4df4c81329c",
+  "rationale": "Think of a procedure that uses pressure to 'un-telescope' the bowel.",
+  "optionExplanations": {
+    "A": "Surgery is reserved for cases where non-operative management fails or if the child is unstable or perforated.",
+    "B": "Fluoroscopic or enematic reduction is successful in over $90\\%$ of early cases and is the preferred non-surgical intervention.",
+    "C": "Intussusception is a mechanical problem involving the telescoping of the bowel, which requires physical reduction rather than just antibiotics.",
+    "D": "Intussusception requires active reduction to prevent bowel ischemia; observation alone is insufficient."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a procedure that uses pressure to 'un-telescope' the bowel.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

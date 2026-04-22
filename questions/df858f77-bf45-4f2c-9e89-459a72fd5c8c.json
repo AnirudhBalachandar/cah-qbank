@@ -1,0 +1,69 @@
+{
+  "id": "df858f77-bf45-4f2c-9e89-459a72fd5c8c",
+  "stem": "What is the expected natural history and prognosis for a typical case of croup?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Most children recover within 48 to 72 hours.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Recovery usually takes 10 to 14 days, with a persistent cough for weeks.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Symptoms frequently progress to bacterial tracheitis in over $50\\%$ of cases.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Once recovered, children are immune to further episodes of croup.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Croup typically has a short duration, with symptoms of airway swelling resolving relatively quickly compared to lower airway infections.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+      "title": "00019 Bronchiolitis and Cr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.325Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d52dc2d2eee119c6c86d",
+  "rationale": "Compare the recovery time of upper respiratory swelling to the longer process of clearing lower airway mucus and debris.",
+  "optionExplanations": {
+    "A": "Croup typically has a short duration, with symptoms of airway swelling resolving relatively quickly compared to lower airway infections.",
+    "B": "This timeline is more characteristic of bronchiolitis, which involves more extensive tissue repair in the lower airways.",
+    "C": "Bacterial tracheitis is a rare differential diagnosis and a severe complication, not the standard progression of viral croup.",
+    "D": "Croup actually has an increased frequency of recurrence in children who have had a previous episode."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Compare the recovery time of upper respiratory swelling to the longer process of clearing lower airway mucus and debris.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "19",
+    "lectureTitle": "00019 Bronchiolitis and Cr-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_019.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "803ce9ff-ed81-41dd-8916-47b92839b68a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "33260907-4ef0-40e9-9ea6-733d12ce6a71",
+  "stem": "When using Desmopressin, why is it critical to restrict fluid intake 1 hour before and 8 hours after administration?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To prevent the risk of water intoxication.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To ensure the medication is absorbed properly in the stomach.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To prevent the medication from being diluted and losing effectiveness.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To keep the child from waking up to use the bathroom at night.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Desmopressin reduces urine production; if the child drinks too much, the body cannot clear the fluid, leading to potentially dangerous water intoxication.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+      "title": "00008 common-problems-enur-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.877Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-582fc252f568dcd634d6",
+  "rationale": "This safety precaution prevents a dangerous imbalance of fluids and electrolytes in the body.",
+  "optionExplanations": {
+    "A": "Desmopressin reduces urine production; if the child drinks too much, the body cannot clear the fluid, leading to potentially dangerous water intoxication.",
+    "B": "The restriction is a safety measure regarding fluid balance, not an issue of gastrointestinal absorption.",
+    "C": "The primary concern is the safety of the child's electrolyte and fluid balance, not just the efficacy of the drug.",
+    "D": "While Desmopressin reduces urine, the strict fluid timing is specifically aimed at preventing a medical emergency called water intoxication."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This safety precaution prevents a dangerous imbalance of fluids and electrolytes in the body.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "8",
+    "lectureTitle": "00008 common-problems-enur-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_008.json",
+    "quizTitle": "Bedwetting Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2c9798db-0ebc-4a15-9ccb-95ac659163f6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

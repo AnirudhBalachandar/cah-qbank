@@ -1,0 +1,69 @@
+{
+  "id": "4c5bfd49-d28a-4323-a6ca-14207d08507f",
+  "stem": "Kawasaki disease is a vasculitis that requires early treatment with immunoglobulin primarily to prevent which complication?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Coronary artery disease",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Rheumatic heart disease",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Bacterial endocarditis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High-output heart failure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The vasculitis associated with Kawasaki can lead to coronary artery aneurysms, which can be fatal if not mitigated by early treatment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.989Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e68c1de0ac6d54e563e0",
+  "rationale": "Focus on the specific vessels that the lecture mentions can be damaged by this vasculitis.",
+  "optionExplanations": {
+    "A": "The vasculitis associated with Kawasaki can lead to coronary artery aneurysms, which can be fatal if not mitigated by early treatment.",
+    "B": "Rheumatic heart disease is a separate acquired condition caused by a streptococcal infection, not Kawasaki disease.",
+    "C": "Endocarditis is a direct infection of the heart lining or valves, whereas Kawasaki is an inflammatory vasculitis.",
+    "D": "While heart failure can occur in severe cases, the specific long-term structural risk mentioned is the damage to the coronary arteries."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific vessels that the lecture mentions can be damaged by this vasculitis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

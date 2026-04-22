@@ -1,0 +1,69 @@
+{
+  "id": "05ec50fd-3ffe-4108-afe6-7a7b0709d1cc",
+  "stem": "For a patient with phimosis where physical scarring is present at the tip of the foreskin, which treatment is generally required?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Long-term topical steroid application",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Circumcision",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Forceful manual retraction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Observation until puberty",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Surgical removal of the foreskin is usually necessary when scarring prevents the foreskin from retracting normally.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:44.426Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f42de202c9e86c5c7b16",
+  "rationale": "Think about the limitations of medical therapy when permanent tissue changes occur.",
+  "optionExplanations": {
+    "A": "Steroids are often ineffective once fibrous scarring has developed, as they cannot dissolve scar tissue.",
+    "B": "Surgical removal of the foreskin is usually necessary when scarring prevents the foreskin from retracting normally.",
+    "C": "Inappropriate manipulation can lead to further trauma and worsening of the scarring.",
+    "D": "Pathological phimosis with scarring and urinary difficulty typically requires intervention rather than waiting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the limitations of medical therapy when permanent tissue changes occur.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

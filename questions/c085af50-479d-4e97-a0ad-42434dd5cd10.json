@@ -1,0 +1,69 @@
+{
+  "id": "c085af50-479d-4e97-a0ad-42434dd5cd10",
+  "stem": "What radiological sign is described as 'angel wings' in a neonate with air leak complications?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The lifting of the thymus by air in the mediastinum.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The appearance of bowel loops in the thoracic cavity.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Atelectasis of the upper lobes shaped like wings.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The branching pattern of air within the interstitial spaces.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pneumomediastinum can lift the lobes of the thymus away from the heart, creating a wing-like appearance.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.481Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5aa9d9348dfbfd87b5e4",
+  "rationale": "This sign involves the normal thymus being displaced by trapped air.",
+  "optionExplanations": {
+    "A": "Pneumomediastinum can lift the lobes of the thymus away from the heart, creating a wing-like appearance.",
+    "B": "Bowel loops in the chest are characteristic of a diaphragmatic hernia, not 'angel wings'.",
+    "C": "Atelectasis usually appears triangular or as areas of volume loss, not the specific 'angel wings' pattern of air leak.",
+    "D": "This describes Pulmonary Interstitial Emphysema (PIE), which involves bubbly or radiating lucencies."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This sign involves the normal thymus being displaced by trapped air.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

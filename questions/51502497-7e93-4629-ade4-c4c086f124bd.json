@@ -1,0 +1,69 @@
+{
+  "id": "51502497-7e93-4629-ade4-c4c086f124bd",
+  "stem": "A 5-year-old boy presents with recurrent $Staphylococcus$ abscesses and $Aspergillus$ pneumonia. Which underlying immune defect is most likely?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Failure of neutrophils to undergo an oxidative burst.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Absence of the membrane attack complex ($MAC$).",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A deficiency in $IgG$ and $IgA$ production.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Inability of leukocytes to adhere to vascular walls.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chronic Granulomatous Disease (CGD) prevents neutrophils from killing catalase-positive organisms like $Staph$ and $Aspergillus$ due to a lack of reactive oxygen species.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.058Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bb8750ed0b099725c278",
+  "rationale": "The inability to kill 'catalase-positive' bugs is the hallmark of this condition.",
+  "optionExplanations": {
+    "A": "Chronic Granulomatous Disease (CGD) prevents neutrophils from killing catalase-positive organisms like $Staph$ and $Aspergillus$ due to a lack of reactive oxygen species.",
+    "B": "A $MAC$ deficiency (terminal complement) specifically predisposes individuals to $Neisseria$ infections, not typically $Staph$ abscesses.",
+    "C": "While antibody defects cause bacterial infections, the specific combination of deep-seated abscesses and fungal pneumonia ($Aspergillus$) strongly points toward a phagocytic defect.",
+    "D": "Leukocyte Adhesion Disorder (LAD) results in high blood counts and a lack of pus, whereas this patient has deep-seated abscesses and scarring."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The inability to kill 'catalase-positive' bugs is the hallmark of this condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

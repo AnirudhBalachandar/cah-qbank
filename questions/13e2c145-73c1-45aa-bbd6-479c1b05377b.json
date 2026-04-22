@@ -1,0 +1,69 @@
+{
+  "id": "13e2c145-73c1-45aa-bbd6-479c1b05377b",
+  "stem": "What frequency range characterizes the alpha waves seen during a state of wakefulness?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$0.5$ to $2$ Hz",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$4$ to $7$ Hz",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$8$ to $13$ Hz",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$14$ to $30$ Hz",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Alpha waves, occurring during wakefulness, are defined in the presentation as having a frequency of $8$ to $13$ Hz.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.420Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ad3a48dab372905d75cc",
+  "rationale": "Think about the specific numerical range mentioned for the frequency of waves before the onset of stage 1 sleep.",
+  "optionExplanations": {
+    "A": "This lower frequency range is characteristic of delta waves found in slow-wave sleep (stages 3 and 4).",
+    "B": "This range is closer to theta waves, which are observed during the onset of sleep in stage 1.",
+    "C": "Alpha waves, occurring during wakefulness, are defined in the presentation as having a frequency of $8$ to $13$ Hz.",
+    "D": "Higher frequencies like these are associated with active thinking or beta waves, which were not the primary focus of the wakefulness description in the text."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the specific numerical range mentioned for the frequency of waves before the onset of stage 1 sleep.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

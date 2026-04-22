@@ -1,0 +1,69 @@
+{
+  "id": "582997d6-b2b8-4306-9395-28cff61f2fa5",
+  "stem": "If a patient has a prolonged APTT but a normal PT, which group of factors might be deficient according to the 'intrinsic pathway'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Factors $VIII, IX, XI,$ and $XII$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Factors $II, V, X,$ and Fibrinogen",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Factor $VII$ only",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Factor $XIII$ only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The intrinsic pathway is measured by the APTT and involves these specific factors.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:32.251Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c473c0a3f4e27bf3c738",
+  "rationale": "This pathway is associated with Hemophilia A and B.",
+  "optionExplanations": {
+    "A": "The intrinsic pathway is measured by the APTT and involves these specific factors.",
+    "B": "These factors belong to the common pathway, which would typically prolong both the PT and the APTT.",
+    "C": "Factor $VII$ is part of the extrinsic pathway and would only prolong the PT.",
+    "D": "Factor $XIII$ deficiency does not prolong the PT or the APTT."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This pathway is associated with Hemophilia A and B.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

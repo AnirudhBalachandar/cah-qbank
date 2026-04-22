@@ -1,0 +1,69 @@
+{
+  "id": "278d86d5-728d-4401-a2b5-2278c9a2489e",
+  "stem": "In clinical practice, intellectual assessments (cognitive ability tests) are usually conducted from what age upward?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$0$ years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$2$ years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$4$ years",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$6$ years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that intellectual assessments of cognitive ability are usually done in practice from the age of $4$ years and up.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:30.103Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-174f1bccbe2d002e2890",
+  "rationale": "Look for the specific age threshold where developmental testing typically shifts toward cognitive testing.",
+  "optionExplanations": {
+    "A": "Assessments for infants are generally developmental assessments rather than cognitive/intellectual assessments.",
+    "B": "This is within the range of developmental tools like the Bayley, but too early for standard intellectual assessments mentioned in the text.",
+    "C": "The source states that intellectual assessments of cognitive ability are usually done in practice from the age of $4$ years and up.",
+    "D": "While assessments continue through this age, the starting point mentioned in practice for these specific tools is earlier."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the specific age threshold where developmental testing typically shifts toward cognitive testing.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

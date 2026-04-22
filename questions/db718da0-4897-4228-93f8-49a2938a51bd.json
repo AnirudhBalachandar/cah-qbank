@@ -1,0 +1,69 @@
+{
+  "id": "db718da0-4897-4228-93f8-49a2938a51bd",
+  "stem": "A child is considered 'steroid dependent' if they relapse within which timeframe after stopping steroids?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$24$ hours",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$2$ weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$1$ month",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$6$ months",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Steroid dependency is defined as relapsing while still on steroids or within $2$ weeks of finishing the course.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.589Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3924626a42483b01fc3e",
+  "rationale": "The timeframe is relatively short, occurring almost immediately after the medication is discontinued.",
+  "optionExplanations": {
+    "A": "While very rapid, the clinical definition of dependency allows for a slightly longer window after cessation.",
+    "B": "Steroid dependency is defined as relapsing while still on steroids or within $2$ weeks of finishing the course.",
+    "C": "A relapse after one month would be considered a frequent or infrequent relapse depending on the yearly count, but falls outside the strict definition of 'dependency'.",
+    "D": "Relapses occurring this far out are generally categorized differently and do not indicate immediate steroid dependency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The timeframe is relatively short, occurring almost immediately after the medication is discontinued.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

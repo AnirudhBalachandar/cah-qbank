@@ -1,0 +1,69 @@
+{
+  "id": "b1f7ef10-bd71-4f86-9693-b1970c612210",
+  "stem": "Which clinical feature is generally characteristic of humoral (antibody) deficiencies, such as X-linked agammaglobulinemia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Recurrent bacterial infections with encapsulated organisms.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Persistent fungal infections like oral thrush from birth.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Inability to form pus at the site of a deep-seated infection.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Disseminated viral infections like EBV and CMV.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Humoral deficiencies impair the production of antibodies like $IgG$ and $IgM$, which are essential for opsonizing and clearing encapsulated bacteria.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.953Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-724a1a421fd30d4a1334",
+  "rationale": "Consider the primary role of $IgG$ and $IgM$ in protecting the body against specific types of bacteria.",
+  "optionExplanations": {
+    "A": "Humoral deficiencies impair the production of antibodies like $IgG$ and $IgM$, which are essential for opsonizing and clearing encapsulated bacteria.",
+    "B": "While some humoral issues exist, persistent fungal infections are more classically associated with T-cell defects or SCID.",
+    "C": "The inability to form pus is a hallmark of leukocyte adhesion disorders rather than a primary antibody production defect.",
+    "D": "Viral clearing heavily relies on T-cell mediated immunity; humoral deficiencies primarily present with bacterial issues."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the primary role of $IgG$ and $IgM$ in protecting the body against specific types of bacteria.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

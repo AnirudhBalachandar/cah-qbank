@@ -1,0 +1,69 @@
+{
+  "id": "ced2d1cf-807a-4729-ad1c-85fb1ee86582",
+  "stem": "For a child who is tentative or uncooperative for an intraoral X-ray, which imaging method is suggested to assess general dental development?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Orthopantomogram (OPG)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bitewing radiograph",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Periapical X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "MRI of the mandible",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An OPG is an extraoral X-ray that provides a broad view of the developing primary and permanent teeth without requiring sensors inside the mouth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.318Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-326df482f302febbbf40",
+  "rationale": "This is an extraoral X-ray that captures the entire dentition in one image.",
+  "optionExplanations": {
+    "A": "An OPG is an extraoral X-ray that provides a broad view of the developing primary and permanent teeth without requiring sensors inside the mouth.",
+    "B": "Bitewings are intraoral X-rays that require the child to bite down on a sensor, which uncooperative children may resist.",
+    "C": "Periapical films are intraoral and focus on specific teeth, making them difficult for apprehensive patients.",
+    "D": "While useful for soft tissue, MRI is not the standard or practical tool for assessing general dental eruption patterns."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This is an extraoral X-ray that captures the entire dentition in one image.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

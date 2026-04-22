@@ -1,0 +1,69 @@
+{
+  "id": "207a7b12-484c-47d0-b9c2-f8d7bf3391a0",
+  "stem": "Which feature at presentation would lead a clinician to worry that a child does NOT have Minimal Change Disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Age between $2$ and $5$ years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Response to steroids within two weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Significant hypertension and macroscopic hematuria",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A history of recent viral respiratory infection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "These 'nephritic' features are atypical for Minimal Change Disease and suggest a more complex pathology like FSGS or a combined picture.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.614Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2cbcc0a72d230cd3a957",
+  "rationale": "Look for symptoms that overlap with the nephritic spectrum, which are uncommon in pure Minimal Change Disease.",
+  "optionExplanations": {
+    "A": "This is the classic age range for Minimal Change Disease, which accounts for $80\\%$ of cases in young children.",
+    "B": "Steroid responsiveness is the strongest indicator that the underlying pathology is indeed Minimal Change Disease.",
+    "C": "These 'nephritic' features are atypical for Minimal Change Disease and suggest a more complex pathology like FSGS or a combined picture.",
+    "D": "Viral infections are common precipitants for Minimal Change Disease relapses and do not rule out the diagnosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for symptoms that overlap with the nephritic spectrum, which are uncommon in pure Minimal Change Disease.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "questionIndex": 5,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

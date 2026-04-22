@@ -1,0 +1,69 @@
+{
+  "id": "078b25e5-419b-4eee-819f-fe6bd070ff18",
+  "stem": "What is the typical yield of genetic investigations for finding a cause of developmental delay?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Always $100\\%$ if the delay is severe.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Between $10\\%$ and $81\\%$, depending on the study.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Less than $5\\%$ for children with Autism.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Exactly $40\\%$ for all children under age $5$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The yield is highly variable and often fails to find a definitive cause, especially in milder cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+      "title": "00055 Developmental Delay-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:29.972Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d4ad41aeea76b49cd2a2",
+  "rationale": "The data shows a very wide range of outcomes in clinical studies.",
+  "optionExplanations": {
+    "A": "Even in severe cases, a significant percentage of children have no identifiable genetic cause.",
+    "B": "The yield is highly variable and often fails to find a definitive cause, especially in milder cases.",
+    "C": "The yield is generally higher than $5\\%$, though it remains inconsistent across different populations.",
+    "D": "The source specifies that no cause is found in $40\\%$ of those with moderate to severe disability, which is different from the total yield."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The data shows a very wide range of outcomes in clinical studies.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "55",
+    "lectureTitle": "00055 Developmental Delay-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_055.json",
+    "quizTitle": "Development Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2fe3e388-3c7b-4ce4-b2c8-2010baf3ee20",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

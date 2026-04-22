@@ -1,0 +1,69 @@
+{
+  "id": "a7544816-c5e7-422c-aa20-3f02126b4b21",
+  "stem": "Which specific EEG features are used to identify stage 2 sleep on a polysomnogram?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Theta waves and mixed frequency waves",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Alpha waves and rapid eye movements",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Spindles and K complexes",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Delta waves and low frequency activity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stage 2 sleep is classically defined by the appearance of these two specific patterns on the EEG.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:20.440Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cef4d0ec838a89b19226",
+  "rationale": "One of these features looks like a burst of activity, while the other is a large, distinct wave complex.",
+  "optionExplanations": {
+    "A": "These are characteristic of stage 1 sleep, which marks the initial transition from wakefulness.",
+    "B": "Alpha waves denote wakefulness, while rapid eye movements are the hallmark of REM sleep.",
+    "C": "Stage 2 sleep is classically defined by the appearance of these two specific patterns on the EEG.",
+    "D": "Delta waves are the defining feature of deep, slow-wave sleep (stages 3 and 4)."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One of these features looks like a burst of activity, while the other is a large, distinct wave complex.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

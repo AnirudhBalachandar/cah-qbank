@@ -1,0 +1,69 @@
+{
+  "id": "c621f2f6-ae1c-4d2d-9d6f-1a2d6c29b5ed",
+  "stem": "Long QT syndrome is primarily caused by a malfunction in which cellular component?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ion channels, such as sodium or potassium channels.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The fibrous insulating layer of the heart.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The physical structure of the tricuspid valve.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The mitochondrial energy production in myocardial cells.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Long QT is a channelopathy where abnormal ion flow leads to delayed repolarization of the heart muscle.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:28.722Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-84f76458420a76cbdb4f",
+  "rationale": "Focus on the microscopic 'gates' that control electrical flow in cells.",
+  "optionExplanations": {
+    "A": "Long QT is a channelopathy where abnormal ion flow leads to delayed repolarization of the heart muscle.",
+    "B": "The fibrous layer relates to structural insulation, not the cellular ion mechanisms of repolarization.",
+    "C": "Long QT syndrome occurs in structurally normal hearts and is an electrical/cellular problem, not a valvular one.",
+    "D": "The condition is specifically related to the electrical channels on the cell membrane, not the mitochondria."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the microscopic 'gates' that control electrical flow in cells.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "questionIndex": 10,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

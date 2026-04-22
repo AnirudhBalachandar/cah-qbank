@@ -1,5 +1,6 @@
 node_modules/
 .next/
+.DS_Store
 *.db
 *.db-journal
 *.db-wal
@@ -11,3 +12,4 @@ drafts/
 dist/
 .turbo/
 coverage/
+*.tsbuildinfo

@@ -1,0 +1,69 @@
+{
+  "id": "85bf92bb-9b0f-4f67-810b-e51546d6b85c",
+  "stem": "What anatomical factor contributes to the development of 'round pneumonia' specifically in very young children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Higher concentrations of surfactant in the peripheral alveoli.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Incomplete development of collateral channels between alveolar spaces.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The presence of the large neonatal thymus pressing on the lobes.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The smaller diameter of the pediatric tracheobronchial tree.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lecture explains that because collateral channels are underdeveloped, the infection cannot spread as easily to adjacent airways, creating a rounded configuration.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.420Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-94cbe4f7934996582abf",
+  "rationale": "Think about how air and fluid move (or fail to move) between individual air sacs in immature lungs.",
+  "optionExplanations": {
+    "A": "Surfactant levels are related to lung maturity and RDS, but do not directly cause the spherical shape of pneumonia.",
+    "B": "The lecture explains that because collateral channels are underdeveloped, the infection cannot spread as easily to adjacent airways, creating a rounded configuration.",
+    "C": "The thymus does not exert mass effect on the lung parenchyma to shape pneumonia.",
+    "D": "While pediatric airways are smaller, the spherical nature of the consolidation is due to the lack of pathways between alveoli."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how air and fluid move (or fail to move) between individual air sacs in immature lungs.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

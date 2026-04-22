@@ -1,0 +1,69 @@
+{
+  "id": "21df3d2e-ef7b-4b91-89af-2955e5476fbe",
+  "stem": "Why should ACE inhibitors be avoided in teenage girls who are at risk of becoming pregnant?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They are known to be fetopathic.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They cause significant facial flushing.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They lead to severe fluid retention.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They interfere with adolescent growth spurts.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explicitly warns that ACE inhibitors and ARBs can cause harm to a developing fetus.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.176Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-60677f8bd8017cd4e5e8",
+  "rationale": "Think about the impact of these medications on fetal development.",
+  "optionExplanations": {
+    "A": "The source explicitly warns that ACE inhibitors and ARBs can cause harm to a developing fetus.",
+    "B": "Facial flushing is a side effect associated with calcium channel blockers rather than ACE inhibitors.",
+    "C": "Fluid retention is more commonly associated with other antihypertensives; diuretics are often added to counteract this.",
+    "D": "The primary concern for this demographic is the risk to potential fetal development, not the patient's own growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the impact of these medications on fetal development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "fcb730af-19bf-4413-b0a8-2ad76e6cb8e4",
+  "stem": "Why is the measles vaccine typically delayed until at least 9 to 12 months of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child’s $pH$ levels are too low to allow the virus to replicate.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Maternal antibodies can neutralize the live attenuated virus before it can induce an immune response.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The measles vaccine is a polysaccharide vaccine that requires $T$-cell maturity.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Premature $B$ cells in infants are unable to produce any antibodies.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Circulating antibodies from the mother 'mop up' the vaccine virus, preventing the infant from developing their own memory cells.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:22.345Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-527ec402455f496fb8a3",
+  "rationale": "Consider the role of passive immunity transferred from the mother during the third trimester.",
+  "optionExplanations": {
+    "A": "$pH$ levels are part of innate immunity but are not the limiting factor for the timing of the measles vaccine.",
+    "B": "Circulating antibodies from the mother 'mop up' the vaccine virus, preventing the infant from developing their own memory cells.",
+    "C": "The measles vaccine is a live attenuated vaccine, not a polysaccharide vaccine.",
+    "D": "Infants can produce antibodies, but the interference from maternal antibodies is the specific reason for this delay."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the role of passive immunity transferred from the mother during the third trimester.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "questionIndex": 8,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "5967a17c-2b10-4103-a310-21515a470666",
+  "stem": "Which symptom is classified under the 'mild to moderate' category of an allergic reaction in the ASCIA action plans?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Swelling of the tongue",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Persistent dizziness or collapse",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Swelling of the lips, face, and eyes",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Difficulty talking or hoarse voice",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Generalized swelling of the face, lips, or eyes without respiratory distress is classified as mild to moderate.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.143Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e42011c1a423e70b9850",
+  "rationale": "Distinguish between localized swelling and symptoms that indicate systemic or respiratory distress.",
+  "optionExplanations": {
+    "A": "Tongue swelling is considered a sign of a severe allergic reaction or anaphylaxis.",
+    "B": "Dizziness and collapse are critical indicators of anaphylaxis.",
+    "C": "Generalized swelling of the face, lips, or eyes without respiratory distress is classified as mild to moderate.",
+    "D": "Voice changes or difficulty speaking indicate airway involvement and signify anaphylaxis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Distinguish between localized swelling and symptoms that indicate systemic or respiratory distress.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ed66420c-b1b4-4496-857b-2ffe4a5d2611",
+  "stem": "According to neonatal protocols, which substance is administered to infants whose seizures do not respond after two or three standard medications?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intravenous Vitamin D",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Vitamin $B_{12}$ injections",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Pyridoxine (Vitamin $B_6$)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Folic acid",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pyridoxine-dependent epilepsy is a rare but treatable inborn error that is screened for in refractory neonatal seizures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+      "title": "00071 Neurology - what not-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.548Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5b46be359ad46aaeac34",
+  "rationale": "This vitamin is a cofactor in the synthesis of neurotransmitters and is linked to a specific metabolic seizure disorder.",
+  "optionExplanations": {
+    "A": "Vitamin D is used for calcium regulation but is not the first-line vitamin intervention for refractory neonatal seizures.",
+    "B": "While $B_{12}$ is vital for neurological health, it is not the standard treatment for acute metabolic-related neonatal seizures.",
+    "C": "Pyridoxine-dependent epilepsy is a rare but treatable inborn error that is screened for in refractory neonatal seizures.",
+    "D": "Folic acid is essential for neural tube development but is not the primary vitamin used to stop active refractory seizures."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This vitamin is a cofactor in the synthesis of neurotransmitters and is linked to a specific metabolic seizure disorder.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "71",
+    "lectureTitle": "00071 Neurology - what not-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_071.json",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e57d3ca2-20dc-4d28-b7fd-7ab669303461",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

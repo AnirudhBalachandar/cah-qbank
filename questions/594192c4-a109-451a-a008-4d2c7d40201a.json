@@ -1,0 +1,69 @@
+{
+  "id": "594192c4-a109-451a-a008-4d2c7d40201a",
+  "stem": "During a functional renal scan, tracer retention within a kidney beyond how many minutes indicates a possible obstruction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$20$ minutes",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$3$ hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$5$ minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$60$ minutes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In functional scans, failure to excrete the tracer within this time frame is a clinical indicator of partial or complete blockage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+      "title": "00044 Renal_imaging of the-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:26.886Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-029ba86038b917951ee8",
+  "rationale": "This timeframe is less than half an hour and is used to assess the speed of tracer clearance.",
+  "optionExplanations": {
+    "A": "In functional scans, failure to excrete the tracer within this time frame is a clinical indicator of partial or complete blockage.",
+    "B": "Three hours is the standard wait time before taking images for a DMSA scan, not the cut-off for obstruction in functional scans.",
+    "C": "Functional scans take images immediately to see uptake, but $5$ minutes is too early to determine if there is a significant delay in excretion.",
+    "D": "While $60$ minutes would certainly show retention, the specific threshold mentioned for indicating obstruction is much earlier."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This timeframe is less than half an hour and is used to assess the speed of tracer clearance.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "44",
+    "lectureTitle": "00044 Renal_imaging of the-s1-low.mp4",
+    "questionIndex": 6,
+    "quizFileName": "quiz_044.json",
+    "quizTitle": "Renal Imaging Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8b2444f-bf56-4c42-8ce9-db4bf1399a9a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

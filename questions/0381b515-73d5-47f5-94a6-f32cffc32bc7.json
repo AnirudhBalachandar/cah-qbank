@@ -1,0 +1,69 @@
+{
+  "id": "0381b515-73d5-47f5-94a6-f32cffc32bc7",
+  "stem": "A 5-month-old girl presents with failure to thrive, chronic diarrhea, and $Pneumocystis$ $jirovecii$ (PJP) pneumonia. What laboratory finding is the most critical indicator for Severe Combined Immunodeficiency (SCID)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Prolonged lymphopenia.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Isolated low $IgA$ levels.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "High neutrophil counts in the blood.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Low complement $C3$ and $C4$ levels.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Since the majority of circulating lymphocytes are T-cells, a profound and persistent low lymphocyte count is a major red flag for SCID.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:23.985Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ba65c0f8ccd62ad68dcb",
+  "rationale": "Think about which cell population makes up the bulk of the total white cell differential in a healthy child.",
+  "optionExplanations": {
+    "A": "Since the majority of circulating lymphocytes are T-cells, a profound and persistent low lymphocyte count is a major red flag for SCID.",
+    "B": "Isolated $IgA$ deficiency is common and often asymptomatic; it does not explain the severe opportunistic infections seen in SCID.",
+    "C": "Elevated neutrophils are more typical of an acute infection or a leukocyte adhesion disorder, whereas SCID is defined by a lack of lymphoid cells.",
+    "D": "Complement levels are usually related to autoimmune conditions or specific bacterial susceptibilities, not the broad T-cell failure of SCID."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about which cell population makes up the bulk of the total white cell differential in a healthy child.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

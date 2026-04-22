@@ -1,0 +1,69 @@
+{
+  "id": "8ae4c0ae-39eb-4844-86bf-b60282aec7d4",
+  "stem": "In a child with ectodermal dysplasia, what is the underlying reason for the occurrence of febrile convulsions?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A primary neurological defect inherent to the syndrome.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The lack of sweat glands leading to poor thermoregulation.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Chronic pain associated with conical teeth and underdeveloped alveolar bone.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Severe dehydration caused by the absence of salivary glands.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ectoderm gives rise to sweat glands; without them, children cannot cool themselves effectively, leading to overheating and subsequent febrile seizures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:38.653Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a780ce44461a8503e471",
+  "rationale": "Think about which ectodermal structure is responsible for cooling the body.",
+  "optionExplanations": {
+    "A": "While the syndrome affects many systems, the convulsions are a secondary effect of physiological stressors rather than a direct brain defect.",
+    "B": "Ectoderm gives rise to sweat glands; without them, children cannot cool themselves effectively, leading to overheating and subsequent febrile seizures.",
+    "C": "While dental issues are present, the text specifically links the convulsions to the ectodermal origin of sweat glands and environmental heat.",
+    "D": "The text mentions that salivary glands are only partially of ectodermal origin and highlights sweat glands as the primary factor in these convulsions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about which ectodermal structure is responsible for cooling the body.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

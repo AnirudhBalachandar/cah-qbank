@@ -1,0 +1,69 @@
+{
+  "id": "717449de-df0d-4b33-8318-dabc4909a815",
+  "stem": "Why might the head circumference measurement be unreliable during the first few days of a newborn's life?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Rapid brain cell division occurs immediately after birth.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The presence of molding, cephalohematoma, or caput succedaneum.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The infant's inability to hold their head steady for the tape measure.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The cranial sutures have usually already fused at birth.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mechanical changes to the head shape during delivery or localized swelling can temporarily distort the measurement.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:34.231Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-50c5ec2657efcbddfc68",
+  "rationale": "Consider the physical effects of the birthing process on the shape and tissues of the infant's head.",
+  "optionExplanations": {
+    "A": "While the brain grows, it does not change size so drastically in days as to make measurements unreliable; the issue is mechanical.",
+    "B": "Mechanical changes to the head shape during delivery or localized swelling can temporarily distort the measurement.",
+    "C": "This is a practical difficulty for the clinician but does not make the measurement physiologically unreliable or inaccurate in terms of head volume.",
+    "D": "Cranial sutures remain open for the first two years of life to allow for brain expansion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the physical effects of the birthing process on the shape and tissues of the infant's head.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "questionIndex": 2,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

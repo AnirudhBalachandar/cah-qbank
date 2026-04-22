@@ -1,0 +1,69 @@
+{
+  "id": "09e31afe-ec09-4349-88ba-a2bdf3d40bf5",
+  "stem": "Patients who have undergone radiation therapy for oncology (such as for a rhabdomyosarcoma of the cheek) are at risk for which severe bone complication if they develop a dental infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cleidocranial dysplasia.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Osteoradionecrosis.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Dentinogenesis imperfecta.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Choanal atresia.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explains that radiation damages bone, making it susceptible to necrosis (death of bone tissue) if infected, which is very difficult to treat.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.037Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-af91b56b264d8fd84f4c",
+  "rationale": "The term combines 'bone,' 'radiation,' and 'tissue death.'",
+  "optionExplanations": {
+    "A": "This is a genetic condition affecting bone and teeth, not a complication of radiation.",
+    "B": "The source explains that radiation damages bone, making it susceptible to necrosis (death of bone tissue) if infected, which is very difficult to treat.",
+    "C": "This is a genetic defect in the formation of dentine, not a result of radiation exposure.",
+    "D": "This is a congenital blockage of the nasal passages, unrelated to radiation-induced bone damage."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The term combines 'bone,' 'radiation,' and 'tissue death.'",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "questionIndex": 14,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "6b887b1c-82e9-4236-b7fb-6d8c5978d56c",
+  "stem": "Which biological process does vitamin D primarily use to maintain calcium concentration in the body?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increasing intestinal absorption and bone reabsorption while reducing renal excretion.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Decreasing intestinal absorption and increasing renal excretion to prevent toxicity.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Converting dietary phosphate directly into serum calcium within the liver.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Stimulating the thyroid gland to release calcitonin for bone mineralization.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vitamin D maintains homeostasis by enhancing the uptake of calcium from the gut, releasing it from bone stores when necessary, and preventing its loss through the kidneys.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.158Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a5ea0dfc7dc71f8f4e0b",
+  "rationale": "Consider how the body maximizes available calcium from external and internal sources.",
+  "optionExplanations": {
+    "A": "Vitamin D maintains homeostasis by enhancing the uptake of calcium from the gut, releasing it from bone stores when necessary, and preventing its loss through the kidneys.",
+    "B": "These actions would result in a decrease in serum calcium, which is the opposite of vitamin D's primary regulatory role.",
+    "C": "Phosphate and calcium are different elements; vitamin D regulates their levels but does not convert one into the other.",
+    "D": "Calcitonin generally works to lower blood calcium levels, whereas vitamin D acts to increase or maintain calcium levels."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how the body maximizes available calcium from external and internal sources.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

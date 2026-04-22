@@ -1,0 +1,69 @@
+{
+  "id": "2fb73b59-f264-4971-bdf6-253b11ce3a6e",
+  "stem": "Why is it difficult for children to increase their tidal volume compared to adults during respiratory distress?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The ribs are positioned more horizontally.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The diaphragm is underdeveloped.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The lungs have higher compliance.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The pleural space is larger.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The horizontal orientation of the ribs limits the expansion of the chest cavity, forcing children to rely on increasing their respiratory rate instead.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:39.149Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c4367131c60a9b780533",
+  "rationale": "Think about the geometric orientation of the rib cage in a child.",
+  "optionExplanations": {
+    "A": "The horizontal orientation of the ribs limits the expansion of the chest cavity, forcing children to rely on increasing their respiratory rate instead.",
+    "B": "While the diaphragm is the primary muscle of breathing, the source emphasizes the skeletal geometry of the ribs as the limiting factor for volume.",
+    "C": "Increased compliance would theoretically make inflation easier; the limitation described is mechanical due to rib structure.",
+    "D": "There is no mention of pleural space size being a factor in tidal volume limitations in the source."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the geometric orientation of the rib cage in a child.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "questionIndex": 3,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

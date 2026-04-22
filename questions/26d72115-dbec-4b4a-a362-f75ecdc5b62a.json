@@ -1,0 +1,69 @@
+{
+  "id": "26d72115-dbec-4b4a-a362-f75ecdc5b62a",
+  "stem": "What factor is primarily used to determine the appropriate dose of Prednisolone (oral steroids) for a child during an asthma flare?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child's weight",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The child's age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The brand of the preventer medication",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The severity of the previous year's symptoms",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prednisolone is a weight-based medication, typically calculated at $1$ mg per kg for home-initiated treatment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f701645-76aa-48a4-83ee-64804f406836",
+      "title": "00012 AsthmaActionPlan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:18.672Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-78f95cb76b404cf88c03",
+  "rationale": "This measurement is commonly used in pediatrics to ensure medication is proportional to the child's size.",
+  "optionExplanations": {
+    "A": "Prednisolone is a weight-based medication, typically calculated at $1$ mg per kg for home-initiated treatment.",
+    "B": "While age is used for reliever and some preventer doses, oral steroids require a more precise calculation based on body mass.",
+    "C": "The preventer brand does not influence the rescue dose of oral steroids needed to treat an acute flare.",
+    "D": "Dosing for acute rescue medication is based on the child's current physical requirements rather than historical patterns."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f701645-76aa-48a4-83ee-64804f406836",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This measurement is commonly used in pediatrics to ensure medication is proportional to the child's size.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "12",
+    "lectureTitle": "00012 AsthmaActionPlan-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_012.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "ad94575a-cf7b-4497-8261-459c4933a6f1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

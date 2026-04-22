@@ -1,0 +1,69 @@
+{
+  "id": "fb1bb14a-80d7-4f32-8f63-4c4e2d2dda2c",
+  "stem": "What procedure may be necessary if a patient develops abdominal compartment syndrome due to high intra-abdominal pressure ($>15-20$ mmHg)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Laparotomy and temporary extrusion of the bowel into a bag",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Insertion of a chest tube for fluid drainage",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Immediate escharotomy of the lower limbs",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Aggressive fluid boluses to maintain perfusion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This drastic measure is required to relieve the life-threatening pressure in the abdominal compartment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:43.540Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4e2a3658bbbf982f163c",
+  "rationale": "Consider a surgical opening of the abdomen to create more space for the internal organs.",
+  "optionExplanations": {
+    "A": "This drastic measure is required to relieve the life-threatening pressure in the abdominal compartment.",
+    "B": "A chest tube addresses pleural issues, but abdominal compartment syndrome specifically requires intervention in the abdominal wall.",
+    "C": "Limb escharotomy relieves pressure in the arms or legs, but will not resolve high intra-abdominal pressure.",
+    "D": "While fluid is needed for shock, adding more fluid can actually worsen compartment syndrome by increasing edema."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider a surgical opening of the abdomen to create more space for the internal organs.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

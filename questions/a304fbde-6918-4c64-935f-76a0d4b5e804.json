@@ -1,0 +1,69 @@
+{
+  "id": "a304fbde-6918-4c64-935f-76a0d4b5e804",
+  "stem": "What is the only absolute indication for surgery in a neonate being treated for Necrotizing Enterocolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The presence of occult blood in the stool",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Failure to tolerate oral feedings",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Intestinal perforation",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The presence of portal venous gas",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intestinal perforation, often indicated by pneumoperitoneum on X-ray, is the only universally accepted absolute surgical indication in NEC.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:35.389Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4ca371eeb6d8f46f5f4a",
+  "rationale": "Identify the critical event that signifies the loss of bowel integrity and the escape of air into the peritoneal cavity.",
+  "optionExplanations": {
+    "A": "Occult blood is a feature of early (Stage 1) NEC and is managed conservatively with bowel rest.",
+    "B": "Feeding intolerance is a common symptom in many neonatal conditions and is a relative rather than absolute surgical indication.",
+    "C": "Intestinal perforation, often indicated by pneumoperitoneum on X-ray, is the only universally accepted absolute surgical indication in NEC.",
+    "D": "Portal venous gas indicates severe disease (Stage 3A) but is considered a relative indication for surgery rather than an absolute one."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the critical event that signifies the loss of bowel integrity and the escape of air into the peritoneal cavity.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "questionIndex": 12,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

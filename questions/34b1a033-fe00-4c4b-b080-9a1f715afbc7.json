@@ -1,0 +1,69 @@
+{
+  "id": "34b1a033-fe00-4c4b-b080-9a1f715afbc7",
+  "stem": "What is the primary goal of performing an epiphysiodesis on the unaffected (contralateral) limb in a patient with a limb length discrepancy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To stimulate growth in the shorter leg through increased blood flow.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To correct an angular deformity in the fractured leg.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To stop growth in the longer leg so the shorter leg can catch up.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To prevent future articular incongruency in the joints.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "By timing the closure of the growth plate in the normal, longer leg, clinicians allow the injured, shorter leg to equalize the discrepancy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f13cd7b-5400-4793-8e1c-238c9acb605c",
+      "title": "00089 fractures-long-term--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:40.285Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-877df90e5132703f2532",
+  "rationale": "Think about how you would level two uneven objects if you could only stop the taller one from growing taller.",
+  "optionExplanations": {
+    "A": "Epiphysiodesis does not stimulate the opposite leg; it only stops growth in the leg being operated on.",
+    "B": "Epiphysiodesis is used for length correction; guided growth (like the 8-plate) is typically used for angular correction.",
+    "C": "By timing the closure of the growth plate in the normal, longer leg, clinicians allow the injured, shorter leg to equalize the discrepancy.",
+    "D": "Articular congruency is managed by anatomic reduction at the time of injury, not by leg-length procedures later."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f13cd7b-5400-4793-8e1c-238c9acb605c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how you would level two uneven objects if you could only stop the taller one from growing taller.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "89",
+    "lectureTitle": "00089 fractures-long-term--s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_089.json",
+    "quizTitle": "Growth Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "62d7590b-b415-406f-a764-9d4a02c96325",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

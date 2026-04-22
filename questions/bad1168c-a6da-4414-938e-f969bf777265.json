@@ -1,0 +1,69 @@
+{
+  "id": "bad1168c-a6da-4414-938e-f969bf777265",
+  "stem": "In Wilson's disease, why is the Alkaline Phosphatase ($ALP$) often disproportionately low compared to other liver enzymes?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Excess copper displaces zinc, which is a necessary cofactor for $ALP$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Copper directly inhibits the production of $ALP$ in the bone",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wilson's disease only affects hepatocytes and spares the biliary tree",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$ALP$ is consumed during the transport of copper to the kidneys",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "$ALP$ is a zinc-dependent enzyme; when copper levels are high, they compete for the same binding sites, reducing the enzyme's activity and levels.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:21.814Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8a3201def729876857a0",
+  "rationale": "Think about the chemical relationship between divalent metal cations like copper and zinc.",
+  "optionExplanations": {
+    "A": "$ALP$ is a zinc-dependent enzyme; when copper levels are high, they compete for the same binding sites, reducing the enzyme's activity and levels.",
+    "B": "While $ALP$ is produced in bone, the phenomenon in Wilson's disease is related to enzyme function in the context of metal ion displacement.",
+    "C": "Wilson's causes generalized liver damage, and $ALP$ would normally rise in response to injury if its function weren't chemically impaired.",
+    "D": "The low $ALP$ is a result of cofactor interference rather than the metabolic consumption of the enzyme during excretion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the chemical relationship between divalent metal cations like copper and zinc.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "questionIndex": 9,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

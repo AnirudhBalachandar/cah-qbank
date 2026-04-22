@@ -1,0 +1,69 @@
+{
+  "id": "e210a354-7d4b-4aee-bb39-df3a80038fbf",
+  "stem": "Which specific form of SCID is caused by a defect in the VDJ recombination process, resulting in a T-negative, B-negative phenotype?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Rag 1 and Rag 2 deficiency.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Adenosine deaminase (ADA) deficiency.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Common gamma chain receptor defect.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Jack 3 deficiency.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Recombination-activating genes (RAG) are essential for the assembly of both T-cell and B-cell receptor genes, so their absence affects both lineages.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:24.032Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1f545fef9f235ac5bd55",
+  "rationale": "Look for the genes responsible for physically cutting and joining DNA fragments to create antigen receptors.",
+  "optionExplanations": {
+    "A": "Recombination-activating genes (RAG) are essential for the assembly of both T-cell and B-cell receptor genes, so their absence affects both lineages.",
+    "B": "ADA deficiency involves a toxic metabolite buildup that affects T, B, and NK cells, but it is an enzymatic defect rather than a VDJ recombination defect.",
+    "C": "This X-linked defect affects cytokine signaling required for T and NK cell development, but usually leaves B-cells present (though non-functional).",
+    "D": "Jack 3 is involved in post-receptor signaling; it results in a T-negative, NK-negative phenotype, but B-cells are typically present."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the genes responsible for physically cutting and joining DNA fragments to create antigen receptors.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

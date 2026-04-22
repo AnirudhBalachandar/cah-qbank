@@ -1,0 +1,69 @@
+{
+  "id": "8baa1dc8-fe11-49d7-8503-60a2cc2c461d",
+  "stem": "A patient experiences pain from a stimulus that does not normally evoke pain, such as the light touch of a bedsheet. What is the correct term for this?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hyperalgesia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Dysesthesia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Nociception",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Allodynia",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Allodynia is defined specifically as pain caused by a stimulus that is typically non-painful, such as light touch.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:25.780Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-efbcdc7f9336e174274c",
+  "rationale": "This term describes a crossover where a 'normal' sensation is misinterpreted as painful.",
+  "optionExplanations": {
+    "A": "Hyperalgesia refers to an increased or exaggerated response to a stimulus that is already normally painful.",
+    "B": "Dysesthesia refers to spontaneous or evoked unpleasant abnormal sensations, but not specifically pain from non-painful stimuli.",
+    "C": "Nociception is the physiological process of encoding noxious stimuli, not the clinical descriptor for this specific abnormal sensitivity.",
+    "D": "Allodynia is defined specifically as pain caused by a stimulus that is typically non-painful, such as light touch."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This term describes a crossover where a 'normal' sensation is misinterpreted as painful.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "questionIndex": 4,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

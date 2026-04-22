@@ -1,0 +1,69 @@
+{
+  "id": "f8f23402-0789-4508-9406-6b3d838254b5",
+  "stem": "Which imaging technique is considered necessary if a child's blood pressure is extremely high and requires three or more agents to control?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Formal angiogram",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Routine renal Doppler ultrasound",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Standard chest X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Baseline echocardiogram",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A formal angiogram may be required because standard renal Doppler ultrasounds can miss certain types of renal artery stenosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:27.153Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c82869f001a80585a600",
+  "rationale": "This procedure is the gold standard for identifying complex vascular issues like renal artery stenosis.",
+  "optionExplanations": {
+    "A": "A formal angiogram may be required because standard renal Doppler ultrasounds can miss certain types of renal artery stenosis.",
+    "B": "While a common first step, it is not definitive enough for severe, treatment-resistant cases due to its potential to miss stenosis.",
+    "C": "Chest X-rays are not used to diagnose the specific vascular causes of resistant hypertension described in the material.",
+    "D": "An echo is used to check for end-organ damage (LVH), but not for the primary vascular investigation of the renal arteries."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This procedure is the gold standard for identifying complex vascular issues like renal artery stenosis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

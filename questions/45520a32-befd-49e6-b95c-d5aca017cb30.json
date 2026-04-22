@@ -1,0 +1,69 @@
+{
+  "id": "45520a32-befd-49e6-b95c-d5aca017cb30",
+  "stem": "In the Ages and Stages Questionnaire (ASQ-3), what does a score falling in the 'black area' signify?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child is developing typically.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The child should be monitored and rescreened in a few months.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The child is at risk and should be referred for further assessment.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The results are invalid due to parental reporting bias.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The black area represents scores two standard deviations below the mean, indicating a high probability of delay.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+      "title": "00055 Developmental Delay-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:29.898Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-00743b248cee428ebc2b",
+  "rationale": "Think of the color coding as a traffic light where black is the most urgent signal.",
+  "optionExplanations": {
+    "A": "Typical development is represented by scores falling in the white area of the graph.",
+    "B": "Monitoring is recommended for scores in the gray area, indicating a borderline result.",
+    "C": "The black area represents scores two standard deviations below the mean, indicating a high probability of delay.",
+    "D": "While parent reporting has challenges, the black area is a valid indicator of risk within the tool's framework."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the color coding as a traffic light where black is the most urgent signal.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "55",
+    "lectureTitle": "00055 Developmental Delay-s1-low.mp4",
+    "questionIndex": 7,
+    "quizFileName": "quiz_055.json",
+    "quizTitle": "Development Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2fe3e388-3c7b-4ce4-b2c8-2010baf3ee20",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

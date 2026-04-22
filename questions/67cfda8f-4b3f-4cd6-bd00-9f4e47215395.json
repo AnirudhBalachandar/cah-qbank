@@ -1,0 +1,69 @@
+{
+  "id": "67cfda8f-4b3f-4cd6-bd00-9f4e47215395",
+  "stem": "In a 3-week-old breastfed infant presenting with loose, frothy stools but normal growth, what is the most likely underlying cause of their symptoms?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Relative lactose malabsorption due to milk oversupply",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Congenital lactase deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Primary lactase deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Secondary lactase deficiency from gastroenteritis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An oversupply of breast milk can lead to a high intake of carbohydrate-rich foremilk, which can overwhelm the infant's digestive capacity if not balanced by fat-rich hindmilk.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.537Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0ab455e78a52970b0783",
+  "rationale": "Consider how the balance of different types of milk during a single feed affects digestion.",
+  "optionExplanations": {
+    "A": "An oversupply of breast milk can lead to a high intake of carbohydrate-rich foremilk, which can overwhelm the infant's digestive capacity if not balanced by fat-rich hindmilk.",
+    "B": "This condition is exceptionally rare and typically presents with severe failure to thrive from birth, which contradicts the baby's reported good growth.",
+    "C": "This form of deficiency is the most common overall but typically does not develop until after 2 years of age.",
+    "D": "While common in infancy, this usually follows a specific injury to the small bowel, such as an infection, which is not indicated by a 'settled' baby growing well."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how the balance of different types of milk during a single feed affects digestion.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "questionIndex": 1,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

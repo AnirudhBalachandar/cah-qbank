@@ -1,0 +1,69 @@
+{
+  "id": "2bf94879-1d55-4dde-89a8-0da50f9ed588",
+  "stem": "Which specific gastrointestinal infections are mentioned as potential causes of small bowel injury that leads to secondary lactase deficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Giardia or Cryptosporidium",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Helicobacter pylori",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Salmonella or E. coli",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Rotavirus only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "These parasitic infections can damage the small bowel brush border where lactase is produced.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.734Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2c952684193690b7c879",
+  "rationale": "The material lists two specific parasites that may require screening.",
+  "optionExplanations": {
+    "A": "These parasitic infections can damage the small bowel brush border where lactase is produced.",
+    "B": "This bacterium primarily affects the stomach and is not cited in the text as a cause of small bowel brush border injury.",
+    "C": "While these cause gastroenteritis, the source specifically highlights Giardia and Cryptosporidium as causes to look for when investigating small bowel injury.",
+    "D": "While viral gastroenteritis is a cause, the text specifically lists parasites like Giardia and Cryptosporidium for screening."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The material lists two specific parasites that may require screening.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

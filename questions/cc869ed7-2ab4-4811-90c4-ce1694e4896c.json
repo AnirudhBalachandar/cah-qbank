@@ -1,0 +1,69 @@
+{
+  "id": "cc869ed7-2ab4-4811-90c4-ce1694e4896c",
+  "stem": "What Apnea Hypopnea Index (AHI) score on a sleep study is used to define severe obstructive sleep apnea in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "AHI of $1$ to $4$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "AHI of $5$ to $9$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "AHI greater than $10$",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "AHI greater than $30$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In pediatric medicine, an AHI exceeding 10 events per hour is categorized as severe obstructive sleep apnea.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+      "title": "00004 ENT the throat-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Unclassified",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T09:12:17.084Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77f94c0b3a2b48a0ad22",
+  "rationale": "The threshold for 'severe' in children is lower than in adults; think of a double-digit number.",
+  "optionExplanations": {
+    "A": "This range is used to classify mild sleep apnea in the pediatric population.",
+    "B": "While this represents moderate apnea, it does not meet the threshold for the 'severe' classification.",
+    "C": "In pediatric medicine, an AHI exceeding 10 events per hour is categorized as severe obstructive sleep apnea.",
+    "D": "This threshold is sometimes used in adult medicine, but pediatric criteria are much stricter, with severe apnea starting at a lower count."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ddd54cb8-21b2-4984-be84-db99e17c059d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The threshold for 'severe' in children is lower than in adults; think of a double-digit number.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "4",
+    "lectureTitle": "00004 ENT the throat-s1-low.mp4",
+    "questionIndex": 9,
+    "quizFileName": "quiz_004.json",
+    "quizTitle": "Throat Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e60d347c-5b08-437d-97c1-f33d7aab798e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip"
+  }
+}

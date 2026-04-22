@@ -131,6 +131,8 @@ The generation boundary in v2 is:
 - validation checks JSON
 - `pnpm sync-db` materializes that JSON into SQLite
 
+After generation or promotion, rerun `pnpm validate:questions` and `pnpm sync-db`.
+
 Do not let generation write directly into `cah.db`.
 
 The repo-level generation command exists now:
@@ -139,6 +141,7 @@ The repo-level generation command exists now:
 pnpm generate help
 pnpm generate enqueue --source /absolute/path/to/source.pdf --count 10 --tags "general-paediatrics/respiratory,bronchiolitis"
 pnpm generate worker
+pnpm generate promote --id <draft-question-id> [--reviewed-by <name>]
 ```
 
 Operational prerequisites:
@@ -152,10 +155,14 @@ Operational prerequisites:
 
 Current behavior notes:
 
-- generated output is draft-only
+- worker output lands in `drafts/` as `createdBy: "ai"` and `status: "draft"`
+- reviewed AI drafts can be promoted with `pnpm generate promote --id <draft-question-id>`
+- `generate promote` defaults `reviewedBy` from `--reviewed-by`, `CAH_REVIEWED_BY`, or the local OS username
+- promoted AI records keep `createdBy: "ai"` and add `source.review` metadata
 - the sourced-file generation path is currently SBA-only
 - generated drafts are written to `drafts/`
 - queue state lives in `tools/generate/jobs.db`
+- generated citations must point to the source filename and include either a page or a section-title locator
 
 ## Safe cutover guidance
 

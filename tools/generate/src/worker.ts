@@ -6,12 +6,13 @@ import { normalizeTagSlug, questionSchema, type GeneratedQuestionContent } from 
 
 import { createDraftGenerator, type DraftGenerator } from "./openai-client.js"
 import { buildSourceExcerpt, extractSourceText } from "./source.js"
-import { claimQueuedJobs, defaultJobsDbPath, ensureJobsDatabase, markJobDone, markJobFailed } from "./storage.js"
+import { claimQueuedJobs, defaultJobsDbPath, ensureJobsDatabase, markJobDone, markJobFailed, touchClaimedJobs } from "./storage.js"
 import { jobInputSchema, type JobOutput, type JobRecord } from "./types.js"
 
 type ProcessJobParams = {
   job: JobRecord
   repoRoot: string
+  workerId: string
   dbPath?: string
   generator?: DraftGenerator
 }
@@ -67,16 +68,6 @@ function buildSourceFingerprint({
   return `generate-${digest}`
 }
 
-function normalizeGeneratedCitations(question: GeneratedQuestionContent) {
-  return question.citations.map((citation) => ({
-    type: citation.type,
-    ...(citation.source !== null ? { source: citation.source } : {}),
-    ...(citation.page !== null ? { page: citation.page } : {}),
-    ...(citation.url !== null ? { url: citation.url } : {}),
-    ...(citation.title !== null ? { title: citation.title } : {}),
-  }))
-}
-
 function normalizeOptionExplanations(question: GeneratedQuestionContent) {
   return Object.fromEntries(
     Object.entries(question.why_others_wrong).filter((entry): entry is [string, string] => entry[1] !== null),
@@ -86,14 +77,20 @@ function normalizeOptionExplanations(question: GeneratedQuestionContent) {
 export async function processJob({
   job,
   repoRoot,
+  workerId,
   dbPath = defaultJobsDbPath(repoRoot),
   generator = createDraftGenerator(),
 }: ProcessJobParams): Promise<ProcessedJob> {
   const input = jobInputSchema.parse(job.input)
   const sourceText = await extractSourceText(input.sourcePath)
-  const sourceExcerpt = buildSourceExcerpt(sourceText)
+  const sourceExcerpt = buildSourceExcerpt(sourceText, {
+    ordinal: input.ordinal,
+    total: input.total,
+  })
+  const sourceFileName = path.basename(input.sourcePath)
+  const sourceLabel = sourceExcerpt.truncated ? `Excerpt ${input.ordinal}/${input.total}` : "Full source"
 
-  if (!sourceExcerpt) {
+  if (!sourceExcerpt.text) {
     throw new Error(`Source produced no readable text: ${input.sourcePath}`)
   }
 
@@ -103,10 +100,11 @@ export async function processJob({
     total: input.total,
     requestedTags: input.tags,
     sourcePath: input.sourcePath,
-    sourceExcerpt,
+    sourceLabel,
+    sourceExcerpt: sourceExcerpt.text,
   })
 
-  const questionId = randomUUID()
+  const questionId = job.id
   const createdAt = new Date().toISOString()
   const mergedTags = mergeTags(input.tags, generated.tags)
 
@@ -116,7 +114,19 @@ export async function processJob({
     questionType: generated.questionType,
     options: generated.options,
     explanation: generated.explanation,
-    citations: normalizeGeneratedCitations(generated),
+    citations: generated.citations.map((citation) => {
+      const citationSource = path.basename(citation.source)
+      if (citationSource !== sourceFileName) {
+        throw new Error(`Generated citation source must be ${sourceFileName} but found ${citation.source}`)
+      }
+
+      return {
+        type: citation.type,
+        source: citationSource,
+        ...(citation.page !== null ? { page: citation.page } : {}),
+        ...(citation.title !== null ? { title: citation.title } : {}),
+      }
+    }),
     tags: mergedTags,
     curriculum: generated.curriculum,
     status: "draft",
@@ -125,7 +135,7 @@ export async function processJob({
     sourceFingerprint: buildSourceFingerprint({
       batch: job.batch,
       sourcePath: input.sourcePath,
-      sourceExcerpt,
+      sourceExcerpt: sourceExcerpt.text,
       question: generated,
     }),
     rationale: generated.key_takeaways.join("; "),
@@ -141,24 +151,40 @@ export async function processJob({
       model: process.env.OPENAI_MODEL ?? "gpt-5.4-mini",
       requestedTags: input.tags,
       rawGeneratedTags: generated.tags,
+      excerptWindow: {
+        start: sourceExcerpt.start,
+        end: sourceExcerpt.end,
+        truncated: sourceExcerpt.truncated,
+        ordinal: input.ordinal,
+        total: input.total,
+        label: sourceLabel,
+      },
     },
   })
 
   const draftsDir = path.join(repoRoot, "drafts")
   await fs.mkdir(draftsDir, { recursive: true })
   const draftPath = path.join(draftsDir, `${questionId}.json`)
-  await fs.writeFile(draftPath, `${JSON.stringify(draftQuestion, null, 2)}\n`, "utf8")
+  const tempDraftPath = `${draftPath}.tmp-${workerId}`
+  await fs.writeFile(tempDraftPath, `${JSON.stringify(draftQuestion, null, 2)}\n`, "utf8")
 
   const output: JobOutput = {
     questionId,
     draftPath,
     model: process.env.OPENAI_MODEL ?? "gpt-5.4-mini",
   }
-  markJobDone({
+  const markedDone = markJobDone({
     dbPath,
     jobId: job.id,
+    workerId,
     output,
   })
+  if (!markedDone) {
+    await fs.rm(tempDraftPath, { force: true })
+    throw new Error(`Lost ownership of generate job ${job.id} before completion.`)
+  }
+
+  await fs.rename(tempDraftPath, draftPath)
 
   return {
     jobId: job.id,
@@ -175,23 +201,46 @@ export async function runWorker({
   ensureJobsDatabase(dbPath)
 
   const workerConcurrency = Number.isFinite(concurrency) && concurrency > 0 ? Math.floor(concurrency) : 3
+  const workerId = randomUUID()
   let done = 0
   let failed = 0
 
   while (true) {
-    const jobs = claimQueuedJobs(workerConcurrency, dbPath)
+    const jobs = claimQueuedJobs({
+      limit: workerConcurrency,
+      dbPath,
+      workerId,
+    })
     if (jobs.length === 0) break
 
-    const results = await Promise.allSettled(
-      jobs.map((job) =>
-        processJob({
-          job,
-          repoRoot,
+    const heartbeat = setInterval(() => {
+      try {
+        touchClaimedJobs({
           dbPath,
-          generator,
-        }),
-      ),
-    )
+          jobIds: jobs.map((job) => job.id),
+          workerId,
+        })
+      } catch {
+        // Heartbeat is best-effort; ownership checks still protect terminal writes.
+      }
+    }, 30_000)
+
+    let results: PromiseSettledResult<ProcessedJob>[]
+    try {
+      results = await Promise.allSettled(
+        jobs.map((job) =>
+          processJob({
+            job,
+            repoRoot,
+            workerId,
+            dbPath,
+            generator,
+          }),
+        ),
+      )
+    } finally {
+      clearInterval(heartbeat)
+    }
 
     for (const [index, result] of results.entries()) {
       const job = jobs[index]
@@ -205,6 +254,7 @@ export async function runWorker({
       markJobFailed({
         dbPath,
         jobId: job.id,
+        workerId,
         error: result.reason instanceof Error ? result.reason.stack ?? result.reason.message : String(result.reason),
       })
     }

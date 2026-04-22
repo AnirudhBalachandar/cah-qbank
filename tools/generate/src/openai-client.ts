@@ -1,5 +1,6 @@
 import OpenAI from "openai"
 import { zodTextFormat } from "openai/helpers/zod"
+import path from "node:path"
 
 import { generatedQuestionContentSchema, type GeneratedQuestionContent } from "@cah/domain"
 
@@ -9,6 +10,7 @@ type GenerateDraftRequest = {
   total: number
   requestedTags: string[]
   sourcePath: string
+  sourceLabel: string
   sourceExcerpt: string
 }
 
@@ -44,10 +46,12 @@ export function createDraftGenerator(client = getOpenAIClient()): DraftGenerator
     total,
     requestedTags,
     sourcePath,
+    sourceLabel,
     sourceExcerpt,
   }) {
     const model = process.env.OPENAI_MODEL ?? "gpt-5.4-mini"
     const tagLine = requestedTags.length > 0 ? requestedTags.join(", ") : "(none requested)"
+    const sourceFileName = path.basename(sourcePath)
 
     const response = await client.responses.parse({
       model,
@@ -64,6 +68,10 @@ export function createDraftGenerator(client = getOpenAIClient()): DraftGenerator
                 "Generate exactly one SBA question with options A-E and exactly one best answer.",
                 "Keep it education-only and not medical advice.",
                 "Use internal citations only, pointing back to the supplied source file.",
+                "Every citation.source must be the exact source filename.",
+                "Every citation.url must be null.",
+                "Every citation must include either page or title.",
+                "If the excerpt has no explicit page number, set citation.title to the assigned source window label exactly.",
                 "Difficulty must be Intermediate or Hard.",
                 "If the source is too thin, stay narrow rather than adding detail.",
               ].join(" "),
@@ -79,7 +87,9 @@ export function createDraftGenerator(client = getOpenAIClient()): DraftGenerator
                 `Batch: ${batch}`,
                 `Job: ${ordinal} of ${total}`,
                 `Requested tags: ${tagLine}`,
-                `Source path: ${sourcePath}`,
+                `Source file: ${sourceFileName}`,
+                `Required citation.source: ${sourceFileName}`,
+                `Required citation.title fallback: ${sourceLabel}`,
                 "Allowed curriculum values:",
                 "- General Paediatrics",
                 "- Paediatric Sub-specialties",

@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 
 import fs from "node:fs"
+import os from "node:os"
 import path from "node:path"
 import { fileURLToPath, pathToFileURL } from "node:url"
 
+import { promoteDraft } from "./publish.js"
 import { defaultJobsDbPath, enqueueJobs, ensureJobsDatabase, getJobCounts } from "./storage.js"
 import { runWorker } from "./worker.js"
 
 type Command =
   | { kind: "enqueue"; source: string; count: number; tags: string[] }
   | { kind: "worker" }
+  | { kind: "promote"; id: string; reviewedBy: string }
   | { kind: "help" }
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url))
@@ -55,6 +58,17 @@ export function parseCommand(argv: string[]): Command {
     return { kind: "worker" }
   }
 
+  if (first === "promote") {
+    const id = getFlagValue(argv, "--id")
+    if (!id) {
+      throw new Error("Missing required flag: --id")
+    }
+
+    const reviewedBy = getFlagValue(argv, "--reviewed-by") ?? process.env.CAH_REVIEWED_BY ?? os.userInfo().username
+
+    return { kind: "promote", id, reviewedBy }
+  }
+
   if (first === "enqueue") {
     const source = getFlagValue(argv, "--source")
     const countRaw = getFlagValue(argv, "--count")
@@ -81,7 +95,8 @@ export function parseCommand(argv: string[]): Command {
 function printHelp() {
   console.log(`Usage:
   generate enqueue --source path/to/file.pdf --count 10 --tags "neonatal,respiratory"
-  generate worker`)
+  generate worker
+  generate promote --id <question-id> [--reviewed-by <name>]`)
 }
 
 async function handleEnqueue(command: Extract<Command, { kind: "enqueue" }>) {
@@ -142,6 +157,25 @@ async function handleWorker() {
   )
 }
 
+async function handlePromote(command: Extract<Command, { kind: "promote" }>) {
+  const result = await promoteDraft({
+    repoRoot,
+    id: command.id,
+    reviewedBy: command.reviewedBy,
+  })
+
+  console.log(
+    JSON.stringify(
+      {
+        status: "promoted",
+        ...result,
+      },
+      null,
+      2,
+    ),
+  )
+}
+
 export async function main(argv = process.argv.slice(2)) {
   loadEnvironment()
   const command = parseCommand(argv)
@@ -152,6 +186,9 @@ export async function main(argv = process.argv.slice(2)) {
       return
     case "worker":
       await handleWorker()
+      return
+    case "promote":
+      await handlePromote(command)
       return
     case "help":
       printHelp()

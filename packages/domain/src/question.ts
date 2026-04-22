@@ -33,11 +33,21 @@ export const citationSchema = z.object({
 
 export const generatedCitationSchema = z.object({
   type: z.literal("internal"),
-  source: z.string().nullable(),
+  source: z.string().min(1),
   page: z.number().int().nonnegative().nullable(),
-  url: z.string().url().nullable(),
+  url: z.null(),
   title: z.string().nullable(),
 })
+  .superRefine((citation, ctx) => {
+    const hasLocator = citation.page !== null || (citation.title !== null && citation.title.trim().length > 0)
+    if (!hasLocator) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["title"],
+        message: "generated citations must include either a page or a section title.",
+      })
+    }
+  })
 
 export const generatedOptionSchema = z.object({
   key: generatedOptionKeySchema,
@@ -133,11 +143,21 @@ export const questionSchema = z
     source: z.record(z.unknown()).default({}).optional(),
   })
   .superRefine((question, ctx) => {
-    if (question.createdBy === "ai" && question.status !== "draft") {
+    const review =
+      typeof question.source?.review === "object" && question.source?.review !== null
+        ? (question.source.review as Record<string, unknown>)
+        : null
+    const hasPublishReview =
+      review?.decision === "publish" &&
+      typeof review.reviewedAt === "string" &&
+      typeof review.reviewedBy === "string" &&
+      review.reviewedBy.length > 0
+
+    if (question.createdBy === "ai" && question.status === "published" && !hasPublishReview) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
-        path: ["status"],
-        message: "AI-generated questions must remain draft until manually published.",
+        path: ["source", "review"],
+        message: "Published AI-generated questions require explicit review metadata.",
       })
     }
   })

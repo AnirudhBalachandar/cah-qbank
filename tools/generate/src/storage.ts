@@ -12,6 +12,8 @@ type JobRow = {
   input: string
   output: string | null
   error: string | null
+  workerId?: string | null
+  startedAt?: string | null
   createdAt: string
   updatedAt: string
 }
@@ -40,6 +42,8 @@ CREATE TABLE IF NOT EXISTS jobs (
   input TEXT NOT NULL,
   output TEXT,
   error TEXT,
+  workerId TEXT,
+  startedAt TEXT,
   createdAt TEXT NOT NULL,
   updatedAt TEXT NOT NULL
 );
@@ -86,6 +90,13 @@ export function defaultJobsDbPath(repoRoot: string) {
 
 export function ensureJobsDatabase(dbPath: string) {
   executeSql(dbPath, schemaSql)
+  const columns = new Set(queryJson<Array<{ name: string }>[number]>(dbPath, "PRAGMA table_info(jobs);").map((row) => row.name))
+  if (!columns.has("workerId")) {
+    executeSql(dbPath, "ALTER TABLE jobs ADD COLUMN workerId TEXT;")
+  }
+  if (!columns.has("startedAt")) {
+    executeSql(dbPath, "ALTER TABLE jobs ADD COLUMN startedAt TEXT;")
+  }
 }
 
 export function enqueueJobs({
@@ -141,89 +152,148 @@ export function enqueueJobs({
   return created
 }
 
-export function claimQueuedJobs(limit: number, dbPath: string) {
+export function claimQueuedJobs({
+  limit,
+  dbPath,
+  workerId,
+  staleAfterMs = 15 * 60_000,
+}: {
+  limit: number
+  dbPath: string
+  workerId: string
+  staleAfterMs?: number
+}) {
   ensureJobsDatabase(dbPath)
+  const claimedAt = new Date().toISOString()
+  const staleCutoff = new Date(Date.now() - staleAfterMs).toISOString()
+  executeSql(
+    dbPath,
+    `
+    BEGIN IMMEDIATE;
+    UPDATE jobs
+    SET status = 'queued',
+        workerId = NULL,
+        startedAt = NULL,
+        updatedAt = ${sqlQuote(claimedAt)}
+    WHERE status = 'running'
+      AND updatedAt < ${sqlQuote(staleCutoff)};
+
+    WITH picked AS (
+      SELECT id
+      FROM jobs
+      WHERE status = 'queued'
+      ORDER BY createdAt ASC
+      LIMIT ${Math.max(1, limit)}
+    )
+    UPDATE jobs
+    SET status = 'running',
+        workerId = ${sqlQuote(workerId)},
+        startedAt = ${sqlQuote(claimedAt)},
+        updatedAt = ${sqlQuote(claimedAt)}
+    WHERE id IN (SELECT id FROM picked);
+    COMMIT;
+    `,
+  )
   const rows = queryJson<JobRow>(
     dbPath,
     `
     SELECT id, status, batch, input, output, error, createdAt, updatedAt
     FROM jobs
-    WHERE status = 'queued'
-    ORDER BY createdAt ASC
-    LIMIT ${Math.max(1, limit)};
+    WHERE status = 'running'
+      AND workerId = ${sqlQuote(workerId)}
+      AND startedAt = ${sqlQuote(claimedAt)}
+    ORDER BY createdAt ASC;
     `,
   )
-  const claimed: JobRecord[] = []
 
-  for (const row of rows) {
-    const updatedAt = new Date().toISOString()
-    executeSql(
-      dbPath,
-      `
-      UPDATE jobs
-      SET status = 'running', updatedAt = ${sqlQuote(updatedAt)}
-      WHERE id = ${sqlQuote(row.id)} AND status = 'queued';
-      `,
-    )
-
-    const refreshed = queryJson<JobRow>(
-      dbPath,
-      `
-      SELECT id, status, batch, input, output, error, createdAt, updatedAt
-      FROM jobs
-      WHERE id = ${sqlQuote(row.id)};
-      `,
-    )[0]
-
-    if (!refreshed || refreshed.status !== "running") continue
-    claimed.push(parseJobRow(refreshed))
-  }
-
-  return claimed
+  return rows.map(parseJobRow)
 }
 
 export function markJobDone({
   dbPath,
   jobId,
+  workerId,
   output,
 }: {
   dbPath: string
   jobId: string
+  workerId: string
   output: JobOutput
 }) {
   ensureJobsDatabase(dbPath)
-  executeSql(
+  const rows = queryJson<Array<{ changes: number }>[number]>(
     dbPath,
     `
     UPDATE jobs
     SET status = 'done',
         output = ${sqlQuote(JSON.stringify(jobOutputSchema.parse(output)))},
         error = NULL,
+        workerId = NULL,
+        startedAt = NULL,
         updatedAt = ${sqlQuote(new Date().toISOString())}
-    WHERE id = ${sqlQuote(jobId)};
+    WHERE id = ${sqlQuote(jobId)}
+      AND status = 'running'
+      AND workerId = ${sqlQuote(workerId)};
+    SELECT changes() AS changes;
     `,
   )
+
+  return (rows[0]?.changes ?? 0) > 0
 }
 
 export function markJobFailed({
   dbPath,
   jobId,
+  workerId,
   error,
 }: {
   dbPath: string
   jobId: string
+  workerId: string
   error: string
 }) {
   ensureJobsDatabase(dbPath)
-  executeSql(
+  const rows = queryJson<Array<{ changes: number }>[number]>(
     dbPath,
     `
     UPDATE jobs
     SET status = 'failed',
         error = ${sqlQuote(error)},
         output = NULL,
+        workerId = NULL,
+        startedAt = NULL,
         updatedAt = ${sqlQuote(new Date().toISOString())}
-    WHERE id = ${sqlQuote(jobId)};
+    WHERE id = ${sqlQuote(jobId)}
+      AND status = 'running'
+      AND workerId = ${sqlQuote(workerId)};
+    SELECT changes() AS changes;
+    `,
+  )
+
+  return (rows[0]?.changes ?? 0) > 0
+}
+
+export function touchClaimedJobs({
+  dbPath,
+  jobIds,
+  workerId,
+}: {
+  dbPath: string
+  jobIds: string[]
+  workerId: string
+}) {
+  if (jobIds.length === 0) return
+
+  ensureJobsDatabase(dbPath)
+  const quotedIds = jobIds.map((jobId) => sqlQuote(jobId)).join(", ")
+  executeSql(
+    dbPath,
+    `
+    UPDATE jobs
+    SET updatedAt = ${sqlQuote(new Date().toISOString())}
+    WHERE status = 'running'
+      AND workerId = ${sqlQuote(workerId)}
+      AND id IN (${quotedIds});
     `,
   )
 }

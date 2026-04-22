@@ -106,7 +106,7 @@ The v2 contract is JSON-first even for generated content.
 
 - Generated output should land as schema-valid JSON files, normally in `drafts/` first.
 - Generation should not write directly into SQLite.
-- After generation, run `pnpm validate:questions` and `pnpm sync-db`.
+- After generation or promotion, run `pnpm validate:questions` and `pnpm sync-db`.
 
 The repo does expose a generation command:
 
@@ -114,6 +114,7 @@ The repo does expose a generation command:
 pnpm generate help
 pnpm generate enqueue --source /absolute/path/to/source.pdf --count 10 --tags "general-paediatrics/respiratory,bronchiolitis"
 pnpm generate worker
+pnpm generate promote --id <draft-question-id> [--reviewed-by <name>]
 ```
 
 Generation prerequisites:
@@ -126,10 +127,14 @@ Generation prerequisites:
 
 Current generation rules:
 
-- generated items are draft-only
+- worker output lands in `drafts/` as `createdBy: "ai"` and `status: "draft"`
+- reviewed AI drafts can be promoted with `pnpm generate promote --id <draft-question-id>`
+- `generate promote` defaults `reviewedBy` from `--reviewed-by`, `CAH_REVIEWED_BY`, or the local OS username
+- promoted AI records keep `createdBy: "ai"` and add `source.review` metadata
 - the current sourced-file path is SBA-only
 - sourced generation expects `Intermediate` or `Hard` difficulty
 - internal citations only are allowed in the generated payload
+- generated citations must point to the source filename and include either a page or a section-title locator
 
 ## Local-only state
 

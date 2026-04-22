@@ -40,6 +40,7 @@ pnpm cah serve
 pnpm cah stop
 pnpm cah db backup
 pnpm generate help
+pnpm generate doctor
 ```
 
 Before `pnpm dev` on a fresh checkout:
@@ -113,6 +114,7 @@ The repo does expose a generation command:
 
 ```bash
 pnpm generate help
+pnpm generate doctor
 pnpm generate enqueue --source /absolute/path/to/source.pdf --count 10 --tags "general-paediatrics/respiratory,bronchiolitis"
 pnpm generate worker
 pnpm generate promote --id <draft-question-id> [--reviewed-by <name>]
@@ -124,10 +126,12 @@ Generation prerequisites:
 - OpenAI mode requires `OPENAI_API_KEY`
 - OpenRouter mode requires `OPENROUTER_API_KEY`
 - optional overrides: `GENERATE_MODEL`, `OPENAI_MODEL`, `OPENROUTER_MODEL`, `GENERATE_CONCURRENCY`
+- retry tuning: `GENERATE_RETRY_LIMIT`, `GENERATE_RETRY_BASE_DELAY_MS`
 - OpenRouter defaults to `google/gemma-4-31b-it:free`
 - `sqlite3` must be available for the jobs queue at `tools/generate/jobs.db`
 - `textutil` is used for `.doc`, `.docx`, and `.rtf`
 - `pdftotext` is used for `.pdf`
+- generation-related values from the repo root `.env` override stale exported shell values
 
 Suggested root `.env` for OpenRouter and OpenAI:
 
@@ -136,6 +140,8 @@ GENERATE_API_PROVIDER=openrouter
 OPENAI_API_KEY=sk-openai-your-key-here
 OPENROUTER_API_KEY=sk-or-your-key-here
 OPENROUTER_MODEL=google/gemma-4-31b-it:free
+# Optional stable review attribution for generate promote:
+# CAH_REVIEWED_BY=local-admin
 # Optional if you want to override the OpenAI default:
 # OPENAI_MODEL=gpt-5.4-mini
 # Optional:
@@ -153,6 +159,23 @@ Current generation rules:
 - sourced generation expects `Intermediate` or `Hard` difficulty
 - internal citations only are allowed in the generated payload
 - generated citations must point to the source filename and include either a page or a section-title locator
+- transient provider failures are retried with exponential backoff
+
+Helpful operator command:
+
+```bash
+pnpm generate doctor
+```
+
+Practical reviewed-publish loop:
+
+```bash
+pnpm generate worker
+# inspect drafts/<id>.json
+pnpm generate promote --id <draft-question-id>
+pnpm validate:questions
+pnpm sync-db
+```
 
 ## Local-only state
 

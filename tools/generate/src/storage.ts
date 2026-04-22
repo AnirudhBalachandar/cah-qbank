@@ -49,6 +49,7 @@ CREATE TABLE IF NOT EXISTS jobs (
 );
 CREATE INDEX IF NOT EXISTS jobs_status_created_idx ON jobs(status, createdAt);
 `
+const sqliteTimeoutArgs = ["-cmd", ".timeout 5000"]
 
 function sqlQuote(value: string | null) {
   if (value === null) return "NULL"
@@ -57,14 +58,14 @@ function sqlQuote(value: string | null) {
 
 function executeSql(dbPath: string, sql: string) {
   fs.mkdirSync(path.dirname(dbPath), { recursive: true })
-  return execFileSync("sqlite3", [dbPath, sql], {
+  return execFileSync("sqlite3", [...sqliteTimeoutArgs, dbPath, sql], {
     encoding: "utf8",
   })
 }
 
 function queryJson<T>(dbPath: string, sql: string) {
   fs.mkdirSync(path.dirname(dbPath), { recursive: true })
-  const output = execFileSync("sqlite3", ["-json", dbPath, sql], {
+  const output = execFileSync("sqlite3", ["-json", ...sqliteTimeoutArgs, dbPath, sql], {
     encoding: "utf8",
   }).trim()
   if (!output) return [] as T[]
@@ -90,6 +91,7 @@ export function defaultJobsDbPath(repoRoot: string) {
 
 export function ensureJobsDatabase(dbPath: string) {
   executeSql(dbPath, schemaSql)
+  executeSql(dbPath, "PRAGMA journal_mode=WAL;")
   const columns = new Set(queryJson<Array<{ name: string }>[number]>(dbPath, "PRAGMA table_info(jobs);").map((row) => row.name))
   if (!columns.has("workerId")) {
     executeSql(dbPath, "ALTER TABLE jobs ADD COLUMN workerId TEXT;")

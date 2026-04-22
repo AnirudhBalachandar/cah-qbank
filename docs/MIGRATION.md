@@ -139,6 +139,7 @@ The repo-level generation command exists now:
 
 ```bash
 pnpm generate help
+pnpm generate doctor
 pnpm generate enqueue --source /absolute/path/to/source.pdf --count 10 --tags "general-paediatrics/respiratory,bronchiolitis"
 pnpm generate worker
 pnpm generate promote --id <draft-question-id> [--reviewed-by <name>]
@@ -150,11 +151,13 @@ Operational prerequisites:
 - OpenAI mode requires `OPENAI_API_KEY`
 - OpenRouter mode requires `OPENROUTER_API_KEY`
 - optional `GENERATE_MODEL`, `OPENAI_MODEL`, `OPENROUTER_MODEL`
-- OpenRouter defaults to `google/gemma-4-31b-it:free`
 - optional `GENERATE_CONCURRENCY`
+- retry tuning: `GENERATE_RETRY_LIMIT`, `GENERATE_RETRY_BASE_DELAY_MS`
+- OpenRouter defaults to `google/gemma-4-31b-it:free`
 - `sqlite3` for `tools/generate/jobs.db`
 - `textutil` for `.doc`, `.docx`, `.rtf`
 - `pdftotext` for `.pdf`
+- generation-related values from the repo root `.env` override stale exported shell values
 
 Current behavior notes:
 
@@ -166,6 +169,16 @@ Current behavior notes:
 - generated drafts are written to `drafts/`
 - queue state lives in `tools/generate/jobs.db`
 - generated citations must point to the source filename and include either a page or a section-title locator
+
+Practical reviewed-publish loop:
+
+```bash
+pnpm generate worker
+# inspect drafts/<id>.json
+pnpm generate promote --id <draft-question-id>
+pnpm validate:questions
+pnpm sync-db
+```
 
 ## Safe cutover guidance
 

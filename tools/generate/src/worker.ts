@@ -75,6 +75,18 @@ function normalizeOptionExplanations(question: GeneratedQuestionContent) {
   )
 }
 
+function normalizeNullableGeneratedText(value: string | null) {
+  if (value === null) return null
+
+  const normalized = value.trim()
+  if (!normalized) return null
+  if (["null", ":null", "n/a", "none", "nil"].includes(normalized.toLowerCase())) {
+    return null
+  }
+
+  return normalized
+}
+
 export async function processJob({
   job,
   repoRoot,
@@ -141,7 +153,7 @@ export async function processJob({
     }),
     rationale: generated.key_takeaways.join("; "),
     optionExplanations: normalizeOptionExplanations(generated),
-    moduleCode: generated.moduleCode ?? null,
+    moduleCode: normalizeNullableGeneratedText(generated.moduleCode),
     difficulty: generated.difficulty ?? null,
     ausScore: generated.ausScore ?? null,
     source: {

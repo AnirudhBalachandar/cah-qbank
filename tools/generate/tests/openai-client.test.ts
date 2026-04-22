@@ -98,4 +98,102 @@ describe("createDraftGenerator", () => {
     expect(called).toBe(true)
     expect(result.citations[0]?.source).toBe("source.txt")
   })
+
+  it("retries retryable provider errors before succeeding", async () => {
+    const attempts: number[] = []
+    const originalRetryLimit = process.env.GENERATE_RETRY_LIMIT
+    const originalRetryBaseDelayMs = process.env.GENERATE_RETRY_BASE_DELAY_MS
+    process.env.GENERATE_RETRY_LIMIT = "2"
+    process.env.GENERATE_RETRY_BASE_DELAY_MS = "1"
+
+    try {
+      const generator = createDraftGenerator({
+        provider: "openrouter",
+        model: "google/gemma-4-31b-it:free",
+        client: {
+          chat: {
+            completions: {
+              parse: async () => {
+                attempts.push(Date.now())
+                if (attempts.length < 3) {
+                  throw Object.assign(new Error("temporarily rate-limited upstream"), { status: 429 })
+                }
+
+                return {
+                  choices: [
+                    {
+                      message: {
+                        parsed: parsedQuestion,
+                        refusal: null,
+                      },
+                    },
+                  ],
+                }
+              },
+            },
+          },
+        } as never,
+      })
+
+      const result = await generator({
+        batch: "batch",
+        ordinal: 1,
+        total: 1,
+        requestedTags: ["general-paediatrics"],
+        sourcePath: "/tmp/source.txt",
+        sourceLabel: "Excerpt 1/1",
+        sourceExcerpt: "Excerpt",
+      })
+
+      expect(attempts).toHaveLength(3)
+      expect(result.stem).toBe(parsedQuestion.stem)
+    } finally {
+      if (originalRetryLimit === undefined) delete process.env.GENERATE_RETRY_LIMIT
+      else process.env.GENERATE_RETRY_LIMIT = originalRetryLimit
+
+      if (originalRetryBaseDelayMs === undefined) delete process.env.GENERATE_RETRY_BASE_DELAY_MS
+      else process.env.GENERATE_RETRY_BASE_DELAY_MS = originalRetryBaseDelayMs
+    }
+  })
+
+  it("surfaces a final failure after exhausting retryable attempts", async () => {
+    const originalRetryLimit = process.env.GENERATE_RETRY_LIMIT
+    const originalRetryBaseDelayMs = process.env.GENERATE_RETRY_BASE_DELAY_MS
+    process.env.GENERATE_RETRY_LIMIT = "1"
+    process.env.GENERATE_RETRY_BASE_DELAY_MS = "1"
+
+    try {
+      const generator = createDraftGenerator({
+        provider: "openrouter",
+        model: "google/gemma-4-31b-it:free",
+        client: {
+          chat: {
+            completions: {
+              parse: async () => {
+                throw Object.assign(new Error("temporarily rate-limited upstream"), { status: 429 })
+              },
+            },
+          },
+        } as never,
+      })
+
+      await expect(
+        generator({
+          batch: "batch",
+          ordinal: 1,
+          total: 1,
+          requestedTags: ["general-paediatrics"],
+          sourcePath: "/tmp/source.txt",
+          sourceLabel: "Excerpt 1/1",
+          sourceExcerpt: "Excerpt",
+        }),
+      ).rejects.toThrow(/rate-limited upstream/i)
+    } finally {
+      if (originalRetryLimit === undefined) delete process.env.GENERATE_RETRY_LIMIT
+      else process.env.GENERATE_RETRY_LIMIT = originalRetryLimit
+
+      if (originalRetryBaseDelayMs === undefined) delete process.env.GENERATE_RETRY_BASE_DELAY_MS
+      else process.env.GENERATE_RETRY_BASE_DELAY_MS = originalRetryBaseDelayMs
+    }
+  })
 })

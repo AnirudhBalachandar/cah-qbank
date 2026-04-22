@@ -1,6 +1,7 @@
 import fs from "node:fs/promises"
 import os from "node:os"
 import path from "node:path"
+import { execFileSync } from "node:child_process"
 
 import { questionSchema } from "@cah/domain"
 import { afterEach, describe, expect, it } from "vitest"
@@ -140,6 +141,7 @@ describe("generate worker", () => {
     })
     expect(reclaimed).toHaveLength(1)
     expect(getJobCounts(dbPath).running).toBe(1)
+    expect(execFileSync("sqlite3", [dbPath, "PRAGMA journal_mode;"], { encoding: "utf8" }).trim()).toBe("wal")
   })
 
   it("partitions long sources across ordinal windows", () => {
@@ -253,5 +255,65 @@ describe("generate worker", () => {
     expect((published.source as Record<string, unknown>).review).toBeTruthy()
     expect(await fs.stat(result.publishedPath)).toBeTruthy()
     await expect(fs.access(draftPath)).rejects.toMatchObject({ code: "ENOENT" })
+  })
+
+  it("normalizes junk nullable text fields from generated output", async () => {
+    const repoRoot = await fs.mkdtemp(path.join(os.tmpdir(), "cah-generate-normalize-"))
+    temporaryDirectories.push(repoRoot)
+
+    await fs.mkdir(path.join(repoRoot, "drafts"), { recursive: true })
+    await fs.mkdir(path.join(repoRoot, "tools", "generate"), { recursive: true })
+
+    const sourcePath = path.join(repoRoot, "source.txt")
+    await fs.writeFile(sourcePath, sampleSource, "utf8")
+    const dbPath = path.join(repoRoot, "tools", "generate", "jobs.db")
+
+    enqueueJobs({
+      batch: "bronchiolitis-batch",
+      sourcePath,
+      tags: ["general-paediatrics/respiratory"],
+      count: 1,
+      dbPath,
+    })
+
+    const result = await runWorker({
+      repoRoot,
+      dbPath,
+      concurrency: 1,
+      generator: async ({ requestedTags }) => ({
+        stem: "Which management step is most appropriate?",
+        questionType: "SBA",
+        options: [
+          { key: "A", text: "A", isCorrect: false },
+          { key: "B", text: "B", isCorrect: true },
+          { key: "C", text: "C", isCorrect: false },
+          { key: "D", text: "D", isCorrect: false },
+          { key: "E", text: "E", isCorrect: false },
+        ],
+        explanation: "Because B is correct.",
+        citations: [{ type: "internal", source: sourcePath, page: 1, url: null, title: "Full source" }],
+        tags: requestedTags,
+        curriculum: "General Paediatrics",
+        why_others_wrong: {
+          A: "Wrong",
+          B: null,
+          C: "Wrong",
+          D: "Wrong",
+          E: "Wrong",
+        },
+        key_takeaways: ["One", "Two", "Three"],
+        moduleCode: ":null",
+        difficulty: "Intermediate",
+        ausScore: 2,
+      }),
+    })
+
+    expect(result).toEqual({ done: 1, failed: 0 })
+    const [draftFile] = await fs.readdir(path.join(repoRoot, "drafts"))
+    const draft = questionSchema.parse(
+      JSON.parse(await fs.readFile(path.join(repoRoot, "drafts", draftFile), "utf8")),
+    )
+
+    expect(draft.moduleCode).toBeNull()
   })
 })

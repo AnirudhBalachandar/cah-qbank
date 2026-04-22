@@ -6,6 +6,7 @@ import path from "node:path"
 import { fileURLToPath, pathToFileURL } from "node:url"
 
 import { promoteDraft } from "./publish.js"
+import { resolveGenerationModel, resolveGenerationProvider } from "./provider.js"
 import { defaultJobsDbPath, enqueueJobs, ensureJobsDatabase, getJobCounts } from "./storage.js"
 import { runWorker } from "./worker.js"
 
@@ -13,6 +14,7 @@ type Command =
   | { kind: "enqueue"; source: string; count: number; tags: string[] }
   | { kind: "worker" }
   | { kind: "promote"; id: string; reviewedBy: string }
+  | { kind: "doctor" }
   | { kind: "help" }
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url))
@@ -106,6 +108,10 @@ export function parseCommand(argv: string[]): Command {
     return { kind: "worker" }
   }
 
+  if (first === "doctor") {
+    return { kind: "doctor" }
+  }
+
   if (first === "promote") {
     const id = getFlagValue(argv, "--id")
     if (!id) {
@@ -144,7 +150,16 @@ function printHelp() {
   console.log(`Usage:
   generate enqueue --source path/to/file.pdf --count 10 --tags "neonatal,respiratory"
   generate worker
-  generate promote --id <question-id> [--reviewed-by <name>]`)
+  generate doctor
+  generate promote --id <question-id> [--reviewed-by <name>]
+
+Notes:
+  - generation config is loaded from ${path.join(repoRoot, ".env")}
+  - repo .env values override stale exported shell values for generation keys
+  - provider: GENERATE_API_PROVIDER=openai|openrouter
+  - OpenAI defaults to model gpt-5.4-mini
+  - OpenRouter defaults to model google/gemma-4-31b-it:free
+  - required tools: sqlite3, textutil (doc/docx/rtf), pdftotext (pdf)`)
 }
 
 async function handleEnqueue(command: Extract<Command, { kind: "enqueue" }>) {
@@ -224,6 +239,43 @@ async function handlePromote(command: Extract<Command, { kind: "promote" }>) {
   )
 }
 
+function summarizeEnvPresence(key: string) {
+  const value = process.env[key]?.trim() ?? ""
+  return value ? "set" : "missing"
+}
+
+async function handleDoctor() {
+  const dbPath = defaultJobsDbPath(repoRoot)
+  ensureJobsDatabase(dbPath)
+
+  const provider = resolveGenerationProvider()
+  const model = resolveGenerationModel()
+  const counts = getJobCounts(dbPath)
+
+  console.log(
+    JSON.stringify(
+      {
+        status: "ok",
+        provider,
+        model,
+        repoRoot,
+        env: {
+          GENERATE_API_PROVIDER: summarizeEnvPresence("GENERATE_API_PROVIDER"),
+          OPENAI_API_KEY: summarizeEnvPresence("OPENAI_API_KEY"),
+          OPENROUTER_API_KEY: summarizeEnvPresence("OPENROUTER_API_KEY"),
+          OPENAI_MODEL: summarizeEnvPresence("OPENAI_MODEL"),
+          OPENROUTER_MODEL: summarizeEnvPresence("OPENROUTER_MODEL"),
+          GENERATE_MODEL: summarizeEnvPresence("GENERATE_MODEL"),
+        },
+        jobsDb: dbPath,
+        queue: counts,
+      },
+      null,
+      2,
+    ),
+  )
+}
+
 export async function main(argv = process.argv.slice(2)) {
   loadEnvironment()
   const command = parseCommand(argv)
@@ -237,6 +289,9 @@ export async function main(argv = process.argv.slice(2)) {
       return
     case "promote":
       await handlePromote(command)
+      return
+    case "doctor":
+      await handleDoctor()
       return
     case "help":
       printHelp()

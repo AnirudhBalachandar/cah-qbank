@@ -1,8 +1,8 @@
-# cah-qbank-v2
+# cah-qbank
 
-`cah-qbank-v2` is the JSON-first local workspace for the CAH qbank migration. The v2 repo is designed to run beside the legacy repo during verification. Do not rename, delete, or overwrite the legacy repo until there is an explicit cutover decision.
+`cah-qbank` is the JSON-first local workspace for the CAH qbank. It is now the canonical live repo after the v1 to v2 cutover.
 
-## V2 workflow
+## Workflow
 
 1. Published questions live in `questions/*.json`.
 2. Local draft questions live in `drafts/*.json`.
@@ -12,7 +12,7 @@
 
 ## Source of truth
 
-- `questions/` is the v2 source of truth for published content.
+- `questions/` is the source of truth for published content.
 - `drafts/` is local working state for unpublished draft content.
 - `cah.db` is local runtime state, not source of truth.
 - The question/tag projection inside SQLite is rebuilt from JSON whenever `pnpm sync-db` runs.
@@ -21,7 +21,7 @@
 
 ## Repository layout
 
-- `questions/`: published question JSON files tracked as the durable v2 content layer.
+- `questions/`: published question JSON files tracked as the durable content layer.
 - `drafts/`: local draft JSON files. This directory is gitignored and should be treated as local-only working state.
 - `cah.db`: local SQLite database at the repo root. This file is gitignored. Question/tag rows can be rebuilt from JSON, but local study state inside SQLite cannot.
 - `app/`: Next.js app and Prisma schema.
@@ -104,7 +104,7 @@ This command backs up the derived SQLite file. It does not replace the JSON sour
 
 ## Generate workflow
 
-The v2 contract is JSON-first even for generated content.
+The repo contract is JSON-first even for generated content.
 
 - Generated output should land as schema-valid JSON files, normally in `drafts/` first.
 - Generation should not write directly into SQLite.
@@ -146,7 +146,7 @@ OPENROUTER_MODEL=google/gemma-4-31b-it:free
 # OPENAI_MODEL=gpt-5.4-mini
 # Optional:
 # OPENROUTER_HTTP_REFERER=http://localhost:3000
-# OPENROUTER_TITLE=CAH QBank v2
+# OPENROUTER_TITLE=CAH QBank
 ```
 
 Current generation rules:
@@ -179,7 +179,7 @@ pnpm sync-db
 
 ## Local-only state
 
-The following are intentionally local-only artifacts in v2:
+The following are intentionally local-only artifacts:
 
 - `drafts/`
 - `cah.db`
@@ -195,13 +195,8 @@ Operational guidance:
 - It is not safe to assume `pnpm sync-db` restores local study state after `cah.db` is deleted.
 - Back up SQLite with `pnpm cah db backup` before risky local experiments if needed.
 
-## Safe cutover rule
+## Migration note
 
-Until there is an explicit rename/cutover decision:
+The v1 to v2 cutover is complete. Keep the archived legacy repo and rescue artifacts only as long as you still want fallback or re-import options.
 
-- keep the legacy repo intact
-- keep the v2 repo named `cah-qbank-v2`
-- do not repoint existing automation or scripts from the legacy repo by surprise
-- do not delete the legacy backups used to bootstrap v2
-
-The migration and cutover checklist lives in `docs/MIGRATION.md`.
+The migration and historical cutover checklist lives in `docs/MIGRATION.md`.

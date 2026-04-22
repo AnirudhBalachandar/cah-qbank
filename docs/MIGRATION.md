@@ -1,24 +1,24 @@
-# Migration to v2
+# Migration History
 
-This document covers the safe v2 migration path from a legacy backup snapshot into the JSON-first `cah-qbank-v2` workflow.
+This document records the migration path from the legacy CAH qbank into the JSON-first `cah-qbank` workflow.
 
-The core rule is simple:
+The core migration rule was simple:
 
-- preserve the legacy repo until an explicit rename/cutover is approved
+- preserve the legacy repo until an explicit rename/cutover was approved
 - import legacy data into JSON first
 - rebuild local SQLite from JSON
 - treat `drafts/` and `cah.db` as local working state, not canonical migration artifacts
 
-## What v2 changes
+## What Changed
 
-In v1, SQLite-backed app state and backup artifacts were part of the day-to-day workflow. In v2:
+In v1, SQLite-backed app state and backup artifacts were part of the day-to-day workflow. In the current repo:
 
 - published content is stored in `questions/*.json`
 - local unpublished work is stored in `drafts/*.json`
 - the question/tag projection inside `cah.db` is rebuilt from those JSON files
 - practice sessions, attempts, notes, flags, and mastery remain SQLite-only local state
 - the app stays local-first
-- the legacy repo stays untouched until an explicit rename
+- the legacy repo stayed untouched until the explicit rename
 
 ## Backup snapshot input
 
@@ -31,9 +31,7 @@ The migration script expects a snapshot directory that contains:
 The input path is resolved from the first valid candidate in this order:
 
 1. `CAH_BACKUP_DIR`
-2. `../cah-qbank/backups/qbank-state/2026-04-22`
-3. `../cah-qbank-v1-archive/backups/qbank-state/2026-04-22`
-4. `./backups/qbank-state/2026-04-22`
+2. `./backups/qbank-state/2026-04-22`
 
 If your snapshot is somewhere else, set `CAH_BACKUP_DIR` explicitly.
 
@@ -56,7 +54,7 @@ Important boundary:
 ## Migration steps
 
 1. Keep the legacy repo unchanged.
-2. In `cah-qbank-v2`, point `CAH_BACKUP_DIR` at the chosen snapshot if you are not using one of the built-in default locations.
+2. In `cah-qbank`, point `CAH_BACKUP_DIR` at the chosen snapshot if you are not using one of the built-in default locations.
 3. Run the legacy import:
 
 ```bash
@@ -89,22 +87,22 @@ It will:
 
 - locate the legacy backup snapshot
 - load legacy questions, tags, and question-tag links
-- map legacy records into the current v2 question schema
+- map legacy records into the current question schema
 - validate each mapped question with Zod
-- delete the current v2 `questions/` and `drafts/` folders
+- delete the current `questions/` and `drafts/` folders
 - recreate those folders from the snapshot
 - enforce the expected imported counts of `1107` published and `976` draft questions
 
-Because it replaces both JSON folders, do not rerun it casually after you have started curating local v2 drafts.
+Because it replaces both JSON folders, do not rerun it casually after you have started curating local drafts.
 
 Current import normalization note:
 
-- the current v2 schema is effectively SBA-only
+- the current schema is effectively SBA-only
 - `pnpm migrate:backup` normalizes imported legacy questions to `questionType: "SBA"`
 
 ## Local-only artifacts
 
-These v2 artifacts are intentionally local-only:
+These artifacts are intentionally local-only:
 
 - `drafts/`
 - `cah.db`
@@ -125,7 +123,7 @@ Practical rule:
 
 ## Generate workflow during migration
 
-The generation boundary in v2 is:
+The generation boundary is:
 
 - generation creates JSON
 - validation checks JSON
@@ -182,26 +180,26 @@ pnpm sync-db
 
 ## Safe cutover guidance
 
-The migration is complete only when v2 is verified and there is an explicit decision to rename/switch over.
+The migration is complete and the cutover has already happened.
 
-Until then:
+Before cutover, the guidance was:
 
 - keep the legacy repo in place
 - keep legacy backups in place
-- keep v2 in the separate `cah-qbank-v2` folder
+- keep the next-version repo in a separate sibling folder
 - avoid changing external scripts, aliases, or automation that still point at the legacy repo
-- use v2 for side-by-side validation, not destructive replacement
+- use the next-version repo for side-by-side validation, not destructive replacement
 
-## When an explicit cutover is approved
+## Cutover Sequence Used
 
 Use this sequence:
 
 1. Stop any running local CAH app processes.
 2. Take a final legacy backup snapshot.
-3. Confirm the v2 JSON corpus is the state you want to preserve.
+3. Confirm the new JSON corpus is the state you want to preserve.
 4. Run `pnpm validate:questions`.
 5. Run `pnpm sync-db`.
 6. Verify `pnpm cah serve` starts cleanly.
-7. Only then rename or archive the legacy repo and promote v2 to the canonical repo name if that is the chosen cutover path.
+7. Only then rename or archive the legacy repo and promote the new repo to the canonical repo name if that is the chosen cutover path.
 
-Until step 7 is explicitly approved, the legacy repo remains the preserved fallback.
+This sequence has now been executed.

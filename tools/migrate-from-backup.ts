@@ -15,8 +15,6 @@ const questionsDir = path.join(repoRoot, "questions")
 const draftsDir = path.join(repoRoot, "drafts")
 const backupCandidates = [
   process.env.CAH_BACKUP_DIR,
-  path.resolve(repoRoot, "..", "cah-qbank", "backups", "qbank-state", "2026-04-22"),
-  path.resolve(repoRoot, "..", "cah-qbank-v1-archive", "backups", "qbank-state", "2026-04-22"),
   path.resolve(repoRoot, "backups", "qbank-state", "2026-04-22"),
 ].filter((candidate): candidate is string => Boolean(candidate))
 

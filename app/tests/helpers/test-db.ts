@@ -12,7 +12,7 @@ type TestDb = {
 }
 
 export async function createTestDb(): Promise<TestDb> {
-  const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "cah-qbank-v2-"))
+  const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "cah-qbank-"))
   const dbPath = path.join(tempDir, "test.db")
   const databaseUrl = `file:${dbPath}`
 

@@ -124,17 +124,20 @@ Generation prerequisites:
 - OpenAI mode requires `OPENAI_API_KEY`
 - OpenRouter mode requires `OPENROUTER_API_KEY`
 - optional overrides: `GENERATE_MODEL`, `OPENAI_MODEL`, `OPENROUTER_MODEL`, `GENERATE_CONCURRENCY`
-- OpenRouter defaults to `nvidia/nemotron-3-super-120b-a12b:free`
+- OpenRouter defaults to `google/gemma-4-31b-it:free`
 - `sqlite3` must be available for the jobs queue at `tools/generate/jobs.db`
 - `textutil` is used for `.doc`, `.docx`, and `.rtf`
 - `pdftotext` is used for `.pdf`
 
-Suggested root `.env` for OpenRouter:
+Suggested root `.env` for OpenRouter and OpenAI:
 
 ```bash
 GENERATE_API_PROVIDER=openrouter
+OPENAI_API_KEY=sk-openai-your-key-here
 OPENROUTER_API_KEY=sk-or-your-key-here
-OPENROUTER_MODEL=nvidia/nemotron-3-super-120b-a12b:free
+OPENROUTER_MODEL=google/gemma-4-31b-it:free
+# Optional if you want to override the OpenAI default:
+# OPENAI_MODEL=gpt-5.4-mini
 # Optional:
 # OPENROUTER_HTTP_REFERER=http://localhost:3000
 # OPENROUTER_TITLE=CAH QBank v2

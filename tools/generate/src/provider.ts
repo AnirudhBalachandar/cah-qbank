@@ -3,7 +3,7 @@ export type GenerationProvider = "openai" | "openrouter"
 type EnvLike = Record<string, string | undefined>
 
 export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
-export const DEFAULT_OPENROUTER_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
+export const DEFAULT_OPENROUTER_MODEL = "google/gemma-4-31b-it:free"
 export const DEFAULT_OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 export function resolveGenerationProvider(env: EnvLike = process.env): GenerationProvider {

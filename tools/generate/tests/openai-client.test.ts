@@ -63,7 +63,7 @@ describe("createDraftGenerator", () => {
     let called = false
     const generator = createDraftGenerator({
       provider: "openrouter",
-      model: "nvidia/nemotron-3-super-120b-a12b:free",
+      model: "google/gemma-4-31b-it:free",
       client: {
         chat: {
           completions: {

@@ -150,7 +150,7 @@ Operational prerequisites:
 - OpenAI mode requires `OPENAI_API_KEY`
 - OpenRouter mode requires `OPENROUTER_API_KEY`
 - optional `GENERATE_MODEL`, `OPENAI_MODEL`, `OPENROUTER_MODEL`
-- OpenRouter defaults to `nvidia/nemotron-3-super-120b-a12b:free`
+- OpenRouter defaults to `google/gemma-4-31b-it:free`
 - optional `GENERATE_CONCURRENCY`
 - `sqlite3` for `tools/generate/jobs.db`
 - `textutil` for `.doc`, `.docx`, `.rtf`

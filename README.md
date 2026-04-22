@@ -45,6 +45,7 @@ pnpm generate help
 Before `pnpm dev` on a fresh checkout:
 
 - copy `app/.env.example` to `app/.env` if needed
+- add generation API keys or provider config to `.env` at the repo root if needed
 - run `pnpm sync-db`
 
 `pnpm dev` does not bootstrap or sync SQLite for you. `cah serve` does.
@@ -119,11 +120,25 @@ pnpm generate promote --id <draft-question-id> [--reviewed-by <name>]
 
 Generation prerequisites:
 
-- `OPENAI_API_KEY` must be valid
-- optional overrides: `OPENAI_MODEL`, `GENERATE_CONCURRENCY`
+- set `GENERATE_API_PROVIDER=openai` or `GENERATE_API_PROVIDER=openrouter`
+- OpenAI mode requires `OPENAI_API_KEY`
+- OpenRouter mode requires `OPENROUTER_API_KEY`
+- optional overrides: `GENERATE_MODEL`, `OPENAI_MODEL`, `OPENROUTER_MODEL`, `GENERATE_CONCURRENCY`
+- OpenRouter defaults to `nvidia/nemotron-3-super-120b-a12b:free`
 - `sqlite3` must be available for the jobs queue at `tools/generate/jobs.db`
 - `textutil` is used for `.doc`, `.docx`, and `.rtf`
 - `pdftotext` is used for `.pdf`
+
+Suggested root `.env` for OpenRouter:
+
+```bash
+GENERATE_API_PROVIDER=openrouter
+OPENROUTER_API_KEY=sk-or-your-key-here
+OPENROUTER_MODEL=nvidia/nemotron-3-super-120b-a12b:free
+# Optional:
+# OPENROUTER_HTTP_REFERER=http://localhost:3000
+# OPENROUTER_TITLE=CAH QBank v2
+```
 
 Current generation rules:
 

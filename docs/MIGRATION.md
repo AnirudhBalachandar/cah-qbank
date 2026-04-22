@@ -146,8 +146,11 @@ pnpm generate promote --id <draft-question-id> [--reviewed-by <name>]
 
 Operational prerequisites:
 
-- valid `OPENAI_API_KEY`
-- optional `OPENAI_MODEL`
+- set `GENERATE_API_PROVIDER=openai` or `GENERATE_API_PROVIDER=openrouter`
+- OpenAI mode requires `OPENAI_API_KEY`
+- OpenRouter mode requires `OPENROUTER_API_KEY`
+- optional `GENERATE_MODEL`, `OPENAI_MODEL`, `OPENROUTER_MODEL`
+- OpenRouter defaults to `nvidia/nemotron-3-super-120b-a12b:free`
 - optional `GENERATE_CONCURRENCY`
 - `sqlite3` for `tools/generate/jobs.db`
 - `textutil` for `.doc`, `.docx`, `.rtf`

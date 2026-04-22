@@ -5,6 +5,7 @@ import path from "node:path"
 import { normalizeTagSlug, questionSchema, type GeneratedQuestionContent } from "@cah/domain"
 
 import { createDraftGenerator, type DraftGenerator } from "./openai-client.js"
+import { resolveGenerationModel } from "./provider.js"
 import { buildSourceExcerpt, extractSourceText } from "./source.js"
 import { claimQueuedJobs, defaultJobsDbPath, ensureJobsDatabase, markJobDone, markJobFailed, touchClaimedJobs } from "./storage.js"
 import { jobInputSchema, type JobOutput, type JobRecord } from "./types.js"
@@ -148,7 +149,7 @@ export async function processJob({
       jobId: job.id,
       sourcePath: input.sourcePath,
       generatedAt: createdAt,
-      model: process.env.OPENAI_MODEL ?? "gpt-5.4-mini",
+      model: resolveGenerationModel(),
       requestedTags: input.tags,
       rawGeneratedTags: generated.tags,
       excerptWindow: {
@@ -171,7 +172,7 @@ export async function processJob({
   const output: JobOutput = {
     questionId,
     draftPath,
-    model: process.env.OPENAI_MODEL ?? "gpt-5.4-mini",
+    model: resolveGenerationModel(),
   }
   const markedDone = markJobDone({
     dbPath,

@@ -1,0 +1,14 @@
+{
+  "name": "cah-qbank-v2",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter app dev",
+    "build": "pnpm --filter app build",
+    "test": "pnpm -r test",
+    "sync-db": "pnpm --filter app tsx scripts/sync-db.ts",
+    "cah": "node tools/cli/dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

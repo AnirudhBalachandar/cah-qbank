@@ -1,0 +1,11 @@
+// Prisma schema — placeholder for Phase 2
+// Full models added in Phase 2
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}

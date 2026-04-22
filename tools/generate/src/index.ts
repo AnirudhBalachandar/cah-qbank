@@ -17,18 +17,66 @@ type Command =
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(currentDir, "..", "..", "..")
+const managedEnvKeys = new Set([
+  "CAH_REVIEWED_BY",
+  "GENERATE_API_PROVIDER",
+  "GENERATE_CONCURRENCY",
+  "GENERATE_MODEL",
+  "OPENAI_API_KEY",
+  "OPENAI_MODEL",
+  "OPENROUTER_API_KEY",
+  "OPENROUTER_HTTP_REFERER",
+  "OPENROUTER_MODEL",
+  "OPENROUTER_TITLE",
+])
 
-function loadEnvFileIfPresent(filePath: string) {
+function stripWrappingQuotes(value: string) {
+  if (
+    value.length >= 2 &&
+    ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'")))
+  ) {
+    return value.slice(1, -1)
+  }
+
+  return value
+}
+
+export function parseEnvFileContents(contents: string) {
+  const parsed: Record<string, string> = {}
+
+  for (const line of contents.split(/\r?\n/)) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith("#")) continue
+
+    const separatorIndex = trimmed.indexOf("=")
+    if (separatorIndex === -1) continue
+
+    const key = trimmed.slice(0, separatorIndex).trim()
+    const value = stripWrappingQuotes(trimmed.slice(separatorIndex + 1).trim())
+    if (!key) continue
+    parsed[key] = value
+  }
+
+  return parsed
+}
+
+export function loadEnvFileIfPresent(filePath: string) {
   try {
     if (fs.existsSync(filePath)) {
       process.loadEnvFile?.(filePath)
+
+      const parsed = parseEnvFileContents(fs.readFileSync(filePath, "utf8"))
+      for (const [key, value] of Object.entries(parsed)) {
+        if (!managedEnvKeys.has(key)) continue
+        process.env[key] = value
+      }
     }
   } catch {
     // Ignore missing or unsupported env loading.
   }
 }
 
-function loadEnvironment() {
+export function loadEnvironment() {
   loadEnvFileIfPresent(path.join(repoRoot, ".env"))
   loadEnvFileIfPresent(path.join(repoRoot, "app", ".env"))
 }

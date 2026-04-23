@@ -1,7 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation"
-import { useMemo, useState, useTransition } from "react"
+import { useState, useTransition } from "react"
 
 import {
   answerQuestionAction,
@@ -75,10 +75,7 @@ export function SessionRunner({
   const unlockedIndex = Math.min(Math.max(initialIndex, answeredCount), Math.max(questions.length - 1, 0))
   const correctCount = Object.values(answers).filter((attempt) => attempt.isCorrect).length
 
-  const progressLabel = useMemo(
-    () => `${answeredCount}/${questions.length} answered`,
-    [answeredCount, questions.length],
-  )
+  const progressLabel = `${answeredCount}/${questions.length} answered`
 
   function goToIndex(nextIndex: number) {
     setCurrentIndex(Math.max(0, Math.min(nextIndex, unlockedIndex)))

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest run --passWithNoTests",
-    "lint": "next lint",
+    "lint": "eslint .",
     "typecheck": "prisma generate --schema prisma/schema.prisma && next typegen && tsc --noEmit",
     "prisma:generate": "prisma generate --schema prisma/schema.prisma",
     "prisma:bootstrap": "tsx scripts/ensure-db.ts"
@@ -23,11 +23,14 @@
     "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "@types/node": "^20.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "15.5.15",
     "postcss": "^8.4.0",
     "prisma": "^6.0.0",
     "tailwindcss": "^3.4.0",

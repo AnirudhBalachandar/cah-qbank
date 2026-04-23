@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest"
 import type { Question } from "@cah/domain"
 
-import { collectTagDescriptors } from "@/lib/question-files"
+import { collectTagDescriptors, projectLearnerTagSlugs } from "@/lib/question-files"
 
 function makeQuestion(overrides: Partial<Question> = {}): Question {
   return {
@@ -37,5 +37,40 @@ describe("question file tag descriptors", () => {
         }),
       ]),
     )
+  })
+
+  it("projects CAH blueprint tags into learner-facing tags without surfacing scaffold tags", () => {
+    const question = makeQuestion({
+      tags: [
+        "cah-exam-blueprint",
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+        "cah-exam-blueprint/cah-kat/paediatric-sub-specialties/respiratory",
+        "notebooklm",
+      ],
+      curriculum: "Paediatric Sub-specialties",
+    })
+
+    expect(projectLearnerTagSlugs(question)).toEqual([
+      "paediatric-sub-specialties",
+      "paediatric-sub-specialties/respiratory",
+    ])
+
+    const descriptors = collectTagDescriptors([question])
+
+    expect(descriptors).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          slug: "paediatric-sub-specialties",
+          kind: "curriculum",
+        }),
+        expect.objectContaining({
+          slug: "paediatric-sub-specialties/respiratory",
+          kind: "topic",
+        }),
+      ]),
+    )
+    expect(descriptors.some((descriptor) => descriptor.slug.includes("cah-exam-blueprint"))).toBe(false)
+    expect(descriptors.some((descriptor) => descriptor.kind === "meta")).toBe(false)
   })
 })

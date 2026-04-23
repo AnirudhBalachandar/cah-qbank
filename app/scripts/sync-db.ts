@@ -2,7 +2,7 @@ import { Prisma } from "@prisma/client"
 import { isQuestionAnswerable } from "@cah/domain"
 
 import { prisma } from "../lib/prisma"
-import { collectTagDescriptors, loadAllQuestions } from "../lib/question-files"
+import { collectTagDescriptors, loadAllQuestions, projectLearnerTagSlugs } from "../lib/question-files"
 
 function chunk<T>(items: T[], size: number) {
   const chunks: T[][] = []
@@ -107,7 +107,7 @@ async function upsertQuestions() {
   )
 
   const questionTags = questions.flatMap((question) =>
-    Array.from(new Set(question.tags)).map((tagId) => ({ questionId: question.id, tagId })),
+    projectLearnerTagSlugs(question).map((tagId) => ({ questionId: question.id, tagId })),
   )
 
   for (const batch of chunk(questionTags, 500)) {

@@ -1,0 +1,371 @@
+import Foundation
+import XCTest
+@testable import CAHQBankMac
+
+final class ServiceTests: XCTestCase {
+    func testConnectedToLocalRepoUsesAppSuppliedExplicitRepoRoot() async throws {
+        let repo = try TemporaryRepo(questions: [fixtureQuestion(id: "q-1")])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService.connectedToLocalRepo(
+            configuration: RepoLinkConfiguration(
+                explicitRepoRootURL: repo.rootURL,
+                environment: [:]
+            )
+        )
+        _ = try await service.syncIfNeeded(force: true)
+
+        let dashboard = try await service.fetchDashboard()
+        XCTAssertEqual(dashboard.publishedCount, 1)
+    }
+
+    func testConnectedToLocalRepoExplicitConfigurationOverridesInvalidEnvironment() async throws {
+        let repo = try TemporaryRepo(questions: [fixtureQuestion(id: "q-1")])
+        defer { try? repo.cleanup() }
+
+        let invalidRoot = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: invalidRoot, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: invalidRoot) }
+
+        let service = try QBankService.connectedToLocalRepo(
+            configuration: RepoLinkConfiguration(
+                explicitRepoRootURL: repo.rootURL,
+                environment: ["CAH_QBANK_REPO_ROOT": invalidRoot.path]
+            )
+        )
+        _ = try await service.syncIfNeeded(force: true)
+
+        let resolvedRepoRoot = await service.repoRootPath()
+        XCTAssertEqual(resolvedRepoRoot, repo.rootURL.standardizedFileURL.path)
+    }
+
+    func testSessionOrderingAndAnsweringUpdatesMastery() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(
+                id: "q-a",
+                stem: "A",
+                tags: ["general-paediatrics"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_100)
+            ),
+            fixtureQuestion(
+                id: "q-b",
+                stem: "B",
+                tags: ["general-paediatrics", "weak-lane"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_000)
+            ),
+            fixtureQuestion(
+                id: "q-c",
+                stem: "C",
+                tags: ["general-paediatrics", "strong-lane"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_200)
+            ),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let database = try SQLiteDatabase(path: repo.context.databaseURL.path)
+        try database.execute(
+            """
+            INSERT INTO TagMastery (tagId, elo, attemptCount, correctCount, updatedAt)
+            VALUES
+              ('general-paediatrics', 1000, 4, 2, ?),
+              ('weak-lane', 860, 4, 1, ?),
+              ('strong-lane', 1140, 4, 4, ?);
+            """,
+            bindings: [
+                .text(QuestionFileCodec.formatDate(Date())),
+                .text(QuestionFileCodec.formatDate(Date())),
+                .text(QuestionFileCodec.formatDate(Date())),
+            ]
+        )
+
+        let sessionID = try await service.startSession(tagID: "general-paediatrics", questionCount: 3)
+        let session = try await service.fetchSession(id: sessionID)
+        XCTAssertEqual(session?.questions.map(\.id), ["q-b", "q-a", "q-c"])
+
+        let result = try await service.answer(sessionID: sessionID, questionID: "q-b", selectedKey: "B")
+        XCTAssertTrue(result.isCorrect)
+
+        let progress = try await service.fetchProgress()
+        let weakLane = progress.first(where: { $0.slug == "weak-lane" })
+        XCTAssertNotNil(weakLane)
+        XCTAssertEqual(weakLane?.attemptCount, 5)
+    }
+
+    func testSessionOrderingUsesIncorrectRateThenCreatedAtThenIdentifier() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(
+                id: "q-alpha",
+                stem: "Alpha",
+                tags: ["general-paediatrics"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_000)
+            ),
+            fixtureQuestion(
+                id: "q-beta",
+                stem: "Beta",
+                tags: ["general-paediatrics"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_000)
+            ),
+            fixtureQuestion(
+                id: "q-gamma",
+                stem: "Gamma",
+                tags: ["general-paediatrics"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_100)
+            ),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let database = try SQLiteDatabase(path: repo.context.databaseURL.path)
+        let now = QuestionFileCodec.formatDate(Date())
+        try database.execute(
+            """
+            INSERT INTO PracticeSession (id, mode, questionIds, currentIndex, createdAt, completedAt)
+            VALUES ('seed-session', 'revision', '[]', 0, ?, NULL);
+            """,
+            bindings: [.text(now)]
+        )
+        try database.execute(
+            """
+            INSERT INTO Attempt (id, questionId, sessionId, selectedKey, isCorrect, createdAt)
+            VALUES
+              ('attempt-1', 'q-beta', 'seed-session', 'A', 0, ?),
+              ('attempt-2', 'q-gamma', 'seed-session', 'B', 1, ?);
+            """,
+            bindings: [.text(now), .text(now)]
+        )
+
+        let sessionID = try await service.startSession(tagID: "general-paediatrics", questionCount: 3)
+        let session = try await service.fetchSession(id: sessionID)
+
+        XCTAssertEqual(session?.questions.map(\.id), ["q-alpha", "q-beta", "q-gamma"])
+    }
+
+    func testStartSessionExcludesDraftAndUnanswerableQuestions() async throws {
+        let repo = try TemporaryRepo(
+            questions: [
+                fixtureQuestion(id: "published-answerable", tags: ["general-paediatrics"]),
+                fixtureQuestion(id: "published-unanswerable", tags: ["general-paediatrics"], correctKey: "Z"),
+            ],
+            drafts: [
+                fixtureQuestion(id: "draft-answerable", tags: ["general-paediatrics"], status: .draft),
+            ]
+        )
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let sessionID = try await service.startSession(tagID: "general-paediatrics", questionCount: 10)
+        let session = try await service.fetchSession(id: sessionID)
+
+        XCTAssertEqual(session?.questions.map(\.id), ["published-answerable"])
+    }
+
+    func testAnswerRejectsOutOfSequenceQuestion() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(id: "q-1", stem: "First", tags: ["general-paediatrics"]),
+            fixtureQuestion(id: "q-2", stem: "Second", tags: ["general-paediatrics"], createdAt: Date(timeIntervalSince1970: 1_700_000_100)),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let sessionID = try await service.startSession(tagID: "general-paediatrics", questionCount: 2)
+
+        do {
+            _ = try await service.answer(sessionID: sessionID, questionID: "q-2", selectedKey: "B")
+            XCTFail("Expected out-of-sequence answer to fail")
+        } catch let error as QBankServiceError {
+            guard case .questionOutOfSequence = error else {
+                return XCTFail("Expected questionOutOfSequence, received \(error)")
+            }
+        }
+    }
+
+    func testRepeatAnswerReturnsExistingAttemptWithoutAdvancingSession() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(id: "q-1", stem: "First", tags: ["general-paediatrics"]),
+            fixtureQuestion(id: "q-2", stem: "Second", tags: ["general-paediatrics"], createdAt: Date(timeIntervalSince1970: 1_700_000_100)),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let sessionID = try await service.startSession(tagID: "general-paediatrics", questionCount: 2)
+        let first = try await service.answer(sessionID: sessionID, questionID: "q-1", selectedKey: "B")
+        let repeatAttempt = try await service.answer(sessionID: sessionID, questionID: "q-1", selectedKey: "A")
+        let session = try await service.fetchSession(id: sessionID)
+
+        XCTAssertTrue(first.isCorrect)
+        XCTAssertTrue(repeatAttempt.isCorrect)
+        XCTAssertEqual(repeatAttempt.nextIndex, 1)
+        XCTAssertEqual(session?.currentIndex, 1)
+        XCTAssertEqual(session?.answeredByQuestion.count, 1)
+    }
+
+    func testBrowseFiltersPaginateAndExcludeDrafts() async throws {
+        let drafts: [QuestionFile] = [
+            fixtureQuestion(
+                id: "draft-hidden",
+                stem: "Target hidden draft",
+                tags: ["general-paediatrics", "respiratory"],
+                curriculum: .generalPaediatrics,
+                status: .draft,
+                createdAt: Date(timeIntervalSince1970: 1_699_999_000)
+            )
+        ]
+        var questions: [QuestionFile] = []
+
+        for index in 0..<35 {
+            questions.append(
+                fixtureQuestion(
+                    id: String(format: "q-%02d", index),
+                    stem: index < 31 ? "Target question \(index)" : "Other question \(index)",
+                    tags: index < 31 ? ["general-paediatrics", "respiratory"] : ["emergency-paediatrics", "trauma"],
+                    curriculum: index < 31 ? .generalPaediatrics : .emergencyPaediatrics,
+                    createdAt: Date(timeIntervalSince1970: 1_700_000_000 + TimeInterval(index))
+                )
+            )
+        }
+
+        let repo = try TemporaryRepo(questions: questions, drafts: drafts)
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let pageOne = try await service.fetchBrowse(
+            search: "  target  ",
+            curriculum: Curriculum.generalPaediatrics.rawValue,
+            tag: "respiratory",
+            page: 1
+        )
+        let pageTwo = try await service.fetchBrowse(
+            search: "Target",
+            curriculum: Curriculum.generalPaediatrics.rawValue,
+            tag: "respiratory",
+            page: 2
+        )
+
+        XCTAssertEqual(pageOne.total, 31)
+        XCTAssertEqual(pageOne.pageCount, 2)
+        XCTAssertEqual(pageOne.questions.count, 30)
+        XCTAssertEqual(pageOne.questions.first?.id, "q-30")
+        XCTAssertEqual(pageOne.questions.last?.id, "q-01")
+        XCTAssertEqual(pageTwo.questions.map(\.id), ["q-00"])
+        XCTAssertTrue(pageOne.questions.allSatisfy { $0.curriculum == .generalPaediatrics })
+        XCTAssertTrue(pageOne.questions.allSatisfy { $0.tags.contains(where: { $0.slug == "respiratory" }) })
+        XCTAssertFalse(pageOne.questions.contains(where: { $0.id == "draft-hidden" }))
+    }
+
+    func testBlueprintPracticeTagsHideScaffoldingAndDeduplicateCurriculumBuckets() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(
+                id: "q-blueprint-1",
+                tags: [
+                    "cah-exam-blueprint/cah-kat",
+                    "cah-exam-blueprint/cah-kat/general-paediatrics",
+                    "notebooklm",
+                ],
+                curriculum: .generalPaediatrics
+            ),
+            fixtureQuestion(
+                id: "q-blueprint-2",
+                tags: [
+                    "cah-exam-blueprint/cah-kat",
+                    "cah-exam-blueprint/cah-kat/general-paediatrics",
+                ],
+                curriculum: .generalPaediatrics,
+                createdAt: Date(timeIntervalSince1970: 1_700_000_100)
+            ),
+            fixtureQuestion(
+                id: "q-topic",
+                tags: ["general-paediatrics", "respiratory"],
+                curriculum: .generalPaediatrics,
+                createdAt: Date(timeIntervalSince1970: 1_700_000_200)
+            ),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let practiceTags = try await service.fetchPracticeTags()
+        let browse = try await service.fetchBrowse(search: nil, curriculum: nil, tag: nil, page: 1)
+        let detail = try await service.fetchQuestionDetail(id: "q-blueprint-1")
+
+        XCTAssertEqual(practiceTags.filter { $0.kind == .curriculum }.map(\.slug), ["general-paediatrics"])
+        XCTAssertEqual(practiceTags.first(where: { $0.slug == "general-paediatrics" })?.questionCount, 3)
+        XCTAssertNil(practiceTags.first(where: { $0.slug == "cah-exam-blueprint" }))
+        XCTAssertNil(practiceTags.first(where: { $0.slug == "cah-exam-blueprint/cah-kat" }))
+        XCTAssertEqual(browse.tagOptions.map(\.slug), ["respiratory"])
+        XCTAssertFalse(detail?.tags.contains(where: { $0.slug.contains("cah-exam-blueprint") }) ?? true)
+    }
+
+    func testFlagsNotesAndBrowseRoundTrip() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(id: "q-1", stem: "Alpha question"),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        _ = try await service.toggleFlag(questionID: "q-1")
+        _ = try await service.saveNote(questionID: "q-1", noteMarkdown: "Local note")
+
+        let browse = try await service.fetchBrowse(search: "Alpha", curriculum: nil, tag: nil, page: 1)
+        let detail = try await service.fetchQuestionDetail(id: "q-1")
+
+        XCTAssertEqual(browse.total, 1)
+        XCTAssertEqual(detail?.flagged, true)
+        XCTAssertEqual(detail?.noteMarkdown, "Local note")
+    }
+
+    func testFetchSessionReturnsNilWhenSyncedContentRemovesSessionQuestion() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(id: "q-1", createdAt: Date(timeIntervalSince1970: 1_700_000_000)),
+            fixtureQuestion(id: "q-2", createdAt: Date(timeIntervalSince1970: 1_700_000_100)),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let sessionID = try await service.startSession(tagID: "general-paediatrics", questionCount: 2)
+        try FileManager.default.removeItem(at: repo.rootURL.appendingPathComponent("questions/q-2.json"))
+        _ = try await service.syncIfNeeded(force: true)
+
+        let session = try await service.fetchSession(id: sessionID)
+        XCTAssertNil(session)
+    }
+
+    func testProgressExcludesDraftAndBrowseOnlyQuestionCounts() async throws {
+        let repo = try TemporaryRepo(
+            questions: [
+                fixtureQuestion(id: "published-answerable", tags: ["general-paediatrics", "respiratory"]),
+                fixtureQuestion(id: "browse-only", tags: ["general-paediatrics", "browse-only"], correctKey: "Z"),
+            ],
+            drafts: [
+                fixtureQuestion(id: "draft-only", tags: ["general-paediatrics", "draft-tag"], status: .draft),
+            ]
+        )
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let progress = try await service.fetchProgress()
+
+        XCTAssertNotNil(progress.first(where: { $0.slug == "respiratory" && $0.questionCount == 1 }))
+        XCTAssertNil(progress.first(where: { $0.slug == "draft-tag" }))
+        XCTAssertNil(progress.first(where: { $0.slug == "browse-only" }))
+    }
+}

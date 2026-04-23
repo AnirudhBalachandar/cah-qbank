@@ -15,6 +15,7 @@
     "generation:test": "pnpm --filter @cah/generate test",
     "sync-db": "pnpm --filter app prisma:generate && pnpm --filter app prisma:bootstrap && pnpm --filter app exec tsx scripts/sync-db.ts",
     "migrate:backup": "pnpm exec tsx tools/migrate-from-backup.ts",
+    "analyze:cah-kat": "pnpm exec tsx tools/analyze-cah-kat-blueprint.ts",
     "validate:questions": "pnpm exec tsx tools/validate-questions.ts",
     "build:cli": "pnpm --filter @cah/cli build",
     "build:generate": "pnpm --filter @cah/generate build",

@@ -1,0 +1,202 @@
+{
+  "id": "effda59a-1a63-56af-a8d6-3b17b48dc8e0",
+  "stem": "Which of the following scenarios describes a 'complex' or 'complicated' febrile convulsion?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A generalized tonic-clonic seizure lasting 8 minutes in a child with a temperature of $39.0^{\\circ}C$.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A seizure that starts with twitching on the right side of the face before spreading to the rest of the body.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A single 12-minute seizure in a child who has a first-degree relative with a history of febrile seizures.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A seizure occurring in a 2-year-old child that resolves fully within 5 minutes.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Focal features at the onset or during the seizure categorize a febrile convulsion as complex.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_065.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-effda59a1a6346af28d63b17",
+  "rationale": "A complex convulsion is defined by its duration, its recurrence within 24 hours, or the presence of localized features.",
+  "optionExplanations": {
+    "A": "This is a simple febrile convulsion as it is generalized, brief (less than 15 minutes), and occurring once.",
+    "B": "Focal features at the onset or during the seizure categorize a febrile convulsion as complex.",
+    "C": "Family history is a risk factor for recurrence but does not change the classification of the seizure itself if it meets simple criteria.",
+    "D": "This fits all the criteria for a simple febrile convulsion: typical age, brief duration, and full recovery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_065",
+    "sourceQuestionIdentifier": "065_q007",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A seizure that starts with twitching on the right side of the face before spreading to the rest of the body."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_065.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "A complex convulsion is defined by its duration, its recurrence within 24 hours, or the presence of localized features.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_065_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_065",
+      "source_question_identifier": "065_q007",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which of the following scenarios describes a 'complex' or 'complicated' febrile convulsion?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "A complex convulsion is defined by its duration, its recurrence within 24 hours, or the presence of localized features.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A seizure that starts with twitching on the right side of the face before spreading to the rest of the body."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A generalized tonic-clonic seizure lasting 8 minutes in a child with a temperature of $39.0^{\\circ}C$.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is a simple febrile convulsion as it is generalized, brief (less than 15 minutes), and occurring once.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "A seizure that starts with twitching on the right side of the face before spreading to the rest of the body.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Focal features at the onset or during the seizure categorize a febrile convulsion as complex.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A single 12-minute seizure in a child who has a first-degree relative with a history of febrile seizures.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Family history is a risk factor for recurrence but does not change the classification of the seizure itself if it meets simple criteria.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A seizure occurring in a 2-year-old child that resolves fully within 5 minutes.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This fits all the criteria for a simple febrile convulsion: typical age, brief duration, and full recovery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_065.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to seizure and collapse assessment in acute paediatric presentations.",
+      "mappingKey": "notebook:quiz_065",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.026Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.026Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

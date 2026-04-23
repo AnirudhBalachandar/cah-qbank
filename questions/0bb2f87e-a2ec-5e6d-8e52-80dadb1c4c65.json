@@ -1,0 +1,202 @@
+{
+  "id": "0bb2f87e-a2ec-5e6d-8e52-80dadb1c4c65",
+  "stem": "Which of the following is a role of 'hind milk' in the digestion of lactose in infants?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It contains fat which slows down the rate of absorption",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It provides the high concentration of carbohydrates needed for energy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It contains concentrated lactase enzymes for the baby",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It neutralizes the acidity caused by lactose fermentation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The high fat content of hind milk delays gastric emptying and transit, providing more time for the lactase enzyme to break down lactose.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_007.json",
+      "title": "Lactase Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/lactase-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-0bb2f87ea2ec9e6dce5280da",
+  "rationale": "Think about how the fat content affects the speed of the digestive process.",
+  "optionExplanations": {
+    "A": "The high fat content of hind milk delays gastric emptying and transit, providing more time for the lactase enzyme to break down lactose.",
+    "B": "It is the foremilk, not the hind milk, that is described as being particularly carbohydrate-rich.",
+    "C": "Lactase is produced by the baby's own small bowel; the milk provides the lactose, not the enzyme.",
+    "D": "The role of hind milk is physical/mechanical (slowing digestion) rather than a chemical neutralization of acid."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_007",
+    "sourceQuestionIdentifier": "007_q007",
+    "quizTitle": "Lactase Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "It contains fat which slows down the rate of absorption"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_007.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about how the fat content affects the speed of the digestive process.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_007_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_007",
+      "source_question_identifier": "007_q007",
+      "quiz_title": "Lactase Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which of the following is a role of 'hind milk' in the digestion of lactose in infants?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about how the fat content affects the speed of the digestive process.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "It contains fat which slows down the rate of absorption"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "It contains fat which slows down the rate of absorption",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The high fat content of hind milk delays gastric emptying and transit, providing more time for the lactase enzyme to break down lactose.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "It provides the high concentration of carbohydrates needed for energy",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "It is the foremilk, not the hind milk, that is described as being particularly carbohydrate-rich.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "It contains concentrated lactase enzymes for the baby",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Lactase is produced by the baby's own small bowel; the milk provides the lactose, not the enzyme.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It neutralizes the acidity caused by lactose fermentation",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The role of hind milk is physical/mechanical (slowing digestion) rather than a chemical neutralization of acid.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_007.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to lactose intolerance within common paediatric conditions.",
+      "mappingKey": "notebook:quiz_007",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.429Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.429Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

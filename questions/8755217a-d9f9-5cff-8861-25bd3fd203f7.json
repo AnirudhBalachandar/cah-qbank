@@ -1,0 +1,202 @@
+{
+  "id": "8755217a-d9f9-5cff-8861-25bd3fd203f7",
+  "stem": "In the context of non-epileptic (functional) seizures, what does the 'teddy bear sign' represent?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child curls into a fetal position during the peak of the motor activity.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An older child demonstrates regressive behavior and high dependency on a parent or comfort object.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child remains completely still and unresponsive, mimicking a 'playing dead' response.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The motor movements are soft and rhythmic, resembling a rocking motion.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The teddy bear sign refers to age-inappropriate attachment to comfort objects or regressive behaviors seen in some patients with functional seizures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_065.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-8755217ad9f9fcff086125bd",
+  "rationale": "Look for a sign related to the child's psychological state or developmental level relative to their actual age.",
+  "optionExplanations": {
+    "A": "While non-epileptic events have varied motor features, this specific term refers to a behavioral manifestation rather than a physical posture.",
+    "B": "The teddy bear sign refers to age-inappropriate attachment to comfort objects or regressive behaviors seen in some patients with functional seizures.",
+    "C": "This describes a behavioral arrest or a dissociation, but it is not the definition of the teddy bear sign.",
+    "D": "Functional seizures often involve flailing or pelvic thrusting, which are generally more chaotic than soft rocking."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_065",
+    "sourceQuestionIdentifier": "065_q003",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "An older child demonstrates regressive behavior and high dependency on a parent or comfort object."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_065.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a sign related to the child's psychological state or developmental level relative to their actual age.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_065_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_065",
+      "source_question_identifier": "065_q003",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "In the context of non-epileptic (functional) seizures, what does the 'teddy bear sign' represent?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a sign related to the child's psychological state or developmental level relative to their actual age.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "An older child demonstrates regressive behavior and high dependency on a parent or comfort object."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The child curls into a fetal position during the peak of the motor activity.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While non-epileptic events have varied motor features, this specific term refers to a behavioral manifestation rather than a physical posture.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "An older child demonstrates regressive behavior and high dependency on a parent or comfort object.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The teddy bear sign refers to age-inappropriate attachment to comfort objects or regressive behaviors seen in some patients with functional seizures.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The child remains completely still and unresponsive, mimicking a 'playing dead' response.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This describes a behavioral arrest or a dissociation, but it is not the definition of the teddy bear sign.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The motor movements are soft and rhythmic, resembling a rocking motion.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Functional seizures often involve flailing or pelvic thrusting, which are generally more chaotic than soft rocking.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_065.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to seizure and collapse assessment in acute paediatric presentations.",
+      "mappingKey": "notebook:quiz_065",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.768Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.768Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

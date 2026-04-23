@@ -1,0 +1,202 @@
+{
+  "id": "b5ed3d80-793b-5b57-a01a-e74dddd29501",
+  "stem": "What is the most likely cause of redness at the foreskin in a boy who is still wearing nappies, according to Professor Holland?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A true bacterial infection requiring systemic antibiotics.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Ammonia dermatitis caused by a reaction to urine.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The early onset of Balanitis Xerotica Obliterans.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The accumulation of retained smegma under the foreskin.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In boys still in nappies, redness is often a skin reaction to urine exposure, which is best managed with improved hygiene rather than antimicrobials.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_103.json",
+      "title": "Genitalia Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/genitalia-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-b5ed3d80793b9b57201ae74d",
+  "rationale": "Consider the environmental factors associated with wearing nappies and the chemical nature of urine.",
+  "optionExplanations": {
+    "A": "While infections occur, the source states that redness in nappy-wearing boys is often misinterpreted and is more frequently a localized skin reaction.",
+    "B": "In boys still in nappies, redness is often a skin reaction to urine exposure, which is best managed with improved hygiene rather than antimicrobials.",
+    "C": "BXO is a chronic inflammatory condition characterized by white scarring, whereas simple redness in an infant is typically related to nappy environment.",
+    "D": "Smegma typically appears as creamy colored cysts rather than diffuse redness of the foreskin tissue."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_103",
+    "sourceQuestionIdentifier": "103_q003",
+    "quizTitle": "Genitalia Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Ammonia dermatitis caused by a reaction to urine."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_103.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the environmental factors associated with wearing nappies and the chemical nature of urine.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_103_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_103",
+      "source_question_identifier": "103_q003",
+      "quiz_title": "Genitalia Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "What is the most likely cause of redness at the foreskin in a boy who is still wearing nappies, according to Professor Holland?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the environmental factors associated with wearing nappies and the chemical nature of urine.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Ammonia dermatitis caused by a reaction to urine."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A true bacterial infection requiring systemic antibiotics.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While infections occur, the source states that redness in nappy-wearing boys is often misinterpreted and is more frequently a localized skin reaction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Ammonia dermatitis caused by a reaction to urine.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "In boys still in nappies, redness is often a skin reaction to urine exposure, which is best managed with improved hygiene rather than antimicrobials.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The early onset of Balanitis Xerotica Obliterans.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "BXO is a chronic inflammatory condition characterized by white scarring, whereas simple redness in an infant is typically related to nappy environment.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The accumulation of retained smegma under the foreskin.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Smegma typically appears as creamy colored cysts rather than diffuse redness of the foreskin tissue.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_103.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Inguino-Scrotal and Penile pathology within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_103",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.897Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.897Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

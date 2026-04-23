@@ -1,0 +1,202 @@
+{
+  "id": "37056067-01ff-55eb-939f-36edc9e92aec",
+  "stem": "In the treatment of acute otitis media, what has research suggested regarding the use of pain relief compared to antibiotics?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Antibiotics are significantly more effective for most children regardless of age.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pain relief (NSAIDs/Paracetamol) is often better or adequate compared to antibiotics.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Antibiotics must always be used to prevent hearing loss in remote communities.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pain relief should be avoided as it masks signs of meningitis.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because many cases are viral or self-limiting, managing the symptoms of pain is a preferred and effective strategy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_035.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-3705606701ff45eb939f36ed",
+  "rationale": "Consider the shift toward symptomatic management for self-limiting infections.",
+  "optionExplanations": {
+    "A": "Studies have shown that antibiotics are often only minimally effective for the majority of children with this condition.",
+    "B": "Because many cases are viral or self-limiting, managing the symptoms of pain is a preferred and effective strategy.",
+    "C": "While the burden is high, the routine use of antibiotics is still a point of controversy and depends on clinical presentation like perforation.",
+    "D": "There is no recommendation to avoid analgesia; rather, it is encouraged as a primary management tool."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_035",
+    "sourceQuestionIdentifier": "035_q014",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 14,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Pain relief (NSAIDs/Paracetamol) is often better or adequate compared to antibiotics."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_035.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the shift toward symptomatic management for self-limiting infections.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_035_q014",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_035",
+      "source_question_identifier": "035_q014",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 15,
+      "question_index": 14,
+      "question_type": "",
+      "question_text": "In the treatment of acute otitis media, what has research suggested regarding the use of pain relief compared to antibiotics?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the shift toward symptomatic management for self-limiting infections.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Pain relief (NSAIDs/Paracetamol) is often better or adequate compared to antibiotics."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Antibiotics are significantly more effective for most children regardless of age.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Studies have shown that antibiotics are often only minimally effective for the majority of children with this condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Pain relief (NSAIDs/Paracetamol) is often better or adequate compared to antibiotics.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Because many cases are viral or self-limiting, managing the symptoms of pain is a preferred and effective strategy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Antibiotics must always be used to prevent hearing loss in remote communities.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While the burden is high, the routine use of antibiotics is still a point of controversy and depends on clinical presentation like perforation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Pain relief should be avoided as it masks signs of meningitis.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "There is no recommendation to avoid analgesia; rather, it is encouraged as a primary management tool.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_035.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to core neonatal and early-life paediatric medicine content.",
+      "mappingKey": "notebook:quiz_035",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.575Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.575Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

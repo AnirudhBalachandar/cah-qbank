@@ -1,0 +1,202 @@
+{
+  "id": "f7479ccb-256e-5732-b507-a181a509c084",
+  "stem": "What is the primary hormonal mechanism behind 'pubertal gynecomastia' in boys?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A complete lack of testosterone production in mid-puberty.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Excessive intake of phytoestrogens from the diet.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The peripheral aromatization of testosterone to estradiol.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A surge in growth hormone that targets breast tissue specifically.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In mid-puberty, the balance between androgens and estrogens can shift as testosterone is converted to estradiol, stimulating breast tissue.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_060.json",
+      "title": "Puberty Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/adolescent-medicine",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/puberty-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-f7479ccb256e8732f507a181",
+  "rationale": "This process involves an enzyme that converts androgens into estrogens.",
+  "optionExplanations": {
+    "A": "Testosterone is present but is being converted into other hormones.",
+    "B": "While a common myth, the source identifies the internal conversion of hormones as the primary driver.",
+    "C": "In mid-puberty, the balance between androgens and estrogens can shift as testosterone is converted to estradiol, stimulating breast tissue.",
+    "D": "Growth hormone affects linear growth and muscle mass, but not the development of glandular breast tissue."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_060",
+    "sourceQuestionIdentifier": "060_q008",
+    "quizTitle": "Puberty Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The peripheral aromatization of testosterone to estradiol."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_060.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This process involves an enzyme that converts androgens into estrogens.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_060_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_060",
+      "source_question_identifier": "060_q008",
+      "quiz_title": "Puberty Quiz",
+      "quiz_question_count": 12,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "What is the primary hormonal mechanism behind 'pubertal gynecomastia' in boys?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This process involves an enzyme that converts androgens into estrogens.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The peripheral aromatization of testosterone to estradiol."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A complete lack of testosterone production in mid-puberty.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Testosterone is present but is being converted into other hormones.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Excessive intake of phytoestrogens from the diet.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While a common myth, the source identifies the internal conversion of hormones as the primary driver.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The peripheral aromatization of testosterone to estradiol.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "In mid-puberty, the balance between androgens and estrogens can shift as testosterone is converted to estradiol, stimulating breast tissue.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A surge in growth hormone that targets breast tissue specifically.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Growth hormone affects linear growth and muscle mass, but not the development of glandular breast tissue.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_060.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Adolescent Medicine",
+      "reason": "Mapped to puberty and maturation within Adolescent Health.",
+      "mappingKey": "notebook:quiz_060",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.046Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.046Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

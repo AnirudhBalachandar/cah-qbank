@@ -1,0 +1,202 @@
+{
+  "id": "8ea13b2f-d891-571a-b70f-1490b4ad6fc6",
+  "stem": "Japanese Encephalitis vaccination is specifically recommended for which of the following groups in Australia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Residents of the outer Torres Strait Islands.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "All Aboriginal and Torres Strait Islander people nationally.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Healthcare workers in remote communities.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pre-term infants born in northern Queensland.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This region has a unique epidemiology for Japanese Encephalitis that differs from the Australian mainland.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_029.json",
+      "title": "Immunization Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/immunization-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-8ea13b2fd891171a770f1490",
+  "rationale": "The disease is rarely seen on the Australian mainland, focusing the vaccine requirement on specific islands.",
+  "optionExplanations": {
+    "A": "This region has a unique epidemiology for Japanese Encephalitis that differs from the Australian mainland.",
+    "B": "While many vaccines are national, Japanese Encephalitis is restricted to specific high-risk geographic areas.",
+    "C": "Recommendations are based on geographic risk and residence in affected areas rather than occupation alone in this context.",
+    "D": "Prematurity itself is not the indication for this specific travel/regional vaccine; geographic location for older residents is the key."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_029",
+    "sourceQuestionIdentifier": "029_q014",
+    "quizTitle": "Immunization Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 14,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Residents of the outer Torres Strait Islands."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_029.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The disease is rarely seen on the Australian mainland, focusing the vaccine requirement on specific islands.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_029_q014",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_029",
+      "source_question_identifier": "029_q014",
+      "quiz_title": "Immunization Quiz",
+      "quiz_question_count": 15,
+      "question_index": 14,
+      "question_type": "",
+      "question_text": "Japanese Encephalitis vaccination is specifically recommended for which of the following groups in Australia?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The disease is rarely seen on the Australian mainland, focusing the vaccine requirement on specific islands.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Residents of the outer Torres Strait Islands."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Residents of the outer Torres Strait Islands.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This region has a unique epidemiology for Japanese Encephalitis that differs from the Australian mainland.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "All Aboriginal and Torres Strait Islander people nationally.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While many vaccines are national, Japanese Encephalitis is restricted to specific high-risk geographic areas.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Healthcare workers in remote communities.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Recommendations are based on geographic risk and residence in affected areas rather than occupation alone in this context.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Pre-term infants born in northern Queensland.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Prematurity itself is not the indication for this specific travel/regional vaccine; geographic location for older residents is the key.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_029.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Infectious Disease and Immunization.",
+      "mappingKey": "notebook:quiz_029",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.786Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.786Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

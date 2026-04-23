@@ -1,0 +1,202 @@
+{
+  "id": "5cef463b-8178-523a-946b-662cd592cef0",
+  "stem": "A child presents with translucent-looking teeth that chip easily and blue sclerae in the eyes. What is the likely dental diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Dentinogenesis imperfecta.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Amelogenesis imperfecta.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Active dental caries.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ectodermal dysplasia.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Dentinogenesis imperfecta involves poorly formed dentine where enamel flakes off, and it is frequently seen in patients with osteogenesis imperfecta.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_085.json",
+      "title": "Oral Medicine Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/oral-medicine-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-5cef463b8178f23a946b662c",
+  "rationale": "This condition affects the 'bone of the tooth' or dentine layer.",
+  "optionExplanations": {
+    "A": "Dentinogenesis imperfecta involves poorly formed dentine where enamel flakes off, and it is frequently seen in patients with osteogenesis imperfecta.",
+    "B": "While similar in name, the source specifically describes dentinogenesis imperfecta in the context of poorly formed 'bone of the tooth' and blue sclerae.",
+    "C": "Caries involves decay from bacteria and acid, appearing yellow-brown, whereas this condition is a structural developmental defect.",
+    "D": "Ectodermal dysplasia typically presents with missing or conical teeth rather than translucent teeth that chip away from the dentine."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_085",
+    "sourceQuestionIdentifier": "085_q005",
+    "quizTitle": "Oral Medicine Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Dentinogenesis imperfecta."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_085.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This condition affects the 'bone of the tooth' or dentine layer.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_085_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_085",
+      "source_question_identifier": "085_q005",
+      "quiz_title": "Oral Medicine Quiz",
+      "quiz_question_count": 15,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "A child presents with translucent-looking teeth that chip easily and blue sclerae in the eyes. What is the likely dental diagnosis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This condition affects the 'bone of the tooth' or dentine layer.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Dentinogenesis imperfecta."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Dentinogenesis imperfecta.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Dentinogenesis imperfecta involves poorly formed dentine where enamel flakes off, and it is frequently seen in patients with osteogenesis imperfecta.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Amelogenesis imperfecta.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While similar in name, the source specifically describes dentinogenesis imperfecta in the context of poorly formed 'bone of the tooth' and blue sclerae.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Active dental caries.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Caries involves decay from bacteria and acid, appearing yellow-brown, whereas this condition is a structural developmental defect.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Ectodermal dysplasia.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Ectodermal dysplasia typically presents with missing or conical teeth rather than translucent teeth that chip away from the dentine.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_085.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to oral and maxillofacial/dental pathology in children.",
+      "mappingKey": "notebook:quiz_085",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.656Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.656Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

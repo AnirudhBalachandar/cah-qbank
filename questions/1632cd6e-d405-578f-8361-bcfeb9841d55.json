@@ -1,0 +1,202 @@
+{
+  "id": "1632cd6e-d405-578f-8361-bcfeb9841d55",
+  "stem": "A child presents with a faint rash and swelling of the salivary glands 8 days after receiving the MMR vaccine. What is the most likely explanation based on the source material?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child has developed an immediate allergic reaction to the vaccine components.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The live attenuated vaccine is mimicking a mild version of the infection.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child has contracted a bacterial infection unrelated to the vaccine.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "This is an immunization error caused by improper storage of the vaccine.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because MMR is a live vaccine, it can cause a delayed measles-like illness approximately 7 to 10 days post-vaccination.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_028.json",
+      "title": "Adverse Events Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/adverse-events-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-1632cd6ed405678fc361bcfe",
+  "rationale": "Think about the characteristics of live attenuated vaccines and the typical incubation period for these types of reactions.",
+  "optionExplanations": {
+    "A": "Immediate allergies occur within hours, not 8 days later, and present with different symptoms like hives.",
+    "B": "Because MMR is a live vaccine, it can cause a delayed measles-like illness approximately 7 to 10 days post-vaccination.",
+    "C": "While possible, the specific timing and symptoms are classic side effects of the live attenuated MMR vaccine.",
+    "D": "Storage errors usually result in reduced efficacy rather than these specific delayed clinical symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_028",
+    "sourceQuestionIdentifier": "028_q006",
+    "quizTitle": "Adverse Events Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The live attenuated vaccine is mimicking a mild version of the infection."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_028.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the characteristics of live attenuated vaccines and the typical incubation period for these types of reactions.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_028_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_028",
+      "source_question_identifier": "028_q006",
+      "quiz_title": "Adverse Events Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "A child presents with a faint rash and swelling of the salivary glands 8 days after receiving the MMR vaccine. What is the most likely explanation based on the source material?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the characteristics of live attenuated vaccines and the typical incubation period for these types of reactions.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The live attenuated vaccine is mimicking a mild version of the infection."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The child has developed an immediate allergic reaction to the vaccine components.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Immediate allergies occur within hours, not 8 days later, and present with different symptoms like hives.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The live attenuated vaccine is mimicking a mild version of the infection.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Because MMR is a live vaccine, it can cause a delayed measles-like illness approximately 7 to 10 days post-vaccination.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The child has contracted a bacterial infection unrelated to the vaccine.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While possible, the specific timing and symptoms are classic side effects of the live attenuated MMR vaccine.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "This is an immunization error caused by improper storage of the vaccine.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Storage errors usually result in reduced efficacy rather than these specific delayed clinical symptoms.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_028.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to immunization and adverse-event content within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_028",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.462Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.462Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

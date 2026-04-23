@@ -1,0 +1,202 @@
+{
+  "id": "6092b57b-f1c1-550e-bf6d-81ab3cbf7c7d",
+  "stem": "What is a primary benefit of biological agents like omalizumab in managing food allergies?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They can increase the reaction threshold for multiple food allergens simultaneously.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They provide a permanent cure for all food allergies after a 16-week course.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They replace the need for carrying an adrenaline auto-injector.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are administered as a simple daily oral tablet.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Unlike oral immunotherapy, omalizumab is not food-specific and can protect against accidental exposure to various allergens.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_032.json",
+      "title": "Allergy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/allergy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6092b57bf1c1850eff6d81ab",
+  "rationale": "Consider the difference between a treatment that targets one specific food versus one that 'dampens' the overall immune response.",
+  "optionExplanations": {
+    "A": "Unlike oral immunotherapy, omalizumab is not food-specific and can protect against accidental exposure to various allergens.",
+    "B": "While effective during treatment, they do not currently represent a permanent cure for the underlying allergy.",
+    "C": "Even with biological treatment, patients must still practice avoidance and carry emergency medication for accidental exposures.",
+    "D": "Omalizumab is administered as a subcutaneous injection every two to four weeks."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_032",
+    "sourceQuestionIdentifier": "032_q009",
+    "quizTitle": "Allergy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "They can increase the reaction threshold for multiple food allergens simultaneously."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_032.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the difference between a treatment that targets one specific food versus one that 'dampens' the overall immune response.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_032_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_032",
+      "source_question_identifier": "032_q009",
+      "quiz_title": "Allergy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "What is a primary benefit of biological agents like omalizumab in managing food allergies?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the difference between a treatment that targets one specific food versus one that 'dampens' the overall immune response.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "They can increase the reaction threshold for multiple food allergens simultaneously."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "They can increase the reaction threshold for multiple food allergens simultaneously.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Unlike oral immunotherapy, omalizumab is not food-specific and can protect against accidental exposure to various allergens.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "They provide a permanent cure for all food allergies after a 16-week course.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While effective during treatment, they do not currently represent a permanent cure for the underlying allergy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "They replace the need for carrying an adrenaline auto-injector.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Even with biological treatment, patients must still practice avoidance and carry emergency medication for accidental exposures.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "They are administered as a simple daily oral tablet.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Omalizumab is administered as a subcutaneous injection every two to four weeks.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_032.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Adverse Food Reaction and allergy within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_032",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.663Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.663Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

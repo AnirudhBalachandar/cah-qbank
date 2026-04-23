@@ -1,0 +1,202 @@
+{
+  "id": "90428cec-a681-5ae7-b497-98007a8d0585",
+  "stem": "Which long-term complication is specifically associated with the use of anthracycline chemotherapy drugs?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ototoxicity (hearing loss)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Cardiac muscle damage",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Precocious puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Reduced lung capacity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Anthracyclines are known to have potential cardiotoxic effects that may lead to heart failure years after treatment ends.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_072.json",
+      "title": "Oncology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/oncology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-90428ceca681fae774979800",
+  "rationale": "Focus on the organ responsible for systemic circulation.",
+  "optionExplanations": {
+    "A": "Hearing loss is a side effect of other chemotherapy classes (like platinums), but not the primary concern with anthracyclines.",
+    "B": "Anthracyclines are known to have potential cardiotoxic effects that may lead to heart failure years after treatment ends.",
+    "C": "This is more likely a result of radiotherapy affecting the pituitary gland rather than a direct effect of anthracyclines.",
+    "D": "While some drugs affect the lungs, the classic association for anthracyclines in long-term follow-up is heart function."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_072",
+    "sourceQuestionIdentifier": "072_q010",
+    "quizTitle": "Oncology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Cardiac muscle damage"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_072.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the organ responsible for systemic circulation.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_072_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_072",
+      "source_question_identifier": "072_q010",
+      "quiz_title": "Oncology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Which long-term complication is specifically associated with the use of anthracycline chemotherapy drugs?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the organ responsible for systemic circulation.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Cardiac muscle damage"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Ototoxicity (hearing loss)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hearing loss is a side effect of other chemotherapy classes (like platinums), but not the primary concern with anthracyclines.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Cardiac muscle damage",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Anthracyclines are known to have potential cardiotoxic effects that may lead to heart failure years after treatment ends.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Precocious puberty",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is more likely a result of radiotherapy affecting the pituitary gland rather than a direct effect of anthracyclines.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Reduced lung capacity",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While some drugs affect the lungs, the classic association for anthracyclines in long-term follow-up is heart function.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_072.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to oncology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_072",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.793Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.793Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

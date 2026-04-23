@@ -1,0 +1,202 @@
+{
+  "id": "028d4cda-1f17-57e8-a95e-81df2db7bf54",
+  "stem": "According to the source, why might a child with neurological conditions be predisposed to a chronic cough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immune deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pulmonary aspiration",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Structural airway malformation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Environmental tobacco exposure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Neurological conditions can lead to poor swallowing, which in turn causes pulmonary aspiration and a subsequent chronic cough.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_018.json",
+      "title": "Pediatric Respiratory Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-respiratory-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-028d4cda1f1707e8e95e81df",
+  "rationale": "Focus on the complications that arise from an inability to swallow correctly.",
+  "optionExplanations": {
+    "A": "While some children have immune deficiencies, the text specifically links neurological conditions to a different mechanical issue.",
+    "B": "Neurological conditions can lead to poor swallowing, which in turn causes pulmonary aspiration and a subsequent chronic cough.",
+    "C": "Airway malformations like bronchomalacia are separate lesions and not directly caused by neurological status.",
+    "D": "While smoking is a cause of chronic cough, it is an external factor rather than a physiological consequence of a neurological condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_018",
+    "sourceQuestionIdentifier": "018_q009",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Pulmonary aspiration"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_018.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the complications that arise from an inability to swallow correctly.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_018_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_018",
+      "source_question_identifier": "018_q009",
+      "quiz_title": "Pediatric Respiratory Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "According to the source, why might a child with neurological conditions be predisposed to a chronic cough?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the complications that arise from an inability to swallow correctly.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Pulmonary aspiration"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Immune deficiency",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While some children have immune deficiencies, the text specifically links neurological conditions to a different mechanical issue.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Pulmonary aspiration",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Neurological conditions can lead to poor swallowing, which in turn causes pulmonary aspiration and a subsequent chronic cough.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Structural airway malformation",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Airway malformations like bronchomalacia are separate lesions and not directly caused by neurological status.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Environmental tobacco exposure",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While smoking is a cause of chronic cough, it is an external factor rather than a physiological consequence of a neurological condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_018.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_018",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.383Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.383Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

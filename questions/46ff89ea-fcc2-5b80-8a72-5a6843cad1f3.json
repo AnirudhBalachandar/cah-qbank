@@ -1,0 +1,202 @@
+{
+  "id": "46ff89ea-fcc2-5b80-8a72-5a6843cad1f3",
+  "stem": "A child presents with watery diarrhea and a calculated stool osmotic gap of $120 \\text{ mOsm/kg}$. Which clinical feature is most likely associated with this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The diarrhea stops when the child is placed nil by mouth (fasting).",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The diarrhea continues at the same volume even during fasting.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Stool microscopy shows a high concentration of leukocytes and red cells.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The stool pH is likely neutral or slightly alkaline.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An osmotic gap greater than $100$ indicates osmotic diarrhea, which typically resolves when the ingestion of the non-absorbed solute ceases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_026.json",
+      "title": "Gastroenterology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/gastroenterology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-46ff89eafcc2cb804a725a68",
+  "rationale": "Recall how the presence or absence of oral intake affects different types of watery diarrhea.",
+  "optionExplanations": {
+    "A": "An osmotic gap greater than $100$ indicates osmotic diarrhea, which typically resolves when the ingestion of the non-absorbed solute ceases.",
+    "B": "This pattern is characteristic of secretory diarrhea, which is associated with an osmotic gap of less than $50$.",
+    "C": "Leukocytes and red cells are markers of inflammation or colitis, rather than a simple osmotic imbalance.",
+    "D": "Osmotic diarrhea caused by carbohydrate malabsorption usually results in acidic stools due to bacterial fermentation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_026",
+    "sourceQuestionIdentifier": "026_q004",
+    "quizTitle": "Gastroenterology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The diarrhea stops when the child is placed nil by mouth (fasting)."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_026.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall how the presence or absence of oral intake affects different types of watery diarrhea.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_026_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_026",
+      "source_question_identifier": "026_q004",
+      "quiz_title": "Gastroenterology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "A child presents with watery diarrhea and a calculated stool osmotic gap of $120 \\text{ mOsm/kg}$. Which clinical feature is most likely associated with this finding?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall how the presence or absence of oral intake affects different types of watery diarrhea.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The diarrhea stops when the child is placed nil by mouth (fasting)."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The diarrhea stops when the child is placed nil by mouth (fasting).",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "An osmotic gap greater than $100$ indicates osmotic diarrhea, which typically resolves when the ingestion of the non-absorbed solute ceases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The diarrhea continues at the same volume even during fasting.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This pattern is characteristic of secretory diarrhea, which is associated with an osmotic gap of less than $50$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Stool microscopy shows a high concentration of leukocytes and red cells.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Leukocytes and red cells are markers of inflammation or colitis, rather than a simple osmotic imbalance.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The stool pH is likely neutral or slightly alkaline.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Osmotic diarrhea caused by carbohydrate malabsorption usually results in acidic stools due to bacterial fermentation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_026.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Gastroenterology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_026",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.612Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.612Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

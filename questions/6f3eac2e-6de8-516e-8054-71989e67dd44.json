@@ -1,0 +1,202 @@
+{
+  "id": "6f3eac2e-6de8-516e-8054-71989e67dd44",
+  "stem": "When assessing for non-accidental injury (NAI), which of the following is considered a 'red flag' in the clinical history?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A delay in seeking medical attention",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The event occurred immediately after a feed",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The infant was in a supine position during the episode",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The parents called for an ambulance immediately",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Unexplained delays in bringing a child to the hospital after a significant event are concerning for potential maltreatment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_005.json",
+      "title": "BRUE Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/brue-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6f3eac2e6de8716e40547198",
+  "rationale": "Look for a behavior or timeline discrepancy that might suggest the caregiver is hesitant to involve medical professionals.",
+  "optionExplanations": {
+    "A": "Unexplained delays in bringing a child to the hospital after a significant event are concerning for potential maltreatment.",
+    "B": "Events following feeds are common in physiological BRUE and often suggest a gastroesophageal reflux response.",
+    "C": "Positioning is a standard part of the history and does not inherently suggest non-accidental injury.",
+    "D": "Promptly seeking emergency services is generally seen as a protective factor and appropriate parental response."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_005",
+    "sourceQuestionIdentifier": "005_q007",
+    "quizTitle": "BRUE Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A delay in seeking medical attention"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_005.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a behavior or timeline discrepancy that might suggest the caregiver is hesitant to involve medical professionals.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_005_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_005",
+      "source_question_identifier": "005_q007",
+      "quiz_title": "BRUE Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "When assessing for non-accidental injury (NAI), which of the following is considered a 'red flag' in the clinical history?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a behavior or timeline discrepancy that might suggest the caregiver is hesitant to involve medical professionals.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A delay in seeking medical attention"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A delay in seeking medical attention",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Unexplained delays in bringing a child to the hospital after a significant event are concerning for potential maltreatment.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The event occurred immediately after a feed",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Events following feeds are common in physiological BRUE and often suggest a gastroesophageal reflux response.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The infant was in a supine position during the episode",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Positioning is a standard part of the history and does not inherently suggest non-accidental injury.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The parents called for an ambulance immediately",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Promptly seeking emergency services is generally seen as a protective factor and appropriate parental response.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_005.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to BRUE under Acute Concerns in General Paediatrics.",
+      "mappingKey": "notebook:quiz_005",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.708Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.708Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

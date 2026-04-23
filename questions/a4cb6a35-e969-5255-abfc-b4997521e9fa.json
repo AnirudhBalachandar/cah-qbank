@@ -1,0 +1,202 @@
+{
+  "id": "a4cb6a35-e969-5255-abfc-b4997521e9fa",
+  "stem": "If a urine culture from a child reveals the presence of $Pseudomonas$, what is the clinical significance according to the source material?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is a common gram-positive organism that typically indicates skin contamination.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It suggests the child likely has a normal renal tract and just requires standard antibiotics.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It strongly suggests the presence of an underlying anomaly in the renal tract.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It indicates the infection is likely limited to the lower urinary tract (cystitis).",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because $Pseudomonas$ rarely infects healthy urinary systems, its presence warrants a close investigation for structural or functional abnormalities.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_042.json",
+      "title": "UTI Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/uti-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a4cb6a35e969f2552bfcb499",
+  "rationale": "Think about whether this specific bug is typically found in anatomically healthy urinary systems.",
+  "optionExplanations": {
+    "A": "$Pseudomonas$ is a gram-negative organism, and gram-positive organisms like $Staphylococcus$ are the ones usually associated with contamination.",
+    "B": "The source states it is uncommon for children with normal urinary tracts to develop $Pseudomonas$ infections.",
+    "C": "Because $Pseudomonas$ rarely infects healthy urinary systems, its presence warrants a close investigation for structural or functional abnormalities.",
+    "D": "The organism type relates more to the likelihood of tract anomalies than the anatomical height of the infection itself."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_042",
+    "sourceQuestionIdentifier": "042_q002",
+    "quizTitle": "UTI Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "It strongly suggests the presence of an underlying anomaly in the renal tract."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_042.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about whether this specific bug is typically found in anatomically healthy urinary systems.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_042_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_042",
+      "source_question_identifier": "042_q002",
+      "quiz_title": "UTI Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "If a urine culture from a child reveals the presence of $Pseudomonas$, what is the clinical significance according to the source material?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about whether this specific bug is typically found in anatomically healthy urinary systems.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "It strongly suggests the presence of an underlying anomaly in the renal tract."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "It is a common gram-positive organism that typically indicates skin contamination.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "$Pseudomonas$ is a gram-negative organism, and gram-positive organisms like $Staphylococcus$ are the ones usually associated with contamination.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "It suggests the child likely has a normal renal tract and just requires standard antibiotics.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source states it is uncommon for children with normal urinary tracts to develop $Pseudomonas$ infections.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "It strongly suggests the presence of an underlying anomaly in the renal tract.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Because $Pseudomonas$ rarely infects healthy urinary systems, its presence warrants a close investigation for structural or functional abnormalities.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It indicates the infection is likely limited to the lower urinary tract (cystitis).",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The organism type relates more to the likelihood of tract anomalies than the anatomical height of the infection itself.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_042.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_042",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.852Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.852Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

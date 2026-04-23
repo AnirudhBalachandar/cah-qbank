@@ -1,0 +1,202 @@
+{
+  "id": "78ecab32-5ca5-51fa-a958-043bff0bbf60",
+  "stem": "Which of these is considered an 'absolute indicator' for a referral regarding language development?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "No single words by 12 months of age.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "No two-word combinations by 24 months of age.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Speaking with an unusual accent or voice quality.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Difficulty pronouncing certain consonant sounds.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explicitly lists the absence of two-word communications by age two as an absolute indicator for referral.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_054.json",
+      "title": "Autism Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/autism-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-78ecab325ca511fa2958043b",
+  "rationale": "Consider the specific age-based threshold for combining words mentioned by the doctor.",
+  "optionExplanations": {
+    "A": "The source specifies a later age threshold (18 months) for the total lack of single words.",
+    "B": "The source explicitly lists the absence of two-word communications by age two as an absolute indicator for referral.",
+    "C": "While an odd voice quality is a communication flag, it is not listed as one of the 'absolute' language milestones for referral.",
+    "D": "Articulation issues are common in development and are not specified as a core autism referral indicator in the material."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_054",
+    "sourceQuestionIdentifier": "054_q003",
+    "quizTitle": "Autism Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "No two-word combinations by 24 months of age."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_054.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the specific age-based threshold for combining words mentioned by the doctor.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_054_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_054",
+      "source_question_identifier": "054_q003",
+      "quiz_title": "Autism Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "Which of these is considered an 'absolute indicator' for a referral regarding language development?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the specific age-based threshold for combining words mentioned by the doctor.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "No two-word combinations by 24 months of age."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "No single words by 12 months of age.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source specifies a later age threshold (18 months) for the total lack of single words.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "No two-word combinations by 24 months of age.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source explicitly lists the absence of two-word communications by age two as an absolute indicator for referral.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Speaking with an unusual accent or voice quality.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While an odd voice quality is a communication flag, it is not listed as one of the 'absolute' language milestones for referral.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Difficulty pronouncing certain consonant sounds.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Articulation issues are common in development and are not specified as a core autism referral indicator in the material.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_054.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to Autism Spectrum Disorder within Community/Developmental Paediatrics.",
+      "mappingKey": "notebook:quiz_054",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.737Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.737Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

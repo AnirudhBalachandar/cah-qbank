@@ -1,0 +1,202 @@
+{
+  "id": "d862fc54-03df-5936-a6c1-c28423903ea1",
+  "stem": "What is described as the highest cause of morbidity among Australian children, often overlooked by clinicians?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Measles",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Dental disease (decay)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Whooping cough",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Meningococcal disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "With 55% of six-year-olds experiencing decay, it represents a widespread and significant health burden.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_035.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d862fc5403dfc936a6c1c284",
+  "rationale": "It involves the interplay of oral bacteria, carbohydrates, and saliva.",
+  "optionExplanations": {
+    "A": "Measles is rare in Australia due to high vaccination, though outbreaks occur; it is not the leading cause of ongoing morbidity.",
+    "B": "With 55% of six-year-olds experiencing decay, it represents a widespread and significant health burden.",
+    "C": "While severe, pertussis occurs in cycles and is not as ubiquitous as dental issues across the entire population.",
+    "D": "This is a serious but low-incidence disease, not the highest cause of general morbidity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_035",
+    "sourceQuestionIdentifier": "035_q015",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 15,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Dental disease (decay)"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_035.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "It involves the interplay of oral bacteria, carbohydrates, and saliva.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_035_q015",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_035",
+      "source_question_identifier": "035_q015",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 15,
+      "question_index": 15,
+      "question_type": "",
+      "question_text": "What is described as the highest cause of morbidity among Australian children, often overlooked by clinicians?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "It involves the interplay of oral bacteria, carbohydrates, and saliva.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Dental disease (decay)"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Measles",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Measles is rare in Australia due to high vaccination, though outbreaks occur; it is not the leading cause of ongoing morbidity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Dental disease (decay)",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "With 55% of six-year-olds experiencing decay, it represents a widespread and significant health burden.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Whooping cough",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While severe, pertussis occurs in cycles and is not as ubiquitous as dental issues across the entire population.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Meningococcal disease",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is a serious but low-incidence disease, not the highest cause of general morbidity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_035.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to core neonatal and early-life paediatric medicine content.",
+      "mappingKey": "notebook:quiz_035",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.983Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.983Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

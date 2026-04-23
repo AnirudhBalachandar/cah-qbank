@@ -1,0 +1,202 @@
+{
+  "id": "d70cfc35-13b9-5125-84e7-50bb2eb6553a",
+  "stem": "According to the presentation, what proportion of children who visit the emergency department for abdominal pain will typically require hospitalization?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$10\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$1/5$",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$1/2$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$1/3$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that approximately $20\\%$ (or $1/5$) of children presenting with abdominal pain will require hospitalization for pain relief, investigations, or surgery.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_047.json",
+      "title": "Clinical Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/clinical-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d70cfc3513b9212504e750bb",
+  "rationale": "Consider the percentage of the $20\\%$ of all children who visit the emergency department for this issue.",
+  "optionExplanations": {
+    "A": "While $10\\%$ of children may suffer from recurrent abdominal pain, a higher percentage of acute presentations require admission for investigations or surgery.",
+    "B": "The source states that approximately $20\\%$ (or $1/5$) of children presenting with abdominal pain will require hospitalization for pain relief, investigations, or surgery.",
+    "C": "This suggests a $50\\%$ hospitalization rate, which is significantly higher than the $20\\%$ cited for pediatric abdominal pain presentations.",
+    "D": "Although roughly one-third of cases might require imaging for an obvious diagnosis, the hospitalization rate is specifically noted as $20\\%$."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_047",
+    "sourceQuestionIdentifier": "047_q001",
+    "quizTitle": "Clinical Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$1/5$"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_047.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the percentage of the $20\\%$ of all children who visit the emergency department for this issue.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_047_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_047",
+      "source_question_identifier": "047_q001",
+      "quiz_title": "Clinical Quiz",
+      "quiz_question_count": 12,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "According to the presentation, what proportion of children who visit the emergency department for abdominal pain will typically require hospitalization?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the percentage of the $20\\%$ of all children who visit the emergency department for this issue.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$1/5$"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "$10\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While $10\\%$ of children may suffer from recurrent abdominal pain, a higher percentage of acute presentations require admission for investigations or surgery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$1/5$",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source states that approximately $20\\%$ (or $1/5$) of children presenting with abdominal pain will require hospitalization for pain relief, investigations, or surgery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "$1/2$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This suggests a $50\\%$ hospitalization rate, which is significantly higher than the $20\\%$ cited for pediatric abdominal pain presentations.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$1/3$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Although roughly one-third of cases might require imaging for an obvious diagnosis, the hospitalization rate is specifically noted as $20\\%$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_047.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to surgical abdominal pain and acute abdominal assessment within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_047",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.977Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.977Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

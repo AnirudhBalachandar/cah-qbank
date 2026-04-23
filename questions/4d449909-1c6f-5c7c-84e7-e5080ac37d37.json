@@ -1,0 +1,202 @@
+{
+  "id": "4d449909-1c6f-5c7c-84e7-e5080ac37d37",
+  "stem": "What is the primary mode of inheritance for cystic fibrosis (CF)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Autosomal recessive",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Autosomal dominant",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "X-linked recessive",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Mitochondrial inheritance",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "CF occurs when an individual inherits two copies of the defective gene, one from each parent, making it a classic recessive trait.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_017.json",
+      "title": "CF Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/cf-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-4d4499091c6fcc7cc4e7e508",
+  "rationale": "Consider how both parents must be carriers for a child to manifest the condition.",
+  "optionExplanations": {
+    "A": "CF occurs when an individual inherits two copies of the defective gene, one from each parent, making it a classic recessive trait.",
+    "B": "If CF were dominant, a single copy of the gene would cause the condition, which would result in a much higher prevalence and a different family pedigree pattern.",
+    "C": "X-linked conditions typically affect males more frequently than females; however, CF affects both sexes equally as the gene is located on an autosome.",
+    "D": "Mitochondrial conditions are passed exclusively from the mother, whereas the CFTR gene is located on chromosome $7$."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_017",
+    "sourceQuestionIdentifier": "017_q001",
+    "quizTitle": "CF Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Autosomal recessive"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_017.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider how both parents must be carriers for a child to manifest the condition.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_017_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_017",
+      "source_question_identifier": "017_q001",
+      "quiz_title": "CF Quiz",
+      "quiz_question_count": 12,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "What is the primary mode of inheritance for cystic fibrosis (CF)?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider how both parents must be carriers for a child to manifest the condition.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Autosomal recessive"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Autosomal recessive",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "CF occurs when an individual inherits two copies of the defective gene, one from each parent, making it a classic recessive trait.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Autosomal dominant",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "If CF were dominant, a single copy of the gene would cause the condition, which would result in a much higher prevalence and a different family pedigree pattern.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "X-linked recessive",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "X-linked conditions typically affect males more frequently than females; however, CF affects both sexes equally as the gene is located on an autosome.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Mitochondrial inheritance",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Mitochondrial conditions are passed exclusively from the mother, whereas the CFTR gene is located on chromosome $7$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_017.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health via cystic fibrosis content.",
+      "mappingKey": "notebook:quiz_017",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.625Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.625Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

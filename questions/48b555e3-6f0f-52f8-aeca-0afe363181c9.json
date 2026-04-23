@@ -1,0 +1,202 @@
+{
+  "id": "48b555e3-6f0f-52f8-aeca-0afe363181c9",
+  "stem": "In the context of MRSA skin infections in areas like Dubbo, what is the recommended empiric therapy mentioned in the source?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Clindamycin or Cotrimoxazole",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Standard Penicillin G",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Amoxicillin with Clavulanic Acid",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Topical antifungal creams",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Due to high rates of multi-resistant Staphylococcus aureus, these specific antibiotics are used as first-line empiric treatments.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_023.json",
+      "title": "Indigenous Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/indigenous-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-48b555e36f0f72f86eca0afe",
+  "rationale": "The treatment must target multi-resistant Staphylococcus aureus (MRSA).",
+  "optionExplanations": {
+    "A": "Due to high rates of multi-resistant Staphylococcus aureus, these specific antibiotics are used as first-line empiric treatments.",
+    "B": "Penicillin is typically used for Streptococcal infections and is ineffective against MRSA.",
+    "C": "While common for many infections, it is often ineffective against the multi-resistant strains of Staph found in these regions.",
+    "D": "The infections described are bacterial (Staph and Strep), so antifungal treatments would be inappropriate."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_023",
+    "sourceQuestionIdentifier": "023_q005",
+    "quizTitle": "Indigenous Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Clindamycin or Cotrimoxazole"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_023.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The treatment must target multi-resistant Staphylococcus aureus (MRSA).",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_023_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_023",
+      "source_question_identifier": "023_q005",
+      "quiz_title": "Indigenous Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "In the context of MRSA skin infections in areas like Dubbo, what is the recommended empiric therapy mentioned in the source?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The treatment must target multi-resistant Staphylococcus aureus (MRSA).",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Clindamycin or Cotrimoxazole"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Clindamycin or Cotrimoxazole",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Due to high rates of multi-resistant Staphylococcus aureus, these specific antibiotics are used as first-line empiric treatments.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Standard Penicillin G",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Penicillin is typically used for Streptococcal infections and is ineffective against MRSA.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Amoxicillin with Clavulanic Acid",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While common for many infections, it is often ineffective against the multi-resistant strains of Staph found in these regions.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Topical antifungal creams",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The infections described are bacterial (Staph and Strep), so antifungal treatments would be inappropriate.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_023.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to Indigenous Health within the community-based branch.",
+      "mappingKey": "notebook:quiz_023",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.615Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.615Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

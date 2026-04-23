@@ -1,0 +1,202 @@
+{
+  "id": "d5510c5f-16dc-5a5d-a054-2727b91e65d7",
+  "stem": "At what point does a persistent middle ear effusion after an acute infection transition to being classified as 'Otitis Media with Effusion' (glue ear)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "After $12$ weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "After $4$ weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Once the fluid becomes thick and 'glue-like'",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Immediately after the fever and pain of the acute infection subside",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source specifies that if fluid is still present after $12$ weeks ($3$ months), it is called otitis media with effusion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_002.json",
+      "title": "Otology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/otology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d5510c5f16dcfa5da0542727",
+  "rationale": "This classification requires the effusion to persist for a specific number of months.",
+  "optionExplanations": {
+    "A": "The source specifies that if fluid is still present after $12$ weeks ($3$ months), it is called otitis media with effusion.",
+    "B": "At $4$ weeks, $40\\%$ of ears still have an effusion, but it is not yet classified as chronic 'glue ear'.",
+    "C": "The lecturer notes that whether the fluid is thick or thin has no predictive or diagnostic value for the classification.",
+    "D": "Effusion is normal immediately following AOM; the diagnosis of glue ear requires persistence over time."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_002",
+    "sourceQuestionIdentifier": "002_q011",
+    "quizTitle": "Otology Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 11,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "After $12$ weeks"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_002.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This classification requires the effusion to persist for a specific number of months.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_002_q011",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_002",
+      "source_question_identifier": "002_q011",
+      "quiz_title": "Otology Quiz",
+      "quiz_question_count": 15,
+      "question_index": 11,
+      "question_type": "",
+      "question_text": "At what point does a persistent middle ear effusion after an acute infection transition to being classified as 'Otitis Media with Effusion' (glue ear)?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This classification requires the effusion to persist for a specific number of months.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "After $12$ weeks"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "After $12$ weeks",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source specifies that if fluid is still present after $12$ weeks ($3$ months), it is called otitis media with effusion.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "After $4$ weeks",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "At $4$ weeks, $40\\%$ of ears still have an effusion, but it is not yet classified as chronic 'glue ear'.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Once the fluid becomes thick and 'glue-like'",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The lecturer notes that whether the fluid is thick or thin has no predictive or diagnostic value for the classification.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Immediately after the fever and pain of the acute infection subside",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Effusion is normal immediately following AOM; the diagnosis of glue ear requires persistence over time.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_002.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to the ENT (Paediatric) branch via otology.",
+      "mappingKey": "notebook:quiz_002",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.973Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.973Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "1cd4d609-d400-56a2-9e5b-8cafedee63a2",
+  "stem": "According to the source, what is the ideal method and duration for providing first aid to a burn?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Applying $15^{\\circ}C$ running water for 20 minutes.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immersing the patient in a swimming pool for at least 60 minutes.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Applying hydrogel pads for the first 3 hours.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Applying ice packs until the pain subsides.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Running water is experimentally superior to cold packs and should be applied for 20 minutes at approximately $15^{\\circ}C$ to reduce burn depth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_100.json",
+      "title": "Burns Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/burns-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-1cd4d609d400e6a21e5b8caf",
+  "rationale": "Focus on the specific temperature and the benefit of continuous flow over static cooling.",
+  "optionExplanations": {
+    "A": "Running water is experimentally superior to cold packs and should be applied for 20 minutes at approximately $15^{\\circ}C$ to reduce burn depth.",
+    "B": "While immersion is a backup if water is unavailable, 20 minutes of running water is the preferred duration and method.",
+    "C": "Hydrogels provide analgesia but do not provide adequate first aid cooling compared to running water.",
+    "D": "The source specifies cold running water rather than rotating cold packs, and ice can potentially cause further tissue damage."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_100",
+    "sourceQuestionIdentifier": "100_q002",
+    "quizTitle": "Burns Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Applying $15^{\\circ}C$ running water for 20 minutes."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_100.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the specific temperature and the benefit of continuous flow over static cooling.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_100_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_100",
+      "source_question_identifier": "100_q002",
+      "quiz_title": "Burns Quiz",
+      "quiz_question_count": 12,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "According to the source, what is the ideal method and duration for providing first aid to a burn?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the specific temperature and the benefit of continuous flow over static cooling.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Applying $15^{\\circ}C$ running water for 20 minutes."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Applying $15^{\\circ}C$ running water for 20 minutes.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Running water is experimentally superior to cold packs and should be applied for 20 minutes at approximately $15^{\\circ}C$ to reduce burn depth.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Immersing the patient in a swimming pool for at least 60 minutes.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While immersion is a backup if water is unavailable, 20 minutes of running water is the preferred duration and method.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Applying hydrogel pads for the first 3 hours.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hydrogels provide analgesia but do not provide adequate first aid cooling compared to running water.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Applying ice packs until the pain subsides.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source specifies cold running water rather than rotating cold packs, and ice can potentially cause further tissue damage.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_100.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Burns Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_100",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.490Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.490Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

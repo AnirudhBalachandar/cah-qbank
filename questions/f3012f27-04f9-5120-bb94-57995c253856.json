@@ -1,0 +1,202 @@
+{
+  "id": "f3012f27-04f9-5120-bb94-57995c253856",
+  "stem": "Why is head circumference monitoring most relevant during the first two years of life?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because the brain stops growing completely after age $2$.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Because the cranial sutures remain open, allowing the head to act as a 'pressure valve'.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Because measuring a toddler's head is easier than measuring an infant's head.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because hair growth is minimal during this period.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Open sutures allow changes in intracranial volume to be immediately reflected in the external head measurement.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_070.json",
+      "title": "Head Circumference Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/head-circumference-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-f3012f2704f9b1203b945799",
+  "rationale": "Consider the anatomical state of the skull bones during early childhood.",
+  "optionExplanations": {
+    "A": "The brain continues to grow and mature well after age $2$, though the rate of expansion slows significantly.",
+    "B": "Open sutures allow changes in intracranial volume to be immediately reflected in the external head measurement.",
+    "C": "Infants are usually easier to measure; toddlers are often less cooperative, and the clinical utility of the measurement decreases after suture fusion.",
+    "D": "Hair growth varies by individual and does not dictate the clinical relevance of measuring the underlying skull."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_070",
+    "sourceQuestionIdentifier": "070_q012",
+    "quizTitle": "Head Circumference Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 12,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Because the cranial sutures remain open, allowing the head to act as a 'pressure valve'."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_070.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the anatomical state of the skull bones during early childhood.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_070_q012",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_070",
+      "source_question_identifier": "070_q012",
+      "quiz_title": "Head Circumference Quiz",
+      "quiz_question_count": 12,
+      "question_index": 12,
+      "question_type": "",
+      "question_text": "Why is head circumference monitoring most relevant during the first two years of life?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the anatomical state of the skull bones during early childhood.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Because the cranial sutures remain open, allowing the head to act as a 'pressure valve'."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Because the brain stops growing completely after age $2$.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The brain continues to grow and mature well after age $2$, though the rate of expansion slows significantly.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Because the cranial sutures remain open, allowing the head to act as a 'pressure valve'.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Open sutures allow changes in intracranial volume to be immediately reflected in the external head measurement.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Because measuring a toddler's head is easier than measuring an infant's head.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Infants are usually easier to measure; toddlers are often less cooperative, and the clinical utility of the measurement decreases after suture fusion.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Because hair growth is minimal during this period.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hair growth varies by individual and does not dictate the clinical relevance of measuring the underlying skull.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_070.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to general paediatric growth and developmental assessment content.",
+      "mappingKey": "notebook:quiz_070",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.033Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.033Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "f7e4bc26-2e94-5ede-b2c8-7abb4c8f387d",
+  "stem": "Which of the following is a characteristic feature of an 'innocent' heart murmur in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Musical or vibratory quality",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Presence of a diastolic component",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Loudness graded at $4/6$ or higher",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Radiation to the axilla or back",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Innocent murmurs, such as Still's murmur, are typically described as having a musical, reed-like, or vibratory quality.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_052.json",
+      "title": "PEDIATRIC CARDIOLOGY QUIZ"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-cardiology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-f7e4bc262e941ede72c87abb",
+  "rationale": "Think about the unique acoustic description the lecturer used involving a 'reed' in a stream.",
+  "optionExplanations": {
+    "A": "Innocent murmurs, such as Still's murmur, are typically described as having a musical, reed-like, or vibratory quality.",
+    "B": "Diastolic murmurs are almost always pathological and are an exclusion criterion for an innocent murmur.",
+    "C": "A grade $4/6$ murmur is associated with a thrill, which indicates a pathological structural problem.",
+    "D": "Radiation of a murmur is a sign of pathology; innocent murmurs are generally localized."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_052",
+    "sourceQuestionIdentifier": "052_q007",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "quizQuestionCount": 12,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Musical or vibratory quality"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_052.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the unique acoustic description the lecturer used involving a 'reed' in a stream.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_052_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_052",
+      "source_question_identifier": "052_q007",
+      "quiz_title": "PEDIATRIC CARDIOLOGY QUIZ",
+      "quiz_question_count": 12,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which of the following is a characteristic feature of an 'innocent' heart murmur in a child?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the unique acoustic description the lecturer used involving a 'reed' in a stream.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Musical or vibratory quality"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Musical or vibratory quality",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Innocent murmurs, such as Still's murmur, are typically described as having a musical, reed-like, or vibratory quality.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Presence of a diastolic component",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Diastolic murmurs are almost always pathological and are an exclusion criterion for an innocent murmur.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Loudness graded at $4/6$ or higher",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A grade $4/6$ murmur is associated with a thrill, which indicates a pathological structural problem.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Radiation to the axilla or back",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Radiation of a murmur is a sign of pathology; innocent murmurs are generally localized.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_052.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Paediatric Cardiology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_052",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.047Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.047Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

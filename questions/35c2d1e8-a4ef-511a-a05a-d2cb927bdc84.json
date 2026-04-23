@@ -1,0 +1,202 @@
+{
+  "id": "35c2d1e8-a4ef-511a-a05a-d2cb927bdc84",
+  "stem": "What biological process is primarily responsible for the $\\approx 40\\%$ reduction in slow-wave sleep observed during adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cortical synaptic pruning",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Delayed melatonin secretion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Increased prefrontal cortex myelination",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Excessive blue light exposure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The reduction in Delta EEG power, which reflects slow-wave sleep, is a result of brain remodeling through the pruning of synaptic connections.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_080.json",
+      "title": "Sleep Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/adolescent-medicine",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/sleep-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-35c2d1e8a4efe11ae05ad2cb",
+  "rationale": "Think about the structural remodeling of the brain that occurs as it matures.",
+  "optionExplanations": {
+    "A": "The reduction in Delta EEG power, which reflects slow-wave sleep, is a result of brain remodeling through the pruning of synaptic connections.",
+    "B": "Melatonin delay is responsible for circadian shifts (eveningness) rather than the physical reduction of slow-wave sleep depth.",
+    "C": "While myelination occurs, the specific reduction in Delta power is linked to the loss of synapses (pruning) rather than the insulation of axons.",
+    "D": "Blue light affects sleep onset and duration but is not the underlying biological cause of the natural reduction in slow-wave sleep architecture."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_080",
+    "sourceQuestionIdentifier": "080_q002",
+    "quizTitle": "Sleep Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Cortical synaptic pruning"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_080.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the structural remodeling of the brain that occurs as it matures.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_080_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_080",
+      "source_question_identifier": "080_q002",
+      "quiz_title": "Sleep Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "What biological process is primarily responsible for the $\\approx 40\\%$ reduction in slow-wave sleep observed during adolescence?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the structural remodeling of the brain that occurs as it matures.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Cortical synaptic pruning"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Cortical synaptic pruning",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The reduction in Delta EEG power, which reflects slow-wave sleep, is a result of brain remodeling through the pruning of synaptic connections.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Delayed melatonin secretion",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Melatonin delay is responsible for circadian shifts (eveningness) rather than the physical reduction of slow-wave sleep depth.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Increased prefrontal cortex myelination",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While myelination occurs, the specific reduction in Delta power is linked to the loss of synapses (pruning) rather than the insulation of axons.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Excessive blue light exposure",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Blue light affects sleep onset and duration but is not the underlying biological cause of the natural reduction in slow-wave sleep architecture.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_080.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Adolescent Medicine",
+      "reason": "Mapped to adolescent sleep and delayed sleep phase content within Adolescent Health.",
+      "mappingKey": "notebook:quiz_080",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.567Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.567Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

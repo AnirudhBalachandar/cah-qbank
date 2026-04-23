@@ -1,0 +1,193 @@
+{
+  "id": "a5c6d51e-b30e-5e42-a25c-33724696167d",
+  "stem": "A 70 kg child is to receive topical lignocaine. The safe dose is 3 mg/kg. Each vial contains 1% lignocaine in 5 mL.\n\nWhat is the maximum number of 5 mL vials that can be used?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1 vial",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "2 vials",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "3 vials",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "4 vials",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "5 vials",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "1% lignocaine contains 10 mg/mL, so each 5 mL vial contains 50 mg. The maximum safe dose is 3 mg/kg × 70 kg = 210 mg. 210 mg ÷ 50 mg per vial = 4.2 vials, so the maximum whole number of vials that can be used is 4.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "title": "Practice Quiz: Dose Calculation"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/practice-quiz-dose-calculation",
+    "combined-import/repair-method/rewritten_to_sba",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a5c6d51eb30efe42625c3372",
+  "rationale": "This is a dose calculation question: convert concentration to mg per vial, calculate the maximum allowable dose, then divide to find the maximum number of vials.",
+  "optionExplanations": {
+    "A": "50 mg total is well below the maximum safe dose.",
+    "B": "100 mg is below the maximum safe dose.",
+    "C": "150 mg is below the maximum safe dose.",
+    "D": "4 vials = 200 mg, which is within the 210 mg maximum.",
+    "E": "5 vials = 250 mg, which exceeds the maximum safe dose."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645969",
+    "sourceQuestionIdentifier": "question-34",
+    "quizTitle": "Practice Quiz: Dose Calculation",
+    "quizQuestionCount": 34,
+    "questionIndex": 34,
+    "originalQuestionType": "",
+    "originalOptionCount": 0,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_034.json",
+    "questionTextHtml": "Numeric\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": true,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645969_q034",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645969",
+      "source_question_identifier": "question-34",
+      "quiz_title": "Practice Quiz: Dose Calculation",
+      "quiz_question_count": 34,
+      "question_index": 34,
+      "question_type": "",
+      "question_text": "Numeric\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?",
+      "question_text_html": "Numeric\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 0,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_034.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped as core general-paediatric therapeutics content outside a subspecialty or emergency-specific branch.",
+      "mappingKey": "canvas:title:Practice Quiz: Dose Calculation",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:39:21.446Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_sba",
+      "confidence": 0.97,
+      "notes": "",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Numeric\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?\n\nThe safe dose of lignocaine is 3mg/kg as part of a topical local anaesthetic. Each vial contains of 1% lignocaine in 5mL.\n\nWhat is the maximum number of vials could be used in a 70kg patient?\n\nImported as a draft placeholder because the source question did not expose SBA-compatible answer options.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Imported Unspecified content preserved in the stem and source metadata.",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Manual conversion is required before this item can be used as a standard SBA question.",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "manual_conversion_required"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.855Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.855Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

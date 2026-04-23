@@ -1,0 +1,202 @@
+{
+  "id": "14643cd8-0798-54aa-b787-99ea991a916b",
+  "stem": "For a 4-year-old child categorized with severe asthma, what is the recommended dose of Salbutamol via a metered dose inhaler (MDI) and spacer?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$2$ to $6$ puffs.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$6$ puffs.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$12$ puffs.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$8$ puffs.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Current guidelines recommend $6$ puffs for children aged $1$ to $5$ years when they fall into the severe category.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_013.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-14643cd8079814aaf78799ea",
+  "rationale": "Dosing for severe asthma is generally higher than mild-moderate, but varies based on whether the child is over or under 6 years old.",
+  "optionExplanations": {
+    "A": "This range is typically used for mild to moderate asthma in this age group rather than severe cases.",
+    "B": "Current guidelines recommend $6$ puffs for children aged $1$ to $5$ years when they fall into the severe category.",
+    "C": "While this is a high dose used for severe asthma, it is specifically recommended for children $6$ years of age or older.",
+    "D": "This puff count is associated with Ipratropium dosing for older children, not Salbutamol for younger children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_013",
+    "sourceQuestionIdentifier": "013_q003",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$6$ puffs."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_013.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Dosing for severe asthma is generally higher than mild-moderate, but varies based on whether the child is over or under 6 years old.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_013_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_013",
+      "source_question_identifier": "013_q003",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "For a 4-year-old child categorized with severe asthma, what is the recommended dose of Salbutamol via a metered dose inhaler (MDI) and spacer?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Dosing for severe asthma is generally higher than mild-moderate, but varies based on whether the child is over or under 6 years old.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$6$ puffs."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "$2$ to $6$ puffs.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This range is typically used for mild to moderate asthma in this age group rather than severe cases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$6$ puffs.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Current guidelines recommend $6$ puffs for children aged $1$ to $5$ years when they fall into the severe category.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "$12$ puffs.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While this is a high dose used for severe asthma, it is specifically recommended for children $6$ years of age or older.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$8$ puffs.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This puff count is associated with Ipratropium dosing for older children, not Salbutamol for younger children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_013.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_013",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.457Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.457Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

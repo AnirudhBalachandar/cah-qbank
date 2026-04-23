@@ -1,0 +1,202 @@
+{
+  "id": "dbb6908d-e757-531d-a23e-7ee690615e96",
+  "stem": "A $4$-month-old infant presents with their first 'typical' UTI (responded to antibiotics and grew $E. coli$). According to the NICE guidelines mentioned, what is the appropriate imaging follow-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An immediate, acute ultrasound in the emergency department.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "No imaging is required unless the infection recurs.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A non-acute ultrasound performed within $6$ weeks.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A mandatory MCUG and DMSA scan regardless of the ultrasound result.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "For infants under $6$ months with a first typical UTI, the standard is an ultrasound within $6$ weeks to screen for anomalies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_042.json",
+      "title": "UTI Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/uti-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-dbb6908de757331d223e7ee6",
+  "rationale": "Determine the age cutoff and whether the imaging needs to be performed urgently or electively.",
+  "optionExplanations": {
+    "A": "The guidelines state that an acute ultrasound is not necessary for a typical UTI in this age group.",
+    "B": "This protocol applies to children over $6$ months of age, but those under $6$ months still require some follow-up.",
+    "C": "For infants under $6$ months with a first typical UTI, the standard is an ultrasound within $6$ weeks to screen for anomalies.",
+    "D": "Further invasive tests like MCUG or DMSA are only considered depending on the results of the initial ultrasound or if infections recur."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_042",
+    "sourceQuestionIdentifier": "042_q007",
+    "quizTitle": "UTI Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A non-acute ultrasound performed within $6$ weeks."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_042.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Determine the age cutoff and whether the imaging needs to be performed urgently or electively.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_042_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_042",
+      "source_question_identifier": "042_q007",
+      "quiz_title": "UTI Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "A $4$-month-old infant presents with their first 'typical' UTI (responded to antibiotics and grew $E. coli$). According to the NICE guidelines mentioned, what is the appropriate imaging follow-up?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Determine the age cutoff and whether the imaging needs to be performed urgently or electively.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A non-acute ultrasound performed within $6$ weeks."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "An immediate, acute ultrasound in the emergency department.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The guidelines state that an acute ultrasound is not necessary for a typical UTI in this age group.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "No imaging is required unless the infection recurs.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This protocol applies to children over $6$ months of age, but those under $6$ months still require some follow-up.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A non-acute ultrasound performed within $6$ weeks.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "For infants under $6$ months with a first typical UTI, the standard is an ultrasound within $6$ weeks to screen for anomalies.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A mandatory MCUG and DMSA scan regardless of the ultrasound result.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Further invasive tests like MCUG or DMSA are only considered depending on the results of the initial ultrasound or if infections recur.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_042.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_042",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.994Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.994Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

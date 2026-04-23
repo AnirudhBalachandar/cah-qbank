@@ -1,0 +1,202 @@
+{
+  "id": "1852e6a3-97b6-553e-8534-708b916bb702",
+  "stem": "Which of the following is a 'red flag' concern during a physical examination of a child with obesity that might suggest a syndromic or non-lifestyle cause?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Obesity accompanied by short stature.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Obesity with a family history of Type 2 diabetes.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Excess weight starting during early primary school years.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Increased exercise tolerance and active play participation.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Short stature in an obese child may indicate steroid excess, hypothyroidism, or other underlying medical issues.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_091.json",
+      "title": "Obesity Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/obesity-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-1852e6a397b6a53e8534708b",
+  "rationale": "Look for a physical growth pattern that contradicts typical simple obesity.",
+  "optionExplanations": {
+    "A": "Short stature in an obese child may indicate steroid excess, hypothyroidism, or other underlying medical issues.",
+    "B": "While important for risk assessment, family history is a common finding rather than a 'red flag' for syndromic causes like short stature.",
+    "C": "The onset of weight is part of the general history taking but is not itself a clinical 'red flag' for syndromes.",
+    "D": "These are positive health markers and the opposite of the complications or red flags discussed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_091",
+    "sourceQuestionIdentifier": "091_q008",
+    "quizTitle": "Obesity Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Obesity accompanied by short stature."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_091.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a physical growth pattern that contradicts typical simple obesity.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_091_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_091",
+      "source_question_identifier": "091_q008",
+      "quiz_title": "Obesity Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "Which of the following is a 'red flag' concern during a physical examination of a child with obesity that might suggest a syndromic or non-lifestyle cause?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a physical growth pattern that contradicts typical simple obesity.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Obesity accompanied by short stature."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Obesity accompanied by short stature.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Short stature in an obese child may indicate steroid excess, hypothyroidism, or other underlying medical issues.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Obesity with a family history of Type 2 diabetes.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While important for risk assessment, family history is a common finding rather than a 'red flag' for syndromic causes like short stature.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Excess weight starting during early primary school years.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The onset of weight is part of the general history taking but is not itself a clinical 'red flag' for syndromes.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Increased exercise tolerance and active play participation.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These are positive health markers and the opposite of the complications or red flags discussed.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_091.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to growth and nutrition, including obesity, within General Paediatrics.",
+      "mappingKey": "notebook:quiz_091",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.475Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.475Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

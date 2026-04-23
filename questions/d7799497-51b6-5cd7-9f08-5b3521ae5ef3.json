@@ -1,0 +1,202 @@
+{
+  "id": "d7799497-51b6-5cd7-9f08-5b3521ae5ef3",
+  "stem": "What is the primary reason the lecturer advises against the use of steroid eye drops in children with viral or allergic conjunctivitis in a primary care setting?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They can cause a rise in intraocular pressure and lead to irreversible glaucoma.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They neutralize the effect of antihistamines used for allergic reactions.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They prevent the formation of follicles necessary for immune recovery.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are ineffective at reducing the redness associated with inflammation.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Steroids carry the risk of secondary glaucoma and can mask secondary infections, potentially leading to vision loss if used unsupervised.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_036.json",
+      "title": "Ophthalmology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/ophthalmology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d779949751b6bcd79f085b35",
+  "rationale": "Focus on the long-term risk to vision associated with internal eye pressure.",
+  "optionExplanations": {
+    "A": "Steroids carry the risk of secondary glaucoma and can mask secondary infections, potentially leading to vision loss if used unsupervised.",
+    "B": "There is no mention of steroids neutralizing antihistamines; the concern is based on physiological damage to the eye.",
+    "C": "Follicles are a sign of inflammation, but steroids are avoided due to their severe side effects like pressure changes, not their effect on follicles.",
+    "D": "Steroids are actually very effective at reducing inflammation, which is why they are dangerous if misused by parents without supervision."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_036",
+    "sourceQuestionIdentifier": "036_q005",
+    "quizTitle": "Ophthalmology Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "They can cause a rise in intraocular pressure and lead to irreversible glaucoma."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_036.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the long-term risk to vision associated with internal eye pressure.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_036_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_036",
+      "source_question_identifier": "036_q005",
+      "quiz_title": "Ophthalmology Quiz",
+      "quiz_question_count": 12,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "What is the primary reason the lecturer advises against the use of steroid eye drops in children with viral or allergic conjunctivitis in a primary care setting?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the long-term risk to vision associated with internal eye pressure.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "They can cause a rise in intraocular pressure and lead to irreversible glaucoma."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "They can cause a rise in intraocular pressure and lead to irreversible glaucoma.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Steroids carry the risk of secondary glaucoma and can mask secondary infections, potentially leading to vision loss if used unsupervised.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "They neutralize the effect of antihistamines used for allergic reactions.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "There is no mention of steroids neutralizing antihistamines; the concern is based on physiological damage to the eye.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "They prevent the formation of follicles necessary for immune recovery.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Follicles are a sign of inflammation, but steroids are avoided due to their severe side effects like pressure changes, not their effect on follicles.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "They are ineffective at reducing the redness associated with inflammation.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Steroids are actually very effective at reducing inflammation, which is why they are dangerous if misused by parents without supervision.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_036.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Ophthalmology in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_036",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.979Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.979Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

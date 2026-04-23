@@ -1,0 +1,202 @@
+{
+  "id": "aa3d997c-31ab-59b3-9cb7-58e8b4053458",
+  "stem": "According to the source material, which age group in the Aboriginal and Torres Strait Islander population is currently experiencing an outbreak of infectious syphilis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "0 to 4 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "5 to 14 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "15 to 29 years",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Over 50 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explicitly mentions this age range as being affected by the current outbreak, leading to rising congenital cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_035.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-aa3d997c31abf9b3dcb758e8",
+  "rationale": "The focus is on the adolescent and young adult demographic.",
+  "optionExplanations": {
+    "A": "While congenital syphilis affects this group, the outbreak described is among the reproductive-age population.",
+    "B": "This group is less commonly affected by the sexual transmission patterns noted in the syphilis outbreak.",
+    "C": "The source explicitly mentions this age range as being affected by the current outbreak, leading to rising congenital cases.",
+    "D": "The outbreak is centered on younger adults rather than the elderly population."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_035",
+    "sourceQuestionIdentifier": "035_q012",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 12,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "15 to 29 years"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_035.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The focus is on the adolescent and young adult demographic.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_035_q012",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_035",
+      "source_question_identifier": "035_q012",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 15,
+      "question_index": 12,
+      "question_type": "",
+      "question_text": "According to the source material, which age group in the Aboriginal and Torres Strait Islander population is currently experiencing an outbreak of infectious syphilis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The focus is on the adolescent and young adult demographic.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "15 to 29 years"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "0 to 4 years",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While congenital syphilis affects this group, the outbreak described is among the reproductive-age population.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "5 to 14 years",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This group is less commonly affected by the sexual transmission patterns noted in the syphilis outbreak.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "15 to 29 years",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source explicitly mentions this age range as being affected by the current outbreak, leading to rising congenital cases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Over 50 years",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The outbreak is centered on younger adults rather than the elderly population.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_035.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to core neonatal and early-life paediatric medicine content.",
+      "mappingKey": "notebook:quiz_035",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.868Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.868Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

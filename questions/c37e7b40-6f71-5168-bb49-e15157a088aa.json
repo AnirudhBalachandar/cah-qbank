@@ -1,0 +1,202 @@
+{
+  "id": "c37e7b40-6f71-5168-bb49-e15157a088aa",
+  "stem": "Which clinical presentation is most characteristic of a pediatric brain tumor located in the posterior fossa?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Abrupt onset of hearing loss",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Headache and vomiting that is worse in the morning",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Sudden onset of high-grade fever",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Isolated lower limb weakness only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "These are classic signs of raised intracranial pressure, often caused by hydrocephalus when a tumor blocks CSF flow in the posterior fossa.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_072.json",
+      "title": "Oncology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/oncology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-c37e7b406f719168fb49e151",
+  "rationale": "Consider the effects of a blockage in the cerebrospinal fluid ($CSF$) pathways.",
+  "optionExplanations": {
+    "A": "While possible depending on the nerve involvement, it is not the most common 'cardinal' presentation mentioned for posterior fossa masses.",
+    "B": "These are classic signs of raised intracranial pressure, often caused by hydrocephalus when a tumor blocks CSF flow in the posterior fossa.",
+    "C": "Fever is more indicative of infection or leukemia; brain tumors more typically present with neurological or pressure-related symptoms.",
+    "D": "While coordination may change, isolated lower limb weakness is more suggestive of spinal cord compression, often seen in neuroblastoma."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_072",
+    "sourceQuestionIdentifier": "072_q005",
+    "quizTitle": "Oncology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Headache and vomiting that is worse in the morning"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_072.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the effects of a blockage in the cerebrospinal fluid ($CSF$) pathways.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_072_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_072",
+      "source_question_identifier": "072_q005",
+      "quiz_title": "Oncology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "Which clinical presentation is most characteristic of a pediatric brain tumor located in the posterior fossa?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the effects of a blockage in the cerebrospinal fluid ($CSF$) pathways.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Headache and vomiting that is worse in the morning"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Abrupt onset of hearing loss",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While possible depending on the nerve involvement, it is not the most common 'cardinal' presentation mentioned for posterior fossa masses.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Headache and vomiting that is worse in the morning",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "These are classic signs of raised intracranial pressure, often caused by hydrocephalus when a tumor blocks CSF flow in the posterior fossa.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Sudden onset of high-grade fever",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fever is more indicative of infection or leukemia; brain tumors more typically present with neurological or pressure-related symptoms.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Isolated lower limb weakness only",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While coordination may change, isolated lower limb weakness is more suggestive of spinal cord compression, often seen in neuroblastoma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_072.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to oncology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_072",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.928Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.928Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

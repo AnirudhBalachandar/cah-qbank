@@ -1,0 +1,202 @@
+{
+  "id": "abf1cf03-86db-5bb9-a83a-f903adf742d8",
+  "stem": "Why is a diagnosis of Perthes disease in a child over $8$ years of age associated with a poor prognosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child has poor healing potential",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The disease spreads to the spine at that age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Surgery is not possible after age $8$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The growth plates have already closed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Older children have less biological capacity for the extensive bone remodeling and revascularization required for healing.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_094.json",
+      "title": "Perthes Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/perthes-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-abf1cf0386db9bb9283af903",
+  "rationale": "Focus on the biological limitations regarding bone regeneration that occur as a child grows older.",
+  "optionExplanations": {
+    "A": "Older children have less biological capacity for the extensive bone remodeling and revascularization required for healing.",
+    "B": "Perthes disease is localized to the femoral head and does not spread to the spine.",
+    "C": "Surgery can be performed, but the underlying biological healing of the bone is what limits the final outcome.",
+    "D": "Growth plates in the hip do not close by age $8$; however, the regenerative capacity of the bone is diminished."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_094",
+    "sourceQuestionIdentifier": "094_q009",
+    "quizTitle": "Perthes Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The child has poor healing potential"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_094.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the biological limitations regarding bone regeneration that occur as a child grows older.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_094_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_094",
+      "source_question_identifier": "094_q009",
+      "quiz_title": "Perthes Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "Why is a diagnosis of Perthes disease in a child over $8$ years of age associated with a poor prognosis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the biological limitations regarding bone regeneration that occur as a child grows older.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The child has poor healing potential"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The child has poor healing potential",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Older children have less biological capacity for the extensive bone remodeling and revascularization required for healing.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The disease spreads to the spine at that age",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Perthes disease is localized to the femoral head and does not spread to the spine.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Surgery is not possible after age $8$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Surgery can be performed, but the underlying biological healing of the bone is what limits the final outcome.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The growth plates have already closed",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Growth plates in the hip do not close by age $8$; however, the regenerative capacity of the bone is diminished.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_094.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_094",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.875Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.875Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

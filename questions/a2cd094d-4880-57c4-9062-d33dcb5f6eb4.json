@@ -1,0 +1,259 @@
+{
+  "id": "a2cd094d-4880-57c4-9062-d33dcb5f6eb4",
+  "stem": "A 12 month old child is brought into the emergency department with a 2 day history of vomiting and diarrhoea. After assessment of history and examination, he is estimated to be around 7% dehydrated (“some dehydration”, according to WHO criteria). The child’s perfusion and blood pressure are normal. Assuming no further losses, what rehydration fluid therapy should you prescribe (calculation of fluid deficit requirements = % dehydration x weight in kg x 10)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "20ml/kg bolus then 70ml x weight in kg (7% dehydration) over 24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "20ml/kg bolus then 50ml x weight in kg (5% dehydration) over 24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "50ml x weight in kg (5% dehydration) over 24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "70ml x weight in kg (7% dehydration) over 24 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "70ml x weight in kg (7% dehydration) over 12 hours then maintenance fluids only thereafter",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "For a child with 7% dehydration and normal perfusion/blood pressure, the fluid deficit is 7 x weight x 10 = 70 mL/kg. With no further losses and no shock, this deficit should be replaced over 24 hours, alongside maintenance fluid requirements.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891200/take",
+      "title": "Practice Quiz: Fluid Management"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/multiple-choice",
+    "combined-import/quiz/practice-quiz-fluid-management",
+    "combined-import/repair-method/selected_existing_option",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a2cd094d488077c4d062d33d",
+  "rationale": "This is a fluid deficit calculation question. In a haemodynamically stable child with some dehydration, replace the deficit over 24 hours rather than giving an initial bolus for shock.",
+  "optionExplanations": {
+    "A": "Includes a bolus, which is not indicated when perfusion and blood pressure are normal, despite the correct deficit estimate.",
+    "B": "Both the bolus and the deficit estimate are incorrect for 7% dehydration.",
+    "C": "Uses the wrong dehydration percentage and omits maintenance/appropriate deficit replacement for this case.",
+    "D": "Correct: 7% dehydration corresponds to a 70 mL/kg deficit, replaced over 24 hours when there is no shock.",
+    "E": "The timeframe is too short; this deficit should be replaced over 24 hours, not 12 hours."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645979",
+    "sourceQuestionIdentifier": "question-6",
+    "quizTitle": "Practice Quiz: Fluid Management",
+    "quizQuestionCount": 11,
+    "questionIndex": 6,
+    "originalQuestionType": "Multiple Choice",
+    "originalOptionCount": 5,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891200/take",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management/question_dom/question_006.json",
+    "questionTextHtml": "A 12 month old child is brought into the emergency department with a 2 day history of vomiting and diarrhoea. After assessment of history and examination, he is estimated to be around 7% dehydrated (“some dehydration”, according to WHO criteria - see Table 1 in Question 5 feedback). The child’s perfusion and blood pressure are normal. Assuming no further losses, what rehydration fluid therapy should you prescribe (calculation of fluid deficit requirements = % dehydration x weight in kg x 10)?",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645979_q006",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645979",
+      "source_question_identifier": "question-6",
+      "quiz_title": "Practice Quiz: Fluid Management",
+      "quiz_question_count": 11,
+      "question_index": 6,
+      "question_type": "Multiple Choice",
+      "question_text": "A 12 month old child is brought into the emergency department with a 2 day history of vomiting and diarrhoea. After assessment of history and examination, he is estimated to be around 7% dehydrated (“some dehydration”, according to WHO criteria - see Table 1 in Question 5 feedback). The child’s perfusion and blood pressure are normal. Assuming no further losses, what rehydration fluid therapy should you prescribe (calculation of fluid deficit requirements = % dehydration x weight in kg x 10)?",
+      "question_text_html": "A 12 month old child is brought into the emergency department with a 2 day history of vomiting and diarrhoea. After assessment of history and examination, he is estimated to be around 7% dehydrated (“some dehydration”, according to WHO criteria - see Table 1 in Question 5 feedback). The child’s perfusion and blood pressure are normal. Assuming no further losses, what rehydration fluid therapy should you prescribe (calculation of fluid deficit requirements = % dehydration x weight in kg x 10)?",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 5,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "A",
+          "text": "20ml/kg bolus then 70ml x weight in kg (7% dehydration) over 24 hours",
+          "text_html": "20ml/kg bolus then 70ml x weight in kg (7% dehydration) over 24 hours",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "B",
+          "text": "20ml/kg bolus then 50ml x weight in kg (5% dehydration) over 24 hours",
+          "text_html": "20ml/kg bolus then 50ml x weight in kg (5% dehydration) over 24 hours",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "C",
+          "text": "50ml x weight in kg (5% dehydration) over 24 hours",
+          "text_html": "50ml x weight in kg (5% dehydration) over 24 hours",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "D",
+          "text": "70ml x weight in kg (7% dehydration) over 24 hours",
+          "text_html": "70ml x weight in kg (7% dehydration) over 24 hours",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 5,
+          "label": "E",
+          "text": "70ml x weight in kg (7% dehydration) over 12 hours then maintenance fluids only thereafter",
+          "text_html": "70ml x weight in kg (7% dehydration) over 12 hours then maintenance fluids only thereafter",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891200/take",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645979_Practice_Quiz_Fluid_Management/question_dom/question_006.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to Fluid and Electrolyte Therapy within Paediatric Emergency Medicine.",
+      "mappingKey": "canvas:title:Practice Quiz: Fluid Management",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:39:17.196Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "selected_existing_option",
+      "confidence": 0.98,
+      "notes": "",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "A 12 month old child is brought into the emergency department with a 2 day history of vomiting and diarrhoea. After assessment of history and examination, he is estimated to be around 7% dehydrated (“some dehydration”, according to WHO criteria - see Table 1 in Question 5 feedback). The child’s perfusion and blood pressure are normal. Assuming no further losses, what rehydration fluid therapy should you prescribe (calculation of fluid deficit requirements = % dehydration x weight in kg x 10)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "20ml/kg bolus then 70ml x weight in kg (7% dehydration) over 24 hours",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "20ml/kg bolus then 50ml x weight in kg (5% dehydration) over 24 hours",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "50ml x weight in kg (5% dehydration) over 24 hours",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "70ml x weight in kg (7% dehydration) over 24 hours",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "70ml x weight in kg (7% dehydration) over 12 hours then maintenance fluids only thereafter",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "ready_for_published_browse_only"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.848Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.848Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

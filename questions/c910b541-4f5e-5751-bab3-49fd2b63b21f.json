@@ -1,0 +1,187 @@
+{
+  "id": "c910b541-4f5e-5751-bab3-49fd2b63b21f",
+  "stem": "What volume of injection is required if 600 mg is prescribed and the stock ampoule concentration is 350 mg/mL?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1.2 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "1.7 mL",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "2.0 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "3.5 mL",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Use volume = dose ÷ concentration. 600 mg ÷ 350 mg/mL = 1.71 mL, which rounds to 1.7 mL.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "title": "Practice Quiz: Dose Calculation"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/practice-quiz-dose-calculation",
+    "combined-import/repair-method/rewritten_to_sba",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-c910b5414f5e27517ab349fd",
+  "rationale": "The original item was numeric and needed conversion into a single-best-answer calculation question.",
+  "optionExplanations": {
+    "A": "This is too small for a 600 mg dose at 350 mg/mL.",
+    "B": "Correct: 600 ÷ 350 = 1.71 mL, rounded to 1.7 mL.",
+    "C": "This would deliver 700 mg at 350 mg/mL, not 600 mg.",
+    "D": "This is the volume for 1225 mg at 350 mg/mL, not 600 mg."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645969",
+    "sourceQuestionIdentifier": "question-12",
+    "quizTitle": "Practice Quiz: Dose Calculation",
+    "quizQuestionCount": 34,
+    "questionIndex": 12,
+    "originalQuestionType": "",
+    "originalOptionCount": 0,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_012.json",
+    "questionTextHtml": "Numeric\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": true,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645969_q012",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645969",
+      "source_question_identifier": "question-12",
+      "quiz_title": "Practice Quiz: Dose Calculation",
+      "quiz_question_count": 34,
+      "question_index": 12,
+      "question_type": "",
+      "question_text": "Numeric\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?",
+      "question_text_html": "Numeric\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 0,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_012.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped as core general-paediatric therapeutics content outside a subspecialty or emergency-specific branch.",
+      "mappingKey": "canvas:title:Practice Quiz: Dose Calculation",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:41:34.363Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_sba",
+      "confidence": 0.99,
+      "notes": "",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Numeric\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?\n\nWhat volume in mL is required for an injection if 600mg are ordered and stock ampules contain 350mg/ml?\n\nImported as a draft placeholder because the source question did not expose SBA-compatible answer options.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Imported Unspecified content preserved in the stem and source metadata.",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Manual conversion is required before this item can be used as a standard SBA question.",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "manual_conversion_required"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.942Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.942Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

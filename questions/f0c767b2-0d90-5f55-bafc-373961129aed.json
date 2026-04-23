@@ -1,0 +1,202 @@
+{
+  "id": "f0c767b2-0d90-5f55-bafc-373961129aed",
+  "stem": "Approximately what percentage of children with ADHD have at least one or more comorbid conditions?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$80\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$10\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$50\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$25\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Dr. Pollak states that the vast majority of children with ADHD deal with additional issues such as learning disabilities or emotional disturbances.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_053.json",
+      "title": "ADHD Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/adhd-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-f0c767b20d903f55fafc3739",
+  "rationale": "The prevalence of having at least one additional condition is very high, exceeding three-quarters of cases.",
+  "optionExplanations": {
+    "A": "Dr. Pollak states that the vast majority of children with ADHD deal with additional issues such as learning disabilities or emotional disturbances.",
+    "B": "This figure is closer to the prevalence of the disorder in males, not the rate of comorbidities within the diagnosed population.",
+    "C": "While high, this number underestimates the actual frequency of comorbidities reported in the source material.",
+    "D": "The material suggests that having no comorbidities is actually the exception rather than the rule."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_053",
+    "sourceQuestionIdentifier": "053_q008",
+    "quizTitle": "ADHD Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$80\\%$"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_053.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The prevalence of having at least one additional condition is very high, exceeding three-quarters of cases.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_053_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_053",
+      "source_question_identifier": "053_q008",
+      "quiz_title": "ADHD Quiz",
+      "quiz_question_count": 15,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "Approximately what percentage of children with ADHD have at least one or more comorbid conditions?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The prevalence of having at least one additional condition is very high, exceeding three-quarters of cases.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$80\\%$"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "$80\\%$",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Dr. Pollak states that the vast majority of children with ADHD deal with additional issues such as learning disabilities or emotional disturbances.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$10\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This figure is closer to the prevalence of the disorder in males, not the rate of comorbidities within the diagnosed population.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "$50\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While high, this number underestimates the actual frequency of comorbidities reported in the source material.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$25\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The material suggests that having no comorbidities is actually the exception rather than the rule.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_053.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to ADHD within Community/Developmental Paediatrics.",
+      "mappingKey": "notebook:quiz_053",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.029Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.029Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

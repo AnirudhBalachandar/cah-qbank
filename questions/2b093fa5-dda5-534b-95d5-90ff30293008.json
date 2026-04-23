@@ -1,0 +1,202 @@
+{
+  "id": "2b093fa5-dda5-534b-95d5-90ff30293008",
+  "stem": "For a child presenting to the hospital with severe asthma, what is the appropriate dose of iotropium (Atrovent) for those aged 6 years and older?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "8 puffs",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Iotropium is dosed at 8 puffs for children in the older age category (above 6 years) presenting with severe symptoms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_016.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-2b093fa5dda5134b55d590ff",
+  "rationale": "Older children receive exactly twice the number of puffs as the younger age bracket for this specific anticholinergic.",
+  "optionExplanations": {
+    "A": "This is lower than the recommended acute dose for either age group mentioned in the medical management guidelines.",
+    "B": "This is the recommended dose for children aged 0 to 5 years, not those aged 6 and above.",
+    "C": "This dose does not align with the specific categorical age-based recommendations provided in the source.",
+    "D": "Iotropium is dosed at 8 puffs for children in the older age category (above 6 years) presenting with severe symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_016",
+    "sourceQuestionIdentifier": "016_q003",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "8 puffs"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_016.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Older children receive exactly twice the number of puffs as the younger age bracket for this specific anticholinergic.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_016_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_016",
+      "source_question_identifier": "016_q003",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 12,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "For a child presenting to the hospital with severe asthma, what is the appropriate dose of iotropium (Atrovent) for those aged 6 years and older?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Older children receive exactly twice the number of puffs as the younger age bracket for this specific anticholinergic.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "8 puffs"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "2 puffs",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is lower than the recommended acute dose for either age group mentioned in the medical management guidelines.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "4 puffs",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is the recommended dose for children aged 0 to 5 years, not those aged 6 and above.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "6 puffs",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This dose does not align with the specific categorical age-based recommendations provided in the source.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "8 puffs",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Iotropium is dosed at 8 puffs for children in the older age category (above 6 years) presenting with severe symptoms.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_016.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_016",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.536Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.536Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

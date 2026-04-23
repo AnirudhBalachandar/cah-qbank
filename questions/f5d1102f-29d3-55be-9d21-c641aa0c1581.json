@@ -1,0 +1,202 @@
+{
+  "id": "f5d1102f-29d3-55be-9d21-c641aa0c1581",
+  "stem": "Which of the following medications should be avoided in patients with Juvenile Myoclonic Epilepsy because they may exacerbate seizures?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sodium channel blockers like Carbamazepine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Levetiracetam",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sodium Valproate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lamotrigine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Certain medications, specifically sodium channel blockers, are known to worsen the seizure frequency in patients with JME.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_066.json",
+      "title": "Epilepsy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/epilepsy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-f5d1102f29d3a5be5d21c641",
+  "rationale": "Focus on a specific class of anti-seizure medications that interact poorly with generalized idiopathic epilepsies.",
+  "optionExplanations": {
+    "A": "Certain medications, specifically sodium channel blockers, are known to worsen the seizure frequency in patients with JME.",
+    "B": "This is often used as an alternative treatment, particularly in women of childbearing age.",
+    "C": "This is actually the most effective treatment for JME, though its use is cautioned in specific populations due to teratogenicity.",
+    "D": "Lamotrigine is a recognized treatment option for JME, especially when balancing effectiveness and side-effect profiles."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_066",
+    "sourceQuestionIdentifier": "066_q007",
+    "quizTitle": "Epilepsy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Sodium channel blockers like Carbamazepine"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_066.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on a specific class of anti-seizure medications that interact poorly with generalized idiopathic epilepsies.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_066_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_066",
+      "source_question_identifier": "066_q007",
+      "quiz_title": "Epilepsy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which of the following medications should be avoided in patients with Juvenile Myoclonic Epilepsy because they may exacerbate seizures?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on a specific class of anti-seizure medications that interact poorly with generalized idiopathic epilepsies.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Sodium channel blockers like Carbamazepine"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Sodium channel blockers like Carbamazepine",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Certain medications, specifically sodium channel blockers, are known to worsen the seizure frequency in patients with JME.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Levetiracetam",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is often used as an alternative treatment, particularly in women of childbearing age.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Sodium Valproate",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is actually the most effective treatment for JME, though its use is cautioned in specific populations due to teratogenicity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Lamotrigine",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Lamotrigine is a recognized treatment option for JME, especially when balancing effectiveness and side-effect profiles.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_066.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_066",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.041Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.041Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

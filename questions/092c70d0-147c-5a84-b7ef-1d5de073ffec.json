@@ -1,0 +1,202 @@
+{
+  "id": "092c70d0-147c-5a84-b7ef-1d5de073ffec",
+  "stem": "According to the Parkland formula timing, if a patient is burned at 12:00 PM and arrives at the hospital at 2:00 PM, by what time should the first half of the calculated fluid be administered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "8:00 PM.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "10:00 PM.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "4:00 PM.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "12:00 AM (Midnight).",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The first half of the fluid is given over the first 8 hours starting from the time of the burn, not the time of arrival at the hospital.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_100.json",
+      "title": "Burns Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/burns-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-092c70d0147c9a84f7ef1d5d",
+  "rationale": "Remember that the clock for resuscitation begins at the moment of injury.",
+  "optionExplanations": {
+    "A": "The first half of the fluid is given over the first 8 hours starting from the time of the burn, not the time of arrival at the hospital.",
+    "B": "This calculates 8 hours from arrival; however, the formula dictates calculations start from the time of the injury.",
+    "C": "Fluid resuscitation is spread over the first 8 hours to match the period of highest capillary leak, not just the first 4 hours.",
+    "D": "This would be 12 hours after the burn, whereas the first half of the volume must be completed within the first 8 hours."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_100",
+    "sourceQuestionIdentifier": "100_q006",
+    "quizTitle": "Burns Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "8:00 PM."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_100.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Remember that the clock for resuscitation begins at the moment of injury.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_100_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_100",
+      "source_question_identifier": "100_q006",
+      "quiz_title": "Burns Quiz",
+      "quiz_question_count": 12,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "According to the Parkland formula timing, if a patient is burned at 12:00 PM and arrives at the hospital at 2:00 PM, by what time should the first half of the calculated fluid be administered?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Remember that the clock for resuscitation begins at the moment of injury.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "8:00 PM."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "8:00 PM.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The first half of the fluid is given over the first 8 hours starting from the time of the burn, not the time of arrival at the hospital.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "10:00 PM.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This calculates 8 hours from arrival; however, the formula dictates calculations start from the time of the injury.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "4:00 PM.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fluid resuscitation is spread over the first 8 hours to match the period of highest capillary leak, not just the first 4 hours.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "12:00 AM (Midnight).",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This would be 12 hours after the burn, whereas the first half of the volume must be completed within the first 8 hours.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_100.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Burns Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_100",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.418Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.418Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

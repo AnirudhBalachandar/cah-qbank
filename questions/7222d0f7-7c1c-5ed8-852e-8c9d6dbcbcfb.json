@@ -1,0 +1,202 @@
+{
+  "id": "7222d0f7-7c1c-5ed8-852e-8c9d6dbcbcfb",
+  "stem": "During the progression of Perthes disease, why does the femoral head appear to collapse or 'disappear' on X-ray?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bone is being resorbed during revascularization",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The bone is turning into soft cartilage",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The X-ray beams cannot penetrate the dense necrotic bone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The femoral head has completely dislocated from the socket",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "As blood supply returns, the body resorbs the dead bone, causing the femoral head to look fragmented or diminished before reossifying.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_094.json",
+      "title": "Perthes Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/perthes-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-7222d0f77c1caed8452e8c9d",
+  "rationale": "Think about what the body does with dead bone tissue once blood flow is restored.",
+  "optionExplanations": {
+    "A": "As blood supply returns, the body resorbs the dead bone, causing the femoral head to look fragmented or diminished before reossifying.",
+    "B": "The 'disappearance' is due to the removal of necrotic bone tissue, not a conversion into cartilage.",
+    "C": "Necrotic bone is actually more radiodense; it only 'disappears' once the resorption process begins.",
+    "D": "Subluxation can occur, but the 'disappearance' refers to the loss of bone density during the healing phases."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_094",
+    "sourceQuestionIdentifier": "094_q006",
+    "quizTitle": "Perthes Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The bone is being resorbed during revascularization"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_094.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about what the body does with dead bone tissue once blood flow is restored.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_094_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_094",
+      "source_question_identifier": "094_q006",
+      "quiz_title": "Perthes Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "During the progression of Perthes disease, why does the femoral head appear to collapse or 'disappear' on X-ray?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about what the body does with dead bone tissue once blood flow is restored.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The bone is being resorbed during revascularization"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The bone is being resorbed during revascularization",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "As blood supply returns, the body resorbs the dead bone, causing the femoral head to look fragmented or diminished before reossifying.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The bone is turning into soft cartilage",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The 'disappearance' is due to the removal of necrotic bone tissue, not a conversion into cartilage.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The X-ray beams cannot penetrate the dense necrotic bone",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Necrotic bone is actually more radiodense; it only 'disappears' once the resorption process begins.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The femoral head has completely dislocated from the socket",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Subluxation can occur, but the 'disappearance' refers to the loss of bone density during the healing phases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_094.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_094",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.714Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.714Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "4760a860-d9ee-590c-9fcd-b2bd9ae525b3",
+  "stem": "Which vaccine is strictly contraindicated for all patients with HIV, regardless of their $CD4$ count?\n\nAnswer field:\nBCG vaccine",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "BCG (Tuberculosis) vaccine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Inactivated Influenza vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Measles, Mumps, Rubella (MMR) vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hepatitis B vaccine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The BCG vaccine is a live bacterial vaccine that carries a high risk of disseminated disease in HIV-infected individuals.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_029.json",
+      "title": "Immunization Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/immunization-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-4760a860d9ee290cdfcdb2bd",
+  "rationale": "This vaccine protects against a common mycobacterial infection.",
+  "optionExplanations": {
+    "A": "The BCG vaccine is a live bacterial vaccine that carries a high risk of disseminated disease in HIV-infected individuals.",
+    "B": "Inactivated vaccines are safe and highly recommended for HIV patients to prevent secondary complications.",
+    "C": "MMR may be considered for HIV patients if their $CD4$ count is sufficiently high and they are asymptomatic.",
+    "D": "Hepatitis B vaccination is recommended for HIV patients, though it often requires a double dose for efficacy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_029",
+    "sourceQuestionIdentifier": "029_q005",
+    "quizTitle": "Immunization Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "BCG (Tuberculosis) vaccine"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_029.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This vaccine protects against a common mycobacterial infection.",
+    "answerField": "BCG vaccine",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_029_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_029",
+      "source_question_identifier": "029_q005",
+      "quiz_title": "Immunization Quiz",
+      "quiz_question_count": 15,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "Which vaccine is strictly contraindicated for all patients with HIV, regardless of their $CD4$ count?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This vaccine protects against a common mycobacterial infection.",
+      "answer_field": "BCG vaccine",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "BCG (Tuberculosis) vaccine"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "BCG (Tuberculosis) vaccine",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The BCG vaccine is a live bacterial vaccine that carries a high risk of disseminated disease in HIV-infected individuals.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Inactivated Influenza vaccine",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Inactivated vaccines are safe and highly recommended for HIV patients to prevent secondary complications.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Measles, Mumps, Rubella (MMR) vaccine",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "MMR may be considered for HIV patients if their $CD4$ count is sufficiently high and they are asymptomatic.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Hepatitis B vaccine",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hepatitis B vaccination is recommended for HIV patients, though it often requires a double dose for efficacy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_029.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Infectious Disease and Immunization.",
+      "mappingKey": "notebook:quiz_029",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.612Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.612Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "22fc8c26-b27e-51c4-8101-cec29e1e238e",
+  "stem": "What clinical outcome is most likely if a bony bar forms on the medial side of the distal femoral physis while the lateral side continues to grow?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Valgus deformity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Varus deformity",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Limb shortening without angulation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Rotational deformity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The bony bar acts as a hinge; growth on the lateral side coupled with a medial tether causes the limb to angle inward toward the midline.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_089.json",
+      "title": "Growth Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/growth-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-22fc8c26b27ed1c40101cec2",
+  "rationale": "Think about which direction the bone will tilt if the 'inside' edge is stuck and the 'outside' edge keeps expanding.",
+  "optionExplanations": {
+    "A": "A valgus (knock-knee) deformity would occur if the lateral side were tethered and the medial side continued to grow.",
+    "B": "The bony bar acts as a hinge; growth on the lateral side coupled with a medial tether causes the limb to angle inward toward the midline.",
+    "C": "Pure shortening occurs with total physeal arrest; partial arrest with a tether inevitably leads to angular deformity.",
+    "D": "While rotation can occur in fractures, a unilateral tether at the growth plate specifically drives angular changes."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_089",
+    "sourceQuestionIdentifier": "089_q006",
+    "quizTitle": "Growth Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Varus deformity"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_089.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about which direction the bone will tilt if the 'inside' edge is stuck and the 'outside' edge keeps expanding.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_089_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_089",
+      "source_question_identifier": "089_q006",
+      "quiz_title": "Growth Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "What clinical outcome is most likely if a bony bar forms on the medial side of the distal femoral physis while the lateral side continues to grow?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about which direction the bone will tilt if the 'inside' edge is stuck and the 'outside' edge keeps expanding.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Varus deformity"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Valgus deformity",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A valgus (knock-knee) deformity would occur if the lateral side were tethered and the medial side continued to grow.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Varus deformity",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The bony bar acts as a hinge; growth on the lateral side coupled with a medial tether causes the limb to angle inward toward the midline.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Limb shortening without angulation",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Pure shortening occurs with total physeal arrest; partial arrest with a tether inevitably leads to angular deformity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Rotational deformity",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While rotation can occur in fractures, a unilateral tether at the growth plate specifically drives angular changes.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_089.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to fracture and growth-plate orthopaedic content within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_089",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.508Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.508Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

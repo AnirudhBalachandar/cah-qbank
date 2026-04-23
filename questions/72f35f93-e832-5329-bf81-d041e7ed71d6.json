@@ -1,0 +1,202 @@
+{
+  "id": "72f35f93-e832-5329-bf81-d041e7ed71d6",
+  "stem": "Why does the source material advise against treating asymptomatic bacteriuria in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bacteria present in asymptomatic cases are usually not viable and won't grow in culture.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Treatment is expensive and requires intravenous administration.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Treatment can increase antibiotic resistance and potentially replace normal flora with more virulent organisms.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Asymptomatic bacteriuria is always caused by $Staphylococcus$, which doesn't respond to antibiotics.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Treating harmless bacteria can select for resistant strains or clear a niche for dangerous pathogens that are harder to treat.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_042.json",
+      "title": "UTI Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/uti-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-72f35f93e832a3293f81d041",
+  "rationale": "Consider the long-term ecological consequences of using antibiotics when no clinical illness is present.",
+  "optionExplanations": {
+    "A": "By definition, bacteriuria means the bacteria are present and will grow in a culture, even if symptoms are absent.",
+    "B": "Cost or administration route is not the primary clinical concern; the issue is the impact on the child's microbiome and future resistance.",
+    "C": "Treating harmless bacteria can select for resistant strains or clear a niche for dangerous pathogens that are harder to treat.",
+    "D": "The source does not specify the organism type for asymptomatic cases, and many organisms are susceptible but simply don't need treatment in this context."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_042",
+    "sourceQuestionIdentifier": "042_q009",
+    "quizTitle": "UTI Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Treatment can increase antibiotic resistance and potentially replace normal flora with more virulent organisms."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_042.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the long-term ecological consequences of using antibiotics when no clinical illness is present.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_042_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_042",
+      "source_question_identifier": "042_q009",
+      "quiz_title": "UTI Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "Why does the source material advise against treating asymptomatic bacteriuria in children?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the long-term ecological consequences of using antibiotics when no clinical illness is present.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Treatment can increase antibiotic resistance and potentially replace normal flora with more virulent organisms."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The bacteria present in asymptomatic cases are usually not viable and won't grow in culture.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "By definition, bacteriuria means the bacteria are present and will grow in a culture, even if symptoms are absent.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Treatment is expensive and requires intravenous administration.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Cost or administration route is not the primary clinical concern; the issue is the impact on the child's microbiome and future resistance.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Treatment can increase antibiotic resistance and potentially replace normal flora with more virulent organisms.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Treating harmless bacteria can select for resistant strains or clear a niche for dangerous pathogens that are harder to treat.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Asymptomatic bacteriuria is always caused by $Staphylococcus$, which doesn't respond to antibiotics.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source does not specify the organism type for asymptomatic cases, and many organisms are susceptible but simply don't need treatment in this context.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_042.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_042",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.716Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.716Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

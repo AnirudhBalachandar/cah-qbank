@@ -1,0 +1,202 @@
+{
+  "id": "a8c16318-61c0-5b6e-bcec-e45a84bef8a7",
+  "stem": "Which of the following is considered a 'less common' symptom of cannabis withdrawal according to the provided chart?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Irritability",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sleep difficulties",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Abdominal pain",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Restlessness",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Physical symptoms like abdominal pain and tremors are categorized as less common compared to mood-related symptoms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_075.json",
+      "title": "Substance Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/adolescent-medicine",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/substance-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a8c1631861c0fb6e7cece45a",
+  "rationale": "Look for a physical symptom rather than a psychological or mood-based one.",
+  "optionExplanations": {
+    "A": "Irritability is one of the most common behavioral symptoms of cannabis cessation.",
+    "B": "Insomnia and sleep disturbances are standard hallmarks of the withdrawal period.",
+    "C": "Physical symptoms like abdominal pain and tremors are categorized as less common compared to mood-related symptoms.",
+    "D": "Restlessness is a frequent psychological manifestation during the first few weeks of withdrawal."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_075",
+    "sourceQuestionIdentifier": "075_q006",
+    "quizTitle": "Substance Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Abdominal pain"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_075.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a physical symptom rather than a psychological or mood-based one.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_075_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_075",
+      "source_question_identifier": "075_q006",
+      "quiz_title": "Substance Quiz",
+      "quiz_question_count": 12,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "Which of the following is considered a 'less common' symptom of cannabis withdrawal according to the provided chart?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a physical symptom rather than a psychological or mood-based one.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Abdominal pain"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Irritability",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Irritability is one of the most common behavioral symptoms of cannabis cessation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Sleep difficulties",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Insomnia and sleep disturbances are standard hallmarks of the withdrawal period.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Abdominal pain",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Physical symptoms like abdominal pain and tremors are categorized as less common compared to mood-related symptoms.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Restlessness",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Restlessness is a frequent psychological manifestation during the first few weeks of withdrawal.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_075.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Adolescent Medicine",
+      "reason": "Mapped to substance use and risk in Adolescent Health.",
+      "mappingKey": "notebook:quiz_075",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.865Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.865Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

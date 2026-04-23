@@ -1,0 +1,202 @@
+{
+  "id": "feeda1de-8b74-5f63-9432-c2b00b57b372",
+  "stem": "Which bacterial species is identified as being responsible for essentially all intracranial complications of acute otitis media?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Haemophilus influenzae",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Moraxella catarrhalis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Staphylococcus aureus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that while three bacteria are common in AOM, all the acute intracranial complications are due to $S. pneumoniae$.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_002.json",
+      "title": "Otology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/otology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-feeda1de8b743f635432c2b0",
+  "rationale": "This pathogen is also a major cause of pneumonia and meningitis.",
+  "optionExplanations": {
+    "A": "The source states that while three bacteria are common in AOM, all the acute intracranial complications are due to $S. pneumoniae$.",
+    "B": "While $H. influenzae$ is a common cause of AOM, it is not cited as the primary driver of intracranial complications in this lecture.",
+    "C": "This bacterium is one of the 'big three' for AOM but is generally less associated with severe intracranial spread than Strep.",
+    "D": "Staph is mentioned as a cause of localized otitis externa (furunculosis), not as the main driver of AOM complications."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_002",
+    "sourceQuestionIdentifier": "002_q009",
+    "quizTitle": "Otology Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Streptococcus pneumoniae"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_002.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This pathogen is also a major cause of pneumonia and meningitis.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_002_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_002",
+      "source_question_identifier": "002_q009",
+      "quiz_title": "Otology Quiz",
+      "quiz_question_count": 15,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "Which bacterial species is identified as being responsible for essentially all intracranial complications of acute otitis media?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This pathogen is also a major cause of pneumonia and meningitis.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Streptococcus pneumoniae"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Streptococcus pneumoniae",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source states that while three bacteria are common in AOM, all the acute intracranial complications are due to $S. pneumoniae$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Haemophilus influenzae",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While $H. influenzae$ is a common cause of AOM, it is not cited as the primary driver of intracranial complications in this lecture.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Moraxella catarrhalis",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This bacterium is one of the 'big three' for AOM but is generally less associated with severe intracranial spread than Strep.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Staphylococcus aureus",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Staph is mentioned as a cause of localized otitis externa (furunculosis), not as the main driver of AOM complications.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_002.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to the ENT (Paediatric) branch via otology.",
+      "mappingKey": "notebook:quiz_002",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.062Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.062Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

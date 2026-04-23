@@ -1,0 +1,202 @@
+{
+  "id": "cb565ab3-b4d1-511a-ab9d-9ab5437c6df5",
+  "stem": "What is the characteristic gait and posture of a child affected by SCFE?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Limping with an out-toeing foot position",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "In-toeing with a high-stepping gait",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Walking on the balls of the feet",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A stiff-legged gait with no knee flexion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The fixed external rotation deformity of the hip joint causes the patient to walk with a limp and turn their toes outward.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_092.json",
+      "title": "SCFE Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/scfe-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-cb565ab3b4d1411a6b9d9ab5",
+  "rationale": "Consider the effect of a fixed 'external rotation' deformity on the foot's direction.",
+  "optionExplanations": {
+    "A": "The fixed external rotation deformity of the hip joint causes the patient to walk with a limp and turn their toes outward.",
+    "B": "The hip deformity in SCFE is characterized by external rotation, which results in out-toeing rather than in-toeing.",
+    "C": "Toe-walking is associated with other conditions; SCFE typically presents with a limp and rotation of the leg.",
+    "D": "The primary deformity involves the rotation of the hip joint, affecting the orientation of the foot during a limp."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_092",
+    "sourceQuestionIdentifier": "092_q007",
+    "quizTitle": "SCFE Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Limping with an out-toeing foot position"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_092.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the effect of a fixed 'external rotation' deformity on the foot's direction.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_092_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_092",
+      "source_question_identifier": "092_q007",
+      "quiz_title": "SCFE Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "What is the characteristic gait and posture of a child affected by SCFE?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the effect of a fixed 'external rotation' deformity on the foot's direction.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Limping with an out-toeing foot position"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Limping with an out-toeing foot position",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The fixed external rotation deformity of the hip joint causes the patient to walk with a limp and turn their toes outward.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "In-toeing with a high-stepping gait",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The hip deformity in SCFE is characterized by external rotation, which results in out-toeing rather than in-toeing.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Walking on the balls of the feet",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Toe-walking is associated with other conditions; SCFE typically presents with a limp and rotation of the leg.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A stiff-legged gait with no knee flexion",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The primary deformity involves the rotation of the hip joint, affecting the orientation of the foot during a limp.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_092.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_092",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.949Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.949Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

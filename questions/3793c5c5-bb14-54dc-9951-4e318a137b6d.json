@@ -1,0 +1,202 @@
+{
+  "id": "3793c5c5-bb14-54dc-9951-4e318a137b6d",
+  "stem": "Why is it generally recommended to tick the box for using a spacer on a pediatric asthma action plan?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spacers ensure better delivery of the medication to the lungs in children",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Spacers are only necessary if the child is using a dry powder inhaler",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Using a spacer is the only way to measure peak flow accurately",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It reduces the amount of medication needed to achieve the same effect",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Spacers help overcome coordination issues, ensuring the inhaled medication reaches the lower airways effectively rather than hitting the back of the throat.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_012.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-3793c5c5bb1494dc59514e31",
+  "rationale": "Think about the mechanical challenges young children face when trying to coordinate their breathing with a puffer.",
+  "optionExplanations": {
+    "A": "Spacers help overcome coordination issues, ensuring the inhaled medication reaches the lower airways effectively rather than hitting the back of the throat.",
+    "B": "Spacers are used with pressurized metered-dose inhalers (puffers), whereas dry powder inhalers typically do not use them.",
+    "C": "Peak flow meters are separate diagnostic tools and are not used in conjunction with a spacer for medication delivery.",
+    "D": "The dose remains the same, but the delivery efficiency is improved, ensuring the prescribed dose actually reaches the target area."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_012",
+    "sourceQuestionIdentifier": "012_q002",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Spacers ensure better delivery of the medication to the lungs in children"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_012.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the mechanical challenges young children face when trying to coordinate their breathing with a puffer.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_012_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_012",
+      "source_question_identifier": "012_q002",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "Why is it generally recommended to tick the box for using a spacer on a pediatric asthma action plan?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the mechanical challenges young children face when trying to coordinate their breathing with a puffer.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Spacers ensure better delivery of the medication to the lungs in children"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Spacers ensure better delivery of the medication to the lungs in children",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Spacers help overcome coordination issues, ensuring the inhaled medication reaches the lower airways effectively rather than hitting the back of the throat.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Spacers are only necessary if the child is using a dry powder inhaler",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Spacers are used with pressurized metered-dose inhalers (puffers), whereas dry powder inhalers typically do not use them.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Using a spacer is the only way to measure peak flow accurately",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Peak flow meters are separate diagnostic tools and are not used in conjunction with a spacer for medication delivery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It reduces the amount of medication needed to achieve the same effect",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The dose remains the same, but the delivery efficiency is improved, ensuring the prescribed dose actually reaches the target area.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_012.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_012",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.576Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.576Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

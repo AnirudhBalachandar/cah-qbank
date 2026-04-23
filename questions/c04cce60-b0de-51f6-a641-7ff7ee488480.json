@@ -1,0 +1,202 @@
+{
+  "id": "c04cce60-b0de-51f6-a641-7ff7ee488480",
+  "stem": "Which X-ray finding is characteristic of a dislocated hip in a child over 6 months of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A flattened acetabular roof",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A larger ossification center in the affected femoral head",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A steeper acetabular roof and lateral displacement of the femoral head",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Increased amniotic fluid markers",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Dislocated hips often show a more vertical (steeper) cup shape and the femoral head sitting further away from the center of the joint.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_095.json",
+      "title": "Hip Dysplasia Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/hip-dysplasia-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-c04cce60b0de41f626417ff7",
+  "rationale": "Look for descriptions of the angle of the hip socket and the position of the femur.",
+  "optionExplanations": {
+    "A": "A dislocated hip typically presents with a steeper, rather than flattened, acetabular roof.",
+    "B": "The ossification center on the dislocated side is usually smaller due to a delay in the ossification process.",
+    "C": "Dislocated hips often show a more vertical (steeper) cup shape and the femoral head sitting further away from the center of the joint.",
+    "D": "Amniotic fluid is a prenatal factor and cannot be seen or measured on an infant's hip X-ray."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_095",
+    "sourceQuestionIdentifier": "095_q010",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A steeper acetabular roof and lateral displacement of the femoral head"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_095.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for descriptions of the angle of the hip socket and the position of the femur.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_095_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_095",
+      "source_question_identifier": "095_q010",
+      "quiz_title": "Hip Dysplasia Quiz",
+      "quiz_question_count": 12,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Which X-ray finding is characteristic of a dislocated hip in a child over 6 months of age?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for descriptions of the angle of the hip socket and the position of the femur.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A steeper acetabular roof and lateral displacement of the femoral head"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A flattened acetabular roof",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A dislocated hip typically presents with a steeper, rather than flattened, acetabular roof.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "A larger ossification center in the affected femoral head",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The ossification center on the dislocated side is usually smaller due to a delay in the ossification process.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A steeper acetabular roof and lateral displacement of the femoral head",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Dislocated hips often show a more vertical (steeper) cup shape and the femoral head sitting further away from the center of the joint.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Increased amniotic fluid markers",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Amniotic fluid is a prenatal factor and cannot be seen or measured on an infant's hip X-ray.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_095.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_095",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.917Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.917Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "9611b97b-d86d-521b-b78b-c6228824b82b",
+  "stem": "What is the primary difference between sensitization and a clinical food allergy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sensitization refers to a positive test result without symptoms, while clinical allergy requires symptoms upon exposure.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Sensitization is a delayed reaction, while clinical allergy is always immediate.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sensitization only occurs in adults, whereas clinical allergies are found in children.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Sensitization refers to low antibody levels, while clinical allergy refers to high antibody levels.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Diagnosis of a true allergy requires both the presence of specific antibodies and a physical reaction when the food is ingested.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_031.json",
+      "title": "Allergy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/allergy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9611b97bd86d821bf78bc622",
+  "rationale": "One is an immunological observation, the other is a symptomatic diagnosis.",
+  "optionExplanations": {
+    "A": "Diagnosis of a true allergy requires both the presence of specific antibodies and a physical reaction when the food is ingested.",
+    "B": "Sensitization is an immunological state of readiness, not a description of the timing of a reaction.",
+    "C": "Both sensitization and clinical allergy can be present across all age groups, though rates vary.",
+    "D": "While high levels increase the likelihood of allergy, the defining factor is the presence or absence of clinical symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_031",
+    "sourceQuestionIdentifier": "031_q003",
+    "quizTitle": "Allergy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Sensitization refers to a positive test result without symptoms, while clinical allergy requires symptoms upon exposure."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_031.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "One is an immunological observation, the other is a symptomatic diagnosis.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_031_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_031",
+      "source_question_identifier": "031_q003",
+      "quiz_title": "Allergy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "What is the primary difference between sensitization and a clinical food allergy?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "One is an immunological observation, the other is a symptomatic diagnosis.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Sensitization refers to a positive test result without symptoms, while clinical allergy requires symptoms upon exposure."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Sensitization refers to a positive test result without symptoms, while clinical allergy requires symptoms upon exposure.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Diagnosis of a true allergy requires both the presence of specific antibodies and a physical reaction when the food is ingested.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Sensitization is a delayed reaction, while clinical allergy is always immediate.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Sensitization is an immunological state of readiness, not a description of the timing of a reaction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Sensitization only occurs in adults, whereas clinical allergies are found in children.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Both sensitization and clinical allergy can be present across all age groups, though rates vary.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Sensitization refers to low antibody levels, while clinical allergy refers to high antibody levels.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While high levels increase the likelihood of allergy, the defining factor is the presence or absence of clinical symptoms.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_031.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Adverse Food Reaction and allergy within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_031",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.813Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.813Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

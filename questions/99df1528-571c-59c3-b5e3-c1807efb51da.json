@@ -1,0 +1,202 @@
+{
+  "id": "99df1528-571c-59c3-b5e3-c1807efb51da",
+  "stem": "What is 'SMART' therapy as described in the context of adolescent asthma management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A specialized breathing exercise program used alongside medications.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The use of a single inhaler containing budesonide and formoterol for both maintenance and relief.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "An automated electronic monitoring system that alerts parents when a dose is missed.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A step-down protocol where medication is stopped during the summer months.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "SMART (Single Maintenance and Reliever Therapy) involves using a combination ICS/LABA inhaler for daily use and rescue puffs.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_016.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-99df1528571cc9c3b5e3c180",
+  "rationale": "This acronym describes using the same combination inhaler for both regular daily dosing and as-needed rescue.",
+  "optionExplanations": {
+    "A": "SMART therapy refers specifically to a pharmacological approach, not a physical therapy or exercise routine.",
+    "B": "SMART (Single Maintenance and Reliever Therapy) involves using a combination ICS/LABA inhaler for daily use and rescue puffs.",
+    "C": "While electronic monitoring exists, 'SMART' in this context is an acronym for a specific medication delivery strategy.",
+    "D": "SMART therapy is about how medication is used daily and for acute relief, not about seasonal cessation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_016",
+    "sourceQuestionIdentifier": "016_q011",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 11,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The use of a single inhaler containing budesonide and formoterol for both maintenance and relief."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_016.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This acronym describes using the same combination inhaler for both regular daily dosing and as-needed rescue.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_016_q011",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_016",
+      "source_question_identifier": "016_q011",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 12,
+      "question_index": 11,
+      "question_type": "",
+      "question_text": "What is 'SMART' therapy as described in the context of adolescent asthma management?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This acronym describes using the same combination inhaler for both regular daily dosing and as-needed rescue.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The use of a single inhaler containing budesonide and formoterol for both maintenance and relief."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A specialized breathing exercise program used alongside medications.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "SMART therapy refers specifically to a pharmacological approach, not a physical therapy or exercise routine.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The use of a single inhaler containing budesonide and formoterol for both maintenance and relief.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "SMART (Single Maintenance and Reliever Therapy) involves using a combination ICS/LABA inhaler for daily use and rescue puffs.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "An automated electronic monitoring system that alerts parents when a dose is missed.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While electronic monitoring exists, 'SMART' in this context is an acronym for a specific medication delivery strategy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A step-down protocol where medication is stopped during the summer months.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "SMART therapy is about how medication is used daily and for acute relief, not about seasonal cessation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_016.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_016",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.822Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.822Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

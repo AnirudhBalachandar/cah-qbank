@@ -1,0 +1,202 @@
+{
+  "id": "2509be2a-59ec-5796-afca-26995a8b22c6",
+  "stem": "What is the standard surgical intervention to manage a slipped capital femoral epiphysis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Percutaneous screw fixation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Open reduction without hardware",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Amputation of the femoral head",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "External fixation with a metal frame",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A screw is inserted under X-ray guidance to secure the femoral head to the neck and prevent further slippage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_092.json",
+      "title": "SCFE Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/scfe-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-2509be2a59ec67966fca2699",
+  "rationale": "Think about the method used to stabilize the 'slipping' bone using hardware.",
+  "optionExplanations": {
+    "A": "A screw is inserted under X-ray guidance to secure the femoral head to the neck and prevent further slippage.",
+    "B": "The source specifies that screw fixation is required to prevent further slippage through the physis.",
+    "C": "The goal is to preserve and stabilize the femoral head, not remove it.",
+    "D": "Treatment typically involves internal fixation using a screw that crosses the femoral neck and physis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_092",
+    "sourceQuestionIdentifier": "092_q008",
+    "quizTitle": "SCFE Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Percutaneous screw fixation"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_092.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the method used to stabilize the 'slipping' bone using hardware.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_092_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_092",
+      "source_question_identifier": "092_q008",
+      "quiz_title": "SCFE Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "What is the standard surgical intervention to manage a slipped capital femoral epiphysis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the method used to stabilize the 'slipping' bone using hardware.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Percutaneous screw fixation"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Percutaneous screw fixation",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "A screw is inserted under X-ray guidance to secure the femoral head to the neck and prevent further slippage.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Open reduction without hardware",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source specifies that screw fixation is required to prevent further slippage through the physis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Amputation of the femoral head",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The goal is to preserve and stabilize the femoral head, not remove it.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "External fixation with a metal frame",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Treatment typically involves internal fixation using a screw that crosses the femoral neck and physis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_092.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_092",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.516Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.516Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

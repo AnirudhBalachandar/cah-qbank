@@ -1,0 +1,202 @@
+{
+  "id": "ffff0d31-d331-5f21-842d-38e308d42945",
+  "stem": "Which of the following is a primary indication to consider the administration of adrenaline in a child with a severe asthma presentation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "If the child has a high fever.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "If the child is categorized as mild but has a history of allergies.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "If the child is unresponsive or anaphylaxis is suspected.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "If the child has been on oral steroids for more than $3$ days.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adrenaline is indicated when an allergic reaction is suspected or the patient is periarrest and cannot effectively inhale medications.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_013.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-ffff0d31d331ef21042d38e3",
+  "rationale": "Think about emergencies where the patient might not be able to breathe in bronchodilators or where a systemic allergic reaction is occurring.",
+  "optionExplanations": {
+    "A": "Fever is not an indication for adrenaline; it suggests an underlying infection rather than an immediate need for vasopressors or bronchodilation.",
+    "B": "Adrenaline is reserved for life-threatening situations or suspected anaphylaxis, not routine mild cases.",
+    "C": "Adrenaline is indicated when an allergic reaction is suspected or the patient is periarrest and cannot effectively inhale medications.",
+    "D": "The duration of prior steroid use does not dictate the immediate need for adrenaline."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_013",
+    "sourceQuestionIdentifier": "013_q007",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "If the child is unresponsive or anaphylaxis is suspected."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_013.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about emergencies where the patient might not be able to breathe in bronchodilators or where a systemic allergic reaction is occurring.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_013_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_013",
+      "source_question_identifier": "013_q007",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which of the following is a primary indication to consider the administration of adrenaline in a child with a severe asthma presentation?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about emergencies where the patient might not be able to breathe in bronchodilators or where a systemic allergic reaction is occurring.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "If the child is unresponsive or anaphylaxis is suspected."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "If the child has a high fever.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fever is not an indication for adrenaline; it suggests an underlying infection rather than an immediate need for vasopressors or bronchodilation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "If the child is categorized as mild but has a history of allergies.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Adrenaline is reserved for life-threatening situations or suspected anaphylaxis, not routine mild cases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "If the child is unresponsive or anaphylaxis is suspected.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Adrenaline is indicated when an allergic reaction is suspected or the patient is periarrest and cannot effectively inhale medications.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "If the child has been on oral steroids for more than $3$ days.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The duration of prior steroid use does not dictate the immediate need for adrenaline.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_013.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_013",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.066Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.066Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

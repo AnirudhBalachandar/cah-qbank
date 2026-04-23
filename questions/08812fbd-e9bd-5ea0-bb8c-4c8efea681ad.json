@@ -1,0 +1,216 @@
+{
+  "id": "08812fbd-e9bd-5ea0-bb8c-4c8efea681ad",
+  "stem": "An inpatient with abdominal pain deteriorated overnight. An abdominal X-ray was performed. The X-ray shows normal outlining of both sides of the bowel walls.",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "True",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "False",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "The statement is false. Normal bowel wall outlining on both sides is not expected; this finding suggests free intraluminal air with the 'double wall' (Rigler) sign.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891204/take",
+      "title": "Practice Quiz: GIT Xray"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/practice-quiz-git-xray",
+    "combined-import/repair-method/selected_existing_option",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-08812fbde9bd4ea0fb8c4c8e",
+  "rationale": "This is a true/false item about abdominal X-ray interpretation. The finding described is abnormal and indicates pneumoperitoneum rather than a normal bowel gas pattern.",
+  "optionExplanations": {
+    "A": "Incorrect. Normal abdominal X-rays do not show both sides of the bowel wall outlined.",
+    "B": "Correct. Double-sided bowel wall outlining indicates free air, not a normal film."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645982",
+    "sourceQuestionIdentifier": "question-18",
+    "quizTitle": "Practice Quiz: GIT Xray",
+    "quizQuestionCount": 21,
+    "questionIndex": 18,
+    "originalQuestionType": "",
+    "originalOptionCount": 2,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891204/take",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray/question_dom/question_018.json",
+    "questionTextHtml": "True or False\n\nThe X-Ray shows normal outlining of both sides of the bowel walls",
+    "stimulusText": "2\n\nThe following text applies to the questions at positions 16, 17, 18, 19, 20\n\nInstructions\n\nThe following 5 questions relate to this case\n\nCase 5\n\nAn inpatient with abdominal pain deteriorated overnight. The attached abdomen X-Ray was performed.",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [
+      {
+        "src": "https://quiz-api-production-s3-uploads-4mqunb7g4o7t.s3.ap-southeast-2.amazonaws.com/quiz_assets/d1c558c5-d73b-4635-b0b0-780a8e6e4c7a/97aef1a40618bb96fa0d056534c0fdbb.jpg",
+        "alt": "git-p5-01.jpg"
+      }
+    ],
+    "tableRefs": [],
+    "questionAssets": [
+      {
+        "source_url": "https://quiz-api-production-s3-uploads-4mqunb7g4o7t.s3.ap-southeast-2.amazonaws.com/quiz_assets/d1c558c5-d73b-4635-b0b0-780a8e6e4c7a/97aef1a40618bb96fa0d056534c0fdbb.jpg",
+        "local_path": "assets/q016_fig01.jpg"
+      }
+    ],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645982_q018",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645982",
+      "source_question_identifier": "question-18",
+      "quiz_title": "Practice Quiz: GIT Xray",
+      "quiz_question_count": 21,
+      "question_index": 18,
+      "question_type": "",
+      "question_text": "True or False\n\nThe X-Ray shows normal outlining of both sides of the bowel walls",
+      "question_text_html": "True or False\n\nThe X-Ray shows normal outlining of both sides of the bowel walls",
+      "stimulus_text": "2\n\nThe following text applies to the questions at positions 16, 17, 18, 19, 20\n\nInstructions\n\nThe following 5 questions relate to this case\n\nCase 5\n\nAn inpatient with abdominal pain deteriorated overnight. The attached abdomen X-Ray was performed.",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 2,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "A",
+          "text": "True",
+          "text_html": "True",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "B",
+          "text": "False",
+          "text_html": "False",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 1,
+      "figure_refs": [
+        {
+          "src": "https://quiz-api-production-s3-uploads-4mqunb7g4o7t.s3.ap-southeast-2.amazonaws.com/quiz_assets/d1c558c5-d73b-4635-b0b0-780a8e6e4c7a/97aef1a40618bb96fa0d056534c0fdbb.jpg",
+          "alt": "git-p5-01.jpg"
+        }
+      ],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [
+        {
+          "source_url": "https://quiz-api-production-s3-uploads-4mqunb7g4o7t.s3.ap-southeast-2.amazonaws.com/quiz_assets/d1c558c5-d73b-4635-b0b0-780a8e6e4c7a/97aef1a40618bb96fa0d056534c0fdbb.jpg",
+          "local_path": "assets/q016_fig01.jpg"
+        }
+      ],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891204/take",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645982_Practice_Quiz_GIT_Xray/question_dom/question_018.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to Abdominal Imaging within Paediatric Procedural Skills and Medical Imaging.",
+      "mappingKey": "canvas:title:Practice Quiz: GIT Xray",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:35:06.201Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "selected_existing_option",
+      "confidence": 0.95,
+      "notes": "No image was provided, so the answer is based on the described radiographic sign.",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Stimulus:\n2\n\nThe following text applies to the questions at positions 16, 17, 18, 19, 20\n\nInstructions\n\nThe following 5 questions relate to this case\n\nCase 5\n\nAn inpatient with abdominal pain deteriorated overnight. The attached abdomen X-Ray was performed.\n\nTrue or False\n\nThe X-Ray shows normal outlining of both sides of the bowel walls",
+        "options": [
+          {
+            "key": "A",
+            "text": "True",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "False",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "ready_for_published_browse_only"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.413Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.413Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

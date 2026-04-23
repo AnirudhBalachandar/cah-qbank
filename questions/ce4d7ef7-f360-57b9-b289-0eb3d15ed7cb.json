@@ -1,0 +1,202 @@
+{
+  "id": "ce4d7ef7-f360-57b9-b289-0eb3d15ed7cb",
+  "stem": "Which of the following bleeding patterns is most typical for a patient with von Willebrand disease or a platelet function disorder?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spontaneous bleeding into large joints (hemarthrosis)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Mucosal bleeding such as epistaxis (nosebleeds) and menorrhagia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Delayed bleeding that occurs days after a trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bleeding only after major surgery",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Von Willebrand disease and platelet disorders typically present with mucosal membrane bleeding.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_063.json",
+      "title": "Bleeding Disorders Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/bleeding-disorders-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-ce4d7ef7f360e7b972890eb3",
+  "rationale": "Focus on the type of surfaces where these symptoms usually manifest.",
+  "optionExplanations": {
+    "A": "Joint bleeds are the hallmark of hemophilia, not usually von Willebrand disease.",
+    "B": "Von Willebrand disease and platelet disorders typically present with mucosal membrane bleeding.",
+    "C": "Delayed bleeding is more characteristic of Factor $XIII$ deficiency.",
+    "D": "While they can bleed during surgery, these patients often have minor mucosal symptoms in daily life."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_063",
+    "sourceQuestionIdentifier": "063_q014",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 14,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Mucosal bleeding such as epistaxis (nosebleeds) and menorrhagia"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_063.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the type of surfaces where these symptoms usually manifest.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_063_q014",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_063",
+      "source_question_identifier": "063_q014",
+      "quiz_title": "Bleeding Disorders Quiz",
+      "quiz_question_count": 15,
+      "question_index": 14,
+      "question_type": "",
+      "question_text": "Which of the following bleeding patterns is most typical for a patient with von Willebrand disease or a platelet function disorder?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the type of surfaces where these symptoms usually manifest.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Mucosal bleeding such as epistaxis (nosebleeds) and menorrhagia"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Spontaneous bleeding into large joints (hemarthrosis)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Joint bleeds are the hallmark of hemophilia, not usually von Willebrand disease.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Mucosal bleeding such as epistaxis (nosebleeds) and menorrhagia",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Von Willebrand disease and platelet disorders typically present with mucosal membrane bleeding.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Delayed bleeding that occurs days after a trauma",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Delayed bleeding is more characteristic of Factor $XIII$ deficiency.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Bleeding only after major surgery",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While they can bleed during surgery, these patients often have minor mucosal symptoms in daily life.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_063.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to haematology and bleeding disorders within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_063",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.957Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.957Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

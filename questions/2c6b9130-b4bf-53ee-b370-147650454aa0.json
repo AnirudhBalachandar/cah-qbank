@@ -1,0 +1,202 @@
+{
+  "id": "2c6b9130-b4bf-53ee-b370-147650454aa0",
+  "stem": "What is the standard immediate management for a pediatric oncology patient who develops a fever while on chemotherapy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Oral paracetamol and observation at home",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Wait for blood culture results before starting treatment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Admission for immediate broad-spectrum intravenous antibiotics",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Immediate surgical removal of the central line",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prompt administration of antibiotics (like Timentin and Gentamicin) is required to cover potential sepsis while the child is neutropenic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_072.json",
+      "title": "Oncology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/oncology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-2c6b9130b4bf73eeb3701476",
+  "rationale": "This condition is treated as a life-threatening medical emergency regardless of how 'well' the child looks.",
+  "optionExplanations": {
+    "A": "Fever in a neutropenic child is a medical emergency and cannot be managed safely with just home observation.",
+    "B": "Waiting even a few hours for results can be fatal due to the risk of rapid septic shock in the absence of white blood cells.",
+    "C": "Prompt administration of antibiotics (like Timentin and Gentamicin) is required to cover potential sepsis while the child is neutropenic.",
+    "D": "While the line might be the source, the priority is stabilization and systemic antibiotic therapy, not immediate surgery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_072",
+    "sourceQuestionIdentifier": "072_q009",
+    "quizTitle": "Oncology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Admission for immediate broad-spectrum intravenous antibiotics"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_072.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This condition is treated as a life-threatening medical emergency regardless of how 'well' the child looks.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_072_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_072",
+      "source_question_identifier": "072_q009",
+      "quiz_title": "Oncology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "What is the standard immediate management for a pediatric oncology patient who develops a fever while on chemotherapy?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This condition is treated as a life-threatening medical emergency regardless of how 'well' the child looks.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Admission for immediate broad-spectrum intravenous antibiotics"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Oral paracetamol and observation at home",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fever in a neutropenic child is a medical emergency and cannot be managed safely with just home observation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Wait for blood culture results before starting treatment",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Waiting even a few hours for results can be fatal due to the risk of rapid septic shock in the absence of white blood cells.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Admission for immediate broad-spectrum intravenous antibiotics",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Prompt administration of antibiotics (like Timentin and Gentamicin) is required to cover potential sepsis while the child is neutropenic.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Immediate surgical removal of the central line",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While the line might be the source, the priority is stabilization and systemic antibiotic therapy, not immediate surgery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_072.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to oncology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_072",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.543Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.543Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

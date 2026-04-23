@@ -1,0 +1,202 @@
+{
+  "id": "a04a0878-d368-5aab-b2c9-93f4745976e4",
+  "stem": "Which medication is noted for treating aggressive behavior in children with autism that is not managed by behavior support alone?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ritalin (Methylphenidate)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fluoxetine (Prozac)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Risperidone (Risperdal)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Clonidine (Catapress)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source mentions Risperidone is used specifically for managing aggressive behavior.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_054.json",
+      "title": "Autism Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/autism-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a04a0878d3688aab72c993f4",
+  "rationale": "Look for the drug often used when behavioral plans are insufficient to control aggression.",
+  "optionExplanations": {
+    "A": "Ritalin is used to treat hyperactivity and focus difficulties, not primarily for aggression.",
+    "B": "Fluoxetine is used for treating significant anxiety in children with autism.",
+    "C": "The source mentions Risperidone is used specifically for managing aggressive behavior.",
+    "D": "Clonidine is used to assist with sleep problems, a common issue in children with ASD."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_054",
+    "sourceQuestionIdentifier": "054_q007",
+    "quizTitle": "Autism Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Risperidone (Risperdal)"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_054.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for the drug often used when behavioral plans are insufficient to control aggression.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_054_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_054",
+      "source_question_identifier": "054_q007",
+      "quiz_title": "Autism Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which medication is noted for treating aggressive behavior in children with autism that is not managed by behavior support alone?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for the drug often used when behavioral plans are insufficient to control aggression.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Risperidone (Risperdal)"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Ritalin (Methylphenidate)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Ritalin is used to treat hyperactivity and focus difficulties, not primarily for aggression.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Fluoxetine (Prozac)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fluoxetine is used for treating significant anxiety in children with autism.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Risperidone (Risperdal)",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source mentions Risperidone is used specifically for managing aggressive behavior.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Clonidine (Catapress)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Clonidine is used to assist with sleep problems, a common issue in children with ASD.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_054.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to Autism Spectrum Disorder within Community/Developmental Paediatrics.",
+      "mappingKey": "notebook:quiz_054",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.840Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.840Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

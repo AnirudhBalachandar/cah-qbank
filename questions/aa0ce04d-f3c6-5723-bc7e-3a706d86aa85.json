@@ -1,0 +1,187 @@
+{
+  "id": "aa0ce04d-f3c6-5723-bc7e-3a706d86aa85",
+  "stem": "A 13 kg child is prescribed a medication at 2.5 mg/kg/day in three divided doses (every 8 hours). How many mg should be given per dose?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "8.1 mg",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "10.8 mg",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "32.5 mg",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "97.5 mg",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Calculate the total daily dose first: 13 kg × 2.5 mg/kg/day = 32.5 mg/day. Given every 8 hours means 3 doses per day, so 32.5 ÷ 3 = 10.8 mg per dose (approximately).",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "title": "Practice Quiz: Dose Calculation"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/practice-quiz-dose-calculation",
+    "combined-import/repair-method/rewritten_to_sba",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-aa0ce04df3c6f7233c7e3a70",
+  "rationale": "This is a dose-calculation question requiring conversion from mg/kg/day to mg per dose using the dosing interval.",
+  "optionExplanations": {
+    "A": "This is slightly low for the correct rounded dose, but can appear if the daily dose is rounded incorrectly before dividing.",
+    "B": "Correct if using standard rounding to one decimal place: 32.5 mg/day ÷ 3 = 10.83 mg per dose.",
+    "C": "This is the total daily dose, not the per-dose amount.",
+    "D": "This incorrectly multiplies the daily dose instead of dividing into three doses."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645969",
+    "sourceQuestionIdentifier": "question-16",
+    "quizTitle": "Practice Quiz: Dose Calculation",
+    "quizQuestionCount": 34,
+    "questionIndex": 16,
+    "originalQuestionType": "",
+    "originalOptionCount": 0,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_016.json",
+    "questionTextHtml": "Numeric\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": true,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645969_q016",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645969",
+      "source_question_identifier": "question-16",
+      "quiz_title": "Practice Quiz: Dose Calculation",
+      "quiz_question_count": 34,
+      "question_index": 16,
+      "question_type": "",
+      "question_text": "Numeric\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?",
+      "question_text_html": "Numeric\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 0,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_016.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped as core general-paediatric therapeutics content outside a subspecialty or emergency-specific branch.",
+      "mappingKey": "canvas:title:Practice Quiz: Dose Calculation",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:39:30.959Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_sba",
+      "confidence": 0.88,
+      "notes": "The source stem says 'How many mg would you administer per dose?' and specifies every 8 hours, so the correct calculation is 32.5 mg/day divided by 3. I used the exact calculated per-dose amount as the best answer and included a close distractor to reflect rounding.",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Numeric\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?\n\nA 13kg child is ordered a medication for 2.5mg/kg/day every 8 hours.\n\nHow many mg would you administer per dose?\n\nImported as a draft placeholder because the source question did not expose SBA-compatible answer options.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Imported Unspecified content preserved in the stem and source metadata.",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Manual conversion is required before this item can be used as a standard SBA question.",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "manual_conversion_required"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.867Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.867Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

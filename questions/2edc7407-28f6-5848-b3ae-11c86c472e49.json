@@ -1,0 +1,202 @@
+{
+  "id": "2edc7407-28f6-5848-b3ae-11c86c472e49",
+  "stem": "What is the recommended standard treatment for mild to moderate allergic reactions mentioned in the talk?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inhaled corticosteroids",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Oral antihistamines",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immediate adrenaline injection",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intravenous fluids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source specifies that mild to moderate cases often receive treatment with an oral antihistamine.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_030.json",
+      "title": "Food Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/food-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-2edc740728f6284833ae11c8",
+  "rationale": "This common over-the-counter medication class is used to block histamine effects.",
+  "optionExplanations": {
+    "A": "These are used for chronic asthma management, not for the acute treatment of a mild allergic reaction.",
+    "B": "The source specifies that mild to moderate cases often receive treatment with an oral antihistamine.",
+    "C": "Adrenaline is the treatment for anaphylaxis (severe reactions), not typically for mild to moderate symptoms.",
+    "D": "Fluids might be used in severe shock but are not the standard treatment for mild symptoms like hives."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_030",
+    "sourceQuestionIdentifier": "030_q015",
+    "quizTitle": "Food Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 15,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Oral antihistamines"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_030.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This common over-the-counter medication class is used to block histamine effects.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_030_q015",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_030",
+      "source_question_identifier": "030_q015",
+      "quiz_title": "Food Quiz",
+      "quiz_question_count": 15,
+      "question_index": 15,
+      "question_type": "",
+      "question_text": "What is the recommended standard treatment for mild to moderate allergic reactions mentioned in the talk?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This common over-the-counter medication class is used to block histamine effects.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Oral antihistamines"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Inhaled corticosteroids",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These are used for chronic asthma management, not for the acute treatment of a mild allergic reaction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Oral antihistamines",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source specifies that mild to moderate cases often receive treatment with an oral antihistamine.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Immediate adrenaline injection",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Adrenaline is the treatment for anaphylaxis (severe reactions), not typically for mild to moderate symptoms.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Intravenous fluids",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fluids might be used in severe shock but are not the standard treatment for mild symptoms like hives.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_030.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Adverse Food Reaction within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_030",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.547Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.547Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

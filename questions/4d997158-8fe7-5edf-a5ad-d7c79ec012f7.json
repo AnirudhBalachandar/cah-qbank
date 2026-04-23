@@ -1,0 +1,202 @@
+{
+  "id": "4d997158-8fe7-5edf-a5ad-d7c79ec012f7",
+  "stem": "Which of the following is an 'upstream' population health intervention mentioned as a potential way to address the drivers of obesity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Providing individual bariatric surgery referrals.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Implementing a soft drink tax.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Prescribing weight-loss medications in primary care.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Encouraging families to use smaller plates at home.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A soft drink tax is a population-level policy aimed at changing the food environment at its source.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_090.json",
+      "title": "Obesity Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/obesity-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-4d9971588fe76edfe5add7c7",
+  "rationale": "Think of policies that change the environment for everyone simultaneously, rather than focusing on one person at a time.",
+  "optionExplanations": {
+    "A": "Surgery is a tertiary 'downstream' treatment for individuals already affected, not an upstream prevention strategy.",
+    "B": "A soft drink tax is a population-level policy aimed at changing the food environment at its source.",
+    "C": "This targets the individual clinically rather than addressing the broader environmental or societal causes.",
+    "D": "While helpful, this is an individual or household behavior change rather than a systemic 'upstream' policy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_090",
+    "sourceQuestionIdentifier": "090_q008",
+    "quizTitle": "Obesity Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Implementing a soft drink tax."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_090.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think of policies that change the environment for everyone simultaneously, rather than focusing on one person at a time.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_090_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_090",
+      "source_question_identifier": "090_q008",
+      "quiz_title": "Obesity Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "Which of the following is an 'upstream' population health intervention mentioned as a potential way to address the drivers of obesity?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think of policies that change the environment for everyone simultaneously, rather than focusing on one person at a time.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Implementing a soft drink tax."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Providing individual bariatric surgery referrals.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Surgery is a tertiary 'downstream' treatment for individuals already affected, not an upstream prevention strategy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Implementing a soft drink tax.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "A soft drink tax is a population-level policy aimed at changing the food environment at its source.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Prescribing weight-loss medications in primary care.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This targets the individual clinically rather than addressing the broader environmental or societal causes.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Encouraging families to use smaller plates at home.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While helpful, this is an individual or household behavior change rather than a systemic 'upstream' policy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_090.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to growth and nutrition, including obesity, within General Paediatrics.",
+      "mappingKey": "notebook:quiz_090",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.626Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.626Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

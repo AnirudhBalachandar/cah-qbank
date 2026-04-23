@@ -1,0 +1,202 @@
+{
+  "id": "d732bc5c-0130-5ba0-a108-458f419a4eea",
+  "stem": "Infantile gastroesophageal reflux is typically managed with conservative measures. At what point is a surgical opinion usually sought?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "When the infant vomits once per day without weight loss.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "When the vomiting is effortless and resolves by six months of age.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "When pathological complications like respiratory aspiration or failure to thrive occur.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "When the mother requests surgery to stop the frequency of laundry.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Surgery is considered when reflux causes severe issues like life-threatening events, chronic aspiration, or significant weight loss.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_048.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d732bc5c0130dba0a108458f",
+  "rationale": "Focus on the transition from 'physiological' to 'pathological' symptoms.",
+  "optionExplanations": {
+    "A": "Occasional vomiting without failure to thrive is considered physiological and managed conservatively.",
+    "B": "Self-resolution by six to twelve months is the standard course for most infants with reflux.",
+    "C": "Surgery is considered when reflux causes severe issues like life-threatening events, chronic aspiration, or significant weight loss.",
+    "D": "Surgical intervention is reserved for clinical necessity and pathological complications rather than caregiver convenience."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_048",
+    "sourceQuestionIdentifier": "048_q004",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "When pathological complications like respiratory aspiration or failure to thrive occur."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_048.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the transition from 'physiological' to 'pathological' symptoms.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_048_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_048",
+      "source_question_identifier": "048_q004",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "Infantile gastroesophageal reflux is typically managed with conservative measures. At what point is a surgical opinion usually sought?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the transition from 'physiological' to 'pathological' symptoms.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "When pathological complications like respiratory aspiration or failure to thrive occur."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "When the infant vomits once per day without weight loss.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Occasional vomiting without failure to thrive is considered physiological and managed conservatively.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "When the vomiting is effortless and resolves by six months of age.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Self-resolution by six to twelve months is the standard course for most infants with reflux.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "When pathological complications like respiratory aspiration or failure to thrive occur.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Surgery is considered when reflux causes severe issues like life-threatening events, chronic aspiration, or significant weight loss.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "When the mother requests surgery to stop the frequency of laundry.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Surgical intervention is reserved for clinical necessity and pathological complications rather than caregiver convenience.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_048.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to gastrointestinal and surgical emergencies presenting with vomiting.",
+      "mappingKey": "notebook:quiz_048",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.978Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.978Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

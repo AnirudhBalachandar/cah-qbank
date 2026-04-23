@@ -1,0 +1,202 @@
+{
+  "id": "dca883d5-0d40-5363-ba6a-2bfac327eebc",
+  "stem": "Which maternal factor is most strongly associated with an increased incidence of gastroschisis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Advanced maternal age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Gestational diabetes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Young motherhood",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Maternal obesity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source material identifies young maternal age as a significant risk factor for the development of gastroschisis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_073.json",
+      "title": "Neonatal Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/neonatal-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-dca883d50d403363ba6a2bfa",
+  "rationale": "Think about the demographic profile often highlighted in prenatal counseling for this specific defect.",
+  "optionExplanations": {
+    "A": "Advanced maternal age is more commonly associated with chromosomal abnormalities like Down syndrome, whereas gastroschisis is linked to the opposite demographic.",
+    "B": "While gestational diabetes affects fetal growth and can cause other anomalies, it is not a primary risk factor mentioned for gastroschisis.",
+    "C": "The source material identifies young maternal age as a significant risk factor for the development of gastroschisis.",
+    "D": "The source emphasizes lifestyle factors such as smoking and substance use rather than maternal weight as primary associations."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_073",
+    "sourceQuestionIdentifier": "073_q002",
+    "quizTitle": "Neonatal Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Young motherhood"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_073.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the demographic profile often highlighted in prenatal counseling for this specific defect.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_073_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_073",
+      "source_question_identifier": "073_q002",
+      "quiz_title": "Neonatal Quiz",
+      "quiz_question_count": 15,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "Which maternal factor is most strongly associated with an increased incidence of gastroschisis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the demographic profile often highlighted in prenatal counseling for this specific defect.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Young motherhood"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Advanced maternal age",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Advanced maternal age is more commonly associated with chromosomal abnormalities like Down syndrome, whereas gastroschisis is linked to the opposite demographic.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Gestational diabetes",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While gestational diabetes affects fetal growth and can cause other anomalies, it is not a primary risk factor mentioned for gastroschisis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Young motherhood",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source material identifies young maternal age as a significant risk factor for the development of gastroschisis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Maternal obesity",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source emphasizes lifestyle factors such as smoking and substance use rather than maternal weight as primary associations.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_073.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to congenital defects and neonatal surgical pathology within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_073",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.995Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.995Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

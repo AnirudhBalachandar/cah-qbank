@@ -1,0 +1,258 @@
+{
+  "id": "894733e6-4a2d-563e-bf8a-11f4e3063554",
+  "stem": "This is a supine chest X-ray of an infant in ICU. Where is the tip of tube B sited?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "In the first part of the duodenum",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Above the lower oesophageal sphincter",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "At the region of the body of the stomach",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The gastro-oesophageal junction",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "On a supine infant chest X-ray, a gastric tube tip positioned at the gastro-oesophageal junction is just below the diaphragm and near the GE junction, which is the best answer among the options provided.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891183/take",
+      "title": "Practice Quiz: Chest X-Ray - Part A"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/multiple-choice",
+    "combined-import/quiz/practice-quiz-chest-x-ray-part-a",
+    "combined-import/repair-method/selected_existing_option",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-894733e64a2da63e7f8a11f4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "This would be too distal for a standard gastric tube tip on this film.",
+    "B": "This is too proximal and would not be an adequate gastric position.",
+    "C": "This describes a gastric location, but the most specific match among the options is the gastro-oesophageal junction.",
+    "D": "Best match for the tube tip position shown/queried."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645964",
+    "sourceQuestionIdentifier": "question-4",
+    "quizTitle": "Practice Quiz: Chest X-Ray - Part A",
+    "quizQuestionCount": 8,
+    "questionIndex": 4,
+    "originalQuestionType": "Multiple Choice",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891183/take",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/question_dom/question_004.json",
+    "questionTextHtml": "Where is the tip of tube B sited?",
+    "stimulusText": "2\n\nThe following text applies to the questions at positions 1, 2, 3, 4\n\nInstructions\n\nQuestions 1 - 4 relate to this case\n\nRadiology: Supine Chest x-ray - Case 1\n\nThis is a supine chest X-Ray of an infant in ICU.",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [
+      {
+        "src": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+        "alt": "tubes-cath01 (1).jpg"
+      }
+    ],
+    "tableRefs": [],
+    "questionAssets": [
+      {
+        "source_url": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+        "local_path": "assets/q001_fig01.jpg"
+      }
+    ],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645964_q004",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645964",
+      "source_question_identifier": "question-4",
+      "quiz_title": "Practice Quiz: Chest X-Ray - Part A",
+      "quiz_question_count": 8,
+      "question_index": 4,
+      "question_type": "Multiple Choice",
+      "question_text": "Where is the tip of tube B sited?",
+      "question_text_html": "Where is the tip of tube B sited?",
+      "stimulus_text": "2\n\nThe following text applies to the questions at positions 1, 2, 3, 4\n\nInstructions\n\nQuestions 1 - 4 relate to this case\n\nRadiology: Supine Chest x-ray - Case 1\n\nThis is a supine chest X-Ray of an infant in ICU.",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 4,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "A",
+          "text": "In the first part of the duodenum",
+          "text_html": "In the first part of the duodenum",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "B",
+          "text": "Above the lower oesophageal sphincter",
+          "text_html": "Above the lower oesophageal sphincter",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "C",
+          "text": "At the region of the body of the stomach",
+          "text_html": "At the region of the body of the stomach",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "D",
+          "text": "The gastro-oesophageal junction",
+          "text_html": "The gastro-oesophageal junction",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 1,
+      "figure_refs": [
+        {
+          "src": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+          "alt": "tubes-cath01 (1).jpg"
+        }
+      ],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [
+        {
+          "source_url": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+          "local_path": "assets/q001_fig01.jpg"
+        }
+      ],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891183/take",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/question_dom/question_004.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to Paediatric Procedural Skills and Medical Imaging within General Paediatrics.",
+      "mappingKey": "canvas:title:Practice Quiz: Chest X-Ray - Part A",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:38:27.434Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "selected_existing_option",
+      "confidence": 0.62,
+      "notes": "Original item lacks image and explicit answer key; selected the most plausible option based on standard tube position interpretation.",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Stimulus:\n2\n\nThe following text applies to the questions at positions 1, 2, 3, 4\n\nInstructions\n\nQuestions 1 - 4 relate to this case\n\nRadiology: Supine Chest x-ray - Case 1\n\nThis is a supine chest X-Ray of an infant in ICU.\n\nWhere is the tip of tube B sited?",
+        "options": [
+          {
+            "key": "A",
+            "text": "In the first part of the duodenum",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Above the lower oesophageal sphincter",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "At the region of the body of the stomach",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "The gastro-oesophageal junction",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "ready_for_published_browse_only"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.774Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.774Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

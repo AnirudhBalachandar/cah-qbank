@@ -1,0 +1,202 @@
+{
+  "id": "cfc51543-9ccc-5201-8112-677a292b84d5",
+  "stem": "Pre-term infants receiving vaccinations in a hospital setting should be monitored for how long to detect potential apnea?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Up to $48$ hours",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$15$ minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$4$ hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$1$ week",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Monitoring saturations for two days post-vaccination allows for the detection of benign, self-limited breathing pauses common in pre-term infants.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_029.json",
+      "title": "Immunization Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/immunization-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-cfc515439ccce2010112677a",
+  "rationale": "The observation period lasts for two full days.",
+  "optionExplanations": {
+    "A": "Monitoring saturations for two days post-vaccination allows for the detection of benign, self-limited breathing pauses common in pre-term infants.",
+    "B": "$15$ minutes is the standard observation for anaphylaxis but is insufficient to detect delayed respiratory events in pre-term babies.",
+    "C": "Apneic events can occur well beyond the immediate post-vaccination period, requiring a longer observation window.",
+    "D": "While parents should always be vigilant, continuous clinical monitoring for a full week is not routinely required for stable infants."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_029",
+    "sourceQuestionIdentifier": "029_q010",
+    "quizTitle": "Immunization Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Up to $48$ hours"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_029.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The observation period lasts for two full days.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_029_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_029",
+      "source_question_identifier": "029_q010",
+      "quiz_title": "Immunization Quiz",
+      "quiz_question_count": 15,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Pre-term infants receiving vaccinations in a hospital setting should be monitored for how long to detect potential apnea?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The observation period lasts for two full days.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Up to $48$ hours"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Up to $48$ hours",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Monitoring saturations for two days post-vaccination allows for the detection of benign, self-limited breathing pauses common in pre-term infants.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$15$ minutes",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "$15$ minutes is the standard observation for anaphylaxis but is insufficient to detect delayed respiratory events in pre-term babies.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "$4$ hours",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Apneic events can occur well beyond the immediate post-vaccination period, requiring a longer observation window.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$1$ week",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While parents should always be vigilant, continuous clinical monitoring for a full week is not routinely required for stable infants.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_029.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Infectious Disease and Immunization.",
+      "mappingKey": "notebook:quiz_029",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.961Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.961Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

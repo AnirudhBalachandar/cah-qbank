@@ -1,0 +1,202 @@
+{
+  "id": "45548c80-2e47-5d5b-86f8-6a35581f43c4",
+  "stem": "In the management of symptomatic breastfed infants with relative lactose malabsorption, what is the recommended course of action regarding their diet?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Continue breastfeeding while ensuring the baby receives hind milk",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Switch immediately to a lactose-free formula",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Introduce soy milk or rice milk as a supplement",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Wait for the baby to reach 2 years of age for symptoms to resolve",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adjusting the feeding technique to include fat-rich hind milk helps slow digestion and allows the infant to process lactose more effectively.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_007.json",
+      "title": "Lactase Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/lactase-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-45548c802e472d5b86f86a35",
+  "rationale": "The solution involves altering the feeding process rather than changing the source of nutrition.",
+  "optionExplanations": {
+    "A": "Adjusting the feeding technique to include fat-rich hind milk helps slow digestion and allows the infant to process lactose more effectively.",
+    "B": "The material states that changing to formula is generally not indicated because congenital intolerance is exceptionally rare.",
+    "C": "These are substitutes for older children; breastfed infants should prioritize breast milk with feeding management.",
+    "D": "Symptoms should be managed through feeding technique rather than waiting, especially since primary deficiency often *begins* after age 2."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_007",
+    "sourceQuestionIdentifier": "007_q006",
+    "quizTitle": "Lactase Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Continue breastfeeding while ensuring the baby receives hind milk"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_007.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The solution involves altering the feeding process rather than changing the source of nutrition.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_007_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_007",
+      "source_question_identifier": "007_q006",
+      "quiz_title": "Lactase Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "In the management of symptomatic breastfed infants with relative lactose malabsorption, what is the recommended course of action regarding their diet?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The solution involves altering the feeding process rather than changing the source of nutrition.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Continue breastfeeding while ensuring the baby receives hind milk"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Continue breastfeeding while ensuring the baby receives hind milk",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Adjusting the feeding technique to include fat-rich hind milk helps slow digestion and allows the infant to process lactose more effectively.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Switch immediately to a lactose-free formula",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The material states that changing to formula is generally not indicated because congenital intolerance is exceptionally rare.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Introduce soy milk or rice milk as a supplement",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These are substitutes for older children; breastfed infants should prioritize breast milk with feeding management.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Wait for the baby to reach 2 years of age for symptoms to resolve",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Symptoms should be managed through feeding technique rather than waiting, especially since primary deficiency often *begins* after age 2.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_007.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to lactose intolerance within common paediatric conditions.",
+      "mappingKey": "notebook:quiz_007",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.609Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.609Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

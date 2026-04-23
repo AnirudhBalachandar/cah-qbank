@@ -1,0 +1,202 @@
+{
+  "id": "7f599079-4f0a-5e9f-996b-c2940ae28d44",
+  "stem": "What is the preferred imaging modality for evaluating acute abdominal pain in children due to its lack of radiation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Plain X-ray of the abdomen.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "CT scan of the abdomen.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ultrasound.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Magnetic Resonance Imaging (MRI).",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ultrasound is preferred because it is painless, involves no radiation, and can be easily repeated for serial monitoring.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_047.json",
+      "title": "Clinical Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/clinical-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-7f5990794f0a9e9f196bc294",
+  "rationale": "This method is described as non-invasive, repeatable, and safe regarding radiation exposure.",
+  "optionExplanations": {
+    "A": "The source mentions that plain X-rays have a very limited role in the initial evaluation of pediatric abdominal pain.",
+    "B": "CT involves significant radiation and is usually reserved for cases where clinical signs are unclear, such as in obese children.",
+    "C": "Ultrasound is preferred because it is painless, involves no radiation, and can be easily repeated for serial monitoring.",
+    "D": "While MRI lacks radiation, it is not mentioned as the primary or preferred initial screening tool in the source material."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_047",
+    "sourceQuestionIdentifier": "047_q006",
+    "quizTitle": "Clinical Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Ultrasound."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_047.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This method is described as non-invasive, repeatable, and safe regarding radiation exposure.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_047_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_047",
+      "source_question_identifier": "047_q006",
+      "quiz_title": "Clinical Quiz",
+      "quiz_question_count": 12,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "What is the preferred imaging modality for evaluating acute abdominal pain in children due to its lack of radiation?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This method is described as non-invasive, repeatable, and safe regarding radiation exposure.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Ultrasound."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Plain X-ray of the abdomen.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source mentions that plain X-rays have a very limited role in the initial evaluation of pediatric abdominal pain.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "CT scan of the abdomen.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "CT involves significant radiation and is usually reserved for cases where clinical signs are unclear, such as in obese children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Ultrasound.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Ultrasound is preferred because it is painless, involves no radiation, and can be easily repeated for serial monitoring.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Magnetic Resonance Imaging (MRI).",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While MRI lacks radiation, it is not mentioned as the primary or preferred initial screening tool in the source material.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_047.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to surgical abdominal pain and acute abdominal assessment within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_047",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.752Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.752Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

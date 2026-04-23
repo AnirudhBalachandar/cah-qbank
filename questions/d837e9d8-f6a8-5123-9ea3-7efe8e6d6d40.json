@@ -1,0 +1,202 @@
+{
+  "id": "d837e9d8-f6a8-5123-9ea3-7efe8e6d6d40",
+  "stem": "For resistant cases of night terrors, what is the recommended procedure for 'scheduled awakenings'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wake the child $10-15$ minutes before the typical event time for $5-7$ nights",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Wake the child immediately when the night terror begins to shorten its duration",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Maintain the child in an awake state for at least $30$ minutes after an awakening",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Administer a mild sedative $30$ minutes before the scheduled awakening",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This technique involves disrupting the sleep cycle just before the anticipated terror to prevent the transition that triggers the episode.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_021.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d837e9d8f6a841231ea37efe",
+  "rationale": "This method relies on preemptive timing based on a recorded history of the episodes.",
+  "optionExplanations": {
+    "A": "This technique involves disrupting the sleep cycle just before the anticipated terror to prevent the transition that triggers the episode.",
+    "B": "Attempting to wake a child during a night terror is discouraged as it can actually 'ramp up' or prolong the agitation.",
+    "C": "The source suggests maintaining an awake state for only about $5$ minutes during the scheduled awakening procedure.",
+    "D": "Medications are generally not recommended for night terrors; the focus is on behavioral management and sleep hygiene."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_021",
+    "sourceQuestionIdentifier": "021_q003",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Wake the child $10-15$ minutes before the typical event time for $5-7$ nights"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_021.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This method relies on preemptive timing based on a recorded history of the episodes.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_021_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_021",
+      "source_question_identifier": "021_q003",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "For resistant cases of night terrors, what is the recommended procedure for 'scheduled awakenings'?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This method relies on preemptive timing based on a recorded history of the episodes.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Wake the child $10-15$ minutes before the typical event time for $5-7$ nights"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Wake the child $10-15$ minutes before the typical event time for $5-7$ nights",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This technique involves disrupting the sleep cycle just before the anticipated terror to prevent the transition that triggers the episode.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Wake the child immediately when the night terror begins to shorten its duration",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Attempting to wake a child during a night terror is discouraged as it can actually 'ramp up' or prolong the agitation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Maintain the child in an awake state for at least $30$ minutes after an awakening",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source suggests maintaining an awake state for only about $5$ minutes during the scheduled awakening procedure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Administer a mild sedative $30$ minutes before the scheduled awakening",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Medications are generally not recommended for night terrors; the focus is on behavioral management and sleep hygiene.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_021.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to common paediatric sleep and parasomnia content.",
+      "mappingKey": "notebook:quiz_021",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.982Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.982Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

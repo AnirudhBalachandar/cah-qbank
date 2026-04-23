@@ -1,0 +1,202 @@
+{
+  "id": "3cad1e39-aaec-5efe-acd5-3993537d616a",
+  "stem": "In the context of the dental-medical interface, why is 'bubbly' saliva considered a positive sign?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It indicates that the patient has recently used fluoridated toothpaste.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It shows that saliva is flowing well and protecting the oral environment.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It suggests the presence of an active infection in the salivary glands.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is a diagnostic marker for Prader-Willi syndrome.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The text mentions that 'bubbly' saliva is a sign of healthy salivary flow, which is crucial for preventing decay and maintaining oral health.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_085.json",
+      "title": "Oral Medicine Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/oral-medicine-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-3cad1e39aaec9efeecd53993",
+  "rationale": "Think of the presence of bubbles as a sign of movement and volume.",
+  "optionExplanations": {
+    "A": "Bubbly saliva is a physiological observation, not a chemical residue of hygiene products.",
+    "B": "The text mentions that 'bubbly' saliva is a sign of healthy salivary flow, which is crucial for preventing decay and maintaining oral health.",
+    "C": "Infection usually causes swelling or decreased flow (thick/ropey), whereas bubbly saliva is associated with normal function.",
+    "D": "Prader-Willi is associated with dental damage from carbohydrate intake, but bubbly saliva is a sign of health, not a specific syndrome marker."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_085",
+    "sourceQuestionIdentifier": "085_q015",
+    "quizTitle": "Oral Medicine Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 15,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "It shows that saliva is flowing well and protecting the oral environment."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_085.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think of the presence of bubbles as a sign of movement and volume.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_085_q015",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_085",
+      "source_question_identifier": "085_q015",
+      "quiz_title": "Oral Medicine Quiz",
+      "quiz_question_count": 15,
+      "question_index": 15,
+      "question_type": "",
+      "question_text": "In the context of the dental-medical interface, why is 'bubbly' saliva considered a positive sign?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think of the presence of bubbles as a sign of movement and volume.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "It shows that saliva is flowing well and protecting the oral environment."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "It indicates that the patient has recently used fluoridated toothpaste.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Bubbly saliva is a physiological observation, not a chemical residue of hygiene products.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "It shows that saliva is flowing well and protecting the oral environment.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The text mentions that 'bubbly' saliva is a sign of healthy salivary flow, which is crucial for preventing decay and maintaining oral health.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "It suggests the presence of an active infection in the salivary glands.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Infection usually causes swelling or decreased flow (thick/ropey), whereas bubbly saliva is associated with normal function.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It is a diagnostic marker for Prader-Willi syndrome.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Prader-Willi is associated with dental damage from carbohydrate intake, but bubbly saliva is a sign of health, not a specific syndrome marker.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_085.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to oral and maxillofacial/dental pathology in children.",
+      "mappingKey": "notebook:quiz_085",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.590Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.590Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "9850529f-471f-5431-9d55-937673522b79",
+  "stem": "Which of the following is considered a 'second line' treatment for nocturnal enuresis in older children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Desmopressin.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bedwetting alarms.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Fluid restriction 2 hours before bed.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Treatment for constipation.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Desmopressin is cited as second-line treatment, often used for sleepovers or when alarms are ineffective.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_008.json",
+      "title": "Bedwetting Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/bedwetting-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9850529f471fe4315d559376",
+  "rationale": "This pharmacological option is often used for specific events like camps or sleepovers.",
+  "optionExplanations": {
+    "A": "Desmopressin is cited as second-line treatment, often used for sleepovers or when alarms are ineffective.",
+    "B": "Bedwetting alarms are explicitly mentioned as the first-line management.",
+    "C": "This is a common parent strategy that the source states has not been found helpful.",
+    "D": "Addressing underlying factors like constipation is an initial step in management rather than a second-line medical treatment."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_008",
+    "sourceQuestionIdentifier": "008_q010",
+    "quizTitle": "Bedwetting Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Desmopressin."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_008.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This pharmacological option is often used for specific events like camps or sleepovers.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_008_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_008",
+      "source_question_identifier": "008_q010",
+      "quiz_title": "Bedwetting Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Which of the following is considered a 'second line' treatment for nocturnal enuresis in older children?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This pharmacological option is often used for specific events like camps or sleepovers.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Desmopressin."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Desmopressin.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Desmopressin is cited as second-line treatment, often used for sleepovers or when alarms are ineffective.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Bedwetting alarms.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Bedwetting alarms are explicitly mentioned as the first-line management.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Fluid restriction 2 hours before bed.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is a common parent strategy that the source states has not been found helpful.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Treatment for constipation.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Addressing underlying factors like constipation is an initial step in management rather than a second-line medical treatment.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_008.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to nocturnal enuresis within common paediatric conditions.",
+      "mappingKey": "notebook:quiz_008",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.818Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.818Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "11c87dbe-4447-551c-b1e1-553c7b77715b",
+  "stem": "Which factor is associated with an increased risk of a fatal or severe allergic reaction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Poorly controlled asthma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Being under the age of one",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Having a very small skin prick test wheal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Exclusion of all legumes from the diet",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source notes that many fatalities have occurred in the context of poorly controlled asthma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_032.json",
+      "title": "Allergy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/allergy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-11c87dbe4447b51c31e1553c",
+  "rationale": "Think about underlying respiratory conditions that might complicate a systemic allergic response.",
+  "optionExplanations": {
+    "A": "The source notes that many fatalities have occurred in the context of poorly controlled asthma.",
+    "B": "Generally, younger children are less likely to have severe reactions compared to older children.",
+    "C": "A small wheal suggests a lower probability of reacting but does not rule out severity if a reaction occurs.",
+    "D": "Dietary exclusion is a management strategy for known allergies but is not a biological risk factor for reaction severity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_032",
+    "sourceQuestionIdentifier": "032_q006",
+    "quizTitle": "Allergy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Poorly controlled asthma"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_032.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about underlying respiratory conditions that might complicate a systemic allergic response.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_032_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_032",
+      "source_question_identifier": "032_q006",
+      "quiz_title": "Allergy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "Which factor is associated with an increased risk of a fatal or severe allergic reaction?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about underlying respiratory conditions that might complicate a systemic allergic response.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Poorly controlled asthma"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Poorly controlled asthma",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source notes that many fatalities have occurred in the context of poorly controlled asthma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Being under the age of one",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Generally, younger children are less likely to have severe reactions compared to older children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Having a very small skin prick test wheal",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A small wheal suggests a lower probability of reacting but does not rule out severity if a reaction occurs.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Exclusion of all legumes from the diet",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Dietary exclusion is a management strategy for known allergies but is not a biological risk factor for reaction severity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_032.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Adverse Food Reaction and allergy within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_032",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.445Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.445Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

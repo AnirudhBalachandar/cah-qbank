@@ -1,0 +1,258 @@
+{
+  "id": "923aea4a-e99e-53ff-b93c-4876eb2353b7",
+  "stem": "On a supine chest X-ray of an infant in ICU, which tube is the airway tube?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Transpyloric tube",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Endotracheal tube",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Nasopharyngeal tube",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Nasogastric tube",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The airway tube visible on a chest X-ray of an intubated infant is the endotracheal tube. The other tubes listed are enteral or upper airway adjuncts rather than the main airway tube.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891183/take",
+      "title": "Practice Quiz: Chest X-Ray - Part A"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/multiple-choice",
+    "combined-import/quiz/practice-quiz-chest-x-ray-part-a",
+    "combined-import/repair-method/rewritten_to_sba",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-923aea4ae99eb3ff393c4876",
+  "rationale": "The source stem is incomplete without the image, so the item is rewritten into a question that tests recognition of the airway tube on an infant ICU chest X-ray.",
+  "optionExplanations": {
+    "A": "This is a feeding tube that passes beyond the pylorus into the duodenum or jejunum.",
+    "B": "Correct: this is the tube used to secure the airway and ventilate the infant.",
+    "C": "This is an upper airway adjunct, not the standard tube identified as the airway tube on chest X-ray.",
+    "D": "This is a feeding tube that passes into the stomach."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645964",
+    "sourceQuestionIdentifier": "question-1",
+    "quizTitle": "Practice Quiz: Chest X-Ray - Part A",
+    "quizQuestionCount": 8,
+    "questionIndex": 1,
+    "originalQuestionType": "Multiple Choice",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891183/take",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/question_dom/question_001.json",
+    "questionTextHtml": "What is tube A?",
+    "stimulusText": "2\n\nThe following text applies to the questions at positions 1, 2, 3, 4\n\nInstructions\n\nQuestions 1 - 4 relate to this case\n\nRadiology: Supine Chest x-ray - Case 1\n\nThis is a supine chest X-Ray of an infant in ICU.",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [
+      {
+        "src": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+        "alt": "tubes-cath01 (1).jpg"
+      }
+    ],
+    "tableRefs": [],
+    "questionAssets": [
+      {
+        "source_url": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+        "local_path": "assets/q001_fig01.jpg"
+      }
+    ],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645964_q001",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645964",
+      "source_question_identifier": "question-1",
+      "quiz_title": "Practice Quiz: Chest X-Ray - Part A",
+      "quiz_question_count": 8,
+      "question_index": 1,
+      "question_type": "Multiple Choice",
+      "question_text": "What is tube A?",
+      "question_text_html": "What is tube A?",
+      "stimulus_text": "2\n\nThe following text applies to the questions at positions 1, 2, 3, 4\n\nInstructions\n\nQuestions 1 - 4 relate to this case\n\nRadiology: Supine Chest x-ray - Case 1\n\nThis is a supine chest X-Ray of an infant in ICU.",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 4,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "A",
+          "text": "Transpyloric tube",
+          "text_html": "Transpyloric tube",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "B",
+          "text": "Endotracheal tube",
+          "text_html": "Endotracheal tube",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "C",
+          "text": "Nasopharyngeal tube",
+          "text_html": "Nasopharyngeal tube",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "D",
+          "text": "Nasogastric tube",
+          "text_html": "Nasogastric tube",
+          "is_correct": null,
+          "rationale": "",
+          "is_selected_if_visible": false,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 1,
+      "figure_refs": [
+        {
+          "src": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+          "alt": "tubes-cath01 (1).jpg"
+        }
+      ],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [
+        {
+          "source_url": "https://inst-fs-syd-prod.inscloudgate.net/files/fd9fe915-80ec-40b2-90f3-3d220fdbb08d/tubes-cath01%20(1).jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9mZDlmZTkxNS04MGVjLTQwYjItOTBmMy0zZDIyMGZkYmIwOGQvdHViZXMtY2F0aDAxJTIwKDEpLmpwZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay80NTAwMDAwMDAwMDI0MjUifSwiZXhwIjoxNzc2OTUxNzM0LCJpYXQiOjE3NzY5MDQ5MzQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLXN5ZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.SxsImxd5Jg58QF7OoFdYYw4x3YAvdILrwjqZUQ6vBQYHbA3hBKmRJdpRZsxonCQeEuH6AnfLHgPbUBEyRTN72Q",
+          "local_path": "assets/q001_fig01.jpg"
+        }
+      ],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891183/take",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645964_Practice_Quiz_Chest_X_Ray_Part_A/question_dom/question_001.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to Paediatric Procedural Skills and Medical Imaging within General Paediatrics.",
+      "mappingKey": "canvas:title:Practice Quiz: Chest X-Ray - Part A",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:38:46.739Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_sba",
+      "confidence": 0.88,
+      "notes": "Original image-based identification question; exact tube A could not be confirmed from the text alone.",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Stimulus:\n2\n\nThe following text applies to the questions at positions 1, 2, 3, 4\n\nInstructions\n\nQuestions 1 - 4 relate to this case\n\nRadiology: Supine Chest x-ray - Case 1\n\nThis is a supine chest X-Ray of an infant in ICU.\n\nWhat is tube A?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Transpyloric tube",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Endotracheal tube",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Nasopharyngeal tube",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Nasogastric tube",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "ready_for_published_browse_only"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.799Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.799Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

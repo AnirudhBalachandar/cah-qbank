@@ -1,0 +1,202 @@
+{
+  "id": "07626734-d087-5b62-989a-f0884fc14235",
+  "stem": "Which clinical sign is considered a 'red flag' strongly suggestive of a surgical cause of vomiting in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Self-limiting episodes of non-bilious vomiting.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Effortless regurgitation after a full feeding.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Projectile vomiting that suggests an obstructive process.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A single episode of vomiting containing swallowed mucus.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Projectile vomiting often indicates a physical blockage, such as pyloric stenosis, necessitating surgical evaluation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_048.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-07626734d0875b62d89af088",
+  "rationale": "Think about the force of the vomiting and what it implies about the exit of the stomach.",
+  "optionExplanations": {
+    "A": "Self-limiting vomiting is more often associated with medical causes or functional issues that do not require surgery.",
+    "B": "Effortless regurgitation is a hallmark of physiological reflux, which usually resolves without surgical intervention.",
+    "C": "Projectile vomiting often indicates a physical blockage, such as pyloric stenosis, necessitating surgical evaluation.",
+    "D": "Swallowed mucus is a common and usually benign cause of vomiting in neonates during the first few days of life."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_048",
+    "sourceQuestionIdentifier": "048_q002",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Projectile vomiting that suggests an obstructive process."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_048.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the force of the vomiting and what it implies about the exit of the stomach.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_048_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_048",
+      "source_question_identifier": "048_q002",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "Which clinical sign is considered a 'red flag' strongly suggestive of a surgical cause of vomiting in a child?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the force of the vomiting and what it implies about the exit of the stomach.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Projectile vomiting that suggests an obstructive process."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Self-limiting episodes of non-bilious vomiting.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Self-limiting vomiting is more often associated with medical causes or functional issues that do not require surgery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Effortless regurgitation after a full feeding.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Effortless regurgitation is a hallmark of physiological reflux, which usually resolves without surgical intervention.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Projectile vomiting that suggests an obstructive process.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Projectile vomiting often indicates a physical blockage, such as pyloric stenosis, necessitating surgical evaluation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A single episode of vomiting containing swallowed mucus.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Swallowed mucus is a common and usually benign cause of vomiting in neonates during the first few days of life.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_048.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to gastrointestinal and surgical emergencies presenting with vomiting.",
+      "mappingKey": "notebook:quiz_048",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.399Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.399Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

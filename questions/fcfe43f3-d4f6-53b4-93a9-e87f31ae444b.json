@@ -1,0 +1,202 @@
+{
+  "id": "fcfe43f3-d4f6-53b4-93a9-e87f31ae444b",
+  "stem": "What is the primary distinction between 'primary' and 'secondary' microcephaly?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Primary occurs in males, while secondary occurs in females.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Primary is present at birth, while secondary develops postnatally after a normal birth measurement.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Primary is caused by genetics, while secondary is caused by trauma.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Primary involves the whole body, while secondary only involves the head.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Primary microcephaly indicates a problem with prenatal brain development, whereas secondary implies a later insult to a previously normal brain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_070.json",
+      "title": "Head Circumference Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/head-circumference-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-fcfe43f3d4f6c3b493a9e87f",
+  "rationale": "Focus on whether the head was small when the baby was born or if it fell off the growth curve later.",
+  "optionExplanations": {
+    "A": "Microcephaly classification is based on the timing of onset and etiology, not the sex of the child.",
+    "B": "Primary microcephaly indicates a problem with prenatal brain development, whereas secondary implies a later insult to a previously normal brain.",
+    "C": "While often true, both can have genetic or environmental components; the definitive distinction is the timing of the head size deficit.",
+    "D": "Both terms refer specifically to head circumference, regardless of whether other growth domains are affected."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_070",
+    "sourceQuestionIdentifier": "070_q004",
+    "quizTitle": "Head Circumference Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Primary is present at birth, while secondary develops postnatally after a normal birth measurement."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_070.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on whether the head was small when the baby was born or if it fell off the growth curve later.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_070_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_070",
+      "source_question_identifier": "070_q004",
+      "quiz_title": "Head Circumference Quiz",
+      "quiz_question_count": 12,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "What is the primary distinction between 'primary' and 'secondary' microcephaly?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on whether the head was small when the baby was born or if it fell off the growth curve later.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Primary is present at birth, while secondary develops postnatally after a normal birth measurement."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Primary occurs in males, while secondary occurs in females.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Microcephaly classification is based on the timing of onset and etiology, not the sex of the child.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Primary is present at birth, while secondary develops postnatally after a normal birth measurement.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Primary microcephaly indicates a problem with prenatal brain development, whereas secondary implies a later insult to a previously normal brain.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Primary is caused by genetics, while secondary is caused by trauma.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While often true, both can have genetic or environmental components; the definitive distinction is the timing of the head size deficit.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Primary involves the whole body, while secondary only involves the head.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Both terms refer specifically to head circumference, regardless of whether other growth domains are affected.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_070.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to general paediatric growth and developmental assessment content.",
+      "mappingKey": "notebook:quiz_070",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.058Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.058Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

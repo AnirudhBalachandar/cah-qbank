@@ -1,0 +1,202 @@
+{
+  "id": "7f1eaa50-fce5-55f7-a26a-3f8265f1b6df",
+  "stem": "Which of the following describes the correct maintenance procedure for a standard (non-anti-static) spacer used daily?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wash in warm soapy water and air dry every 2 to 3 weeks.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Clean in a dishwasher daily to ensure complete sterilization.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wipe the interior with a dry microfiber cloth after every use.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Soak in a bleach solution monthly and rinse with cold water.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This method prevents the buildup of static electricity and ensures the device remains clean and functional.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_015.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-7f1eaa50fce5e5f7a26a3f82",
+  "rationale": "Think about how to avoid creating static electricity while maintaining hygiene.",
+  "optionExplanations": {
+    "A": "This method prevents the buildup of static electricity and ensures the device remains clean and functional.",
+    "B": "Dishwashers can cause significant static buildup on the chamber, which interferes with medication delivery.",
+    "C": "Wiping a spacer can create static electricity, causing the medication to stick to the walls of the device.",
+    "D": "Warm soapy water and air drying are the specific recommendations to maintain the device's integrity and limit static."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_015",
+    "sourceQuestionIdentifier": "015_q003",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Wash in warm soapy water and air dry every 2 to 3 weeks."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_015.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about how to avoid creating static electricity while maintaining hygiene.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_015_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_015",
+      "source_question_identifier": "015_q003",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "Which of the following describes the correct maintenance procedure for a standard (non-anti-static) spacer used daily?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about how to avoid creating static electricity while maintaining hygiene.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Wash in warm soapy water and air dry every 2 to 3 weeks."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Wash in warm soapy water and air dry every 2 to 3 weeks.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This method prevents the buildup of static electricity and ensures the device remains clean and functional.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Clean in a dishwasher daily to ensure complete sterilization.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Dishwashers can cause significant static buildup on the chamber, which interferes with medication delivery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Wipe the interior with a dry microfiber cloth after every use.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Wiping a spacer can create static electricity, causing the medication to stick to the walls of the device.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Soak in a bleach solution monthly and rinse with cold water.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Warm soapy water and air drying are the specific recommendations to maintain the device's integrity and limit static.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_015.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_015",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.751Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.751Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

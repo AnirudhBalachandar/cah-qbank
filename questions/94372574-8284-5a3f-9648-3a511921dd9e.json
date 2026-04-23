@@ -1,0 +1,202 @@
+{
+  "id": "94372574-8284-5a3f-9648-3a511921dd9e",
+  "stem": "Which of the following is a characteristic feature of a normal thymus on a pediatric chest X-ray?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It often causes a significant mass effect on the trachea.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It has a uniform soft tissue density and sharply demarcated borders.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is typically only visible in children older than 5 years.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It always appears symmetrical on both sides of the mediastinum.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lecture defines a normal thymus as having uniform density and clear borders, often appearing triangular or scalloped.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_011.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9437257482843a3fd6483a51",
+  "rationale": "Recall the 'sail sign' and its impact on neighboring airways.",
+  "optionExplanations": {
+    "A": "A key diagnostic feature of a normal thymus is that it never exerts mass effect on adjacent structures like the trachea.",
+    "B": "The lecture defines a normal thymus as having uniform density and clear borders, often appearing triangular or scalloped.",
+    "C": "The thymus is usually diminished or not visible on X-rays beyond the age of 2 or 3 years.",
+    "D": "The material mentions that the thymus is often quite asymmetrical, sometimes appearing only on one side."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_011",
+    "sourceQuestionIdentifier": "011_q003",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "It has a uniform soft tissue density and sharply demarcated borders."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_011.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall the 'sail sign' and its impact on neighboring airways.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_011_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_011",
+      "source_question_identifier": "011_q003",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 12,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "Which of the following is a characteristic feature of a normal thymus on a pediatric chest X-ray?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall the 'sail sign' and its impact on neighboring airways.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "It has a uniform soft tissue density and sharply demarcated borders."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "It often causes a significant mass effect on the trachea.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A key diagnostic feature of a normal thymus is that it never exerts mass effect on adjacent structures like the trachea.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "It has a uniform soft tissue density and sharply demarcated borders.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The lecture defines a normal thymus as having uniform density and clear borders, often appearing triangular or scalloped.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "It is typically only visible in children older than 5 years.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The thymus is usually diminished or not visible on X-rays beyond the age of 2 or 3 years.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It always appears symmetrical on both sides of the mediastinum.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The material mentions that the thymus is often quite asymmetrical, sometimes appearing only on one side.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_011.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to Paediatric Procedural Skills and Medical Imaging.",
+      "mappingKey": "notebook:quiz_011",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.806Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.806Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

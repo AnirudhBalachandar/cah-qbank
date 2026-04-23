@@ -1,0 +1,202 @@
+{
+  "id": "1bd681b6-723c-57f0-9ddb-f5e79785928d",
+  "stem": "Which of the following clinical findings is most characteristic of nephritic syndrome rather than nephrotic syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Significant hypoalbuminemia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Normal blood pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Presence of red cell casts in urine",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Marked periorbital edema",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Red cell casts are a classic microscopic finding in nephritic syndrome, indicating glomerular inflammation, which is usually absent in nephrotic syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_043.json",
+      "title": "Nephrology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/nephrology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-1bd681b6723c77f01ddbf5e7",
+  "rationale": "Consider which microscopic urine finding indicates active glomerular bleeding and inflammation.",
+  "optionExplanations": {
+    "A": "Low serum albumin is a hallmark of nephrotic syndrome due to massive protein loss, whereas it is less pronounced in pure nephritic cases.",
+    "B": "Nephrotic patients typically maintain normal blood pressure, while nephritic patients are frequently hypertensive due to fluid retention.",
+    "C": "Red cell casts are a classic microscopic finding in nephritic syndrome, indicating glomerular inflammation, which is usually absent in nephrotic syndrome.",
+    "D": "While both can have edema, it is the primary presenting feature and much more 'marked' in nephrotic syndrome due to low oncotic pressure."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_043",
+    "sourceQuestionIdentifier": "043_q001",
+    "quizTitle": "Nephrology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Presence of red cell casts in urine"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_043.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider which microscopic urine finding indicates active glomerular bleeding and inflammation.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_043_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_043",
+      "source_question_identifier": "043_q001",
+      "quiz_title": "Nephrology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "Which of the following clinical findings is most characteristic of nephritic syndrome rather than nephrotic syndrome?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider which microscopic urine finding indicates active glomerular bleeding and inflammation.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Presence of red cell casts in urine"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Significant hypoalbuminemia",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Low serum albumin is a hallmark of nephrotic syndrome due to massive protein loss, whereas it is less pronounced in pure nephritic cases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Normal blood pressure",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Nephrotic patients typically maintain normal blood pressure, while nephritic patients are frequently hypertensive due to fluid retention.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Presence of red cell casts in urine",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Red cell casts are a classic microscopic finding in nephritic syndrome, indicating glomerular inflammation, which is usually absent in nephrotic syndrome.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Marked periorbital edema",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While both can have edema, it is the primary presenting feature and much more 'marked' in nephrotic syndrome due to low oncotic pressure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_043.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_043",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.487Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.487Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "95e5d1a1-5f62-56a6-8774-a965c0461efc",
+  "stem": "Which enzyme is responsible for converting bilirubin to its soluble diglucuronide form within the hepatocyte?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bilirubin $UDP$-glucuronosyltransferase",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Heme oxygenase",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Biliverdin reductase",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Albumin",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This enzyme catalyzes the conjugation of bilirubin with glucuronic acid, making it water-soluble for excretion into bile.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_025.json",
+      "title": "GASTRO QUIZ"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/gastro-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-95e5d1a15f6296a64774a965",
+  "rationale": "This enzyme facilitates the transition of bilirubin from a fat-soluble to a water-soluble state.",
+  "optionExplanations": {
+    "A": "This enzyme catalyzes the conjugation of bilirubin with glucuronic acid, making it water-soluble for excretion into bile.",
+    "B": "Heme oxygenase is involved in the initial breakdown of heme into biliverdin within macrophages.",
+    "C": "This enzyme converts biliverdin into unconjugated bilirubin before it reaches the liver.",
+    "D": "Albumin acts as a transport protein for unconjugated bilirubin in the blood rather than an enzyme that alters its chemical structure."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_025",
+    "sourceQuestionIdentifier": "025_q003",
+    "quizTitle": "GASTRO QUIZ",
+    "quizQuestionCount": 15,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Bilirubin $UDP$-glucuronosyltransferase"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_025.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This enzyme facilitates the transition of bilirubin from a fat-soluble to a water-soluble state.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_025_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_025",
+      "source_question_identifier": "025_q003",
+      "quiz_title": "GASTRO QUIZ",
+      "quiz_question_count": 15,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "Which enzyme is responsible for converting bilirubin to its soluble diglucuronide form within the hepatocyte?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This enzyme facilitates the transition of bilirubin from a fat-soluble to a water-soluble state.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Bilirubin $UDP$-glucuronosyltransferase"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Bilirubin $UDP$-glucuronosyltransferase",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This enzyme catalyzes the conjugation of bilirubin with glucuronic acid, making it water-soluble for excretion into bile.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Heme oxygenase",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Heme oxygenase is involved in the initial breakdown of heme into biliverdin within macrophages.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Biliverdin reductase",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This enzyme converts biliverdin into unconjugated bilirubin before it reaches the liver.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Albumin",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Albumin acts as a transport protein for unconjugated bilirubin in the blood rather than an enzyme that alters its chemical structure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_025.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to gastroenterology and hepatobiliary paediatrics within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_025",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.812Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.812Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

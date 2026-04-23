@@ -1,0 +1,202 @@
+{
+  "id": "31c12d57-7350-510f-9251-e7a3a994ab17",
+  "stem": "According to the 2017 ILAE classification, what is the primary factor used to determine the first general division of seizure types?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The duration of the seizure activity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The initial manifestation of the seizure onset",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The underlying genetic or structural etiology",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence or absence of motor manifestations",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The ILAE framework classifies seizures based on whether the very first sign is focal, generalized, or unknown.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_066.json",
+      "title": "Epilepsy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/epilepsy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-31c12d577350b10fd251e7a3",
+  "rationale": "Consider whether the seizure starts in one part of the body or involves the whole body simultaneously.",
+  "optionExplanations": {
+    "A": "While duration is critical for status epilepticus, the primary classification division focuses on where the seizure begins in the brain.",
+    "B": "The ILAE framework classifies seizures based on whether the very first sign is focal, generalized, or unknown.",
+    "C": "Etiology is a separate level of the overall epilepsy classification framework rather than the initial division of seizure types.",
+    "D": "Motor versus non-motor manifestations are sub-classifications that occur after determining the onset type."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_066",
+    "sourceQuestionIdentifier": "066_q001",
+    "quizTitle": "Epilepsy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The initial manifestation of the seizure onset"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_066.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider whether the seizure starts in one part of the body or involves the whole body simultaneously.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_066_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_066",
+      "source_question_identifier": "066_q001",
+      "quiz_title": "Epilepsy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "According to the 2017 ILAE classification, what is the primary factor used to determine the first general division of seizure types?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider whether the seizure starts in one part of the body or involves the whole body simultaneously.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The initial manifestation of the seizure onset"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The duration of the seizure activity",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While duration is critical for status epilepticus, the primary classification division focuses on where the seizure begins in the brain.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The initial manifestation of the seizure onset",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The ILAE framework classifies seizures based on whether the very first sign is focal, generalized, or unknown.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The underlying genetic or structural etiology",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Etiology is a separate level of the overall epilepsy classification framework rather than the initial division of seizure types.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The presence or absence of motor manifestations",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Motor versus non-motor manifestations are sub-classifications that occur after determining the onset type.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_066.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_066",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.556Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.556Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

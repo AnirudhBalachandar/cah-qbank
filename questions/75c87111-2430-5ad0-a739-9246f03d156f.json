@@ -1,0 +1,202 @@
+{
+  "id": "75c87111-2430-5ad0-a739-9246f03d156f",
+  "stem": "To diagnose an intellectual disability, a cognitive assessment must be supplemented by which type of evaluation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A neuroimaging scan such as an MRI.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A functional assessment of adaptive behavior.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A genetics review and EEG.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A formal screening tool for developmental surveillance.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The text states that a cognitive assessment must be supplemented by a functional assessment of adaptive behavior, like the ABAS or Vineland.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_056.json",
+      "title": "Developmental Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/developmental-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-75c871112430fad0e7399246",
+  "rationale": "Recall the two-part requirement for an ID diagnosis mentioned toward the end of the presentation.",
+  "optionExplanations": {
+    "A": "The source mentions that neuroimaging is 'not common' and only done if clinically indicated, rather than as a requirement for ID diagnosis.",
+    "B": "The text states that a cognitive assessment must be supplemented by a functional assessment of adaptive behavior, like the ABAS or Vineland.",
+    "C": "These are investigations for underlying causes but are not the specific functional supplements required for the diagnosis itself.",
+    "D": "Screening tools are used before the diagnostic process, whereas a diagnosis of ID requires specific cognitive and functional testing."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_056",
+    "sourceQuestionIdentifier": "056_q007",
+    "quizTitle": "Developmental Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A functional assessment of adaptive behavior."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_056.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall the two-part requirement for an ID diagnosis mentioned toward the end of the presentation.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_056_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_056",
+      "source_question_identifier": "056_q007",
+      "quiz_title": "Developmental Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "To diagnose an intellectual disability, a cognitive assessment must be supplemented by which type of evaluation?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall the two-part requirement for an ID diagnosis mentioned toward the end of the presentation.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A functional assessment of adaptive behavior."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A neuroimaging scan such as an MRI.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source mentions that neuroimaging is 'not common' and only done if clinically indicated, rather than as a requirement for ID diagnosis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "A functional assessment of adaptive behavior.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The text states that a cognitive assessment must be supplemented by a functional assessment of adaptive behavior, like the ABAS or Vineland.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A genetics review and EEG.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These are investigations for underlying causes but are not the specific functional supplements required for the diagnosis itself.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A formal screening tool for developmental surveillance.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Screening tools are used before the diagnostic process, whereas a diagnosis of ID requires specific cognitive and functional testing.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_056.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to developmental surveillance and assessment within Community/Developmental Paediatrics.",
+      "mappingKey": "notebook:quiz_056",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.728Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.728Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

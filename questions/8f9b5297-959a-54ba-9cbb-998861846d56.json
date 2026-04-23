@@ -1,0 +1,202 @@
+{
+  "id": "8f9b5297-959a-54ba-9cbb-998861846d56",
+  "stem": "Which of the following describes the typical timing of the growth spurt in girls compared to boys?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Girls have their growth spurt late in puberty, usually after menarche.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Girls have their growth spurt early in puberty, whereas boys have theirs in mid-to-late puberty.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Both genders peak simultaneously at approximately $12$ years of age.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Boys peak early to allow for muscle mass accumulation, while girls peak late.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Girls peak around age $11.5$, while boys wait until their testes are $10$ to $12\\text{ ml}$ in volume, usually around age $13.5$.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_060.json",
+      "title": "Puberty Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/adolescent-medicine",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/puberty-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-8f9b5297959ab4ba9cbb9988",
+  "rationale": "Recall which gender finishes their primary height gain shortly after their first period.",
+  "optionExplanations": {
+    "A": "Growth velocity in girls typically peaks before menarche and slows down significantly afterward.",
+    "B": "Girls peak around age $11.5$, while boys wait until their testes are $10$ to $12\\text{ ml}$ in volume, usually around age $13.5$.",
+    "C": "There is a distinct sexual dimorphism in the timing of the pubertal growth spurt, with girls peaking earlier.",
+    "D": "Muscle mass gain in boys is actually a late pubertal event, following the height spurt."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_060",
+    "sourceQuestionIdentifier": "060_q006",
+    "quizTitle": "Puberty Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Girls have their growth spurt early in puberty, whereas boys have theirs in mid-to-late puberty."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_060.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall which gender finishes their primary height gain shortly after their first period.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_060_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_060",
+      "source_question_identifier": "060_q006",
+      "quiz_title": "Puberty Quiz",
+      "quiz_question_count": 12,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "Which of the following describes the typical timing of the growth spurt in girls compared to boys?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall which gender finishes their primary height gain shortly after their first period.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Girls have their growth spurt early in puberty, whereas boys have theirs in mid-to-late puberty."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Girls have their growth spurt late in puberty, usually after menarche.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Growth velocity in girls typically peaks before menarche and slows down significantly afterward.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Girls have their growth spurt early in puberty, whereas boys have theirs in mid-to-late puberty.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Girls peak around age $11.5$, while boys wait until their testes are $10$ to $12\\text{ ml}$ in volume, usually around age $13.5$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Both genders peak simultaneously at approximately $12$ years of age.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "There is a distinct sexual dimorphism in the timing of the pubertal growth spurt, with girls peaking earlier.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Boys peak early to allow for muscle mass accumulation, while girls peak late.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Muscle mass gain in boys is actually a late pubertal event, following the height spurt.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_060.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Adolescent Medicine",
+      "reason": "Mapped to puberty and maturation within Adolescent Health.",
+      "mappingKey": "notebook:quiz_060",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.790Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.790Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

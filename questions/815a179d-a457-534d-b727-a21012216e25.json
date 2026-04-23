@@ -1,0 +1,202 @@
+{
+  "id": "815a179d-a457-534d-b727-a21012216e25",
+  "stem": "For an adolescent with frequent daytime symptoms on most days and waking overnight more than once a week, what is a recommended initial treatment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Short-acting beta agonist (SABA) alone as needed.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Medium to high dose inhaled corticosteroids plus as-needed SABA.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A trial of Montelukast alone for 4 to 6 weeks.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Oral prednisolone for 30 days.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "High symptom frequency in adolescents necessitates a more aggressive starting point with medium to high dose ICS or maintenance combination therapy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_016.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-815a179da457234d7727a210",
+  "rationale": "High-frequency symptoms in teenagers require a higher starting tier of inhaled preventer therapy.",
+  "optionExplanations": {
+    "A": "SABA alone is only appropriate for very infrequent symptoms in adolescents.",
+    "B": "High symptom frequency in adolescents necessitates a more aggressive starting point with medium to high dose ICS or maintenance combination therapy.",
+    "C": "With symptoms on most days, Montelukast alone is likely insufficient as an initial therapy.",
+    "D": "Oral steroids are used for short bursts (3-5 days) to manage acute flares, not as a standard long-term initial preventer strategy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_016",
+    "sourceQuestionIdentifier": "016_q012",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 12,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Medium to high dose inhaled corticosteroids plus as-needed SABA."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_016.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "High-frequency symptoms in teenagers require a higher starting tier of inhaled preventer therapy.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_016_q012",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_016",
+      "source_question_identifier": "016_q012",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 12,
+      "question_index": 12,
+      "question_type": "",
+      "question_text": "For an adolescent with frequent daytime symptoms on most days and waking overnight more than once a week, what is a recommended initial treatment?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "High-frequency symptoms in teenagers require a higher starting tier of inhaled preventer therapy.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Medium to high dose inhaled corticosteroids plus as-needed SABA."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Short-acting beta agonist (SABA) alone as needed.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "SABA alone is only appropriate for very infrequent symptoms in adolescents.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Medium to high dose inhaled corticosteroids plus as-needed SABA.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "High symptom frequency in adolescents necessitates a more aggressive starting point with medium to high dose ICS or maintenance combination therapy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A trial of Montelukast alone for 4 to 6 weeks.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "With symptoms on most days, Montelukast alone is likely insufficient as an initial therapy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Oral prednisolone for 30 days.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Oral steroids are used for short bursts (3-5 days) to manage acute flares, not as a standard long-term initial preventer strategy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_016.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_016",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.756Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.756Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "64c8d0e7-5ba0-5c6d-ad2c-aefe896d7c5b",
+  "stem": "When resuscitating a bleeding child, what is the current recommended approach regarding fluids?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Aggressive use of isotonic crystalloids to maintain pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Early transition to blood products and limiting crystalloids",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Withholding all fluids until the child reaches surgery",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Initial use of three boluses of colloids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Current practice favors using blood products early if bleeding is suspected to avoid complications like 'the lethal triad' of trauma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_086.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-64c8d0e75ba0dc6d6d2caefe",
+  "rationale": "Consider the risks of dilutional coagulopathy mentioned in the talk.",
+  "optionExplanations": {
+    "A": "Excessive crystalloids are now discouraged because they contribute to hypothermia and dilutional coagulopathy.",
+    "B": "Current practice favors using blood products early if bleeding is suspected to avoid complications like 'the lethal triad' of trauma.",
+    "C": "While avoiding over-resuscitation is important, the source emphasizes starting resuscitation with appropriate products early on.",
+    "D": "The older teaching of multiple crystalloid or colloid boluses is being replaced by early blood product administration."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_086",
+    "sourceQuestionIdentifier": "086_q006",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Early transition to blood products and limiting crystalloids"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_086.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the risks of dilutional coagulopathy mentioned in the talk.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_086_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_086",
+      "source_question_identifier": "086_q006",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 12,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "When resuscitating a bleeding child, what is the current recommended approach regarding fluids?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the risks of dilutional coagulopathy mentioned in the talk.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Early transition to blood products and limiting crystalloids"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Aggressive use of isotonic crystalloids to maintain pressure",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Excessive crystalloids are now discouraged because they contribute to hypothermia and dilutional coagulopathy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Early transition to blood products and limiting crystalloids",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Current practice favors using blood products early if bleeding is suspected to avoid complications like 'the lethal triad' of trauma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Withholding all fluids until the child reaches surgery",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While avoiding over-resuscitation is important, the source emphasizes starting resuscitation with appropriate products early on.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Initial use of three boluses of colloids",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The older teaching of multiple crystalloid or colloid boluses is being replaced by early blood product administration.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_086.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to paediatric resuscitation and emergency airway/breathing assessment.",
+      "mappingKey": "notebook:quiz_086",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.675Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.675Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

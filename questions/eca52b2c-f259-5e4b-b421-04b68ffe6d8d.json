@@ -1,0 +1,202 @@
+{
+  "id": "eca52b2c-f259-5e4b-b421-04b68ffe6d8d",
+  "stem": "What is the primary objective of vaccination in the context of immunological memory?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To strengthen the innate immune system's phagocytic capabilities.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To clear established intracellular infections using pre-formed antibodies.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To bypass the need for a primary infection by inducing the production of memory cells.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To provide temporary passive immunity until the child's immune system matures.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "By using a non-pathogenic form of the organism, vaccines trigger a primary response so the body is ready for a secondary response upon natural exposure.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_027.json",
+      "title": "Immunology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/immunology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-eca52b2cf259be4bb42104b6",
+  "rationale": "Consider how a vaccine mimics the 'first bump' on an immune response graph without making the person sick.",
+  "optionExplanations": {
+    "A": "Vaccination specifically targets the adaptive immune system to create memory, rather than general innate functions.",
+    "B": "Antibodies are generally poor at clearing established intracellular infections; vaccines aim to prevent infection or severity before it establishes.",
+    "C": "By using a non-pathogenic form of the organism, vaccines trigger a primary response so the body is ready for a secondary response upon natural exposure.",
+    "D": "Vaccination aims for active, long-term immunity via memory cells, whereas passive immunity refers to receiving external antibodies."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_027",
+    "sourceQuestionIdentifier": "027_q004",
+    "quizTitle": "Immunology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "To bypass the need for a primary infection by inducing the production of memory cells."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_027.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider how a vaccine mimics the 'first bump' on an immune response graph without making the person sick.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_027_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_027",
+      "source_question_identifier": "027_q004",
+      "quiz_title": "Immunology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "What is the primary objective of vaccination in the context of immunological memory?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider how a vaccine mimics the 'first bump' on an immune response graph without making the person sick.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "To bypass the need for a primary infection by inducing the production of memory cells."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "To strengthen the innate immune system's phagocytic capabilities.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Vaccination specifically targets the adaptive immune system to create memory, rather than general innate functions.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "To clear established intracellular infections using pre-formed antibodies.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Antibodies are generally poor at clearing established intracellular infections; vaccines aim to prevent infection or severity before it establishes.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "To bypass the need for a primary infection by inducing the production of memory cells.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "By using a non-pathogenic form of the organism, vaccines trigger a primary response so the body is ready for a secondary response upon natural exposure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To provide temporary passive immunity until the child's immune system matures.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Vaccination aims for active, long-term immunity via memory cells, whereas passive immunity refers to receiving external antibodies.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_027.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Infectious Disease and Immunization via immunology content.",
+      "mappingKey": "notebook:quiz_027",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.020Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.020Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

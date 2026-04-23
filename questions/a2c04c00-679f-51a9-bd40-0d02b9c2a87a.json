@@ -1,0 +1,202 @@
+{
+  "id": "a2c04c00-679f-51a9-bd40-0d02b9c2a87a",
+  "stem": "Which of the following clinical indicators most strongly suggests a diagnosis of asthma over simple viral-induced wheeze?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wheezing that only occurs during an upper respiratory tract infection.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The resolution of all respiratory symptoms by the age of six.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Presence of interval symptoms such as night coughing or exercise-induced wheeze.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A history of responding well to a single course of oral antibiotics.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Symptoms occurring outside of active viral infections, such as during exercise or sleep, point toward the chronic airway hyper-responsiveness seen in asthma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_014.json",
+      "title": "Respiratory Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/respiratory-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a2c04c00679f81a93d400d02",
+  "rationale": "Think about whether the symptoms are isolated to illness or occur during daily activities.",
+  "optionExplanations": {
+    "A": "Wheezing limited strictly to periods of infection is the hallmark of viral-induced wheeze, not necessarily chronic asthma.",
+    "B": "A large proportion of children with viral-induced wheeze grow out of it by age six, whereas asthma is a chronic, persisting condition.",
+    "C": "Symptoms occurring outside of active viral infections, such as during exercise or sleep, point toward the chronic airway hyper-responsiveness seen in asthma.",
+    "D": "Response to antibiotics suggests a bacterial cause, such as protracted bacterial bronchitis, rather than the inflammatory process of asthma."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_014",
+    "sourceQuestionIdentifier": "014_q003",
+    "quizTitle": "Respiratory Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Presence of interval symptoms such as night coughing or exercise-induced wheeze."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_014.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about whether the symptoms are isolated to illness or occur during daily activities.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_014_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_014",
+      "source_question_identifier": "014_q003",
+      "quiz_title": "Respiratory Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "Which of the following clinical indicators most strongly suggests a diagnosis of asthma over simple viral-induced wheeze?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about whether the symptoms are isolated to illness or occur during daily activities.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Presence of interval symptoms such as night coughing or exercise-induced wheeze."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Wheezing that only occurs during an upper respiratory tract infection.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Wheezing limited strictly to periods of infection is the hallmark of viral-induced wheeze, not necessarily chronic asthma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The resolution of all respiratory symptoms by the age of six.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A large proportion of children with viral-induced wheeze grow out of it by age six, whereas asthma is a chronic, persisting condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Presence of interval symptoms such as night coughing or exercise-induced wheeze.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Symptoms occurring outside of active viral infections, such as during exercise or sleep, point toward the chronic airway hyper-responsiveness seen in asthma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A history of responding well to a single course of oral antibiotics.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Response to antibiotics suggests a bacterial cause, such as protracted bacterial bronchitis, rather than the inflammatory process of asthma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_014.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_014",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.848Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.848Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "9acb1f43-d34b-50b7-9e65-1b14a026a457",
+  "stem": "Why is long-term psychological support critical for children with burn scars, even if they seem well-adjusted as toddlers?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because burn scars often disappear in childhood but reappear during puberty.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Because body image becomes a significant concern during adolescence.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Because the physical pain of the burn returns during growth spurts.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because the risk of post-traumatic stress disorder only begins after 10 years.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "As children reach adolescence, their self-consciousness and the importance of body image grow, potentially causing a recurrence of emotional issues.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_101.json",
+      "title": "Burn Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/burn-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9acb1f43d34bf0b75e651b14",
+  "rationale": "Think about how a child's social awareness and self-identity change as they age.",
+  "optionExplanations": {
+    "A": "The scars do not disappear and reappear; rather, the child's perception of them changes.",
+    "B": "As children reach adolescence, their self-consciousness and the importance of body image grow, potentially causing a recurrence of emotional issues.",
+    "C": "While scars can feel tight, the acute psychological trauma mentioned in the lecture is linked to social and self-perception factors.",
+    "D": "PTSD can occur at any time, but the lecture highlights adolescence as a specific period of renewed vulnerability due to body image."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_101",
+    "sourceQuestionIdentifier": "101_q010",
+    "quizTitle": "Burn Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Because body image becomes a significant concern during adolescence."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_101.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about how a child's social awareness and self-identity change as they age.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_101_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_101",
+      "source_question_identifier": "101_q010",
+      "quiz_title": "Burn Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Why is long-term psychological support critical for children with burn scars, even if they seem well-adjusted as toddlers?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about how a child's social awareness and self-identity change as they age.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Because body image becomes a significant concern during adolescence."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Because burn scars often disappear in childhood but reappear during puberty.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The scars do not disappear and reappear; rather, the child's perception of them changes.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Because body image becomes a significant concern during adolescence.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "As children reach adolescence, their self-consciousness and the importance of body image grow, potentially causing a recurrence of emotional issues.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Because the physical pain of the burn returns during growth spurts.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While scars can feel tight, the acute psychological trauma mentioned in the lecture is linked to social and self-perception factors.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Because the risk of post-traumatic stress disorder only begins after 10 years.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "PTSD can occur at any time, but the lecture highlights adolescence as a specific period of renewed vulnerability due to body image.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_101.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Burns Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_101",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.827Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.827Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

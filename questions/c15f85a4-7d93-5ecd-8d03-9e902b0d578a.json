@@ -1,0 +1,202 @@
+{
+  "id": "c15f85a4-7d93-5ecd-8d03-9e902b0d578a",
+  "stem": "Which radiographic view is most likely to reveal a mild form of slipped capital femoral epiphysis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Frog lateral view",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Standard AP view",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Skyline view",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Weight-bearing standing view",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The diagnosis is nearly always most apparent on this view because it highlights the posterior slippage of the femoral head.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_092.json",
+      "title": "SCFE Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/scfe-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-c15f85a47d93fecd0d039e90",
+  "rationale": "Think of the view that would best show the femoral head sliding 'posteriorly'.",
+  "optionExplanations": {
+    "A": "The diagnosis is nearly always most apparent on this view because it highlights the posterior slippage of the femoral head.",
+    "B": "The source notes that mild forms can be very difficult to see on this particular view.",
+    "C": "This view is typically used for the patella (kneecap) rather than the hip joint.",
+    "D": "The frog lateral position is the specific diagnostic requirement mentioned for detecting the separation of the femoral head from the neck."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_092",
+    "sourceQuestionIdentifier": "092_q005",
+    "quizTitle": "SCFE Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Frog lateral view"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_092.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think of the view that would best show the femoral head sliding 'posteriorly'.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_092_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_092",
+      "source_question_identifier": "092_q005",
+      "quiz_title": "SCFE Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "Which radiographic view is most likely to reveal a mild form of slipped capital femoral epiphysis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think of the view that would best show the femoral head sliding 'posteriorly'.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Frog lateral view"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Frog lateral view",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The diagnosis is nearly always most apparent on this view because it highlights the posterior slippage of the femoral head.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Standard AP view",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source notes that mild forms can be very difficult to see on this particular view.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Skyline view",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This view is typically used for the patella (kneecap) rather than the hip joint.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Weight-bearing standing view",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The frog lateral position is the specific diagnostic requirement mentioned for detecting the separation of the femoral head from the neck.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_092.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_092",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.921Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.921Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "557a8974-8a82-5d37-87d2-e53fdfdf34ab",
+  "stem": "What is the primary reason for administering Aspirin to a patient with Kawasaki disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To reduce the prolonged fever",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To prevent joint pain from arthritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To manage thrombocytosis and prevent coronary clotting",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To act as an immunosuppressant alongside IVIG",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Patients develop a high platelet count (thrombocytosis), which, combined with abnormal arteries, increases the risk of thromboembolism.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_098.json",
+      "title": "Rheumatology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/rheumatology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-557a89748a822d3747d2e53f",
+  "rationale": "Think about the risks associated with an abnormally high platelet count and damaged coronary arteries.",
+  "optionExplanations": {
+    "A": "While aspirin is an antipyretic, the specific reason cited for long-term use in this context is related to blood counts and vessel health.",
+    "B": "Kawasaki disease focuses more on vascular and cardiac issues than chronic arthritis.",
+    "C": "Patients develop a high platelet count (thrombocytosis), which, combined with abnormal arteries, increases the risk of thromboembolism.",
+    "D": "IVIG is the main treatment for reducing complications, whereas aspirin addresses the specific risk posed by high platelet counts."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_098",
+    "sourceQuestionIdentifier": "098_q004",
+    "quizTitle": "Rheumatology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "To manage thrombocytosis and prevent coronary clotting"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_098.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the risks associated with an abnormally high platelet count and damaged coronary arteries.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_098_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_098",
+      "source_question_identifier": "098_q004",
+      "quiz_title": "Rheumatology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "What is the primary reason for administering Aspirin to a patient with Kawasaki disease?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the risks associated with an abnormally high platelet count and damaged coronary arteries.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "To manage thrombocytosis and prevent coronary clotting"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "To reduce the prolonged fever",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While aspirin is an antipyretic, the specific reason cited for long-term use in this context is related to blood counts and vessel health.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "To prevent joint pain from arthritis",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Kawasaki disease focuses more on vascular and cardiac issues than chronic arthritis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "To manage thrombocytosis and prevent coronary clotting",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Patients develop a high platelet count (thrombocytosis), which, combined with abnormal arteries, increases the risk of thromboembolism.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To act as an immunosuppressant alongside IVIG",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "IVIG is the main treatment for reducing complications, whereas aspirin addresses the specific risk posed by high platelet counts.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_098.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to paediatric rheumatology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_098",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.642Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.642Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

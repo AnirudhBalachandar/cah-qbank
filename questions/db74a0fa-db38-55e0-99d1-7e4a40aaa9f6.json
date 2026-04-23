@@ -1,0 +1,202 @@
+{
+  "id": "db74a0fa-db38-55e0-99d1-7e4a40aaa9f6",
+  "stem": "What is the expected long-term prognosis for 90% of children with transient synovitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Full recovery within two weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Chronic hip pain throughout childhood",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Permanent changes on hip X-rays",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Development of septic arthritis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The vast majority of children fully recover in a short period with no long-term complications.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_093.json",
+      "title": "Synovitis Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/synovitis-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-db74a0fadb3805e0d9d17e4a",
+  "rationale": "Think about the duration of the recommended rest period for most children.",
+  "optionExplanations": {
+    "A": "The vast majority of children fully recover in a short period with no long-term complications.",
+    "B": "The disorder is explicitly described as self-limiting with no long-term sequelae.",
+    "C": "The source states there are no significant changes evident on X-rays over time for this condition.",
+    "D": "Septic arthritis is a different diagnosis entirely, not a common long-term outcome of transient synovitis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_093",
+    "sourceQuestionIdentifier": "093_q010",
+    "quizTitle": "Synovitis Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Full recovery within two weeks"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_093.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the duration of the recommended rest period for most children.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_093_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_093",
+      "source_question_identifier": "093_q010",
+      "quiz_title": "Synovitis Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "What is the expected long-term prognosis for 90% of children with transient synovitis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the duration of the recommended rest period for most children.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Full recovery within two weeks"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Full recovery within two weeks",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The vast majority of children fully recover in a short period with no long-term complications.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Chronic hip pain throughout childhood",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The disorder is explicitly described as self-limiting with no long-term sequelae.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Permanent changes on hip X-rays",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source states there are no significant changes evident on X-rays over time for this condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Development of septic arthritis",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Septic arthritis is a different diagnosis entirely, not a common long-term outcome of transient synovitis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_093.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_093",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.993Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.993Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

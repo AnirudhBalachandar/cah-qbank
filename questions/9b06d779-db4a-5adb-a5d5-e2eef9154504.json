@@ -1,0 +1,202 @@
+{
+  "id": "9b06d779-db4a-5adb-a5d5-e2eef9154504",
+  "stem": "For a child under the age of $10$, what is the recommended 'rule of thumb' for daily voiding frequency to help prevent recurrent UTIs?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$2$ to $3$ times per day",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$5$ to $6$ times per day",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Once every hour while awake",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$8$ to $10$ times per day",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Regular bladder emptying, ideally $5$ to $6$ times daily, is a key conservative intervention to prevent recurrence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_042.json",
+      "title": "UTI Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/uti-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9b06d779db4adadb25d5e2ee",
+  "rationale": "Think of a number that represents a healthy balance of regular bladder emptying throughout a typical day.",
+  "optionExplanations": {
+    "A": "Going only $2$ to $3$ times a day is often seen in children with poor habits who are 'too busy playing' and is a risk factor for infection.",
+    "B": "Regular bladder emptying, ideally $5$ to $6$ times daily, is a key conservative intervention to prevent recurrence.",
+    "C": "Hourly voiding is a specific intervention for 'dysfunctional voiding,' not a general recommendation for all healthy children.",
+    "D": "While frequent hydration is good, $8$ to $10$ times exceeds the standard recommendation of $5$ to $6$ voids."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_042",
+    "sourceQuestionIdentifier": "042_q008",
+    "quizTitle": "UTI Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$5$ to $6$ times per day"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_042.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think of a number that represents a healthy balance of regular bladder emptying throughout a typical day.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_042_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_042",
+      "source_question_identifier": "042_q008",
+      "quiz_title": "UTI Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "For a child under the age of $10$, what is the recommended 'rule of thumb' for daily voiding frequency to help prevent recurrent UTIs?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think of a number that represents a healthy balance of regular bladder emptying throughout a typical day.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$5$ to $6$ times per day"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "$2$ to $3$ times per day",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Going only $2$ to $3$ times a day is often seen in children with poor habits who are 'too busy playing' and is a risk factor for infection.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$5$ to $6$ times per day",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Regular bladder emptying, ideally $5$ to $6$ times daily, is a key conservative intervention to prevent recurrence.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Once every hour while awake",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hourly voiding is a specific intervention for 'dysfunctional voiding,' not a general recommendation for all healthy children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$8$ to $10$ times per day",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While frequent hydration is good, $8$ to $10$ times exceeds the standard recommendation of $5$ to $6$ voids.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_042.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_042",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.827Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.827Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

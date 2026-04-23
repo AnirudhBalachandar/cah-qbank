@@ -1,0 +1,202 @@
+{
+  "id": "6d9e8913-fbf5-50fc-ba1f-8efb23128a8f",
+  "stem": "What is the definitive test used to diagnose the presence of even slight strabismus?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The cover-uncover test.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The Hirschberg test.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The red reflex test.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Visual acuity screening.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The cover-uncover test is the definitive method because it identifies movement as the non-fixing eye takes up fixation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_038.json",
+      "title": "Ophthalmology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/ophthalmology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6d9e8913fbf500fcba1f8efb",
+  "rationale": "Identify the procedure that involves obstructing one eye to see if the other eye makes a corrective movement.",
+  "optionExplanations": {
+    "A": "The cover-uncover test is the definitive method because it identifies movement as the non-fixing eye takes up fixation.",
+    "B": "The Hirschberg (corneal light reflection) test is useful as a guide but is not as sensitive or definitive as the cover-uncover test.",
+    "C": "The red reflex test checks for media opacities or retinal pathologies like retinoblastoma, rather than misalignment.",
+    "D": "Visual acuity can detect amblyopia, but it does not directly diagnose the physical misalignment of strabismus."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_038",
+    "sourceQuestionIdentifier": "038_q009",
+    "quizTitle": "Ophthalmology Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The cover-uncover test."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_038.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Identify the procedure that involves obstructing one eye to see if the other eye makes a corrective movement.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_038_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_038",
+      "source_question_identifier": "038_q009",
+      "quiz_title": "Ophthalmology Quiz",
+      "quiz_question_count": 15,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "What is the definitive test used to diagnose the presence of even slight strabismus?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Identify the procedure that involves obstructing one eye to see if the other eye makes a corrective movement.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The cover-uncover test."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The cover-uncover test.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The cover-uncover test is the definitive method because it identifies movement as the non-fixing eye takes up fixation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The Hirschberg test.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The Hirschberg (corneal light reflection) test is useful as a guide but is not as sensitive or definitive as the cover-uncover test.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The red reflex test.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The red reflex test checks for media opacities or retinal pathologies like retinoblastoma, rather than misalignment.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Visual acuity screening.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Visual acuity can detect amblyopia, but it does not directly diagnose the physical misalignment of strabismus.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_038.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Ophthalmology in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_038",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.700Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.700Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

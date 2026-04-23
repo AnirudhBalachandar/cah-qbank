@@ -1,0 +1,202 @@
+{
+  "id": "6d3bbf3b-4fc8-5feb-a9bd-1e4e8b6c44bd",
+  "stem": "For a baby born with ambiguous external genitalia, what is the critical first step in management according to the presentation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediate surgical reconstruction to assign a sex before discharge from the hospital.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A multidisciplinary workup including a neonatologist, endocrinologist, and pediatric surgeon.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Beginning high-dose testosterone therapy to facilitate phallic growth.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Relying solely on the visual appearance of the labioscrotal folds to determine sex.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Determining internal genitalia and genetic sex involves a careful assessment by a panel of specialists before any decisions are made.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_103.json",
+      "title": "Genitalia Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/genitalia-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6d3bbf3b4fc88feba9bd1e4e",
+  "rationale": "Consider the team of specialists required to handle complex developmental abnormalities and the timeline for decision-making.",
+  "optionExplanations": {
+    "A": "The source emphasizes that sex assignment should not be rushed and requires a detailed workup over several days.",
+    "B": "Determining internal genitalia and genetic sex involves a careful assessment by a panel of specialists before any decisions are made.",
+    "C": "Hormone supplementation might be used later to facilitate repair, but it is not the initial step before a diagnosis is established.",
+    "D": "Visual appearance can be misleading in ambiguous genitalia, making genetic and internal anatomical assessment necessary."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_103",
+    "sourceQuestionIdentifier": "103_q009",
+    "quizTitle": "Genitalia Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A multidisciplinary workup including a neonatologist, endocrinologist, and pediatric surgeon."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_103.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the team of specialists required to handle complex developmental abnormalities and the timeline for decision-making.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_103_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_103",
+      "source_question_identifier": "103_q009",
+      "quiz_title": "Genitalia Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "For a baby born with ambiguous external genitalia, what is the critical first step in management according to the presentation?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the team of specialists required to handle complex developmental abnormalities and the timeline for decision-making.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A multidisciplinary workup including a neonatologist, endocrinologist, and pediatric surgeon."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Immediate surgical reconstruction to assign a sex before discharge from the hospital.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source emphasizes that sex assignment should not be rushed and requires a detailed workup over several days.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "A multidisciplinary workup including a neonatologist, endocrinologist, and pediatric surgeon.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Determining internal genitalia and genetic sex involves a careful assessment by a panel of specialists before any decisions are made.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Beginning high-dose testosterone therapy to facilitate phallic growth.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hormone supplementation might be used later to facilitate repair, but it is not the initial step before a diagnosis is established.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Relying solely on the visual appearance of the labioscrotal folds to determine sex.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Visual appearance can be misleading in ambiguous genitalia, making genetic and internal anatomical assessment necessary.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_103.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Inguino-Scrotal and Penile pathology within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_103",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.698Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.698Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

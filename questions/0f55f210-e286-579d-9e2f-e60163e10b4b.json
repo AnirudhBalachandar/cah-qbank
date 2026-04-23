@@ -1,0 +1,202 @@
+{
+  "id": "0f55f210-e286-579d-9e2f-e60163e10b4b",
+  "stem": "Which of the following is a 'red flag' suggesting a serious underlying condition rather than functional constipation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Large diameter stools",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Delayed passage of meconium beyond 48 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Toilet training stress",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Painful bowel motions",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Failure to pass meconium within the first 48 hours is a major red flag for Hirschsprung's disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_006.json",
+      "title": "Constipation Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/constipation-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-0f55f210e286879d1e2fe601",
+  "rationale": "Identify the sign that specifically relates to the first few days of a newborn's life.",
+  "optionExplanations": {
+    "A": "Large diameter stools are actually one of the criteria for functional constipation.",
+    "B": "Failure to pass meconium within the first 48 hours is a major red flag for Hirschsprung's disease.",
+    "C": "Stress related to toilet training is a common trigger for functional constipation, not a red flag for organic disease.",
+    "D": "Painful motions are a typical feature of functional constipation due to hard stools."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_006",
+    "sourceQuestionIdentifier": "006_q005",
+    "quizTitle": "Constipation Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Delayed passage of meconium beyond 48 hours"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_006.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Identify the sign that specifically relates to the first few days of a newborn's life.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_006_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_006",
+      "source_question_identifier": "006_q005",
+      "quiz_title": "Constipation Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "Which of the following is a 'red flag' suggesting a serious underlying condition rather than functional constipation?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Identify the sign that specifically relates to the first few days of a newborn's life.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Delayed passage of meconium beyond 48 hours"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Large diameter stools",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Large diameter stools are actually one of the criteria for functional constipation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Delayed passage of meconium beyond 48 hours",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Failure to pass meconium within the first 48 hours is a major red flag for Hirschsprung's disease.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Toilet training stress",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Stress related to toilet training is a common trigger for functional constipation, not a red flag for organic disease.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Painful bowel motions",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Painful motions are a typical feature of functional constipation due to hard stools.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_006.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to common gastrointestinal conditions in General Paediatrics.",
+      "mappingKey": "notebook:quiz_006",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.438Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.438Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

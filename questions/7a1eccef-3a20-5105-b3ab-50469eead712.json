@@ -1,0 +1,202 @@
+{
+  "id": "7a1eccef-3a20-5105-b3ab-50469eead712",
+  "stem": "Skin prick testing is generally considered unhelpful for which of the following conditions?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Delayed food reactions like atopic dermatitis or eczema.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "$IgE$-mediated peanut allergy.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wheat-dependent exercise-induced anaphylaxis.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Assessing the likelihood of clinical reactivity to cow's milk.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "SPT measures immediate $IgE$-mediated reactions and does not provide useful data for delayed, non-$IgE$ mediated skin conditions.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_031.json",
+      "title": "Allergy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/allergy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-7a1eccef3a20b10573ab5046",
+  "rationale": "The test measures a response that occurs within 20 minutes, not over several days.",
+  "optionExplanations": {
+    "A": "SPT measures immediate $IgE$-mediated reactions and does not provide useful data for delayed, non-$IgE$ mediated skin conditions.",
+    "B": "SPT is a standard and effective investigation for immediate $IgE$-mediated food allergies like peanut.",
+    "C": "While component testing is useful, SPT can still be part of the investigation for immediate wheat-related reactions.",
+    "D": "SPT is frequently used to monitor and assess the likelihood of reactions to cow's milk."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_031",
+    "sourceQuestionIdentifier": "031_q008",
+    "quizTitle": "Allergy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Delayed food reactions like atopic dermatitis or eczema."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_031.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The test measures a response that occurs within 20 minutes, not over several days.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_031_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_031",
+      "source_question_identifier": "031_q008",
+      "quiz_title": "Allergy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "Skin prick testing is generally considered unhelpful for which of the following conditions?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The test measures a response that occurs within 20 minutes, not over several days.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Delayed food reactions like atopic dermatitis or eczema."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Delayed food reactions like atopic dermatitis or eczema.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "SPT measures immediate $IgE$-mediated reactions and does not provide useful data for delayed, non-$IgE$ mediated skin conditions.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$IgE$-mediated peanut allergy.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "SPT is a standard and effective investigation for immediate $IgE$-mediated food allergies like peanut.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Wheat-dependent exercise-induced anaphylaxis.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While component testing is useful, SPT can still be part of the investigation for immediate wheat-related reactions.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Assessing the likelihood of clinical reactivity to cow's milk.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "SPT is frequently used to monitor and assess the likelihood of reactions to cow's milk.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_031.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Adverse Food Reaction and allergy within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_031",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.741Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.741Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "5c001ca8-7c57-5ef3-b554-dbe89ae09e0a",
+  "stem": "What is the recommended method for delivering inhaled medications (puffers) to children to ensure appropriate technique?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Directly into the mouth to maximize the speed of delivery.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Using a puffer always in combination with a spacer.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Administering the puffer only while the child is crying to ensure deep breaths.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Switching to oral steroids instead of puffers to avoid technique issues.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A spacer slows down the medication particles and allows the child to breathe them in more effectively, significantly improving lung deposition.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_014.json",
+      "title": "Respiratory Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/respiratory-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-5c001ca87c57fef37554dbe8",
+  "rationale": "Consider the auxiliary device used to help coordinate the inhalation with the spray.",
+  "optionExplanations": {
+    "A": "Direct delivery often results in the medication hitting the back of the throat rather than reaching the lungs.",
+    "B": "A spacer slows down the medication particles and allows the child to breathe them in more effectively, significantly improving lung deposition.",
+    "C": "Crying actually reduces the amount of medication that reaches the lungs due to irregular breathing patterns.",
+    "D": "The goal is to use the minimal dose of inhaled steroids; oral steroids are reserved for exacerbations due to their long-term side effects."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_014",
+    "sourceQuestionIdentifier": "014_q010",
+    "quizTitle": "Respiratory Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Using a puffer always in combination with a spacer."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_014.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the auxiliary device used to help coordinate the inhalation with the spray.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_014_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_014",
+      "source_question_identifier": "014_q010",
+      "quiz_title": "Respiratory Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "What is the recommended method for delivering inhaled medications (puffers) to children to ensure appropriate technique?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the auxiliary device used to help coordinate the inhalation with the spray.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Using a puffer always in combination with a spacer."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Directly into the mouth to maximize the speed of delivery.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Direct delivery often results in the medication hitting the back of the throat rather than reaching the lungs.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Using a puffer always in combination with a spacer.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "A spacer slows down the medication particles and allows the child to breathe them in more effectively, significantly improving lung deposition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Administering the puffer only while the child is crying to ensure deep breaths.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Crying actually reduces the amount of medication that reaches the lungs due to irregular breathing patterns.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Switching to oral steroids instead of puffers to avoid technique issues.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The goal is to use the minimal dose of inhaled steroids; oral steroids are reserved for exacerbations due to their long-term side effects.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_014.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_014",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.652Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.652Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

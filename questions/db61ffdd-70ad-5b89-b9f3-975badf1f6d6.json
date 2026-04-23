@@ -1,0 +1,202 @@
+{
+  "id": "db61ffdd-70ad-5b89-b9f3-975badf1f6d6",
+  "stem": "Which of the following describes a 'serious' AEFI according to WHO criteria?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Any reaction that causes the patient to miss more than two days of school or work.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A reaction that results in a persistent or significant disability.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A local injection site nodule that lasts for more than one week.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A low-grade temperature of $38^{\\circ}C$ following a flu shot.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "WHO criteria for serious events include life-threatening situations, hospitalization, disability, or congenital anomalies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_028.json",
+      "title": "Adverse Events Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/adverse-events-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-db61ffdd70adbb89f9f3975b",
+  "rationale": "Recall the criteria involving the severity of medical outcomes, such as hospitalization or long-term impairment.",
+  "optionExplanations": {
+    "A": "While disruptive, missing school is not a standard clinical criterion for a 'serious' AEFI.",
+    "B": "WHO criteria for serious events include life-threatening situations, hospitalization, disability, or congenital anomalies.",
+    "C": "Injection site nodules are considered common and expected reactions, not 'serious' AEFIs unless they meet other criteria.",
+    "D": "Low-grade temperatures are common and expected minor reactions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_028",
+    "sourceQuestionIdentifier": "028_q005",
+    "quizTitle": "Adverse Events Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A reaction that results in a persistent or significant disability."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_028.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall the criteria involving the severity of medical outcomes, such as hospitalization or long-term impairment.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_028_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_028",
+      "source_question_identifier": "028_q005",
+      "quiz_title": "Adverse Events Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "Which of the following describes a 'serious' AEFI according to WHO criteria?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall the criteria involving the severity of medical outcomes, such as hospitalization or long-term impairment.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A reaction that results in a persistent or significant disability."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Any reaction that causes the patient to miss more than two days of school or work.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While disruptive, missing school is not a standard clinical criterion for a 'serious' AEFI.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "A reaction that results in a persistent or significant disability.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "WHO criteria for serious events include life-threatening situations, hospitalization, disability, or congenital anomalies.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A local injection site nodule that lasts for more than one week.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Injection site nodules are considered common and expected reactions, not 'serious' AEFIs unless they meet other criteria.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A low-grade temperature of $38^{\\circ}C$ following a flu shot.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Low-grade temperatures are common and expected minor reactions.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_028.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to immunization and adverse-event content within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_028",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.992Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.992Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

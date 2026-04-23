@@ -1,0 +1,202 @@
+{
+  "id": "da0d5682-3318-5571-b74e-8c813b72c6b4",
+  "stem": "While ultrasound is often the first test for suspected stones, which modality is the absolute gold standard for detecting renal calculi?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CT scan",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "MRI scan",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "KUB (Kidney, Ureter, Bladder) plain film",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "DTPA scan",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "CT provides the highest sensitivity for detecting kidney stones, including those that might be missed by ultrasound or plain X-rays.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_044.json",
+      "title": "Renal Imaging Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/renal-imaging-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-da0d568233182571374e8c81",
+  "rationale": "This modality is used rarely in pediatrics due to radiation, except for specific questions like this one.",
+  "optionExplanations": {
+    "A": "CT provides the highest sensitivity for detecting kidney stones, including those that might be missed by ultrasound or plain X-rays.",
+    "B": "MRI is rarely used in renal imaging and is not the standard procedure for identifying stones.",
+    "C": "A plain KUB can pick up some stones, but it is less reliable than CT for definitive diagnosis.",
+    "D": "DTPA is used to look at function and obstruction, but it does not provide the structural detail needed to identify stones."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_044",
+    "sourceQuestionIdentifier": "044_q007",
+    "quizTitle": "Renal Imaging Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "CT scan"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_044.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This modality is used rarely in pediatrics due to radiation, except for specific questions like this one.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_044_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_044",
+      "source_question_identifier": "044_q007",
+      "quiz_title": "Renal Imaging Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "While ultrasound is often the first test for suspected stones, which modality is the absolute gold standard for detecting renal calculi?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This modality is used rarely in pediatrics due to radiation, except for specific questions like this one.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "CT scan"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "CT scan",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "CT provides the highest sensitivity for detecting kidney stones, including those that might be missed by ultrasound or plain X-rays.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "MRI scan",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "MRI is rarely used in renal imaging and is not the standard procedure for identifying stones.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "KUB (Kidney, Ureter, Bladder) plain film",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A plain KUB can pick up some stones, but it is less reliable than CT for definitive diagnosis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "DTPA scan",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "DTPA is used to look at function and obstruction, but it does not provide the structural detail needed to identify stones.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_044.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_044",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.989Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.989Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

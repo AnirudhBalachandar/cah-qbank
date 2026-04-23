@@ -1,0 +1,202 @@
+{
+  "id": "d9717d5b-332b-5cd6-8658-b39261035152",
+  "stem": "What is the primary risk associated with the prolonged use of hydrogels in major burns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Induced hypothermia.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Increased risk of bacterial infection.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Chemical irritation of the dermis.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Dehydration of the burn wound.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Because hydrogels provide long-term cooling, they can dangerously lower the patient's core temperature if used on large surface area burns.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_100.json",
+      "title": "Burns Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/burns-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d9717d5b332b5cd64658b392",
+  "rationale": "Think about the systemic effect of uncontrolled cooling on a patient who has lost skin integrity.",
+  "optionExplanations": {
+    "A": "Because hydrogels provide long-term cooling, they can dangerously lower the patient's core temperature if used on large surface area burns.",
+    "B": "While infection is a concern in burns, the source specifically highlights the systemic risk of hypothermia with hydrogel use.",
+    "C": "Hydrogels are generally noted for their analgesic (pain-relieving) effects rather than causing chemical irritation.",
+    "D": "Hydrogels are moist dressings; the specific danger mentioned is their systemic effect on body temperature."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_100",
+    "sourceQuestionIdentifier": "100_q003",
+    "quizTitle": "Burns Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Induced hypothermia."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_100.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the systemic effect of uncontrolled cooling on a patient who has lost skin integrity.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_100_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_100",
+      "source_question_identifier": "100_q003",
+      "quiz_title": "Burns Quiz",
+      "quiz_question_count": 12,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "What is the primary risk associated with the prolonged use of hydrogels in major burns?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the systemic effect of uncontrolled cooling on a patient who has lost skin integrity.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Induced hypothermia."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Induced hypothermia.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Because hydrogels provide long-term cooling, they can dangerously lower the patient's core temperature if used on large surface area burns.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Increased risk of bacterial infection.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While infection is a concern in burns, the source specifically highlights the systemic risk of hypothermia with hydrogel use.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Chemical irritation of the dermis.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hydrogels are generally noted for their analgesic (pain-relieving) effects rather than causing chemical irritation.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Dehydration of the burn wound.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hydrogels are moist dressings; the specific danger mentioned is their systemic effect on body temperature.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_100.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Burns Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_100",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.986Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.986Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

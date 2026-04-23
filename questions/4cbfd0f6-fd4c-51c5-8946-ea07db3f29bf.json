@@ -1,0 +1,202 @@
+{
+  "id": "4cbfd0f6-fd4c-51c5-8946-ea07db3f29bf",
+  "stem": "When managing a child with suspected bowel obstruction, why is it recommended to commence antibiotics?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To treat the viral infection that likely caused the obstruction.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To prevent sepsis from the transmigration of organisms through the compromised bowel wall.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To reduce the size of the hypertrophied pyloric muscle.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To stimulate the return of normal bowel peristalsis.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stasis and pressure in an obstructed bowel can compromise the wall's integrity, allowing bacteria to enter the bloodstream.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_048.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-4cbfd0f6fd4cf1c58946ea07",
+  "rationale": "Think about what happens to bacteria when the intestinal barrier is under pressure or lacks blood flow.",
+  "optionExplanations": {
+    "A": "Obstructions discussed here are primarily surgical/mechanical, not viral, and antibiotics do not treat viruses.",
+    "B": "Stasis and pressure in an obstructed bowel can compromise the wall's integrity, allowing bacteria to enter the bloodstream.",
+    "C": "Antibiotics have no effect on the muscular hypertrophy seen in conditions like pyloric stenosis.",
+    "D": "Antibiotics are used for infection prophylaxis, not as prokinetic agents to restore bowel movement."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_048",
+    "sourceQuestionIdentifier": "048_q010",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "To prevent sepsis from the transmigration of organisms through the compromised bowel wall."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_048.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about what happens to bacteria when the intestinal barrier is under pressure or lacks blood flow.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_048_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_048",
+      "source_question_identifier": "048_q010",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "When managing a child with suspected bowel obstruction, why is it recommended to commence antibiotics?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about what happens to bacteria when the intestinal barrier is under pressure or lacks blood flow.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "To prevent sepsis from the transmigration of organisms through the compromised bowel wall."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "To treat the viral infection that likely caused the obstruction.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Obstructions discussed here are primarily surgical/mechanical, not viral, and antibiotics do not treat viruses.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "To prevent sepsis from the transmigration of organisms through the compromised bowel wall.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Stasis and pressure in an obstructed bowel can compromise the wall's integrity, allowing bacteria to enter the bloodstream.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "To reduce the size of the hypertrophied pyloric muscle.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Antibiotics have no effect on the muscular hypertrophy seen in conditions like pyloric stenosis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To stimulate the return of normal bowel peristalsis.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Antibiotics are used for infection prophylaxis, not as prokinetic agents to restore bowel movement.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_048.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to gastrointestinal and surgical emergencies presenting with vomiting.",
+      "mappingKey": "notebook:quiz_048",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.624Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.624Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

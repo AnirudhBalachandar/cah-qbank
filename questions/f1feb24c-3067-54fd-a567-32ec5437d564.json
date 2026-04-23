@@ -1,0 +1,202 @@
+{
+  "id": "f1feb24c-3067-54fd-a567-32ec5437d564",
+  "stem": "What is the recommended dose of salbutamol for a child over 6 years of age during an asthma flare-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 to 6 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 to 12 puffs",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "8 puffs exactly",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "1 to 2 puffs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source specifies that older children (6 years and above) require a higher puff range for relief during exacerbations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_016.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-f1feb24c3067d4fda56732ec",
+  "rationale": "The dose for older children is approximately double the lower limit used for toddlers and infants.",
+  "optionExplanations": {
+    "A": "This range is the recommended dosage for children in the 0 to 5-year age bracket.",
+    "B": "The source specifies that older children (6 years and above) require a higher puff range for relief during exacerbations.",
+    "C": "While 8 falls within the correct range, the source defines a specific range of 4 to 12 puffs for this age group.",
+    "D": "This dose is generally insufficient for managing an active asthma flare-up in school-aged children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_016",
+    "sourceQuestionIdentifier": "016_q002",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "4 to 12 puffs"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_016.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The dose for older children is approximately double the lower limit used for toddlers and infants.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_016_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_016",
+      "source_question_identifier": "016_q002",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 12,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "What is the recommended dose of salbutamol for a child over 6 years of age during an asthma flare-up?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The dose for older children is approximately double the lower limit used for toddlers and infants.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "4 to 12 puffs"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "2 to 6 puffs",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This range is the recommended dosage for children in the 0 to 5-year age bracket.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "4 to 12 puffs",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source specifies that older children (6 years and above) require a higher puff range for relief during exacerbations.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "8 puffs exactly",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While 8 falls within the correct range, the source defines a specific range of 4 to 12 puffs for this age group.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "1 to 2 puffs",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This dose is generally insufficient for managing an active asthma flare-up in school-aged children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_016.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_016",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.033Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.033Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

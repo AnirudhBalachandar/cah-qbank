@@ -1,0 +1,202 @@
+{
+  "id": "1baef817-886f-5272-b8a0-c9031ec93578",
+  "stem": "Which of the following is a classic clinical 'red flag' suggesting that a child's headache may be caused by raised intracranial pressure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The headache wakes the child at night or occurs early in the morning.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The headache is relieved by a cool, dark room and sleep.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The headache is localized to the frontal-temporal region.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The headache occurs less than once a month with no other symptoms.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Headaches that occur during sleep or immediately upon waking are strong indicators of increased pressure within the skull.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_069.json",
+      "title": "Headache Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/headache-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-1baef817886ff272f8a0c903",
+  "rationale": "Consider the timing of the headache in relation to the child's sleep-wake cycle.",
+  "optionExplanations": {
+    "A": "Headaches that occur during sleep or immediately upon waking are strong indicators of increased pressure within the skull.",
+    "B": "Relief with rest and a dark environment is a classic feature of migraine, not necessarily raised intracranial pressure.",
+    "C": "Frontal-temporal location is common in both tension headaches and migraines; occipital location is the red flag for ICP.",
+    "D": "Infrequent headaches with no neurological signs are less likely to be associated with serious pathology like raised ICP."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_069",
+    "sourceQuestionIdentifier": "069_q011",
+    "quizTitle": "Headache Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 11,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The headache wakes the child at night or occurs early in the morning."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_069.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the timing of the headache in relation to the child's sleep-wake cycle.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_069_q011",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_069",
+      "source_question_identifier": "069_q011",
+      "quiz_title": "Headache Quiz",
+      "quiz_question_count": 12,
+      "question_index": 11,
+      "question_type": "",
+      "question_text": "Which of the following is a classic clinical 'red flag' suggesting that a child's headache may be caused by raised intracranial pressure?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the timing of the headache in relation to the child's sleep-wake cycle.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The headache wakes the child at night or occurs early in the morning."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The headache wakes the child at night or occurs early in the morning.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Headaches that occur during sleep or immediately upon waking are strong indicators of increased pressure within the skull.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The headache is relieved by a cool, dark room and sleep.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Relief with rest and a dark environment is a classic feature of migraine, not necessarily raised intracranial pressure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The headache is localized to the frontal-temporal region.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Frontal-temporal location is common in both tension headaches and migraines; occipital location is the red flag for ICP.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The headache occurs less than once a month with no other symptoms.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Infrequent headaches with no neurological signs are less likely to be associated with serious pathology like raised ICP.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_069.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_069",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.486Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.486Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

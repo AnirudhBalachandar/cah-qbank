@@ -1,0 +1,202 @@
+{
+  "id": "a85b74e7-7c78-51ca-bd58-a924f0d40cb9",
+  "stem": "In the management of acute nephritis, which treatment is considered the most effective for managing hypertension caused by fluid retention?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "ACE inhibitors",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Calcium channel blockers",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Diuretics",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "High-dose oral steroids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explicitly states that diuretics are 'by far the best anti-hypertensive' in this condition because they address the underlying fluid overload.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_043.json",
+      "title": "Nephrology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/nephrology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a85b74e77c7841cabd58a924",
+  "rationale": "Focus on the medication that directly removes the excess fluid causing the high blood pressure.",
+  "optionExplanations": {
+    "A": "While used in chronic renal conditions, they are not highlighted as the 'best' first-line treatment for the acute fluid-driven hypertension described.",
+    "B": "The source mentions these as a second-line option if the primary treatment for fluid overload is insufficient.",
+    "C": "The source explicitly states that diuretics are 'by far the best anti-hypertensive' in this condition because they address the underlying fluid overload.",
+    "D": "Steroids are the mainstay for nephrotic syndrome, but acute post-infectious nephritis is often managed conservatively without them."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_043",
+    "sourceQuestionIdentifier": "043_q007",
+    "quizTitle": "Nephrology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Diuretics"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_043.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the medication that directly removes the excess fluid causing the high blood pressure.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_043_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_043",
+      "source_question_identifier": "043_q007",
+      "quiz_title": "Nephrology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "In the management of acute nephritis, which treatment is considered the most effective for managing hypertension caused by fluid retention?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the medication that directly removes the excess fluid causing the high blood pressure.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Diuretics"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "ACE inhibitors",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While used in chronic renal conditions, they are not highlighted as the 'best' first-line treatment for the acute fluid-driven hypertension described.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Calcium channel blockers",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source mentions these as a second-line option if the primary treatment for fluid overload is insufficient.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Diuretics",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source explicitly states that diuretics are 'by far the best anti-hypertensive' in this condition because they address the underlying fluid overload.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "High-dose oral steroids",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Steroids are the mainstay for nephrotic syndrome, but acute post-infectious nephritis is often managed conservatively without them.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_043.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_043",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.864Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.864Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

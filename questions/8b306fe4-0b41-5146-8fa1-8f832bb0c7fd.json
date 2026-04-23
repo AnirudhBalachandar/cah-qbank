@@ -1,0 +1,202 @@
+{
+  "id": "8b306fe4-0b41-5146-8fa1-8f832bb0c7fd",
+  "stem": "According to the source material, what is the most common timing for the brain injury that results in cerebral palsy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Perinatal (during birth)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Postnatal (after the first month)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Prenatal (before birth)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Neonatal (first $28$ days)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source states that $70-80\\%$ of individuals with cerebral palsy acquired the abnormality prenatally.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_067.json",
+      "title": "Neurology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/neurology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-8b306fe40b4161468fa18f83",
+  "rationale": "Look for the developmental period that accounts for $70-80\\%$ of cases.",
+  "optionExplanations": {
+    "A": "Birth asphyxia and delivery problems only account for about $6\\%$ of cases, which is much lower than previously believed.",
+    "B": "Postnatally acquired cerebral palsy accounts for only $10-20\\%$ of cases, often due to infections or trauma.",
+    "C": "The source states that $70-80\\%$ of individuals with cerebral palsy acquired the abnormality prenatally.",
+    "D": "While neonatal risk factors exist, the majority of the original disturbances occur during fetal development."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_067",
+    "sourceQuestionIdentifier": "067_q006",
+    "quizTitle": "Neurology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Prenatal (before birth)"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_067.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for the developmental period that accounts for $70-80\\%$ of cases.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_067_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_067",
+      "source_question_identifier": "067_q006",
+      "quiz_title": "Neurology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "According to the source material, what is the most common timing for the brain injury that results in cerebral palsy?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for the developmental period that accounts for $70-80\\%$ of cases.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Prenatal (before birth)"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Perinatal (during birth)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Birth asphyxia and delivery problems only account for about $6\\%$ of cases, which is much lower than previously believed.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Postnatal (after the first month)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Postnatally acquired cerebral palsy accounts for only $10-20\\%$ of cases, often due to infections or trauma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Prenatal (before birth)",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source states that $70-80\\%$ of individuals with cerebral palsy acquired the abnormality prenatally.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Neonatal (first $28$ days)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While neonatal risk factors exist, the majority of the original disturbances occur during fetal development.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_067.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_067",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.779Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.779Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

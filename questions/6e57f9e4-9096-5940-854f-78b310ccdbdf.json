@@ -1,0 +1,202 @@
+{
+  "id": "6e57f9e4-9096-5940-854f-78b310ccdbdf",
+  "stem": "When evaluating a child with a chronic cough, which feature would most strongly suggest a 'habit cough'?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The cough is productive and associated with malabsorption.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The cough worsens during exercise and cold weather.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The cough disappears completely when the child is asleep.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The cough is a side effect of ACE inhibitor medication.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A hallmark of habit cough is its absence during sleep, as the cough is typically driven by anxiety or psychological triggers while awake.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_014.json",
+      "title": "Respiratory Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/respiratory-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6e57f9e49096b940454f78b3",
+  "rationale": "Consider the timing of the cough and whether it persists during unconscious states.",
+  "optionExplanations": {
+    "A": "Productive cough and malabsorption are classic signs of Cystic Fibrosis, not a habit cough.",
+    "B": "Worsening with exercise and cold air is highly characteristic of asthma, not a behavioral habit cough.",
+    "C": "A hallmark of habit cough is its absence during sleep, as the cough is typically driven by anxiety or psychological triggers while awake.",
+    "D": "Cough from ACE inhibitors is caused by biochemical byproducts like bradykinin, which is a physiological rather than a behavioral cause."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_014",
+    "sourceQuestionIdentifier": "014_q007",
+    "quizTitle": "Respiratory Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The cough disappears completely when the child is asleep."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_014.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the timing of the cough and whether it persists during unconscious states.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_014_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_014",
+      "source_question_identifier": "014_q007",
+      "quiz_title": "Respiratory Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "When evaluating a child with a chronic cough, which feature would most strongly suggest a 'habit cough'?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the timing of the cough and whether it persists during unconscious states.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The cough disappears completely when the child is asleep."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The cough is productive and associated with malabsorption.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Productive cough and malabsorption are classic signs of Cystic Fibrosis, not a habit cough.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The cough worsens during exercise and cold weather.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Worsening with exercise and cold air is highly characteristic of asthma, not a behavioral habit cough.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The cough disappears completely when the child is asleep.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "A hallmark of habit cough is its absence during sleep, as the cough is typically driven by anxiety or psychological triggers while awake.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The cough is a side effect of ACE inhibitor medication.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Cough from ACE inhibitors is caused by biochemical byproducts like bradykinin, which is a physiological rather than a behavioral cause.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_014.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_014",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.703Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.703Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "7dea4e1f-8a90-5856-b6d5-a527ed2ecd4b",
+  "stem": "For which medication is there a high level of evidence *against* use in children under 12 months with bronchiolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intravenous rehydration fluids.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Supplemental oxygen.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Beta-2 agonists (e.g., Salbutamol).",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Nasopharyngeal viral swabs.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Evidence shows that bronchodilators are generally ineffective in infants with bronchiolitis because the obstruction is caused by edema and mucus, not bronchospasm.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_019.json",
+      "title": "Respiratory Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/respiratory-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-7dea4e1f8a90c856b6d5a527",
+  "rationale": "Think about common asthma medications that are often mistakenly prescribed for viral airway inflammation in very young infants.",
+  "optionExplanations": {
+    "A": "There is high-level evidence for using IV or NG rehydration in patients with bronchiolitis who cannot feed.",
+    "B": "Oxygen is a standard treatment for children with bronchiolitis who are hypoxic.",
+    "C": "Evidence shows that bronchodilators are generally ineffective in infants with bronchiolitis because the obstruction is caused by edema and mucus, not bronchospasm.",
+    "D": "While viral swabs may be used for cohorting or infection control, there isn't evidence 'against' them in terms of clinical harm."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_019",
+    "sourceQuestionIdentifier": "019_q007",
+    "quizTitle": "Respiratory Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Beta-2 agonists (e.g., Salbutamol)."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_019.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about common asthma medications that are often mistakenly prescribed for viral airway inflammation in very young infants.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_019_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_019",
+      "source_question_identifier": "019_q007",
+      "quiz_title": "Respiratory Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "For which medication is there a high level of evidence *against* use in children under 12 months with bronchiolitis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about common asthma medications that are often mistakenly prescribed for viral airway inflammation in very young infants.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Beta-2 agonists (e.g., Salbutamol)."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Intravenous rehydration fluids.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "There is high-level evidence for using IV or NG rehydration in patients with bronchiolitis who cannot feed.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Supplemental oxygen.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Oxygen is a standard treatment for children with bronchiolitis who are hypoxic.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Beta-2 agonists (e.g., Salbutamol).",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Evidence shows that bronchodilators are generally ineffective in infants with bronchiolitis because the obstruction is caused by edema and mucus, not bronchospasm.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Nasopharyngeal viral swabs.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While viral swabs may be used for cohorting or infection control, there isn't evidence 'against' them in terms of clinical harm.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_019.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to respiratory emergencies including bronchiolitis and croup.",
+      "mappingKey": "notebook:quiz_019",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.746Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.746Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

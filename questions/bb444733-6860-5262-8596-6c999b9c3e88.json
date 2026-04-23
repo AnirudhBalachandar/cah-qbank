@@ -1,0 +1,202 @@
+{
+  "id": "bb444733-6860-5262-8596-6c999b9c3e88",
+  "stem": "What is the primary objective of the 'One Voice' approach in a procedure room?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To prevent the child from feeling overwhelmed by multiple people talking at once.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To ensure that only the most senior medical professional is allowed to speak.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To eliminate the need for distraction techniques during the clinical task.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To discourage parents from interacting with their children during the procedure.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Having one designated person coach the child reduces noise and confusion, which can otherwise heighten a child's fear.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_041.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-bb4447336860426245966c99",
+  "rationale": "Consider the effect of a small room filled with many staff members all trying to be helpful at once.",
+  "optionExplanations": {
+    "A": "Having one designated person coach the child reduces noise and confusion, which can otherwise heighten a child's fear.",
+    "B": "The 'One Voice' doesn't have to be the senior doctor; it can be a nurse, therapist, or even a parent acting as a coach.",
+    "C": "The approach works in tandem with distraction; the 'One Voice' often guides the distraction process.",
+    "D": "The focus is on clarity and calm for the child, not on preventing parental interaction or involvement."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_041",
+    "sourceQuestionIdentifier": "041_q004",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "To prevent the child from feeling overwhelmed by multiple people talking at once."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_041.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the effect of a small room filled with many staff members all trying to be helpful at once.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_041_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_041",
+      "source_question_identifier": "041_q004",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 12,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "What is the primary objective of the 'One Voice' approach in a procedure room?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the effect of a small room filled with many staff members all trying to be helpful at once.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "To prevent the child from feeling overwhelmed by multiple people talking at once."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "To prevent the child from feeling overwhelmed by multiple people talking at once.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Having one designated person coach the child reduces noise and confusion, which can otherwise heighten a child's fear.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "To ensure that only the most senior medical professional is allowed to speak.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The 'One Voice' doesn't have to be the senior doctor; it can be a nurse, therapist, or even a parent acting as a coach.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "To eliminate the need for distraction techniques during the clinical task.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The approach works in tandem with distraction; the 'One Voice' often guides the distraction process.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To discourage parents from interacting with their children during the procedure.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The focus is on clarity and calm for the child, not on preventing parental interaction or involvement.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_041.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Procedural Support and Pain Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_041",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.909Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.909Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

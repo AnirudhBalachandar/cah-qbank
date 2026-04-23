@@ -1,0 +1,202 @@
+{
+  "id": "b2d17eb8-3a44-5a23-b8e5-9cfac741f81d",
+  "stem": "Which of the following serves as the negative control in a standard skin prick test?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Normal saline",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Histamine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A dilute nut mix",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An empty plastic lancet",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Saline is used to ensure the skin is not reacting to the physical act of the prick itself, providing a baseline for comparison.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_031.json",
+      "title": "Allergy Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/allergy-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-b2d17eb83a442a2338e59cfa",
+  "rationale": "Think of a neutral substance that should not trigger an immune response.",
+  "optionExplanations": {
+    "A": "Saline is used to ensure the skin is not reacting to the physical act of the prick itself, providing a baseline for comparison.",
+    "B": "Histamine is used as a positive control because the body should always react to it, proving the test is working correctly.",
+    "C": "Allergen mixes are discouraged because they do not specify which individual protein is causing a potential reaction.",
+    "D": "A negative control requires a liquid substrate like saline to mimic the conditions of the allergen drops."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_031",
+    "sourceQuestionIdentifier": "031_q002",
+    "quizTitle": "Allergy Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Normal saline"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_031.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think of a neutral substance that should not trigger an immune response.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_031_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_031",
+      "source_question_identifier": "031_q002",
+      "quiz_title": "Allergy Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "Which of the following serves as the negative control in a standard skin prick test?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think of a neutral substance that should not trigger an immune response.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Normal saline"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Normal saline",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Saline is used to ensure the skin is not reacting to the physical act of the prick itself, providing a baseline for comparison.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Histamine",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Histamine is used as a positive control because the body should always react to it, proving the test is working correctly.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A dilute nut mix",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Allergen mixes are discouraged because they do not specify which individual protein is causing a potential reaction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "An empty plastic lancet",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A negative control requires a liquid substrate like saline to mimic the conditions of the allergen drops.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_031.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Adverse Food Reaction and allergy within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_031",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.890Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.890Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

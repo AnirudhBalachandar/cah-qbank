@@ -1,0 +1,202 @@
+{
+  "id": "d8d9c3c9-6c29-51d2-8590-6b8022298f58",
+  "stem": "A $9\\text{-month-old}$ child has a large head but is developmentally normal and non-dysmorphic. The mother also has a large head circumference ($58\\text{ cm}$). What is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Obstructive hydrocephalus.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Secondary microcephaly.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Benign familial macrocephaly.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Neurofibromatosis type $1$.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The combination of a healthy child and a parent with a similarly large head suggests a genetic but non-pathological trait.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_070.json",
+      "title": "Head Circumference Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/head-circumference-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d8d9c3c96c2961d285906b80",
+  "rationale": "Consider the relevance of the mother's head size and the child's normal development.",
+  "optionExplanations": {
+    "A": "Hydrocephalus usually presents with symptoms of raised pressure or developmental concerns, rather than a healthy, non-dysmorphic child.",
+    "B": "This diagnosis is incorrect because the child has a large head (macrocephaly), not a small one.",
+    "C": "The combination of a healthy child and a parent with a similarly large head suggests a genetic but non-pathological trait.",
+    "D": "While associated with macrocephaly, there is no mention of the required cutaneous stigmata or other syndromic features in this child."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_070",
+    "sourceQuestionIdentifier": "070_q008",
+    "quizTitle": "Head Circumference Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Benign familial macrocephaly."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_070.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the relevance of the mother's head size and the child's normal development.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_070_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_070",
+      "source_question_identifier": "070_q008",
+      "quiz_title": "Head Circumference Quiz",
+      "quiz_question_count": 12,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "A $9\\text{-month-old}$ child has a large head but is developmentally normal and non-dysmorphic. The mother also has a large head circumference ($58\\text{ cm}$). What is the most likely diagnosis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the relevance of the mother's head size and the child's normal development.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Benign familial macrocephaly."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Obstructive hydrocephalus.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hydrocephalus usually presents with symptoms of raised pressure or developmental concerns, rather than a healthy, non-dysmorphic child.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Secondary microcephaly.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This diagnosis is incorrect because the child has a large head (macrocephaly), not a small one.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Benign familial macrocephaly.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The combination of a healthy child and a parent with a similarly large head suggests a genetic but non-pathological trait.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Neurofibromatosis type $1$.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While associated with macrocephaly, there is no mention of the required cutaneous stigmata or other syndromic features in this child.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_070.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to general paediatric growth and developmental assessment content.",
+      "mappingKey": "notebook:quiz_070",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.984Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.984Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

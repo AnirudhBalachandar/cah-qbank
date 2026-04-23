@@ -1,0 +1,202 @@
+{
+  "id": "83d4a9c5-9928-5cc8-b683-13c3534e4731",
+  "stem": "Why is blood pressure measurement considered essential in a child presenting with an unexplained alteration of consciousness?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To rule out cyclical vomiting syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To screen for Vitamin $B_6$ deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To identify hypertensive encephalopathy",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To check for signs of leukemic infiltration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "High blood pressure can lead to encephalopathy and seizures in children, which is a reversible but dangerous condition.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_071.json",
+      "title": "Pediatric Neurology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-neurology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-83d4a9c599289cc8768313c3",
+  "rationale": "Consider how cardiovascular vitals can directly impact brain function and sensorium.",
+  "optionExplanations": {
+    "A": "Cyclical vomiting involves bouts of dehydration but is not typically the primary cause of acute encephalopathy.",
+    "B": "Vitamin $B_6$ issues are identified through metabolic screening and response to treatment, not blood pressure.",
+    "C": "High blood pressure can lead to encephalopathy and seizures in children, which is a reversible but dangerous condition.",
+    "D": "Leukemia is screened for via blood film, while blood pressure specifically targets vascular and hypertensive complications."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_071",
+    "sourceQuestionIdentifier": "071_q007",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "To identify hypertensive encephalopathy"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_071.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider how cardiovascular vitals can directly impact brain function and sensorium.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_071_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_071",
+      "source_question_identifier": "071_q007",
+      "quiz_title": "Pediatric Neurology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Why is blood pressure measurement considered essential in a child presenting with an unexplained alteration of consciousness?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider how cardiovascular vitals can directly impact brain function and sensorium.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "To identify hypertensive encephalopathy"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "To rule out cyclical vomiting syndrome",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Cyclical vomiting involves bouts of dehydration but is not typically the primary cause of acute encephalopathy.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "To screen for Vitamin $B_6$ deficiency",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Vitamin $B_6$ issues are identified through metabolic screening and response to treatment, not blood pressure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "To identify hypertensive encephalopathy",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "High blood pressure can lead to encephalopathy and seizures in children, which is a reversible but dangerous condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To check for signs of leukemic infiltration",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Leukemia is screened for via blood film, while blood pressure specifically targets vascular and hypertensive complications.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_071.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_071",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.759Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.759Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

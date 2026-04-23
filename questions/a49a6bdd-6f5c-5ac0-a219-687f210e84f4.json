@@ -1,0 +1,202 @@
+{
+  "id": "a49a6bdd-6f5c-5ac0-a219-687f210e84f4",
+  "stem": "If an abdominal X-ray shows a 'double bubble' sign and a complete absence of gas in the distal bowel, what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Duodenal atresia.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pyloric stenosis.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Esophageal atresia with a distal fistula.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intussusception.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Duodenal atresia causes a double bubble (stomach and proximal duodenum) with no air passing beyond the obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_046.json",
+      "title": "Radiology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/radiology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a49a6bdd6f5c9ac02219687f",
+  "rationale": "This condition involves a discontinuity usually in the third part of the duodenum.",
+  "optionExplanations": {
+    "A": "Duodenal atresia causes a double bubble (stomach and proximal duodenum) with no air passing beyond the obstruction.",
+    "B": "Pyloric stenosis involves a narrowed channel but usually allows some gas to pass, and it is primarily diagnosed via ultrasound.",
+    "C": "Esophageal atresia with a distal fistula would show air in the bowel loops, not a double bubble with distal gasless appearance.",
+    "D": "Intussusception usually presents with signs of distal obstruction or a soft tissue mass, but not the specific double bubble pattern."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_046",
+    "sourceQuestionIdentifier": "046_q006",
+    "quizTitle": "Radiology Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Duodenal atresia."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_046.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This condition involves a discontinuity usually in the third part of the duodenum.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_046_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_046",
+      "source_question_identifier": "046_q006",
+      "quiz_title": "Radiology Quiz",
+      "quiz_question_count": 12,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "If an abdominal X-ray shows a 'double bubble' sign and a complete absence of gas in the distal bowel, what is the most likely diagnosis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This condition involves a discontinuity usually in the third part of the duodenum.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Duodenal atresia."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Duodenal atresia.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Duodenal atresia causes a double bubble (stomach and proximal duodenum) with no air passing beyond the obstruction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Pyloric stenosis.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Pyloric stenosis involves a narrowed channel but usually allows some gas to pass, and it is primarily diagnosed via ultrasound.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Esophageal atresia with a distal fistula.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Esophageal atresia with a distal fistula would show air in the bowel loops, not a double bubble with distal gasless appearance.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Intussusception.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Intussusception usually presents with signs of distal obstruction or a soft tissue mass, but not the specific double bubble pattern.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_046.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to Paediatric Procedural Skills and Medical Imaging.",
+      "mappingKey": "notebook:quiz_046",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.852Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.852Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

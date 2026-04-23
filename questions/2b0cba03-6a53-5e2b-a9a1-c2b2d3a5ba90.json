@@ -1,0 +1,202 @@
+{
+  "id": "2b0cba03-6a53-5e2b-a9a1-c2b2d3a5ba90",
+  "stem": "According to the provided material, what is the approximate incidence of major malformations in liveborn babies?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$0.5\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$2-3\\%$",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "$15-20\\%$",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "$10\\%$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This represents the percentage of babies born with significant structural anomalies that cause disability or require intervention.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_061.json",
+      "title": "Dysmorphology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/dysmorphology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-2b0cba036a53ae2b29a1c2b2",
+  "rationale": "This value represents the baseline occurrence rate for major anomalies in newborns.",
+  "optionExplanations": {
+    "A": "This figure is lower than the actual estimated prevalence at birth.",
+    "B": "This represents the percentage of babies born with significant structural anomalies that cause disability or require intervention.",
+    "C": "This much higher percentage refers to the incidence of major malformations found in stillborn babies.",
+    "D": "This figure is higher than the rate seen in live births, though it approximates the risk of major malformations if two minor ones are present."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_061",
+    "sourceQuestionIdentifier": "061_q011",
+    "quizTitle": "Dysmorphology Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 11,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$2-3\\%$"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_061.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This value represents the baseline occurrence rate for major anomalies in newborns.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_061_q011",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_061",
+      "source_question_identifier": "061_q011",
+      "quiz_title": "Dysmorphology Quiz",
+      "quiz_question_count": 12,
+      "question_index": 11,
+      "question_type": "",
+      "question_text": "According to the provided material, what is the approximate incidence of major malformations in liveborn babies?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This value represents the baseline occurrence rate for major anomalies in newborns.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$2-3\\%$"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "$0.5\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This figure is lower than the actual estimated prevalence at birth.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$2-3\\%$",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This represents the percentage of babies born with significant structural anomalies that cause disability or require intervention.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "$15-20\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This much higher percentage refers to the incidence of major malformations found in stillborn babies.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$10\\%$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This figure is higher than the rate seen in live births, though it approximates the risk of major malformations if two minor ones are present.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_061.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Genetics and Dysmorphology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_061",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.536Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.536Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

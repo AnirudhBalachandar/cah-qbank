@@ -1,0 +1,202 @@
+{
+  "id": "8e1d9b8c-6ab5-5b9d-b165-11079a1be714",
+  "stem": "In terms of diagnostic sensitivity, what is considered the most effective tool for evaluating acute abdominal pain in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A single CT scan by a specialist.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The initial set of liver function tests (LFTs).",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Repeated clinical examination by the same doctor.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A plain abdominal X-ray.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Serial examinations by the same clinician allow for the detection of subtle changes in the child's condition, offering the highest sensitivity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_047.json",
+      "title": "Clinical Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/clinical-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-8e1d9b8c6ab5bb9df1651107",
+  "rationale": "Think about the value of continuity in physical assessment over time.",
+  "optionExplanations": {
+    "A": "While useful in specific cases, CT is not the most sensitive overall tool compared to repeated clinical assessment.",
+    "B": "Lab tests are supportive but do not have the highest sensitivity for diagnosing the cause of acute abdominal pain.",
+    "C": "Serial examinations by the same clinician allow for the detection of subtle changes in the child's condition, offering the highest sensitivity.",
+    "D": "X-rays have a very limited role and low sensitivity for most causes of abdominal pain in children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_047",
+    "sourceQuestionIdentifier": "047_q012",
+    "quizTitle": "Clinical Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 12,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Repeated clinical examination by the same doctor."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_047.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the value of continuity in physical assessment over time.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_047_q012",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_047",
+      "source_question_identifier": "047_q012",
+      "quiz_title": "Clinical Quiz",
+      "quiz_question_count": 12,
+      "question_index": 12,
+      "question_type": "",
+      "question_text": "In terms of diagnostic sensitivity, what is considered the most effective tool for evaluating acute abdominal pain in children?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the value of continuity in physical assessment over time.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Repeated clinical examination by the same doctor."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A single CT scan by a specialist.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While useful in specific cases, CT is not the most sensitive overall tool compared to repeated clinical assessment.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The initial set of liver function tests (LFTs).",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Lab tests are supportive but do not have the highest sensitivity for diagnosing the cause of acute abdominal pain.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Repeated clinical examination by the same doctor.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Serial examinations by the same clinician allow for the detection of subtle changes in the child's condition, offering the highest sensitivity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A plain abdominal X-ray.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "X-rays have a very limited role and low sensitivity for most causes of abdominal pain in children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_047.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to surgical abdominal pain and acute abdominal assessment within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_047",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.784Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.784Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

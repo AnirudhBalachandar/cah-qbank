@@ -1,0 +1,202 @@
+{
+  "id": "681505dd-2763-5cc9-80c7-3f49bf68e19c",
+  "stem": "What is a distinguishing characteristic of the onset of Otitis Media in Aboriginal children compared to non-Aboriginal children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can be seen as early as one week of age in Aboriginal children.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It typically presents only after the child begins attending preschool or daycare.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Aboriginal children have a lower prevalence of the condition but experience more severe symptoms.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is usually caused by different bacterial pathogens than those found in non-Aboriginal children.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Aboriginal children experience Otitis Media much earlier, often from the first week of life, compared to $6$ months or later in other populations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_023.json",
+      "title": "Indigenous Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/indigenous-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-681505dd27632cc980c73f49",
+  "rationale": "Think about how early in life the infection first appears in remote communities.",
+  "optionExplanations": {
+    "A": "Aboriginal children experience Otitis Media much earlier, often from the first week of life, compared to $6$ months or later in other populations.",
+    "B": "The source notes that in remote settings, the condition often starts in the first days of life, long before school age.",
+    "C": "The prevalence is actually the highest in the world, with rates reaching $94\\%$ in some remote areas.",
+    "D": "The source focuses on the timing, prevalence, and complications rather than a difference in the primary causative pathogens."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_023",
+    "sourceQuestionIdentifier": "023_q003",
+    "quizTitle": "Indigenous Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "It can be seen as early as one week of age in Aboriginal children."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_023.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about how early in life the infection first appears in remote communities.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_023_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_023",
+      "source_question_identifier": "023_q003",
+      "quiz_title": "Indigenous Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "What is a distinguishing characteristic of the onset of Otitis Media in Aboriginal children compared to non-Aboriginal children?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about how early in life the infection first appears in remote communities.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "It can be seen as early as one week of age in Aboriginal children."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "It can be seen as early as one week of age in Aboriginal children.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Aboriginal children experience Otitis Media much earlier, often from the first week of life, compared to $6$ months or later in other populations.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "It typically presents only after the child begins attending preschool or daycare.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source notes that in remote settings, the condition often starts in the first days of life, long before school age.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Aboriginal children have a lower prevalence of the condition but experience more severe symptoms.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The prevalence is actually the highest in the world, with rates reaching $94\\%$ in some remote areas.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It is usually caused by different bacterial pathogens than those found in non-Aboriginal children.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source focuses on the timing, prevalence, and complications rather than a difference in the primary causative pathogens.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_023.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to Indigenous Health within the community-based branch.",
+      "mappingKey": "notebook:quiz_023",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.689Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.689Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

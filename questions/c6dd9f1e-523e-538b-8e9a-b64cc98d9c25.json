@@ -1,0 +1,202 @@
+{
+  "id": "c6dd9f1e-523e-538b-8e9a-b64cc98d9c25",
+  "stem": "What is the clinical significance of finding iron deficiency in a child with frequent breath-holding spells?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Iron deficiency is a known contraindication for the use of cardiac pacemakers in these children.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Correction of the iron deficiency may reduce the frequency of the breath-holding events.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Iron deficiency indicates that the spells are actually a form of symptomatic epilepsy.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Iron deficiency suggests the child is at higher risk for malignant cardiac arrhythmias.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "There is a clinical association between iron deficiency and breath-holding spells, and supplementation often improves the condition.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_065.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-c6dd9f1e523e138bce9ab64c",
+  "rationale": "Consider how metabolic or nutritional factors might influence the recurrence of these non-epileptic spells.",
+  "optionExplanations": {
+    "A": "Iron deficiency is an associated finding, not a contraindication for other rare treatments like pacemakers.",
+    "B": "There is a clinical association between iron deficiency and breath-holding spells, and supplementation often improves the condition.",
+    "C": "Breath-holding spells are non-epileptic events, regardless of the child's iron status.",
+    "D": "While an ECG is needed to rule out arrhythmias, iron deficiency itself is linked specifically to the breath-holding mechanism."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_065",
+    "sourceQuestionIdentifier": "065_q005",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Correction of the iron deficiency may reduce the frequency of the breath-holding events."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_065.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider how metabolic or nutritional factors might influence the recurrence of these non-epileptic spells.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_065_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_065",
+      "source_question_identifier": "065_q005",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "What is the clinical significance of finding iron deficiency in a child with frequent breath-holding spells?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider how metabolic or nutritional factors might influence the recurrence of these non-epileptic spells.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Correction of the iron deficiency may reduce the frequency of the breath-holding events."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Iron deficiency is a known contraindication for the use of cardiac pacemakers in these children.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Iron deficiency is an associated finding, not a contraindication for other rare treatments like pacemakers.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Correction of the iron deficiency may reduce the frequency of the breath-holding events.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "There is a clinical association between iron deficiency and breath-holding spells, and supplementation often improves the condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Iron deficiency indicates that the spells are actually a form of symptomatic epilepsy.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Breath-holding spells are non-epileptic events, regardless of the child's iron status.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Iron deficiency suggests the child is at higher risk for malignant cardiac arrhythmias.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While an ECG is needed to rule out arrhythmias, iron deficiency itself is linked specifically to the breath-holding mechanism.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_065.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to seizure and collapse assessment in acute paediatric presentations.",
+      "mappingKey": "notebook:quiz_065",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.936Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.936Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

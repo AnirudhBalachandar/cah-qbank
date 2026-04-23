@@ -1,0 +1,202 @@
+{
+  "id": "c11e8398-49b8-5236-89e8-aaf2a1981571",
+  "stem": "In the $10\\%$ of cases where Perthes disease is bilateral, what is the usual pattern of onset?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Simultaneous onset in both hips",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sequential onset at different times",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Onset only after the first hip has fully healed",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Onset only in children under $3$ years of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Typically, one hip is affected first, and the second hip becomes involved at a later date, often months apart.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_094.json",
+      "title": "Perthes Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/perthes-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-c11e839849b8723609e8aaf2",
+  "rationale": "Recall how the timing of diagnosis usually differs between the two affected joints.",
+  "optionExplanations": {
+    "A": "Bilateral cases usually present asymmetrically, with one hip showing symptoms before the other.",
+    "B": "Typically, one hip is affected first, and the second hip becomes involved at a later date, often months apart.",
+    "C": "The second hip often becomes involved while the first is still being diagnosed or treated, not necessarily after full recovery.",
+    "D": "Bilateral involvement can occur across the typical age range, though the onset remains sequential."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_094",
+    "sourceQuestionIdentifier": "094_q003",
+    "quizTitle": "Perthes Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Sequential onset at different times"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_094.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall how the timing of diagnosis usually differs between the two affected joints.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_094_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_094",
+      "source_question_identifier": "094_q003",
+      "quiz_title": "Perthes Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "In the $10\\%$ of cases where Perthes disease is bilateral, what is the usual pattern of onset?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall how the timing of diagnosis usually differs between the two affected joints.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Sequential onset at different times"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Simultaneous onset in both hips",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Bilateral cases usually present asymmetrically, with one hip showing symptoms before the other.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Sequential onset at different times",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Typically, one hip is affected first, and the second hip becomes involved at a later date, often months apart.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Onset only after the first hip has fully healed",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The second hip often becomes involved while the first is still being diagnosed or treated, not necessarily after full recovery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Onset only in children under $3$ years of age",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Bilateral involvement can occur across the typical age range, though the onset remains sequential.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_094.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_094",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.919Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.919Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

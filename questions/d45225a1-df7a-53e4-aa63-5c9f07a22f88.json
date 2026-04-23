@@ -1,0 +1,202 @@
+{
+  "id": "d45225a1-df7a-53e4-aa63-5c9f07a22f88",
+  "stem": "According to the provided material, what is the 'standard' advice for toothpaste use in children under the age of six?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a mere swipe of fluoride toothpaste.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Use a pea-sized amount of fluoride toothpaste.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Avoid fluoride toothpaste entirely until permanent teeth appear.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use a large dollop of mid-strength toothpaste.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "For children under six, a minimal 'swipe' is recommended to provide fluoride while minimizing the risk of ingestion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_083.json",
+      "title": "Dental Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/dental-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d45225a1df7a23e42a635c9f",
+  "rationale": "The amount for younger children is significantly smaller than the 'pea-sized' amount used for older kids.",
+  "optionExplanations": {
+    "A": "For children under six, a minimal 'swipe' is recommended to provide fluoride while minimizing the risk of ingestion.",
+    "B": "A pea-sized amount is the recommendation for children over the age of six.",
+    "C": "Fluoride toothpaste is recommended even for primary teeth to act topically against decay.",
+    "D": "Large amounts are discouraged because children may find it tasty and eat it, leading to excessive fluoride intake."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_083",
+    "sourceQuestionIdentifier": "083_q005",
+    "quizTitle": "Dental Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Use a mere swipe of fluoride toothpaste."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_083.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The amount for younger children is significantly smaller than the 'pea-sized' amount used for older kids.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_083_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_083",
+      "source_question_identifier": "083_q005",
+      "quiz_title": "Dental Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "According to the provided material, what is the 'standard' advice for toothpaste use in children under the age of six?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The amount for younger children is significantly smaller than the 'pea-sized' amount used for older kids.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Use a mere swipe of fluoride toothpaste."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Use a mere swipe of fluoride toothpaste.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "For children under six, a minimal 'swipe' is recommended to provide fluoride while minimizing the risk of ingestion.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Use a pea-sized amount of fluoride toothpaste.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A pea-sized amount is the recommendation for children over the age of six.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Avoid fluoride toothpaste entirely until permanent teeth appear.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fluoride toothpaste is recommended even for primary teeth to act topically against decay.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Use a large dollop of mid-strength toothpaste.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Large amounts are discouraged because children may find it tasty and eat it, leading to excessive fluoride intake.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_083.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to oral and maxillofacial/dental pathology in children.",
+      "mappingKey": "notebook:quiz_083",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.970Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.970Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

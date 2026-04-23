@@ -1,0 +1,202 @@
+{
+  "id": "1a593325-39bd-5248-8ae3-5f1b37e79a48",
+  "stem": "Which clinical sign, often found in the axilla, is mentioned as a characteristic indicator of insulin resistance in children with obesity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Slipped femoral epiphosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Acanthosis nigricans",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Obstructive sleep apnea",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypertension",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acanthosis nigricans presents as thickened, darkened skin and is a characteristic sign of insulin resistance.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_090.json",
+      "title": "Obesity Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/obesity-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-1a59332539bd82488ae35f1b",
+  "rationale": "Look for a term that describes a specific change in skin pigmentation and texture.",
+  "optionExplanations": {
+    "A": "This is an orthopedic complication related to weight, not a skin-based indicator of metabolic issues.",
+    "B": "Acanthosis nigricans presents as thickened, darkened skin and is a characteristic sign of insulin resistance.",
+    "C": "This is a respiratory complication rather than a dermatological sign of metabolic distress.",
+    "D": "While related to obesity, hypertension is a cardiovascular measurement, not a visible skin condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_090",
+    "sourceQuestionIdentifier": "090_q004",
+    "quizTitle": "Obesity Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Acanthosis nigricans"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_090.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a term that describes a specific change in skin pigmentation and texture.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_090_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_090",
+      "source_question_identifier": "090_q004",
+      "quiz_title": "Obesity Quiz",
+      "quiz_question_count": 10,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "Which clinical sign, often found in the axilla, is mentioned as a characteristic indicator of insulin resistance in children with obesity?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a term that describes a specific change in skin pigmentation and texture.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Acanthosis nigricans"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Slipped femoral epiphosis",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is an orthopedic complication related to weight, not a skin-based indicator of metabolic issues.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Acanthosis nigricans",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Acanthosis nigricans presents as thickened, darkened skin and is a characteristic sign of insulin resistance.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Obstructive sleep apnea",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is a respiratory complication rather than a dermatological sign of metabolic distress.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Hypertension",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While related to obesity, hypertension is a cardiovascular measurement, not a visible skin condition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_090.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to growth and nutrition, including obesity, within General Paediatrics.",
+      "mappingKey": "notebook:quiz_090",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.482Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.482Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "e18ff15e-99e5-5a5f-bbd2-8b1fca8d92b5",
+  "stem": "Fergon Elixir contains 250 mg of ferrous sulphate in 8 mL of solvent. How many mL of elixir contain 100 mg of ferrous sulphate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2.0 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "3.2 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "4.0 mL",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "5.6 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "8.0 mL",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Use direct proportion: 250 mg is in 8 mL, so 100 mg is (100/250) × 8 = 3.2 mL? Wait, check calculation carefully: 250 mg in 8 mL means 31.25 mg/mL, so 100 mg requires 100 ÷ 31.25 = 3.2 mL.",
+  "citations": [
+    {
+      "type": "external",
+      "url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "title": "Practice Quiz: Dose Calculation"
+    }
+  ],
+  "tags": [
+    "canvas-practice-quiz",
+    "combined-import",
+    "combined-import/ai-answer-recovered",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/practice-quiz-dose-calculation",
+    "combined-import/repair-method/rewritten_to_sba",
+    "combined-import/source-collection/canvas-42-practice-quizzes",
+    "combined-import/source-system/canvas"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-e18ff15e99e58a5ffbd28b1f",
+  "rationale": "A proportion question: 250 mg corresponds to 8 mL, so 100 mg corresponds to 3.2 mL.",
+  "optionExplanations": {
+    "A": "This is less than the required volume for 100 mg.",
+    "B": "This would contain 100 mg only if the concentration were lower.",
+    "C": "This is the correct volume based on 250 mg in 8 mL: 100 mg requires 3.2 mL.",
+    "D": "This would deliver more than 100 mg.",
+    "E": "This is the full volume containing 250 mg, not 100 mg."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "canvas",
+    "sourceCollection": "canvas_42_practice_quizzes",
+    "sourceQuizIdentifier": "assignment_645969",
+    "sourceQuestionIdentifier": "question-28",
+    "quizTitle": "Practice Quiz: Dose Calculation",
+    "quizQuestionCount": 34,
+    "questionIndex": 28,
+    "originalQuestionType": "",
+    "originalOptionCount": 0,
+    "originalCorrectOptionCount": null,
+    "originalCorrectOptionTexts": [],
+    "pointsPossible": 1,
+    "sourceMode": "browser_dom",
+    "sourceUrl": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+    "startedVia": "resume",
+    "sourceFile": "",
+    "sourceZip": "",
+    "quizDir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+    "quizMarkdownPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+    "metadataPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+    "rawDomPath": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_028.json",
+    "questionTextHtml": "Numeric\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": true,
+    "combinedRecord": {
+      "combined_question_id": "canvas_645969_q028",
+      "source_system": "canvas",
+      "source_collection": "canvas_42_practice_quizzes",
+      "source_quiz_identifier": "assignment_645969",
+      "source_question_identifier": "question-28",
+      "quiz_title": "Practice Quiz: Dose Calculation",
+      "quiz_question_count": 34,
+      "question_index": 28,
+      "question_type": "",
+      "question_text": "Numeric\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?",
+      "question_text_html": "Numeric\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": 1,
+      "option_count": 0,
+      "correct_option_count": null,
+      "correct_option_texts": [],
+      "options": [],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "browser_dom",
+      "source_url": "https://sydney.quiz-lti-syd-prod.instructure.com/taking/891191?",
+      "started_via": "resume",
+      "source_file": "",
+      "source_zip": "",
+      "quiz_dir": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation",
+      "quiz_markdown_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/quiz.md",
+      "metadata_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/metadata.json",
+      "raw_dom_path": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/canvas_practice_quiz_export_full_regen/quizzes/645969_Practice_Quiz_Dose_Calculation/question_dom/question_028.json"
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped as core general-paediatric therapeutics content outside a subspecialty or emergency-specific branch.",
+      "mappingKey": "canvas:title:Practice Quiz: Dose Calculation",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "answerRecovery": {
+      "repairedAt": "2026-04-23T06:42:14.451Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_sba",
+      "confidence": 0.95,
+      "notes": "Corrected calculation in option/ explanation: 100 mg corresponds to 3.2 mL.",
+      "preRepair": {
+        "createdBy": "import",
+        "stem": "Numeric\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?\n\nFergon Elixir contains 250mg of ferrous sulphate dissolved in 8mL of solvent.\n\nHow many mls of elixir contain 100mg of ferrous sulphate?\n\nImported as a draft placeholder because the source question did not expose SBA-compatible answer options.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Imported Unspecified content preserved in the stem and source metadata.",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Manual conversion is required before this item can be used as a standard SBA question.",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "rationale": null,
+        "optionExplanations": {},
+        "promotionStatus": "manual_conversion_required"
+      }
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.003Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.003Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

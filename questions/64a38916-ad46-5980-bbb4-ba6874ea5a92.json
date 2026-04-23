@@ -1,0 +1,202 @@
+{
+  "id": "64a38916-ad46-5980-bbb4-ba6874ea5a92",
+  "stem": "According to the source material, what is the minimum duration of symptoms required to define constipation in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "One week",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Two weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "One month",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Two months",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source explicitly defines constipation as the delay or difficulty in passing a stool for more than two weeks.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_006.json",
+      "title": "Constipation Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/constipation-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-64a38916ad46f9807bb4ba68",
+  "rationale": "Consider the general threshold mentioned at the beginning of the text rather than specific diagnostic criteria.",
+  "optionExplanations": {
+    "A": "While a child might go a week without a bowel motion, the formal definition requires a longer period of difficulty.",
+    "B": "The source explicitly defines constipation as the delay or difficulty in passing a stool for more than two weeks.",
+    "C": "One month is part of the Rome III criteria for children under four, but the general definition of constipation is shorter.",
+    "D": "Two months is the required duration for Rome III criteria in children over four, not the general definition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_006",
+    "sourceQuestionIdentifier": "006_q001",
+    "quizTitle": "Constipation Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Two weeks"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_006.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the general threshold mentioned at the beginning of the text rather than specific diagnostic criteria.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_006_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_006",
+      "source_question_identifier": "006_q001",
+      "quiz_title": "Constipation Quiz",
+      "quiz_question_count": 10,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "According to the source material, what is the minimum duration of symptoms required to define constipation in children?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the general threshold mentioned at the beginning of the text rather than specific diagnostic criteria.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Two weeks"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "One week",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While a child might go a week without a bowel motion, the formal definition requires a longer period of difficulty.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Two weeks",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source explicitly defines constipation as the delay or difficulty in passing a stool for more than two weeks.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "One month",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "One month is part of the Rome III criteria for children under four, but the general definition of constipation is shorter.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Two months",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Two months is the required duration for Rome III criteria in children over four, not the general definition.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_006.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to common gastrointestinal conditions in General Paediatrics.",
+      "mappingKey": "notebook:quiz_006",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.673Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.673Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "e01e1bea-8a83-5c9d-b023-2d59668ddd3f",
+  "stem": "In which scenario would the resection of a bony bar be a preferred treatment over an epiphysiodesis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bony bar is large and the child is near skeletal maturity.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The bony bar area is small and there is significant growth remaining.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child has already reached skeletal maturity.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The deformity is purely rotational.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Resection is most successful when the bridge is small enough to remove and there is enough time left for the remaining physis to correct the limb.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_089.json",
+      "title": "Growth Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/growth-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-e01e1bea8a839c9d30232d59",
+  "rationale": "Consider the size of the bridge and how much time the bone has left to 'catch up' after the tether is removed.",
+  "optionExplanations": {
+    "A": "If little growth remains, resection is unlikely to be successful, and epiphysiodesis or osteotomy is more appropriate.",
+    "B": "Resection is most successful when the bridge is small enough to remove and there is enough time left for the remaining physis to correct the limb.",
+    "C": "Once skeletal maturity is reached, the growth plates are closed and resection of a bar is no longer a viable option.",
+    "D": "Physeal bars cause angular and length discrepancies; rotational issues are typically managed with osteotomies of the shaft."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_089",
+    "sourceQuestionIdentifier": "089_q008",
+    "quizTitle": "Growth Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The bony bar area is small and there is significant growth remaining."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_089.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the size of the bridge and how much time the bone has left to 'catch up' after the tether is removed.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_089_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_089",
+      "source_question_identifier": "089_q008",
+      "quiz_title": "Growth Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "In which scenario would the resection of a bony bar be a preferred treatment over an epiphysiodesis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the size of the bridge and how much time the bone has left to 'catch up' after the tether is removed.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The bony bar area is small and there is significant growth remaining."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The bony bar is large and the child is near skeletal maturity.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "If little growth remains, resection is unlikely to be successful, and epiphysiodesis or osteotomy is more appropriate.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The bony bar area is small and there is significant growth remaining.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Resection is most successful when the bridge is small enough to remove and there is enough time left for the remaining physis to correct the limb.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The child has already reached skeletal maturity.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Once skeletal maturity is reached, the growth plates are closed and resection of a bar is no longer a viable option.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The deformity is purely rotational.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Physeal bars cause angular and length discrepancies; rotational issues are typically managed with osteotomies of the shaft.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_089.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to fracture and growth-plate orthopaedic content within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_089",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.002Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.002Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

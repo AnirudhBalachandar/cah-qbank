@@ -1,0 +1,202 @@
+{
+  "id": "0df21029-6c2e-5ac5-a441-3780bdd27bd4",
+  "stem": "In a child with a restrictive diet, such as those with autism, which neurological presentation is most specifically associated with a deficiency in Vitamin $B_{12}$?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intractable neonatal seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Spastic paraparesis or spinal cord symptoms",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hypocalcemic seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cyclical vomiting episodes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Deficiency in Vitamin $B_{12}$ can lead to subacute combined degeneration of the spinal cord, manifesting as spasticity and lower limb weakness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_071.json",
+      "title": "Pediatric Neurology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-neurology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-0df210296c2e8ac5e4413780",
+  "rationale": "Consider the specific impact of this vitamin on the integrity of spinal cord pathways.",
+  "optionExplanations": {
+    "A": "This presentation is typically associated with inborn errors of metabolism rather than acquired dietary restrictions in older children.",
+    "B": "Deficiency in Vitamin $B_{12}$ can lead to subacute combined degeneration of the spinal cord, manifesting as spasticity and lower limb weakness.",
+    "C": "While related to nutrition, these are specifically a result of Vitamin D deficiency rather than $B_{12}$.",
+    "D": "This is considered a migraine variant or equivalent in children rather than a vitamin deficiency symptom."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_071",
+    "sourceQuestionIdentifier": "071_q001",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Spastic paraparesis or spinal cord symptoms"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_071.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the specific impact of this vitamin on the integrity of spinal cord pathways.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_071_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_071",
+      "source_question_identifier": "071_q001",
+      "quiz_title": "Pediatric Neurology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "In a child with a restrictive diet, such as those with autism, which neurological presentation is most specifically associated with a deficiency in Vitamin $B_{12}$?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the specific impact of this vitamin on the integrity of spinal cord pathways.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Spastic paraparesis or spinal cord symptoms"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Intractable neonatal seizures",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This presentation is typically associated with inborn errors of metabolism rather than acquired dietary restrictions in older children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Spastic paraparesis or spinal cord symptoms",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Deficiency in Vitamin $B_{12}$ can lead to subacute combined degeneration of the spinal cord, manifesting as spasticity and lower limb weakness.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Hypocalcemic seizures",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While related to nutrition, these are specifically a result of Vitamin D deficiency rather than $B_{12}$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Cyclical vomiting episodes",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is considered a migraine variant or equivalent in children rather than a vitamin deficiency symptom.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_071.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_071",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.434Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.434Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "ebdd0888-d45b-5226-98d0-89c98d7d9009",
+  "stem": "According to the source, why is the height centile a critical factor when interpreting a child's blood pressure reading?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The $95^{th}$ percentile for blood pressure varies significantly based on height.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Height is used to calculate the necessary intravenous fluid volume.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Taller children are more likely to have primary essential hypertension.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It determines whether a manual or automated cuff should be used.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A child on the $5^{th}$ height centile has a lower threshold for hypertension than a child on the $95^{th}$ height centile.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_045.json",
+      "title": "Hypertension Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/hypertension-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-ebdd0888d45bd226d8d089c9",
+  "rationale": "Recall how the blood pressure thresholds shift when looking at the $5^{th}$ vs. $95^{th}$ centile for stature.",
+  "optionExplanations": {
+    "A": "A child on the $5^{th}$ height centile has a lower threshold for hypertension than a child on the $95^{th}$ height centile.",
+    "B": "While height influences fluid calculations, its primary role in this context is determining the normal range on blood pressure charts.",
+    "C": "The height centile is used for diagnostic classification rather than predicting the specific etiology of the hypertension.",
+    "D": "The choice of measurement device is separate from the percentile-based interpretation of the resulting numbers."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_045",
+    "sourceQuestionIdentifier": "045_q003",
+    "quizTitle": "Hypertension Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The $95^{th}$ percentile for blood pressure varies significantly based on height."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_045.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall how the blood pressure thresholds shift when looking at the $5^{th}$ vs. $95^{th}$ centile for stature.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_045_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_045",
+      "source_question_identifier": "045_q003",
+      "quiz_title": "Hypertension Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "According to the source, why is the height centile a critical factor when interpreting a child's blood pressure reading?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall how the blood pressure thresholds shift when looking at the $5^{th}$ vs. $95^{th}$ centile for stature.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The $95^{th}$ percentile for blood pressure varies significantly based on height."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The $95^{th}$ percentile for blood pressure varies significantly based on height.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "A child on the $5^{th}$ height centile has a lower threshold for hypertension than a child on the $95^{th}$ height centile.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Height is used to calculate the necessary intravenous fluid volume.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While height influences fluid calculations, its primary role in this context is determining the normal range on blood pressure charts.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Taller children are more likely to have primary essential hypertension.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The height centile is used for diagnostic classification rather than predicting the specific etiology of the hypertension.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "It determines whether a manual or automated cuff should be used.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The choice of measurement device is separate from the percentile-based interpretation of the resulting numbers.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_045.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_045",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.019Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.019Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

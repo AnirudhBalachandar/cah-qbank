@@ -1,0 +1,202 @@
+{
+  "id": "9f78cf6d-1d62-534b-88dc-ebe51e206a21",
+  "stem": "Which clinical feature is most useful for distinguishing viral-induced wheeze or asthma from other causes of cough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A moist, productive cough",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Associated wheeze",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A brassy, metallic sound",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Resolution within 48 hours",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The presence of a wheeze is the primary sign that sets these diagnoses apart from other respiratory causes of cough.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_018.json",
+      "title": "Pediatric Respiratory Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-respiratory-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9f78cf6d1d62434b88dcebe5",
+  "rationale": "Consider the auditory symptom that is often used synonymously with these reactive airway conditions.",
+  "optionExplanations": {
+    "A": "A moist cough is more characteristic of chronic suppurative lung disease or protracted bacterial bronchitis.",
+    "B": "The presence of a wheeze is the primary sign that sets these diagnoses apart from other respiratory causes of cough.",
+    "C": "A brassy cough is specifically associated with airway malformations like tracheomalacia.",
+    "D": "While some symptoms resolve quickly, this timeframe is specific to croup rather than a distinguishing feature of asthma or wheeze."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_018",
+    "sourceQuestionIdentifier": "018_q007",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Associated wheeze"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_018.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the auditory symptom that is often used synonymously with these reactive airway conditions.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_018_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_018",
+      "source_question_identifier": "018_q007",
+      "quiz_title": "Pediatric Respiratory Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which clinical feature is most useful for distinguishing viral-induced wheeze or asthma from other causes of cough?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the auditory symptom that is often used synonymously with these reactive airway conditions.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Associated wheeze"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "A moist, productive cough",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A moist cough is more characteristic of chronic suppurative lung disease or protracted bacterial bronchitis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Associated wheeze",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The presence of a wheeze is the primary sign that sets these diagnoses apart from other respiratory causes of cough.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A brassy, metallic sound",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A brassy cough is specifically associated with airway malformations like tracheomalacia.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Resolution within 48 hours",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While some symptoms resolve quickly, this timeframe is specific to croup rather than a distinguishing feature of asthma or wheeze.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_018.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_018",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.838Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.838Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

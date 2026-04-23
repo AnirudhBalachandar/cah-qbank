@@ -1,0 +1,202 @@
+{
+  "id": "510df0fb-ae8e-5241-9e22-3d9b0f160793",
+  "stem": "In the assessment of a child with suspected protein-losing enteropathy, which stool test is used as a marker for protein loss?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Stool $\\alpha$-$1$ antitrypsin.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Stool elastase.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Reducing substances.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Stool sodium and potassium gap.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "$\\alpha$-$1$ antitrypsin is resistant to digestion by intestinal enzymes, making it a reliable marker for measuring protein leakage into the gut.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_026.json",
+      "title": "Gastroenterology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/gastroenterology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-510df0fbae8e92411e223d9b",
+  "rationale": "This protein is useful because it is not easily broken down by the gut's proteases.",
+  "optionExplanations": {
+    "A": "$\\alpha$-$1$ antitrypsin is resistant to digestion by intestinal enzymes, making it a reliable marker for measuring protein leakage into the gut.",
+    "B": "Fecal elastase is used to assess pancreatic exocrine function (digestion), not protein loss.",
+    "C": "Reducing substances are used to detect unabsorbed sugars in cases of osmotic diarrhea.",
+    "D": "These electrolytes are measured to differentiate between osmotic and secretory types of watery diarrhea."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_026",
+    "sourceQuestionIdentifier": "026_q009",
+    "quizTitle": "Gastroenterology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Stool $\\alpha$-$1$ antitrypsin."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_026.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This protein is useful because it is not easily broken down by the gut's proteases.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_026_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_026",
+      "source_question_identifier": "026_q009",
+      "quiz_title": "Gastroenterology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "In the assessment of a child with suspected protein-losing enteropathy, which stool test is used as a marker for protein loss?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This protein is useful because it is not easily broken down by the gut's proteases.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Stool $\\alpha$-$1$ antitrypsin."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Stool $\\alpha$-$1$ antitrypsin.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "$\\alpha$-$1$ antitrypsin is resistant to digestion by intestinal enzymes, making it a reliable marker for measuring protein leakage into the gut.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Stool elastase.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Fecal elastase is used to assess pancreatic exocrine function (digestion), not protein loss.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Reducing substances.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Reducing substances are used to detect unabsorbed sugars in cases of osmotic diarrhea.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Stool sodium and potassium gap.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These electrolytes are measured to differentiate between osmotic and secretory types of watery diarrhea.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_026.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Gastroenterology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_026",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.635Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.635Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

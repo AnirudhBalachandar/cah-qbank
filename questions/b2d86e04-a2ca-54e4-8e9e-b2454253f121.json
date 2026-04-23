@@ -1,0 +1,202 @@
+{
+  "id": "b2d86e04-a2ca-54e4-8e9e-b2454253f121",
+  "stem": "What is the recommended management for a Kerion, an inflammatory reaction to a fungal scalp infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Topical antifungals and surgical drainage",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Oral antifungals and low-dose oral steroids",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Intravenous antibiotics alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cryotherapy to destroy the hair follicles",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Oral antifungals clear the underlying infection, while steroids help settle the hypersensitivity reaction to prevent permanent scarring and hair loss.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_059.json",
+      "title": "Dermatology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/dermatology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-b2d86e04a2caa4e48e9eb245",
+  "rationale": "Treatment must address both the fungus and the body's overactive inflammatory response.",
+  "optionExplanations": {
+    "A": "Topical treatments are generally ineffective for scalp infections, and the 'pustules' in a kerion are inflammatory, not necessarily requiring drainage like a bacterial abscess.",
+    "B": "Oral antifungals clear the underlying infection, while steroids help settle the hypersensitivity reaction to prevent permanent scarring and hair loss.",
+    "C": "A kerion is often mistaken for a bacterial infection, but antibiotics will not treat the underlying dermatophyte causing the reaction.",
+    "D": "The goal is to save the hair follicles from damage; cryotherapy would be destructive and inappropriate here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_059",
+    "sourceQuestionIdentifier": "059_q007",
+    "quizTitle": "Dermatology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Oral antifungals and low-dose oral steroids"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_059.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Treatment must address both the fungus and the body's overactive inflammatory response.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_059_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_059",
+      "source_question_identifier": "059_q007",
+      "quiz_title": "Dermatology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "What is the recommended management for a Kerion, an inflammatory reaction to a fungal scalp infection?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Treatment must address both the fungus and the body's overactive inflammatory response.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Oral antifungals and low-dose oral steroids"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Topical antifungals and surgical drainage",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Topical treatments are generally ineffective for scalp infections, and the 'pustules' in a kerion are inflammatory, not necessarily requiring drainage like a bacterial abscess.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Oral antifungals and low-dose oral steroids",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Oral antifungals clear the underlying infection, while steroids help settle the hypersensitivity reaction to prevent permanent scarring and hair loss.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Intravenous antibiotics alone",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A kerion is often mistaken for a bacterial infection, but antibiotics will not treat the underlying dermatophyte causing the reaction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Cryotherapy to destroy the hair follicles",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The goal is to save the hair follicles from damage; cryotherapy would be destructive and inappropriate here.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_059.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Dermatology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_059",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.891Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.891Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

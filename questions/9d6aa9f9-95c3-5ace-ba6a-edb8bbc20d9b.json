@@ -1,0 +1,202 @@
+{
+  "id": "9d6aa9f9-95c3-5ace-ba6a-edb8bbc20d9b",
+  "stem": "Which of the following symptoms is a specific indicator of pathological Gastroesophageal Reflux Disease (GERD) rather than benign reflux?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vomiting a small amount with every feed",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sandifer syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Occasional larger vomits",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Being unsettled immediately after feeding",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Abnormal neck posturing or back arching during feeds is a classic sign of more severe, pathological reflux.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_009.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-9d6aa9f995c37acefa6aedb8",
+  "rationale": "Look for a sign involving unusual physical posturing that suggests significant discomfort or neurological response to acid.",
+  "optionExplanations": {
+    "A": "Small amounts of regurgitation, or 'positing,' are extremely common in benign reflux.",
+    "B": "Abnormal neck posturing or back arching during feeds is a classic sign of more severe, pathological reflux.",
+    "C": "Infrequent larger vomits can still occur in benign reflux without indicating underlying disease.",
+    "D": "While common in reflux, this symptom is non-specific and can occur in benign cases as well."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_009",
+    "sourceQuestionIdentifier": "009_q002",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Sandifer syndrome"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_009.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a sign involving unusual physical posturing that suggests significant discomfort or neurological response to acid.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_009_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_009",
+      "source_question_identifier": "009_q002",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "Which of the following symptoms is a specific indicator of pathological Gastroesophageal Reflux Disease (GERD) rather than benign reflux?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a sign involving unusual physical posturing that suggests significant discomfort or neurological response to acid.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Sandifer syndrome"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Vomiting a small amount with every feed",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Small amounts of regurgitation, or 'positing,' are extremely common in benign reflux.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Sandifer syndrome",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Abnormal neck posturing or back arching during feeds is a classic sign of more severe, pathological reflux.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Occasional larger vomits",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Infrequent larger vomits can still occur in benign reflux without indicating underlying disease.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Being unsettled immediately after feeding",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While common in reflux, this symptom is non-specific and can occur in benign cases as well.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_009.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to common paediatric gastrointestinal and vomiting presentations.",
+      "mappingKey": "notebook:quiz_009",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.830Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.830Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

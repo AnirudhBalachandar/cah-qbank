@@ -1,0 +1,202 @@
+{
+  "id": "a81065ef-1555-57ca-a3f1-712b71c45cdb",
+  "stem": "Which of the following is considered a primary risk factor for DDH?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Being the third or fourth child in a family",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Breech presentation at birth",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Excessive amniotic fluid (polyhydramnios)",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Male gender",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Positioning in the womb, specifically being in a breech position, is one of the main risk factors for developing hip dysplasia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_095.json",
+      "title": "Hip Dysplasia Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/hip-dysplasia-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-a81065ef1555b7ca23f1712b",
+  "rationale": "Think about the baby's orientation during delivery or the family's medical history.",
+  "optionExplanations": {
+    "A": "Statistically, it is the firstborn child who has a slightly increased risk compared to subsequent children.",
+    "B": "Positioning in the womb, specifically being in a breech position, is one of the main risk factors for developing hip dysplasia.",
+    "C": "It is actually a lack of amniotic fluid, or oligohydramnios, that leads to fetal packing and increases risk.",
+    "D": "Females are six times more likely to be affected, making male gender a statistically lower risk factor."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_095",
+    "sourceQuestionIdentifier": "095_q004",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Breech presentation at birth"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_095.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about the baby's orientation during delivery or the family's medical history.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_095_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_095",
+      "source_question_identifier": "095_q004",
+      "quiz_title": "Hip Dysplasia Quiz",
+      "quiz_question_count": 12,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "Which of the following is considered a primary risk factor for DDH?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about the baby's orientation during delivery or the family's medical history.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Breech presentation at birth"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Being the third or fourth child in a family",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Statistically, it is the firstborn child who has a slightly increased risk compared to subsequent children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Breech presentation at birth",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Positioning in the womb, specifically being in a breech position, is one of the main risk factors for developing hip dysplasia.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Excessive amniotic fluid (polyhydramnios)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "It is actually a lack of amniotic fluid, or oligohydramnios, that leads to fetal packing and increases risk.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Male gender",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Females are six times more likely to be affected, making male gender a statistically lower risk factor.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_095.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_095",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.862Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.862Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

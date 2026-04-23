@@ -1,0 +1,202 @@
+{
+  "id": "ec8f66ff-1dcb-5a76-81de-b1e5af3da174",
+  "stem": "According to the 2020 IASP definition, which of the following best describes the nature of pain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An objective sensory response purely determined by activity in sensory neurons.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An unpleasant sensory and emotional experience influenced by biological, psychological, and social factors.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A purely physiological reaction to actual tissue damage without emotional components.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A learned concept that only occurs after a person can verbally describe it.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This aligns with the updated definition which emphasizes that pain is a multi-dimensional experience involving sensory, emotional, and social components.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_040.json",
+      "title": "Pain Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pain-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-ec8f66ff1dcb8a7641deb1e5",
+  "rationale": "Consider if pain is limited to physical signals or if it includes a person's feelings and environment.",
+  "optionExplanations": {
+    "A": "The source explicitly states that pain cannot be inferred solely from sensory neuron activity and is a personal, subjective experience.",
+    "B": "This aligns with the updated definition which emphasizes that pain is a multi-dimensional experience involving sensory, emotional, and social components.",
+    "C": "Pain includes potential tissue damage and is fundamentally defined as an emotional experience as well as a sensory one.",
+    "D": "While individuals learn the concept of pain through life experiences, the inability to communicate does not negate the experience of pain."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_040",
+    "sourceQuestionIdentifier": "040_q001",
+    "quizTitle": "Pain Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "An unpleasant sensory and emotional experience influenced by biological, psychological, and social factors."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_040.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider if pain is limited to physical signals or if it includes a person's feelings and environment.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_040_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_040",
+      "source_question_identifier": "040_q001",
+      "quiz_title": "Pain Quiz",
+      "quiz_question_count": 12,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "According to the 2020 IASP definition, which of the following best describes the nature of pain?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider if pain is limited to physical signals or if it includes a person's feelings and environment.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "An unpleasant sensory and emotional experience influenced by biological, psychological, and social factors."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "An objective sensory response purely determined by activity in sensory neurons.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source explicitly states that pain cannot be inferred solely from sensory neuron activity and is a personal, subjective experience.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "An unpleasant sensory and emotional experience influenced by biological, psychological, and social factors.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This aligns with the updated definition which emphasizes that pain is a multi-dimensional experience involving sensory, emotional, and social components.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "A purely physiological reaction to actual tissue damage without emotional components.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Pain includes potential tissue damage and is fundamentally defined as an emotional experience as well as a sensory one.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A learned concept that only occurs after a person can verbally describe it.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While individuals learn the concept of pain through life experiences, the inability to communicate does not negate the experience of pain.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_040.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Pain Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_040",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.020Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.020Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

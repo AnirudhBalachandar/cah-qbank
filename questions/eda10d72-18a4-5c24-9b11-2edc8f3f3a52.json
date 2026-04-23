@@ -1,0 +1,202 @@
+{
+  "id": "eda10d72-18a4-5c24-9b11-2edc8f3f3a52",
+  "stem": "Which of the following factors most significantly increases the likelihood that a pediatric fracture will successfully remodel?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The fracture is located within the diaphysis of the bone.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The deformity is at a right angle to the plane of motion of the adjacent joint.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "There is more than two years of skeletal growth remaining.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The fracture involves significant rotational displacement.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Significant residual growth, typically more than two years, is a primary requirement for the bone to change shape and accommodate initial deformity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_089.json",
+      "title": "Growth Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/growth-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-eda10d7218a49c245b112edc",
+  "rationale": "Consider the relationship between the time left for growth and the bone's capacity to reshape itself.",
+  "optionExplanations": {
+    "A": "Remodeling is generally more effective in the metaphysis than in the mid-shaft or diaphysis of the bone.",
+    "B": "Deformities occurring perpendicular to the joint's plane of motion, such as varus or valgus at the knee, do not remodel well.",
+    "C": "Significant residual growth, typically more than two years, is a primary requirement for the bone to change shape and accommodate initial deformity.",
+    "D": "Rotational deformities are poorly corrected by the natural remodeling process in children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_089",
+    "sourceQuestionIdentifier": "089_q001",
+    "quizTitle": "Growth Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "There is more than two years of skeletal growth remaining."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_089.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the relationship between the time left for growth and the bone's capacity to reshape itself.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_089_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_089",
+      "source_question_identifier": "089_q001",
+      "quiz_title": "Growth Quiz",
+      "quiz_question_count": 10,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "Which of the following factors most significantly increases the likelihood that a pediatric fracture will successfully remodel?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the relationship between the time left for growth and the bone's capacity to reshape itself.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "There is more than two years of skeletal growth remaining."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The fracture is located within the diaphysis of the bone.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Remodeling is generally more effective in the metaphysis than in the mid-shaft or diaphysis of the bone.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The deformity is at a right angle to the plane of motion of the adjacent joint.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Deformities occurring perpendicular to the joint's plane of motion, such as varus or valgus at the knee, do not remodel well.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "There is more than two years of skeletal growth remaining.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Significant residual growth, typically more than two years, is a primary requirement for the bone to change shape and accommodate initial deformity.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The fracture involves significant rotational displacement.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Rotational deformities are poorly corrected by the natural remodeling process in children.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_089.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to fracture and growth-plate orthopaedic content within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_089",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.022Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.022Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

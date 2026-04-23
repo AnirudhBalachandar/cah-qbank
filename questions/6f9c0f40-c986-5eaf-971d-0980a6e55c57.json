@@ -1,0 +1,202 @@
+{
+  "id": "6f9c0f40-c986-5eaf-971d-0980a6e55c57",
+  "stem": "Why is the presentation of ambiguous external genitalia in a neonate considered a medical emergency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Risk of a life-threatening salt-losing crisis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Imminent risk of malignant transformation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The need to perform surgery within the first $24$ hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To ensure the child can be breastfed immediately",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Conditions like Congenital Adrenal Hyperplasia ($CAH$) can lead to severe electrolyte imbalances within the first few days of life.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_102.json",
+      "title": "Urology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/urology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6f9c0f40c9868eaf171d0980",
+  "rationale": "Focus on the acute metabolic risks associated with Congenital Adrenal Hyperplasia ($CAH$).",
+  "optionExplanations": {
+    "A": "Conditions like Congenital Adrenal Hyperplasia ($CAH$) can lead to severe electrolyte imbalances within the first few days of life.",
+    "B": "While long-term monitoring is needed, the immediate emergency is metabolic/biochemical, not oncological.",
+    "C": "The medical management and identification take priority over immediate surgery.",
+    "D": "Genital anatomy does not typically impact the mechanical ability to breastfeed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_102",
+    "sourceQuestionIdentifier": "102_q010",
+    "quizTitle": "Urology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Risk of a life-threatening salt-losing crisis"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_102.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Focus on the acute metabolic risks associated with Congenital Adrenal Hyperplasia ($CAH$).",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_102_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_102",
+      "source_question_identifier": "102_q010",
+      "quiz_title": "Urology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Why is the presentation of ambiguous external genitalia in a neonate considered a medical emergency?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Focus on the acute metabolic risks associated with Congenital Adrenal Hyperplasia ($CAH$).",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Risk of a life-threatening salt-losing crisis"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Risk of a life-threatening salt-losing crisis",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Conditions like Congenital Adrenal Hyperplasia ($CAH$) can lead to severe electrolyte imbalances within the first few days of life.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Imminent risk of malignant transformation",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While long-term monitoring is needed, the immediate emergency is metabolic/biochemical, not oncological.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The need to perform surgery within the first $24$ hours",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The medical management and identification take priority over immediate surgery.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To ensure the child can be breastfed immediately",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Genital anatomy does not typically impact the mechanical ability to breastfeed.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_102.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Inguino-Scrotal and Penile pathology within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_102",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.708Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.708Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

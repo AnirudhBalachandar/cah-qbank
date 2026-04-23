@@ -1,0 +1,202 @@
+{
+  "id": "557188a3-5768-5367-b4f1-6490c065718b",
+  "stem": "What is the recommended diagnostic approach for Functional Neurological Disorders (FND) in children and adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Diagnosis by excluding all possible organic diseases",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Proactive diagnosis based on clinical examination features",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Waiting for a clear history of psychological trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Relying solely on neuroimaging to rule out stroke",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Identifying specific exam features like distractibility or variability allows for a positive, proactive diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_071.json",
+      "title": "Pediatric Neurology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-neurology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-557188a357686367b4f16490",
+  "rationale": "Think about whether the diagnosis is made by what is missing or by what is observed during the physical exam.",
+  "optionExplanations": {
+    "A": "The source material emphasizes that FND should not be a diagnosis of exclusion but based on positive clinical signs.",
+    "B": "Identifying specific exam features like distractibility or variability allows for a positive, proactive diagnosis.",
+    "C": "The presence of stressors or trauma is not required for the initial diagnosis of FND.",
+    "D": "While imaging may be done, the diagnosis of FND is primarily clinical based on demonstrable examination findings."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_071",
+    "sourceQuestionIdentifier": "071_q005",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Proactive diagnosis based on clinical examination features"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_071.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about whether the diagnosis is made by what is missing or by what is observed during the physical exam.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_071_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_071",
+      "source_question_identifier": "071_q005",
+      "quiz_title": "Pediatric Neurology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "What is the recommended diagnostic approach for Functional Neurological Disorders (FND) in children and adolescents?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about whether the diagnosis is made by what is missing or by what is observed during the physical exam.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Proactive diagnosis based on clinical examination features"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Diagnosis by excluding all possible organic diseases",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source material emphasizes that FND should not be a diagnosis of exclusion but based on positive clinical signs.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Proactive diagnosis based on clinical examination features",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Identifying specific exam features like distractibility or variability allows for a positive, proactive diagnosis.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Waiting for a clear history of psychological trauma",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The presence of stressors or trauma is not required for the initial diagnosis of FND.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Relying solely on neuroimaging to rule out stroke",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While imaging may be done, the diagnosis of FND is primarily clinical based on demonstrable examination findings.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_071.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_071",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.642Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.642Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

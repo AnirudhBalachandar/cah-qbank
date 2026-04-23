@@ -1,0 +1,202 @@
+{
+  "id": "7653e200-86f2-5dc8-bd36-e3bd8bdaa4a7",
+  "stem": "According to the source, at what age can a child consistently and correctly use a pressurized metered-dose inhaler ($PMDI$) without a spacer?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "8 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "12 years",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "5 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "18 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The speaker finds that children under 12 generally do not have the capability to coordinate the breath technique required to use a puffer alone.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_015.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-7653e20086f2cdc83d36e3bd",
+  "rationale": "The speaker differentiates between what might be suggested in guidelines and what is observed in clinical practice regarding coordination.",
+  "optionExplanations": {
+    "A": "Although some guidelines suggest age 8, the speaker notes that children this age usually lack the necessary coordination for consistent use.",
+    "B": "The speaker finds that children under 12 generally do not have the capability to coordinate the breath technique required to use a puffer alone.",
+    "C": "At age five, children are just beginning to transition to using a spacer without a mask, which still provides much better outcomes than a puffer alone.",
+    "D": "While coordination improves with age, the source specifically identifies age 12 as the threshold for considering the use of a puffer on its own."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_015",
+    "sourceQuestionIdentifier": "015_q002",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 2,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "12 years"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_015.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The speaker differentiates between what might be suggested in guidelines and what is observed in clinical practice regarding coordination.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_015_q002",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_015",
+      "source_question_identifier": "015_q002",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 10,
+      "question_index": 2,
+      "question_type": "",
+      "question_text": "According to the source, at what age can a child consistently and correctly use a pressurized metered-dose inhaler ($PMDI$) without a spacer?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The speaker differentiates between what might be suggested in guidelines and what is observed in clinical practice regarding coordination.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "12 years"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "8 years",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Although some guidelines suggest age 8, the speaker notes that children this age usually lack the necessary coordination for consistent use.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "12 years",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The speaker finds that children under 12 generally do not have the capability to coordinate the breath technique required to use a puffer alone.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "5 years",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "At age five, children are just beginning to transition to using a spacer without a mask, which still provides much better outcomes than a puffer alone.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "18 years",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While coordination improves with age, the source specifically identifies age 12 as the threshold for considering the use of a puffer on its own.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_015.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_015",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.729Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.729Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

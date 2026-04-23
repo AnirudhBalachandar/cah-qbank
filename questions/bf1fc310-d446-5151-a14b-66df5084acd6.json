@@ -1,0 +1,202 @@
+{
+  "id": "bf1fc310-d446-5151-a14b-66df5084acd6",
+  "stem": "Which vaccination is specifically recommended for children with nephrotic syndrome due to their risk of infection by encapsulated organisms?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "MMR (Measles, Mumps, Rubella)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$23\\text{-valent}$ pneumococcal vaccine",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hepatitis B vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "BCG for Tuberculosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The source recommends the pneumococcal vaccine (and the extended $23\\text{-valent}$ version) to protect against Pneumococcus, a major risk factor for these patients.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_043.json",
+      "title": "Nephrology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/nephrology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-bf1fc310d4462151614b66df",
+  "rationale": "This vaccine targets the most common cause of spontaneous peritonitis in these patients.",
+  "optionExplanations": {
+    "A": "While important, it is not the specific vaccine highlighted for protection against the encapsulated bacteria these children are prone to.",
+    "B": "The source recommends the pneumococcal vaccine (and the extended $23\\text{-valent}$ version) to protect against Pneumococcus, a major risk factor for these patients.",
+    "C": "Hepatitis B is not an encapsulated organism associated with the specific protein-loss-driven immunity issues described.",
+    "D": "The primary bacterial threat mentioned is from encapsulated organisms like Pneumococcus, making that vaccine the priority."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_043",
+    "sourceQuestionIdentifier": "043_q010",
+    "quizTitle": "Nephrology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$23\\text{-valent}$ pneumococcal vaccine"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_043.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This vaccine targets the most common cause of spontaneous peritonitis in these patients.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_043_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_043",
+      "source_question_identifier": "043_q010",
+      "quiz_title": "Nephrology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "Which vaccination is specifically recommended for children with nephrotic syndrome due to their risk of infection by encapsulated organisms?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This vaccine targets the most common cause of spontaneous peritonitis in these patients.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$23\\text{-valent}$ pneumococcal vaccine"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "MMR (Measles, Mumps, Rubella)",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While important, it is not the specific vaccine highlighted for protection against the encapsulated bacteria these children are prone to.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$23\\text{-valent}$ pneumococcal vaccine",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The source recommends the pneumococcal vaccine (and the extended $23\\text{-valent}$ version) to protect against Pneumococcus, a major risk factor for these patients.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Hepatitis B vaccine",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Hepatitis B is not an encapsulated organism associated with the specific protein-loss-driven immunity issues described.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "BCG for Tuberculosis",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The primary bacterial threat mentioned is from encapsulated organisms like Pneumococcus, making that vaccine the priority.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_043.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_043",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.913Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.913Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

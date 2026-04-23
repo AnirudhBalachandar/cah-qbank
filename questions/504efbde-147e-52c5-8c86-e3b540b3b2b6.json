@@ -1,0 +1,202 @@
+{
+  "id": "504efbde-147e-52c5-8c86-e3b540b3b2b6",
+  "stem": "What does the Gower sign specifically help a clinician identify during a motor examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Distal muscle weakness in the hands",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Proximal weakness at the hip joints",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Signs of early spasticity in the ankles",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cerebellar ataxia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Gower sign is observed when a child must 'walk' their hands up their legs to stand, indicating weak hip extensors.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_067.json",
+      "title": "Neurology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/neurology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-504efbde147e52c5cc86e3b5",
+  "rationale": "Recall how a child might use their arms to compensate for weak leg and hip muscles when rising from the floor.",
+  "optionExplanations": {
+    "A": "The Gower sign involves the lower body and trunk, not the fine motor skills of the distal upper limbs.",
+    "B": "The Gower sign is observed when a child must 'walk' their hands up their legs to stand, indicating weak hip extensors.",
+    "C": "Ankle spasticity is usually assessed via reflexes or observing if the feet roll inward, not through the Gower maneuver.",
+    "D": "Ataxia is related to balance and coordination, whereas the Gower sign is a specific indicator of muscle strength."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_067",
+    "sourceQuestionIdentifier": "067_q004",
+    "quizTitle": "Neurology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 4,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Proximal weakness at the hip joints"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_067.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Recall how a child might use their arms to compensate for weak leg and hip muscles when rising from the floor.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_067_q004",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_067",
+      "source_question_identifier": "067_q004",
+      "quiz_title": "Neurology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 4,
+      "question_type": "",
+      "question_text": "What does the Gower sign specifically help a clinician identify during a motor examination?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Recall how a child might use their arms to compensate for weak leg and hip muscles when rising from the floor.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Proximal weakness at the hip joints"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Distal muscle weakness in the hands",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The Gower sign involves the lower body and trunk, not the fine motor skills of the distal upper limbs.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Proximal weakness at the hip joints",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The Gower sign is observed when a child must 'walk' their hands up their legs to stand, indicating weak hip extensors.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Signs of early spasticity in the ankles",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Ankle spasticity is usually assessed via reflexes or observing if the feet roll inward, not through the Gower maneuver.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Cerebellar ataxia",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Ataxia is related to balance and coordination, whereas the Gower sign is a specific indicator of muscle strength.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_067.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to neurology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_067",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.634Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.634Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "polishedAt": "2026-04-23T07:33:39.730Z",
+  "provider": "openai",
+  "model": "gpt-5.4-mini",
+  "polishedCount": 1,
+  "archivedCount": 6,
+  "failedCount": 1,
+  "optionConversions": {
+    "from4to5": 0,
+    "from5to5": 1
+  },
+  "archived": [
+    {
+      "id": "25a9fac0-146d-4b3d-ae9f-2504332a6e15",
+      "status": "archived",
+      "reason": "Source-governance process artifact, not a clinical qbank item."
+    },
+    {
+      "id": "7a11500f-d836-4e73-91b1-34736ceb2b11",
+      "status": "archived",
+      "reason": "Source-governance process artifact, not a clinical qbank item."
+    },
+    {
+      "id": "9298bcbb-bcbf-4506-ac07-a925c22f9918",
+      "status": "archived",
+      "reason": "Publication-governance process artifact, not a clinical qbank item."
+    },
+    {
+      "id": "c7d73df5-06a0-468e-acd4-faf745a81dc4",
+      "status": "archived",
+      "reason": "Question-authoring process artifact, not a clinical qbank item."
+    },
+    {
+      "id": "e3b9f760-894b-4c16-93c5-1e9ce5f54f6c",
+      "status": "archived",
+      "reason": "Citation-governance process artifact, not a clinical qbank item."
+    },
+    {
+      "id": "eefa99f5-b215-48fb-9a61-2b92472a26b5",
+      "status": "archived",
+      "reason": "Source-governance process artifact, not a clinical qbank item."
+    }
+  ],
+  "failed": [
+    {
+      "id": "c5dc24d3-b17e-43b0-b7ba-b4222b1621e9",
+      "status": "failed",
+      "error": "Learner-facing copy still contains banned phrase: /\\bsource pack\\b/i Learner-facing copy still contains banned phrase: /\\bsource material\\b/i"
+    }
+  ]
+}

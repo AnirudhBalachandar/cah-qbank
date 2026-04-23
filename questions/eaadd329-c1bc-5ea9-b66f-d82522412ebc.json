@@ -1,0 +1,202 @@
+{
+  "id": "eaadd329-c1bc-5ea9-b66f-d82522412ebc",
+  "stem": "In the 6 to 11-year-old age group, 'persistent' asthma is defined by which of the following symptom patterns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Waking overnight due to asthma symptoms more than twice per month.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Having symptoms that occur less than once every six weeks.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Experiencing one mild flare-up per year requiring only salbutamol.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Daytime symptoms occurring exactly once per month.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This frequency of nocturnal symptoms is a key indicator of persistent asthma requiring preventer therapy in this age group.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_016.json",
+      "title": "Asthma Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/asthma-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-eaadd329c1bc0ea9b66fd825",
+  "rationale": "Look for a frequency of nighttime disturbances that indicates the disease is not adequately controlled.",
+  "optionExplanations": {
+    "A": "This frequency of nocturnal symptoms is a key indicator of persistent asthma requiring preventer therapy in this age group.",
+    "B": "This pattern is classified as 'infrequent intermittent' asthma.",
+    "C": "Occasional mild flares without interval symptoms do not meet the criteria for persistent asthma.",
+    "D": "Persistent asthma requires daytime symptoms more than once per week according to the source."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_016",
+    "sourceQuestionIdentifier": "016_q010",
+    "quizTitle": "Asthma Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 10,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Waking overnight due to asthma symptoms more than twice per month."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_016.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Look for a frequency of nighttime disturbances that indicates the disease is not adequately controlled.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_016_q010",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_016",
+      "source_question_identifier": "016_q010",
+      "quiz_title": "Asthma Quiz",
+      "quiz_question_count": 12,
+      "question_index": 10,
+      "question_type": "",
+      "question_text": "In the 6 to 11-year-old age group, 'persistent' asthma is defined by which of the following symptom patterns?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Look for a frequency of nighttime disturbances that indicates the disease is not adequately controlled.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Waking overnight due to asthma symptoms more than twice per month."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Waking overnight due to asthma symptoms more than twice per month.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This frequency of nocturnal symptoms is a key indicator of persistent asthma requiring preventer therapy in this age group.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Having symptoms that occur less than once every six weeks.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This pattern is classified as 'infrequent intermittent' asthma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Experiencing one mild flare-up per year requiring only salbutamol.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Occasional mild flares without interval symptoms do not meet the criteria for persistent asthma.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Daytime symptoms occurring exactly once per month.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Persistent asthma requires daytime symptoms more than once per week according to the source.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_016.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Pediatric Respiratory Health within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_016",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.016Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.016Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

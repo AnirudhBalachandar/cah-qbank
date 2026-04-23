@@ -1,0 +1,202 @@
+{
+  "id": "b050240d-cf6c-5893-9ebf-f427c22a8305",
+  "stem": "What is the primary goal of the 'Be Kind to Kids' program as described in the source material?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To prevent childhood medical trauma and alleviate both pain and distress.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To ensure all pediatric procedures are performed without any pharmacological intervention.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To mandate that parents remain outside the procedure room to reduce environmental noise.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To replace the role of junior doctors with child life therapists for all invasive clinical tasks.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The program emphasizes that medical procedures can cause lifelong trauma and aims to provide comfort and reduce anxiety alongside pain management.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_041.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-b050240dcf6cd8935ebff427",
+  "rationale": "Consider the dual focus on both the physical sensation of pain and the emotional state of the patient.",
+  "optionExplanations": {
+    "A": "The program emphasizes that medical procedures can cause lifelong trauma and aims to provide comfort and reduce anxiety alongside pain management.",
+    "B": "The program actually encourages the use of appropriate medications like Emla, sucrose, and nitrous oxide to aid in procedures.",
+    "C": "The program recognizes parental involvement as a right and encourages their presence for comfort while managing the room's noise levels through other means.",
+    "D": "While child life therapists are valuable resources, the program is designed to help practitioners like doctors and nurses improve their own clinical practice."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_041",
+    "sourceQuestionIdentifier": "041_q001",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "To prevent childhood medical trauma and alleviate both pain and distress."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_041.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the dual focus on both the physical sensation of pain and the emotional state of the patient.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_041_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_041",
+      "source_question_identifier": "041_q001",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 12,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "What is the primary goal of the 'Be Kind to Kids' program as described in the source material?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the dual focus on both the physical sensation of pain and the emotional state of the patient.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "To prevent childhood medical trauma and alleviate both pain and distress."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "To prevent childhood medical trauma and alleviate both pain and distress.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "The program emphasizes that medical procedures can cause lifelong trauma and aims to provide comfort and reduce anxiety alongside pain management.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "To ensure all pediatric procedures are performed without any pharmacological intervention.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The program actually encourages the use of appropriate medications like Emla, sucrose, and nitrous oxide to aid in procedures.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "To mandate that parents remain outside the procedure room to reduce environmental noise.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The program recognizes parental involvement as a right and encourages their presence for comfort while managing the room's noise levels through other means.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "To replace the role of junior doctors with child life therapists for all invasive clinical tasks.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While child life therapists are valuable resources, the program is designed to help practitioners like doctors and nurses improve their own clinical practice.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_041.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Procedural Support and Pain Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_041",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.884Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.884Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

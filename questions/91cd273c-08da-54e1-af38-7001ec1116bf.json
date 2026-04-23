@@ -1,0 +1,202 @@
+{
+  "id": "91cd273c-08da-54e1-af38-7001ec1116bf",
+  "stem": "Which of the following describes a 'hybrid procedure' in the treatment of congenital heart disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The use of both echocardiography and fluoroscopy simultaneously.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A procedure that combines catheter-based techniques with surgical intervention.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Treating two different heart defects, such as an ASD and a VSD, in one session.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A procedure performed by both a pediatric and an adult cardiologist.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hybrid procedures leverage the strengths of both surgery and intervention, often useful for complex anatomy or very small neonates.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_049.json",
+      "title": "Intervention Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/intervention-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-91cd273c08dad4e1af387001",
+  "rationale": "This approach bridges the gap between the operating room and the catheterization laboratory.",
+  "optionExplanations": {
+    "A": "While common, using two imaging modalities is a standard catheterization technique, not what defines a hybrid role.",
+    "B": "Hybrid procedures leverage the strengths of both surgery and intervention, often useful for complex anatomy or very small neonates.",
+    "C": "Treating multiple lesions with one modality (catheterization) is simply a complex interventional procedure.",
+    "D": "A hybrid procedure refers to the combination of therapeutic modalities, not the specific medical specialties of the staff."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_049",
+    "sourceQuestionIdentifier": "049_q006",
+    "quizTitle": "Intervention Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "A procedure that combines catheter-based techniques with surgical intervention."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_049.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This approach bridges the gap between the operating room and the catheterization laboratory.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_049_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_049",
+      "source_question_identifier": "049_q006",
+      "quiz_title": "Intervention Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "Which of the following describes a 'hybrid procedure' in the treatment of congenital heart disease?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This approach bridges the gap between the operating room and the catheterization laboratory.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "A procedure that combines catheter-based techniques with surgical intervention."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The use of both echocardiography and fluoroscopy simultaneously.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While common, using two imaging modalities is a standard catheterization technique, not what defines a hybrid role.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "A procedure that combines catheter-based techniques with surgical intervention.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Hybrid procedures leverage the strengths of both surgery and intervention, often useful for complex anatomy or very small neonates.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Treating two different heart defects, such as an ASD and a VSD, in one session.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Treating multiple lesions with one modality (catheterization) is simply a complex interventional procedure.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "A procedure performed by both a pediatric and an adult cardiologist.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A hybrid procedure refers to the combination of therapeutic modalities, not the specific medical specialties of the staff.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_049.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Paediatric Cardiology within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_049",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.796Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.796Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

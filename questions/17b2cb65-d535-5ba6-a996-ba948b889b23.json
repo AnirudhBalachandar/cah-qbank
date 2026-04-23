@@ -1,0 +1,202 @@
+{
+  "id": "17b2cb65-d535-5ba6-a996-ba948b889b23",
+  "stem": "What is the recommended duration for wearing splints following a burn to prevent contractures?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Only during the night for the first 2 weeks.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Continuously (day and night) for 3 months, then gradually withdrawing over 12 months.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "For 1 hour every day during physiotherapy sessions.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Until the initial skin graft has taken, usually about 7 to 10 days.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Splinting must be consistent during the most active phase of scar formation to be effective in preventing permanent contraction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_101.json",
+      "title": "Burn Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/burn-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-17b2cb65d5358ba6a996ba94",
+  "rationale": "Hypertrophic scars continue to model and contract for a long time.",
+  "optionExplanations": {
+    "A": "The initial period requires much more intensive use than just nighttime wear for two weeks.",
+    "B": "Splinting must be consistent during the most active phase of scar formation to be effective in preventing permanent contraction.",
+    "C": "Short durations of splinting are insufficient to counteract the constant forces of a contracting hypertrophic scar.",
+    "D": "While splinting starts early, the risk of contracture persists long after the graft has 'taken' and the wound has healed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_101",
+    "sourceQuestionIdentifier": "101_q008",
+    "quizTitle": "Burn Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Continuously (day and night) for 3 months, then gradually withdrawing over 12 months."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_101.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Hypertrophic scars continue to model and contract for a long time.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_101_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_101",
+      "source_question_identifier": "101_q008",
+      "quiz_title": "Burn Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "What is the recommended duration for wearing splints following a burn to prevent contractures?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Hypertrophic scars continue to model and contract for a long time.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Continuously (day and night) for 3 months, then gradually withdrawing over 12 months."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Only during the night for the first 2 weeks.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The initial period requires much more intensive use than just nighttime wear for two weeks.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Continuously (day and night) for 3 months, then gradually withdrawing over 12 months.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Splinting must be consistent during the most active phase of scar formation to be effective in preventing permanent contraction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "For 1 hour every day during physiotherapy sessions.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Short durations of splinting are insufficient to counteract the constant forces of a contracting hypertrophic scar.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Until the initial skin graft has taken, usually about 7 to 10 days.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While splinting starts early, the risk of contracture persists long after the graft has 'taken' and the wound has healed.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_101.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Burns Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_101",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.468Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.468Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

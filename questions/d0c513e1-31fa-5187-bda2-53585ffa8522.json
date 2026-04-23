@@ -1,0 +1,202 @@
+{
+  "id": "d0c513e1-31fa-5187-bda2-53585ffa8522",
+  "stem": "What is the recommended age range for surgical intervention if a testis has not descended by three months of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Between 1 and 2 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Between 6 and 12 months of age",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immediately at the time of diagnosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Upon reaching puberty",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Surgical correction is ideally performed in this timeframe to ensure the testis is properly located following the failure of spontaneous descent.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_102.json",
+      "title": "Urology Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/urology-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d0c513e131fab187fda25358",
+  "rationale": "The goal is to reposition the testis within the first year of life.",
+  "optionExplanations": {
+    "A": "Waiting until the second year of life may exceed the window for optimal outcomes based on current evidence.",
+    "B": "Surgical correction is ideally performed in this timeframe to ensure the testis is properly located following the failure of spontaneous descent.",
+    "C": "While early referral is needed, surgery is typically scheduled after observing for spontaneous descent in the first few months.",
+    "D": "Delaying surgery until puberty significantly increases the risk of complications and impaired fertility."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_102",
+    "sourceQuestionIdentifier": "102_q003",
+    "quizTitle": "Urology Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 3,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Between 6 and 12 months of age"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_102.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The goal is to reposition the testis within the first year of life.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_102_q003",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_102",
+      "source_question_identifier": "102_q003",
+      "quiz_title": "Urology Quiz",
+      "quiz_question_count": 10,
+      "question_index": 3,
+      "question_type": "",
+      "question_text": "What is the recommended age range for surgical intervention if a testis has not descended by three months of age?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The goal is to reposition the testis within the first year of life.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Between 6 and 12 months of age"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Between 1 and 2 years of age",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Waiting until the second year of life may exceed the window for optimal outcomes based on current evidence.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Between 6 and 12 months of age",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Surgical correction is ideally performed in this timeframe to ensure the testis is properly located following the failure of spontaneous descent.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Immediately at the time of diagnosis",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While early referral is needed, surgery is typically scheduled after observing for spontaneous descent in the first few months.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Upon reaching puberty",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Delaying surgery until puberty significantly increases the risk of complications and impaired fertility.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_102.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Inguino-Scrotal and Penile pathology within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_102",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.963Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.963Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

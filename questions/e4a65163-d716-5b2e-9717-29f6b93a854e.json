@@ -1,0 +1,202 @@
+{
+  "id": "e4a65163-d716-5b2e-9717-29f6b93a854e",
+  "stem": "In the neonatal unit, hypertension is frequently associated with which respiratory condition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bronchopulmonary dysplasia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Acute asthma exacerbation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Neonatal pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Congenital diaphragmatic hernia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypertension in neonates is often linked to underlying dysplasia and the use of steroids during treatment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_045.json",
+      "title": "Hypertension Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-sub-specialties",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/hypertension-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-e4a65163d716eb2e571729f6",
+  "rationale": "This condition involves underlying lung dysplasia and often requires steroid therapy.",
+  "optionExplanations": {
+    "A": "Hypertension in neonates is often linked to underlying dysplasia and the use of steroids during treatment.",
+    "B": "Asthma is more relevant to medication contraindications in older children rather than neonatal hypertension etiology.",
+    "C": "While serious, pneumonia is not specifically highlighted as a primary cause of hypertension in the neonatal unit context.",
+    "D": "The source specifically identifies bronchopulmonary dysplasia as the respiratory contributor to high blood pressure in infants."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_045",
+    "sourceQuestionIdentifier": "045_q005",
+    "quizTitle": "Hypertension Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 5,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Bronchopulmonary dysplasia"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_045.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "This condition involves underlying lung dysplasia and often requires steroid therapy.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_045_q005",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_045",
+      "source_question_identifier": "045_q005",
+      "quiz_title": "Hypertension Quiz",
+      "quiz_question_count": 10,
+      "question_index": 5,
+      "question_type": "",
+      "question_text": "In the neonatal unit, hypertension is frequently associated with which respiratory condition?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "This condition involves underlying lung dysplasia and often requires steroid therapy.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Bronchopulmonary dysplasia"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Bronchopulmonary dysplasia",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Hypertension in neonates is often linked to underlying dysplasia and the use of steroids during treatment.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Acute asthma exacerbation",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Asthma is more relevant to medication contraindications in older children rather than neonatal hypertension etiology.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Neonatal pneumonia",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While serious, pneumonia is not specifically highlighted as a primary cause of hypertension in the neonatal unit context.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Congenital diaphragmatic hernia",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The source specifically identifies bronchopulmonary dysplasia as the respiratory contributor to high blood pressure in infants.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_045.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Sub-specialties",
+      "reason": "Mapped to Renal Medicine in Children within Paediatric Sub-specialties.",
+      "mappingKey": "notebook:quiz_045",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.009Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.009Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

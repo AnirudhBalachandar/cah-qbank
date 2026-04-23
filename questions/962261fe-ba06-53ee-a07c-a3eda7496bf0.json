@@ -1,0 +1,202 @@
+{
+  "id": "962261fe-ba06-53ee-a07c-a3eda7496bf0",
+  "stem": "What is the recommended management for a child who has fully recovered from a single, simple febrile convulsion and is otherwise well?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Admission for a 24-hour observation period and an urgent EEG.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Starting daily prophylactic anti-seizure medication to prevent future episodes.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Treating the underlying cause of the fever and discharging the child if they are stable.",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Immediate administration of a loading dose of Phenobarbital to prevent status epilepticus.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Management focuses on identifying and treating the source of the fever; simple cases can safely go home.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_065.json",
+      "title": "Pediatric Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/emergency-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pediatric-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-962261feba06e3ee207ca3ed",
+  "rationale": "The primary focus should be on the source of the fever rather than the seizure itself if the child is now baseline.",
+  "optionExplanations": {
+    "A": "Simple febrile convulsions generally do not require hospital admission or an EEG if the child is well and has fully recovered.",
+    "B": "Prophylactic medication is not indicated for a single simple febrile convulsion, as the risks of medication often outweigh the benefits.",
+    "C": "Management focuses on identifying and treating the source of the fever; simple cases can safely go home.",
+    "D": "Aggressive anti-seizure loading is unnecessary for a brief seizure that has already terminated."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_065",
+    "sourceQuestionIdentifier": "065_q008",
+    "quizTitle": "Pediatric Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 8,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Treating the underlying cause of the fever and discharging the child if they are stable."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_065.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The primary focus should be on the source of the fever rather than the seizure itself if the child is now baseline.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_065_q008",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_065",
+      "source_question_identifier": "065_q008",
+      "quiz_title": "Pediatric Quiz",
+      "quiz_question_count": 10,
+      "question_index": 8,
+      "question_type": "",
+      "question_text": "What is the recommended management for a child who has fully recovered from a single, simple febrile convulsion and is otherwise well?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The primary focus should be on the source of the fever rather than the seizure itself if the child is now baseline.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Treating the underlying cause of the fever and discharging the child if they are stable."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Admission for a 24-hour observation period and an urgent EEG.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Simple febrile convulsions generally do not require hospital admission or an EEG if the child is well and has fully recovered.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Starting daily prophylactic anti-seizure medication to prevent future episodes.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Prophylactic medication is not indicated for a single simple febrile convulsion, as the risks of medication often outweigh the benefits.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Treating the underlying cause of the fever and discharging the child if they are stable.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Management focuses on identifying and treating the source of the fever; simple cases can safely go home.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Immediate administration of a loading dose of Phenobarbital to prevent status epilepticus.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Aggressive anti-seizure loading is unnecessary for a brief seizure that has already terminated.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_065.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Emergency Paediatrics",
+      "reason": "Mapped to seizure and collapse assessment in acute paediatric presentations.",
+      "mappingKey": "notebook:quiz_065",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.813Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.813Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

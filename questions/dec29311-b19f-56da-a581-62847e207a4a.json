@@ -1,0 +1,202 @@
+{
+  "id": "dec29311-b19f-56da-a581-62847e207a4a",
+  "stem": "What is the specific criteria used to define secondary nocturnal enuresis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child has been dry for over 6 months before wetting starts again.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The child has never been dry for more than a few months.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The child experiences wetting only during high-stress situations.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child exhibits daytime symptoms such as urgency and frequency.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Secondary enuresis is defined by a relapse after a significant period of dryness, which is specifically cited as 6 months.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_008.json",
+      "title": "Bedwetting Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/bedwetting-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-dec29311b19f06da65816284",
+  "rationale": "Consider the duration of the 'dry' period required to distinguish this from the primary form.",
+  "optionExplanations": {
+    "A": "Secondary enuresis is defined by a relapse after a significant period of dryness, which is specifically cited as 6 months.",
+    "B": "This describes primary nocturnal enuresis, where the child has not yet achieved long-term dryness.",
+    "C": "While stress can be a factor, the clinical definition of 'secondary' is based on the duration of previous dryness, not the trigger.",
+    "D": "Daytime symptoms may indicate other bladder issues, but the term 'secondary' specifically refers to the timeline of nighttime wetting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_008",
+    "sourceQuestionIdentifier": "008_q001",
+    "quizTitle": "Bedwetting Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "The child has been dry for over 6 months before wetting starts again."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_008.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the duration of the 'dry' period required to distinguish this from the primary form.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_008_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_008",
+      "source_question_identifier": "008_q001",
+      "quiz_title": "Bedwetting Quiz",
+      "quiz_question_count": 10,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "What is the specific criteria used to define secondary nocturnal enuresis?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the duration of the 'dry' period required to distinguish this from the primary form.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "The child has been dry for over 6 months before wetting starts again."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "The child has been dry for over 6 months before wetting starts again.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Secondary enuresis is defined by a relapse after a significant period of dryness, which is specifically cited as 6 months.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "The child has never been dry for more than a few months.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This describes primary nocturnal enuresis, where the child has not yet achieved long-term dryness.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "The child experiences wetting only during high-stress situations.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While stress can be a factor, the clinical definition of 'secondary' is based on the duration of previous dryness, not the trigger.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "The child exhibits daytime symptoms such as urgency and frequency.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Daytime symptoms may indicate other bladder issues, but the term 'secondary' specifically refers to the timeline of nighttime wetting.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_008.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to nocturnal enuresis within common paediatric conditions.",
+      "mappingKey": "notebook:quiz_008",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:41.000Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:41.000Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

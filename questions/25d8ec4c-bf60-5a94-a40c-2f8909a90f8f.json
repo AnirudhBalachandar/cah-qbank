@@ -1,0 +1,202 @@
+{
+  "id": "25d8ec4c-bf60-5a94-a40c-2f8909a90f8f",
+  "stem": "According to Dr. Pollak, what are the three main clinical indicators used to refer a child for an ADHD evaluation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inattention, impulsivity, and overactivity",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Anxiety, learning difficulties, and aggression",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Social withdrawal, repetitive behaviors, and speech delay",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Visual impairment, intellectual disability, and low birth weight",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "These represent the three core pillars of ADHD symptoms that prompt clinical investigation in pediatric practice.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_053.json",
+      "title": "ADHD Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/community-based-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/adhd-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-25d8ec4cbf60da94e40c2f89",
+  "rationale": "Consider the behavioral traits related to focus, physical movement, and acting without thinking.",
+  "optionExplanations": {
+    "A": "These represent the three core pillars of ADHD symptoms that prompt clinical investigation in pediatric practice.",
+    "B": "While these can be comorbid conditions or symptoms of other issues, they are not the primary diagnostic indicators for ADHD specifically.",
+    "C": "These features are more traditionally associated with Autism Spectrum Disorder rather than the core symptoms of ADHD.",
+    "D": "These are identified as risk factors or co-occurring conditions in the case studies but are not the symptomatic indicators for referral."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_053",
+    "sourceQuestionIdentifier": "053_q001",
+    "quizTitle": "ADHD Quiz",
+    "quizQuestionCount": 15,
+    "questionIndex": 1,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Inattention, impulsivity, and overactivity"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_053.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Consider the behavioral traits related to focus, physical movement, and acting without thinking.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_053_q001",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_053",
+      "source_question_identifier": "053_q001",
+      "quiz_title": "ADHD Quiz",
+      "quiz_question_count": 15,
+      "question_index": 1,
+      "question_type": "",
+      "question_text": "According to Dr. Pollak, what are the three main clinical indicators used to refer a child for an ADHD evaluation?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Consider the behavioral traits related to focus, physical movement, and acting without thinking.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Inattention, impulsivity, and overactivity"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Inattention, impulsivity, and overactivity",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "These represent the three core pillars of ADHD symptoms that prompt clinical investigation in pediatric practice.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Anxiety, learning difficulties, and aggression",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "While these can be comorbid conditions or symptoms of other issues, they are not the primary diagnostic indicators for ADHD specifically.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Social withdrawal, repetitive behaviors, and speech delay",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These features are more traditionally associated with Autism Spectrum Disorder rather than the core symptoms of ADHD.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Visual impairment, intellectual disability, and low birth weight",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "These are identified as risk factors or co-occurring conditions in the case studies but are not the symptomatic indicators for referral.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_053.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Community-based Paediatrics",
+      "reason": "Mapped to ADHD within Community/Developmental Paediatrics.",
+      "mappingKey": "notebook:quiz_053",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.518Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.518Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

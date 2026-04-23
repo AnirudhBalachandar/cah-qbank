@@ -1,0 +1,202 @@
+{
+  "id": "6a5abaf6-4f56-5e6f-9fc8-e962787eb26d",
+  "stem": "What is the recommended dose of Naloxone for reversing respiratory depression caused by opioids in a pediatric patient?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "$0.1 \\text{ mg/kg}$",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "$15 \\text{ mcg/kg}$",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "$5 \\text{ mcg/kg}$",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "$10 \\text{ mg/kg}$",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Naloxone is used to reverse opioid effects, including respiratory depression, at a dose of $5 \\text{ mcg/kg}$.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_040.json",
+      "title": "Pain Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/pain-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-6a5abaf64f56ae6f9fc8e962",
+  "rationale": "The dosage for this emergency reversal agent is measured in micrograms per kilogram.",
+  "optionExplanations": {
+    "A": "This dose is much higher than the emergency reversal dose of $5 \\text{ mcg/kg}$ cited in the text.",
+    "B": "The material specifically designates $5 \\text{ mcg/kg}$ as the appropriate reversal dose.",
+    "C": "Naloxone is used to reverse opioid effects, including respiratory depression, at a dose of $5 \\text{ mcg/kg}$.",
+    "D": "This would be an extreme overdose, as the required dose is measured in micrograms, not milligrams."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_040",
+    "sourceQuestionIdentifier": "040_q009",
+    "quizTitle": "Pain Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 9,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "$5 \\text{ mcg/kg}$"
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_040.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "The dosage for this emergency reversal agent is measured in micrograms per kilogram.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_040_q009",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_040",
+      "source_question_identifier": "040_q009",
+      "quiz_title": "Pain Quiz",
+      "quiz_question_count": 12,
+      "question_index": 9,
+      "question_type": "",
+      "question_text": "What is the recommended dose of Naloxone for reversing respiratory depression caused by opioids in a pediatric patient?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "The dosage for this emergency reversal agent is measured in micrograms per kilogram.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "$5 \\text{ mcg/kg}$"
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "$0.1 \\text{ mg/kg}$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This dose is much higher than the emergency reversal dose of $5 \\text{ mcg/kg}$ cited in the text.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "$15 \\text{ mcg/kg}$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "The material specifically designates $5 \\text{ mcg/kg}$ as the appropriate reversal dose.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "$5 \\text{ mcg/kg}$",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "Naloxone is used to reverse opioid effects, including respiratory depression, at a dose of $5 \\text{ mcg/kg}$.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "$10 \\text{ mg/kg}$",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This would be an extreme overdose, as the required dose is measured in micrograms, not milligrams.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_040.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to Pain Management within the Paediatric Surgery and Trauma branch.",
+      "mappingKey": "notebook:quiz_040",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.695Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.695Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

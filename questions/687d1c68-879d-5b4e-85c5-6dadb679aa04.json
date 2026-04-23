@@ -1,0 +1,202 @@
+{
+  "id": "687d1c68-879d-5b4e-85c5-6dadb679aa04",
+  "stem": "For a $9$ kg child under the age of two with a femoral shaft fracture, which immobilization method is most appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gallows traction.",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Thomas splint.",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Short leg cast.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Broad arm sling configuration.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "This specific type of skin traction is indicated for children weighing less than $10$ kg or under the age of two.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_088.json",
+      "title": "Fracture Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/paediatric-surgery",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/fracture-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-687d1c68879ddb4e45c56dad",
+  "rationale": "Identify the pediatric-specific traction named after a structure used for hanging.",
+  "optionExplanations": {
+    "A": "This specific type of skin traction is indicated for children weighing less than $10$ kg or under the age of two.",
+    "B": "A Thomas splint is used for skin traction in older children who exceed the weight/age limits for Gallows traction.",
+    "C": "Femoral shaft fractures are proximal injuries and cannot be stabilized by a short leg cast, which is for distal injuries only.",
+    "D": "This is an upper extremity immobilization tool and is irrelevant for a femur fracture."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_088",
+    "sourceQuestionIdentifier": "088_q006",
+    "quizTitle": "Fracture Quiz",
+    "quizQuestionCount": 10,
+    "questionIndex": 6,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "Gallows traction."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_088.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Identify the pediatric-specific traction named after a structure used for hanging.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_088_q006",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_088",
+      "source_question_identifier": "088_q006",
+      "quiz_title": "Fracture Quiz",
+      "quiz_question_count": 10,
+      "question_index": 6,
+      "question_type": "",
+      "question_text": "For a $9$ kg child under the age of two with a femoral shaft fracture, which immobilization method is most appropriate?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Identify the pediatric-specific traction named after a structure used for hanging.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "Gallows traction."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "Gallows traction.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "This specific type of skin traction is indicated for children weighing less than $10$ kg or under the age of two.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "Thomas splint.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "A Thomas splint is used for skin traction in older children who exceed the weight/age limits for Gallows traction.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "Short leg cast.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Femoral shaft fractures are proximal injuries and cannot be stabilized by a short leg cast, which is for distal injuries only.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Broad arm sling configuration.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "This is an upper extremity immobilization tool and is irrelevant for a femur fracture.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_088.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "Paediatric Surgery",
+      "reason": "Mapped to orthopaedics and trauma within Paediatric Surgery.",
+      "mappingKey": "notebook:quiz_088",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.692Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.692Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "d8927e2e-0934-5df3-87d4-8de887bff7ff",
+  "stem": "Which imaging modality is generally preferred for evaluating a stable child with macrocephaly and developmental delay?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CT scan of the brain.",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "MRI of the brain.",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "X-ray of the skull.",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Serial head ultrasounds indefinitely.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "MRI is the preferred test as it provides superior detail without radiation, though it may require anesthesia in older infants.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "quiz_070.json",
+      "title": "Head Circumference Quiz"
+    }
+  ],
+  "tags": [
+    "combined-import",
+    "combined-import/curriculum/general-paediatrics",
+    "combined-import/import-set/combined-canvas-notebooklm-v1",
+    "combined-import/promotion/ready_for_published_practice",
+    "combined-import/question-type/unspecified",
+    "combined-import/quiz/head-circumference-quiz",
+    "combined-import/source-collection/notebooklm-103-quizzes",
+    "combined-import/source-system/notebooklm",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "import",
+  "createdAt": "2026-04-23T05:37:41.398Z",
+  "sourceFingerprint": "combined-import-d8927e2e09340df307d48de8",
+  "rationale": "Think about which test offers the most detail while minimizing ionizing radiation for a developing child.",
+  "optionExplanations": {
+    "A": "CT scans involve radiation and are usually reserved for acute situations where speed is essential.",
+    "B": "MRI is the preferred test as it provides superior detail without radiation, though it may require anesthesia in older infants.",
+    "C": "Skull X-rays provide information about bone but offer almost no detail regarding the brain tissue or fluid spaces.",
+    "D": "Ultrasounds are only useful while the fontanelle is open and lack the specificity needed for a definitive diagnosis in complex cases."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "importKind": "combined_canvas_notebooklm_unified",
+    "importNamespace": "combined-canvas-notebooklm-v1",
+    "importedFrom": "/Users/anirudhbalachandar/canvas_practice_quiz_extractor/combined_canvas_notebooklm_unified_export/combined_canvas_notebooklm_questions.json",
+    "sourceSystem": "notebooklm",
+    "sourceCollection": "notebooklm_103_quizzes",
+    "sourceQuizIdentifier": "quiz_070",
+    "sourceQuestionIdentifier": "070_q007",
+    "quizTitle": "Head Circumference Quiz",
+    "quizQuestionCount": 12,
+    "questionIndex": 7,
+    "originalQuestionType": "",
+    "originalOptionCount": 4,
+    "originalCorrectOptionCount": 1,
+    "originalCorrectOptionTexts": [
+      "MRI of the brain."
+    ],
+    "pointsPossible": null,
+    "sourceMode": "",
+    "sourceUrl": "",
+    "startedVia": "",
+    "sourceFile": "notebookLM quizzes/quiz_070.json",
+    "sourceZip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "quizDir": "",
+    "quizMarkdownPath": "",
+    "metadataPath": "",
+    "rawDomPath": "",
+    "questionTextHtml": "",
+    "stimulusText": "",
+    "instructions": "",
+    "hint": "Think about which test offers the most detail while minimizing ionizing radiation for a developing child.",
+    "answerField": "",
+    "label": "",
+    "textField": "",
+    "figureRefs": [],
+    "tableRefs": [],
+    "questionAssets": [],
+    "usedSyntheticOptions": false,
+    "combinedRecord": {
+      "combined_question_id": "notebooklm_070_q007",
+      "source_system": "notebooklm",
+      "source_collection": "notebooklm_103_quizzes",
+      "source_quiz_identifier": "quiz_070",
+      "source_question_identifier": "070_q007",
+      "quiz_title": "Head Circumference Quiz",
+      "quiz_question_count": 12,
+      "question_index": 7,
+      "question_type": "",
+      "question_text": "Which imaging modality is generally preferred for evaluating a stable child with macrocephaly and developmental delay?",
+      "question_text_html": "",
+      "stimulus_text": "",
+      "instructions": "",
+      "hint": "Think about which test offers the most detail while minimizing ionizing radiation for a developing child.",
+      "answer_field": "",
+      "label": "",
+      "text_field": "",
+      "points_possible": null,
+      "option_count": 4,
+      "correct_option_count": 1,
+      "correct_option_texts": [
+        "MRI of the brain."
+      ],
+      "options": [
+        {
+          "option_index": 1,
+          "label": "",
+          "text": "CT scan of the brain.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "CT scans involve radiation and are usually reserved for acute situations where speed is essential.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 2,
+          "label": "",
+          "text": "MRI of the brain.",
+          "text_html": "",
+          "is_correct": true,
+          "rationale": "MRI is the preferred test as it provides superior detail without radiation, though it may require anesthesia in older infants.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 3,
+          "label": "",
+          "text": "X-ray of the skull.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Skull X-rays provide information about bone but offer almost no detail regarding the brain tissue or fluid spaces.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        },
+        {
+          "option_index": 4,
+          "label": "",
+          "text": "Serial head ultrasounds indefinitely.",
+          "text_html": "",
+          "is_correct": false,
+          "rationale": "Ultrasounds are only useful while the fontanelle is open and lack the specificity needed for a definitive diagnosis in complex cases.",
+          "is_selected_if_visible": null,
+          "asset_refs": []
+        }
+      ],
+      "figure_count": 0,
+      "figure_refs": [],
+      "table_count": 0,
+      "table_refs": [],
+      "question_assets": [],
+      "source_mode": "",
+      "source_url": "",
+      "started_via": "",
+      "source_file": "notebookLM quizzes/quiz_070.json",
+      "source_zip": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+      "quiz_dir": "",
+      "quiz_markdown_path": "",
+      "metadata_path": "",
+      "raw_dom_path": ""
+    },
+    "curriculumTagging": {
+      "method": "mindmap_source_map_v1",
+      "taggedAt": "2026-04-23T05:47:00.195Z",
+      "selectedCurriculum": "General Paediatrics",
+      "reason": "Mapped to general paediatric growth and developmental assessment content.",
+      "mappingKey": "notebook:quiz_070",
+      "mindmapPath": "/Users/anirudhbalachandar/Projects/notebookLM/outputs/notebooklm_mindmaps/cah_study_notes_01_24_combined_curriculum_area/combined_curriculum_area_mindmap.json"
+    },
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Answerable non-duplicate draft with one correct option; suitable for promotion into the published practice pool.",
+      "preparedAt": "2026-04-23T06:44:06.556Z"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-23T06:48:40.984Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-23T06:48:40.984Z",
+      "promotedFromCreatedBy": "import"
+    }
+  }
+}

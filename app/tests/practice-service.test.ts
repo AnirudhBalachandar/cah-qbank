@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest"
 
-import { answerQuestion, getQuestionDetail, getSession, startPracticeSession, toggleFlag } from "@/lib/qbank"
+import { answerQuestion, getBrowseData, getQuestionDetail, getSession, listPracticeTags, startPracticeSession, toggleFlag } from "@/lib/qbank"
 import { createTestDb, seedQuestionSet } from "./helpers/test-db"
 
 describe("practice service", () => {
@@ -168,5 +168,26 @@ describe("practice service", () => {
 
     const session = await getSession(sessionId!, testDb.prisma)
     expect(session?.currentIndex).toBe(1)
+  })
+
+  it("uses topic-only browse tag options while keeping curriculum practice tags", async () => {
+    const testDb = await createTestDb()
+    cleanup = testDb.cleanup
+
+    await seedQuestionSet(testDb.prisma, {
+      tags: [
+        { slug: "general-paediatrics", name: "General Paediatrics" },
+        { slug: "respiratory", name: "Respiratory", kind: "topic" as const },
+      ],
+      questions: [{ id: "q1", stem: "Question 1", tagSlugs: ["general-paediatrics", "respiratory"] }],
+    })
+
+    const practiceTags = await listPracticeTags(testDb.prisma)
+    const browse = await getBrowseData({}, testDb.prisma)
+    const detail = await getQuestionDetail("q1", testDb.prisma)
+
+    expect(practiceTags.map((tag) => tag.slug)).toEqual(["general-paediatrics", "respiratory"])
+    expect(browse.tagOptions.map((tag) => tag.slug)).toEqual(["respiratory"])
+    expect(detail?.tags.map((tag) => tag.slug)).toEqual(["general-paediatrics", "respiratory"])
   })
 })

@@ -3,6 +3,15 @@ import Link from "next/link"
 import { AppShell } from "@/components/app-shell"
 import { getBrowseData } from "@/lib/qbank"
 
+function topicSummary(question: {
+  tags: Array<{ name: string; kind: string }>
+}) {
+  return question.tags
+    .filter((tag) => tag.kind === "topic")
+    .map((tag) => tag.name)
+    .join(" · ")
+}
+
 export default async function BrowsePage({
   searchParams,
 }: {
@@ -115,10 +124,10 @@ export default async function BrowsePage({
               <h2 className="mt-3 text-lg font-semibold leading-relaxed text-slate-900">
                 {question.stem}
               </h2>
+              {topicSummary(question) ? (
+                <p className="mt-3 text-sm text-slate-600">{topicSummary(question)}</p>
+              ) : null}
               <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-                <p className="text-sm text-slate-600">
-                  {question.tags.map((tag) => tag.name).join(" · ")}
-                </p>
                 <Link
                   href={`/question/${question.id}`}
                   className="rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700"

@@ -164,6 +164,7 @@ enum LearnerTagProjector {
     private static let hiddenScaffoldTags: Set<String> = [
         blueprintNamespace,
         "\(blueprintNamespace)/cah-kat",
+        "notebooklm",
     ]
 
     static func projectedSlugs(for question: QuestionFile) -> [String] {
@@ -207,10 +208,6 @@ enum LearnerTagProjector {
         if hiddenScaffoldTags.contains(slug) {
             return nil
         }
-        if slug == "notebooklm" {
-            return slug
-        }
-
         let parts = slug.split(separator: "/").map(String.init)
         if parts.first == blueprintNamespace {
             guard parts.count > 2 else { return nil }
@@ -254,7 +251,7 @@ enum TagDescriptorCollector {
     }
 
     private static func inferKind(for slug: String) -> TagKind {
-        if slug == "notebooklm" || slug.hasPrefix("cah-exam-blueprint") {
+        if slug.hasPrefix("cah-exam-blueprint") {
             return .meta
         }
         if LearnerTagProjector.isCurriculumSlug(slug) {

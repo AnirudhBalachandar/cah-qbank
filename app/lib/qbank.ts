@@ -118,6 +118,11 @@ export async function listPracticeTags(db: DB = defaultPrisma) {
   }))
 }
 
+async function listBrowseTags(db: DB = defaultPrisma) {
+  const tags = await listPracticeTags(db)
+  return tags.filter((tag) => tag.kind === TagKind.topic)
+}
+
 export async function getDashboardData(db: DB = defaultPrisma) {
   const [publishedCount, answerableCount, flaggedCount, noteCount, weakTags, recentSessions] =
     await Promise.all([
@@ -483,7 +488,7 @@ export async function getBrowseData(
       skip: (page - 1) * QUESTION_PAGE_SIZE,
       take: QUESTION_PAGE_SIZE,
     }),
-    listPracticeTags(db),
+    listBrowseTags(db),
   ])
 
   return {

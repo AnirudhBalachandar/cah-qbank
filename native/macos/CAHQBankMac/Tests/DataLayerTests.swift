@@ -103,7 +103,7 @@ final class DataLayerTests: XCTestCase {
         let descriptors = TagDescriptorCollector.collect(from: [question])
 
         XCTAssertTrue(descriptors.contains(where: { $0.slug == "paediatric-sub-specialties" && $0.kind == .curriculum }))
-        XCTAssertTrue(descriptors.contains(where: { $0.slug == "notebooklm" && $0.kind == .meta }))
+        XCTAssertFalse(descriptors.contains(where: { $0.slug == "notebooklm" }))
         XCTAssertFalse(descriptors.contains(where: { $0.slug.contains("cah-exam-blueprint") }))
     }
 
@@ -306,8 +306,8 @@ final class DataLayerTests: XCTestCase {
             try tagRows.map { row in
                 try row.string("slug") + "|" + row.string("kind")
             },
-            ["general-paediatrics|curriculum", "notebooklm|meta"]
+            ["general-paediatrics|curriculum"]
         )
-        XCTAssertEqual(try questionTagRows.map { try $0.string("tagId") }, ["general-paediatrics", "notebooklm"])
+        XCTAssertEqual(try questionTagRows.map { try $0.string("tagId") }, ["general-paediatrics"])
     }
 }

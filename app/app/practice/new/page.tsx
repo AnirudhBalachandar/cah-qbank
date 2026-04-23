@@ -1,6 +1,8 @@
+import { redirect } from "next/navigation"
+
 import { startSessionAction } from "@/app/actions/practice"
 import { AppShell } from "@/components/app-shell"
-import { listPracticeTags } from "@/lib/qbank"
+import { listPracticeTags, startPracticeSession } from "@/lib/qbank"
 
 export default async function PracticeSetupPage({
   searchParams,
@@ -9,6 +11,16 @@ export default async function PracticeSetupPage({
 }) {
   const [tags, params] = await Promise.all([listPracticeTags(), searchParams])
   const error = typeof params.error === "string" ? params.error : null
+  const questionId = typeof params.questionId === "string" ? params.questionId : null
+
+  if (questionId) {
+    const sessionId = await startPracticeSession({ questionId, questionCount: 1 })
+    if (!sessionId) {
+      redirect("/practice/new?error=no-questions")
+    }
+
+    redirect(`/practice/${sessionId}`)
+  }
 
   return (
     <AppShell
@@ -17,17 +29,18 @@ export default async function PracticeSetupPage({
     >
       <form
         action={startSessionAction}
-        className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm lg:grid-cols-[minmax(0,1fr)_220px]"
+        className="grid gap-6 rounded-3xl border border-border bg-panel/90 p-6 shadow-glow lg:grid-cols-[minmax(0,1fr)_220px]"
       >
+        <input type="hidden" name="questionId" value="" />
         <div className="space-y-4">
           <div className="space-y-2">
-            <label htmlFor="tagId" className="text-sm font-semibold text-slate-700">
+            <label htmlFor="tagId" className="text-sm font-semibold text-copy">
               Tag focus
             </label>
             <select
               id="tagId"
               name="tagId"
-              className="w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900"
+              className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-sm text-copy"
               defaultValue=""
             >
               <option value="">All answerable questions</option>
@@ -41,7 +54,7 @@ export default async function PracticeSetupPage({
 
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="space-y-2">
-              <label htmlFor="questionCount" className="text-sm font-semibold text-slate-700">
+              <label htmlFor="questionCount" className="text-sm font-semibold text-copy">
                 Question count
               </label>
               <input
@@ -51,21 +64,21 @@ export default async function PracticeSetupPage({
                 min={1}
                 max={100}
                 defaultValue={20}
-                className="w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900"
+                className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-sm text-copy"
               />
             </div>
           </div>
 
           {error ? (
-            <p className="rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
+            <p className="rounded-2xl border border-danger/30 bg-danger/10 px-4 py-3 text-sm text-danger">
               No answerable published questions matched that selection.
             </p>
           ) : null}
         </div>
 
-        <div className="flex flex-col justify-between gap-4 rounded-3xl bg-slate-50 p-5">
-          <div className="space-y-2 text-sm text-slate-600">
-            <p className="font-semibold text-slate-900">Selection rules</p>
+        <div className="flex flex-col justify-between gap-4 rounded-3xl border border-border bg-surface/80 p-5">
+          <div className="space-y-2 text-sm text-muted">
+            <p className="font-semibold text-copy">Selection rules</p>
             <p>Practice uses published questions only.</p>
             <p>Questions without a clear single correct answer stay browse-only.</p>
             <p>Within a tag, lower-mastery areas surface first.</p>
@@ -73,7 +86,7 @@ export default async function PracticeSetupPage({
 
           <button
             type="submit"
-            className="rounded-full bg-slate-900 px-4 py-3 text-sm font-semibold text-white"
+            className="rounded-full bg-accent px-4 py-3 text-sm font-semibold text-canvas"
           >
             Start session
           </button>

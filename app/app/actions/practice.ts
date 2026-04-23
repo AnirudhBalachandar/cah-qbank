@@ -13,8 +13,9 @@ import {
 
 export async function startSessionAction(formData: FormData) {
   const tagId = String(formData.get("tagId") ?? "").trim() || null
+  const questionId = String(formData.get("questionId") ?? "").trim() || null
   const questionCount = Number(formData.get("questionCount") ?? 20)
-  const sessionId = await startPracticeSession({ tagId, questionCount })
+  const sessionId = await startPracticeSession({ tagId, questionCount, questionId })
 
   if (!sessionId) {
     redirect("/practice/new?error=no-questions")

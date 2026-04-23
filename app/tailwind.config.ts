@@ -7,7 +7,25 @@ const config: Config = {
     './components/**/*.{ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        canvas: 'var(--color-canvas)',
+        surface: 'var(--color-surface)',
+        panel: 'var(--color-panel)',
+        border: 'var(--color-border)',
+        copy: 'var(--color-copy)',
+        muted: 'var(--color-muted)',
+        accent: 'var(--color-accent)',
+        'accent-strong': 'var(--color-accent-strong)',
+        success: 'var(--color-success)',
+        warning: 'var(--color-warning)',
+        danger: 'var(--color-danger)',
+        violet: 'var(--color-purple)',
+      },
+      boxShadow: {
+        glow: '0 18px 60px rgba(0, 0, 0, 0.35)',
+      },
+    },
   },
   plugins: [],
 }

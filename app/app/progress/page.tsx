@@ -9,9 +9,9 @@ export default async function ProgressPage() {
       title="Progress"
       subtitle="Track mastery by curriculum and topic tag using a single Elo score per tag."
     >
-      <section className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-        <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
-          <thead className="bg-slate-50 text-slate-500">
+      <section className="overflow-hidden rounded-3xl border border-border bg-panel/90 shadow-glow">
+        <table className="min-w-full divide-y divide-border text-left text-sm">
+          <thead className="bg-surface text-muted">
             <tr>
               <th className="px-4 py-3 font-semibold">Tag</th>
               <th className="px-4 py-3 font-semibold">Kind</th>
@@ -21,15 +21,15 @@ export default async function ProgressPage() {
               <th className="px-4 py-3 font-semibold">Questions</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-slate-100">
+          <tbody className="divide-y divide-border/80">
             {progress.map((row) => (
               <tr key={row.slug}>
-                <td className="px-4 py-3 font-medium text-slate-900">{row.name}</td>
-                <td className="px-4 py-3 text-slate-600">{row.kind}</td>
-                <td className="px-4 py-3 text-slate-600">{row.elo.toFixed(1)}</td>
-                <td className="px-4 py-3 text-slate-600">{row.attemptCount}</td>
-                <td className="px-4 py-3 text-slate-600">{row.correctCount}</td>
-                <td className="px-4 py-3 text-slate-600">{row.questionCount}</td>
+                <td className="px-4 py-3 font-medium text-copy">{row.name}</td>
+                <td className="px-4 py-3 text-muted">{row.kind}</td>
+                <td className="px-4 py-3 text-muted">{row.elo.toFixed(1)}</td>
+                <td className="px-4 py-3 text-muted">{row.attemptCount}</td>
+                <td className="px-4 py-3 text-muted">{row.correctCount}</td>
+                <td className="px-4 py-3 text-muted">{row.questionCount}</td>
               </tr>
             ))}
           </tbody>

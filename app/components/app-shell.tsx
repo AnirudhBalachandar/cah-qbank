@@ -18,14 +18,14 @@ export function AppShell({
   children: ReactNode
 }) {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-950">
-      <header className="border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
+    <div className="min-h-screen bg-transparent text-copy">
+      <header className="border-b border-border bg-surface/90 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-6">
           <div>
-            <Link href="/" className="text-lg font-semibold tracking-tight text-slate-900">
+            <Link href="/" className="text-lg font-semibold tracking-tight text-copy">
               CAH QBank
             </Link>
-            <p className="text-sm text-slate-600">
+            <p className="text-sm text-muted">
               Education only. Not medical advice.
             </p>
           </div>
@@ -34,7 +34,7 @@ export function AppShell({
               <Link
                 key={link.href}
                 href={link.href}
-                className="rounded-full border border-slate-200 px-3 py-1.5 text-sm font-medium text-slate-700 transition hover:border-slate-300 hover:text-slate-950"
+                className="rounded-full border border-border bg-panel/70 px-3 py-1.5 text-sm font-medium text-muted transition hover:border-accent/40 hover:bg-panel hover:text-copy"
               >
                 {link.label}
               </Link>
@@ -43,10 +43,10 @@ export function AppShell({
         </div>
       </header>
 
-      <main className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8">
+      <main className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 lg:px-6">
         <div className="space-y-1">
-          <h1 className="text-3xl font-semibold tracking-tight text-slate-900">{title}</h1>
-          {subtitle ? <p className="max-w-3xl text-sm text-slate-600">{subtitle}</p> : null}
+          <h1 className="text-3xl font-semibold tracking-tight text-copy sm:text-4xl">{title}</h1>
+          {subtitle ? <p className="max-w-3xl text-sm text-muted">{subtitle}</p> : null}
         </div>
         {children}
       </main>

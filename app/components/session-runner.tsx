@@ -60,7 +60,7 @@ export function SessionRunner({
   const currentQuestion = questions[currentIndex] ?? questions[0]
   if (!currentQuestion) {
     return (
-      <div className="rounded-3xl border border-slate-200 bg-white p-6 text-sm text-slate-600 shadow-sm">
+      <div className="rounded-3xl border border-border bg-panel/90 p-6 text-sm text-muted shadow-glow">
         This session has no questions.
       </div>
     )
@@ -134,32 +134,32 @@ export function SessionRunner({
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
-      <section className="space-y-6 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+      <section className="space-y-6 rounded-3xl border border-border bg-panel/90 p-6 shadow-glow">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <p className="text-sm font-medium text-slate-500">
+            <p className="text-sm font-medium text-muted">
               Question {currentIndex + 1} of {questions.length}
             </p>
-            <p className="mt-1 text-sm text-slate-600">{progressLabel}</p>
+            <p className="mt-1 text-sm text-muted">{progressLabel}</p>
           </div>
           <button
             type="button"
             onClick={toggleFlag}
-            className="rounded-full border border-slate-200 px-3 py-1.5 text-sm font-medium text-slate-700"
+            className="rounded-full border border-border bg-surface px-3 py-1.5 text-sm font-medium text-copy transition hover:border-accent/30"
           >
             {flags[question.id] ? "Unflag" : "Flag"}
           </button>
         </div>
 
         <div className="space-y-3">
-          <div className="flex flex-wrap gap-2 text-xs text-slate-500">
+          <div className="flex flex-wrap gap-2 text-xs text-muted">
             {question.tags.map((tag) => (
-              <span key={tag.slug} className="rounded-full bg-slate-100 px-2.5 py-1">
+              <span key={tag.slug} className="rounded-full border border-accent/20 bg-accent/10 px-2.5 py-1 text-accent">
                 {tag.name}
               </span>
             ))}
           </div>
-          <h2 className="text-xl font-semibold leading-relaxed text-slate-900">
+          <h2 className="text-xl font-semibold leading-relaxed text-copy">
             {question.stem}
           </h2>
         </div>
@@ -174,9 +174,9 @@ export function SessionRunner({
                 key={option.key}
                 className={[
                   "flex cursor-pointer items-start gap-3 rounded-2xl border px-4 py-3 transition",
-                  active ? "border-slate-900 bg-slate-900 text-white" : "border-slate-200 bg-slate-50 text-slate-900",
-                  revealedCorrect ? "border-emerald-500 bg-emerald-50 text-emerald-950" : "",
-                  revealedIncorrect ? "border-rose-400 bg-rose-50 text-rose-950" : "",
+                  active ? "border-accent/40 bg-accent/10 text-copy" : "border-border bg-surface text-copy",
+                  revealedCorrect ? "border-success/40 bg-success/10 text-success" : "",
+                  revealedIncorrect ? "border-danger/40 bg-danger/10 text-danger" : "",
                 ].join(" ")}
               >
                 <input
@@ -204,7 +204,7 @@ export function SessionRunner({
             type="button"
             onClick={submitCurrentAnswer}
             disabled={!selectedKey || isAnswered || isPending}
-            className="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60"
+            className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-canvas disabled:cursor-not-allowed disabled:opacity-60"
           >
             {isPending ? "Saving…" : "Submit answer"}
           </button>
@@ -212,7 +212,7 @@ export function SessionRunner({
             type="button"
             onClick={() => goToIndex(currentIndex - 1)}
             disabled={currentIndex === 0 || isPending}
-            className="rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 disabled:opacity-60"
+            className="rounded-full border border-border bg-surface px-4 py-2 text-sm font-semibold text-copy disabled:opacity-60"
           >
             Previous
           </button>
@@ -220,46 +220,46 @@ export function SessionRunner({
             type="button"
             onClick={() => goToIndex(currentIndex + 1)}
             disabled={currentIndex >= unlockedIndex || isPending}
-            className="rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 disabled:opacity-60"
+            className="rounded-full border border-border bg-surface px-4 py-2 text-sm font-semibold text-copy disabled:opacity-60"
           >
             Next
           </button>
         </div>
 
         {currentReveal ? (
-          <div className="space-y-4 rounded-3xl border border-slate-200 bg-slate-50 p-5">
+          <div className="space-y-4 rounded-3xl border border-border bg-surface/80 p-5">
             <div>
-              <p className="text-sm font-semibold text-slate-500">Result</p>
-              <p className={currentReveal.isCorrect ? "text-emerald-700" : "text-rose-700"}>
+              <p className="text-sm font-semibold text-muted">Result</p>
+              <p className={currentReveal.isCorrect ? "text-success" : "text-danger"}>
                 {currentReveal.isCorrect ? "Correct" : `Incorrect. ${currentReveal.correctKey ?? "?"} is best.`}
               </p>
             </div>
             {currentReveal.explanation ? (
               <div className="space-y-2">
-                <p className="text-sm font-semibold text-slate-500">Explanation</p>
-                <p className="text-sm leading-6 text-slate-700">{currentReveal.explanation}</p>
+                <p className="text-sm font-semibold text-muted">Explanation</p>
+                <p className="text-sm leading-6 text-muted">{currentReveal.explanation}</p>
               </div>
             ) : null}
             {currentReveal.rationale ? (
               <div className="space-y-2">
-                <p className="text-sm font-semibold text-slate-500">Takeaways</p>
-                <p className="text-sm leading-6 text-slate-700">{currentReveal.rationale}</p>
+                <p className="text-sm font-semibold text-muted">Takeaways</p>
+                <p className="text-sm leading-6 text-muted">{currentReveal.rationale}</p>
               </div>
             ) : null}
           </div>
         ) : null}
       </section>
 
-      <aside className="space-y-4 rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+      <aside className="space-y-4 rounded-3xl border border-border bg-panel/90 p-5 shadow-glow">
         <div>
-          <p className="text-sm font-semibold text-slate-500">Score</p>
-          <p className="text-3xl font-semibold text-slate-900">
+          <p className="text-sm font-semibold text-muted">Score</p>
+          <p className="text-3xl font-semibold text-copy">
             {correctCount}/{Object.keys(answers).length || 0}
           </p>
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="note" className="text-sm font-semibold text-slate-500">
+          <label htmlFor="note" className="text-sm font-semibold text-muted">
             Private note
           </label>
           <textarea
@@ -269,21 +269,21 @@ export function SessionRunner({
               setNotes((current) => ({ ...current, [question.id]: event.target.value }))
             }
             rows={6}
-            className="w-full rounded-2xl border border-slate-200 px-3 py-2 text-sm text-slate-900"
+            className="w-full rounded-2xl border border-border bg-surface px-3 py-2 text-sm text-copy"
           />
           <button
             type="button"
             onClick={saveNote}
             disabled={isPending}
-            className="rounded-full border border-slate-200 px-3 py-1.5 text-sm font-semibold text-slate-700"
+            className="rounded-full border border-border bg-surface px-3 py-1.5 text-sm font-semibold text-copy"
           >
             Save note
           </button>
-          {noteStatus ? <p className="text-xs text-slate-500">{noteStatus}</p> : null}
+          {noteStatus ? <p className="text-xs text-muted">{noteStatus}</p> : null}
         </div>
 
         <div className="space-y-2">
-          <p className="text-sm font-semibold text-slate-500">Jump to question</p>
+          <p className="text-sm font-semibold text-muted">Jump to question</p>
           <div className="flex flex-wrap gap-2">
             {questions.map((question, index) => {
               const answered = answers[question.id]
@@ -295,9 +295,9 @@ export function SessionRunner({
                   disabled={index > unlockedIndex || isPending}
                   className={[
                     "h-9 w-9 rounded-full border text-sm font-semibold disabled:cursor-not-allowed disabled:opacity-50",
-                    index === currentIndex ? "border-slate-900 bg-slate-900 text-white" : "border-slate-200 text-slate-700",
-                    answered?.isCorrect ? "border-emerald-500 text-emerald-700" : "",
-                    answered && !answered.isCorrect ? "border-rose-400 text-rose-700" : "",
+                    index === currentIndex ? "border-accent/40 bg-accent/10 text-copy" : "border-border text-copy",
+                    answered?.isCorrect ? "border-success/40 text-success" : "",
+                    answered && !answered.isCorrect ? "border-danger/40 text-danger" : "",
                   ].join(" ")}
                 >
                   {index + 1}
@@ -311,7 +311,7 @@ export function SessionRunner({
           type="button"
           onClick={finishSession}
           disabled={isPending}
-          className="w-full rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white"
+          className="w-full rounded-full bg-success px-4 py-2 text-sm font-semibold text-canvas"
         >
           Finish session
         </button>

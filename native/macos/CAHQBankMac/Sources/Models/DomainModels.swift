@@ -205,11 +205,53 @@ struct RecentSessionSummary: Identifiable, Equatable, Sendable {
     let correct: Int
 }
 
+struct DashboardTrendPoint: Identifiable, Equatable, Sendable {
+    let date: Date
+    let score: Double?
+    let attempts: Int
+
+    var id: Date { date }
+}
+
+struct DashboardHeatmapPoint: Identifiable, Equatable, Sendable {
+    let date: Date
+    let value: Int
+
+    var id: Date { date }
+}
+
+struct DashboardTopicDistributionPoint: Identifiable, Equatable, Sendable {
+    let topic: String
+    let count: Int
+    let percentage: Double
+
+    var id: String { topic }
+}
+
+struct DashboardSessionBarPoint: Identifiable, Equatable, Sendable {
+    let id: String
+    let mode: PracticeMode
+    let createdAt: Date
+    let completedAt: Date?
+    let answered: Int
+    let correct: Int
+    let score: Double
+    let label: String
+}
+
 struct DashboardSnapshot: Equatable, Sendable {
     let publishedCount: Int
     let answerableCount: Int
     let flaggedCount: Int
     let noteCount: Int
+    let accuracyPercent: Double
+    let totalTimeSpentMs: Int
+    let currentStreak: Int
+    let modulesCompleted: Int
+    let trendData: [DashboardTrendPoint]
+    let topicDistribution: [DashboardTopicDistributionPoint]
+    let heatmapData: [DashboardHeatmapPoint]
+    let sessionsBarData: [DashboardSessionBarPoint]
     let weakTags: [WeakTagSnapshot]
     let recentSessions: [RecentSessionSummary]
 }

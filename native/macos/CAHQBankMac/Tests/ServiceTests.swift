@@ -39,6 +39,191 @@ final class ServiceTests: XCTestCase {
         XCTAssertEqual(resolvedRepoRoot, repo.rootURL.standardizedFileURL.path)
     }
 
+    func testQuestionFileCodecParsesLegacyUnixMillisecondTimestampStrings() {
+        let parsed = QuestionFileCodec.parseDate("1776918231084")
+
+        guard let parsed else {
+            return XCTFail("Expected legacy unix millisecond timestamp to parse")
+        }
+        XCTAssertEqual(parsed.timeIntervalSince1970, 1_776_918_231.084, accuracy: 0.000_1)
+    }
+
+    func testServiceNormalizesLegacyNumericSessionDatesOnStartup() async throws {
+        let repo = try TemporaryRepo(questions: [fixtureQuestion(id: "q-1")])
+        defer { try? repo.cleanup() }
+
+        let database = try SQLiteDatabase(path: repo.context.databaseURL.path)
+        try database.ensureSchema()
+        try database.execute(
+            """
+            INSERT INTO PracticeSession (id, mode, questionIds, currentIndex, createdAt, completedAt)
+            VALUES
+              ('legacy-latest', 'custom', '[]', 0, 1776918231084, NULL),
+              ('legacy-earlier', 'revision', '[]', 0, 1776918074105, NULL),
+              ('iso-middle', 'revision', '[]', 0, ?, NULL);
+            """,
+            bindings: [
+                .text("2026-04-22T23:03:50.087Z"),
+            ]
+        )
+
+        let service = try QBankService(context: repo.context)
+        let dashboard = try await service.fetchDashboard()
+        let normalizedRows = try database.query(
+            """
+            SELECT id, createdAt, typeof(createdAt) AS valueType
+            FROM PracticeSession
+            ORDER BY createdAt DESC;
+            """
+        )
+
+        XCTAssertEqual(dashboard.recentSessions.map(\.id), ["legacy-latest", "legacy-earlier", "iso-middle"])
+        XCTAssertEqual(try normalizedRows.map { try $0.string("valueType") }, ["text", "text", "text"])
+        XCTAssertEqual(
+            try normalizedRows.map { try $0.string("createdAt") },
+            [
+                "2026-04-23T04:23:51.084Z",
+                "2026-04-23T04:21:14.105Z",
+                "2026-04-22T23:03:50.087Z",
+            ]
+        )
+    }
+
+    func testDashboardAnalyticsExposeTrendHeatmapAndCompletionSignals() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(
+                id: "q-general-1",
+                tags: ["general-paediatrics"],
+                curriculum: .generalPaediatrics
+            ),
+            fixtureQuestion(
+                id: "q-general-2",
+                tags: ["general-paediatrics"],
+                curriculum: .generalPaediatrics,
+                createdAt: Date(timeIntervalSince1970: 1_700_000_100)
+            ),
+            fixtureQuestion(
+                id: "q-emergency-1",
+                tags: ["emergency-paediatrics"],
+                curriculum: .emergencyPaediatrics,
+                createdAt: Date(timeIntervalSince1970: 1_700_000_200)
+            ),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let database = try SQLiteDatabase(path: repo.context.databaseURL.path)
+        let today = utcDate(daysFromToday: 0, hour: 11, minute: 0)
+        let yesterday = utcDate(daysFromToday: -1, hour: 10, minute: 0)
+        let twoDaysAgo = utcDate(daysFromToday: -2, hour: 9, minute: 0)
+
+        try database.execute(
+            """
+            INSERT INTO PracticeSession (id, mode, questionIds, currentIndex, createdAt, completedAt)
+            VALUES
+              ('session-old', 'revision', '["q-emergency-1"]', 1, ?, ?),
+              ('session-mid', 'revision', '["q-general-1"]', 1, ?, ?),
+              ('session-new', 'custom', '["q-general-2"]', 1, ?, ?);
+            """,
+            bindings: [
+                .text(QuestionFileCodec.formatDate(twoDaysAgo)),
+                .text(QuestionFileCodec.formatDate(twoDaysAgo.addingTimeInterval(30 * 60))),
+                .text(QuestionFileCodec.formatDate(yesterday)),
+                .text(QuestionFileCodec.formatDate(yesterday.addingTimeInterval(45 * 60))),
+                .text(QuestionFileCodec.formatDate(today)),
+                .text(QuestionFileCodec.formatDate(today.addingTimeInterval(20 * 60))),
+            ]
+        )
+        try database.execute(
+            """
+            INSERT INTO Attempt (id, questionId, sessionId, selectedKey, isCorrect, createdAt)
+            VALUES
+              ('attempt-old', 'q-emergency-1', 'session-old', 'A', 0, ?),
+              ('attempt-mid', 'q-general-1', 'session-mid', 'B', 1, ?),
+              ('attempt-new', 'q-general-2', 'session-new', 'B', 1, ?);
+            """,
+            bindings: [
+                .text(QuestionFileCodec.formatDate(twoDaysAgo.addingTimeInterval(15 * 60))),
+                .text(QuestionFileCodec.formatDate(yesterday.addingTimeInterval(10 * 60))),
+                .text(QuestionFileCodec.formatDate(today.addingTimeInterval(5 * 60))),
+            ]
+        )
+        try database.execute(
+            """
+            INSERT INTO Flag (questionId, createdAt)
+            VALUES ('q-general-1', ?);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(today))]
+        )
+        try database.execute(
+            """
+            INSERT INTO UserNote (questionId, noteMarkdown, updatedAt)
+            VALUES ('q-general-2', 'Review this explanation', ?);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(today))]
+        )
+        try database.execute(
+            """
+            INSERT INTO TagMastery (tagId, elo, attemptCount, correctCount, updatedAt)
+            VALUES
+              ('general-paediatrics', 1120, 2, 2, ?),
+              ('emergency-paediatrics', 1080, 1, 0, ?);
+            """,
+            bindings: [
+                .text(QuestionFileCodec.formatDate(today)),
+                .text(QuestionFileCodec.formatDate(today)),
+            ]
+        )
+
+        let dashboard = try await service.fetchDashboard()
+        let todayStart = utcStartOfDay(today)
+        let yesterdayStart = utcStartOfDay(yesterday)
+        let twoDaysAgoStart = utcStartOfDay(twoDaysAgo)
+        let generalDistribution = try XCTUnwrap(dashboard.topicDistribution.first)
+        let emergencyDistribution = try XCTUnwrap(dashboard.topicDistribution.dropFirst().first)
+        let oldestSessionBar = try XCTUnwrap(dashboard.sessionsBarData.first)
+        let middleSessionBar = try XCTUnwrap(dashboard.sessionsBarData.dropFirst().first)
+        let newestSessionBar = try XCTUnwrap(dashboard.sessionsBarData.last)
+        let todayTrend = try XCTUnwrap(dashboard.trendData.first(where: { $0.date == todayStart }))
+        let yesterdayTrend = try XCTUnwrap(dashboard.trendData.first(where: { $0.date == yesterdayStart }))
+        let twoDaysAgoTrend = try XCTUnwrap(dashboard.trendData.first(where: { $0.date == twoDaysAgoStart }))
+        let todayScore = try XCTUnwrap(todayTrend.score)
+        let yesterdayScore = try XCTUnwrap(yesterdayTrend.score)
+        let twoDaysAgoScore = try XCTUnwrap(twoDaysAgoTrend.score)
+
+        XCTAssertEqual(dashboard.publishedCount, 3)
+        XCTAssertEqual(dashboard.answerableCount, 3)
+        XCTAssertEqual(dashboard.flaggedCount, 1)
+        XCTAssertEqual(dashboard.noteCount, 1)
+        XCTAssertEqual(dashboard.accuracyPercent, 66.7, accuracy: 0.01)
+        XCTAssertEqual(dashboard.totalTimeSpentMs, 95 * 60 * 1000)
+        XCTAssertEqual(dashboard.currentStreak, 2)
+        XCTAssertEqual(dashboard.modulesCompleted, 1)
+        XCTAssertEqual(dashboard.topicDistribution.map(\.topic), [
+            Curriculum.generalPaediatrics.rawValue,
+            Curriculum.emergencyPaediatrics.rawValue,
+        ])
+        XCTAssertEqual(dashboard.topicDistribution.map(\.count), [2, 1])
+        XCTAssertEqual(generalDistribution.percentage, 66.7, accuracy: 0.01)
+        XCTAssertEqual(emergencyDistribution.percentage, 33.3, accuracy: 0.01)
+        XCTAssertEqual(dashboard.recentSessions.map(\.id), ["session-new", "session-mid", "session-old"])
+        XCTAssertEqual(dashboard.sessionsBarData.map(\.id), ["session-old", "session-mid", "session-new"])
+        XCTAssertEqual(oldestSessionBar.score, 0, accuracy: 0.01)
+        XCTAssertEqual(middleSessionBar.score, 100, accuracy: 0.01)
+        XCTAssertEqual(newestSessionBar.score, 100, accuracy: 0.01)
+        XCTAssertEqual(dashboard.trendData.count, 30)
+        XCTAssertEqual(dashboard.heatmapData.count, 56)
+        XCTAssertEqual(todayTrend.attempts, 1)
+        XCTAssertEqual(todayScore, 100, accuracy: 0.01)
+        XCTAssertEqual(yesterdayScore, 100, accuracy: 0.01)
+        XCTAssertEqual(twoDaysAgoScore, 0, accuracy: 0.01)
+        XCTAssertEqual(dashboard.heatmapData.first(where: { $0.date == todayStart })?.value, 1)
+        XCTAssertEqual(dashboard.heatmapData.first(where: { $0.date == yesterdayStart })?.value, 1)
+        XCTAssertEqual(dashboard.heatmapData.first(where: { $0.date == twoDaysAgoStart })?.value, 1)
+    }
+
     func testSessionOrderingAndAnsweringUpdatesMastery() async throws {
         let repo = try TemporaryRepo(questions: [
             fixtureQuestion(
@@ -368,4 +553,19 @@ final class ServiceTests: XCTestCase {
         XCTAssertNil(progress.first(where: { $0.slug == "draft-tag" }))
         XCTAssertNil(progress.first(where: { $0.slug == "browse-only" }))
     }
+}
+
+private func utcDate(daysFromToday: Int, hour: Int, minute: Int) -> Date {
+    var calendar = Calendar(identifier: .gregorian)
+    calendar.timeZone = TimeZone(secondsFromGMT: 0) ?? .current
+    let today = calendar.startOfDay(for: Date())
+    return calendar.date(byAdding: .day, value: daysFromToday, to: today)?
+        .addingTimeInterval(TimeInterval((hour * 60 * 60) + (minute * 60)))
+        ?? today
+}
+
+private func utcStartOfDay(_ date: Date) -> Date {
+    var calendar = Calendar(identifier: .gregorian)
+    calendar.timeZone = TimeZone(secondsFromGMT: 0) ?? .current
+    return calendar.startOfDay(for: date)
 }

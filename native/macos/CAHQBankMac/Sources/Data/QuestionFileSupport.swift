@@ -25,20 +25,46 @@ enum QuestionFileCodec {
     }
 
     static func parseDate(_ string: String) -> Date? {
+        let trimmed = string.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return nil }
+
         let fractional = ISO8601DateFormatter()
         fractional.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        if let value = fractional.date(from: string) {
+        if let value = fractional.date(from: trimmed) {
             return value
         }
         let standard = ISO8601DateFormatter()
         standard.formatOptions = [.withInternetDateTime]
-        return standard.date(from: string)
+        if let value = standard.date(from: trimmed) {
+            return value
+        }
+
+        guard let unixTimestamp = parseUnixTimestamp(trimmed) else {
+            return nil
+        }
+        return Date(timeIntervalSince1970: unixTimestamp)
     }
 
     static func formatDate(_ date: Date) -> String {
         let formatter = ISO8601DateFormatter()
         formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
         return formatter.string(from: date)
+    }
+
+    private static func parseUnixTimestamp(_ string: String) -> TimeInterval? {
+        guard let value = Double(string), value.isFinite else {
+            return nil
+        }
+
+        let magnitude = abs(value)
+        guard magnitude >= 1_000_000_000 else {
+            return nil
+        }
+
+        if magnitude >= 100_000_000_000 {
+            return value / 1000
+        }
+        return value
     }
 }
 

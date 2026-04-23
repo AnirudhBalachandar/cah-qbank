@@ -33,11 +33,17 @@ actor QBankService {
     private let questionPageSize = 30
     private let baseRating = 1000.0
     private let kFactor = 32.0
+    private let dashboardRecentSessionLimit = 6
+    private let dashboardTrendDays = 30
+    private let dashboardHeatmapDays = 56
+    private let moduleCompletionAccuracyThreshold = 80.0
+    private let moduleCompletionEloThreshold = 1100.0
 
     init(context: RepoContext) throws {
         self.context = context
         self.database = try SQLiteDatabase(path: context.databaseURL.path)
         try self.database.ensureSchema()
+        try Self.normalizeLegacyDateColumns(in: self.database)
     }
 
     static func connectedToLocalRepo(configuration: RepoLinkConfiguration = RepoLinkConfiguration()) throws -> QBankService {
@@ -71,6 +77,10 @@ actor QBankService {
         let answerableCount = try scalarInt("SELECT COUNT(*) AS count FROM Question WHERE status = 'published' AND isAnswerable = 1;")
         let flaggedCount = try scalarInt("SELECT COUNT(*) AS count FROM Flag;")
         let noteCount = try scalarInt("SELECT COUNT(*) AS count FROM UserNote;")
+        let attempts = try loadDashboardAttempts()
+        let sessions = try loadDashboardSessions()
+        let topicDistribution = try loadDashboardTopicDistribution()
+        let masteryRows = try loadDashboardMasteryRows()
 
         let weakTagRows = try database.query(
             """
@@ -98,32 +108,48 @@ actor QBankService {
             )
         }
 
-        let recentRows = try database.query(
-            """
-            SELECT ps.id, ps.mode, ps.createdAt, ps.completedAt,
-                   (SELECT COUNT(*) FROM Attempt a WHERE a.sessionId = ps.id) AS answered,
-                   (SELECT COUNT(*) FROM Attempt a WHERE a.sessionId = ps.id AND a.isCorrect = 1) AS correct
-            FROM PracticeSession ps
-            ORDER BY ps.createdAt DESC
-            LIMIT 5;
-            """
-        )
-        let recentSessions = try recentRows.map { row in
+        let recentSessionSlice = Array(sessions.prefix(dashboardRecentSessionLimit))
+        let recentSessions = recentSessionSlice.map { session in
             RecentSessionSummary(
-                id: try row.string("id"),
-                mode: try PracticeMode(rawValue: row.string("mode")).unwrap("practice mode"),
-                createdAt: try parseDatabaseDate(row.string("createdAt")),
-                completedAt: try row.optionalString("completedAt").flatMap(parseDatabaseDate),
-                answered: try row.int("answered"),
-                correct: try row.int("correct")
+                id: session.id,
+                mode: session.mode,
+                createdAt: session.createdAt,
+                completedAt: session.completedAt,
+                answered: session.answered,
+                correct: session.correct
             )
         }
+        let sessionsBarData = recentSessionSlice.reversed().map { session in
+            DashboardSessionBarPoint(
+                id: session.id,
+                mode: session.mode,
+                createdAt: session.createdAt,
+                completedAt: session.completedAt,
+                answered: session.answered,
+                correct: session.correct,
+                score: computeAccuracyPercent(correct: session.correct, total: session.answered),
+                label: formatDashboardSessionLabel(session)
+            )
+        }
+        let correctAttempts = attempts.filter(\.isCorrect).count
 
         return DashboardSnapshot(
             publishedCount: publishedCount,
             answerableCount: answerableCount,
             flaggedCount: flaggedCount,
             noteCount: noteCount,
+            accuracyPercent: computeAccuracyPercent(correct: correctAttempts, total: attempts.count),
+            totalTimeSpentMs: computeTotalTimeSpent(attempts: attempts, sessions: sessions),
+            currentStreak: computeCurrentStreak(attempts: attempts),
+            modulesCompleted: computeModulesCompleted(
+                curricula: topicDistribution.map(\.topic),
+                attempts: attempts,
+                masteryRows: masteryRows
+            ),
+            trendData: buildTrendData(from: attempts),
+            topicDistribution: topicDistribution,
+            heatmapData: buildHeatmapData(from: attempts),
+            sessionsBarData: sessionsBarData,
             weakTags: weakTags,
             recentSessions: recentSessions
         )
@@ -466,6 +492,226 @@ actor QBankService {
         }
     }
 
+    private func loadDashboardAttempts() throws -> [DashboardAttemptMetric] {
+        let rows = try database.query(
+            """
+            SELECT a.isCorrect, a.timeSpentMs, a.createdAt, q.curriculum
+            FROM Attempt a
+            JOIN Question q ON q.id = a.questionId
+            ORDER BY a.createdAt ASC;
+            """
+        )
+
+        return try rows.map { row in
+            DashboardAttemptMetric(
+                isCorrect: try row.bool("isCorrect"),
+                timeSpentMs: try row.optionalString("timeSpentMs").flatMap(Int.init),
+                createdAt: try parseDatabaseDate(row.string("createdAt")),
+                curriculum: try row.string("curriculum")
+            )
+        }
+    }
+
+    private func loadDashboardSessions() throws -> [DashboardSessionMetric] {
+        let rows = try database.query(
+            """
+            SELECT ps.id, ps.mode, ps.createdAt, ps.completedAt,
+                   (SELECT COUNT(*) FROM Attempt a WHERE a.sessionId = ps.id) AS answered,
+                   (SELECT COUNT(*) FROM Attempt a WHERE a.sessionId = ps.id AND a.isCorrect = 1) AS correct
+            FROM PracticeSession ps
+            ORDER BY ps.createdAt DESC;
+            """
+        )
+
+        return try rows.map { row in
+            DashboardSessionMetric(
+                id: try row.string("id"),
+                mode: try PracticeMode(rawValue: row.string("mode")).unwrap("practice mode"),
+                createdAt: try parseDatabaseDate(row.string("createdAt")),
+                completedAt: try row.optionalString("completedAt").flatMap(parseDatabaseDate),
+                answered: try row.int("answered"),
+                correct: try row.int("correct")
+            )
+        }
+    }
+
+    private func loadDashboardTopicDistribution() throws -> [DashboardTopicDistributionPoint] {
+        let rows = try database.query(
+            """
+            SELECT curriculum, COUNT(*) AS count
+            FROM Question
+            WHERE status = 'published'
+              AND isAnswerable = 1
+            GROUP BY curriculum
+            ORDER BY count DESC, curriculum ASC;
+            """
+        )
+        let total = try rows.reduce(0) { partialResult, row in
+            partialResult + (try row.int("count"))
+        }
+
+        return try rows.map { row in
+            let count = try row.int("count")
+            return DashboardTopicDistributionPoint(
+                topic: try row.string("curriculum"),
+                count: count,
+                percentage: total == 0 ? 0 : roundPercentage(Double(count) / Double(total) * 100)
+            )
+        }
+    }
+
+    private func loadDashboardMasteryRows() throws -> [DashboardMasteryMetric] {
+        let rows = try database.query(
+            """
+            SELECT tm.tagId, tm.elo, t.name, t.kind
+            FROM TagMastery tm
+            JOIN Tag t ON t.slug = tm.tagId;
+            """
+        )
+
+        return try rows.map { row in
+            DashboardMasteryMetric(
+                tagID: try row.string("tagId"),
+                elo: try row.double("elo"),
+                name: try row.string("name"),
+                kind: try TagKind(rawValue: row.string("kind")).unwrap("tag kind")
+            )
+        }
+    }
+
+    private func computeAccuracyPercent(correct: Int, total: Int) -> Double {
+        guard total > 0 else { return 0 }
+        return roundPercentage(Double(correct) / Double(total) * 100)
+    }
+
+    private func roundPercentage(_ value: Double) -> Double {
+        (value * 10).rounded() / 10
+    }
+
+    private func computeTotalTimeSpent(attempts: [DashboardAttemptMetric], sessions: [DashboardSessionMetric]) -> Int {
+        let trackedAttemptTime = attempts.reduce(0) { partialResult, attempt in
+            partialResult + max(attempt.timeSpentMs ?? 0, 0)
+        }
+        if trackedAttemptTime > 0 {
+            return trackedAttemptTime
+        }
+
+        return sessions.reduce(0) { partialResult, session in
+            guard let completedAt = session.completedAt else {
+                return partialResult
+            }
+            let duration = max(Int(completedAt.timeIntervalSince(session.createdAt) * 1000), 0)
+            return partialResult + duration
+        }
+    }
+
+    private func computeCurrentStreak(attempts: [DashboardAttemptMetric]) -> Int {
+        var streak = 0
+        for attempt in attempts.sorted(by: { $0.createdAt > $1.createdAt }) {
+            if !attempt.isCorrect {
+                break
+            }
+            streak += 1
+        }
+        return streak
+    }
+
+    private func computeModulesCompleted(
+        curricula: [String],
+        attempts: [DashboardAttemptMetric],
+        masteryRows: [DashboardMasteryMetric]
+    ) -> Int {
+        var attemptsByCurriculum: [String: (total: Int, correct: Int)] = [:]
+        for attempt in attempts {
+            var stats = attemptsByCurriculum[attempt.curriculum] ?? (0, 0)
+            stats.total += 1
+            if attempt.isCorrect {
+                stats.correct += 1
+            }
+            attemptsByCurriculum[attempt.curriculum] = stats
+        }
+
+        let eloByCurriculum = Dictionary(
+            uniqueKeysWithValues: masteryRows
+                .filter { $0.kind == .curriculum }
+                .map { ($0.name, $0.elo) }
+        )
+
+        var completedCount = 0
+        for curriculum in curricula {
+            guard let stats = attemptsByCurriculum[curriculum], stats.total > 0 else {
+                continue
+            }
+            let accuracy = computeAccuracyPercent(correct: stats.correct, total: stats.total)
+            let elo = eloByCurriculum[curriculum] ?? 0
+            if accuracy >= moduleCompletionAccuracyThreshold, elo >= moduleCompletionEloThreshold {
+                completedCount += 1
+            }
+        }
+        return completedCount
+    }
+
+    private func buildTrendData(from attempts: [DashboardAttemptMetric]) -> [DashboardTrendPoint] {
+        let today = startOfUTCDay(Date())
+        let dayStarts = (0..<dashboardTrendDays).map { offset in
+            addUTCDays(offset - (dashboardTrendDays - 1), to: today)
+        }
+
+        var attemptsByDay: [Date: (total: Int, correct: Int)] = [:]
+        for attempt in attempts {
+            let day = startOfUTCDay(attempt.createdAt)
+            var stats = attemptsByDay[day] ?? (0, 0)
+            stats.total += 1
+            if attempt.isCorrect {
+                stats.correct += 1
+            }
+            attemptsByDay[day] = stats
+        }
+
+        return dayStarts.map { day in
+            let stats = attemptsByDay[day]
+            return DashboardTrendPoint(
+                date: day,
+                score: stats.map { computeAccuracyPercent(correct: $0.correct, total: $0.total) },
+                attempts: stats?.total ?? 0
+            )
+        }
+    }
+
+    private func buildHeatmapData(from attempts: [DashboardAttemptMetric]) -> [DashboardHeatmapPoint] {
+        let today = startOfUTCDay(Date())
+        let dayStarts = (0..<dashboardHeatmapDays).map { offset in
+            addUTCDays(offset - (dashboardHeatmapDays - 1), to: today)
+        }
+
+        var countsByDay: [Date: Int] = [:]
+        for attempt in attempts {
+            let day = startOfUTCDay(attempt.createdAt)
+            countsByDay[day, default: 0] += 1
+        }
+
+        return dayStarts.map { day in
+            DashboardHeatmapPoint(date: day, value: countsByDay[day] ?? 0)
+        }
+    }
+
+    private func startOfUTCDay(_ date: Date) -> Date {
+        Self.utcCalendar.startOfDay(for: date)
+    }
+
+    private func addUTCDays(_ days: Int, to date: Date) -> Date {
+        Self.utcCalendar.date(byAdding: .day, value: days, to: date) ?? date
+    }
+
+    private func formatDashboardSessionLabel(_ session: DashboardSessionMetric) -> String {
+        let date = session.createdAt.formatted(
+            .dateTime
+                .month(.abbreviated)
+                .day()
+        )
+        return "\(session.mode.rawValue.capitalized) · \(date)"
+    }
+
     private func scalarInt(_ sql: String, bindings: [SQLiteBindValue] = []) throws -> Int {
         try database.query(sql, bindings: bindings).first?.int("count") ?? 0
     }
@@ -684,6 +930,74 @@ actor QBankService {
         }
         throw RepoStoreError.invalidData("Unable to parse database date: \(string)")
     }
+
+    private static func normalizeLegacyDateColumns(in database: SQLiteDatabase) throws {
+        try database.transaction {
+            try normalizeLegacyDateColumn(in: database, table: "PracticeSession", column: "createdAt")
+            try normalizeLegacyDateColumn(in: database, table: "PracticeSession", column: "completedAt")
+            try normalizeLegacyDateColumn(in: database, table: "Attempt", column: "createdAt")
+            try normalizeLegacyDateColumn(in: database, table: "Question", column: "createdAt")
+            try normalizeLegacyDateColumn(in: database, table: "Flag", column: "createdAt")
+            try normalizeLegacyDateColumn(in: database, table: "UserNote", column: "updatedAt")
+            try normalizeLegacyDateColumn(in: database, table: "TagMastery", column: "updatedAt")
+        }
+    }
+
+    private static func normalizeLegacyDateColumn(in database: SQLiteDatabase, table: String, column: String) throws {
+        let rows = try database.query(
+            """
+            SELECT rowid, CAST(\(column) AS TEXT) AS value
+            FROM \(table)
+            WHERE \(column) IS NOT NULL
+              AND TRIM(CAST(\(column) AS TEXT)) <> ''
+              AND CAST(\(column) AS TEXT) NOT LIKE '%-%';
+            """
+        )
+
+        for row in rows {
+            let rowID = try row.int("rowid")
+            let rawValue = try row.string("value")
+            guard let normalizedDate = QuestionFileCodec.parseDate(rawValue) else {
+                continue
+            }
+            try database.execute(
+                "UPDATE \(table) SET \(column) = ? WHERE rowid = ?;",
+                bindings: [
+                    .text(QuestionFileCodec.formatDate(normalizedDate)),
+                    .integer(Int64(rowID)),
+                ]
+            )
+        }
+    }
+
+    private static let utcCalendar: Calendar = {
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(secondsFromGMT: 0) ?? .current
+        return calendar
+    }()
+}
+
+private struct DashboardAttemptMetric {
+    let isCorrect: Bool
+    let timeSpentMs: Int?
+    let createdAt: Date
+    let curriculum: String
+}
+
+private struct DashboardSessionMetric {
+    let id: String
+    let mode: PracticeMode
+    let createdAt: Date
+    let completedAt: Date?
+    let answered: Int
+    let correct: Int
+}
+
+private struct DashboardMasteryMetric {
+    let tagID: String
+    let elo: Double
+    let name: String
+    let kind: TagKind
 }
 
 private extension Optional {

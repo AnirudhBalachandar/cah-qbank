@@ -1,0 +1,1645 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Handoff file for repairing CAH QBank question JSON records that are not currently in the active publishable-ready draft set.",
+  "instructionsForChatGPT": "Work through items one at a time. For each item, fill fixedQuestion with a corrected complete question JSON object. Do not remove items. Do not change originalQuestion. Keep fixedQuestion null for any item that should remain excluded instead of repaired.",
+  "publishableReadyDefinition": [
+    "Schema-valid CAH QBank question JSON.",
+    "Exactly five options with keys A-E.",
+    "Exactly one option has isCorrect true.",
+    "Clinical learner-facing stem ending in a question mark.",
+    "Non-empty explanation.",
+    "optionExplanations includes non-empty entries for A-E.",
+    "Non-empty citations and tags.",
+    "Curriculum is not Unclassified.",
+    "No source, drafting, batch, evidence-governance, or process wording in learner-facing fields.",
+    "No markdown formatting in learner-facing fields.",
+    "No terminal periods in option text."
+  ],
+  "summary": {
+    "generatedAt": "2026-04-24T21:51:28.244Z",
+    "outputPath": "reports/non-publishable-question-export/non-publishable-questions-for-chatgpt-2026-04-25.json",
+    "activeDraftsScanned": 961,
+    "activeDraftsReadyForPublication": 961,
+    "activeDraftsNonPublishable": 0,
+    "archivedStyleBlockedIncluded": 15,
+    "totalExportedForChatgptRepair": 15,
+    "reasonCounts": {
+      "archived_style_blocked": 15,
+      "Source-governance process artifact, not a clinical qbank item.": 3,
+      "missing_option_explanations:B": 3,
+      "option_text_has_terminal_period:A,B,C,D,E": 3,
+      "Source-sufficiency process artifact, not a clinical qbank item.": 3,
+      "learner_facing_source_or_drafting_process_language": 13,
+      "Batch-governance artifact, not a clinical qbank item.": 3,
+      "missing_option_explanations:D": 3,
+      "missing_option_explanations:A": 4,
+      "Broken repair-message artifact with unrecoverable source content.": 1,
+      "stem_does_not_end_with_question_mark": 1,
+      "missing_option_explanations:C": 5,
+      "Publication-governance process artifact, not a clinical qbank item.": 1,
+      "Drafting-process artifact, not a clinical qbank item.": 2,
+      "Question-authoring process artifact, not a clinical qbank item.": 1,
+      "Citation-governance process artifact, not a clinical qbank item.": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "25a9fac0-146d-4b3d-ae9f-2504332a6e15",
+      "sourcePath": "drafts/_archived_style_blocked/25a9fac0-146d-4b3d-ae9f-2504332a6e15.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Source-governance process artifact, not a clinical qbank item.",
+        "missing_option_explanations:B",
+        "option_text_has_terminal_period:A,B,C,D,E"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "25a9fac0-146d-4b3d-ae9f-2504332a6e15",
+        "stem": "A supervisor reviews a family-counselling SBA draft and notices that every counselling point is highly specific, but none appears in the source excerpts. What is the best recommendation?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the item because counselling questions can rely on general clinical experience.",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Replace the item with one that tests recognition of source insufficiency, or skip it.",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "text": "Add external guideline-based counselling points without citing them.",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Keep the item if the options sound plausible.",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Move the item to another curriculum area without changing the facts.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Because the source excerpts do not contain explicit family-counselling content for procedural pain, the item should not be published in its current form. A safer alternative is to test recognition of source limitations, or to skip the item entirely.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 3,
+            "title": "Paediatric Surgery section listed in table of contents"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T01:12:34.221Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-01-ceb85d989f484a69bfd2",
+        "rationale": "Counselling items still need grounded source support.; When evidence is missing, reframing or skipping is safer than embellishing.; Plausible-sounding distractors do not make an unsupported item acceptable.",
+        "optionExplanations": {
+          "A": "General experience is not an acceptable substitute for explicit source support here.",
+          "C": "External uncited additions would breach the task rules.",
+          "D": "Plausibility is not the same as support.",
+          "E": "Changing the label does not solve the evidence problem."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B87-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwrzov60001rje46zxvxa1g",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3012820512820513,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "d7ab0757-e11b-43b9-8afb-8bace587c985",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Surgery",
+            "Pain management and procedural pain",
+            "counselling/adherence/prevention"
+          ],
+          "sourceRefs": [
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:33:30.370Z",
+            "reason": "Source-governance process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "38a5cc37-7c71-47d8-91c5-39f592cffa38",
+      "sourcePath": "drafts/_archived_style_blocked/38a5cc37-7c71-47d8-91c5-39f592cffa38.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Source-sufficiency process artifact, not a clinical qbank item.",
+        "missing_option_explanations:B",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "38a5cc37-7c71-47d8-91c5-39f592cffa38",
+        "stem": "Given the embedded source pack excerpts alone, which batch outcome is most defensible?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "A full 12-question BRUE and SIDS clinical batch with detailed counselling and management answers",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "A reduced or skipped batch, because the excerpts do not contain enough topic-specific examinable content",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "text": "A full batch written from standard paediatrics teaching, with internal citations added afterward",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "A mixed batch using obesity material as analogy for BRUE risk framing",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "A batch of SIDS prevention items verified from external Australian websites",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The available excerpts do not provide the necessary BRUE or SIDS prevention facts for a clinically meaningful 12-item SBA batch. In strict_internal mode, the defensible outcome is to reduce or skip the batch rather than generate unsupported questions.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          },
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 20,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.252Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-ebd3a708aee616fed96c",
+        "rationale": "Batch completion depends on source sufficiency, not just requested count.; Strict_internal mode prioritizes factual integrity over volume.; Skipping unsupported items is the correct conservative choice.",
+        "optionExplanations": {
+          "A": "This would require unsupported clinical detail not present in the excerpts.",
+          "C": "Post-hoc citation cannot legitimize unsupported content.",
+          "D": "Analogy from an unrelated obesity section would not be source-grounded.",
+          "E": "External sources are explicitly disallowed."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.2967032967032967,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "b0bc36c3-ebfc-488e-901d-1639928a376c",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "follow-up",
+            "source sufficiency"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack",
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.121Z",
+            "reason": "Source-sufficiency process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "40c00f41-db14-4a64-a4f9-65357c38994f",
+      "sourcePath": "drafts/_archived_style_blocked/40c00f41-db14-4a64-a4f9-65357c38994f.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Batch-governance artifact, not a clinical qbank item.",
+        "missing_option_explanations:D",
+        "option_text_has_terminal_period:A,B,C,D,E",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "40c00f41-db14-4a64-a4f9-65357c38994f",
+        "stem": "For long-term management and follow-up within this batch, which proposed action is safest under the supplied evidence constraints?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Write a follow-up item on preventing chronic postsurgical pain using known paediatric strategies.",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Write a monitoring item about adverse effects of nitrous oxide using standard teaching.",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Write a counselling item about home analgesia dosing from memory.",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Restrict the batch to questions whose correct answers are about source sufficiency and evidence limits, rather than unsupported clinical specifics.",
+            "isCorrect": true
+          },
+          {
+            "key": "E",
+            "text": "Use adult perioperative pain guidance and relabel it as paediatric surgery.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Given the paucity of topic-specific factual content in the provided excerpts, the safest batch content is limited to what can be answered directly from those excerpts: namely, recognition of source boundaries and evidence insufficiency. Specific clinical details would be unsupported.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 3,
+            "title": "Paediatric Surgery section listed in table of contents"
+          },
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 119,
+            "title": "Supportive treatment mention including pain management"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T01:12:34.658Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-01-ee1bdedeb71dd1abb818",
+        "rationale": "Evidence limits should shape the final item set.; Unsupported specifics should not be smuggled in through familiar teaching.; A conservative batch is preferable to an inaccurate one.",
+        "optionExplanations": {
+          "A": "Known strategies would rely on outside knowledge not present in the source pack.",
+          "B": "Standard teaching is not an allowed substitute for explicit citation here.",
+          "C": "Memory-based dosing advice would be unsupported and inappropriate.",
+          "E": "Relabelling adult guidance would be unsupported extrapolation."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B87-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwrzov60001rje46zxvxa1g",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3223140495867768,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "6c72d676-c792-4520-adcf-8e89d8713593",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Surgery",
+            "Pain management and procedural pain",
+            "long-term management/follow-up"
+          ],
+          "sourceRefs": [
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.128Z",
+            "reason": "Batch-governance artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "454afcd7-daf6-4f25-bb16-a4dc93cabfaf",
+      "sourcePath": "drafts/_archived_style_blocked/454afcd7-daf6-4f25-bb16-a4dc93cabfaf.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Batch-governance artifact, not a clinical qbank item.",
+        "missing_option_explanations:D",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "454afcd7-daf6-4f25-bb16-a4dc93cabfaf",
+        "stem": "Which drafting choice best protects against both unsupported content and overlap risk in this batch?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Recreate a familiar measles-style clue sequence from memory but change the age",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Paraphrase a past-question stem and add a new counselling line",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Use an unrelated TOF clinical scenario and replace the diagnosis with a rash",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Avoid writing unsupported exanthem items and prefer omission over recycled clue bundles",
+            "isCorrect": true
+          },
+          {
+            "key": "E",
+            "text": "Keep the same lead-in but change all option wording",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The safest way to avoid both invention and overlap is to avoid writing unsupported items at all. Recycled clue bundles, even with superficial changes, still risk overlap and remain unsupported if not grounded in the provided excerpts.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 2,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          },
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 174,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T00:25:50.336Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B50-attempt-01-5399e152cc9efc81bf51",
+        "rationale": "Originality and evidence rules should be handled together, not separately.; Superficial rewording is not a safe solution.; Omission is preferable to unsupported or overlap-prone drafting.",
+        "optionExplanations": {
+          "A": "Changing age alone does not remove overlap risk or solve the missing evidence problem.",
+          "B": "Superficial paraphrase can still preserve a distinctive clue bundle and remains unsupported.",
+          "C": "Swapping labels onto an unrelated scenario introduces invalid content.",
+          "E": "Changing option wording does not fix stem overlap or unsupported facts."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B50-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwqbli10001rje40ludckv5",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3125,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "c5dc24d3-b17e-43b0-b7ba-b4222b1621e9",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B50/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Sub-specialties",
+            "Dermatological infections, other important conditions, and exanthems",
+            "strict_internal",
+            "prevention/complication"
+          ],
+          "sourceRefs": [
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.132Z",
+            "reason": "Batch-governance artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "47a03b84-c983-42aa-adb6-37c04c554d37",
+      "sourcePath": "drafts/_archived_style_blocked/47a03b84-c983-42aa-adb6-37c04c554d37.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Batch-governance artifact, not a clinical qbank item.",
+        "missing_option_explanations:A",
+        "option_text_has_terminal_period:A,B,C,D,E"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "47a03b84-c983-42aa-adb6-37c04c554d37",
+        "stem": "During quality assurance of a notes-first batch, which issue most clearly represents a complication of poor evidence discipline rather than a clinical complication of pain management?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Introducing detailed local-anaesthetic advice that the source excerpts do not contain.",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "text": "Listing the curriculum area as Paediatric Surgery.",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Using internal citations only.",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Avoiding external facts in strict internal mode.",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Recognising that the excerpt set is incomplete.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The question asks about a workflow-level complication: poor evidence discipline. Adding detailed local-anaesthetic advice without explicit support would create unsupported examinable content, which is the main risk identified by the current source limitations.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 3,
+            "title": "Paediatric Surgery section listed in table of contents"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T01:12:34.412Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-01-8630fd1dc1a54c27d3ea",
+        "rationale": "Evidence-discipline failures are important workflow complications.; Unsupported detail can make a question invalid even if the topic is appropriate.; Metadata compliance does not compensate for factual overreach.",
+        "optionExplanations": {
+          "B": "This is appropriate metadata, not a problem.",
+          "C": "This is required by the task.",
+          "D": "This is also required by the task.",
+          "E": "Acknowledging incompleteness is prudent, not problematic."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B87-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwrzov60001rje46zxvxa1g",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3175675675675675,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "31cb0e18-ca07-49c2-8d4e-608d0f4ce764",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Surgery",
+            "Pain management and procedural pain",
+            "monitoring/complication"
+          ],
+          "sourceRefs": [
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.133Z",
+            "reason": "Batch-governance artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "65da72ce-8a8b-442c-8c9e-ebe0756e2d99",
+      "sourcePath": "drafts/_archived_style_blocked/65da72ce-8a8b-442c-8c9e-ebe0756e2d99.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Broken repair-message artifact with unrecoverable source content.",
+        "stem_does_not_end_with_question_mark",
+        "missing_option_explanations:A",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "65da72ce-8a8b-442c-8c9e-ebe0756e2d99",
+        "stem": "I can repair the draft, but the draft content was not included after \"Draft to repair:\". Please resend the invalid draft JSON or text for the 6 questions.",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Resend the draft content",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "text": "Keep the draft hidden",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Invent missing question content",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Use external citations",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Return non-JSON prose",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The source draft is missing, so the only valid next step is to provide it for repair.",
+        "citations": [
+          {
+            "type": "internal"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T01:06:15.563Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B81-attempt-01-b0ce2c0d62479f59599e",
+        "rationale": "The draft content was not included.; Repair requires the source material.; Resend the invalid draft to continue.",
+        "optionExplanations": {
+          "B": "Without the draft, there is nothing to repair faithfully.",
+          "C": "Inventing content would violate the repo and user constraints.",
+          "D": "The user explicitly said not to add external citations.",
+          "E": "The user requested JSON only."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": null,
+        "source": {
+          "batchId": "B81-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwrrkv80001rjkuz1q62quu",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.2421875,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "1a861924-fa2d-4d03-a18a-3adf9cf026d0",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B81/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Surgery",
+            "General Paediatrics"
+          ],
+          "sourceRefs": [
+            "unknown"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.150Z",
+            "reason": "Broken repair-message artifact with unrecoverable source content."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "7a11500f-d836-4e73-91b1-34736ceb2b11",
+      "sourcePath": "drafts/_archived_style_blocked/7a11500f-d836-4e73-91b1-34736ceb2b11.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Source-governance process artifact, not a clinical qbank item.",
+        "missing_option_explanations:B",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "7a11500f-d836-4e73-91b1-34736ceb2b11",
+        "stem": "A colleague wants to satisfy the target count by writing SIDS-prevention counselling questions with generic answer choices such as sleep advice, follow-up, and reassurance. Why is this still unsafe?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Generic answer choices do not need explicit source support",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Even broad counselling options imply clinical facts that are not provided in the excerpts",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "text": "Counselling questions are banned by the style mix",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Only management questions, not counselling questions, require citations",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "SIDS counselling is allowed only if paired with obesity counselling",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Broad answer choices still depend on factual content. For example, what advice is appropriate, what reassurance is accurate, and what follow-up is indicated are all clinical claims. Because the provided excerpts do not include SIDS prevention recommendations, those questions would still be unsupported.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.226Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-e5ff1ffc69339bce6349",
+        "rationale": "Vague wording does not solve a source-evidence gap.; Counselling options still encode clinical content.; Target count should not override strict source grounding.",
+        "optionExplanations": {
+          "A": "Source support is still required, even for broad wording.",
+          "C": "The style mix actually prefers counselling and explanation items.",
+          "D": "The task requires citations for all items.",
+          "E": "There is no such rule in the prompt or source pack."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.304093567251462,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "6a8f815d-e1cc-4e24-9b01-475e4f59d18d",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "counselling",
+            "source sufficiency"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:33:30.542Z",
+            "reason": "Source-governance process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "7d1767a1-8ee3-402f-a7c2-65c1ace362ce",
+      "sourcePath": "drafts/_archived_style_blocked/7d1767a1-8ee3-402f-a7c2-65c1ace362ce.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Source-sufficiency process artifact, not a clinical qbank item.",
+        "missing_option_explanations:C",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "7d1767a1-8ee3-402f-a7c2-65c1ace362ce",
+        "stem": "The current source pack excerpts do not contain enough BRUE or SIDS factual content to support a grounded SBA item in strict_internal mode. What is the safest action for this batch?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Generate all 12 questions from general paediatrics knowledge without citations",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Use the obesity excerpt to infer likely BRUE and SIDS management principles",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Draft only questions whose examinable claims are explicitly supported, and otherwise skip the batch",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "text": "Use question-bank style clues as factual authority because overlap risk is low",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Browse Australian guidelines to complete the missing details",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "In strict_internal mode, unsupported examinable facts must not be invented. The provided excerpts show the study notes contents page, including that Brief Resolved Unexplained Episode (BRUE) appears in the notes, and an unrelated obesity page. They do not provide sufficient BRUE or SIDS prevention content to write clinically valid, source-grounded SBA items. The conservative and correct action is to skip unsupported items rather than invent details.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          },
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 20,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.110Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-230466765095114c3c6d",
+        "rationale": "strict_internal requires source-grounded examinable claims.; A contents page alone is not enough to support clinical SBA drafting.; When the source pack is incomplete, the batch should be narrowed or skipped rather than invented.",
+        "optionExplanations": {
+          "A": "This would violate the instruction to use only the embedded source pack and internal citations.",
+          "B": "The obesity excerpt is unrelated to BRUE and SIDS prevention and cannot support those examinable claims.",
+          "D": "The prompt explicitly says the question zip must never be used as factual authority.",
+          "E": "The prompt explicitly says not to browse and not to use external sources."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3125,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "1f9aeac7-1733-4d83-aa43-597a8532ed10",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "strict_internal",
+            "source sufficiency"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack",
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.161Z",
+            "reason": "Source-sufficiency process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "9298bcbb-bcbf-4506-ac07-a925c22f9918",
+      "sourcePath": "drafts/_archived_style_blocked/9298bcbb-bcbf-4506-ac07-a925c22f9918.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Publication-governance process artifact, not a clinical qbank item.",
+        "missing_option_explanations:D",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "9298bcbb-bcbf-4506-ac07-a925c22f9918",
+        "stem": "A reviewer is checking whether a proposed stem about measles severity and referral is acceptable for this batch. Which finding most strongly argues that the item should be rejected before publication?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "The draft uses SI units where relevant",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "The draft has five options A-E",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "The draft includes one best answer",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "The draft relies on details not present in the provided source excerpts",
+            "isCorrect": true
+          },
+          {
+            "key": "E",
+            "text": "The draft is written in Australian English",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Format alone is not enough. Even if a stem looks structurally correct, it must still be grounded in the allowed internal source material. Unsupported measles severity or referral details should be rejected in this call.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 2,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          },
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 174,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T00:25:50.272Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B50-attempt-01-d48f72a16debd1c98526",
+        "rationale": "Schema compliance does not replace source grounding.; Unsupported clinical detail should block publication in strict internal mode.; Evidence validity is a higher-order gate than formatting alone.",
+        "optionExplanations": {
+          "A": "SI units help style compliance but do not establish evidentiary support.",
+          "B": "Having five options is required, but it does not address factual grounding.",
+          "C": "A single best answer is required, but unsupported facts still fail the batch rules.",
+          "E": "Australian framing is required, but it cannot rescue a factually unsupported question."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B50-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwqbli10001rje40ludckv5",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3268292682926829,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "4a549f7c-7add-47d6-9474-53de9dc28280",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B50/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Sub-specialties",
+            "Dermatological infections, other important conditions, and exanthems",
+            "strict_internal",
+            "diagnostic discrimination"
+          ],
+          "sourceRefs": [
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:33:30.565Z",
+            "reason": "Publication-governance process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "c5051ef7-0875-475a-955d-8dbdc9f823a7",
+      "sourcePath": "drafts/_archived_style_blocked/c5051ef7-0875-475a-955d-8dbdc9f823a7.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Source-sufficiency process artifact, not a clinical qbank item.",
+        "missing_option_explanations:A",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "c5051ef7-0875-475a-955d-8dbdc9f823a7",
+        "stem": "A learner wants to know whether detailed recurrent-febrile-UTI imaging pathways can be taught from this source pack alone. What is the best answer?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "No; the provided excerpts do not supply that level of detail, so a conservative batch should avoid it",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "text": "Yes; the heading 'UTI' is enough to infer the full pathway",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Yes; the notes explicitly describe DMSA and MCUG timing",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "Yes; question-bank style can be used to fill any gaps",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "No; because renal imaging is excluded from the renal section",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The provided excerpts show that UTI and Renal Tract Imaging are topics in the renal section, but they do not provide detailed recurrent-febrile-UTI imaging pathways. In strict_internal mode, that missing detail should not be invented.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 2,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T00:09:29.723Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B42-attempt-01-ab93f387b3b518996fe8",
+        "rationale": "The source pack confirms topic presence but not full pathway detail.; Strict internal mode requires restraint when details are missing.; Avoid recreating high-overlap recurrent-febrile-UTI stem families without direct support.",
+        "optionExplanations": {
+          "B": "A topic heading alone does not justify inferring a full clinical pathway.",
+          "C": "The provided excerpts do not explicitly describe DMSA or MCUG timing.",
+          "D": "Question-bank style is not an allowed factual authority in this call.",
+          "E": "This is incorrect because Renal Tract Imaging is explicitly included in the renal section contents."
+        },
+        "moduleCode": null,
+        "difficulty": "Hard",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B42-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwpqkvg0001rj3ck4jf8vnh",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3333333333333333,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "3da49985-8260-4508-ad92-b0770aa6555c",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B42/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Sub-specialties",
+            "UTI and renal tract imaging",
+            "complication prevention",
+            "scope control",
+            "originality"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.195Z",
+            "reason": "Source-sufficiency process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "c65da458-d917-4b9a-8527-4d50a2264bfc",
+      "sourcePath": "drafts/_archived_style_blocked/c65da458-d917-4b9a-8527-4d50a2264bfc.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Drafting-process artifact, not a clinical qbank item.",
+        "missing_option_explanations:C",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "c65da458-d917-4b9a-8527-4d50a2264bfc",
+        "stem": "During strict-internal drafting, a teammate suggests filling missing BRUE counselling content from memory because the topic is common in paediatrics. What is the best response?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept, because common paediatrics knowledge is allowed when the topic is familiar",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Accept, provided the final wording is original",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Decline, because unsupported examinable facts must not be added from memory",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "text": "Accept, if no external citations are attached",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Accept, because only explanations, not stems, need source support",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The prompt is explicit: only the embedded source pack may be used, evidence mode is strict_internal, and unsupported examinable facts must not be added. Familiarity with the topic does not justify drafting from memory.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          },
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 20,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.156Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-828c23035854866f3478",
+        "rationale": "Memory is not an acceptable substitute for internal evidence in strict_internal mode.; Originality rules do not permit unsupported facts.; Conservative skipping is safer than speculative drafting.",
+        "optionExplanations": {
+          "A": "Topic familiarity does not override strict source restrictions.",
+          "B": "Original wording does not make unsupported facts acceptable.",
+          "D": "Omitting citations does not fix the lack of internal evidence.",
+          "E": "Both stems and answer logic depend on factual support."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "7d1767a1-8ee3-402f-a7c2-65c1ace362ce",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "workflow safety",
+            "counselling"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack",
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.197Z",
+            "reason": "Drafting-process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "c7d73df5-06a0-468e-acd4-faf745a81dc4",
+      "sourcePath": "drafts/_archived_style_blocked/c7d73df5-06a0-468e-acd4-faf745a81dc4.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Question-authoring process artifact, not a clinical qbank item.",
+        "missing_option_explanations:C",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "c7d73df5-06a0-468e-acd4-faf745a81dc4",
+        "stem": "A writer wants to keep the batch moving and proposes using the question zip style to reconstruct likely exanthem facts. Which response is most appropriate?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept it, because exam flavour is enough to rebuild the missing facts",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Accept it if the options are substantially reworded",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Reject it, because exam flavour cannot replace note-derived factual support",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "text": "Accept it if the explanation is cautious",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Accept it for complication questions only",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The instructions explicitly separate exam flavour from factual authority. If the notes excerpt does not provide the examinable content, the writer should not reconstruct it from remembered or inferred question-bank material.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+            "page": 2,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-19T00:25:50.298Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B50-attempt-01-01e28c6c7066326b18d6",
+        "rationale": "Question-bank flavour cannot substitute for source-grounded clinical facts.; Original wording does not make unsupported content valid.; Notes-first evidence rules still apply when overlap risk is moderate.",
+        "optionExplanations": {
+          "A": "Exam flavour is not the same as factual authority.",
+          "B": "Rewording does not solve the problem of unsupported content.",
+          "D": "Cautious tone does not make unsupported facts acceptable.",
+          "E": "The restriction applies across question purposes, including complications."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B50-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwqbli10001rje40ludckv5",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3481481481481482,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "2266c5cf-0007-46e7-8795-4c78f49ef839",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B50/attempt-01.accepted-import.json",
+          "originalTags": [
+            "Paediatric Sub-specialties",
+            "Dermatological infections, other important conditions, and exanthems",
+            "strict_internal",
+            "prevention/complication"
+          ],
+          "sourceRefs": [
+            "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:33:30.656Z",
+            "reason": "Question-authoring process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "d7150f2b-ecac-4fd6-8a0b-6c27b71f0686",
+      "sourcePath": "drafts/_archived_style_blocked/d7150f2b-ecac-4fd6-8a0b-6c27b71f0686.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Drafting-process artifact, not a clinical qbank item.",
+        "missing_option_explanations:A",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "d7150f2b-ecac-4fd6-8a0b-6c27b71f0686",
+        "stem": "A draft writer wants to create a question asking for the definition of BRUE. Based on the provided excerpts, which justification best supports declining that item?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "The excerpts mention BRUE in the table of contents but do not provide the definition itself",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "text": "BRUE is not listed anywhere in the source pack",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "The obesity section contains enough indirect information to define BRUE",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "text": "SIDS prevention guidance can be used to reconstruct the BRUE definition",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Definitions are exempt from citation requirements in strict_internal mode",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The contents page confirms that BRUE is a topic in the notes, but the actual defining criteria are not present in the excerpts provided. Without those details, a definition question would require unsupported knowledge and should not be drafted in strict_internal mode.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.135Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-05405c2f81a24cb013f7",
+        "rationale": "Topic presence in a table of contents does not equal factual support for a question.; Definition items still require explicit internal evidence.; Unsupported BRUE definition content should be skipped.",
+        "optionExplanations": {
+          "B": "BRUE is explicitly listed in the table of contents excerpt.",
+          "C": "The obesity page is unrelated and does not define BRUE.",
+          "D": "No SIDS prevention content is provided that could support reconstructing a BRUE definition.",
+          "E": "The task requires citations, and strict_internal does not waive source grounding for definitions."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "7d1767a1-8ee3-402f-a7c2-65c1ace362ce",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "definition",
+            "source sufficiency"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:23:38.205Z",
+            "reason": "Drafting-process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "e3b9f760-894b-4c16-93c5-1e9ce5f54f6c",
+      "sourcePath": "drafts/_archived_style_blocked/e3b9f760-894b-4c16-93c5-1e9ce5f54f6c.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Citation-governance process artifact, not a clinical qbank item.",
+        "missing_option_explanations:C",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "e3b9f760-894b-4c16-93c5-1e9ce5f54f6c",
+        "stem": "Which citation practice best matches the instructions for this batch when factual support is limited?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "Use external guideline citations for the stem and internal citations for the explanation",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "Use question-bank citations because they match exam style",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "Use internal citations only, and do not draft unsupported clinical claims",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "text": "Cite the batch metadata because it names the subtopics",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "Omit citations if the topic is standard undergraduate paediatrics",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The task requires internal citations only and explicitly forbids external sources. Metadata and topic labels are workflow guidance, not examinable factual source material. Where factual support is absent, the correct approach is to avoid drafting unsupported claims rather than padding with improper citations.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.208Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-baa173d920ab1283bedf",
+        "rationale": "Citations must be internal only.; Workflow metadata is not a substitute for clinical source content.; If support is missing, skip the item rather than mis-cite it.",
+        "optionExplanations": {
+          "A": "External citations are not allowed in strict_internal mode for this call.",
+          "B": "The question zip is not to be used as factual authority.",
+          "D": "Operational metadata does not provide examinable clinical facts.",
+          "E": "The output requirements still require citations."
+        },
+        "moduleCode": null,
+        "difficulty": "Basic",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3258426966292135,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "c5dc24d3-b17e-43b0-b7ba-b4222b1621e9",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "counselling",
+            "citations"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:33:30.711Z",
+            "reason": "Citation-governance process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    },
+    {
+      "id": "eefa99f5-b215-48fb-9a61-2b92472a26b5",
+      "sourcePath": "drafts/_archived_style_blocked/eefa99f5-b215-48fb-9a61-2b92472a26b5.json",
+      "currentLocation": "drafts/_archived_style_blocked",
+      "nonPublishableReasons": [
+        "archived_style_blocked",
+        "Source-governance process artifact, not a clinical qbank item.",
+        "missing_option_explanations:C",
+        "learner_facing_source_or_drafting_process_language"
+      ],
+      "chatgptTask": "Create a publishable CAH QBank single-best-answer clinical question. Preserve the id, status, citations, tags, curriculum, sourceFingerprint, createdAt, and createdBy unless a field is impossible to preserve. Return the corrected question in fixedQuestion using the same JSON shape as originalQuestion. The fixed question must have exactly five options A-E, exactly one correct option, a learner-facing clinical stem ending in a question mark, non-empty explanation, optionExplanations for A-E, no source/drafting/batch/process wording, no markdown, and no terminal periods in option text.",
+      "originalQuestion": {
+        "id": "eefa99f5-b215-48fb-9a61-2b92472a26b5",
+        "stem": "Which statement best reflects how the CAH Bible should be used in this specific call?",
+        "questionType": "SBA",
+        "options": [
+          {
+            "key": "A",
+            "text": "It can be used freely to supply missing BRUE and SIDS details even if not excerpted",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "text": "It can replace the Louisa notes because both are internal",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "text": "It can only clarify gaps if relevant content is actually present in the allowed source pack excerpts",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "text": "It must be preferred over the Louisa notes for prevention topics",
+            "isCorrect": false
+          },
+          {
+            "key": "E",
+            "text": "It is equivalent to external web material in strict_internal mode",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The prompt states that Louisa notes come first and the CAH Bible is second for gaps or clarification only. However, this call restricts factual content to the embedded source pack excerpts. That means the CAH Bible can only help if relevant CAH Bible content is actually included in those excerpts, which it is not.",
+        "citations": [
+          {
+            "type": "internal",
+            "source": "Retrieved internal source pack",
+            "page": 1,
+            "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+          }
+        ],
+        "tags": [
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "status": "draft",
+        "createdBy": "ai",
+        "createdAt": "2026-03-18T21:25:25.240Z",
+        "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-8029bc056cef83095eda",
+        "rationale": "Source priority still matters under strict_internal constraints.; Unretrieved internal material is not available evidence.; CAH Bible use is conditional and secondary in this call.",
+        "optionExplanations": {
+          "A": "Unexcerpted internal documents are not part of the allowed corpus for this call.",
+          "B": "Source priority still places Louisa notes first, and neither source can be used if not excerpted.",
+          "D": "This reverses the stated source priority.",
+          "E": "The CAH Bible is internal, but only excerpted internal material is allowed here."
+        },
+        "moduleCode": null,
+        "difficulty": "Intermediate",
+        "ausScore": 1,
+        "source": {
+          "batchId": "B19-attempt-01",
+          "generationMethod": "manual_chatgpt_pro_import",
+          "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+          "localSimilarityCheck": {
+            "maxOverlap": 0.3362068965517241,
+            "mode": "trigram_overlap_only",
+            "overlapQuestionId": "ba914e59-a3a1-4d26-b997-3f2dc1484760",
+            "threshold": 0.35
+          },
+          "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+          "originalTags": [
+            "General Paediatrics",
+            "BRUE and SIDS prevention",
+            "management",
+            "source priority"
+          ],
+          "sourceRefs": [
+            "Retrieved internal source pack"
+          ],
+          "strictness": "strict_internal",
+          "promotionReadiness": {
+            "status": "ready_for_published_practice",
+            "blockers": [],
+            "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+            "preparedAt": "2026-04-23T07:09:20.779Z"
+          },
+          "stylePolishArchive": {
+            "archivedAt": "2026-04-23T07:33:30.736Z",
+            "reason": "Source-governance process artifact, not a clinical qbank item."
+          }
+        }
+      },
+      "fixedQuestion": null
+    }
+  ]
+}

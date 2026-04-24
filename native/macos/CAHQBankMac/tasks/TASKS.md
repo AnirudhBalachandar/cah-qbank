@@ -6,10 +6,12 @@
    Id: 1-learner-ui-shell
    Scope: Native macOS learner UI
    Files: Sources/App,Sources/ViewModels,Sources/Views,Tests/UI
-   Note: Starting learner UI implementation in App/ViewModels/Views with focused UI tests
+   Note: Closed stale learner-ui-shell claim after current macOS/iOS app verification, physical iPhone install, and TestFlight upload work completed.
    Detail: tasks/details/1-learner-ui-shell.md
    Claimed by: WORKER3
    Claimed at: 2026-04-22T22:24:04Z
+   Done by: CODEX
+   Done at: 2026-04-24T21:41:12Z
 
 2. repo-link-date-parse
    Id: 2-repo-link-date-parse

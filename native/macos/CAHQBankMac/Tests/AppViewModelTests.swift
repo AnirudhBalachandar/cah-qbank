@@ -4,6 +4,23 @@ import XCTest
 
 @MainActor
 final class AppViewModelTests: XCTestCase {
+    func testAppViewModelUsesInjectedServiceProvider() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(id: "q-1")
+        ])
+        defer { try? repo.cleanup() }
+
+        let provider = try SpyServiceProvider(context: repo.context)
+        let defaults = makeIsolatedUserDefaults()
+        let model = AppViewModel(userDefaults: defaults, serviceProvider: provider)
+
+        await model.setPreferredRepoRoot(repo.rootURL)
+
+        XCTAssertTrue(model.hasLinkedRepo)
+        XCTAssertEqual(provider.configurations.count, 1)
+        XCTAssertEqual(provider.configurations.first?.explicitRepoRootURL?.path, repo.rootURL.standardizedFileURL.path)
+    }
+
     func testSetPreferredRepoRootLoadsPinnedRepoState() async throws {
         let repo = try TemporaryRepo(questions: [
             fixtureQuestion(id: "q-1", tags: ["general-paediatrics", "respiratory"])
@@ -174,5 +191,19 @@ final class AppViewModelTests: XCTestCase {
             defaults.removePersistentDomain(forName: suiteName)
         }
         return defaults
+    }
+}
+
+private final class SpyServiceProvider: QBankServiceProviding {
+    private let service: QBankService
+    var configurations: [RepoLinkConfiguration] = []
+
+    init(context: RepoContext) throws {
+        service = try QBankService(context: context)
+    }
+
+    func connectedService(configuration: RepoLinkConfiguration) throws -> QBankService {
+        configurations.append(configuration)
+        return service
     }
 }

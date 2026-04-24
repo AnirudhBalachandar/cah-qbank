@@ -1,5 +1,15 @@
 import Foundation
 
+protocol QBankServiceProviding {
+    func connectedService(configuration: RepoLinkConfiguration) throws -> QBankService
+}
+
+struct LocalRepoQBankServiceProvider: QBankServiceProviding {
+    func connectedService(configuration: RepoLinkConfiguration) throws -> QBankService {
+        try QBankService.connectedToLocalRepo(configuration: configuration)
+    }
+}
+
 @MainActor
 final class AppViewModel: ObservableObject {
     private static let preferredRepoRootDefaultsKey = "preferredRepoRootPath"
@@ -35,6 +45,7 @@ final class AppViewModel: ObservableObject {
     @Published var practiceQuestionCount = 20
 
     private let userDefaults: UserDefaults
+    private let serviceProvider: QBankServiceProviding
     private var service: QBankService?
     private var bootstrapped = false
     private var loadingOperationCount = 0 {
@@ -47,8 +58,12 @@ final class AppViewModel: ObservableObject {
     private var browseLoadGeneration = 0
     private var questionSelectionGeneration = 0
 
-    init(userDefaults: UserDefaults = .standard) {
+    init(
+        userDefaults: UserDefaults = .standard,
+        serviceProvider: QBankServiceProviding = LocalRepoQBankServiceProvider()
+    ) {
         self.userDefaults = userDefaults
+        self.serviceProvider = serviceProvider
         preferredRepoRootPath = userDefaults.string(forKey: Self.preferredRepoRootDefaultsKey)
     }
 
@@ -281,7 +296,7 @@ final class AppViewModel: ObservableObject {
             let explicitRepoRootURL = preferredRepoRootPath.flatMap { path in
                 URL(fileURLWithPath: path, isDirectory: true)
             }
-            let service = try QBankService.connectedToLocalRepo(
+            let service = try serviceProvider.connectedService(
                 configuration: RepoLinkConfiguration(explicitRepoRootURL: explicitRepoRootURL)
             )
             let resolvedRepoRootPath = await service.repoRootPath()

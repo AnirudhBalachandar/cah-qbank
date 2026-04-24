@@ -124,7 +124,7 @@ Current release settings:
 - Bundle identifier: `com.anirudhbalachandar.CAHQBank.iOS`
 - Team ID: `3DELSD6G98`
 - Version: `1.0`
-- Build: `2`
+- Build: `3`
 - Distribution goal: internal TestFlight first.
 
 Simulator verification:

@@ -45,8 +45,8 @@ for slot in iconSlots {
         pixelsWide: slot.pixels,
         pixelsHigh: slot.pixels,
         bitsPerSample: 8,
-        samplesPerPixel: 4,
-        hasAlpha: true,
+        samplesPerPixel: 3,
+        hasAlpha: false,
         isPlanar: false,
         colorSpaceName: .deviceRGB,
         bytesPerRow: 0,
@@ -74,7 +74,7 @@ print("Generated \(iconSlots.count) app icon files in \(outputDirectory.path)")
 private func drawIcon(size: CGFloat) {
     let canvas = NSRect(x: 0, y: 0, width: size, height: size)
     NSColor(calibratedRed: 0.04, green: 0.12, blue: 0.22, alpha: 1).setFill()
-    NSBezierPath(roundedRect: canvas, xRadius: size * 0.22, yRadius: size * 0.22).fill()
+    NSBezierPath(rect: canvas).fill()
 
     let topBand = NSRect(x: 0, y: size * 0.56, width: size, height: size * 0.44)
     NSColor(calibratedRed: 0.05, green: 0.36, blue: 0.36, alpha: 1).setFill()

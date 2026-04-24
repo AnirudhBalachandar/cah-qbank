@@ -118,6 +118,15 @@ com.anirudhbalachandar.CAHQBank.iOS
 
 The current iPhone target is an iPhone-only target named `CAHQBankiOS`. It shares the Swift model/service layer with the Mac app and has its own SwiftUI shell.
 
+Current release settings:
+
+- Display name: `CAH QBank`
+- Bundle identifier: `com.anirudhbalachandar.CAHQBank.iOS`
+- Team ID: `3DELSD6G98`
+- Version: `1.0`
+- Build: `2`
+- Distribution goal: internal TestFlight first.
+
 Simulator verification:
 
 ```bash
@@ -129,4 +138,36 @@ xcodebuild \
   test
 ```
 
-For device, TestFlight, or App Store distribution, configure an Apple Development or Apple Distribution signing team in Xcode or via release-specific build settings, then archive the `CAHQBankiOS` scheme for iOS. Do not use the Mac Developer ID DMG workflow for iPhone builds.
+Release preflight:
+
+```bash
+native/macos/CAHQBankMac/scripts/preflight-ios-release.sh
+```
+
+Archive for iOS distribution:
+
+```bash
+native/macos/CAHQBankMac/scripts/release-ios.sh
+```
+
+Create a local App Store Connect IPA export without uploading:
+
+```bash
+native/macos/CAHQBankMac/scripts/release-ios.sh --export --skip-archive
+```
+
+Expected local export:
+
+```text
+native/macos/CAHQBankMac/build/ios-release/export/CAH QBank.ipa
+```
+
+Upload the archived build to App Store Connect for internal TestFlight only after explicit action-time confirmation and after confirming the App Store Connect app record:
+
+```bash
+CONFIRM_IOS_UPLOAD=YES native/macos/CAHQBankMac/scripts/release-ios.sh --upload --skip-archive
+```
+
+For device, TestFlight, or App Store distribution, use Apple Development or Apple Distribution signing for the `CAHQBankiOS` scheme. Do not use the Mac Developer ID DMG workflow for iPhone builds.
+
+Physical iPhone installation from Xcode or `devicectl` requires Developer Mode to be enabled on the iPhone. If installation fails with `Developer Mode is disabled`, enable it on the device under Settings > Privacy & Security > Developer Mode, then restart and confirm on the iPhone before retrying the install.

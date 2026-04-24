@@ -40,6 +40,7 @@ schemes:
       config: Debug
       targets:
         - CAHQBankiOSTests
+        - CAHQBankiOSUITests
     profile:
       config: Release
     analyze:
@@ -95,9 +96,11 @@ targets:
       base:
         INFOPLIST_FILE: Sources/iOS/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.anirudhbalachandar.CAHQBank.iOS
+        DEVELOPMENT_TEAM: 3DELSD6G98
+        CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
-        CURRENT_PROJECT_VERSION: 1
+        CURRENT_PROJECT_VERSION: 2
         MARKETING_VERSION: 1.0
         TARGETED_DEVICE_FAMILY: 1
 
@@ -128,5 +131,24 @@ targets:
       base:
         INFOPLIST_FILE: Tests/iOSTests/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.anirudhbalachandar.CAHQBank.iOSTests
+        DEVELOPMENT_TEAM: 3DELSD6G98
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - target: CAHQBankiOS
+
+  CAHQBankiOSUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    bundleId: com.anirudhbalachandar.CAHQBank.iOSUITests
+    sources:
+      - path: Tests/iOSUITests
+        type: syncedFolder
+    settings:
+      base:
+        INFOPLIST_FILE: Tests/iOSUITests/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.anirudhbalachandar.CAHQBank.iOSUITests
+        DEVELOPMENT_TEAM: 3DELSD6G98
+        CODE_SIGN_STYLE: Automatic
+        TEST_TARGET_NAME: CAHQBankiOS
     dependencies:
       - target: CAHQBankiOS

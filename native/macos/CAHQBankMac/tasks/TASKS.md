@@ -33,3 +33,14 @@
    Done by: CODEX
    Done at: 2026-04-23T05:13:27Z
 
+4. iphone-major-redesign
+   Id: 4-iphone-major-redesign
+   Scope: Redesign CAHQBankiOS for iPhone and prepare internal TestFlight readiness
+   Files: Sources/iOS project.yml docs/release.md
+   Note: Implemented iPhone redesign and TestFlight packaging readiness; simulator/unit/UI tests, unsigned device build, preflight, archive, and local App Store Connect export passed; physical install is blocked until Developer Mode is enabled on the iPhone.
+   Detail: tasks/details/4-iphone-major-redesign.md
+   Claimed by: CODEX
+   Claimed at: 2026-04-24T13:59:55Z
+   Done by: CODEX
+   Done at: 2026-04-24T14:46:12Z
+

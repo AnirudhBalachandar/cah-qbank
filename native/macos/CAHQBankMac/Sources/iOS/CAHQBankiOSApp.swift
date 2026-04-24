@@ -3,7 +3,7 @@ import SwiftUI
 @main
 struct CAHQBankiOSApp: App {
     @StateObject private var model = AppViewModel(
-        serviceProvider: UnavailableQBankServiceProvider()
+        serviceProvider: BundledDatabaseQBankServiceProvider()
     )
 
     var body: some Scene {

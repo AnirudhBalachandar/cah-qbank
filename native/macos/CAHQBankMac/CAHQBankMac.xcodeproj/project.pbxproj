@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7361F79F91B7C13D83FAAD85 /* bundled-cah.db in Resources */ = {isa = PBXBuildFile; fileRef = FF937B4DB7D28AA69001D34D /* bundled-cah.db */; };
+		8C4854E0098037A66C2E6CE4 /* bundled-cah.db in Resources */ = {isa = PBXBuildFile; fileRef = FF937B4DB7D28AA69001D34D /* bundled-cah.db */; };
+		92DB095D0673CA799E3C36E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113DAC47B5DF3C9FF4067B76 /* Assets.xcassets */; };
+		ACB012F544DB6D054F994475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113DAC47B5DF3C9FF4067B76 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7C93177219E4ABB3F157C414 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,10 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113DAC47B5DF3C9FF4067B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672162864447F96D6D1854C6 /* CAHQBankiOSTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CAHQBankiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF010F49E1963E84512D77A8 /* CAHQBankMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAHQBankMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC3250009F1940F51F154A0 /* CAHQBankMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAHQBankMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76F8D928E5ADDFAD5390499 /* CAHQBankiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CAHQBankiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF937B4DB7D28AA69001D34D /* bundled-cah.db */ = {isa = PBXFileReference; path = "bundled-cah.db"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -126,6 +135,7 @@
 		318719D977571959CB3B9744 = {
 			isa = PBXGroup;
 			children = (
+				CF3340CC931EBD29C9D5687B /* Resources */,
 				BCE638D724C65E38CCAF90C1 /* Sources/iOS */,
 				E6B81031EA5C6F65FA263EEE /* Sources/Mac */,
 				9F1985795D5A7A192B4D27FE /* Sources/Shared */,
@@ -145,6 +155,15 @@
 				CAC3250009F1940F51F154A0 /* CAHQBankMacTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3340CC931EBD29C9D5687B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				113DAC47B5DF3C9FF4067B76 /* Assets.xcassets */,
+				FF937B4DB7D28AA69001D34D /* bundled-cah.db */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DB095D0673CA799E3C36E2 /* Assets.xcassets in Resources */,
+				8C4854E0098037A66C2E6CE4 /* bundled-cah.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB012F544DB6D054F994475 /* Assets.xcassets in Resources */,
+				7361F79F91B7C13D83FAAD85 /* bundled-cah.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

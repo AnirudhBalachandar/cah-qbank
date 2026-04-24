@@ -23,8 +23,14 @@ enum QBankServiceError: LocalizedError {
     }
 }
 
+enum QBankContentMode: Sendable {
+    case repoFiles
+    case databaseOnly
+}
+
 actor QBankService {
     private let context: RepoContext
+    private let contentMode: QBankContentMode
     private let database: SQLiteDatabase
     private let synchronizer = ContentSynchronizer()
     private var hasSynced = false
@@ -39,8 +45,9 @@ actor QBankService {
     private let moduleCompletionAccuracyThreshold = 80.0
     private let moduleCompletionEloThreshold = 1100.0
 
-    init(context: RepoContext) throws {
+    init(context: RepoContext, contentMode: QBankContentMode = .repoFiles) throws {
         self.context = context
+        self.contentMode = contentMode
         self.database = try SQLiteDatabase(path: context.databaseURL.path)
         try self.database.ensureSchema()
         try Self.normalizeLegacyDateColumns(in: self.database)
@@ -66,6 +73,10 @@ actor QBankService {
                 tagCount: 0,
                 questionTagCount: 0
             )
+        }
+        if contentMode == .databaseOnly {
+            hasSynced = true
+            return try currentDatabaseReport()
         }
         let report = try synchronizer.sync(using: context, database: database)
         hasSynced = true
@@ -714,6 +725,18 @@ actor QBankService {
 
     private func scalarInt(_ sql: String, bindings: [SQLiteBindValue] = []) throws -> Int {
         try database.query(sql, bindings: bindings).first?.int("count") ?? 0
+    }
+
+    private func currentDatabaseReport() throws -> RepoSyncReport {
+        try RepoSyncReport(
+            databaseURL: context.databaseURL,
+            questionCount: scalarInt("SELECT COUNT(*) AS count FROM Question;"),
+            publishedCount: scalarInt("SELECT COUNT(*) AS count FROM Question WHERE status = 'published';"),
+            draftCount: scalarInt("SELECT COUNT(*) AS count FROM Question WHERE status = 'draft';"),
+            answerablePublishedCount: scalarInt("SELECT COUNT(*) AS count FROM Question WHERE status = 'published' AND isAnswerable = 1;"),
+            tagCount: scalarInt("SELECT COUNT(*) AS count FROM Tag;"),
+            questionTagCount: scalarInt("SELECT COUNT(*) AS count FROM QuestionTag;")
+        )
     }
 
     private func fetchTagSummaries(kinds: [TagKind]) throws -> [PracticeTagSummary] {

@@ -59,8 +59,10 @@ targets:
         type: syncedFolder
       - path: Sources/Mac
         type: syncedFolder
-    resources:
-      - Resources
+      - path: Resources/Assets.xcassets
+        buildPhase: resources
+      - path: Resources/bundled-cah.db
+        buildPhase: resources
     settings:
       base:
         INFOPLIST_FILE: Sources/Info.plist
@@ -85,8 +87,10 @@ targets:
         type: syncedFolder
       - path: Sources/iOS
         type: syncedFolder
-    resources:
-      - Resources
+      - path: Resources/Assets.xcassets
+        buildPhase: resources
+      - path: Resources/bundled-cah.db
+        buildPhase: resources
     settings:
       base:
         INFOPLIST_FILE: Sources/iOS/Info.plist

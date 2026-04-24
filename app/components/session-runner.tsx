@@ -56,6 +56,7 @@ export function SessionRunner({
     Object.fromEntries(questions.map((question) => [question.id, question.noteMarkdown])),
   )
   const [noteStatus, setNoteStatus] = useState<string>("")
+  const [summaryVisible, setSummaryVisible] = useState(false)
 
   const currentQuestion = questions[currentIndex] ?? questions[0]
   if (!currentQuestion) {
@@ -74,6 +75,11 @@ export function SessionRunner({
   const answeredCount = Object.keys(answers).length
   const unlockedIndex = Math.min(Math.max(initialIndex, answeredCount), Math.max(questions.length - 1, 0))
   const correctCount = Object.values(answers).filter((attempt) => attempt.isCorrect).length
+  const incorrectCount = Object.values(answers).filter((attempt) => !attempt.isCorrect).length
+  const unansweredCount = Math.max(questions.length - answeredCount, 0)
+  const isComplete = answeredCount >= questions.length || summaryVisible
+  const scorePercent = answeredCount === 0 ? 0 : Math.round((correctCount / answeredCount) * 100)
+  const topicRows = buildTopicRows(questions, answers)
 
   const progressLabel = `${answeredCount}/${questions.length} answered`
 
@@ -124,9 +130,92 @@ export function SessionRunner({
   function finishSession() {
     startTransition(async () => {
       await endSessionAction(sessionId)
-      router.push("/progress")
+      setSummaryVisible(true)
       router.refresh()
     })
+  }
+
+  function reviewIncorrect() {
+    const firstIncorrectIndex = questions.findIndex((item) => answers[item.id]?.isCorrect === false)
+    if (firstIncorrectIndex >= 0) {
+      setSummaryVisible(false)
+      setCurrentIndex(firstIncorrectIndex)
+    }
+  }
+
+  if (isComplete) {
+    return (
+      <section className="mx-auto max-w-3xl space-y-5 rounded-lg border border-border bg-surface p-5 shadow-card md:p-8">
+        <div className="flex items-center justify-between gap-3">
+          <h2 className="text-xl font-bold text-copy">Session Summary</h2>
+          <button
+            type="button"
+            onClick={() => router.push("/progress")}
+            className="rounded-md border border-border bg-surface px-3 py-2 text-sm font-bold text-copy"
+          >
+            Done
+          </button>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-[220px_minmax(0,1fr)]">
+          <div className="grid place-items-center rounded-lg border border-border bg-canvas p-6">
+            <div
+              className="grid h-36 w-36 place-items-center rounded-full"
+              style={{ background: `conic-gradient(var(--color-accent) ${scorePercent}%, var(--color-border) 0)` }}
+            >
+              <div className="grid h-28 w-28 place-items-center rounded-full bg-surface text-center">
+                <div>
+                  <p className="text-3xl font-bold text-copy">{scorePercent}%</p>
+                  <p className="text-xs text-muted">{correctCount} of {answeredCount} correct</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <SummaryStat label="Total" value={questions.length} />
+            <SummaryStat label="Correct" value={correctCount} tone="success" />
+            <SummaryStat label="Incorrect" value={incorrectCount} tone="danger" />
+            <SummaryStat label="Unanswered" value={unansweredCount} />
+          </div>
+        </div>
+
+        <div className="rounded-lg border border-border bg-canvas p-4">
+          <h3 className="text-sm font-bold text-copy">Performance by topic</h3>
+          <div className="mt-3 space-y-3">
+            {topicRows.map((row) => (
+              <div key={row.name} className="grid grid-cols-[minmax(0,1fr)_80px] items-center gap-3">
+                <div>
+                  <p className="truncate text-sm font-semibold text-copy">{row.name}</p>
+                  <span className="mt-1 block h-2 overflow-hidden rounded-full bg-border">
+                    <span className="block h-full rounded-full bg-success" style={{ width: `${row.percent}%` }} />
+                  </span>
+                </div>
+                <p className="text-right text-xs font-bold text-muted">{row.percent}% ({row.correct}/{row.total})</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid gap-3 sm:grid-cols-2">
+          <button
+            type="button"
+            onClick={reviewIncorrect}
+            disabled={incorrectCount === 0}
+            className="min-h-11 rounded-md bg-accent px-4 text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            Review incorrect ({incorrectCount})
+          </button>
+          <button
+            type="button"
+            onClick={() => router.push("/practice/new")}
+            className="min-h-11 rounded-md border border-border bg-surface px-4 text-sm font-bold text-copy"
+          >
+            Start another session
+          </button>
+        </div>
+      </section>
+    )
   }
 
   return (
@@ -315,4 +404,47 @@ export function SessionRunner({
       </aside>
     </div>
   )
+}
+
+function SummaryStat({
+  label,
+  value,
+  tone = "neutral",
+}: {
+  label: string
+  value: number
+  tone?: "neutral" | "success" | "danger"
+}) {
+  const toneClass = tone === "success" ? "text-success" : tone === "danger" ? "text-danger" : "text-copy"
+  return (
+    <div className="rounded-lg border border-border bg-canvas p-4 text-center">
+      <p className={`text-2xl font-bold ${toneClass}`}>{value}</p>
+      <p className="text-xs font-semibold text-muted">{label}</p>
+    </div>
+  )
+}
+
+function buildTopicRows(
+  questions: SessionQuestion[],
+  answers: Record<string, AttemptRecord>,
+) {
+  const rows = new Map<string, { name: string; total: number; correct: number }>()
+  for (const question of questions) {
+    const tag = question.tags.find((item) => item.kind === "topic") ?? question.tags[0]
+    const name = tag?.name ?? "Mixed questions"
+    const row = rows.get(name) ?? { name, total: 0, correct: 0 }
+    row.total += 1
+    if (answers[question.id]?.isCorrect) {
+      row.correct += 1
+    }
+    rows.set(name, row)
+  }
+
+  return Array.from(rows.values())
+    .map((row) => ({
+      ...row,
+      percent: row.total === 0 ? 0 : Math.round((row.correct / row.total) * 100),
+    }))
+    .sort((left, right) => right.total - left.total)
+    .slice(0, 6)
 }

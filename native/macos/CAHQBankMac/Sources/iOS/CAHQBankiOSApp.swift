@@ -3,10 +3,16 @@ import SwiftUI
 @main
 struct CAHQBankiOSApp: App {
     @StateObject private var model = Self.makeModel()
+    @AppStorage(CAHAppearanceMode.storageKey) private var appearanceRawValue = CAHAppearanceMode.light.rawValue
+
+    private var appearanceMode: CAHAppearanceMode {
+        CAHAppearanceMode.normalized(appearanceRawValue)
+    }
 
     var body: some Scene {
         WindowGroup {
             iOSRootView(model: model)
+                .preferredColorScheme(appearanceMode.colorScheme)
                 .task {
                     await model.bootstrapIfNeeded()
             }

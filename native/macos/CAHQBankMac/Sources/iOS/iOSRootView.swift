@@ -2,14 +2,12 @@ import SwiftUI
 
 struct iOSRootView: View {
     @ObservedObject var model: AppViewModel
-    @State private var selectedTab = AppViewModel.NavigationSection.dashboard
+    @State private var selectedTab = iOSAppTab.browse
 
     var body: some View {
         VStack(spacing: 0) {
             Group {
                 switch selectedTab {
-                case .dashboard:
-                    iOSTodayView(model: model)
                 case .browse:
                     NavigationStack {
                         iOSBrowseView(model: model)
@@ -18,6 +16,10 @@ struct iOSRootView: View {
                     iOSPracticeView(model: model)
                 case .progress:
                     iOSProgressView(model: model)
+                case .notebook:
+                    iOSNotebookView(model: model)
+                case .profile:
+                    iOSProfileView(model: model)
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
@@ -36,44 +38,99 @@ struct iOSRootView: View {
             }
         }
         .onAppear {
-            selectedTab = model.selection ?? .dashboard
+            selectedTab = iOSAppTab(model.selection ?? .browse)
         }
         .onChange(of: selectedTab) { _, newValue in
-            if model.selection != newValue {
-                model.selection = newValue
+            if let modelSection = newValue.modelSection, model.selection != modelSection {
+                model.selection = modelSection
             }
         }
         .onChange(of: model.selection) { _, newValue in
-            guard let newValue, selectedTab != newValue else { return }
-            selectedTab = newValue
+            guard let newValue else { return }
+            let tab = iOSAppTab(newValue)
+            guard selectedTab != tab else { return }
+            selectedTab = tab
+        }
+    }
+}
+
+private enum iOSAppTab: String, CaseIterable, Identifiable {
+    case browse
+    case practice
+    case progress
+    case notebook
+    case profile
+
+    var id: String { rawValue }
+
+    init(_ section: AppViewModel.NavigationSection) {
+        switch section {
+        case .dashboard, .browse:
+            self = .browse
+        case .practice:
+            self = .practice
+        case .progress:
+            self = .progress
+        }
+    }
+
+    var title: String {
+        switch self {
+        case .browse: return "Browse"
+        case .practice: return "Practice"
+        case .progress: return "Progress"
+        case .notebook: return "Notebook"
+        case .profile: return "Profile"
+        }
+    }
+
+    var systemImage: String {
+        switch self {
+        case .browse: return "house.fill"
+        case .practice: return "checkmark.circle"
+        case .progress: return "chart.bar.fill"
+        case .notebook: return "book"
+        case .profile: return "person"
+        }
+    }
+
+    var modelSection: AppViewModel.NavigationSection? {
+        switch self {
+        case .browse:
+            return .browse
+        case .practice:
+            return .practice
+        case .progress:
+            return .progress
+        case .notebook, .profile:
+            return nil
         }
     }
 }
 
 private struct iOSBottomTabBar: View {
-    @Binding var selection: AppViewModel.NavigationSection
+    @Binding var selection: iOSAppTab
 
     var body: some View {
         HStack(spacing: 0) {
-            tab(.dashboard, title: "Today", systemImage: "sparkles")
-            tab(.browse, title: "Browse", systemImage: "book.pages")
-            tab(.practice, title: "Practice", systemImage: "play.circle.fill")
-            tab(.progress, title: "Progress", systemImage: "chart.line.uptrend.xyaxis")
+            ForEach(iOSAppTab.allCases) { tab in
+                tabButton(tab, title: tab.title, systemImage: tab.systemImage)
+            }
         }
         .padding(.horizontal, 10)
         .padding(.top, 8)
         .padding(.bottom, 10)
-        .background(Color(.secondarySystemGroupedBackground), in: Capsule())
+        .background(Color(.secondarySystemGroupedBackground))
         .overlay {
-            Capsule()
-                .stroke(Color.white.opacity(0.16), lineWidth: 1)
+            Rectangle()
+                .frame(height: 1)
+                .foregroundStyle(Color(.separator))
+                .frame(maxHeight: .infinity, alignment: .top)
         }
-        .padding(.horizontal, 18)
-        .padding(.bottom, 8)
-        .shadow(color: .black.opacity(0.16), radius: 18, y: 8)
+        .shadow(color: .black.opacity(0.08), radius: 14, y: -4)
     }
 
-    private func tab(_ tab: AppViewModel.NavigationSection, title: String, systemImage: String) -> some View {
+    private func tabButton(_ tab: iOSAppTab, title: String, systemImage: String) -> some View {
         Button {
             selection = tab
         } label: {
@@ -87,10 +144,10 @@ private struct iOSBottomTabBar: View {
             .frame(maxWidth: .infinity)
             .padding(.vertical, 7)
             .foregroundStyle(selection == tab ? Color.blue : Color.secondary)
-            .background(selection == tab ? Color.blue.opacity(0.14) : Color.clear, in: Capsule())
         }
         .buttonStyle(.plain)
         .accessibilityLabel(title)
+        .accessibilityIdentifier("tab-\(tab.rawValue)")
     }
 }
 
@@ -184,56 +241,100 @@ private struct iOSTodayView: View {
 
 private struct iOSBrowseView: View {
     @ObservedObject var model: AppViewModel
+    @State private var showingFilters = false
 
     var body: some View {
-        List {
-            Section("Filters") {
-                Picker("Curriculum", selection: $model.browseCurriculum) {
-                    Text("All curricula").tag("")
-                    ForEach(Curriculum.allCases, id: \.rawValue) { curriculum in
-                        Text(curriculum.rawValue).tag(curriculum.rawValue)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 14) {
+                HStack {
+                    Text("CAH QBank")
+                        .font(.title3.bold())
+                        .foregroundStyle(.blue)
+                    Spacer()
+                    Button {
+                        Task { await model.syncNow() }
+                    } label: {
+                        Image(systemName: "bell")
+                            .overlay(alignment: .topTrailing) {
+                                Circle()
+                                    .fill(.red)
+                                    .frame(width: 8, height: 8)
+                            }
+                    }
+                    .accessibilityLabel("Refresh notifications")
+                }
+
+                HStack(spacing: 8) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "magnifyingglass")
+                            .foregroundStyle(.secondary)
+                        TextField("Search topics, keywords, stem, or ID...", text: $model.browseSearch)
+                            .textInputAutocapitalization(.never)
+                            .submitLabel(.search)
+                            .onSubmit(loadFirstPage)
+                    }
+                    .padding(.horizontal, 12)
+                    .frame(minHeight: 44)
+                    .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                    .overlay {
+                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+                            .stroke(Color(.separator).opacity(0.5), lineWidth: 1)
+                    }
+
+                    Button {
+                        showingFilters = true
+                    } label: {
+                        Image(systemName: "line.3.horizontal.decrease")
+                            .frame(width: 44, height: 44)
+                            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                            .overlay {
+                                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                    .stroke(Color(.separator).opacity(0.5), lineWidth: 1)
+                            }
+                    }
+                    .accessibilityLabel("Open filters")
+                }
+
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        iOSPill(text: model.browseCurriculum.isEmpty ? "RACP (Paediatrics)" : model.browseCurriculum, color: .blue)
+                        iOSPill(text: selectedTopicName, color: .blue)
+                        iOSPill(text: "SBA", color: .blue)
+                        iOSPill(text: "Source: AI", color: .blue)
                     }
                 }
 
-                Picker("Topic", selection: $model.browseTag) {
-                    Text("All topics").tag("")
-                    ForEach(Array(model.browseSnapshot.tagOptions.prefix(80))) { tag in
-                        Text("\(tag.name) (\(tag.questionCount))").tag(tag.slug)
-                    }
+                HStack {
+                    Text("\(model.browseSnapshot.total.formatted()) questions found")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                    Spacer()
+                    Button("Most relevant") {}
+                        .buttonStyle(.bordered)
+                        .controlSize(.small)
                 }
-            }
 
-            if model.browseSnapshot.questions.isEmpty {
-                Section {
+                if model.browseSnapshot.questions.isEmpty {
                     ContentUnavailableView(
                         "No Matching Questions",
                         systemImage: "line.3.horizontal.decrease.circle",
                         description: Text("Adjust search, curriculum, or topic filters.")
                     )
-                }
-            } else {
-                Section {
+                    .frame(maxWidth: .infinity)
+                    .padding(.top, 32)
+                } else {
                     ForEach(model.browseSnapshot.questions) { question in
-                        NavigationLink {
-                            iOSQuestionDetailView(
-                                model: model,
-                                questionID: question.id,
-                                fallbackQuestion: question
-                            )
-                        } label: {
-                            iOSQuestionListRow(question: question)
+                        iOSQuestionCard(question: question) {
+                            Task {
+                                model.practiceQuestionCount = 1
+                                model.practiceTagID = ""
+                                await model.selectQuestion(id: question.id)
+                                await model.startPractice()
+                            }
                         }
                     }
-                } header: {
-                    HStack {
-                        Text("\(model.browseSnapshot.total) questions")
-                        Spacer()
-                        Text("Page \(model.browseSnapshot.page) of \(model.browseSnapshot.pageCount)")
-                    }
-                }
 
-                if model.browseSnapshot.pageCount > 1 {
-                    Section {
+                    if model.browseSnapshot.pageCount > 1 {
                         iOSPager(
                             page: model.browseSnapshot.page,
                             pageCount: model.browseSnapshot.pageCount,
@@ -249,17 +350,13 @@ private struct iOSBrowseView: View {
                                 }
                             }
                         )
+                        .padding(.vertical, 8)
                     }
                 }
             }
-
-            iOSStatusSection(model: model)
+            .padding(16)
         }
-        .navigationTitle("Browse")
-        .navigationBarTitleDisplayMode(.inline)
-        .contentMargins(.bottom, 18, for: .scrollContent)
-        .searchable(text: $model.browseSearch, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search questions")
-        .onSubmit(of: .search, loadFirstPage)
+        .background(Color(.systemGroupedBackground))
         .onChange(of: model.browseCurriculum) { _, _ in
             loadFirstPage()
         }
@@ -269,16 +366,45 @@ private struct iOSBrowseView: View {
         .refreshable {
             await model.loadBrowse()
         }
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    clearFilters()
-                } label: {
-                    Label("Clear filters", systemImage: "xmark.circle")
+        .sheet(isPresented: $showingFilters) {
+            NavigationStack {
+                Form {
+                    Picker("Curriculum", selection: $model.browseCurriculum) {
+                        Text("All curricula").tag("")
+                        ForEach(Curriculum.allCases, id: \.rawValue) { curriculum in
+                            Text(curriculum.rawValue).tag(curriculum.rawValue)
+                        }
+                    }
+
+                    Picker("Topic", selection: $model.browseTag) {
+                        Text("All topics").tag("")
+                        ForEach(Array(model.browseSnapshot.tagOptions.prefix(80))) { tag in
+                            Text("\(tag.name) (\(tag.questionCount))").tag(tag.slug)
+                        }
+                    }
                 }
-                .disabled(model.browseSearch.isEmpty && model.browseCurriculum.isEmpty && model.browseTag.isEmpty)
+                .navigationTitle("Filters")
+                .toolbar {
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button("Clear") {
+                            clearFilters()
+                        }
+                    }
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button("Done") {
+                            showingFilters = false
+                            loadFirstPage()
+                        }
+                    }
+                }
             }
+            .presentationDetents([.medium, .large])
         }
+    }
+
+    private var selectedTopicName: String {
+        guard !model.browseTag.isEmpty else { return "Respiratory" }
+        return model.browseSnapshot.tagOptions.first(where: { $0.slug == model.browseTag })?.name ?? "Topic"
     }
 
     private func loadFirstPage() {
@@ -292,6 +418,85 @@ private struct iOSBrowseView: View {
         model.browseCurriculum = ""
         model.browseTag = ""
         loadFirstPage()
+    }
+}
+
+private struct iOSPill: View {
+    let text: String
+    let color: Color
+
+    var body: some View {
+        Text(text)
+            .font(.caption.weight(.semibold))
+            .foregroundStyle(color)
+            .padding(.horizontal, 10)
+            .padding(.vertical, 7)
+            .background(color.opacity(0.1), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+    }
+}
+
+private struct iOSQuestionCard: View {
+    let question: QBankQuestion
+    let practice: () -> Void
+
+    private var accuracy: Int? {
+        guard question.attemptCount > 0 else { return nil }
+        return Int((Double(question.correctCount) / Double(question.attemptCount) * 100).rounded())
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Text("Q-\(question.id.prefix(5).uppercased())")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.secondary)
+                Spacer()
+                Image(systemName: question.flagged ? "flag.fill" : "star")
+                    .foregroundStyle(question.flagged ? .red : .orange)
+            }
+
+            Text(question.stem)
+                .font(.subheadline.weight(.medium))
+                .lineLimit(5)
+                .lineSpacing(2)
+
+            HStack(spacing: 6) {
+                iOSPill(text: "RACP", color: .blue)
+                ForEach(question.tags.prefix(2)) { tag in
+                    iOSPill(text: tag.name, color: .blue)
+                }
+                if question.isAnswerable {
+                    iOSPill(text: "Answerable", color: .green)
+                }
+            }
+
+            HStack {
+                Text("\(question.attemptCount) \(question.attemptCount == 1 ? "attempt" : "attempts")")
+                Text("\(question.correctCount) correct")
+                if let accuracy {
+                    Text("\(accuracy)%")
+                        .fontWeight(.bold)
+                        .foregroundStyle(accuracy >= 70 ? .green : accuracy == 0 ? .red : .orange)
+                } else {
+                    Text("New")
+                        .fontWeight(.bold)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Button("Practice", action: practice)
+                    .buttonStyle(.borderedProminent)
+                    .controlSize(.small)
+            }
+            .font(.caption)
+            .foregroundStyle(.secondary)
+        }
+        .padding(14)
+        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay {
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .stroke(Color(.separator).opacity(0.45), lineWidth: 1)
+        }
+        .shadow(color: .black.opacity(0.05), radius: 10, y: 3)
     }
 }
 
@@ -439,52 +644,112 @@ private struct iOSPracticeView: View {
     var body: some View {
         List {
             Section {
-                Text("Practice")
-                    .font(.title3.bold())
-                    .padding(.vertical, 2)
+                HStack {
+                    Button {} label: {
+                        Image(systemName: "xmark")
+                    }
+                    .buttonStyle(.plain)
+                    Spacer()
+                    Text("Practice Setup")
+                        .font(.headline)
+                    Spacer()
+                    Button("Reset") {
+                        model.practiceTagID = ""
+                        model.practiceQuestionCount = 20
+                    }
+                    .font(.caption.weight(.semibold))
+                }
             }
 
             if let session = model.activeSession {
                 iOSPracticeSessionSection(model: model, session: session)
             }
 
-            Section("Session setup") {
-                Picker("Focus", selection: $model.practiceTagID) {
-                    Text("All answerable questions").tag("")
-                    ForEach(model.practiceTags) { tag in
-                        Text("\(tag.name) (\(tag.questionCount))").tag(tag.slug)
+            Section {
+                VStack(alignment: .leading, spacing: 12) {
+                    iOSNumberedHeader(number: 1, title: "Choose your scope")
+                    ForEach(Array(model.practiceTags.prefix(4))) { tag in
+                        Button {
+                            model.practiceTagID = tag.slug
+                        } label: {
+                            iOSTopicSelectionRow(
+                                title: tag.name,
+                                detail: "\(tag.questionCount) questions",
+                                progress: min(max((tag.elo - 800) / 600, 0.08), 1),
+                                selected: model.practiceTagID == tag.slug
+                            )
+                        }
+                        .buttonStyle(.plain)
                     }
+                    Button("Show more topics") {}
+                        .font(.caption.weight(.semibold))
                 }
-
-                Stepper(value: $model.practiceQuestionCount, in: 1...50) {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("\(model.practiceQuestionCount) questions")
-                        Text("Use short focused sessions on iPhone.")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
-                }
-
-                Button {
-                    Task {
-                        await model.startPractice()
-                    }
-                } label: {
-                    Label(model.activeSession == nil ? "Start practice" : "Start new practice", systemImage: "play.circle.fill")
-                        .frame(maxWidth: .infinity)
-                }
-                .buttonStyle(.borderedProminent)
-                .accessibilityIdentifier("start-practice-session")
-                .disabled(model.isBusy || model.practiceTags.isEmpty)
             }
 
-            if model.activeSession == nil {
-                Section {
-                    ContentUnavailableView(
-                        "No Active Session",
-                        systemImage: "play.circle",
-                        description: Text("Choose a focus and start practice. Attempts are stored locally on this iPhone.")
-                    )
+            Section {
+                VStack(alignment: .leading, spacing: 12) {
+                    iOSNumberedHeader(number: 2, title: "Choose session type")
+                    HStack(spacing: 0) {
+                        ForEach(["Revision", "Timed", "Incorrect", "Flagged"], id: \.self) { item in
+                            Text(item)
+                                .font(.caption.weight(.semibold))
+                                .frame(maxWidth: .infinity, minHeight: 38)
+                                .background(item == "Revision" ? Color.blue.opacity(0.12) : Color.clear)
+                                .foregroundStyle(item == "Revision" ? .blue : .primary)
+                                .overlay {
+                                    Rectangle()
+                                        .stroke(Color(.separator).opacity(0.5), lineWidth: 0.5)
+                                }
+                        }
+                    }
+                    .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                    Text("Study at your own pace and build knowledge.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+
+            Section {
+                VStack(alignment: .leading, spacing: 12) {
+                    iOSNumberedHeader(number: 3, title: "Choose number of questions")
+                    HStack(spacing: 8) {
+                        ForEach([10, 20, 40, 100], id: \.self) { count in
+                            Button {
+                                model.practiceQuestionCount = count
+                            } label: {
+                                Text("\(count)")
+                                    .font(.caption.weight(.bold))
+                                    .frame(maxWidth: .infinity, minHeight: 40)
+                            }
+                            .buttonStyle(.bordered)
+                            .tint(model.practiceQuestionCount == count ? .blue : .secondary)
+                        }
+                    }
+                }
+            }
+
+            Section {
+                VStack(alignment: .leading, spacing: 12) {
+                    iOSNumberedHeader(number: 4, title: "Question selection")
+                    ForEach([
+                        ("New questions only", "Questions you have not attempted before"),
+                        ("Unanswered questions", "Questions you have not answered yet"),
+                        ("Incorrect questions", "Questions you answered incorrectly"),
+                        ("Review due", "Questions due for spaced repetition")
+                    ], id: \.0) { item in
+                        Label {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(item.0)
+                                    .font(.subheadline.weight(.semibold))
+                                Text(item.1)
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                        } icon: {
+                            Image(systemName: "checkmark.square.fill")
+                                .foregroundStyle(.blue)
+                        }
+                    }
                 }
             }
 
@@ -495,6 +760,69 @@ private struct iOSPracticeView: View {
         .contentMargins(.bottom, 18, for: .scrollContent)
         .refreshable {
             await model.syncNow()
+        }
+        .safeAreaInset(edge: .bottom) {
+            VStack(spacing: 6) {
+                Button {
+                    Task { await model.startPractice() }
+                } label: {
+                    Label("Start session", systemImage: "play.fill")
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                }
+                .buttonStyle(.borderedProminent)
+                .accessibilityIdentifier("start-practice-session")
+                .disabled(model.isBusy || model.practiceTags.isEmpty)
+
+                Text("Estimated time: 30-40 min    Questions: \(model.practiceQuestionCount)")
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+            }
+            .padding(.horizontal, 16)
+            .padding(.top, 10)
+            .background(.regularMaterial)
+        }
+    }
+}
+
+private struct iOSNumberedHeader: View {
+    let number: Int
+    let title: String
+
+    var body: some View {
+        HStack(spacing: 8) {
+            Text("\(number)")
+                .font(.caption.bold())
+                .frame(width: 22, height: 22)
+                .background(.blue, in: Circle())
+                .foregroundStyle(.white)
+            Text(title)
+                .font(.subheadline.bold())
+        }
+    }
+}
+
+private struct iOSTopicSelectionRow: View {
+    let title: String
+    let detail: String
+    let progress: Double
+    let selected: Bool
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: selected ? "checkmark.square.fill" : "square")
+                .foregroundStyle(selected ? .blue : .secondary)
+            VStack(alignment: .leading, spacing: 6) {
+                HStack {
+                    Text(title)
+                        .font(.subheadline.weight(.semibold))
+                    Spacer()
+                    Text(detail)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                SwiftUI.ProgressView(value: progress)
+                    .tint(.green)
+            }
         }
     }
 }
@@ -544,6 +872,17 @@ private struct iOSPracticeSessionSection: View {
             }
 
             ProgressView(value: session.questions.isEmpty ? 0 : Double(answeredCount) / Double(session.questions.count))
+        }
+
+        if isComplete {
+            Section {
+                iOSSessionSummaryCard(
+                    total: session.questions.count,
+                    correct: correctCount,
+                    incorrect: max(answeredCount - correctCount, 0),
+                    unanswered: max(session.questions.count - answeredCount, 0)
+                )
+            }
         }
 
         if let question = currentQuestion {
@@ -680,6 +1019,19 @@ private struct iOSPracticeSessionSection: View {
 private struct iOSProgressView: View {
     @ObservedObject var model: AppViewModel
 
+    private var reviewDueRows: [ProgressRow] {
+        model.progressRows
+            .filter { row in
+                guard row.attemptCount > 0 else { return false }
+                return Double(row.correctCount) / Double(row.attemptCount) < 0.8
+            }
+            .sorted { left, right in
+                let leftScore = Double(left.correctCount) / Double(max(left.attemptCount, 1))
+                let rightScore = Double(right.correctCount) / Double(max(right.attemptCount, 1))
+                return leftScore < rightScore
+            }
+    }
+
     var body: some View {
         List {
             Section {
@@ -715,6 +1067,40 @@ private struct iOSProgressView: View {
                 )
             }
 
+            Section("Review Due") {
+                if reviewDueRows.isEmpty {
+                    Text("No review-due topics. Items appear here when a practiced topic is below 80% accuracy.")
+                        .foregroundStyle(.secondary)
+                } else {
+                    ForEach(reviewDueRows.prefix(8)) { row in
+                        Button {
+                            model.practiceTagID = row.slug
+                            model.selectSection(.practice)
+                        } label: {
+                            HStack {
+                                Text(iOSFormat.percent(Double(row.correctCount) / Double(max(row.attemptCount, 1)) * 100))
+                                    .font(.caption.bold())
+                                    .foregroundStyle(.red)
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 5)
+                                    .background(.red.opacity(0.1), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(row.name)
+                                        .foregroundStyle(.primary)
+                                    Text("\(row.correctCount) of \(row.attemptCount) correct")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
+                                Spacer()
+                                Text("Practice")
+                                    .font(.caption.weight(.semibold))
+                                    .foregroundStyle(.blue)
+                            }
+                        }
+                    }
+                }
+            }
+
             Section("Mastery") {
                 if model.progressRows.isEmpty {
                     ContentUnavailableView(
@@ -736,6 +1122,238 @@ private struct iOSProgressView: View {
         .contentMargins(.bottom, 18, for: .scrollContent)
         .refreshable {
             await model.syncNow()
+        }
+    }
+}
+
+private struct iOSNotebookView: View {
+    @ObservedObject var model: AppViewModel
+
+    private var notes: [QBankQuestion] {
+        model.browseSnapshot.questions.filter { !$0.noteMarkdown.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
+    }
+
+    private var bookmarks: [QBankQuestion] {
+        model.browseSnapshot.questions.filter(\.flagged)
+    }
+
+    var body: some View {
+        List {
+            Section {
+                HStack {
+                    Text("Notebook")
+                        .font(.title3.bold())
+                    Spacer()
+                    Button {
+                    } label: {
+                        Label("New note", systemImage: "plus")
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .controlSize(.small)
+                }
+            }
+
+            Section {
+                HStack {
+                    iOSPill(text: "All Notes \(notes.count + bookmarks.count)", color: .blue)
+                    iOSPill(text: "My Notes \(notes.count)", color: .blue)
+                    iOSPill(text: "Bookmarks \(bookmarks.count)", color: .secondary)
+                }
+            }
+
+            Section {
+                if notes.isEmpty && bookmarks.isEmpty {
+                    ContentUnavailableView(
+                        "No Notes Yet",
+                        systemImage: "book",
+                        description: Text("Save notes from question detail or explanation screens.")
+                    )
+                } else {
+                    ForEach(notes.prefix(20)) { question in
+                        iOSNotebookNoteCard(question: question)
+                    }
+                }
+            }
+        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
+        .contentMargins(.bottom, 18, for: .scrollContent)
+    }
+}
+
+private struct iOSNotebookNoteCard: View {
+    let question: QBankQuestion
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 9) {
+            HStack {
+                Text("MY NOTE")
+                    .font(.caption2.bold())
+                    .foregroundStyle(.orange)
+                Spacer()
+                Image(systemName: "bookmark.fill")
+                    .foregroundStyle(.blue)
+            }
+            Text(question.tags.first?.name ?? question.curriculum.rawValue)
+                .font(.subheadline.bold())
+            Text(question.noteMarkdown)
+                .font(.callout)
+                .foregroundStyle(.secondary)
+                .lineLimit(3)
+            HStack {
+                iOSPill(text: question.curriculum.rawValue, color: .blue)
+                if let tag = question.tags.first {
+                    iOSPill(text: tag.name, color: .secondary)
+                }
+            }
+        }
+        .padding(.vertical, 4)
+    }
+}
+
+private struct iOSProfileView: View {
+    @ObservedObject var model: AppViewModel
+    @AppStorage(CAHAppearanceMode.storageKey) private var appearanceRawValue = CAHAppearanceMode.light.rawValue
+    @AppStorage("cah.profile.offlineContent") private var offlineContent = true
+    @AppStorage("cah.profile.notifications") private var notifications = true
+    @AppStorage("cah.profile.compactCards") private var compactCards = false
+
+    private var appearanceMode: CAHAppearanceMode {
+        CAHAppearanceMode.normalized(appearanceRawValue)
+    }
+
+    private var darkModeBinding: Binding<Bool> {
+        Binding(
+            get: { appearanceMode == .dark },
+            set: { isDark in
+                appearanceRawValue = isDark ? CAHAppearanceMode.dark.rawValue : CAHAppearanceMode.light.rawValue
+            }
+        )
+    }
+
+    var body: some View {
+        List {
+            Section {
+                HStack(spacing: 14) {
+                    Text("AB")
+                        .font(.title2.bold())
+                        .frame(width: 62, height: 62)
+                        .background(.purple.opacity(0.12), in: Circle())
+                        .foregroundStyle(.purple)
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text("Alex Brown")
+                            .font(.headline)
+                        Text("alex.brown@cahqbank.com")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        Text("Edit profile")
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(.blue)
+                    }
+                }
+            }
+
+            Section {
+                HStack {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Your plan")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        Text("CAH QBank Local")
+                            .font(.headline)
+                        Text(model.libraryStatusDetail)
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Text("Active")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.green)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 6)
+                        .background(.green.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                }
+            }
+
+            Section {
+                iOSSettingsToggleRow(
+                    systemImage: appearanceMode.systemImage,
+                    title: "Dark mode",
+                    subtitle: appearanceMode == .dark ? "Dark appearance is enabled across the app." : "Light appearance is enabled across the app.",
+                    isOn: darkModeBinding
+                )
+                iOSSettingsToggleRow(
+                    systemImage: "arrow.down.to.line",
+                    title: "Download content",
+                    subtitle: offlineContent ? "Bundled database is available offline." : "Offline cache is disabled for this device.",
+                    isOn: $offlineContent
+                )
+                iOSSettingsToggleRow(
+                    systemImage: "bell",
+                    title: "Study reminders",
+                    subtitle: notifications ? "Local study reminders are enabled." : "Local study reminders are disabled.",
+                    isOn: $notifications
+                )
+                iOSSettingsToggleRow(
+                    systemImage: "rectangle.compress.vertical",
+                    title: "Compact cards",
+                    subtitle: compactCards ? "Compact card density is enabled." : "Comfortable card density is enabled.",
+                    isOn: $compactCards
+                )
+                iOSSettingsRow(systemImage: "questionmark.circle", title: "Help and support", subtitle: "Get help and contact support.")
+            }
+        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
+        .contentMargins(.bottom, 18, for: .scrollContent)
+    }
+}
+
+private struct iOSSettingsToggleRow: View {
+    let systemImage: String
+    let title: String
+    let subtitle: String
+    @Binding var isOn: Bool
+
+    var body: some View {
+        Toggle(isOn: $isOn) {
+            HStack(spacing: 12) {
+                Image(systemName: systemImage)
+                    .frame(width: 28)
+                    .foregroundStyle(.secondary)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title)
+                        .font(.subheadline.weight(.semibold))
+                    Text(subtitle)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+        }
+    }
+}
+
+private struct iOSSettingsRow: View {
+    let systemImage: String
+    let title: String
+    let subtitle: String
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: systemImage)
+                .frame(width: 28)
+                .foregroundStyle(.secondary)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.subheadline.weight(.semibold))
+                Text(subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            Image(systemName: "chevron.right")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.tertiary)
         }
     }
 }
@@ -963,6 +1581,13 @@ private struct iOSAnswerOptionButton: View {
                         .foregroundStyle(.green)
                 }
             }
+            .padding(12)
+            .frame(minHeight: 52)
+            .background(cardBackground, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .stroke(cardBorder, lineWidth: isSelected || isCorrect ? 1.5 : 1)
+            }
             .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
@@ -979,6 +1604,18 @@ private struct iOSAnswerOptionButton: View {
     private var badgeForeground: Color {
         (isSelected || isCorrect) ? .white : .primary
     }
+
+    private var cardBackground: Color {
+        if isCorrect { return .green.opacity(0.1) }
+        if isSelected { return .blue.opacity(0.1) }
+        return Color(.secondarySystemGroupedBackground)
+    }
+
+    private var cardBorder: Color {
+        if isCorrect { return .green }
+        if isSelected { return .blue }
+        return Color(.separator).opacity(0.5)
+    }
 }
 
 private struct iOSResultSummary: View {
@@ -986,9 +1623,9 @@ private struct iOSResultSummary: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Label(result.isCorrect ? "Correct" : "Review this answer", systemImage: result.isCorrect ? "checkmark.circle.fill" : "xmark.circle.fill")
+            Label(result.isCorrect ? "Correct! Well done" : "Incorrect", systemImage: result.isCorrect ? "checkmark.circle.fill" : "xmark.circle.fill")
                 .font(.headline)
-                .foregroundStyle(result.isCorrect ? .green : .orange)
+                .foregroundStyle(result.isCorrect ? .green : .red)
 
             if let correctKey = result.correctKey {
                 Text("Correct answer: \(correctKey)\(result.correctText.map { ". \($0)" } ?? "")")
@@ -999,9 +1636,87 @@ private struct iOSResultSummary: View {
                 Text(explanation)
                     .font(.callout)
                     .foregroundStyle(.secondary)
+                    .lineLimit(3)
+                HStack {
+                    Text("View explanation")
+                        .font(.caption.weight(.semibold))
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                        .font(.caption.weight(.bold))
+                }
+                .foregroundStyle(.blue)
             }
         }
-        .padding(.vertical, 4)
+        .padding(12)
+        .background(result.isCorrect ? Color.green.opacity(0.1) : Color.red.opacity(0.1), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .overlay {
+            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .stroke(result.isCorrect ? Color.green.opacity(0.25) : Color.red.opacity(0.25), lineWidth: 1)
+        }
+    }
+}
+
+private struct iOSSessionSummaryCard: View {
+    let total: Int
+    let correct: Int
+    let incorrect: Int
+    let unanswered: Int
+
+    private var percentage: Int {
+        guard total > 0 else { return 0 }
+        return Int((Double(correct) / Double(total) * 100).rounded())
+    }
+
+    var body: some View {
+        VStack(spacing: 14) {
+            ZStack {
+                Circle()
+                    .stroke(Color.blue.opacity(0.15), lineWidth: 10)
+                Circle()
+                    .trim(from: 0, to: CGFloat(percentage) / 100)
+                    .stroke(Color.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+                VStack(spacing: 2) {
+                    Text("\(percentage)%")
+                        .font(.title.bold())
+                    Text("\(correct) of \(total) correct")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .frame(width: 128, height: 128)
+
+            HStack {
+                iOSSummaryStat(value: total, label: "Total")
+                iOSSummaryStat(value: correct, label: "Correct")
+                iOSSummaryStat(value: incorrect, label: "Incorrect")
+                iOSSummaryStat(value: unanswered, label: "Unanswered")
+            }
+
+            Button {
+            } label: {
+                Label("Review incorrect (\(incorrect))", systemImage: "play.fill")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+        }
+        .frame(maxWidth: .infinity)
+    }
+}
+
+private struct iOSSummaryStat: View {
+    let value: Int
+    let label: String
+
+    var body: some View {
+        VStack(spacing: 3) {
+            Text("\(value)")
+                .font(.headline)
+            Text(label)
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
     }
 }
 

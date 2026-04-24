@@ -44,3 +44,14 @@
    Done by: CODEX
    Done at: 2026-04-24T14:46:12Z
 
+5. manual-theme-toggle
+   Id: 5-manual-theme-toggle
+   Scope: Manual light/dark appearance toggle across web, macOS, and iOS UI
+   Files: app/app app/components native/macos/CAHQBankMac/Sources
+   Note: Added persisted manual light/dark theme controls across web, macOS, and iOS. Verified web typecheck/lint/test/build, macOS build/test, and iOS build/test.
+   Detail: tasks/details/5-manual-theme-toggle.md
+   Claimed by: CODEX
+   Claimed at: 2026-04-24T20:49:24Z
+   Done by: CODEX
+   Done at: 2026-04-24T21:00:24Z
+

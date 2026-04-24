@@ -2,6 +2,7 @@ import SwiftUI
 
 struct RootView: View {
     @ObservedObject var model: AppViewModel
+    @AppStorage(CAHAppearanceMode.storageKey) private var appearanceRawValue = CAHAppearanceMode.light.rawValue
 
     var body: some View {
         NavigationSplitView {
@@ -31,6 +32,16 @@ struct RootView: View {
                     }
                     .padding(.vertical, 4)
                 }
+                Section("Appearance") {
+                    Picker("Theme", selection: $appearanceRawValue) {
+                        ForEach(CAHAppearanceMode.allCases) { mode in
+                            Label(mode.title, systemImage: mode.systemImage)
+                                .tag(mode.rawValue)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                    .labelsHidden()
+                }
             }
             .listStyle(.sidebar)
             .navigationSplitViewColumnWidth(min: 250, ideal: 280)
@@ -55,6 +66,8 @@ struct RootView: View {
             }
             .toolbar {
                 ToolbarItemGroup {
+                    AppearanceModeButton()
+
                     Button {
                         Task {
                             await model.syncNow()

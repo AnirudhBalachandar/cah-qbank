@@ -5,17 +5,30 @@ struct CAHQBankMacApp: App {
     @StateObject private var model = AppViewModel(
         serviceProvider: BundledDatabaseQBankServiceProvider(storageDirectoryName: "CAHQBankMac")
     )
+    @AppStorage(CAHAppearanceMode.storageKey) private var appearanceRawValue = CAHAppearanceMode.light.rawValue
+
+    private var appearanceMode: CAHAppearanceMode {
+        CAHAppearanceMode.normalized(appearanceRawValue)
+    }
 
     var body: some Scene {
         WindowGroup("CAH QBank") {
             RootView(model: model)
                 .frame(minWidth: 1180, minHeight: 780)
+                .preferredColorScheme(appearanceMode.colorScheme)
                 .task {
                     await model.bootstrapIfNeeded()
                 }
         }
         .commands {
             CommandMenu("QBank") {
+                Button(appearanceMode.toggleTitle) {
+                    appearanceRawValue = appearanceMode.toggled.rawValue
+                }
+                .keyboardShortcut("l", modifiers: [.command, .option])
+
+                Divider()
+
                 Button("Refresh Library") {
                     Task {
                         await model.syncNow()

@@ -877,7 +877,7 @@ private struct DashboardPrimaryButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.headline)
-            .foregroundStyle(DashboardPalette.windowBackground)
+            .foregroundStyle(.white)
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
             .background(
@@ -924,20 +924,20 @@ private struct DashboardGhostButtonStyle: ButtonStyle {
 }
 
 private enum DashboardPalette {
-    static let windowBackground = Color(red: 15.0 / 255.0, green: 20.0 / 255.0, blue: 25.0 / 255.0)
-    static let surface = Color(red: 26.0 / 255.0, green: 35.0 / 255.0, blue: 50.0 / 255.0)
-    static let surfaceEmphasis = Color(red: 21.0 / 255.0, green: 30.0 / 255.0, blue: 43.0 / 255.0)
-    static let surfaceRaised = Color(red: 36.0 / 255.0, green: 47.0 / 255.0, blue: 66.0 / 255.0)
-    static let border = Color.white.opacity(0.08)
-    static let plotBackground = Color.white.opacity(0.02)
-    static let grid = Color.white.opacity(0.08)
-    static let accent = Color(red: 0.0 / 255.0, green: 217.0 / 255.0, blue: 255.0 / 255.0)
-    static let teal = Color(red: 0.0 / 255.0, green: 168.0 / 255.0, blue: 204.0 / 255.0)
-    static let copy = Color.white
-    static let copyMuted = Color(red: 160.0 / 255.0, green: 174.0 / 255.0, blue: 192.0 / 255.0)
-    static let success = Color(red: 16.0 / 255.0, green: 185.0 / 255.0, blue: 129.0 / 255.0)
-    static let warning = Color(red: 245.0 / 255.0, green: 158.0 / 255.0, blue: 11.0 / 255.0)
-    static let error = Color(red: 239.0 / 255.0, green: 68.0 / 255.0, blue: 68.0 / 255.0)
+    static let windowBackground = Color(nsColor: .controlBackgroundColor)
+    static let surface = Color(nsColor: .textBackgroundColor)
+    static let surfaceEmphasis = Color(nsColor: .windowBackgroundColor)
+    static let surfaceRaised = Color(nsColor: .controlBackgroundColor)
+    static let border = Color.primary.opacity(0.09)
+    static let plotBackground = Color.primary.opacity(0.025)
+    static let grid = Color.primary.opacity(0.1)
+    static let accent = Color(red: 11.0 / 255.0, green: 99.0 / 255.0, blue: 229.0 / 255.0)
+    static let teal = Color(red: 14.0 / 255.0, green: 116.0 / 255.0, blue: 144.0 / 255.0)
+    static let copy = Color.primary
+    static let copyMuted = Color.secondary
+    static let success = Color(red: 22.0 / 255.0, green: 163.0 / 255.0, blue: 74.0 / 255.0)
+    static let warning = Color(red: 217.0 / 255.0, green: 119.0 / 255.0, blue: 6.0 / 255.0)
+    static let error = Color(red: 225.0 / 255.0, green: 29.0 / 255.0, blue: 72.0 / 255.0)
     static let chartPalette: [Color] = [
         accent,
         teal,

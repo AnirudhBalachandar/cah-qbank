@@ -26,52 +26,70 @@ struct PracticeView: View {
             }
 
             HStack(alignment: .top, spacing: 20) {
-                GroupBox("Session Setup") {
-                    VStack(alignment: .leading, spacing: 12) {
-                        Picker("Tag Focus", selection: $model.practiceTagID) {
-                            Text("All answerable questions").tag("")
-                            ForEach(model.practiceTags) { tag in
-                                Text("\(tag.name) (\(tag.questionCount))").tag(tag.slug)
+                VStack(alignment: .leading, spacing: 14) {
+                    GroupBox {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Label("Choose your scope", systemImage: "1.circle.fill")
+                                .font(.headline)
+                            Picker("Tag Focus", selection: $model.practiceTagID) {
+                                Text("All answerable questions").tag("")
+                                ForEach(model.practiceTags) { tag in
+                                    Text("\(tag.name) (\(tag.questionCount))").tag(tag.slug)
+                                }
+                            }
+                            .accessibilityHint("Choose which tag to prioritize for the session.")
+
+                            ForEach(model.practiceTags.prefix(5)) { tag in
+                                NativePracticeTopicRow(
+                                    tag: tag,
+                                    selected: model.practiceTagID == tag.slug,
+                                    action: { model.practiceTagID = tag.slug }
+                                )
                             }
                         }
-                        .accessibilityHint("Choose which tag to prioritize for the session.")
-
-                        Stepper(value: $model.practiceQuestionCount, in: 1...100) {
-                            Text("Question count: \(model.practiceQuestionCount)")
-                        }
-
-                        VStack(alignment: .leading, spacing: 6) {
-                            Label(selectedTagSummary, systemImage: "tag")
-                            Label("\(model.practiceQuestionCount) questions per session", systemImage: "number")
-                            if !model.hasLoadedLibrary {
-                                Label("Practice is unavailable until the local question library is ready.", systemImage: "externaldrive.badge.exclamationmark")
-                                    .foregroundStyle(.orange)
-                            }
-                        }
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text("Selection rules")
-                                .fontWeight(.semibold)
-                            Text("Practice uses published questions only.")
-                            Text("Questions without a clear single correct answer stay browse-only.")
-                            Text("Within a tag, lower-mastery areas surface first.")
-                        }
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-
-                        Button(startButtonTitle) {
-                            Task {
-                                await model.startPractice()
-                            }
-                        }
-                        .keyboardShortcut(.defaultAction)
-                        .disabled(!model.hasLoadedLibrary || model.isBusy)
+                        .padding(4)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                    GroupBox {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Label("Session settings", systemImage: "slider.horizontal.3")
+                                .font(.headline)
+                            Picker("Mode", selection: .constant("Revision")) {
+                                Text("Revision").tag("Revision")
+                                Text("Timed").tag("Timed")
+                                Text("Incorrect").tag("Incorrect")
+                                Text("Flagged").tag("Flagged")
+                            }
+                            .pickerStyle(.segmented)
+
+                            Stepper(value: $model.practiceQuestionCount, in: 1...100) {
+                                Text("Question count: \(model.practiceQuestionCount)")
+                            }
+
+                            VStack(alignment: .leading, spacing: 6) {
+                                Label(selectedTagSummary, systemImage: "tag")
+                                Label("\(model.practiceQuestionCount) questions per session", systemImage: "number")
+                                if !model.hasLoadedLibrary {
+                                    Label("Practice is unavailable until the local question library is ready.", systemImage: "externaldrive.badge.exclamationmark")
+                                        .foregroundStyle(.orange)
+                                }
+                            }
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+
+                            Button(startButtonTitle) {
+                                Task {
+                                    await model.startPractice()
+                                }
+                            }
+                            .buttonStyle(.borderedProminent)
+                            .keyboardShortcut(.defaultAction)
+                            .disabled(!model.hasLoadedLibrary || model.isBusy)
+                        }
+                        .padding(4)
+                    }
                 }
-                .frame(width: 320)
+                .frame(width: 340)
 
                 if let session = model.activeSession {
                     SessionView(model: model, session: session)
@@ -109,6 +127,41 @@ enum PracticeSessionNavigation {
     static func isUnlocked(index: Int, in session: SessionSnapshot) -> Bool {
         guard session.questions.indices.contains(index) else { return false }
         return index <= maxUnlockedIndex(for: session)
+    }
+}
+
+private struct NativePracticeTopicRow: View {
+    let tag: PracticeTagSummary
+    let selected: Bool
+    let action: () -> Void
+
+    private var progress: Double {
+        min(max((tag.elo - 800) / 600, 0.08), 1)
+    }
+
+    var body: some View {
+        Button(action: action) {
+            HStack(spacing: 10) {
+                Image(systemName: selected ? "checkmark.square.fill" : "square")
+                    .foregroundStyle(selected ? .blue : .secondary)
+                VStack(alignment: .leading, spacing: 5) {
+                    HStack {
+                        Text(tag.name)
+                            .font(.callout.weight(.semibold))
+                            .lineLimit(1)
+                        Spacer()
+                        Text("\(tag.questionCount)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    SwiftUI.ProgressView(value: progress)
+                        .tint(.green)
+                }
+            }
+            .padding(10)
+            .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+        }
+        .buttonStyle(.plain)
     }
 }
 

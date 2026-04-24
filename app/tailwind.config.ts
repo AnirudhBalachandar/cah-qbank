@@ -23,7 +23,8 @@ const config: Config = {
         violet: 'var(--color-purple)',
       },
       boxShadow: {
-        glow: '0 18px 60px rgba(0, 0, 0, 0.35)',
+        glow: 'var(--shadow-glow)',
+        card: 'var(--shadow-card)',
       },
     },
   },

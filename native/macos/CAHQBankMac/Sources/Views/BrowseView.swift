@@ -10,143 +10,235 @@ struct BrowseView: View {
         return "Showing \(start)-\(end) of \(model.browseSnapshot.total)"
     }
 
-    private func topicSummary(for question: QBankQuestion) -> String {
-        question.tags
-            .filter { $0.kind == .topic }
-            .map(\.name)
-            .joined(separator: " · ")
-    }
-
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            Text("Browse Questions")
-                .font(.largeTitle.bold())
-
-            HStack(spacing: 12) {
-                TextField("Search question stems", text: $model.browseSearch)
-                    .textFieldStyle(.roundedBorder)
-                    .onSubmit {
-                        Task {
-                            await model.loadBrowse(page: 1)
-                        }
-                    }
-
-                Picker("Curriculum", selection: $model.browseCurriculum) {
-                    Text("All Curricula").tag("")
-                    ForEach(model.curriculumOptions, id: \.self) { curriculum in
-                        Text(curriculum).tag(curriculum)
-                    }
-                }
-                .frame(width: 240)
-
-                Picker("Tag", selection: $model.browseTag) {
-                    Text("All Tags").tag("")
-                    ForEach(model.browseSnapshot.tagOptions) { tag in
-                        Text(tag.name).tag(tag.slug)
-                    }
-                }
-                .frame(width: 240)
-
-                Button("Apply") {
-                    Task {
-                        await model.loadBrowse(page: 1)
-                    }
-                }
-                .disabled(model.isBusy)
-
-                Button("Clear") {
-                    model.browseSearch = ""
-                    model.browseCurriculum = ""
-                    model.browseTag = ""
-                    Task {
-                        await model.loadBrowse(page: 1)
-                    }
-                }
-                .disabled(model.isBusy)
-            }
+        VStack(alignment: .leading, spacing: 18) {
+            header
 
             HSplitView {
-                List(selection: $model.selectedQuestionID) {
-                    ForEach(model.browseSnapshot.questions) { question in
-                        VStack(alignment: .leading, spacing: 6) {
-                            HStack {
-                                Text(question.curriculum.rawValue)
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                                if question.flagged {
-                                    Text("Flagged")
-                                        .font(.caption)
-                                        .foregroundStyle(.red)
-                                }
-                                if !question.isAnswerable {
-                                    Text("Browse only")
-                                        .font(.caption)
-                                        .foregroundStyle(.orange)
-                                }
-                            }
-                            Text(question.stem)
-                                .fontWeight(.medium)
-                                .lineLimit(3)
-                            let topicSummary = topicSummary(for: question)
-                            if !topicSummary.isEmpty {
-                                Text(topicSummary)
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                                    .lineLimit(2)
-                            }
-                        }
-                        .padding(.vertical, 6)
-                        .tag(question.id)
-                    }
-                }
-                .frame(minWidth: 360)
-                .onChange(of: model.selectedQuestionID) { _, newValue in
-                    Task {
-                        await model.selectQuestion(id: newValue)
-                    }
-                }
+                filterRail
+                    .frame(minWidth: 300, idealWidth: 330, maxWidth: 380)
 
-                VStack(alignment: .leading, spacing: 12) {
-                    HStack {
-                        Text(visibleRangeLabel)
-                            .foregroundStyle(.secondary)
-                        Spacer()
-                        Text("Page \(model.browseSnapshot.page) of \(model.browseSnapshot.pageCount)")
-                            .foregroundStyle(.secondary)
-                    }
+                questionList
+                    .frame(minWidth: 360, idealWidth: 430)
 
-                    if let question = model.selectedQuestion {
-                        QuestionDetailView(
-                            question: question,
-                            onToggleFlag: {
-                                await model.toggleFlagForSelectedQuestion()
-                            },
-                            onSaveNote: { note in
-                                await model.saveNoteForSelectedQuestion(note)
-                            }
-                        )
-                    } else {
-                        ContentUnavailableView("Select a Question", systemImage: "doc.text.magnifyingglass", description: Text("Choose a question from the list to review the full record."))
-                    }
-
-                    HStack {
-                        Button("Previous Page") {
-                            Task {
-                                await model.loadBrowse(page: max(1, model.browseSnapshot.page - 1))
-                            }
-                        }
-                        .disabled(model.browseSnapshot.page <= 1)
-
-                        Button("Next Page") {
-                            Task {
-                                await model.loadBrowse(page: min(model.browseSnapshot.pageCount, model.browseSnapshot.page + 1))
-                            }
-                        }
-                        .disabled(model.browseSnapshot.page >= model.browseSnapshot.pageCount)
-                    }
-                }
+                detailPane
+                    .frame(minWidth: 460)
             }
         }
         .padding(24)
+        .background(Color(nsColor: .controlBackgroundColor))
+    }
+
+    private var header: some View {
+        HStack(alignment: .firstTextBaseline) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Browse Questions")
+                    .font(.largeTitle.bold())
+                Text("Search, filter, and launch targeted practice from published CAH questions.")
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            Text(visibleRangeLabel)
+                .font(.callout.weight(.semibold))
+                .foregroundStyle(.secondary)
+        }
+    }
+
+    private var filterRail: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            GroupBox {
+                VStack(alignment: .leading, spacing: 12) {
+                    TextField("Search question stems", text: $model.browseSearch)
+                        .textFieldStyle(.roundedBorder)
+                        .onSubmit {
+                            Task { await model.loadBrowse(page: 1) }
+                        }
+
+                    Picker("Curriculum", selection: $model.browseCurriculum) {
+                        Text("All curricula").tag("")
+                        ForEach(model.curriculumOptions, id: \.self) { curriculum in
+                            Text(curriculum).tag(curriculum)
+                        }
+                    }
+
+                    Picker("Topic", selection: $model.browseTag) {
+                        Text("All topics").tag("")
+                        ForEach(model.browseSnapshot.tagOptions) { tag in
+                            Text(tag.name).tag(tag.slug)
+                        }
+                    }
+
+                    HStack {
+                        Button("Apply") {
+                            Task { await model.loadBrowse(page: 1) }
+                        }
+                        .keyboardShortcut(.return, modifiers: [.command])
+
+                        Button("Clear") {
+                            model.browseSearch = ""
+                            model.browseCurriculum = ""
+                            model.browseTag = ""
+                            Task { await model.loadBrowse(page: 1) }
+                        }
+                        .disabled(model.browseSearch.isEmpty && model.browseCurriculum.isEmpty && model.browseTag.isEmpty)
+                    }
+                }
+                .padding(4)
+            } label: {
+                Label("Filters", systemImage: "line.3.horizontal.decrease.circle")
+            }
+
+            GroupBox {
+                VStack(alignment: .leading, spacing: 10) {
+                    ForEach(model.practiceTags.prefix(10)) { tag in
+                        Button {
+                            model.browseTag = tag.kind == .topic ? tag.slug : model.browseTag
+                            model.browseCurriculum = tag.kind == .curriculum ? tag.name : model.browseCurriculum
+                            Task { await model.loadBrowse(page: 1) }
+                        } label: {
+                            NativeTopicProgressRow(tag: tag)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(4)
+            } label: {
+                Label("Coverage", systemImage: "chart.bar.doc.horizontal")
+            }
+
+            Spacer()
+        }
+    }
+
+    private var questionList: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Text("\(model.browseSnapshot.total) questions")
+                    .font(.headline)
+                Spacer()
+                Text("Page \(model.browseSnapshot.page) of \(model.browseSnapshot.pageCount)")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
+            List(selection: $model.selectedQuestionID) {
+                ForEach(model.browseSnapshot.questions) { question in
+                    NativeQuestionRow(question: question)
+                        .tag(question.id)
+                        .padding(.vertical, 4)
+                }
+            }
+            .listStyle(.inset)
+            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+            .onChange(of: model.selectedQuestionID) { _, newValue in
+                Task { await model.selectQuestion(id: newValue) }
+            }
+
+            HStack {
+                Button("Previous") {
+                    Task { await model.loadBrowse(page: max(1, model.browseSnapshot.page - 1)) }
+                }
+                .disabled(model.browseSnapshot.page <= 1)
+
+                Spacer()
+
+                Button("Next") {
+                    Task { await model.loadBrowse(page: min(model.browseSnapshot.pageCount, model.browseSnapshot.page + 1)) }
+                }
+                .disabled(model.browseSnapshot.page >= model.browseSnapshot.pageCount)
+            }
+        }
+    }
+
+    private var detailPane: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            if let question = model.selectedQuestion {
+                QuestionDetailView(
+                    question: question,
+                    onToggleFlag: { await model.toggleFlagForSelectedQuestion() },
+                    onSaveNote: { note in await model.saveNoteForSelectedQuestion(note) }
+                )
+            } else {
+                ContentUnavailableView(
+                    "Select a Question",
+                    systemImage: "doc.text.magnifyingglass",
+                    description: Text("Choose a question to review stem, options, notes, and references.")
+                )
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+        .padding(18)
+        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+    }
+}
+
+private struct NativeTopicProgressRow: View {
+    let tag: PracticeTagSummary
+
+    private var progress: Double {
+        min(max((tag.elo - 800) / 600, 0.08), 1)
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack {
+                Text(tag.name)
+                    .font(.callout.weight(.semibold))
+                    .lineLimit(1)
+                Spacer()
+                Text("\(tag.questionCount)")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.secondary)
+            }
+            SwiftUI.ProgressView(value: progress)
+                .tint(.green)
+        }
+        .padding(10)
+        .background(Color(nsColor: .textBackgroundColor), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+    }
+}
+
+private struct NativeQuestionRow: View {
+    let question: QBankQuestion
+
+    private var accuracy: Int? {
+        guard question.attemptCount > 0 else { return nil }
+        return Int((Double(question.correctCount) / Double(question.attemptCount) * 100).rounded())
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack {
+                Text("Q-\(question.id.prefix(5).uppercased())")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.secondary)
+                Text(question.curriculum.rawValue)
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.blue)
+                    .lineLimit(1)
+                Spacer()
+                if question.flagged {
+                    Label("Flagged", systemImage: "flag.fill")
+                        .font(.caption)
+                        .foregroundStyle(.red)
+                }
+            }
+
+            Text(question.stem)
+                .font(.callout.weight(.semibold))
+                .lineLimit(3)
+
+            HStack {
+                Label(question.isAnswerable ? "Answerable" : "Browse only", systemImage: question.isAnswerable ? "checkmark.circle" : "eye")
+                Text("\(question.attemptCount) attempts")
+                if let accuracy {
+                    Text("\(accuracy)%")
+                        .foregroundStyle(accuracy >= 70 ? .green : .orange)
+                }
+                Spacer()
+            }
+            .font(.caption)
+            .foregroundStyle(.secondary)
+        }
     }
 }

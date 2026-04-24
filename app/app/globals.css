@@ -4,18 +4,37 @@
 
 @layer base {
   :root {
-    --color-canvas: #0f1419;
-    --color-surface: #15202b;
-    --color-panel: #1a2332;
-    --color-border: rgba(160, 174, 192, 0.18);
-    --color-copy: #ffffff;
-    --color-muted: #a0aec0;
-    --color-accent: #00d9ff;
-    --color-accent-strong: #00a8cc;
-    --color-success: #10b981;
-    --color-warning: #f59e0b;
-    --color-danger: #ef4444;
-    --color-purple: #8b5cf6;
+    --color-canvas: #f7f8fb;
+    --color-surface: #ffffff;
+    --color-panel: #ffffff;
+    --color-border: #e4e8f0;
+    --color-copy: #111827;
+    --color-muted: #667085;
+    --color-accent: #0b63e5;
+    --color-accent-strong: #074eb8;
+    --color-success: #16a34a;
+    --color-warning: #d97706;
+    --color-danger: #e11d48;
+    --color-purple: #7c3aed;
+    --shadow-glow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.05), 0 8px 24px rgba(15, 23, 42, 0.06);
+  }
+
+  html.dark {
+    --color-canvas: #0b1220;
+    --color-surface: #111827;
+    --color-panel: #101827;
+    --color-border: #263244;
+    --color-copy: #eef2ff;
+    --color-muted: #a7b2c4;
+    --color-accent: #60a5fa;
+    --color-accent-strong: #3b82f6;
+    --color-success: #34d399;
+    --color-warning: #fbbf24;
+    --color-danger: #fb7185;
+    --color-purple: #a78bfa;
+    --shadow-glow: 0 18px 44px rgba(0, 0, 0, 0.36);
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.28), 0 14px 34px rgba(0, 0, 0, 0.26);
   }
 
   * {
@@ -23,14 +42,15 @@
   }
 
   html {
+    color-scheme: light;
+  }
+
+  html.dark {
     color-scheme: dark;
   }
 
   body {
-    background:
-      radial-gradient(circle at top left, rgba(0, 217, 255, 0.12), transparent 24rem),
-      radial-gradient(circle at top right, rgba(16, 185, 129, 0.08), transparent 22rem),
-      var(--color-canvas);
+    background: var(--color-canvas);
     color: var(--color-copy);
     font-family:
       ui-sans-serif,
@@ -42,7 +62,7 @@
   }
 
   ::selection {
-    background: rgba(0, 217, 255, 0.35);
+    background: rgba(11, 99, 229, 0.16);
     color: var(--color-copy);
   }
 
@@ -51,6 +71,6 @@
   input,
   select,
   textarea {
-    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
   }
 }

@@ -16,6 +16,11 @@ Checks the local machine for CAH QBank Apple release prerequisites.
 Environment:
   DEVELOPER_ID_APPLICATION  Optional exact Developer ID Application identity.
   NOTARYTOOL_PROFILE        Keychain profile for notarytool. Default: CAH_QBANK_NOTARY.
+  APP_STORE_CONNECT_API_KEY_PATH
+                             Optional .p8 key path for notarytool API-key auth.
+  APP_STORE_CONNECT_KEY_ID   Required with APP_STORE_CONNECT_API_KEY_PATH.
+  APP_STORE_CONNECT_ISSUER_ID
+                             Required with APP_STORE_CONNECT_API_KEY_PATH.
 USAGE
 }
 
@@ -95,6 +100,38 @@ check_notary_profile() {
   fail "Notary profile '$profile' is missing or invalid. Create it with: xcrun notarytool store-credentials '$profile'"
 }
 
+check_notary_api_key() {
+  local key_path="${APP_STORE_CONNECT_API_KEY_PATH:-}"
+  local key_id="${APP_STORE_CONNECT_KEY_ID:-}"
+  local issuer_id="${APP_STORE_CONNECT_ISSUER_ID:-}"
+
+  if [[ -z "$key_path$key_id$issuer_id" ]]; then
+    return 1
+  fi
+
+  [[ -n "$key_path" ]] || fail "APP_STORE_CONNECT_API_KEY_PATH is required when using App Store Connect API-key notarization."
+  [[ -n "$key_id" ]] || fail "APP_STORE_CONNECT_KEY_ID is required when using App Store Connect API-key notarization."
+  [[ -n "$issuer_id" ]] || fail "APP_STORE_CONNECT_ISSUER_ID is required when using App Store Connect API-key notarization."
+  [[ -f "$key_path" ]] || fail "App Store Connect API key file not found: $key_path"
+
+  local output
+  if output="$(xcrun notarytool history --key "$key_path" --key-id "$key_id" --issuer "$issuer_id" --output-format json 2>&1 >/dev/null)"; then
+    return 0
+  fi
+
+  fail "App Store Connect API-key notarization credentials are missing or invalid."
+}
+
+check_notary_credentials() {
+  if check_notary_api_key; then
+    log "Notary auth: App Store Connect API key"
+    return 0
+  fi
+
+  check_notary_profile "$NOTARYTOOL_PROFILE"
+  log "Notary auth: keychain profile '$NOTARYTOOL_PROFILE'"
+}
+
 require_command xcode-select
 require_command xcodebuild
 require_command xcodegen
@@ -114,9 +151,8 @@ if [[ "$PRINT_IDENTITY" -eq 1 ]]; then
   exit 0
 fi
 
-check_notary_profile "$NOTARYTOOL_PROFILE"
+check_notary_credentials
 
 log "Apple release preflight passed."
 log "Project: $PROJECT_ROOT"
 log "Developer ID identity: $IDENTITY"
-log "Notary profile: $NOTARYTOOL_PROFILE"

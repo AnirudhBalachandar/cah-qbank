@@ -12,6 +12,7 @@ ARCHIVE_PATH="$RELEASE_ROOT/archive/CAHQBankMac.xcarchive"
 STAGING_ROOT="$RELEASE_ROOT/staging"
 APP_PATH="$RELEASE_ROOT/$APP_DISPLAY_NAME.app"
 APP_ZIP="$RELEASE_ROOT/CAH-QBank-app.zip"
+NOTARY_ARGS=()
 
 fail() {
   printf 'ERROR: %s\n' "$*" >&2
@@ -26,8 +27,26 @@ version_from_app() {
   /usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$APP_PATH/Contents/Info.plist"
 }
 
+configure_notary_args() {
+  local key_path="${APP_STORE_CONNECT_API_KEY_PATH:-}"
+  local key_id="${APP_STORE_CONNECT_KEY_ID:-}"
+  local issuer_id="${APP_STORE_CONNECT_ISSUER_ID:-}"
+
+  if [[ -n "$key_path$key_id$issuer_id" ]]; then
+    [[ -n "$key_path" ]] || fail "APP_STORE_CONNECT_API_KEY_PATH is required when using App Store Connect API-key notarization."
+    [[ -n "$key_id" ]] || fail "APP_STORE_CONNECT_KEY_ID is required when using App Store Connect API-key notarization."
+    [[ -n "$issuer_id" ]] || fail "APP_STORE_CONNECT_ISSUER_ID is required when using App Store Connect API-key notarization."
+    [[ -f "$key_path" ]] || fail "App Store Connect API key file not found: $key_path"
+    NOTARY_ARGS=(--key "$key_path" --key-id "$key_id" --issuer "$issuer_id")
+    return 0
+  fi
+
+  NOTARY_ARGS=(--keychain-profile "$NOTARYTOOL_PROFILE")
+}
+
 "$SCRIPT_DIR/preflight-apple-release.sh" --quiet
 DEVELOPER_ID_APPLICATION="$("$SCRIPT_DIR/preflight-apple-release.sh" --print-identity --quiet)"
+configure_notary_args
 
 info "Generating Xcode project..."
 cd "$PROJECT_ROOT"
@@ -72,7 +91,7 @@ codesign -dvvv --entitlements :- "$APP_PATH" >/dev/null
 info "Submitting app for notarization..."
 rm -f "$APP_ZIP"
 ditto -c -k --keepParent "$APP_PATH" "$APP_ZIP"
-xcrun notarytool submit "$APP_ZIP" --keychain-profile "$NOTARYTOOL_PROFILE" --wait
+xcrun notarytool submit "$APP_ZIP" "${NOTARY_ARGS[@]}" --wait
 xcrun stapler staple "$APP_PATH"
 xcrun stapler validate "$APP_PATH"
 spctl -a -vv "$APP_PATH"
@@ -98,7 +117,7 @@ mv "$UNSIGNED_DMG" "$DMG_PATH"
 info "Signing and notarizing DMG..."
 codesign --force --timestamp --sign "$DEVELOPER_ID_APPLICATION" "$DMG_PATH"
 codesign --verify --strict --verbose=2 "$DMG_PATH"
-xcrun notarytool submit "$DMG_PATH" --keychain-profile "$NOTARYTOOL_PROFILE" --wait
+xcrun notarytool submit "$DMG_PATH" "${NOTARY_ARGS[@]}" --wait
 xcrun stapler staple "$DMG_PATH"
 xcrun stapler validate "$DMG_PATH"
 hdiutil verify "$DMG_PATH"

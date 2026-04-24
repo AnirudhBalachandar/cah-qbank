@@ -31,7 +31,7 @@ final class iOSBootstrapTests: XCTestCase {
 
         XCTAssertFalse(model.hasLinkedRepo)
         XCTAssertEqual(model.repoRootPath, "")
-        XCTAssertEqual(model.infoMessage, "Unable to link a local repo automatically")
+        XCTAssertEqual(model.infoMessage, "Unable to load the local question library")
         XCTAssertEqual(model.errorMessage, RepoStoreError.repoRootNotFound.localizedDescription)
     }
 }

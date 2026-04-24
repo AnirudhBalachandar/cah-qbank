@@ -1,6 +1,6 @@
 import Foundation
 
-enum iOSQBankBootstrapError: LocalizedError {
+enum BundledDatabaseBootstrapError: LocalizedError {
     case missingBundledDatabase
     case applicationSupportUnavailable
 
@@ -9,7 +9,7 @@ enum iOSQBankBootstrapError: LocalizedError {
         case .missingBundledDatabase:
             return "Bundled question library is missing."
         case .applicationSupportUnavailable:
-            return "Unable to prepare iPhone app storage."
+            return "Unable to prepare local question library storage."
         }
     }
 }
@@ -22,7 +22,7 @@ struct BundledDatabaseQBankServiceProvider: QBankServiceProviding {
     init(
         bundle: Bundle = .main,
         fileManager: FileManager = .default,
-        storageDirectoryName: String = "CAHQBankiOS"
+        storageDirectoryName: String = "CAHQBank"
     ) {
         self.bundle = bundle
         self.fileManager = fileManager
@@ -31,18 +31,18 @@ struct BundledDatabaseQBankServiceProvider: QBankServiceProviding {
 
     func connectedService(configuration: RepoLinkConfiguration) throws -> QBankService {
         guard let bundledDatabaseURL = bundle.url(forResource: "bundled-cah", withExtension: "db") else {
-            throw iOSQBankBootstrapError.missingBundledDatabase
+            throw BundledDatabaseBootstrapError.missingBundledDatabase
         }
 
         guard let supportURL = fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first else {
-            throw iOSQBankBootstrapError.applicationSupportUnavailable
+            throw BundledDatabaseBootstrapError.applicationSupportUnavailable
         }
 
         let storageRoot = supportURL.appendingPathComponent(storageDirectoryName, isDirectory: true)
-        let repoRoot = storageRoot.appendingPathComponent("Repo", isDirectory: true)
+        let repoRoot = storageRoot.appendingPathComponent("Library", isDirectory: true)
         let databaseURL = storageRoot.appendingPathComponent("cah.db", isDirectory: false)
 
-        try prepareRepoShape(at: repoRoot)
+        try prepareStorageShape(at: repoRoot)
         try fileManager.createDirectory(at: storageRoot, withIntermediateDirectories: true)
 
         if !fileManager.fileExists(atPath: databaseURL.path) {
@@ -53,10 +53,10 @@ struct BundledDatabaseQBankServiceProvider: QBankServiceProviding {
         return try QBankService(context: context, contentMode: .databaseOnly)
     }
 
-    private func prepareRepoShape(at repoRoot: URL) throws {
+    private func prepareStorageShape(at libraryRoot: URL) throws {
         for child in ["questions", "app", "native"] {
             try fileManager.createDirectory(
-                at: repoRoot.appendingPathComponent(child, isDirectory: true),
+                at: libraryRoot.appendingPathComponent(child, isDirectory: true),
                 withIntermediateDirectories: true
             )
         }

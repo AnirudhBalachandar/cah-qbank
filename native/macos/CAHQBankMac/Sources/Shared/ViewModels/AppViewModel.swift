@@ -45,7 +45,7 @@ final class AppViewModel: ObservableObject {
     @Published var selectedQuestionID: String?
     @Published var activeSession: SessionSnapshot?
     @Published var errorMessage: String?
-    @Published var infoMessage = "Resolving local repo link…"
+    @Published var infoMessage = "Preparing local question library…"
     @Published var isLoading = false
     @Published var isSyncing = false
     @Published var repoRootPath = ""
@@ -83,6 +83,10 @@ final class AppViewModel: ObservableObject {
         service != nil && !repoRootPath.isEmpty
     }
 
+    var hasLoadedLibrary: Bool {
+        service != nil
+    }
+
     var hasPreferredRepoRoot: Bool {
         guard let preferredRepoRootPath else { return false }
         return !preferredRepoRootPath.isEmpty
@@ -107,6 +111,16 @@ final class AppViewModel: ObservableObject {
             return "Auto-detected repo: \(repoRootPath)"
         }
         return "No repo selected"
+    }
+
+    var libraryStatusDetail: String {
+        if let dashboard {
+            return "\(dashboard.answerableCount) practice-ready questions from \(dashboard.publishedCount) published questions"
+        }
+        if hasLoadedLibrary {
+            return "Local question library ready"
+        }
+        return "Local question library not loaded"
     }
 
     func selectSection(_ section: NavigationSection) {
@@ -345,7 +359,7 @@ final class AppViewModel: ObservableObject {
             let sessionWasCleared = existingSessionID != nil && refreshedSession == nil
 
             errorMessage = nil
-            infoMessage = makeRepoLinkedMessage(
+            infoMessage = makeLibraryLoadedMessage(
                 report: report,
                 forceSync: forceSync,
                 sessionWasCleared: sessionWasCleared,
@@ -355,7 +369,7 @@ final class AppViewModel: ObservableObject {
             guard generation == bootstrapGeneration else { return }
             clearLinkedState()
             errorMessage = error.localizedDescription
-            infoMessage = makeRepoLinkFailureMessage()
+            infoMessage = makeLibraryFailureMessage()
         }
     }
 
@@ -485,17 +499,16 @@ final class AppViewModel: ObservableObject {
         repoRootPath = ""
     }
 
-    private func makeRepoLinkedMessage(
+    private func makeLibraryLoadedMessage(
         report: RepoSyncReport,
         forceSync: Bool,
         sessionWasCleared: Bool,
         selectedQuestionWasCleared: Bool
     ) -> String {
-        let action = forceSync ? "Synced" : "Loaded"
-        var message = "\(action) \(report.questionCount) questions and \(report.tagCount) tags"
-        message += hasPreferredRepoRoot ? " from selected repo" : " from auto-detected repo"
+        let action = forceSync ? "Refreshed" : "Loaded"
+        var message = "\(action) local question library with \(report.questionCount) questions and \(report.tagCount) tags"
         if sessionWasCleared {
-            message += " · active session cleared after content sync"
+            message += " · active session cleared after library refresh"
         }
         if selectedQuestionWasCleared {
             message += " · selected question no longer available"
@@ -503,11 +516,8 @@ final class AppViewModel: ObservableObject {
         return message
     }
 
-    private func makeRepoLinkFailureMessage() -> String {
-        if let preferredRepoRootPath, !preferredRepoRootPath.isEmpty {
-            return "Selected repo unavailable at \(preferredRepoRootPath)"
-        }
-        return "Unable to link a local repo automatically"
+    private func makeLibraryFailureMessage() -> String {
+        "Unable to load the local question library"
     }
 
     private func replaceQuestion(_ question: QBankQuestion) {

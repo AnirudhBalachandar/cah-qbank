@@ -20,7 +20,7 @@ struct PracticeView: View {
             VStack(alignment: .leading, spacing: 6) {
                 Text("Start Practice")
                     .font(.largeTitle.bold())
-                Text(model.hasLinkedRepo ? model.repoStatusDetail : "Link a repo to launch native practice sessions.")
+                Text(model.hasLoadedLibrary ? model.libraryStatusDetail : "Load the local question library to launch practice sessions.")
                     .font(.callout)
                     .foregroundStyle(.secondary)
             }
@@ -43,8 +43,8 @@ struct PracticeView: View {
                         VStack(alignment: .leading, spacing: 6) {
                             Label(selectedTagSummary, systemImage: "tag")
                             Label("\(model.practiceQuestionCount) questions per session", systemImage: "number")
-                            if !model.hasLinkedRepo {
-                                Label("Practice is unavailable until a repo link is active.", systemImage: "link.badge.plus")
+                            if !model.hasLoadedLibrary {
+                                Label("Practice is unavailable until the local question library is ready.", systemImage: "externaldrive.badge.exclamationmark")
                                     .foregroundStyle(.orange)
                             }
                         }
@@ -67,7 +67,7 @@ struct PracticeView: View {
                             }
                         }
                         .keyboardShortcut(.defaultAction)
-                        .disabled(!model.hasLinkedRepo || model.isBusy)
+                        .disabled(!model.hasLoadedLibrary || model.isBusy)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }

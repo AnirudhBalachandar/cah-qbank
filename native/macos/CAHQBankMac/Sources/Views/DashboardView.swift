@@ -105,12 +105,12 @@ struct DashboardView: View {
                 } else {
                     DashboardSurface(
                         title: "Dashboard unavailable",
-                        subtitle: "The native learner app could not load analytics from the linked repo."
+                        subtitle: "The native learner app could not load analytics from the local question library."
                     ) {
                         ContentUnavailableView(
                             "Analytics offline",
                             systemImage: "chart.line.downtrend.xyaxis",
-                            description: Text("Link the local repo and run sync to populate the learner dashboard.")
+                            description: Text("Refresh the local question library to populate the learner dashboard.")
                         )
                         .frame(maxWidth: .infinity, minHeight: 280)
                     }
@@ -123,9 +123,9 @@ struct DashboardView: View {
 
     private var heroSection: some View {
         DashboardHeroCard(
-            repoRootPath: model.repoRootPath,
             infoMessage: model.infoMessage,
-            hasLinkedRepo: model.hasLinkedRepo,
+            libraryStatusDetail: model.libraryStatusDetail,
+            hasLoadedLibrary: model.hasLoadedLibrary,
             dashboard: model.dashboard,
             onBrowse: {
                 model.selectSection(.browse)
@@ -143,9 +143,9 @@ struct DashboardView: View {
 }
 
 private struct DashboardHeroCard: View {
-    let repoRootPath: String
     let infoMessage: String
-    let hasLinkedRepo: Bool
+    let libraryStatusDetail: String
+    let hasLoadedLibrary: Bool
     let dashboard: DashboardSnapshot?
     let onBrowse: () -> Void
     let onPractice: () -> Void
@@ -180,12 +180,12 @@ private struct DashboardHeroCard: View {
                     VStack(alignment: .leading, spacing: 10) {
                         HStack(spacing: 10) {
                             DashboardChip(
-                                title: hasLinkedRepo ? "Local repo linked" : "Repo unavailable",
-                                symbol: hasLinkedRepo ? "checkmark.circle.fill" : "exclamationmark.triangle.fill",
-                                tint: hasLinkedRepo ? DashboardPalette.success : DashboardPalette.error
+                                title: hasLoadedLibrary ? "Local library ready" : "Library loading",
+                                symbol: hasLoadedLibrary ? "checkmark.circle.fill" : "arrow.triangle.2.circlepath.circle.fill",
+                                tint: hasLoadedLibrary ? DashboardPalette.success : DashboardPalette.accent
                             )
                             DashboardChip(
-                                title: "Native analytics workspace",
+                                title: "Offline study workspace",
                                 symbol: "sparkline",
                                 tint: DashboardPalette.accent
                             )
@@ -199,6 +199,10 @@ private struct DashboardHeroCard: View {
                             .font(.title3)
                             .foregroundStyle(DashboardPalette.copyMuted)
                             .fixedSize(horizontal: false, vertical: true)
+
+                        Text(libraryStatusDetail)
+                            .font(.callout.weight(.semibold))
+                            .foregroundStyle(DashboardPalette.copy.opacity(0.92))
 
                         Text(infoMessage)
                             .font(.callout)
@@ -226,19 +230,6 @@ private struct DashboardHeroCard: View {
                     }
                 }
 
-                if !repoRootPath.isEmpty {
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text("Linked repository")
-                            .font(.caption.weight(.semibold))
-                            .foregroundStyle(DashboardPalette.copyMuted)
-                        Text(repoRootPath)
-                            .font(.caption.monospaced())
-                            .foregroundStyle(DashboardPalette.copy.opacity(0.9))
-                            .textSelection(.enabled)
-                            .lineLimit(2)
-                    }
-                }
-
                 HStack(spacing: 12) {
                     Button("Browse Questions", action: onBrowse)
                         .buttonStyle(DashboardPrimaryButtonStyle())
@@ -246,7 +237,7 @@ private struct DashboardHeroCard: View {
                     Button("Start Practice", action: onPractice)
                         .buttonStyle(DashboardSecondaryButtonStyle())
 
-                    Button("Refresh Snapshot", action: onRefresh)
+                    Button("Refresh Library", action: onRefresh)
                         .buttonStyle(DashboardGhostButtonStyle())
                 }
             }
@@ -431,12 +422,12 @@ private struct CurriculumDistributionPanel: View {
     var body: some View {
         DashboardSurface(
             title: "Curriculum distribution",
-            subtitle: "Published answerable content split by curriculum because the live learner database has no separate topic taxonomy."
+            subtitle: "Published answerable content split by curriculum because the local library has no separate topic taxonomy."
         ) {
             if data.isEmpty {
                 DashboardEmptyState(
                     title: "No answerable questions",
-                    message: "Sync published content to render curriculum coverage."
+                    message: "Refresh the local library to render curriculum coverage."
                 )
             } else {
                 HStack(alignment: .center, spacing: 20) {

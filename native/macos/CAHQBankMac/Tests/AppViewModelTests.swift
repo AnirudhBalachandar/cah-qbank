@@ -37,7 +37,8 @@ final class AppViewModelTests: XCTestCase {
         XCTAssertEqual(model.preferredRepoRootPath, repo.rootURL.standardizedFileURL.path)
         XCTAssertEqual(model.dashboard?.publishedCount, 1)
         XCTAssertEqual(model.repoStatusDetail, "Pinned repo: \(repo.rootURL.standardizedFileURL.path)")
-        XCTAssertTrue(model.infoMessage.contains("selected repo"))
+        XCTAssertEqual(model.libraryStatusDetail, "1 practice-ready questions from 1 published questions")
+        XCTAssertTrue(model.infoMessage.contains("local question library"))
         XCTAssertNil(model.errorMessage)
     }
 
@@ -54,8 +55,42 @@ final class AppViewModelTests: XCTestCase {
         XCTAssertFalse(model.hasLinkedRepo)
         XCTAssertEqual(model.repoRootPath, "")
         XCTAssertEqual(model.repoStatusDetail, "Pinned repo unavailable: \(invalidRoot.standardizedFileURL.path)")
-        XCTAssertEqual(model.infoMessage, "Selected repo unavailable at \(invalidRoot.standardizedFileURL.path)")
+        XCTAssertEqual(model.infoMessage, "Unable to load the local question library")
         XCTAssertEqual(model.errorMessage, RepoStoreError.invalidConfiguredRepoRoot(invalidRoot.standardizedFileURL.path).localizedDescription)
+    }
+
+    func testBundledDatabaseProviderBootstrapsStandaloneLibrary() async throws {
+        let storageName = "CAHQBankMacTests-\(UUID().uuidString)"
+        let storageRoot = try XCTUnwrap(
+            FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
+        ).appendingPathComponent(storageName, isDirectory: true)
+        defer { try? FileManager.default.removeItem(at: storageRoot) }
+
+        let defaults = makeIsolatedUserDefaults()
+        let model = AppViewModel(
+            userDefaults: defaults,
+            serviceProvider: BundledDatabaseQBankServiceProvider(storageDirectoryName: storageName)
+        )
+
+        await model.bootstrapIfNeeded()
+
+        XCTAssertTrue(model.hasLoadedLibrary)
+        XCTAssertEqual(model.dashboard?.publishedCount, 2_099)
+        XCTAssertEqual(model.dashboard?.answerableCount, 1_921)
+        XCTAssertEqual(model.libraryStatusDetail, "1921 practice-ready questions from 2099 published questions")
+        XCTAssertTrue(FileManager.default.fileExists(atPath: storageRoot.appendingPathComponent("cah.db").path))
+        XCTAssertNil(model.errorMessage)
+    }
+
+    func testBundledDatabaseProviderReportsMissingBundledDatabase() throws {
+        let provider = BundledDatabaseQBankServiceProvider(
+            bundle: Bundle(for: AppViewModelTests.self),
+            storageDirectoryName: "MissingBundledDatabase-\(UUID().uuidString)"
+        )
+
+        XCTAssertThrowsError(try provider.connectedService(configuration: RepoLinkConfiguration())) { error in
+            XCTAssertEqual(error.localizedDescription, BundledDatabaseBootstrapError.missingBundledDatabase.localizedDescription)
+        }
     }
 
     func testSyncNowPreservesBrowseFiltersAndSelectedQuestion() async throws {

@@ -74,6 +74,15 @@ NOTARYTOOL_PROFILE="CAH_QBANK_NOTARY" \
 native/macos/CAHQBankMac/scripts/release-mac.sh
 ```
 
+Current Mac release settings:
+
+- Display name: `CAH QBank`
+- Bundle identifier: `com.anirudhbalachandar.CAHQBank`
+- Minimum macOS version: `26.0`
+- Version: `1.0`
+- Build: `2`
+- Bundled library: `2,099` published questions, including `1,921` practice-ready and `178` browse-only questions.
+
 Expected outputs are written under:
 
 ```text
@@ -85,6 +94,14 @@ The final DMG name is versioned, for example:
 ```text
 native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg
 ```
+
+The release script also writes:
+
+```text
+native/macos/CAHQBankMac/build/release/release-manifest.txt
+```
+
+The manifest records version, build, final artifact paths, SHA-256 checksums, and bundled question counts.
 
 ## Mac Verification
 

@@ -27,6 +27,49 @@ version_from_app() {
   /usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$APP_PATH/Contents/Info.plist"
 }
 
+build_from_app() {
+  /usr/libexec/PlistBuddy -c 'Print :CFBundleVersion' "$APP_PATH/Contents/Info.plist"
+}
+
+write_release_manifest() {
+  local manifest_path="$RELEASE_ROOT/release-manifest.txt"
+  local bundled_db="$APP_PATH/Contents/Resources/bundled-cah.db"
+  local question_counts
+  local app_zip_sha
+  local dmg_sha
+
+  [[ -f "$bundled_db" ]] || fail "Bundled database missing from staged app: $bundled_db"
+
+  question_counts="$(sqlite3 "$bundled_db" "
+    SELECT
+      COUNT(*) || ' total, ' ||
+      SUM(status = 'published') || ' published, ' ||
+      SUM(status = 'published' AND isAnswerable = 1) || ' practice-ready, ' ||
+      SUM(status = 'published' AND isAnswerable = 0) || ' browse-only'
+    FROM Question;
+  ")"
+  app_zip_sha="$(shasum -a 256 "$APP_ZIP" | awk '{print $1}')"
+  dmg_sha="$(shasum -a 256 "$DMG_PATH" | awk '{print $1}')"
+
+  cat >"$manifest_path" <<EOF
+CAH QBank macOS Release
+Version: $(version_from_app)
+Build: $(build_from_app)
+Created: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+App: $APP_PATH
+App ZIP: $APP_ZIP
+App ZIP SHA-256: $app_zip_sha
+DMG: $DMG_PATH
+DMG SHA-256: $dmg_sha
+
+Bundled database: $bundled_db
+Bundled question counts: $question_counts
+EOF
+
+  info "  Manifest: $manifest_path"
+}
+
 configure_notary_args() {
   local key_path="${APP_STORE_CONNECT_API_KEY_PATH:-}"
   local key_id="${APP_STORE_CONNECT_KEY_ID:-}"
@@ -122,6 +165,7 @@ xcrun stapler staple "$DMG_PATH"
 xcrun stapler validate "$DMG_PATH"
 hdiutil verify "$DMG_PATH"
 spctl -a -vv -t install "$DMG_PATH"
+write_release_manifest
 
 info "Release complete:"
 info "  App: $APP_PATH"

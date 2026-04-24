@@ -5,41 +5,29 @@ struct iOSRootView: View {
     @State private var selectedTab = AppViewModel.NavigationSection.dashboard
 
     var body: some View {
-        TabView(selection: $selectedTab) {
-            NavigationStack {
-                iOSTodayView(model: model)
+        VStack(spacing: 0) {
+            Group {
+                switch selectedTab {
+                case .dashboard:
+                    iOSTodayView(model: model)
+                case .browse:
+                    NavigationStack {
+                        iOSBrowseView(model: model)
+                    }
+                case .practice:
+                    iOSPracticeView(model: model)
+                case .progress:
+                    iOSProgressView(model: model)
+                }
             }
-            .tabItem {
-                Label("Today", systemImage: "sparkles")
-            }
-            .tag(AppViewModel.NavigationSection.dashboard)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            .id(selectedTab)
 
-            NavigationStack {
-                iOSBrowseView(model: model)
-            }
-            .tabItem {
-                Label("Browse", systemImage: "book.pages")
-            }
-            .tag(AppViewModel.NavigationSection.browse)
-
-            NavigationStack {
-                iOSPracticeView(model: model)
-            }
-            .tabItem {
-                Label("Practice", systemImage: "play.circle")
-            }
-            .tag(AppViewModel.NavigationSection.practice)
-
-            NavigationStack {
-                iOSProgressView(model: model)
-            }
-            .tabItem {
-                Label("Progress", systemImage: "chart.line.uptrend.xyaxis")
-            }
-            .tag(AppViewModel.NavigationSection.progress)
+            iOSBottomTabBar(selection: $selectedTab)
+                .background(Color(.systemGroupedBackground))
         }
         .tint(.blue)
-        .dynamicTypeSize(.xSmall ... .xxLarge)
+        .dynamicTypeSize(.xSmall ... .large)
         .background(Color(.systemGroupedBackground).ignoresSafeArea())
         .overlay(alignment: .top) {
             if model.isSyncing {
@@ -62,11 +50,74 @@ struct iOSRootView: View {
     }
 }
 
+private struct iOSBottomTabBar: View {
+    @Binding var selection: AppViewModel.NavigationSection
+
+    var body: some View {
+        HStack(spacing: 0) {
+            tab(.dashboard, title: "Today", systemImage: "sparkles")
+            tab(.browse, title: "Browse", systemImage: "book.pages")
+            tab(.practice, title: "Practice", systemImage: "play.circle.fill")
+            tab(.progress, title: "Progress", systemImage: "chart.line.uptrend.xyaxis")
+        }
+        .padding(.horizontal, 10)
+        .padding(.top, 8)
+        .padding(.bottom, 10)
+        .background(Color(.secondarySystemGroupedBackground), in: Capsule())
+        .overlay {
+            Capsule()
+                .stroke(Color.white.opacity(0.16), lineWidth: 1)
+        }
+        .padding(.horizontal, 18)
+        .padding(.bottom, 8)
+        .shadow(color: .black.opacity(0.16), radius: 18, y: 8)
+    }
+
+    private func tab(_ tab: AppViewModel.NavigationSection, title: String, systemImage: String) -> some View {
+        Button {
+            selection = tab
+        } label: {
+            VStack(spacing: 3) {
+                Image(systemName: systemImage)
+                    .font(.system(size: 18, weight: .semibold))
+                Text(title)
+                    .font(.caption2.weight(.semibold))
+                    .lineLimit(1)
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 7)
+            .foregroundStyle(selection == tab ? Color.blue : Color.secondary)
+            .background(selection == tab ? Color.blue.opacity(0.14) : Color.clear, in: Capsule())
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(title)
+    }
+}
+
 private struct iOSTodayView: View {
     @ObservedObject var model: AppViewModel
 
     var body: some View {
         List {
+            Section {
+                HStack(alignment: .center) {
+                    Text("Today")
+                        .font(.title3.bold())
+                    Spacer()
+                    Button {
+                        Task {
+                            await model.syncNow()
+                        }
+                    } label: {
+                        Label("Refresh", systemImage: "arrow.clockwise")
+                            .labelStyle(.iconOnly)
+                    }
+                    .disabled(model.isBusy)
+                    .buttonStyle(.borderless)
+                }
+                .padding(.vertical, 2)
+            }
+
             if let dashboard = model.dashboard {
                 Section {
                     Text("CAH QBank")
@@ -122,25 +173,10 @@ private struct iOSTodayView: View {
 
             iOSStatusSection(model: model)
         }
-        .navigationTitle("Today")
-        .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
-            Color.clear.frame(height: 84)
-        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
         .refreshable {
             await model.syncNow()
-        }
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    Task {
-                        await model.syncNow()
-                    }
-                } label: {
-                    Label("Refresh", systemImage: "arrow.clockwise")
-                }
-                .disabled(model.isBusy)
-            }
         }
     }
 }
@@ -220,9 +256,6 @@ private struct iOSBrowseView: View {
         }
         .navigationTitle("Browse")
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
-            Color.clear.frame(height: 84)
-        }
         .searchable(text: $model.browseSearch, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search questions")
         .onSubmit(of: .search, loadFirstPage)
         .onChange(of: model.browseCurriculum) { _, _ in
@@ -372,9 +405,6 @@ private struct iOSQuestionDetailView: View {
         }
         .navigationTitle("Question")
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
-            Color.clear.frame(height: 84)
-        }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
@@ -405,6 +435,12 @@ private struct iOSPracticeView: View {
 
     var body: some View {
         List {
+            Section {
+                Text("Practice")
+                    .font(.title3.bold())
+                    .padding(.vertical, 2)
+            }
+
             if let session = model.activeSession {
                 iOSPracticeSessionSection(model: model, session: session)
             }
@@ -451,11 +487,8 @@ private struct iOSPracticeView: View {
 
             iOSStatusSection(model: model)
         }
-        .navigationTitle("Practice")
-        .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
-            Color.clear.frame(height: 84)
-        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
         .refreshable {
             await model.syncNow()
         }
@@ -488,6 +521,48 @@ private struct iOSPracticeSessionSection: View {
     }
 
     var body: some View {
+        if let question = currentQuestion {
+            Section {
+                Text("Question \(currentIndex + 1)")
+                    .font(.headline)
+                Text(question.stem)
+                    .font(.callout.weight(.medium))
+                    .lineLimit(4)
+
+                Button {
+                    Task {
+                        guard !currentSelectedKey(for: question).isEmpty else { return }
+                        if let result = await model.submitAnswer(questionID: question.id, selectedKey: currentSelectedKey(for: question)) {
+                            results[question.id] = result
+                        }
+                    }
+                } label: {
+                    Label("Submit", systemImage: "checkmark.circle")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
+                .accessibilityIdentifier("submit-answer")
+                .disabled(currentSelectedKey(for: question).isEmpty || model.isBusy || session.answeredByQuestion[question.id] != nil)
+
+                if let result = displayedResult(for: question) {
+                    iOSResultSummary(result: result)
+                }
+
+                ForEach(question.options, id: \.key) { option in
+                    iOSAnswerOptionButton(
+                        option: option,
+                        isSelected: currentSelectedKey(for: question) == option.key,
+                        isCorrect: displayedResult(for: question) != nil && option.isCorrect == true,
+                        isDisabled: session.answeredByQuestion[question.id] != nil
+                    ) {
+                        selectedKeys[question.id] = option.key
+                    }
+                }
+            } footer: {
+                Text("Question \(currentIndex + 1) of \(session.questions.count)")
+            }
+        }
+
         Section {
             HStack {
                 VStack(alignment: .leading, spacing: 2) {
@@ -507,45 +582,6 @@ private struct iOSPracticeSessionSection: View {
             }
 
             ProgressView(value: session.questions.isEmpty ? 0 : Double(answeredCount) / Double(session.questions.count))
-        }
-
-        if let question = currentQuestion {
-            Section {
-                Text("Question \(currentIndex + 1)")
-                    .font(.headline)
-                Text(question.stem)
-                    .font(.body.weight(.medium))
-
-                ForEach(question.options, id: \.key) { option in
-                    iOSAnswerOptionButton(
-                        option: option,
-                        isSelected: currentSelectedKey(for: question) == option.key,
-                        isCorrect: displayedResult(for: question) != nil && option.isCorrect == true,
-                        isDisabled: session.answeredByQuestion[question.id] != nil
-                    ) {
-                        selectedKeys[question.id] = option.key
-                    }
-                }
-
-                if let result = displayedResult(for: question) {
-                    iOSResultSummary(result: result)
-                }
-
-                Button {
-                    Task {
-                        guard !currentSelectedKey(for: question).isEmpty else { return }
-                        if let result = await model.submitAnswer(questionID: question.id, selectedKey: currentSelectedKey(for: question)) {
-                            results[question.id] = result
-                        }
-                    }
-                } label: {
-                    Label("Submit", systemImage: "checkmark.circle")
-                }
-                .accessibilityIdentifier("submit-answer")
-                .disabled(currentSelectedKey(for: question).isEmpty || model.isBusy || session.answeredByQuestion[question.id] != nil)
-            } footer: {
-                Text("Question \(currentIndex + 1) of \(session.questions.count)")
-            }
         }
 
         Section {
@@ -642,6 +678,12 @@ private struct iOSProgressView: View {
 
     var body: some View {
         List {
+            Section {
+                Text("Progress")
+                    .font(.title3.bold())
+                    .padding(.vertical, 2)
+            }
+
             if let dashboard = model.dashboard {
                 Section("Summary") {
                     iOSMetricRow(title: "Accuracy", value: iOSFormat.percent(dashboard.accuracyPercent), systemImage: "target")
@@ -685,11 +727,8 @@ private struct iOSProgressView: View {
 
             iOSStatusSection(model: model)
         }
-        .navigationTitle("Progress")
-        .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
-            Color.clear.frame(height: 84)
-        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
         .refreshable {
             await model.syncNow()
         }

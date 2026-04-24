@@ -121,7 +121,7 @@ xcrun notarytool submit "$DMG_PATH" "${NOTARY_ARGS[@]}" --wait
 xcrun stapler staple "$DMG_PATH"
 xcrun stapler validate "$DMG_PATH"
 hdiutil verify "$DMG_PATH"
-spctl -a -vv -t open "$DMG_PATH"
+spctl -a -vv -t install "$DMG_PATH"
 
 info "Release complete:"
 info "  App: $APP_PATH"

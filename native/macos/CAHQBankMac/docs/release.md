@@ -96,7 +96,7 @@ xcrun stapler validate "native/macos/CAHQBankMac/build/release/CAH QBank.app"
 spctl -a -vv "native/macos/CAHQBankMac/build/release/CAH QBank.app"
 hdiutil verify "native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg"
 xcrun stapler validate "native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg"
-spctl -a -vv -t open "native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg"
+spctl -a -vv -t install "native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg"
 ```
 
 Common failures:

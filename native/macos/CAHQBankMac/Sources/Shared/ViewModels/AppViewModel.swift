@@ -10,6 +10,18 @@ struct LocalRepoQBankServiceProvider: QBankServiceProviding {
     }
 }
 
+struct UnavailableQBankServiceProvider: QBankServiceProviding {
+    let error: Error
+
+    init(error: Error = RepoStoreError.repoRootNotFound) {
+        self.error = error
+    }
+
+    func connectedService(configuration: RepoLinkConfiguration) throws -> QBankService {
+        throw error
+    }
+}
+
 @MainActor
 final class AppViewModel: ObservableObject {
     private static let preferredRepoRootDefaultsKey = "preferredRepoRootPath"

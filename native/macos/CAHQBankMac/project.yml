@@ -2,6 +2,7 @@ name: CAHQBankMac
 options:
   deploymentTarget:
     macOS: 26.0
+    iOS: 26.0
 settings:
   base:
     SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
@@ -28,13 +29,35 @@ schemes:
     archive:
       config: Release
 
+  CAHQBankiOS:
+    shared: true
+    build:
+      targets:
+        CAHQBankiOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - CAHQBankiOSTests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
 targets:
   CAHQBankMac:
     type: application
     platform: macOS
     bundleId: com.anirudhbalachandar.CAHQBank
     sources:
-      - path: Sources
+      - path: Sources/Shared
+        type: syncedFolder
+      - path: Sources/Views
+        type: syncedFolder
+      - path: Sources/Mac
         type: syncedFolder
     resources:
       - Resources
@@ -47,6 +70,26 @@ targets:
         CURRENT_PROJECT_VERSION: 1
         MARKETING_VERSION: 1.0
 
+  CAHQBankiOS:
+    type: application
+    platform: iOS
+    bundleId: com.anirudhbalachandar.CAHQBank.iOS
+    sources:
+      - path: Sources/Shared
+        type: syncedFolder
+      - path: Sources/iOS
+        type: syncedFolder
+    resources:
+      - Resources
+    settings:
+      base:
+        INFOPLIST_FILE: Sources/iOS/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.anirudhbalachandar.CAHQBank.iOS
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+
   CAHQBankMacTests:
     type: bundle.unit-test
     platform: macOS
@@ -54,9 +97,25 @@ targets:
     sources:
       - path: Tests
         type: syncedFolder
+        excludes:
+          - iOSTests
     settings:
       base:
         INFOPLIST_FILE: Tests/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.anirudhbalachandar.CAHQBank.Tests
     dependencies:
       - target: CAHQBankMac
+
+  CAHQBankiOSTests:
+    type: bundle.unit-test
+    platform: iOS
+    bundleId: com.anirudhbalachandar.CAHQBank.iOSTests
+    sources:
+      - path: Tests/iOSTests
+        type: syncedFolder
+    settings:
+      base:
+        INFOPLIST_FILE: Tests/iOSTests/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.anirudhbalachandar.CAHQBank.iOSTests
+    dependencies:
+      - target: CAHQBankiOS

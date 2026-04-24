@@ -142,13 +142,18 @@ enum RepoLocator {
             return try RepoContext(repoRoot: overrideURL, environment: environment)
         }
 
-        let candidates = [
+        var candidates = [
             searchStartURL,
             sourceFileURL,
             URL(fileURLWithPath: fileManager.currentDirectoryPath),
             Bundle.main.bundleURL,
-            fileManager.homeDirectoryForCurrentUser.appendingPathComponent("Projects/cah-qbank", isDirectory: true),
         ]
+
+        #if os(macOS)
+        candidates.append(
+            fileManager.homeDirectoryForCurrentUser.appendingPathComponent("Projects/cah-qbank", isDirectory: true)
+        )
+        #endif
 
         for candidate in candidates.compactMap({ $0 }) {
             for ancestor in ancestors(of: candidate) where isRepoRoot(ancestor, fileManager: fileManager) {

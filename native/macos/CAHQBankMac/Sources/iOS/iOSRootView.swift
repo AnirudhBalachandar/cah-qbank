@@ -175,6 +175,7 @@ private struct iOSTodayView: View {
         }
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
+        .contentMargins(.bottom, 18, for: .scrollContent)
         .refreshable {
             await model.syncNow()
         }
@@ -256,6 +257,7 @@ private struct iOSBrowseView: View {
         }
         .navigationTitle("Browse")
         .navigationBarTitleDisplayMode(.inline)
+        .contentMargins(.bottom, 18, for: .scrollContent)
         .searchable(text: $model.browseSearch, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search questions")
         .onSubmit(of: .search, loadFirstPage)
         .onChange(of: model.browseCurriculum) { _, _ in
@@ -405,6 +407,7 @@ private struct iOSQuestionDetailView: View {
         }
         .navigationTitle("Question")
         .navigationBarTitleDisplayMode(.inline)
+        .contentMargins(.bottom, 18, for: .scrollContent)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
@@ -489,6 +492,7 @@ private struct iOSPracticeView: View {
         }
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
+        .contentMargins(.bottom, 18, for: .scrollContent)
         .refreshable {
             await model.syncNow()
         }
@@ -521,6 +525,27 @@ private struct iOSPracticeSessionSection: View {
     }
 
     var body: some View {
+        Section {
+            HStack {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(isComplete ? "Session complete" : "Active session")
+                        .font(.headline)
+                    Text("\(answeredCount) of \(session.questions.count) answered · \(correctCount) correct")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Button("Finish") {
+                    Task {
+                        await model.finishSession()
+                    }
+                }
+                .disabled(isComplete)
+            }
+
+            ProgressView(value: session.questions.isEmpty ? 0 : Double(answeredCount) / Double(session.questions.count))
+        }
+
         if let question = currentQuestion {
             Section {
                 Text("Question \(currentIndex + 1)")
@@ -561,27 +586,6 @@ private struct iOSPracticeSessionSection: View {
             } footer: {
                 Text("Question \(currentIndex + 1) of \(session.questions.count)")
             }
-        }
-
-        Section {
-            HStack {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(isComplete ? "Session complete" : "Active session")
-                        .font(.headline)
-                    Text("\(answeredCount) of \(session.questions.count) answered · \(correctCount) correct")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                Spacer()
-                Button("Finish") {
-                    Task {
-                        await model.finishSession()
-                    }
-                }
-                .disabled(isComplete)
-            }
-
-            ProgressView(value: session.questions.isEmpty ? 0 : Double(answeredCount) / Double(session.questions.count))
         }
 
         Section {
@@ -729,6 +733,7 @@ private struct iOSProgressView: View {
         }
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
+        .contentMargins(.bottom, 18, for: .scrollContent)
         .refreshable {
             await model.syncNow()
         }

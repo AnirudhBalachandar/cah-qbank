@@ -1,7 +1,9 @@
 # CAH QBank macOS Developer ID DMG Release Plan
 
 Date: 2026-04-24
-Status: Approved for later implementation
+Status: Superseded by `docs/superpowers/plans/2026-04-24-apple-platform-release-packaging-plan.md`
+
+> This Mac-only Developer ID DMG plan was revised after deciding that iPhone support is a near-term goal. Use the superseding Apple-platform release packaging plan instead of implementing this document directly.
 
 ## Current State
 
@@ -127,4 +129,3 @@ Before merge:
 - Do not lower the macOS deployment target in this pass.
 - Do not add third-party release dependencies unless a later plan explicitly approves them.
 - Do not stage or preserve unrelated nested worktree changes under `.claude/worktrees/blissful-curran-af5382`.
-

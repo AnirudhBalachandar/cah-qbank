@@ -1,0 +1,102 @@
+{
+  "id": "d8aba773-2948-4652-b848-b932988331b1",
+  "stem": "Which scenario is a particularly poor-risk childhood cancer situation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Stage IV neuroblastoma in a child older than 1 year",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Non-metastatic Ewing sarcoma",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Non-metastatic osteosarcoma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "All acute lymphoblastic leukaemia regardless of cytogenetics",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Localised rhabdomyosarcoma confined to one site",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stage IV neuroblastoma in a child older than 1 year is one of the particularly poor-risk childhood cancer situations. The other options are not listed as part of that highest-risk group in the stem’s clinical framing.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 123,
+      "title": "Page 123"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:02:18.395Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B65-attempt-03-ce7acb60bb52abeeafb0",
+  "rationale": "Stage IV neuroblastoma over age 1 year is specifically identified as a very poor-risk childhood cancer situation, whereas the other options describe cancers or risk groups that are not included in that category.",
+  "optionExplanations": {
+    "A": "Correct because stage IV neuroblastoma in a child older than 1 year is explicitly recognised as a particularly poor-risk childhood cancer situation.",
+    "B": "Incorrect because non-metastatic Ewing sarcoma is not in the highest-risk category described here.",
+    "C": "Incorrect because non-metastatic osteosarcoma is not one of the particularly poor-risk situations named here.",
+    "D": "Incorrect because the poor-risk group is not all ALL; it refers to ALL with adverse cytogenetics or other high-risk features.",
+    "E": "Incorrect because localised rhabdomyosarcoma confined to one site is not one of the particularly poor-risk situations listed here."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B65-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4hgj80001rjhq2xpwtrc3",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3312883435582822,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3c25b6af-a1dc-4a04-ae4c-09f0427ddd75",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B65/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Childhood cancer recognition",
+      "neuroblastoma",
+      "risk recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:02.051Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "e0d53644-78bd-4482-b899-2107bf7c08aa",
+  "stem": "Which pain assessment tool is most appropriate for a 1-year-old child or a child with developmental delay?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Visual Analogue Scale",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Numerical rating scale",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "FLACC or FLACC Revised Scale",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Faces Pain Scale",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Wong-Baker FACES scale",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "FLACC or FLACC Revised Scale is the most appropriate tool for infants, young children, and children with developmental delay because it scores observable behaviours rather than relying on self-report.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.361Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77aa3d34ce0d692272f5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the Visual Analogue Scale requires the child to understand and mark their pain on a continuous line, which is not reliable for a 1-year-old or a child with developmental delay.",
+    "B": "Incorrect because the numerical rating scale depends on self-report and an understanding of number concepts, which usually requires an older, developmentally able child.",
+    "C": "Correct because FLACC or FLACC Revised Scale assesses Face, Legs, Activity, Cry, and Consolability using observation, making it suitable for non-verbal children and those who cannot reliably self-report pain.",
+    "D": "Incorrect because the Faces Pain Scale still requires the child to interpret and choose a face that matches their pain, which is less suitable for very young children or significant developmental delay.",
+    "E": "Incorrect because the Wong-Baker FACES scale is a self-report tool intended for children who can match their pain to drawn faces, not for infants or children with limited communication"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This scale relies on clinical observation of the child's body and behavior rather than their verbal input.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d86935d7-f3e2-4ca8-a9d7-452e5e5f2ef3",
+    "overlapScore": 0.4227642276422764,
+    "questionIndex": 2,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:19.885Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

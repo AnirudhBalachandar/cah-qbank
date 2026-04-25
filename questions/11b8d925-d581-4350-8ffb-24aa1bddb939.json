@@ -1,0 +1,101 @@
+{
+  "id": "11b8d925-d581-4350-8ffb-24aa1bddb939",
+  "stem": "A child has a low-pitched snoring sound caused by pharyngeal or nasal obstruction; which term best describes it?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wheeze",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Stridor",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Stertor",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Secretions",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Quiet chest",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stertor is the correct term for a low-pitched snoring sound caused by pharyngeal or nasal obstruction.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 35,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:34:40.488Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B28-attempt-01-497a6bcb935ccda2af54",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because wheeze is typically a high-pitched, musical sound, usually heard more on expiration.",
+    "B": "Incorrect because stridor is a harsh, high-pitched sound heard best over the neck, usually on inspiration.",
+    "C": "Correct because stertor describes a low-pitched, snoring sound from partial obstruction in the nose or pharynx, such as enlarged adenoids or tonsils.",
+    "D": "Incorrect because secretions usually cause coarse, wet, or bubbly sounds rather than a snoring noise.",
+    "E": "Incorrect because a quiet chest refers to poor air entry, not a low-pitched snoring sound."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B28-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmcn1y0001rjklgyljwodh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.325,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a9176bc2-9080-442d-bfa9-653382d1099d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B28/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma spirometry and acute exacerbation reasoning",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:17.985Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

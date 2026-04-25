@@ -1,0 +1,102 @@
+{
+  "id": "45d246f4-c65f-46fe-ae6b-c5910bd4b7f7",
+  "stem": "Which investigation is most appropriate for measuring glomerular filtration rate in an older school-aged child when cortical scarring and obstruction are not the main concerns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "DMSA scan",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tc-99m MAG3 renal functioning scan",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Tc-99m DTPA renal functioning scan",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Abdominal X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Renal Doppler ultrasound",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Tc-99m DTPA renal functioning scan is the correct answer because it is used for glomerular filtration rate measurement, particularly in older children.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 76,
+      "title": "Renal Functioning Scan (MAG-3/DTPA)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:13:05.788Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B42-attempt-03-884b9aee751ca141120d",
+  "rationale": ": The key clinical question here is GFR measurement, which is what DTPA is used for rather than cortical scarring or obstruction.",
+  "optionExplanations": {
+    "A": "Incorrect because DMSA is used to assess renal cortical defects, scarring, and differential renal function, not GFR measurement",
+    "B": "Incorrect because MAG3 is more useful for assessing renal drainage and obstruction and is commonly used in younger children or reduced renal function",
+    "C": "Correct because Tc-99m DTPA is the nuclear medicine study used to measure glomerular filtration rate, especially in older children",
+    "D": "Incorrect because an abdominal X-ray does not measure renal function or glomerular filtration rate",
+    "E": "Incorrect because renal Doppler ultrasound can assess renal blood flow and anatomy but does not provide a nuclear medicine GFR measurement"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B42-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpv7m80001rjinx2mnwr3m",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.345360824742268,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f4a9a7db-a37d-4d1f-94c9-2e74bba97f9f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B42/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "UTI and renal tract imaging",
+      "DTPA",
+      "GFR"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:02.807Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "5e531725-c64a-4733-8acb-3fd2e9489fc3",
+  "stem": "What is the recommended diagnostic approach for functional neurological disorder (FND) in children and adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Diagnose by excluding all possible organic disease",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Make a positive diagnosis based on clinical examination features",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Wait for a clear history of psychological trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Rely solely on neuroimaging to rule out stroke",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Defer diagnosis until symptoms fully resolve",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Positive diagnosis based on clinical examination features is the recommended approach for FND in children and adolescents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+      "title": "00071 Neurology - what not-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.689Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4eb2df56d60ded1f98bf",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because FND should not be diagnosed only after excluding every possible organic cause.",
+    "B": "Correct because FND is diagnosed positively from clinical signs on examination, such as variability or distractibility, rather than by exclusion alone.",
+    "C": "Incorrect because a history of psychological trauma is not required to make the initial diagnosis.",
+    "D": "Incorrect because neuroimaging may be used selectively, but FND is primarily a clinical diagnosis.",
+    "E": "Incorrect because diagnosis should not be delayed until symptoms completely resolve."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about whether the diagnosis is made by what is missing or by what is observed during the physical exam.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "71",
+    "lectureTitle": "00071 Neurology - what not-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "72b91494-2cdc-4285-a121-a525f238289f",
+    "overlapScore": 0.4722222222222222,
+    "questionIndex": 5,
+    "quizFileName": "quiz_071.json",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e57d3ca2-20dc-4d28-b7fd-7ab669303461",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:50.659Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

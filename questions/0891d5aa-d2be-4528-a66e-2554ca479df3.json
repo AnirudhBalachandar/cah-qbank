@@ -1,47 +1,80 @@
 {
   "id": "0891d5aa-d2be-4528-a66e-2554ca479df3",
-  "stem": "What refers to the probability of having a condition when test is positive",
+  "stem": "What term refers to the probability of having a condition when the test result is positive?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Sensitivity",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Specificity",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Pre-test proability",
-      "isCorrect": null
+      "text": "Pre-test probability",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "NPV",
-      "isCorrect": null
+      "text": "Negative predictive value",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "PPV",
-      "isCorrect": null
+      "text": "Positive predictive value",
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Positive predictive value is the probability that a person truly has the condition given that the test result is positive. Sensitivity and specificity describe test performance in people with and without disease, respectively, while pre-test probability is the estimated chance of disease before testing. Negative predictive value is the probability of not having the condition when the test is negative.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+      "title": "How to Understand Your Lab Results"
+    },
+    {
+      "type": "external",
+      "source": "MedlinePlus Genetics",
+      "url": "https://medlineplus.gov/genetics/understanding/testing/interpretingresults/",
+      "title": "What do the results of genetic tests mean?"
+    },
+    {
+      "type": "external",
+      "source": "Merck Manual Professional Edition",
+      "url": "https://www.merckmanuals.com/professional/multimedia/table/what-is-a-predictive-value",
+      "title": "What is a predictive value?"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "diagnostic-testing",
+    "epidemiology",
+    "predictive-values",
+    "sensitivity",
+    "specificity"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.991Z",
   "sourceFingerprint": "1ed07c6eba69c1d73548a373",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "This is a straightforward epidemiology and diagnostic test interpretation question. The best answer is positive predictive value, which directly matches the phrase probability of having a condition when the test is positive.",
+  "optionExplanations": {
+    "A": "Sensitivity is the proportion of people with the condition who test positive",
+    "B": "Specificity is the proportion of people without the condition who test negative",
+    "C": "Pre-test probability is the estimated likelihood of disease before the test is performed",
+    "D": "Negative predictive value is the probability of not having the condition when the test is negative",
+    "E": "Positive predictive value is the probability of having the condition when the test is positive"
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.339Z",
@@ -56,6 +89,73 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e374dff1e5520e5251be"
+    "stemHash": "e374dff1e5520e5251be",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:07:44.749Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "selected_existing_option",
+      "confidence": 0.98,
+      "evidenceSources": [
+        {
+          "title": "How to Understand Your Lab Results",
+          "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "organization": "MedlinePlus",
+          "sourceType": "other_reputable",
+          "supports": "Defines positive test results as indicating the test found what it was looking for and explains that a positive result may mean the person may have the disease or condition"
+        },
+        {
+          "title": "What do the results of genetic tests mean?",
+          "url": "https://medlineplus.gov/genetics/understanding/testing/interpretingresults/",
+          "organization": "MedlinePlus Genetics",
+          "sourceType": "other_reputable",
+          "supports": "Explains that a positive test result can indicate diagnosis or increased likelihood of a condition, supporting the concept of probability after a positive test"
+        },
+        {
+          "title": "What is a predictive value?",
+          "url": "https://www.merckmanuals.com/professional/multimedia/table/what-is-a-predictive-value",
+          "organization": "Merck Manual Professional Edition",
+          "sourceType": "other_reputable",
+          "supports": "Defines positive predictive value as the probability that disease is present when the test result is positive"
+        }
+      ],
+      "notes": "Normalised wording slightly for clarity; original stem was grammatically incomplete but clinically unambiguous.",
+      "preRepair": {
+        "stem": "What refers to the probability of having a condition when test is positive",
+        "options": [
+          {
+            "key": "A",
+            "text": "Sensitivity",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Specificity",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Pre-test proability",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "NPV",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "PPV",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

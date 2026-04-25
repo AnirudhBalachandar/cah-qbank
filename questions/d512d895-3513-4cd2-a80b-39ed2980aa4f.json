@@ -1,0 +1,98 @@
+{
+  "id": "d512d895-3513-4cd2-a80b-39ed2980aa4f",
+  "stem": "Which condition requires urgent admission for surgical drainage of the hip joint?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Septic arthritis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Transient synovitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Perthes disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Viral synovitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Slipped upper femoral epiphysis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Septic arthritis requires urgent admission and surgical drainage to prevent rapid joint destruction and systemic complications.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.811Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-882af02c3343c2bf4273",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because septic arthritis is a surgical emergency that requires prompt drainage and antibiotics to protect the joint.",
+    "B": "Incorrect because transient synovitis is usually self-limiting and managed conservatively with rest and analgesia.",
+    "C": "Incorrect because Perthes disease is a chronic avascular necrosis of the femoral head and does not require urgent drainage.",
+    "D": "Incorrect because viral synovitis is generally self-limiting and treated supportively rather than with surgery.",
+    "E": "Incorrect because slipped upper femoral epiphysis is managed by orthopaedic stabilisation, not joint drainage."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about which condition involves the presence of pus and a high degree of systemic illness.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8484e1c6-2528-4ddc-8333-74056fe116d7",
+    "overlapScore": 0.35,
+    "questionIndex": 5,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:52.798Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

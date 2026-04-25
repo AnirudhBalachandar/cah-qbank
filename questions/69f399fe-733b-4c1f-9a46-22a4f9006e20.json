@@ -1,0 +1,102 @@
+{
+  "id": "69f399fe-733b-4c1f-9a46-22a4f9006e20",
+  "stem": "A term newborn becomes pink and starts breathing well after delivery. Which haemodynamic change is expected as part of normal postnatal transition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pulmonary vascular resistance falls and systemic vascular resistance rises",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pulmonary vascular resistance rises and systemic vascular resistance falls",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Right atrial pressure rises above left atrial pressure, keeping the foramen ovale open",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The ductus venosus remains the main pathway for umbilical venous return for 2 to 3 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Left ventricular dominance is expected in the neonatal period",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pulmonary vascular resistance falls and systemic vascular resistance rises. This is the expected haemodynamic change after birth when the lungs expand and placental circulation is removed, supporting normal postnatal transition.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 19,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:14:10.089Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B45-attempt-01-1c485c1b9edc9e261409",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because lung expansion lowers pulmonary vascular resistance and removal of the placenta increases systemic vascular resistance after birth.",
+    "B": "Incorrect because the normal postnatal transition is the opposite: pulmonary vascular resistance falls and systemic vascular resistance rises.",
+    "C": "Incorrect because the foramen ovale closes when left atrial pressure exceeds right atrial pressure after birth.",
+    "D": "Incorrect because the ductus venosus closes shortly after birth when umbilical venous flow stops.",
+    "E": "Incorrect because the neonatal circulation is characterised by right ventricular dominance, not left ventricular dominance."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B45-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpwl8l0001rjv1mya1e6ol",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2913907284768212,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c66dddcf-af5b-4b11-8c69-297bdb704850",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B45/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cardiology foundations and acquired disease",
+      "foetal circulation",
+      "postnatal transition"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:11.435Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

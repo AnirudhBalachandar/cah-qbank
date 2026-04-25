@@ -1,0 +1,98 @@
+{
+  "id": "24cdb7b5-7395-4690-baf3-20b814ccf6dc",
+  "stem": "According to the CoAG reports, which statement best describes Aboriginal health indicators?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "All of these indicators are improving",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Mortality rates and infant mortality are improving",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Year 12 attainment and home ownership are improving",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Immunisation rates for 5-year-olds are improving",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Only social indicators are improving",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "All of these indicators are improving. The report describes positive trends across several measures, including mortality, low birth weight, smoking rates, and Year 12 attainment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+      "title": "00023 ATSI health gap_HG04-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.865Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a7a1ff05d1d5de583406",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the report describes improvement across multiple indicators, not just one or two specific measures.",
+    "B": "Incorrect because mortality rates are improving, but this is not the only indicator mentioned as improving.",
+    "C": "Incorrect because Year 12 attainment and home ownership are part of the improving trends, but they do not capture all of the indicators listed.",
+    "D": "Incorrect because immunisation in young children is not the key overall message; several other indicators are also reported to be improving.",
+    "E": "Incorrect because both health and social indicators are improving, so it is not limited to social measures alone."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The speaker challenges the 'negative attitude' by listing several metrics that are currently meeting targets.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "23",
+    "lectureTitle": "00023 ATSI health gap_HG04-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b83cf146-5fff-45a3-82a7-4868b19f2c93",
+    "overlapScore": 0.3804347826086957,
+    "questionIndex": 9,
+    "quizFileName": "quiz_023.json",
+    "quizTitle": "Indigenous Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cb62cee4-4a49-4f9e-9d69-3b6588737d6d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:58.150Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

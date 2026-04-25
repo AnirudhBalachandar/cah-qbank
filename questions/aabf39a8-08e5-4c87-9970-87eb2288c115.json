@@ -1,0 +1,98 @@
+{
+  "id": "aabf39a8-08e5-4c87-9970-87eb2288c115",
+  "stem": "Which of the following best defines agenesis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Abnormal arrangement of cells within tissues",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Excessive cellular proliferation within an organ",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Absolute failure of an organ or anatomical structure to form",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Failure of cells to proliferate after an initial rudimentary form has developed",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Incomplete development of an organ with reduced size",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Agenesis means absolute failure of an organ or anatomical structure to form, so the structure is completely absent from the start of development.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+      "title": "00061 dysmorphic syndromes-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.679Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c5bca244b66f46afcf4d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because abnormal arrangement of cells within tissues describes dysplasia, not agenesis.",
+    "B": "Incorrect because excessive cellular proliferation within an organ describes hyperplasia, not agenesis.",
+    "C": "Correct because agenesis is the absolute failure of an organ or anatomical structure to form.",
+    "D": "Incorrect because failure of cells to proliferate after an initial rudimentary form has developed is more consistent with aplasia.",
+    "E": "Incorrect because incomplete development of an organ with reduced size describes hypoplasia, not agenesis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This term refers to the most extreme form of failure in organ development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "61",
+    "lectureTitle": "00061 dysmorphic syndromes-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba61437e-0a53-4126-be17-c275fd2ef371",
+    "overlapScore": 0.5901639344262295,
+    "questionIndex": 8,
+    "quizFileName": "quiz_061.json",
+    "quizTitle": "Dysmorphology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "18d3845c-8426-41c0-b2e5-47fa8776d878",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:17.198Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

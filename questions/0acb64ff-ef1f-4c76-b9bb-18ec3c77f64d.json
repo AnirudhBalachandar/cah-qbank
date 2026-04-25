@@ -1,0 +1,98 @@
+{
+  "id": "0acb64ff-ef1f-4c76-b9bb-18ec3c77f64d",
+  "stem": "What is the long-term prognosis for approximately half of patients who had slipped capital femoral epiphysis in adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Development of osteoarthritis and need for hip replacement",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Complete resolution with no adult hip issues",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Spontaneous regrowth of the femoral neck",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Increased risk of bone density loss in the spine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Persistent thigh weakness without joint degeneration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Development of osteoarthritis and need for hip replacement is the expected long-term outcome in about half of patients with slipped capital femoral epiphysis. The adolescent hip deformity can lead to chronic joint damage and later degenerative change.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.676Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-749d3255415cfaaed593",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because long-term follow-up studies show that about 50% of adults develop osteoarthritis due to the adolescent hip deformity, and some will ultimately need hip replacement.",
+    "B": "Incorrect because slipped capital femoral epiphysis can cause lasting joint damage, so complete resolution without adult hip problems is not the usual prognosis.",
+    "C": "Incorrect because the slipped epiphysis does not regrow to restore normal hip anatomy and prevent degenerative change.",
+    "D": "Incorrect because the main long-term complication is osteoarthritis of the affected hip, not spinal bone density loss.",
+    "E": "Incorrect because the key late problem is joint degeneration of the hip rather than isolated persistent thigh weakness."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the consequences of a joint that was previously misaligned.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9225dba8-e91e-43fe-a9c5-d08b1e4f621b",
+    "overlapScore": 0.3831775700934579,
+    "questionIndex": 9,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:03.701Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

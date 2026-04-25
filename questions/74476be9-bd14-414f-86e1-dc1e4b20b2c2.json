@@ -1,0 +1,103 @@
+{
+  "id": "74476be9-bd14-414f-86e1-dc1e4b20b2c2",
+  "stem": "A paediatrician wants a stimulant preparation likely to cover the whole school day and homework period with one morning dose; which preparation has the longest stated duration?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Concerta",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Ritalin short-acting",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Dexamphetamine short-acting",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ritalin LA",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lisdexamfetamine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Concerta has the longest stated duration at 12 hours, making it the best option for coverage across the school day and homework period.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 85,
+      "title": "Page 85"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T08:36:23.330Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B14-attempt-01-9d07b4220694ac5cdbb7",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because Concerta is listed as lasting 12 hours, which is longer than the other preparations given.",
+    "B": "Incorrect because short-acting methylphenidate is listed as lasting 3-4 hours.",
+    "C": "Incorrect because short-acting dexamphetamine is listed as lasting 3-4 hours.",
+    "D": "Incorrect because Ritalin LA is listed as lasting 7-8 hours.",
+    "E": "Incorrect because lisdexamfetamine is listed as lasting 10-12 hours, which does not exceed Concerta’s stated 12 hours."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B14-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvselht0001rjx6wolatdrz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3260869565217391,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9565473b-0cc8-4dfb-98f0-44a26cd31138",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B14/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD treatment and longitudinal care",
+      "long-term management",
+      "stimulants",
+      "formulation duration"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:29.704Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "1961b3b4-1f5d-4dca-ac51-afe9ad7136f0",
+  "stem": "Which mechanism best explains why C2 deficiency may be associated with autoimmune disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "C2 ordinarily helps clear immune complexes and apoptotic debris",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "C2 is the main immunoglobulin in mucosal secretions",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "C2 directly generates the neutrophil oxidative burst",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "C2 is the only complement component involved in MAC formation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "C2 primarily increases lymphocyte production in bone marrow",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "C2 ordinarily helps clear immune complexes and apoptotic debris, and reduced clearance can contribute to autoimmune disease.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 54,
+      "title": "Infectious Disease in Childhood: Global and Regional Perspective"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:05:26.072Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B39-attempt-01-1667d2a46888251bae5d",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because C2 ordinarily helps clear immune complexes and apoptotic debris, which helps limit autoimmune responses.",
+    "B": "Incorrect because mucosal secretions are dominated by immunoglobulin A, not C2.",
+    "C": "Incorrect because the neutrophil oxidative burst is not a function of C2.",
+    "D": "Incorrect because MAC formation involves the terminal complement pathway, not C2 alone.",
+    "E": "Incorrect because C2 does not primarily regulate lymphocyte production in bone marrow."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 2,
+  "source": {
+    "batchId": "B39-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwng73g0001rjfwc7phxl63",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.302158273381295,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c8e08b6d-8d6f-44b0-97b3-21b215a1e9dd",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B39/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Infectious disease epidemiology and prevention",
+      "communication",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:33.505Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "f51656a4-b2c5-4c72-88bf-172e1a5c66cc",
+  "stem": "What is the most important determinant of a successful outcome in the management of open fractures?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Timing of antibiotic administration",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Debridement within 6 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use of warm normal saline for irrigation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Size of the initial skin laceration",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Application of a tight pressure dressing",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is timing of antibiotic administration. Early antibiotics are the most critical factor in reducing infection risk and improving outcomes in open fractures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+      "title": "00088 fractures-management-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.924Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4414a10f87017975eaa3",
+  "rationale": "Early administration of antibiotics has a greater impact on outcome than the exact timing of surgery or the appearance of the wound.",
+  "optionExplanations": {
+    "A": "Correct because the time to the first dose of antibiotics is the key determinant of infection prevention and overall outcome.",
+    "B": "Incorrect because the classic 6-hour debridement rule is less important than prompt antibiotics, and debridement can occur later if needed.",
+    "C": "Incorrect because irrigation is part of wound management but is not the main factor driving outcome compared with early antibiotics.",
+    "D": "Incorrect because wound size does not reliably reflect the severity of contamination or the risk of infection.",
+    "E": "Incorrect because a pressure dressing may be useful for temporary control of bleeding, but it does not determine the long-term outcome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The source mentions that this single factor outweighs even the speed of getting to the operating theater.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "88",
+    "lectureTitle": "00088 fractures-management-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c9cda91a-b307-420a-bc21-b2a46c66c463",
+    "overlapScore": 0.3592233009708738,
+    "questionIndex": 7,
+    "quizFileName": "quiz_088.json",
+    "quizTitle": "Fracture Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "98321e56-9a11-40dd-a47f-af59e92e2b94",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:03.410Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

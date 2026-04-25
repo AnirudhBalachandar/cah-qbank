@@ -1,0 +1,98 @@
+{
+  "id": "45d4783b-1f56-4cd6-bb91-746d2218ec81",
+  "stem": "What is the main method of tertiary prevention for acute rheumatic fever in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Monthly injections of benzathine penicillin G",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Annual echocardiography screening",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A single course of oral amoxicillin at the first sign of sore throat",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Water fluoridation in remote communities",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Daily inhaled corticosteroids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Monthly injections of benzathine penicillin G are used for long-term secondary prophylaxis to prevent recurrent streptococcal infections and further rheumatic heart damage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+      "title": "00023 ATSI health gap_HG04-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.831Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-86dc7f8bffb583ab0847",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because monthly benzathine penicillin G provides long-term prophylaxis to prevent recurrent Group A streptococcal infections and subsequent cardiac damage.",
+    "B": "Incorrect because echocardiography may monitor cardiac involvement, but it does not prevent recurrent rheumatic fever.",
+    "C": "Incorrect because a single oral antibiotic course treats an acute infection, but tertiary prevention requires ongoing prophylaxis.",
+    "D": "Incorrect because fluoridation helps dental health, not prevention of rheumatic fever.",
+    "E": "Incorrect because inhaled corticosteroids are used for asthma, not rheumatic fever prophylaxis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about a long-term, injectable antibiotic regimen used to stop recurrence.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "23",
+    "lectureTitle": "00023 ATSI health gap_HG04-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fff7d92f-9f5b-4984-b491-30e004479e10",
+    "overlapScore": 0.4390243902439024,
+    "questionIndex": 7,
+    "quizFileName": "quiz_023.json",
+    "quizTitle": "Indigenous Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cb62cee4-4a49-4f9e-9d69-3b6588737d6d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:05.059Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

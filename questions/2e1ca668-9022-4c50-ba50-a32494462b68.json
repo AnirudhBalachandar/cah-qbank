@@ -1,0 +1,98 @@
+{
+  "id": "2e1ca668-9022-4c50-ba50-a32494462b68",
+  "stem": "What is the clinical significance of a child's gum pads appearing deficient or poorly formed in some areas?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It may indicate ectodermal dysplasia with absent teeth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is a normal sign that the child is ready for solid foods",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It suggests the child uses a pacifier too frequently",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is a feature of neonatal teeth that have already fallen out",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It indicates delayed teething in an otherwise normal child",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ectodermal dysplasia may present with deficient gum pads because the underlying teeth are absent. Healthy gum pads are usually full and firm in anticipation of erupting teeth, so reduced bulk can be a clue to tooth agenesis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.079Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4e9e3ae5146fd96b352a",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because ectodermal dysplasia can cause congenital absence of teeth, and this may be reflected by underdeveloped gum pads.",
+    "B": "Incorrect because readiness for solid foods is not assessed by the appearance of gum pads.",
+    "C": "Incorrect because pacifier use may affect tooth alignment later, but it does not cause deficient gum pad development.",
+    "D": "Incorrect because neonatal teeth are present at birth or erupt early; their loss would not explain deficient gum pads as a developmental sign.",
+    "E": "Incorrect because delayed teething does not typically cause the gum pads themselves to appear deficient or poorly formed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about a condition that affects the development of tissues like hair, sweat glands, and teeth.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ffd611f3-db0a-42fd-8f91-6bdf8f57691f",
+    "overlapScore": 0.5233644859813084,
+    "questionIndex": 9,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:18.008Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

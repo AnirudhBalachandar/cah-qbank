@@ -1,0 +1,98 @@
+{
+  "id": "9bb39c97-8cb5-473a-93bf-f0bb39457236",
+  "stem": "Which manoeuvre is a test of provocation used to attempt dislocation of a located hip in developmental dysplasia of the hip?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ortolani's test",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Barlow's test",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Galeazzi test",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pelvic osteotomy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Klisic test",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Barlow's test is the provocative manoeuvre used to try to dislocate a hip that is initially located.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.264Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-be660b9210f0a3926ab4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Ortolani's test is used to reduce a dislocated hip, not provoke dislocation of a located hip.",
+    "B": "Correct because Barlow's test is the provocative manoeuvre used to try to dislocate a hip that is initially located.",
+    "C": "Incorrect because the Galeazzi test assesses leg length inequality and may suggest unilateral hip dislocation, rather than provoking dislocation.",
+    "D": "Incorrect because pelvic osteotomy is a surgical treatment, not a bedside diagnostic manoeuvre.",
+    "E": "Incorrect because the Klisic test is another clinical sign used in assessing hip dislocation, not the provocation test described."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One test tries to push the hip out, while the other tries to put it back in.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "07344dc7-e795-4d71-9fb2-665f664185d0",
+    "overlapScore": 0.3645833333333333,
+    "questionIndex": 7,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:48.468Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

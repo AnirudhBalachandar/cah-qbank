@@ -1,0 +1,98 @@
+{
+  "id": "30b76cce-4124-4a14-8d25-9d84c1669804",
+  "stem": "In bedwetting alarm therapy, what is overlearning?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Drinking a glass of water before bed and continuing the alarm treatment",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Setting the alarm to sound at random times overnight",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Reading information about bladder function each night",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Using two alarms at the same time",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Stopping the alarm once the child has had one dry week",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Overlearning means giving extra fluid before bed and continuing the alarm after dryness is achieved to reinforce bladder control.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+      "title": "00008 common-problems-enur-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.797Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f22d494f3d0bed8c2bc8",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because overlearning is an extra conditioning step in alarm therapy where the child drinks before bed and the alarm treatment continues.",
+    "B": "Incorrect because overlearning does not involve random alarm activation; it uses planned fluid loading to reinforce the response to a full bladder.",
+    "C": "Incorrect because education may support treatment, but overlearning specifically refers to a behavioural step within alarm therapy.",
+    "D": "Incorrect because overlearning is not about using multiple alarms; it is about increasing the bedtime fluid challenge.",
+    "E": "Incorrect because overlearning involves continuing treatment after improvement, not stopping it early."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This technique involves deliberately increasing the 'difficulty' of staying dry to reinforce the habit.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "8",
+    "lectureTitle": "00008 common-problems-enur-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "14c80c11-bffb-49bc-8dba-34952a82732b",
+    "overlapScore": 0.4905660377358491,
+    "questionIndex": 6,
+    "quizFileName": "quiz_008.json",
+    "quizTitle": "Bedwetting Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2c9798db-0ebc-4a15-9ccb-95ac659163f6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:20.485Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

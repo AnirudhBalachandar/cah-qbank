@@ -1,0 +1,98 @@
+{
+  "id": "8f1c81cf-dd30-4c8d-8c6b-9b9aa043d8be",
+  "stem": "A 4-month-old infant has a first typical UTI that responded to antibiotics and grew Escherichia coli; what imaging follow-up is appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediate ultrasound in the emergency department",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "No imaging unless the infection recurs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A non-acute ultrasound within 6 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Mandatory MCUG and DMSA scan regardless of ultrasound result",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Repeat urine culture in 6 weeks instead of imaging",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A non-acute ultrasound within 6 weeks is the appropriate follow-up for this infant with a first typical UTI. This is because infants under 6 months with a first typical UTI should have renal tract ultrasound arranged electively within 6 weeks to look for urinary tract anomalies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.785Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5d1bfc0853793ab9d3f1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because this is not usually required urgently for a typical UTI that is responding to treatment.",
+    "B": "Incorrect because infants under 6 months still need imaging follow-up after a first typical UTI.",
+    "C": "Correct because infants under 6 months with a first typical UTI should have renal tract ultrasound arranged electively within 6 weeks to look for urinary tract anomalies.",
+    "D": "Incorrect because MCUG and DMSA are not routinely mandatory for every infant and depend on the clinical course and ultrasound findings.",
+    "E": "Incorrect because repeat culture does not replace the recommended imaging follow-up in this age group."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Determine the age cutoff and whether the imaging needs to be performed urgently or electively.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9051b0eb-f08d-474c-9107-9388154caaa5",
+    "overlapScore": 0.3734939759036144,
+    "questionIndex": 7,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:26.380Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "b4fa1d09-abb1-4389-b6fd-19919c208024",
+  "stem": "Which infant meets criteria for high-risk brief resolved unexplained event (BRUE)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Age under 2 months or history of prematurity",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Event duration of 1 to 2 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Age over 60 days with a normal examination",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A single isolated event in a term infant",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Feeding-related choking with a normal recovery",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Age under 2 months or a history of prematurity defines a higher-risk BRUE presentation and warrants more careful assessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+      "title": "00005 BRUE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.460Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-73e43d1e04ba32720ec9",
+  "rationale": "The high-risk BRUE group is identified by young age and prematurity, whereas older term infants with a normal examination are generally lower risk.",
+  "optionExplanations": {
+    "A": "Correct because infants younger than 2 months, or those with a history of prematurity, are higher risk and need more extensive evaluation.",
+    "B": "Incorrect because event duration alone does not define high-risk BRUE, and a 1 to 2 minute event is not the key risk criterion.",
+    "C": "Incorrect because being older than 60 days with a normal examination is more consistent with a low-risk BRUE profile.",
+    "D": "Incorrect because a single isolated event in a term infant is more often considered lower risk if other low-risk criteria are met.",
+    "E": "Incorrect because feeding-related choking suggests an explained event rather than the age or prematurity criteria that define high-risk BRUE."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the age threshold and birth history factors that necessitate admission and a septic workup.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "5",
+    "lectureTitle": "00005 BRUE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2802cbfd-20d2-4bcc-ab8f-9a929cd2bb4b",
+    "overlapScore": 0.4404761904761905,
+    "questionIndex": 4,
+    "quizFileName": "quiz_005.json",
+    "quizTitle": "BRUE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4a12b74d-8495-4ab6-9d09-b6e011b57050",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:38.515Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,47 +1,80 @@
 {
   "id": "06d5a720-9077-4628-aede-d194e8e00ca7",
-  "stem": "Which of the following is a feature of transient synovitis:",
+  "stem": "Which of the following is a feature of transient synovitis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Fixed flexion deformity",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Positive trendelenberg test",
-      "isCorrect": null
+      "text": "Positive Trendelenburg test",
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Muscle wasting",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Leg length deformity",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Positive barlow test",
-      "isCorrect": null
+      "text": "Positive Barlow test",
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Transient synovitis (irritable hip) is a common cause of limp in young children and typically presents after a recent viral illness with hip pain or limp and reduced hip range of motion. It does not cause the developmental hip instability suggested by a positive Barlow test, nor does it typically produce fixed flexion deformity, leg length discrepancy, or muscle wasting. The safest repair of this fragment is to interpret it as asking for the feature least inconsistent with the intended teaching point among the original options: Barlow is a neonatal hip instability test and is not a feature of transient synovitis, so the original item is clinically flawed. However, because the intended answer appears to be asking about hip exam findings, none of the listed options is a true feature of transient synovitis; the correct practice-ready version should instead ask about the typical presentation of transient synovitis, for which reduced hip range of motion and a recent viral prodrome are characteristic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+      "title": "The limping or non-weight bearing child"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+      "title": "Transient synovitis (irritable hip)"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Developmental_Dysplasia_of_the_Hip_DDH/",
+      "title": "Developmental dysplasia of the hip (DDH)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "developmental-dysplasia-of-the-hip",
+    "hip-pain",
+    "limp",
+    "paediatric-orthopaedics",
+    "transient-synovitis"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.027Z",
   "sourceFingerprint": "10c1568f84b21e5952475ec4",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "This item is not fully repairable as written because none of the options is a true feature of transient synovitis. The original stem likely intended a hip-examination differential. A clinically safe SBA would ask about transient synovitis being associated with a recent viral illness and a limp, with reduced hip range of motion. Because the requirement is to preserve the existing options when possible, the best available option set still places Barlow as the most clearly wrong hip-specific distractor in the context of transient synovitis, but the item should be treated as flawed for exam use.",
+  "optionExplanations": {
+    "A": "Fixed flexion deformity is not a typical feature of transient synovitis; it raises concern for more significant hip pathology",
+    "B": "A Trendelenburg gait may be seen with hip pathology, but it is not a defining feature of transient synovitis and is not the best answer here",
+    "C": "Muscle wasting is not a feature of acute transient synovitis; it suggests more chronic pathology",
+    "D": "Leg length deformity/discrepancy is not typical of transient synovitis and suggests other hip disorders",
+    "E": "Barlow testing is used for neonatal developmental dysplasia of the hip, not transient synovitis"
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.998Z",
@@ -56,6 +89,73 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "66ccae07415df623bab9"
+    "stemHash": "66ccae07415df623bab9",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:07:29.866Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "selected_existing_option",
+      "confidence": 0.46,
+      "evidenceSources": [
+        {
+          "title": "The limping or non-weight bearing child",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Transient synovitis is a common cause of limp in children; assessment of limp/red flags and hip pathology is outlined"
+        },
+        {
+          "title": "Transient synovitis (irritable hip)",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Transient synovitis commonly affects young children after a viral illness and causes limp and hip pain"
+        },
+        {
+          "title": "Developmental dysplasia of the hip (DDH)",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Developmental_Dysplasia_of_the_Hip_DDH/",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Barlow and Ortolani testing relate to neonatal DDH rather than transient synovitis"
+        }
+      ],
+      "notes": "Original question is flawed because none of the listed options is a true feature of transient synovitis. Repaired conservatively, but should ideally be rewritten rather than used as-is.",
+      "preRepair": {
+        "stem": "Which of the following is a feature of transient synovitis:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Fixed flexion deformity",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Positive trendelenberg test",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Muscle wasting",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Leg length deformity",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Positive barlow test",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

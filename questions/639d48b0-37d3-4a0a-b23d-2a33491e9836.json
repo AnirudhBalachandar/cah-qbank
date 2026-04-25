@@ -1,0 +1,98 @@
+{
+  "id": "639d48b0-37d3-4a0a-b23d-2a33491e9836",
+  "stem": "What is the standard treatment approach for most children with Perthes disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediate surgical stabilisation",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Long-term observation as it heals naturally",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Complete bed rest for 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High-dose vitamin and mineral supplementation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Routine long-leg casting",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Long-term observation as it heals naturally is the standard approach for most children with Perthes disease. Most cases require no active orthopaedic intervention and improve over several years with regular follow-up.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.057Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4ba16c76567ab7c27a42",
+  "rationale": "The majority of Perthes disease cases follow a natural healing course, so observation is usually sufficient unless complications or significant deformity develop.",
+  "optionExplanations": {
+    "A": "Incorrect because surgery is not required for the majority of children and is usually reserved for selected complications.",
+    "B": "Correct because most cases require no active orthopaedic intervention and heal on their own over about 4 to 5 years with regular observation.",
+    "C": "Incorrect because strict bed rest is not the standard management and is not routinely needed for Perthes disease.",
+    "D": "Incorrect because vitamin and mineral supplementation is not the primary treatment for this vascular condition.",
+    "E": "Incorrect because routine long-leg casting is not standard treatment for most children with Perthes disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The majority of cases follow a natural healing timeline without invasive procedures.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7cf68acc-1668-43cf-bd44-6da0003281c2",
+    "overlapScore": 0.4431818181818182,
+    "questionIndex": 7,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:00.270Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

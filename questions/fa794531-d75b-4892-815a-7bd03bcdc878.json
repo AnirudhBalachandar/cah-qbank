@@ -1,0 +1,98 @@
+{
+  "id": "fa794531-d75b-4892-815a-7bd03bcdc878",
+  "stem": "An infant is found to have a solitary median maxillary central incisor; which associated abnormality should be investigated urgently?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cleidocranial dysplasia with supernumerary teeth",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Growth hormone deficiency with midline defects such as holoprosencephaly",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Osteogenesis imperfecta with brittle bones",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Primary immune deficiency with periodontal disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Amelogenesis imperfecta with enamel hypoplasia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Growth hormone deficiency with midline defects such as holoprosencephaly is the key association to investigate. A solitary median maxillary central incisor can be a marker of broader midline developmental abnormalities, including pituitary and brain malformations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.235Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4b98adf375a34d402d25",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because cleidocranial dysplasia is associated with delayed skull closure and supernumerary teeth, not the classic midline pattern of SMMCI.",
+    "B": "Correct because a solitary median maxillary central incisor is a recognised marker of midline developmental abnormalities, including growth hormone deficiency and holoprosencephaly.",
+    "C": "Incorrect because osteogenesis imperfecta is associated with bone fragility and dental anomalies such as dentinogenesis imperfecta, not a solitary central incisor.",
+    "D": "Incorrect because primary immune deficiencies may cause recurrent oral infections and periodontal disease, but they do not typically present with SMMCI.",
+    "E": "Incorrect because amelogenesis imperfecta affects enamel formation, whereas SMMCI is a congenital midline tooth-development anomaly."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This dental finding is a major clue for potential defects along the center of the body and brain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2b96ede0-c175-4ab8-aeb9-6bcc16d57291",
+    "overlapScore": 0.376,
+    "questionIndex": 3,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:14.474Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

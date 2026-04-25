@@ -1,0 +1,98 @@
+{
+  "id": "6301c095-aa4d-42b1-9939-8add395065a2",
+  "stem": "What anatomical landmark is used to distinguish the gingiva from the oral mucosa?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Taste buds",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The mucogingival junction",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Salivary duct openings",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Underlying bone thickness",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The palatal raphe",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The mucogingival junction is the landmark that separates the attached gingiva from the adjacent oral mucosa.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+      "title": "00082 Oral anatomy video-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.802Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-962172cd5495b1b8a312",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because taste buds are found on the tongue and do not define the boundary between gingiva and oral mucosa.",
+    "B": "Correct because the mucogingival junction marks the transition between the gingiva and the oral mucosa.",
+    "C": "Incorrect because salivary duct openings are anatomical features of the oral cavity but do not distinguish gingiva from mucosa.",
+    "D": "Incorrect because bone thickness is not the anatomical criterion used to separate these soft tissues.",
+    "E": "Incorrect because the palatal raphe is a midline palatal feature and is unrelated to the gingiva-mucosa boundary."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a term that combines the names of both types of tissue.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "82",
+    "lectureTitle": "00082 Oral anatomy video-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9efe1dbf-9aaa-4a67-bb5a-d519afd90886",
+    "overlapScore": 0.4597701149425287,
+    "questionIndex": 3,
+    "quizFileName": "quiz_082.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e862b7d4-09f6-4061-95ee-6fd57899a43e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:59.612Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "56cf4635-23d0-4afc-a755-ce437bbcc160",
+  "stem": "Which imaging modality is the gold standard for reliably diagnosing hypertrophic pyloric stenosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ultrasound",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Plain abdominal X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "CT with oral contrast",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "MRI of the abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Upper gastrointestinal contrast study",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ultrasound is the gold standard for diagnosing hypertrophic pyloric stenosis because it can directly measure pyloric muscle thickness and channel length and show failure of the pylorus to open normally.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.399Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f4d14caa5e7d14f29aa6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because ultrasound is the gold standard for diagnosing hypertrophic pyloric stenosis and allows direct measurement of pyloric muscle thickness and channel length.",
+    "B": "Incorrect because a plain abdominal X-ray may show nonspecific gastric distension but cannot confirm hypertrophic pyloric stenosis.",
+    "C": "Incorrect because CT is not the preferred test in infants and is unnecessary when ultrasound can diagnose the condition accurately without radiation.",
+    "D": "Incorrect because MRI is not the standard diagnostic test for hypertrophic pyloric stenosis and is impractical compared with ultrasound.",
+    "E": "Incorrect because an upper gastrointestinal contrast study may be used in selected cases but ultrasound is the first-line gold standard test."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This modality allows for real-time observation of the pyloric channel failing to open.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b6698b95-40f3-4036-9554-7ab64a455812",
+    "overlapScore": 0.6146788990825688,
+    "questionIndex": 8,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:39.343Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

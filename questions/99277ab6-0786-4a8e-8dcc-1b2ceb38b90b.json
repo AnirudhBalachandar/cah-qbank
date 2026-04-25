@@ -1,0 +1,102 @@
+{
+  "id": "99277ab6-0786-4a8e-8dcc-1b2ceb38b90b",
+  "stem": "A febrile child has a mid-systolic crescendo-decrescendo murmur that becomes louder during exercise; what is the best explanation for this murmur pattern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increased flow velocity across the pulmonary valve",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Persistent flow between vascular compartments",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Turbulent flow in the jugular veins",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Turbulent flow through a narrow carotid artery",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Accessory pathway conduction causing pre-excitation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Increased flow velocity across the pulmonary valve is the best explanation for this mid-systolic crescendo-decrescendo murmur, which can become louder with fever or exercise.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 81,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:24:30.648Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B46-attempt-04-ad7120612366bd11a3f0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a mid-systolic crescendo-decrescendo murmur is a flow murmur caused by increased velocity across the pulmonary valve, and it may be louder with fever or exercise.",
+    "B": "Incorrect because persistent flow between vascular compartments describes a continuous murmur, not a mid-systolic crescendo-decrescendo murmur.",
+    "C": "Incorrect because turbulent flow in the jugular veins describes a venous hum, which is typically continuous and low-pitched.",
+    "D": "Incorrect because turbulent flow through a narrow carotid artery describes a carotid bruit, which is heard over the neck arteries.",
+    "E": "Incorrect because accessory pathway conduction causing pre-excitation refers to Wolff-Parkinson-White syndrome on ECG, not a murmur mechanism."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B46-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq9w0i0001rj02jmeoo4g2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3370786516853932,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1f9aeac7-1733-4d83-aa43-597a8532ed10",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B46/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acyanotic congenital heart disease and murmur interpretation",
+      "murmur quality",
+      "physiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:41.939Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

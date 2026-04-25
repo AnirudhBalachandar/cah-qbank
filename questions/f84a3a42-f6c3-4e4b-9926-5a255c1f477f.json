@@ -1,0 +1,98 @@
+{
+  "id": "f84a3a42-f6c3-4e4b-9926-5a255c1f477f",
+  "stem": "Why is asymptomatic bacteriuria generally not treated in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bacteria are usually not viable and will not grow in culture",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is expensive and requires intravenous antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Treatment can increase antibiotic resistance and replace normal flora with more virulent organisms",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It is always caused by Staphylococcus, which does not respond to antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It always progresses to symptomatic urinary tract infection if untreated",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Treatment can increase antibiotic resistance and disrupt normal flora, allowing more virulent organisms to replace harmless bacteria.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.850Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6bc7506c538e8da9f76d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because bacteriuria means bacteria are present, even when the child has no symptoms.",
+    "B": "Incorrect because the main reason to avoid treatment is not cost or route of administration, but antimicrobial stewardship and microbiome effects.",
+    "C": "Correct because unnecessary antibiotics can select resistant organisms and disturb the normal flora, which may allow more virulent bacteria to overgrow.",
+    "D": "Incorrect because asymptomatic bacteriuria is not always caused by Staphylococcus, and organism type does not change the general rule against treatment in an asymptomatic child.",
+    "E": "Incorrect because asymptomatic bacteriuria does not always progress to symptomatic infection, so routine treatment is not recommended solely to prevent this."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the long-term ecological consequences of using antibiotics when no clinical illness is present.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "95e4c3bd-abb1-460a-a523-af48af344f64",
+    "overlapScore": 0.3714285714285714,
+    "questionIndex": 9,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:09.706Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

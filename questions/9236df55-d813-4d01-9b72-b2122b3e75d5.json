@@ -1,0 +1,102 @@
+{
+  "id": "9236df55-d813-4d01-9b72-b2122b3e75d5",
+  "stem": "A 4-year-old child has unilateral nasal discharge, excoriation at the nostril, and intermittent epistaxis. Which diagnosis should be considered first?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Nasal foreign body",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Viral pharyngitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Septal haematoma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Juvenile angiofibroma",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Normal nasal examination",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nasal foreign body is the most likely diagnosis. This is because unilateral nasal discharge with local excoriation and intermittent epistaxis is a classic presentation in a young child and should prompt this diagnosis first.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 8,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:17:56.032Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B23-attempt-01-bfcc291204cff395db99",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because unilateral nasal discharge with excoriation and intermittent epistaxis is a classic presentation of a nasal foreign body in a young child.",
+    "B": "Incorrect because viral pharyngitis causes sore throat symptoms rather than unilateral nasal discharge with local trauma and bleeding.",
+    "C": "Incorrect because septal haematoma is usually associated with nasal trauma and obstruction, not isolated unilateral discharge and excoriation.",
+    "D": "Incorrect because juvenile angiofibroma typically presents in adolescent males with recurrent epistaxis, not in a 4-year-old child.",
+    "E": "Incorrect because these findings are abnormal and should not be attributed to a normal nasal examination."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B23-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlr3zo0001rjs4rrtz3ugs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3061224489795918,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B23/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nose and throat",
+      "nasal foreign body",
+      "Diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:29.729Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

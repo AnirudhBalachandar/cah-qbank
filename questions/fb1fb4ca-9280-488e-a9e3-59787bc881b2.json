@@ -1,0 +1,98 @@
+{
+  "id": "fb1fb4ca-9280-488e-a9e3-59787bc881b2",
+  "stem": "What is the primary hormonal mechanism behind pubertal gynaecomastia in boys?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A complete lack of testosterone production in mid-puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Excessive intake of phytoestrogens from the diet",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Peripheral aromatisation of testosterone to oestradiol",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A surge in growth hormone that targets breast tissue specifically",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Increased prolactin secretion from the pituitary",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Peripheral aromatisation of testosterone to oestradiol is the main hormonal mechanism in pubertal gynaecomastia. During puberty, increased conversion of testosterone to oestradiol can shift the androgen-oestrogen balance and stimulate breast tissue.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+      "title": "00060 Puberty -  Prof Shub-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.540Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-06716159742efc9d8096",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because pubertal gynaecomastia is not caused by complete absence of testosterone; testosterone is present and part of the normal pubertal hormonal milieu.",
+    "B": "Incorrect because dietary phytoestrogens are not the primary mechanism of typical pubertal gynaecomastia; the key issue is endogenous hormone conversion.",
+    "C": "Correct because peripheral aromatisation converts testosterone to oestradiol, increasing oestrogen effect on breast tissue during puberty.",
+    "D": "Incorrect because growth hormone is not the main driver of glandular breast tissue development in pubertal gynaecomastia.",
+    "E": "Incorrect because raised prolactin is not the usual mechanism of pubertal gynaecomastia; it is more relevant in other causes of galactorrhoea or endocrine disorders."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This process involves an enzyme that converts androgens into estrogens.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "60",
+    "lectureTitle": "00060 Puberty -  Prof Shub-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fff7d92f-9f5b-4984-b491-30e004479e10",
+    "overlapScore": 0.4,
+    "questionIndex": 8,
+    "quizFileName": "quiz_060.json",
+    "quizTitle": "Puberty Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e22baf88-aef5-4335-9bcc-e7ac01f8c0cc",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:16.288Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

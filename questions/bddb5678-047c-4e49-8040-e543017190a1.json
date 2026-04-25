@@ -1,0 +1,102 @@
+{
+  "id": "bddb5678-047c-4e49-8040-e543017190a1",
+  "stem": "Which investigation can help define the lymphocyte subsets involved in a child with suspected immunodeficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "T, B, and NK cell subsets by flow cytometry",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bone age radiograph",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Urinary sodium measurement",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Random cortisol level",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Skin-prick allergy testing",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "T, B, and NK cell subsets by flow cytometry is the correct investigation for assessing lymphocyte subsets in suspected immunodeficiency.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 54,
+      "title": "Infectious Disease in Childhood: Global and Regional Perspective"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:05:26.055Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B39-attempt-01-ee61cba0a54aaeed4d47",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because flow cytometry can quantify T, B, and NK lymphocyte subsets and help define the pattern of immunodeficiency.",
+    "B": "Incorrect because a bone age radiograph assesses skeletal maturation, not immune cell subsets.",
+    "C": "Incorrect because urinary sodium measurement evaluates renal salt handling, not immunodeficiency.",
+    "D": "Incorrect because a random cortisol level assesses adrenal function, not lymphocyte subsets.",
+    "E": "Incorrect because skin-prick allergy testing assesses IgE-mediated sensitisation, not immune cell subset analysis."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B39-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwng73g0001rjfwc7phxl63",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3154761904761905,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7716a8bb-6d51-4eff-9bc0-f8ddfd6922d1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B39/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Infectious disease epidemiology and prevention",
+      "communication",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:56.523Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

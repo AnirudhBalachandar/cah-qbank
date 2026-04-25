@@ -1,0 +1,98 @@
+{
+  "id": "438889de-d8a8-4458-b321-32028abd16a1",
+  "stem": "What is the likely long-term outcome for about 50% of adults who had Perthes disease as children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Complete restoration of normal hip function",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Development of osteoarthritis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Recurrence of avascular necrosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Permanent paralysis of the affected limb",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Slipped upper femoral epiphysis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Development of osteoarthritis is the most likely long-term outcome in about 50% of adults who had Perthes disease in childhood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.131Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-64d5434cc48d094597f1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Perthes disease can cause lasting hip deformity and later degenerative change rather than guaranteed normal function.",
+    "B": "Correct because childhood damage to the femoral head can lead to early hip degeneration and osteoarthritis in adulthood.",
+    "C": "Incorrect because the acute avascular necrosis occurs in childhood; the recognised adult sequela is degenerative arthritis, not recurrence of necrosis.",
+    "D": "Incorrect because Perthes disease affects the hip joint and femoral head, not the motor nerves, so paralysis is not expected.",
+    "E": "Incorrect because slipped upper femoral epiphysis is a separate paediatric hip disorder, not a long-term outcome of Perthes disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the common long-term degenerative joint condition mentioned as a late-stage consequence.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ee5526fe-62ab-433a-8bae-29100266b968",
+    "overlapScore": 0.4051724137931034,
+    "questionIndex": 10,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:55.384Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

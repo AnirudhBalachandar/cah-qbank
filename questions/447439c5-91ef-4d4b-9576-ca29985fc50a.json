@@ -1,0 +1,102 @@
+{
+  "id": "447439c5-91ef-4d4b-9576-ca29985fc50a",
+  "stem": "Which expansion of the HALO principle is correct for identifying people who may need extra vaccination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Health, Age, Lifestyle, Occupation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "History, Allergy, Location, Occupation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Health, Allergy, Live vaccines, Overseas travel",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Household, Age, Lifestyle, Obesity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Health, Age, Local policy, Opportunity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "HALO stands for Health, Age, Lifestyle, Occupation, which is used to identify people who may need extra vaccination.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 60,
+      "title": "National Immunisation Schedule and Immunisation for Special Populations"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:05:15.795Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B38-attempt-01-c0c290c821e2e6ef7830",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because HALO expands to Health, Age, Lifestyle, Occupation.",
+    "B": "Incorrect because this is not the HALO expansion.",
+    "C": "Incorrect because this is not the HALO expansion.",
+    "D": "Incorrect because this is not the HALO expansion.",
+    "E": "Incorrect because this is not the HALO expansion."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B38-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpl4ut0001rjk0oqxtr5nc",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.34375,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8023a091-6214-4a7f-a36b-98d78071c169",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B38/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "National schedule and special populations",
+      "special populations",
+      "interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:57.758Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

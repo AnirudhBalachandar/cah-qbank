@@ -1,0 +1,98 @@
+{
+  "id": "209e33eb-c07a-4f74-8399-9a6be3e73023",
+  "stem": "For a child under 10 years old, what is the recommended daily voiding frequency to help prevent recurrent urinary tract infections?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 to 3 times per day",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "5 to 6 times per day",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Once every hour while awake",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "8 to 10 times per day",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Once or twice per day",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "5 to 6 times per day is the recommended target, as regular bladder emptying helps reduce urinary stasis and lowers the risk of recurrent urinary tract infections.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.821Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-960f0d263136511b9154",
+  "rationale": "Regular voiding across the day is the key conservative habit being tested here.",
+  "optionExplanations": {
+    "A": "Incorrect because voiding only 2 to 3 times per day is too infrequent and can contribute to urine retention and infection risk.",
+    "B": "Correct because 5 to 6 times per day is the usual recommended voiding frequency to promote regular bladder emptying and help prevent recurrent UTIs.",
+    "C": "Incorrect because voiding every hour while awake is unnecessarily frequent and is not the usual general recommendation.",
+    "D": "Incorrect because 8 to 10 times per day is more frequent than the standard recommendation for routine prevention.",
+    "E": "Incorrect because once or twice per day is far too infrequent and increases the likelihood of bladder overfilling and urinary stasis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a number that represents a healthy balance of regular bladder emptying throughout a typical day.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "29654977-ff7f-47e1-8547-4d31c0b49a0c",
+    "overlapScore": 0.375,
+    "questionIndex": 8,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:48.688Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "434ebb0c-3085-4713-8efb-426031def50c",
+  "stem": "A 15-year-old girl has episodes of sudden knee buckling and brief collapse when she laughs, but she remains conscious and also has irresistible daytime sleepiness; what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Narcolepsy with cataplexy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Vasovagal syncope",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Epileptic seizure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Delayed sleep phase disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Panic attack",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Narcolepsy with cataplexy is the most likely diagnosis. This combination of irresistible daytime sleepiness and emotion-triggered loss of muscle tone with preserved consciousness is classic for narcolepsy with cataplexy.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 130,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T21:07:02.909Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B05-e4d04f9ef8e6073703d0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because narcolepsy with cataplexy causes excessive daytime sleepiness and brief emotion-triggered loss of muscle tone with preserved consciousness.",
+    "B": "Incorrect because vasovagal syncope usually causes transient loss of consciousness rather than preserved awareness during collapse.",
+    "C": "Incorrect because epileptic seizures typically do not present as laughter-triggered knee buckling with intact consciousness.",
+    "D": "Incorrect because delayed sleep phase disorder affects sleep timing rather than causing cataplexy or sudden collapses.",
+    "E": "Incorrect because panic attacks do not cause the characteristic emotion-triggered loss of muscle tone with daytime sleepiness."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B05",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmv3s3i10001rjanpt4ry7en",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3101851851851852,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "threshold": 0.35
+    },
+    "manualImportPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-18-02.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "sleep",
+      "narcolepsy",
+      "diagnosis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:55.369Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

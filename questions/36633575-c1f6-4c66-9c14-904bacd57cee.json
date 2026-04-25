@@ -1,0 +1,102 @@
+{
+  "id": "36633575-c1f6-4c66-9c14-904bacd57cee",
+  "stem": "A clinician asks a 16-year-old how often she vapes, then immediately says, \"You should quit,\" without exploring readiness to change or signs of dependence. Within the 5 A's framework, which step was skipped?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ask about current use",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Advise quitting",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Assess stage of change and dependence",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Arrange follow-up",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Assist with cessation support",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Assess stage of change and dependence is the skipped step. The clinician has already asked about vaping and given advice, but did not assess readiness to change or nicotine dependence before moving on.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T10:17:52.458Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-ae4adc25733d2e80d1db",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the clinician has already asked about current use.",
+    "B": "Incorrect because the clinician has already given advice to quit.",
+    "C": "Correct because Assess in the 5 A's includes checking readiness to change and looking for dependence.",
+    "D": "Incorrect because arranging follow-up is a later step and is not the omitted element in this scenario.",
+    "E": "Incorrect because assistance such as cessation support comes after assessment of readiness and dependence."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmugl98u0001rj9bmlqqrtv0",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3221153846153846,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-15.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "brief intervention",
+      "5 A's",
+      "vaping"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:29.162Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

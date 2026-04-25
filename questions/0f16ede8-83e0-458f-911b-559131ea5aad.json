@@ -1,50 +1,79 @@
 {
   "id": "0f16ede8-83e0-458f-911b-559131ea5aad",
-  "stem": "Biopsy showed total villous atrophy. What is the diagnosis?",
+  "stem": "A child undergoing small bowel biopsy has total villous atrophy. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Crohns",
-      "isCorrect": null
+      "text": "Crohn disease",
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Ulcerative colitis",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Coeliac",
-      "isCorrect": null
+      "text": "Coeliac disease",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Milk intolerance",
-      "isCorrect": null
+      "text": "Lactose intolerance",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Food protein allergy",
-      "isCorrect": null
+      "text": "Food protein-induced allergy",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Total villous atrophy on small bowel biopsy is characteristic of coeliac disease. In children, coeliac disease is an immune-mediated disorder triggered by gluten that damages the small intestinal villi, leading to villous atrophy and malabsorption. The other options do not typically cause total villous atrophy on biopsy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "healthdirect",
+      "url": "https://www.healthdirect.gov.au/coeliac-disease",
+      "title": "Coeliac disease"
+    },
+    {
+      "type": "external",
+      "source": "The Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/uploadedFiles/Main/Content/gastro/Coeliac%20Disease%20GESA%20patient%20information.pdf",
+      "title": "Coeliac Disease GESA patient information"
+    },
+    {
+      "type": "external",
+      "source": "The Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+      "title": "Coeliac disease abnormal coeliac serology"
+    }
+  ],
   "tags": [
     "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "coeliac-disease",
+    "gastroenterology",
+    "malabsorption",
+    "villous-atrophy"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.188Z",
   "sourceFingerprint": "623252bac518bb4f8ef94a8e",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The fragment is best repaired as a straightforward pathology-to-diagnosis SBA. Total villous atrophy is a classic histological feature of coeliac disease, which is the only option that fits the biopsy finding.",
+  "optionExplanations": {
+    "A": "Crohn disease can cause patchy transmural inflammation anywhere in the gastrointestinal tract, but total villous atrophy on small bowel biopsy is not the classic diagnosis.",
+    "B": "Ulcerative colitis affects the colon, not the small bowel villi, so it does not explain total villous atrophy.",
+    "C": "Correct. Coeliac disease causes immune-mediated small bowel injury with villous flattening/atrophy on biopsy.",
+    "D": "Lactose intolerance causes carbohydrate malabsorption symptoms but does not cause villous atrophy.",
+    "E": "Food protein-induced allergy may cause gastrointestinal symptoms in infants and children, but total villous atrophy is not the typical biopsy finding."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.598Z",
@@ -59,6 +88,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "9acdb3b78920adeba8c4"
+    "stemHash": "9acdb3b78920adeba8c4",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:08:11.112Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "normalized_existing_question",
+      "confidence": 0.98,
+      "evidenceSources": [
+        {
+          "title": "Coeliac disease",
+          "url": "https://www.healthdirect.gov.au/coeliac-disease",
+          "organization": "healthdirect",
+          "sourceType": "other_reputable",
+          "supports": "States that coeliac disease damages the small intestine and that villi become inflamed and flattened, known as villous atrophy"
+        },
+        {
+          "title": "Coeliac Disease GESA patient information",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/gastro/Coeliac%20Disease%20GESA%20patient%20information.pdf",
+          "organization": "The Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Explains that coeliac disease is a common paediatric diagnosis and confirms diagnosis is made by intestinal biopsy; describes small bowel damage and malabsorption"
+        },
+        {
+          "title": "Coeliac disease abnormal coeliac serology",
+          "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+          "organization": "The Royal Children's Hospital Melbourne",
+          "sourceType": "australian_specialty",
+          "supports": "Provides Australian paediatric referral guidance for suspected coeliac disease, supporting the clinical relevance of the diagnosis in children"
+        }
+      ],
+      "notes": "Repaired from a minimal fragment by adding a complete stem while preserving the intended diagnosis concept. Option wording standardized to a clinically conventional form.",
+      "preRepair": {
+        "stem": "Biopsy showed total villous atrophy. What is the diagnosis?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Crohns",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Ulcerative colitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Coeliac",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Milk intolerance",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Food protein allergy",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

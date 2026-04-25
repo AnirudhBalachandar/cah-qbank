@@ -1,0 +1,98 @@
+{
+  "id": "a819fb42-cb42-4032-be05-e2b2445cbe3f",
+  "stem": "An abdominal X-ray shows a double bubble sign with no gas in the distal bowel. What is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Duodenal atresia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Oesophageal atresia with distal fistula",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intussusception",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Malrotation with midgut volvulus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Duodenal atresia is the most likely diagnosis because a double bubble sign with no distal bowel gas indicates complete proximal duodenal obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.366Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-52bf1b94b9e5157b7900",
+  "rationale": "The double bubble reflects gas in the stomach and proximal duodenum, and the absence of distal gas suggests no passage beyond the atresia.",
+  "optionExplanations": {
+    "A": "Correct because duodenal atresia classically causes a double bubble sign with no gas beyond the obstruction.",
+    "B": "Incorrect because pyloric stenosis causes gastric outlet obstruction but does not usually produce a classic double bubble with complete absence of distal bowel gas.",
+    "C": "Incorrect because oesophageal atresia with a distal fistula typically allows gas into the stomach and bowel loops.",
+    "D": "Incorrect because intussusception more often causes intermittent obstruction and does not produce the classic double bubble pattern.",
+    "E": "Incorrect because malrotation with midgut volvulus can cause bilious vomiting and obstruction, but the classic radiographic sign is different from isolated double bubble with no distal gas."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition involves a discontinuity usually in the third part of the duodenum.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5f46c643-a9c5-4663-8dd7-f8ef934a01b2",
+    "overlapScore": 0.4769230769230769,
+    "questionIndex": 6,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:10.323Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

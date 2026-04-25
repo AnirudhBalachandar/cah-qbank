@@ -1,0 +1,103 @@
+{
+  "id": "eba77800-fcb6-4f87-a64b-e2cd2267e308",
+  "stem": "A 13-year-old is brought in after a first seizure, and friends report that they took unknown tablets from a relative’s bag shortly beforehand. Which underlying cause should be prioritised?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Drug or toxin overdose",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Simple febrile seizure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Normal adolescent behaviour",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Constipation-related pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Developmental screening issue",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Drug or toxin overdose should be prioritised. This is because a recent ingestion before a first seizure strongly suggests a toxic cause that needs urgent assessment and management.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 109,
+      "title": "Seizures - Emergency Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:00:14.767Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B64-attempt-03-54f746b9e369038442e2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a recent ingestion before a first seizure strongly suggests a toxic cause that needs urgent assessment and management.",
+    "B": "Incorrect because this presentation is not febrile and the history points to ingestion rather than a simple febrile seizure.",
+    "C": "Incorrect because a seizure after taking unknown tablets is a medical emergency, not normal adolescent behaviour.",
+    "D": "Incorrect because constipation is not a likely cause of an acute seizure in this scenario.",
+    "E": "Incorrect because developmental screening is unrelated to the immediate cause of this acute seizure."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
+  "source": {
+    "batchId": "B64-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrjuh60001rjmrfjrrczbi",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3386243386243386,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "15572832-8cc5-4bdd-b616-88e5dda8a5bc",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B64/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "What not to miss in neurology",
+      "dangerous differentials",
+      "seizures",
+      "toxicology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:37.331Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

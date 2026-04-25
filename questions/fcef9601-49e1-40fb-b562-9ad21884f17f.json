@@ -1,0 +1,102 @@
+{
+  "id": "fcef9601-49e1-40fb-b562-9ad21884f17f",
+  "stem": "A 17-year-old learner driver has chronic weekday sleep restriction and daytime fatigue; which consequence of poor sleep is most important to highlight at this visit?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Driving accidents",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Earlier pubertal timing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Primary hypothyroidism",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Neutropenia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Progressive hearing loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Driving accidents are a key consequence of poor sleep in adolescents. In a learner driver, daytime fatigue has immediate safety implications and should be specifically addressed.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 130,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T21:07:02.849Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B05-568c2269c4ee417acbf9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because poor sleep increases the risk of driving accidents, especially in a fatigued learner driver.",
+    "B": "Incorrect because earlier pubertal timing is not a recognised consequence of poor sleep.",
+    "C": "Incorrect because primary hypothyroidism is not a consequence of poor sleep.",
+    "D": "Incorrect because neutropenia is not associated with poor sleep.",
+    "E": "Incorrect because progressive hearing loss is not a consequence of poor sleep."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B05",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmv3s3i10001rjanpt4ry7en",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3177083333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-18-02.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "sleep",
+      "safety",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:20.099Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

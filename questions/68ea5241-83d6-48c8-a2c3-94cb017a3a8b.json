@@ -1,0 +1,98 @@
+{
+  "id": "68ea5241-83d6-48c8-a2c3-94cb017a3a8b",
+  "stem": "What is the most common cause of respiratory tract infections in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bacterial pathogens such as Streptococcus pneumoniae",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Viral pathogens",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Fungal pathogens",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Environmental allergens",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Congenital airway abnormalities",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Viral pathogens are the most common cause of respiratory tract infections in children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.640Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-211726e3d6b52a509f07",
+  "rationale": "Most childhood upper and lower respiratory tract infections, including common viral syndromes, are caused by viruses rather than bacteria or fungi.",
+  "optionExplanations": {
+    "A": "Incorrect because bacteria can cause respiratory infections, but they are not the most common cause overall in children.",
+    "B": "Correct because most respiratory tract infections in children, including common upper and lower tract infections, are viral in origin.",
+    "C": "Incorrect because fungal respiratory infections are uncommon and usually occur in specific high-risk groups.",
+    "D": "Incorrect because allergens can trigger symptoms that mimic infection, but they do not cause infectious respiratory tract infections.",
+    "E": "Incorrect because congenital airway abnormalities may predispose to symptoms or infections, but they are not an infectious cause themselves."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the type of germ that usually causes the common cold or bronchiolitis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f74b4dac-7130-423a-83be-ae946fcfa817",
+    "overlapScore": 0.4246575342465753,
+    "questionIndex": 13,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:10.139Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

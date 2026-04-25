@@ -1,0 +1,103 @@
+{
+  "id": "d2fb7929-849f-474a-8933-f191df3525fb",
+  "stem": "A 7-week-old infant is reviewed for a vascular skin lesion. Which diagnosis is the most common benign soft tissue tumour of childhood?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Infantile haemangioma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Café au lait spot",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Naevus flammeus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ash leaf macule",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Epidermal naevus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Infantile haemangioma is the most common benign soft tissue tumour of childhood.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 86,
+      "title": "Page 86"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:21:28.452Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B48-attempt-02-a5230f808ac6e42c93ea",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because infantile haemangioma is the most common benign soft tissue tumour of childhood.",
+    "B": "Incorrect because a café au lait spot is a pigmented birthmark, not a soft tissue tumour.",
+    "C": "Incorrect because naevus flammeus is a capillary malformation, not a benign soft tissue tumour.",
+    "D": "Incorrect because an ash leaf macule is a hypopigmented skin lesion associated with tuberous sclerosis.",
+    "E": "Incorrect because an epidermal naevus is a developmental skin lesion, not the most common benign soft tissue tumour of childhood."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B48-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq5zhc0001rjvu1vs017z2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3468208092485549,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a615a0c3-565f-4c44-9599-d2ed4a385bd1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B48/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Birthmarks and developmental skin lesions",
+      "infantile haemangioma",
+      "diagnosis",
+      "tumour"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:47.394Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

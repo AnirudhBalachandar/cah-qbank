@@ -1,0 +1,98 @@
+{
+  "id": "91ba67e4-af77-4fad-aaa5-cf6152f58bed",
+  "stem": "Which eye finding is characteristic of the conjunctivitis seen in Kawasaki disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Purulent discharge",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Limbal sparing",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Corneal ulceration",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Iritis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Photophobia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Limbal sparing is the characteristic eye finding in Kawasaki disease, with conjunctival injection that leaves a white rim around the cornea.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+      "title": "00098 Rheumatology_non juv-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.948Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9b562c412503d8fb76b7",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Kawasaki disease causes non-purulent conjunctival injection rather than purulent discharge.",
+    "B": "Correct because limbal sparing describes conjunctival redness that leaves a white rim around the cornea.",
+    "C": "Incorrect because corneal ulceration is not the typical conjunctival finding in Kawasaki disease.",
+    "D": "Incorrect because iritis is not the characteristic eye feature of Kawasaki disease conjunctivitis.",
+    "E": "Incorrect because photophobia may occur in other eye conditions, but it is not the specific conjunctival finding described here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The term refers to a white area or 'rim' that remains unaffected around the iris.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "98",
+    "lectureTitle": "00098 Rheumatology_non juv-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8ac462a5-5f3d-4255-8a4b-41f01053ea23",
+    "overlapScore": 0.4653465346534654,
+    "questionIndex": 3,
+    "quizFileName": "quiz_098.json",
+    "quizTitle": "Rheumatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b2902fa3-3b44-4a19-af87-5f49cdf7e31f",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:32.243Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

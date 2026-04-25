@@ -1,0 +1,102 @@
+{
+  "id": "d8209779-b6a5-4208-8712-6b51ac4e0341",
+  "stem": "When should preventive migraine medication be considered for an 11-year-old child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Headaches are intense and last more than 48 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "One mild headache settled after rest in a dark room",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A single attack improved with paracetamol",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child prefers tablets to nasal spray",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The parent would like to avoid discussing sleep or hydration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Headaches that are intense and last more than 48 hours are a scenario where preventive migraine medication may be considered in a child.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 120,
+      "title": "Headache"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:53:23.567Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B63-attempt-01-c6a2e4e61b79dc26490d",
+  "rationale": "This is one of the explicit triggers for considering interval therapy rather than relying only on acute treatment.",
+  "optionExplanations": {
+    "A": "Correct because intense headaches lasting more than 48 hours match a criterion for considering preventive therapy.",
+    "B": "Incorrect because a single mild headache that settles with rest does not meet the threshold for prophylaxis.",
+    "C": "Incorrect because one attack that responds to paracetamol does not suggest a need for preventive medication.",
+    "D": "Incorrect because preference for one formulation over another is not an indication for prophylaxis.",
+    "E": "Incorrect because avoiding lifestyle advice is not a reason to start preventive migraine medication."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B63-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrb16z0001rj2fv9mj1j2e",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3464052287581699,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B63/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Headache, microcephaly, and macrocephaly",
+      "prophylaxis",
+      "follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:59.567Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

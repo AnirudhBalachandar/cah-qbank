@@ -1,0 +1,102 @@
+{
+  "id": "9d5f9b1f-2337-4405-bb5d-c6a36aa3e01e",
+  "stem": "A parent of a 7-year-old asks whether it matters that a new tooth has erupted on one side only, with no matching tooth on the other side yet; what is the most accurate response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Unilateral eruption of teeth should be questioned, because it may reflect pathology in the maxilla or mandible",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "This is the expected pattern for permanent tooth eruption and does not need to be questioned",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is only concerning if it happens before 6 months of age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It means the child should have more than 20 primary teeth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It confirms an odontogenic infection as the cause",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Unilateral eruption of teeth should be questioned because asymmetry may indicate pathology in the maxilla or mandible.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 133,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.801Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-985b3fb809ba62471324",
+  "rationale": "The key teaching point is that tooth eruption should be bilateral and symmetric. A unilateral pattern warrants consideration of local pathology rather than being dismissed as normal variation.",
+  "optionExplanations": {
+    "A": "Correct because unilateral eruption should prompt questioning for possible pathology in the maxilla or mandible.",
+    "B": "Incorrect because a unilateral pattern is not automatically expected and should not be ignored.",
+    "C": "Incorrect because the concern is asymmetry of eruption, not an age threshold of 6 months.",
+    "D": "Incorrect because unilateral eruption does not imply an increased number of primary teeth.",
+    "E": "Incorrect because unilateral eruption alone does not confirm an odontogenic infection."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3355704697986577,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "normal dental development",
+      "red-flag recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:50.465Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

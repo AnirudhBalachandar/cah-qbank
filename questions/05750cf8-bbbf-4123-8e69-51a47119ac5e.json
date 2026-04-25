@@ -1,0 +1,98 @@
+{
+  "id": "05750cf8-bbbf-4123-8e69-51a47119ac5e",
+  "stem": "What mindset should a clinician adopt when a patient enters the consulting room to improve cultural safety?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The clinician is the authority figure in a medical facility",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The clinician is a guest in the patient's home space",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The consulting room is neutral clinical territory",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The clinician should treat everyone exactly the same regardless of background",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The clinician should lead the consultation without needing to consider the patient's perspective",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is that the clinician is a guest in the patient's home space. This mindset helps shift the power balance, supports respectful behaviour, and reduces the risk of unhelpful body language or facial expressions.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c01ec94-8711-42ab-a3b8-8e965a037345",
+      "title": "00024 ATSI health_other ga-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.020Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cf9f8d9ff94c305d39ef",
+  "rationale": "Viewing the consulting room as the patient's space encourages cultural safety by promoting humility, respect, and awareness of power imbalances.",
+  "optionExplanations": {
+    "A": "Incorrect because seeing oneself as the authority figure can reinforce power imbalances and make patients feel less safe.",
+    "B": "Correct because this perspective shifts the power dynamic, encourages respect, and reduces the risk of hostile body language or facial expressions.",
+    "C": "Incorrect because calling the room neutral ignores the history and mistrust many Aboriginal and Torres Strait Islander families may feel toward institutions.",
+    "D": "Incorrect because treating everyone identically can overlook cultural context, history, and individual cultural safety needs.",
+    "E": "Incorrect because cultural safety requires considering the patient's perspective rather than leading without reflection on power and context."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c01ec94-8711-42ab-a3b8-8e965a037345",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This approach involves a role reversal in how the healthcare provider views their own workspace.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "24",
+    "lectureTitle": "00024 ATSI health_other ga-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b6438621-bc08-4612-ba33-dfbe887244a8",
+    "overlapScore": 0.3697478991596639,
+    "questionIndex": 10,
+    "quizFileName": "quiz_024.json",
+    "quizTitle": "Aboriginal Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9282a4a9-c16e-497d-a27e-d114090082c9",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:52.115Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

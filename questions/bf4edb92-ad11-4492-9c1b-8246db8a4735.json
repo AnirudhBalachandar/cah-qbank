@@ -1,0 +1,98 @@
+{
+  "id": "bf4edb92-ad11-4492-9c1b-8246db8a4735",
+  "stem": "Which of the following is a significant risk factor for a child developing strabismus?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Premature birth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Excessive screen time in toddlers",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Lack of dietary vitamin A",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High birth weight",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delayed teething",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Premature birth is a significant risk factor for strabismus. Preterm infants have a higher incidence of strabismus and associated refractive errors such as myopia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.151Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-52b895ba92b7b6c0901e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because premature birth is associated with a higher incidence of strabismus and refractive errors such as myopia.",
+    "B": "Incorrect because excessive screen time is not listed as a significant risk factor for strabismus.",
+    "C": "Incorrect because dietary vitamin A deficiency is not a recognised major risk factor for strabismus in this context.",
+    "D": "Incorrect because high birth weight is not the risk factor described; prematurity is the important association.",
+    "E": "Incorrect because delayed teething is not associated with strabismus risk."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider factors related to birth history and early systemic development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a6054534-a689-4002-9a43-cd7029d21766",
+    "overlapScore": 0.4895833333333333,
+    "questionIndex": 13,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:00.673Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "fc4485ae-0b43-45ce-9649-19ed089ca1f2",
+  "stem": "When giving oral prednisolone for a severe asthma exacerbation in a child, what is the maximum daily dose?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "40 mg",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "50 mg",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "60 mg",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "2 mg/kg",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "80 mg",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "60 mg is the maximum daily dose of oral prednisolone for a child with a severe asthma exacerbation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.505Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3684204c29b83ccb01a2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 40 mg is below the maximum daily dose used in this setting.",
+    "B": "Incorrect because 50 mg is below the maximum daily dose used in this setting.",
+    "C": "Correct because the maximum daily dose of oral prednisolone for a child with a severe asthma exacerbation is capped at 60 mg.",
+    "D": "Incorrect because 2 mg/kg is a weight-based dose calculation, not the fixed maximum daily cap.",
+    "E": "Incorrect because 80 mg exceeds the maximum daily dose for a child in this setting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Even for very heavy children, there is a specific milligram cap that medical professionals must not exceed.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "26d72115-dbec-4b4a-a362-f75ecdc5b62a",
+    "overlapScore": 0.425,
+    "questionIndex": 4,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:19.011Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

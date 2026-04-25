@@ -1,0 +1,98 @@
+{
+  "id": "f8cdbcdb-168c-4494-8e23-46456a0609a7",
+  "stem": "Which Gross type of oesophageal atresia has a distal tracheo-oesophageal fistula?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gross A",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Gross B",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Gross C",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Gross E",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Gross D",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Gross C is the classic and most common form of oesophageal atresia, with a proximal blind pouch and a distal tracheo-oesophageal fistula.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.106Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77dda435ba9fca17294e",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because Gross A is pure oesophageal atresia without a fistula.",
+    "B": "Incorrect because Gross B has a proximal tracheo-oesophageal fistula rather than a distal fistula.",
+    "C": "Correct because Gross C is the classic and most common form of oesophageal atresia, with a proximal blind pouch and a distal tracheo-oesophageal fistula.",
+    "D": "Incorrect because Gross E is an H-type tracheo-oesophageal fistula without oesophageal atresia.",
+    "E": "Incorrect because Gross D is pure tracheo-oesophageal fistula without oesophageal atresia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the type that represents the most common clinical presentation of this anomaly.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "735042ca-89a3-4f3d-95b7-6a9f09869e33",
+    "overlapScore": 0.5,
+    "questionIndex": 4,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:12.736Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

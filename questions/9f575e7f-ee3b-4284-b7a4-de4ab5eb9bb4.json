@@ -1,0 +1,98 @@
+{
+  "id": "9f575e7f-ee3b-4284-b7a4-de4ab5eb9bb4",
+  "stem": "What intraoral finding may indicate a mandibular fracture during examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Excessive flow of saliva from the parotid duct",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A tear in the mucosa and bleeding near a tooth",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Rugae on the anterior palate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A yellow stone in the submandibular duct",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "White plaques on the buccal mucosa",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A tear in the mucosa and bleeding near a tooth is a common sign of mandibular fracture because soft tissue injury often overlies the underlying bony break.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+      "title": "00082 Oral anatomy video-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.908Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9e6eba154ebc63438fb4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because excessive saliva from the parotid duct is not a typical sign of mandibular fracture.",
+    "B": "Correct because a tear in the mucosa with bleeding near a tooth often occurs over a mandibular fracture.",
+    "C": "Incorrect because rugae are normal palatal anatomical folds and do not indicate trauma.",
+    "D": "Incorrect because a yellow stone in the submandibular duct describes a sialolith, not a fracture.",
+    "E": "Incorrect because white plaques on the buccal mucosa suggest mucosal pathology, not mandibular trauma."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what happens to the skin of the teeth when the bone beneath it breaks.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "82",
+    "lectureTitle": "00082 Oral anatomy video-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fe4f90ce-cd3c-49ef-8653-3b08430faa19",
+    "overlapScore": 0.375,
+    "questionIndex": 9,
+    "quizFileName": "quiz_082.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e862b7d4-09f6-4061-95ee-6fd57899a43e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:53.047Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

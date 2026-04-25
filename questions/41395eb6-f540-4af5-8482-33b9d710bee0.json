@@ -1,0 +1,98 @@
+{
+  "id": "41395eb6-f540-4af5-8482-33b9d710bee0",
+  "stem": "When assessing a toddler for foreign body aspiration, what is the most common finding on an expiratory chest radiograph?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Complete collapse of the lung distal to the object",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Increased lung volume and lucency on the affected side due to air trapping",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A large pleural effusion on the side of the aspiration",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Silhouette sign obscuring the right heart border",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Diffuse bilateral hyperinflation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Increased lung volume and lucency on the affected side due to air trapping is the typical expiratory radiographic finding in foreign body aspiration. The foreign body acts as a one-way valve, allowing air in but limiting air out.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.059Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c9199307a5f390e9683c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because complete collapse is not the most common expiratory finding in toddler foreign body aspiration; air trapping is more typical.",
+    "B": "Correct because the foreign body can act as a one-way valve, so the affected lung becomes overinflated and more lucent on expiration due to air trapping.",
+    "C": "Incorrect because a pleural effusion suggests another process, such as infection or inflammation, rather than the usual finding of foreign body aspiration.",
+    "D": "Incorrect because the silhouette sign is associated with adjacent consolidation or soft tissue opacity, not the air trapping seen with a foreign body.",
+    "E": "Incorrect because the usual finding is unilateral air trapping on the affected side, not diffuse bilateral hyperinflation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on what happens to trapped air when the child tries to breathe out.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9aedf789-a3c4-4648-8a22-8571536c5f8a",
+    "overlapScore": 0.3738317757009346,
+    "questionIndex": 5,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:49.788Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

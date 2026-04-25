@@ -1,0 +1,98 @@
+{
+  "id": "ddf3735f-6c4a-43bb-9828-62c8f2b42465",
+  "stem": "On the Bristol stool chart, which stool types are most indicative of constipation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Types 1 and 2",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Types 3 and 4",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Types 5 and 6",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Type 7",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Types 1 and 3",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Types 1 and 2 are the Bristol stool chart types most associated with constipation, as they describe hard or lumpy stool.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+      "title": "00006 common-problems-cons-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.587Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-81b69b22cf0eb92ed960",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because types 1 and 2 describe hard, lumpy stools that are most consistent with constipation.",
+    "B": "Incorrect because types 3 and 4 are generally normal stool forms rather than constipated stool.",
+    "C": "Incorrect because types 5 and 6 are softer stools and are more suggestive of loose stool than constipation.",
+    "D": "Incorrect because type 7 is watery stool, which is not consistent with constipation.",
+    "E": "Incorrect because type 1 is constipated stool, but type 3 is closer to normal stool form rather than constipation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the descriptions of 'small hard lumps' found at the very beginning of the chart.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "6",
+    "lectureTitle": "00006 common-problems-cons-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5de47587-7374-44be-86e2-8b6f6ab35546",
+    "overlapScore": 0.3698630136986301,
+    "questionIndex": 3,
+    "quizFileName": "quiz_006.json",
+    "quizTitle": "Constipation Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b50f57df-c86d-49e8-b079-40a148286d26",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:12.969Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "fef6e59a-6627-4500-88aa-107e0ced73aa",
+  "stem": "A 7-month-old infant has eczema affecting the cheeks with relative sparing of the adjacent facial folds; which term best describes this distribution pattern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lichenification",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Headlight sign",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Excoriation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Napkin dermatitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Coloboma",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Headlight sign is the correct term for cheek-predominant infantile eczema with relative sparing of the facial folds. This distribution is a classic bedside pattern in young infants.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 87,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:59:16.966Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B49-attempt-02-2861109bc1eed4c650bf",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because lichenification refers to thickened skin from chronic rubbing or scratching, not this facial distribution pattern.",
+    "B": "Correct because headlight sign describes prominent cheek involvement with relative sparing of the surrounding facial folds in infantile eczema.",
+    "C": "Incorrect because excoriation means scratch marks or superficial skin damage, not a named pattern of eczema distribution.",
+    "D": "Incorrect because napkin dermatitis is irritation in the nappy area, not cheek-predominant eczema.",
+    "E": "Incorrect because coloboma is a congenital structural eye defect and is unrelated to eczema distribution."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B49-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrilvm0001rjnm82zgvxby",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3428571428571429,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5f89b4db-04ff-40d8-8638-232efb793b35",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B49/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Eczema, psoriasis, and inflammatory dermatoses",
+      "eczema",
+      "counselling and follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:23.275Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

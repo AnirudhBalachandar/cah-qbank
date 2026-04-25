@@ -1,0 +1,98 @@
+{
+  "id": "8abc33d3-9989-428b-81da-fbaa7421b95c",
+  "stem": "Which imaging modality is the gold standard for detecting renal calculi?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CT scan",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "MRI scan",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "KUB plain film",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "DTPA scan",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ultrasound",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "CT scan is the gold standard for detecting renal calculi because it has the highest sensitivity for stones, including those that may be missed on ultrasound or plain radiography.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+      "title": "00044 Renal_imaging of the-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.063Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f1de7694c01a2c3c0d69",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because CT scan provides the highest sensitivity for detecting renal calculi, including small stones that may be missed by ultrasound or plain X-ray.",
+    "B": "Incorrect because MRI is not the standard modality for identifying renal calculi and is less suited to detecting stones.",
+    "C": "Incorrect because a KUB plain film can show some stones, but it is less sensitive and less definitive than CT.",
+    "D": "Incorrect because DTPA assesses renal function and obstruction rather than directly identifying stones.",
+    "E": "Incorrect because ultrasound is often a first-line test in children, but it is not the gold standard for stone detection."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "16810c50-ce2b-4f39-953c-76bd555d5fd7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This modality is used rarely in pediatrics due to radiation, except for specific questions like this one.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "44",
+    "lectureTitle": "00044 Renal_imaging of the-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b6698b95-40f3-4036-9554-7ab64a455812",
+    "overlapScore": 0.3697478991596639,
+    "questionIndex": 7,
+    "quizFileName": "quiz_044.json",
+    "quizTitle": "Renal Imaging Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8b2444f-bf56-4c42-8ce9-db4bf1399a9a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:14.672Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

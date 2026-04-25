@@ -1,0 +1,102 @@
+{
+  "id": "7dc35fb4-f018-4cac-b99c-d7aae62170c6",
+  "stem": "A 4-year-old child is being assessed for autism spectrum disorder, and a junior doctor asks about the role of the Autism Diagnostic Observation Schedule (ADOS); which statement is most accurate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "ADOS is mandatory for every diagnosis of autism spectrum disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "ADOS replaces the need for developmental assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "ADOS is used in addition to developmental assessment and is not always necessary for diagnosis of autism spectrum disorder",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "ADOS is the preferred intellectual assessment for children aged 4 years and over",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "ADOS is mainly used to distinguish expressive from receptive language in toddlers",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "ADOS is used in addition to developmental assessment and is not always necessary for diagnosis of autism spectrum disorder. It can support the assessment, but it does not replace a broader developmental evaluation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 16,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.16"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T07:32:25.162Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B12-attempt-02-bc99a3c1c87a6531c70a",
+  "rationale": "/null",
+  "optionExplanations": {
+    "A": "Incorrect because ADOS is not required in every case and is not mandatory for all diagnoses of autism spectrum disorder",
+    "B": "Incorrect because ADOS does not replace developmental assessment; it is used alongside it",
+    "C": "Correct because ADOS is an autism-specific tool that can add useful information to the assessment, but diagnosis does not always depend on it",
+    "D": "Incorrect because intellectual assessment is a separate process and ADOS is not the preferred test for cognitive ability",
+    "E": "Incorrect because distinguishing expressive from receptive language is not the main role of ADOS"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B12-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvq4byi0001rj04ix03z8qm",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3496240601503759,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "575cfc80-ce05-4901-ac7b-e09df1b4cd8a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B12/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ASD recognition and assessment",
+      "assessment tools",
+      "ADOS"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:48.989Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

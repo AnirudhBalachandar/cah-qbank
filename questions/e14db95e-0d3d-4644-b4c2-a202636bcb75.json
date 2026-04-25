@@ -1,0 +1,98 @@
+{
+  "id": "e14db95e-0d3d-4644-b4c2-a202636bcb75",
+  "stem": "At what age can a child consistently and correctly use a pressurised metered-dose inhaler without a spacer?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "8 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "12 years",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "5 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "10 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "12 years is the age at which a child can consistently and correctly use a pressurised metered-dose inhaler without a spacer.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+      "title": "00015 video3920953157-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.374Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-138f216ff2c6bac82c7a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 8 years is generally too young for reliable coordination of inhalation with actuation without a spacer.",
+    "B": "Correct because children under 12 generally do not have the coordination needed to use a puffer alone consistently and correctly.",
+    "C": "Incorrect because 5 years is well below the age when most children can manage a pressurised metered-dose inhaler without a spacer.",
+    "D": "Incorrect because 18 years is unnecessarily late; many children can use a pressurised metered-dose inhaler without a spacer by 12 years.",
+    "E": "Incorrect because 10 years is still below the threshold identified for consistent and correct use without a spacer."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The speaker differentiates between what might be suggested in guidelines and what is observed in clinical practice regarding coordination.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "15",
+    "lectureTitle": "00015 video3920953157-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "70b4b411-fb0b-4720-b7d3-3ca91637cfd0",
+    "overlapScore": 0.424,
+    "questionIndex": 2,
+    "quizFileName": "quiz_015.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70b6d54f-fbbf-4264-a8de-db63b29df579",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:19.843Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "4565b0b0-b394-4b40-b8ea-c66f5b0f9c7b",
+  "stem": "Which vesicoureteral reflux grade is associated with calyceal clubbing?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Grades 1 and 2",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Grade 3",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Grades 4 and 5",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Grade 1 only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "All grades 1 to 5",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Grades 4 and 5 are associated with calyceal clubbing because reflux is severe enough to dilate and distort the renal calyces.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.707Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-96711a11dc1d08d3cd98",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because grades 1 and 2 are limited to low-grade reflux and do not cause calyceal clubbing",
+    "B": "Incorrect because grade 3 reflux reaches the renal pelvis but does not typically produce calyceal clubbing",
+    "C": "Correct because grades 4 and 5 represent high-grade reflux with dilatation and distortion of the calyces, producing calyceal clubbing",
+    "D": "Incorrect because grade 1 only involves reflux into a non-dilated ureter and is the least severe form",
+    "E": "Incorrect because calyceal clubbing is not present across all grades and is characteristic of the higher grades"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall which grades involve the highest pressure and most significant structural changes to the kidney.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b4e24833-7b38-48ac-9f42-c9f4e272e7bf",
+    "overlapScore": 0.3761467889908257,
+    "questionIndex": 3,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:00.957Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

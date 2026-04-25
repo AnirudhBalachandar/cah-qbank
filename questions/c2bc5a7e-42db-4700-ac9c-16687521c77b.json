@@ -1,0 +1,102 @@
+{
+  "id": "c2bc5a7e-42db-4700-ac9c-16687521c77b",
+  "stem": "Which measurements are included in a paediatric growth assessment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Weight, height/length, and head circumference",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Weight, abdominal girth, and temperature",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Height/length, blood pressure, and pulse",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Weight and oxygen saturation only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Head circumference and abdominal girth only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Weight, height/length, and head circumference are the core measurements used in a paediatric growth assessment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 12,
+      "title": "Page 12"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:05:57.334Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-03-9e96ad259a7e989fb34c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because weight, height/length, and head circumference are the standard anthropometric measurements included in growth assessment.",
+    "B": "Incorrect because abdominal girth and temperature are not part of the standard growth assessment measurements.",
+    "C": "Incorrect because blood pressure and pulse are vital signs, not the core measurements used to assess growth.",
+    "D": "Incorrect because weight alone does not complete a growth assessment; height/length and head circumference are also needed.",
+    "E": "Incorrect because head circumference and abdominal girth alone omit weight and height/length, which are required for growth assessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B32-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpm0zl0001rjf1cw2w8ces",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3356643356643357,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9e50fcc6-446c-489a-ba60-94a9b986b878",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-03.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "investigation selection",
+      "growth assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:08.446Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

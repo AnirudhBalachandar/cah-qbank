@@ -1,0 +1,102 @@
+{
+  "id": "a287ec3e-e14d-4c0a-b0e2-65514a8f07d0",
+  "stem": "A registrar is explaining to a parent that the temporary left-sided weakness after their child's seizure is a recognised post-seizure phenomenon. How long can this deficit last?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Only a few seconds",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Less than 5 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Minutes to hours",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Several days",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Until the fever resolves",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Todd's phenomenon can last minutes to hours. It is a transient post-seizure focal deficit rather than one that resolves only in seconds or persists for days.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 111,
+      "title": "Page 111"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:47:25.200Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B59-attempt-02-242581dc769c502c30f4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Todd's phenomenon can last longer than just a few seconds.",
+    "B": "Incorrect because the deficit may persist beyond 5 minutes and can last for hours.",
+    "C": "Correct because Todd's phenomenon is a transient post-seizure weakness that can last minutes to hours.",
+    "D": "Incorrect because several days is not the typical duration described for Todd's phenomenon.",
+    "E": "Incorrect because persistence until the fever resolves is not the described time course."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": null,
+  "source": {
+    "batchId": "B59-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr3coa0001rjgr2kv3m934",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3204419889502763,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "21795795-dfc6-4261-b280-8e64f23b71d7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B59/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Seizures - emergency management",
+      "Todd's phenomenon",
+      "duration"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:00.628Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "e558f1e1-1099-4396-8bbb-0ac0b4e37c31",
+  "stem": "Which drug combination corresponds to Trikafta?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ivacaftor alone",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Lumacaftor + ivacaftor",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Tezacaftor + ivacaftor",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Elexacaftor + tezacaftor + ivacaftor",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Gene therapy + ivacaftor",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Elexacaftor + tezacaftor + ivacaftor is the correct combination for Trikafta.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 42,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:48:05.163Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B29-attempt-01-ad5a03aba22d87f6fc46",
+  "rationale": "Trikafta is the triple-combination cystic fibrosis modulator made up of two correctors, elexacaftor and tezacaftor, plus the potentiator ivacaftor.",
+  "optionExplanations": {
+    "A": "Incorrect because ivacaftor alone is Kalydeco, not Trikafta.",
+    "B": "Incorrect because lumacaftor + ivacaftor is Orkambi, not Trikafta.",
+    "C": "Incorrect because tezacaftor + ivacaftor is Symdeko, not Trikafta.",
+    "D": "Correct because Trikafta contains elexacaftor, tezacaftor, and ivacaftor.",
+    "E": "Incorrect because gene therapy is not part of the Trikafta combination."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B29-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmtvxj0001rjcc3ubxpbly",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2833333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6c72d676-c792-4520-adcf-8e89d8713593",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B29/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cystic fibrosis and sleep across childhood",
+      "cystic fibrosis",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:29.573Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

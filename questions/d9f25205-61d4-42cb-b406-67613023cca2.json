@@ -1,0 +1,98 @@
+{
+  "id": "d9f25205-61d4-42cb-b406-67613023cca2",
+  "stem": "What is a characteristic clinical finding on physical examination of a neonate with a large congenital diaphragmatic hernia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A distended, globular abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A scaphoid abdomen",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Tracheal deviation toward the side of the defect",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Symmetrical chest expansion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bulging anterior fontanelle",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A scaphoid abdomen is the characteristic finding because abdominal viscera herniate into the thorax, leaving the abdomen sunken.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.181Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-126ceaa51bdec4b2275f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the abdomen is usually not distended when the abdominal viscera have moved into the chest.",
+    "B": "Correct because abdominal viscera herniate into the thorax, leaving the abdomen sunken or scaphoid.",
+    "C": "Incorrect because the mediastinum and trachea are typically displaced away from the side of the defect.",
+    "D": "Incorrect because chest movement is often asymmetrical due to compression by the herniated viscera.",
+    "E": "Incorrect because a bulging fontanelle is not a typical physical finding of congenital diaphragmatic hernia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the absence of organs in their normal abdominal location would affect the external appearance of the torso.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5fa75037-0ed8-4e94-bd53-b357d28ea216",
+    "overlapScore": 0.3818181818181818,
+    "questionIndex": 7,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:03.127Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

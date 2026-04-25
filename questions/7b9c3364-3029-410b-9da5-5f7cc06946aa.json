@@ -1,0 +1,98 @@
+{
+  "id": "7b9c3364-3029-410b-9da5-5f7cc06946aa",
+  "stem": "Which clinical feature most strongly suggests septic arthritis rather than transient synovitis in a child with a limp?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Being systemically unwell with a fever",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Having an irritable hip",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Walking with a limp",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pain on movement of the hip joint",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Refusing to weight bear",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Septic arthritis is suggested by systemic illness, especially fever, whereas transient synovitis usually occurs in a child who is otherwise well.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.779Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4d10bc78d0e21eaffc52",
+  "rationale": "Use systemic features to distinguish septic arthritis from transient synovitis.",
+  "optionExplanations": {
+    "A": "Correct because fever and systemic unwellness point to septic arthritis rather than transient synovitis.",
+    "B": "Incorrect because an irritable hip can occur in both transient synovitis and septic arthritis.",
+    "C": "Incorrect because a limp is a common presentation in both conditions and does not distinguish between them.",
+    "D": "Incorrect because pain on movement of the hip is seen in both transient synovitis and septic arthritis.",
+    "E": "Incorrect because refusal to weight bear can occur with either condition and is not as specific as systemic illness with fever."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the overall physical state and temperature of the child.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b9ae4b35-8a3e-423e-ae0f-20b0c8b1aaae",
+    "overlapScore": 0.3944954128440367,
+    "questionIndex": 4,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:43.106Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

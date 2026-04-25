@@ -1,0 +1,102 @@
+{
+  "id": "056f5aeb-2048-4ea1-b7b4-b39571cfd4be",
+  "stem": "In a cohort of 100 newborn boys, about how many would be expected to remain undescended by 3 months?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "About 1 to 2 boys",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "About 5 to 10 boys",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "About 15 to 20 boys",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "About 25 to 30 boys",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "About 40 to 50 boys",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "About 1 to 2 boys would remain undescended by 3 months. Although cryptorchidism is seen in 3 to 5% at birth, most testes descend spontaneously, leaving only about 1 to 2% undescended at 3 months.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 177,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:23:34.116Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B84-attempt-03-8eac695b2e44c7148f54",
+  "rationale": ": Many undescended testes descend spontaneously early in infancy. The relevant persistence figure is about 1 to 2% by 3 months, which corresponds to 1 to 2 boys in a cohort of 100.",
+  "optionExplanations": {
+    "A": "Correct because about 1 to 2% of newborn boys remain undescended by 3 months, which equals about 1 to 2 boys out of 100.",
+    "B": "Incorrect because 5 to 10% is higher than the expected persistence rate at 3 months.",
+    "C": "Incorrect because 15 to 20% substantially overestimates the proportion remaining undescended by 3 months.",
+    "D": "Incorrect because 25 to 30% is far above the expected rate by 3 months.",
+    "E": "Incorrect because 40 to 50% would imply persistence in nearly half of newborn boys, which is not consistent with spontaneous descent."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B84-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsdu740001rjj84ln2rxr5",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3169398907103825,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "289dc05a-2f79-4d53-98a5-18e1d9a36039",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B84/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Penile disorders",
+      "cryptorchidism",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:52.723Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "42fa83a2-a84b-4e55-a023-0db89cfa729e",
+  "stem": "What is the main purpose of vaccination in relation to immunological memory?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To strengthen innate phagocytic function",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To clear established intracellular infection with pre-formed antibodies",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To bypass the need for a primary infection by inducing memory cells",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To provide temporary passive immunity until the child’s immune system matures",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To directly replace the need for antibody production",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vaccination induces immunological memory by exposing the immune system to antigen safely, so future exposure triggers a faster secondary response.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.323Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b9610140daea0994f98f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because vaccination primarily stimulates adaptive immunity and memory cell formation, not innate phagocytic activity",
+    "B": "Incorrect because pre-formed antibodies are not the main mechanism of vaccination and established intracellular infections are not cleared this way",
+    "C": "Correct because vaccination exposes the immune system to antigen without causing the disease, leading to memory cell formation and faster protection on later exposure",
+    "D": "Incorrect because passive immunity involves receiving external antibodies, whereas vaccination produces active long-term immunity",
+    "E": "Incorrect because vaccination does not replace antibody production; it helps the body generate its own immune response and memory"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how a vaccine mimics the 'first bump' on an immune response graph without making the person sick.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba4c1aaf-dc2b-4db7-b451-5e8ebaa4b68e",
+    "overlapScore": 0.4235294117647059,
+    "questionIndex": 4,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:54.042Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

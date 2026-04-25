@@ -1,0 +1,102 @@
+{
+  "id": "75609efb-4236-48c4-8e3d-e682e0d08c31",
+  "stem": "Which statement about an undescended testis is most accurate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is always palpable",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A non-palpable testis is always ectopic",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It may or may not be palpable",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Palpability only matters during puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A non-palpable testis is always retractile",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Undescended testis may or may not be palpable. Therefore, inability to feel the testis does not exclude cryptorchidism.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 177,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:23:34.160Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B84-attempt-03-c4e03ce4e0d08bb7963f",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because an undescended testis is not always palpable.",
+    "B": "Incorrect because non-palpability does not mean the testis is always ectopic.",
+    "C": "Correct because an undescended testis may or may not be palpable.",
+    "D": "Incorrect because palpability is relevant outside puberty as part of the assessment of cryptorchidism.",
+    "E": "Incorrect because a retractile testis is not defined as always non-palpable."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B84-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsdu740001rjj84ln2rxr5",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "18ba6ddf-46e8-4fc4-a809-7969f5194a9a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B84/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Penile disorders",
+      "cryptorchidism",
+      "clinical reasoning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:32.083Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

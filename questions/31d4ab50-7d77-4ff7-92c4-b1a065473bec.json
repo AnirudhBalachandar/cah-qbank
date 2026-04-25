@@ -1,0 +1,98 @@
+{
+  "id": "31d4ab50-7d77-4ff7-92c4-b1a065473bec",
+  "stem": "What is the typical age range for a child to present with transient synovitis of the hip?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 to 5 years",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "10 to 14 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6 to 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "8 to 12 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Birth to 1 year",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Transient synovitis typically presents in preschool-aged children, most often between 2 and 5 years of age.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.744Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-98f60b392c848430bb4e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because transient synovitis most commonly affects preschool-aged children, typically between 2 and 5 years.",
+    "B": "Incorrect because this is an adolescent age range and is not typical for transient synovitis of the hip.",
+    "C": "Incorrect because transient synovitis is uncommon in infants and usually affects older, walking children.",
+    "D": "Incorrect because this is older than the usual preschool age range for transient synovitis.",
+    "E": "Incorrect because transient synovitis is not a typical diagnosis in babies and young infants."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the developmental stage of a preschool child mentioned at the start of the material.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "cfd965e7-44a1-47db-bb73-4e32c98a7fe9",
+    "overlapScore": 0.4230769230769231,
+    "questionIndex": 1,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:22.792Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

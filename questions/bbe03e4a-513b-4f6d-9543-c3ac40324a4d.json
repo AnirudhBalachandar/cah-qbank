@@ -1,0 +1,101 @@
+{
+  "id": "bbe03e4a-513b-4f6d-9543-c3ac40324a4d",
+  "stem": "A 4-year-old with fever has a seizure affecting one arm and one side of the face; which feature makes this concerning?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It occurs under 6 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is focal",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It has a post-ictal phase",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It occurs with fever",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It occurs in childhood",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Focal seizure activity is concerning because febrile seizures are typically generalised rather than focal.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 109,
+      "title": "Neurology Seizures - Emergency Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:45:08.085Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B59-attempt-01-fd6aa657c6013dd618b0",
+  "rationale": "Focal semiology is a red flag in a febrile seizure and suggests the event is not a typical simple febrile seizure.",
+  "optionExplanations": {
+    "A": "Incorrect because this is within the usual age range for febrile seizures and is not the concerning feature here.",
+    "B": "Correct because focal seizure activity is a red flag and atypical for a simple febrile seizure.",
+    "C": "Incorrect because a post-ictal phase can occur after febrile seizures and does not by itself make the seizure focal.",
+    "D": "Incorrect because fever is part of the context of a febrile seizure and is not the feature that raises concern.",
+    "E": "Incorrect because childhood alone is too non-specific to indicate a red flag."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B59-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr0evo0001rjsm32fhj47l",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.344,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0a93ecba-cdec-45df-bc4d-f39139ecd2f6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B59/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Seizures - emergency management",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:53.670Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

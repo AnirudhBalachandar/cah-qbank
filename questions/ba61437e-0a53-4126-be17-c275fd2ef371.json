@@ -1,0 +1,98 @@
+{
+  "id": "ba61437e-0a53-4126-be17-c275fd2ef371",
+  "stem": "Which position best describes a koala hold?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child sits on the parent's lap facing them, with arms and legs wrapped around the parent",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The child is swaddled tightly in a blanket and placed on an examination table",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The parent stands behind the child while the child sits on the edge of the bed",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child lies on their side while the parent holds their legs still",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The child sits facing away from the parent while leaning against their chest",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Koala hold is the child sitting upright on the parent's lap facing the parent, with arms and legs wrapped around them.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+      "title": "00041 Year 3 CAH Pain Mana-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.609Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-45d5922ecf21bd01317c",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because the child is held upright, facing the parent, with a secure clinging posture that is comforting and stabilising.",
+    "B": "Incorrect because swaddling is a wrapping technique for infants and does not describe the upright, face-to-face koala hold.",
+    "C": "Incorrect because this does not involve the child facing the parent or wrapping arms and legs around them.",
+    "D": "Incorrect because this is a side-lying restraint position, not the upright comfort position described by a koala hold.",
+    "E": "Incorrect because the child should face the parent and cling to them rather than sit facing away."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Imagine the way the animal this hold is named after clings to its mother.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "41",
+    "lectureTitle": "00041 Year 3 CAH Pain Mana-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "36baffe0-bc2c-437e-be68-8f61162ae0f3",
+    "overlapScore": 0.5,
+    "questionIndex": 7,
+    "quizFileName": "quiz_041.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a26757ea-8f3b-4239-a98c-14012d648256",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:46.841Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

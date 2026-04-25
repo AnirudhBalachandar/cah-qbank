@@ -1,0 +1,102 @@
+{
+  "id": "0ccda8c8-91b3-45e5-89d4-63cf80ab517f",
+  "stem": "A 6-year-old boy is found to have leukopaenia on a full blood count after several days of fever and coryza; which additional laboratory pattern would be most concerning for broader marrow involvement rather than an isolated issue?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An isolated low neutrophil count with other cell lines preserved",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A second low cell line such as thrombocytopaenia in addition to the leukopaenia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A white cell abnormality interpreted without reference to the other blood cell lines",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A single abnormal white cell result assessed without considering bicytopaenia or pancytopaenia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A leukopaenia pattern assumed to be unimportant because white counts vary with age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Broader marrow involvement is suggested by bicytopaenia or pancytopaenia. A low white cell count together with another low cell line, such as thrombocytopaenia, is more concerning than an isolated leukopaenia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 107,
+      "title": "WBC Disorders"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:46:26.864Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B58-attempt-03-bd7557da20d2ee3fff12",
+  "rationale": "The key distinction is whether only one blood cell line is affected or whether multiple cell lines are reduced. More than one low cell line raises concern for a marrow process rather than an isolated white cell abnormality.",
+  "optionExplanations": {
+    "A": "Incorrect because an isolated neutrophil reduction does not by itself indicate broader multi-line marrow involvement.",
+    "B": "Correct because leukopaenia plus another low cell line, such as thrombocytopaenia, suggests bicytopaenia and possible broader marrow involvement.",
+    "C": "Incorrect because this is an incomplete interpretation rather than the concerning laboratory pattern itself.",
+    "D": "Incorrect because the important issue is whether more than one cell line is low, not simply that the white cell result is abnormal.",
+    "E": "Incorrect because age-related variation may affect interpretation, but it does not make leukopaenia reassuring when another cell line is also low."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B58-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr23no0001rjw9uhnnrcqs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3252032520325203,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "de6515a5-20c6-4008-bb71-a0e1a4811b0c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B58/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "White blood cell disorders",
+      "first-line investigations",
+      "cell-line pattern"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:07.427Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

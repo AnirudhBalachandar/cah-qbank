@@ -1,0 +1,98 @@
+{
+  "id": "163140c2-14c3-4711-9951-e9b7bc5a482e",
+  "stem": "According to the age definitions, how is youth categorised?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "12 to 24 years",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "10 to 19 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "13 to 18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "15 to 29 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "18 to 25 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Youth is categorised as 12 to 24 years.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.042Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3c7228a915b3f97ac04f",
+  "rationale": "This definition spans early adolescence through young adulthood and matches the specified age range.",
+  "optionExplanations": {
+    "A": "Correct because youth is defined here as 12 to 24 years.",
+    "B": "Incorrect because 10 to 19 years is a common definition of adolescence, not youth in this context.",
+    "C": "Incorrect because 13 to 18 years describes mid-adolescence rather than the broader youth category.",
+    "D": "Incorrect because 15 to 29 years is broader and does not match the stated definition.",
+    "E": "Incorrect because 18 to 25 years begins later and omits younger adolescents included in youth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This range starts in early adolescence and extends well into the third decade of life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "022ab903-5e19-4f32-bf0c-3cfb7f829d4c",
+    "overlapScore": 0.3571428571428572,
+    "questionIndex": 4,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:25.295Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

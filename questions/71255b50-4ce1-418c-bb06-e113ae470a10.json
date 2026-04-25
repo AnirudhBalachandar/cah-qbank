@@ -1,0 +1,98 @@
+{
+  "id": "71255b50-4ce1-418c-bb06-e113ae470a10",
+  "stem": "What is often the first behavioural sign of oesophageal dysfunction in older children or adolescents with eosinophilic oesophagitis (EoE)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sudden onset of projectile vomiting after meals",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Complete refusal of all fluids",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Very slow eating and a need for fluids to swallow food",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Rapid eating followed by immediate chest pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Frequent gagging with every mouthful of soft food",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Very slow eating and a need for fluids to swallow food are common compensatory behaviours in older children and adolescents with eosinophilic oesophagitis, reflecting underlying dysphagia and oesophageal narrowing or inflammation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.250Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-00ba05eb26ec6fb37c7a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because projectile vomiting is more typical of infants or acute gastric pathology, not the usual first behavioural sign of oesophageal dysfunction in older children with EoE.",
+    "B": "Incorrect because children with EoE often need more fluids to help swallow solids rather than refusing all fluids.",
+    "C": "Correct because older children and adolescents with eosinophilic oesophagitis often compensate for dysphagia by eating slowly and drinking to wash food down.",
+    "D": "Incorrect because the typical behaviour is cautious, slow eating with fluid use, rather than rapid eating followed by immediate chest pain.",
+    "E": "Incorrect because gagging can occur with feeding problems, but the classic early behavioural sign in older children with EoE is slow eating and needing drinks to swallow food."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how a patient might adjust their eating habits to cope with a narrowed or inflamed esophagus.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8fe54393-98f3-4919-8c4d-439e29736f8a",
+    "overlapScore": 0.36,
+    "questionIndex": 4,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:25.784Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

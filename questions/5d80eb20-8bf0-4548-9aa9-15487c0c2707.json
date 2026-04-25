@@ -1,0 +1,98 @@
+{
+  "id": "5d80eb20-8bf0-4548-9aa9-15487c0c2707",
+  "stem": "Why is a button battery in the nose a medical emergency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can cause heavy systemic lead poisoning within hours",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It causes rapid septal perforation",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It commonly causes immediate bilateral nasal airway collapse",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It quickly expands in contact with nasal moisture",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It usually causes severe nosebleeds without tissue injury",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Rapid septal perforation is the key reason a nasal button battery requires urgent removal. Electrical current and local caustic injury can destroy the nasal septum within hours, causing permanent damage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+      "title": "00003 ENT_nose-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.412Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b35be657cce1bf4c561b",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because the main danger is local tissue destruction rather than acute systemic lead poisoning.",
+    "B": "Correct because electrical current and local caustic injury can rapidly destroy the nasal septum, leading to perforation within hours.",
+    "C": "Incorrect because airway obstruction is not the main reason for the emergency; the concern is rapid permanent structural damage.",
+    "D": "Incorrect because button batteries do not expand; they cause injury through electrical and chemical burns.",
+    "E": "Incorrect because the major risk is tissue necrosis and septal perforation, not isolated nosebleeds without injury."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the rapid structural damage that occurs to the wall dividing the nostrils.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "3",
+    "lectureTitle": "00003 ENT_nose-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0cda6e07-2e61-4990-9522-a16c391870a6",
+    "overlapScore": 0.4567901234567901,
+    "questionIndex": 3,
+    "quizFileName": "quiz_003.json",
+    "quizTitle": "Rhinology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2bcb4c85-ae5a-4aff-97a5-112b3fd58317",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:47.790Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

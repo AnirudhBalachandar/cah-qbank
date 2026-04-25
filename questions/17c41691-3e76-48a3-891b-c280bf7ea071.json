@@ -1,0 +1,98 @@
+{
+  "id": "17c41691-3e76-48a3-891b-c280bf7ea071",
+  "stem": "Which test is definitive for detecting even subtle strabismus?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The cover-uncover test",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The Hirschberg test",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The red reflex test",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Visual acuity screening",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The corneal light reflex test",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The cover-uncover test is the definitive test for strabismus because it reveals a corrective refixation movement when the fixing eye is covered.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.119Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-accccfcd3dda9d37ed3a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the cover-uncover test directly assesses ocular alignment by observing whether the uncovered eye moves to take up fixation.",
+    "B": "Incorrect because the Hirschberg test is a useful screening test, but it is less sensitive than the cover-uncover test for subtle strabismus.",
+    "C": "Incorrect because the red reflex test screens for media opacity and retinal abnormalities, not ocular misalignment.",
+    "D": "Incorrect because visual acuity screening can identify reduced vision or amblyopia, but it does not definitively diagnose strabismus.",
+    "E": "Incorrect because the corneal light reflex test is another screening method for alignment, but it is not as definitive as the cover-uncover test."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the procedure that involves obstructing one eye to see if the other eye makes a corrective movement.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fcbae953-8c5e-4f7c-9716-20ccfca713d0",
+    "overlapScore": 0.4320987654320987,
+    "questionIndex": 9,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:28.803Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "a8ed16e4-8ace-42b2-9797-466dbb3282ae",
+  "stem": "How can benign sleep myoclonus be distinguished from jitteriness in a neonate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It stops immediately with passive limb flexion",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It occurs primarily when the infant is awake",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It disappears abruptly when the child is awakened",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It is always associated with an abnormal EEG",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is relieved by swaddling alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Benign sleep myoclonus disappears abruptly on arousal, which is the key feature that distinguishes it from jitteriness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f0675d98-245a-4db6-af56-a032c2146441",
+      "title": "00065 Approach to children-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.317Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-22afdbf0d6feed741281",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because passive limb flexion classically helps distinguish jitteriness, not benign sleep myoclonus.",
+    "B": "Incorrect because benign sleep myoclonus occurs during sleep, whereas jitteriness is seen when the infant is awake.",
+    "C": "Correct because benign sleep myoclonus occurs only during sleep and stops immediately when the child is awakened.",
+    "D": "Incorrect because benign sleep myoclonus and jitteriness are typically associated with a normal EEG.",
+    "E": "Incorrect because swaddling may reduce movement, but the distinguishing feature is abrupt cessation with arousal."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f0675d98-245a-4db6-af56-a032c2146441",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on what happens to the movements when the child's state of consciousness changes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "65",
+    "lectureTitle": "00065 Approach to children-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bc5fcec6-cbbb-4bbf-a4d8-f94746659025",
+    "overlapScore": 0.4523809523809524,
+    "questionIndex": 4,
+    "quizFileName": "quiz_065.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c12ebfa2-6602-45a3-be50-1c80e6d9c6ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:11.584Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

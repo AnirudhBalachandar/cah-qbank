@@ -1,0 +1,102 @@
+{
+  "id": "194d0340-8b2c-4523-8e50-1db95f5712ee",
+  "stem": "During a review, a 16-year-old says yes to using alcohol to relax or fit in, using substances while alone, and forgetting things while using them; what is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "This pattern can be ignored if the young person is still passing at school",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "These answers are only significant if there has also been police trouble",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "These are concerning CRAFFT responses and support a fuller adolescent drug and alcohol assessment rather than reassurance alone",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The answers suggest cannabis withdrawal rather than broader substance risk",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "CRAFFT is mainly a vaping screen, so alcohol-related answers are less useful",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Concerning CRAFFT responses should prompt a fuller adolescent drug and alcohol assessment. Multiple positive responses indicate possible substance-related harm and risk, so the next step is a broader review rather than reassurance alone.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T09:41:42.537Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-a060a70be2a29891ada6",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because school performance does not rule out clinically important substance-related risk.",
+    "B": "Incorrect because police trouble is not required for positive screening responses to be meaningful.",
+    "C": "Correct because multiple positive CRAFFT responses indicate concerning substance use behaviours and should lead to a more comprehensive adolescent drug and alcohol assessment.",
+    "D": "Incorrect because these are screening responses about substance use behaviour, not a diagnosis of cannabis withdrawal.",
+    "E": "Incorrect because CRAFFT is a general adolescent alcohol and drug screen, not a vaping-only tool."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmufaqvg0001rjggd8l4gv6x",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3390804597701149,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fb8ef949-fa4c-4364-b5bf-1c48812a9a1d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-14.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "CRAFFT",
+      "substance use",
+      "screening"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:52.484Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

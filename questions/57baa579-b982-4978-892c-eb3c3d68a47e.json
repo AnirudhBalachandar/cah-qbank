@@ -1,0 +1,98 @@
+{
+  "id": "57baa579-b982-4978-892c-eb3c3d68a47e",
+  "stem": "What is the recommended pharmacological treatment for pain associated with transient synovitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ibuprofen",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Intravenous antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Corticosteroid injections",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Strong opioid analgesia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Paracetamol",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ibuprofen is the recommended pharmacological treatment for pain associated with transient synovitis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.847Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a65d63a58bf52600665a",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because ibuprofen is an appropriate first-line analgesic for the pain of transient synovitis.",
+    "B": "Incorrect because intravenous antibiotics are not indicated for transient synovitis unless there is concern for a bacterial infection such as septic arthritis.",
+    "C": "Incorrect because corticosteroid injections are not used to treat transient synovitis pain.",
+    "D": "Incorrect because strong opioid analgesia is unnecessary for this self-limiting condition.",
+    "E": "Incorrect because paracetamol may help with pain, but ibuprofen is the recommended pharmacological treatment here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The material suggests a specific common brand-name analgesic.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "86c50f1b-deb7-488f-a13f-79db81baf55e",
+    "overlapScore": 0.4891304347826087,
+    "questionIndex": 7,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:40.241Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

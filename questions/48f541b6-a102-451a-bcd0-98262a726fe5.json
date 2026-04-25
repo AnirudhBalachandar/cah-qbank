@@ -1,0 +1,102 @@
+{
+  "id": "48f541b6-a102-451a-bcd0-98262a726fe5",
+  "stem": "Which tracer is best for a dynamic renal study requiring better image quality and faster clearance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Tc-99m MAG3",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Tc-99m DTPA",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "DMSA",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Plain abdominal X-ray contrast",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ultrasound alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Tc-99m MAG3 is the best tracer for a dynamic renal study when better image quality and faster clearance are desired.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 76,
+      "title": "Renal Functioning Scan (MAG-3/DTPA)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:13:05.850Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B42-attempt-03-da6a1da97a67a499ac2a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because Tc-99m MAG3 has high extraction, better image quality, and faster clearance than DTPA.",
+    "B": "Incorrect because Tc-99m DTPA has lower extraction and less favourable image quality than MAG3.",
+    "C": "Incorrect because DMSA is used for a static cortical renal scan, not a dynamic renal study.",
+    "D": "Incorrect because plain abdominal X-ray contrast is not a renal nuclear medicine tracer.",
+    "E": "Incorrect because ultrasound alone does not provide a tracer-based dynamic renal function study."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B42-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpv7m80001rjinx2mnwr3m",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3223684210526316,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "10abcef5-2883-4b6e-be26-540124b9c286",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B42/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "UTI and renal tract imaging",
+      "MAG3",
+      "imaging quality"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:10.690Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

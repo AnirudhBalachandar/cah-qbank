@@ -1,0 +1,98 @@
+{
+  "id": "5dd6185b-9e7d-4fcd-b8b6-804f6fcdd0bc",
+  "stem": "What is the approximate incidence of major malformations in liveborn babies?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "0.5%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "2-3%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "15-20%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "10%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5-7%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "2-3% is the approximate incidence of major malformations in liveborn babies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+      "title": "00061 dysmorphic syndromes-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.714Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bebd7d84400a5098631f",
+  "rationale": "This is the baseline frequency of major congenital anomalies among live births.",
+  "optionExplanations": {
+    "A": "Incorrect because 0.5% is lower than the usual estimated incidence in liveborn babies.",
+    "B": "Correct because 2-3% is the approximate incidence of major malformations in liveborn babies.",
+    "C": "Incorrect because 15-20% is far higher than the expected rate in liveborn babies.",
+    "D": "Incorrect because 10% is higher than the typical incidence in liveborn babies.",
+    "E": "Incorrect because 5-7% is still above the usual approximate incidence in liveborn babies."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This value represents the baseline occurrence rate for major anomalies in newborns.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "61",
+    "lectureTitle": "00061 dysmorphic syndromes-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+    "overlapScore": 0.5353535353535354,
+    "questionIndex": 11,
+    "quizFileName": "quiz_061.json",
+    "quizTitle": "Dysmorphology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "18d3845c-8426-41c0-b2e5-47fa8776d878",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:48.933Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "62f1607d-7964-4390-93ec-2968164536d7",
+  "stem": "What is the main rationale for early reduction of a displaced fracture?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It restores anatomic position and provides hemostasis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It eliminates the need for any future surgical intervention",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It allows the patient to avoid fasting for theatre",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is required before intravenous antibiotics can be given",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It guarantees complete fracture union without immobilisation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Restoration of anatomic position is the main rationale for early reduction. This is because reducing the fracture realigns the bone, helps control bleeding, and can lessen pressure on surrounding soft tissues, nerves, and vessels.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+      "title": "00088 fractures-management-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.812Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-53f4fecf9fa8c374845b",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because reducing the fracture restores the normal alignment and can help provide haemostasis by limiting ongoing bleeding from the injured tissues.",
+    "B": "Incorrect because early reduction may still be followed by surgical fixation or other intervention depending on the fracture pattern and stability.",
+    "C": "Incorrect because fasting is managed according to the possibility of anaesthesia or surgery, not because a reduction has or has not been attempted.",
+    "D": "Incorrect because intravenous antibiotics are indicated based on the injury, especially in open fractures, and do not depend on reduction being done first.",
+    "E": "Incorrect because reduction does not guarantee bone union and immobilisation or further treatment is often still needed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the physiological benefits of returning the limb to its natural alignment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "88",
+    "lectureTitle": "00088 fractures-management-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ea32e995-1628-44a7-9cae-7b1eb96ea2e5",
+    "overlapScore": 0.3956043956043956,
+    "questionIndex": 4,
+    "quizFileName": "quiz_088.json",
+    "quizTitle": "Fracture Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "98321e56-9a11-40dd-a47f-af59e92e2b94",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:02.070Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

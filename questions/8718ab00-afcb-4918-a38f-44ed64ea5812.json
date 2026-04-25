@@ -1,0 +1,101 @@
+{
+  "id": "8718ab00-afcb-4918-a38f-44ed64ea5812",
+  "stem": "A child is assessed after blunt chest trauma; which injury is the most common paediatric chest injury?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pulmonary contusion",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Tension pneumothorax",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Cardiac tamponade",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Diaphragmatic rupture",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tracheal transection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pulmonary contusion is the most common paediatric chest injury after blunt chest trauma.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 188,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:15:04.101Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B86-attempt-01-811fc276efc7b4e6cd0b",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because pulmonary contusion is the most common paediatric chest injury.",
+    "B": "Incorrect because tension pneumothorax is a serious intrathoracic injury but is not the most common paediatric chest injury.",
+    "C": "Incorrect because cardiac tamponade is not the most common paediatric chest injury after blunt trauma.",
+    "D": "Incorrect because diaphragmatic rupture is less common than pulmonary contusion in paediatric chest trauma.",
+    "E": "Incorrect because tracheal transection is rare and not the most common paediatric chest injury."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B86-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmws2wnn0001rjbd33z76qob",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3445378151260504,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0a4816f8-6c77-4b67-a9f3-14a57e13f40c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B86/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Burns and trauma",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:07.890Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

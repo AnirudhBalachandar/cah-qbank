@@ -1,0 +1,102 @@
+{
+  "id": "d2a97784-c746-4f56-be37-56f95b4ae46f",
+  "stem": "In a toddler with suspected bronchiolitis or viral wheeze, which statement best describes the role of a nasopharyngeal aspirate (NPA)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is the key investigation because it directly changes management",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It should always be done before supportive care starts",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It may support bronchiolitis diagnosis if RSV is positive, but it does not change management",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It is mainly used to decide whether salbutamol can be tried in infants under 1 year",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is only useful after 7 to 8 years of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "NPA may support the diagnosis of bronchiolitis if RSV is detected, but it does not change management, which remains supportive.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 33,
+      "title": "3.2 Chronic Airway Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:31:06.644Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B26-attempt-01-df33cb2b67f8ea6862eb",
+  "rationale": "/null",
+  "optionExplanations": {
+    "A": "Incorrect because NPA is not the key test for directing treatment in bronchiolitis or viral wheeze.",
+    "B": "Incorrect because supportive care does not depend on doing an NPA first.",
+    "C": "Correct because a positive RSV result can support the diagnosis of bronchiolitis, but the result does not alter management.",
+    "D": "Incorrect because NPA is not used to decide whether salbutamol can be trialled.",
+    "E": "Incorrect because there is no age-related role like this for NPA in this setting."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B26-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm821o0001rjoq4b8u0u50",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3395061728395062,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9d5f9b1f-2337-4405-bb5d-c6a36aa3e01e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B26/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Chronic airway problems foundations",
+      "counselling and adherence",
+      "investigations"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:48.427Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "f46c82ca-9526-4fb4-8de1-091b603c089e",
+  "stem": "Which factor is associated with an increased risk of a fatal or severe allergic reaction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Poorly controlled asthma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Being under 1 year of age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Having a very small skin prick test wheal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Excluding all legumes from the diet",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Mild allergic rhinitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Poorly controlled asthma is the correct answer. This is because many fatalities from severe allergic reactions occur in people with poorly controlled asthma, making it an important risk factor for a fatal or severe outcome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+      "title": "00032 Year 3 CAH Allergy a-s1-low (2).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.148Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-223551e8e29f243fe6bd",
+  "rationale": "Consider which underlying condition can worsen the course of anaphylaxis or other severe allergic reactions.",
+  "optionExplanations": {
+    "A": "Correct because many fatalities from severe allergic reactions occur in people with poorly controlled asthma, making it an important risk factor for a fatal or severe outcome.",
+    "B": "Incorrect because being under 1 year of age is not a recognised risk factor for fatal or severe allergic reaction.",
+    "C": "Incorrect because a small skin prick test wheal may suggest a lower likelihood of sensitisation but does not indicate increased severity risk.",
+    "D": "Incorrect because excluding all legumes from the diet is a management choice for allergy avoidance, not a risk factor for reaction severity.",
+    "E": "Incorrect because mild allergic rhinitis is not associated with increased risk of a fatal or severe allergic reaction."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about underlying respiratory conditions that might complicate a systemic allergic response.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "32",
+    "lectureTitle": "00032 Year 3 CAH Allergy a-s1-low (2).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e040307e-82a8-4d2e-be69-935a1c4510b3",
+    "overlapScore": 0.5529411764705883,
+    "questionIndex": 6,
+    "quizFileName": "quiz_032.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e70b8ea9-d86e-4479-a30e-e0961c324e09",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:59.470Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "218a47e9-ff26-4603-92ab-53b39fc8d64d",
+  "stem": "Which vaccine is specifically given at birth in the Aboriginal immunisation schedule?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "BCG vaccine at birth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "MMR vaccine at 6 months",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Oral polio vaccine boosters",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Tetanus vaccine every 2 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hepatitis B vaccine at 5 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "BCG vaccine at birth is the correct answer. It is a specific addition to the Aboriginal immunisation schedule and is given to protect against tuberculosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c01ec94-8711-42ab-a3b8-8e965a037345",
+      "title": "00024 ATSI health_other ga-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.985Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-452d42d8135b0b9b469c",
+  "rationale": "BCG is the tuberculosis vaccine and is the distinctive newborn vaccine in this schedule.",
+  "optionExplanations": {
+    "A": "Correct because BCG vaccine at birth is specifically included for Aboriginal newborns.",
+    "B": "Incorrect because MMR is not given at 6 months in the standard schedule.",
+    "C": "Incorrect because oral polio boosters are not a specific feature of the Aboriginal immunisation schedule.",
+    "D": "Incorrect because tetanus vaccines are not given every 2 years in routine childhood immunisation.",
+    "E": "Incorrect because hepatitis B vaccine is given in infancy, not first at 5 years."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c01ec94-8711-42ab-a3b8-8e965a037345",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a vaccine often associated with tuberculosis that has specific guidelines for Aboriginal infants.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "24",
+    "lectureTitle": "00024 ATSI health_other ga-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a6054534-a689-4002-9a43-cd7029d21766",
+    "overlapScore": 0.4141414141414141,
+    "questionIndex": 8,
+    "quizFileName": "quiz_024.json",
+    "quizTitle": "Aboriginal Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9282a4a9-c16e-497d-a27e-d114090082c9",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:55.074Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

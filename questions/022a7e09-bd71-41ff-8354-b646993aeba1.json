@@ -1,0 +1,98 @@
+{
+  "id": "022a7e09-bd71-41ff-8354-b646993aeba1",
+  "stem": "Which medication is first-line treatment for problematic infantile haemangiomas?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Oral corticosteroids",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Propranolol",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Topical retinoids",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intravenous chemotherapy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Topical timolol",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Propranolol is the first-line treatment for problematic infantile haemangiomas because it can rapidly reduce lesion size and has a better side-effect profile than older therapies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.094Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a9eeced0b62091e08ff3",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because oral corticosteroids were used previously but are no longer first-line for problematic infantile haemangiomas due to adverse effects.",
+    "B": "Correct because propranolol, a beta-blocker, is the preferred first-line treatment for problematic infantile haemangiomas.",
+    "C": "Incorrect because topical retinoids are not standard treatment for infantile haemangiomas.",
+    "D": "Incorrect because intravenous chemotherapy is not used to treat benign infantile haemangiomas.",
+    "E": "Incorrect because topical timolol may be used for small superficial lesions, but propranolol is the first-line treatment for problematic infantile haemangiomas."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This drug is a beta-blocker originally used for heart conditions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e80d56f0-0d1c-47c5-9ae6-556ccf51d310",
+    "overlapScore": 0.3645833333333333,
+    "questionIndex": 12,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:43.189Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "6b779508-2d40-43d4-91ee-555194fe526d",
+  "stem": "Which clinic blood pressure reading meets the definition of hypertension in childhood?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Systolic or diastolic BP greater than the 95th centile for age and height",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Any single BP above the 50th centile",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only systolic BP above the 95th centile",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only diastolic BP above the 95th centile",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Any elevated BP regardless of age or height centiles",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypertension in childhood is defined as systolic or diastolic BP greater than the 95th centile for age and height.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 74,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:16:17.235Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B44-attempt-03-13ed8b25551a82e048ba",
+  "rationale": "Paediatric hypertension is assessed against age- and height-based centiles, and either systolic or diastolic elevation can meet the definition.",
+  "optionExplanations": {
+    "A": "Correct because hypertension in childhood is defined as systolic or diastolic BP greater than the 95th centile for age and height.",
+    "B": "Incorrect because the threshold is the 95th centile, not the 50th centile.",
+    "C": "Incorrect because either systolic or diastolic BP can define hypertension, not systolic alone.",
+    "D": "Incorrect because either systolic or diastolic BP can define hypertension, not diastolic alone.",
+    "E": "Incorrect because the definition depends on age and height centiles, not any elevated BP reading."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B44-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpzbbo0001rjl2gr8g36qm",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3296703296703297,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c7c16cf9-7306-43d7-8d9d-3c9f527737e9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B44/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nephritic syndrome, haematuria, and childhood hypertension",
+      "hypertension in childhood",
+      "definition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:15.538Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "d3811d83-e859-4102-899b-a0f6606ac112",
+  "stem": "An 8-year-old says there is something moving in the ear after camping, and otoscopy shows a live insect; what should be done first?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Instil sesame or olive oil to kill the insect",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Irrigate immediately with water",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Pass a hook blindly into the canal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Observe until it stops moving",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Start oral antibiotics",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Instil sesame or olive oil to kill the insect first. This is the initial step for a live insect in the external ear canal before attempting removal.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 5,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 34,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:23:20.362Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B21-attempt-01-ead3ad544319a24db7e9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because instilling sesame or olive oil kills or immobilises the live insect first, making removal safer.",
+    "B": "Incorrect because immediate irrigation is not the first step for a live insect and may be inappropriate if the tympanic membrane is not intact.",
+    "C": "Incorrect because a hook should not be passed blindly into the canal; removal should only be attempted under direct vision.",
+    "D": "Incorrect because observation does not address the live insect and is not the recommended first action.",
+    "E": "Incorrect because oral antibiotics do not treat the insect and are not the initial management step."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B21-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjswh00001rjpzl4o48uzj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2847682119205298,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4de8a552-f327-406e-915f-3cb3f3cbef3c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B21/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems I",
+      "Foreign body in ear"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:49.994Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

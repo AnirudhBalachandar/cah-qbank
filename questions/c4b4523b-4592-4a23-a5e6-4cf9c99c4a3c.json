@@ -1,0 +1,102 @@
+{
+  "id": "c4b4523b-4592-4a23-a5e6-4cf9c99c4a3c",
+  "stem": "An 18-year-old transferred from paediatric to adult diabetes care 6 months ago, has not engaged with the adult team, and now presents with diabetic ketoacidosis; which outcome of poor transition does this most closely illustrate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ineffective or delayed transition can lead to loss of illness control and emergency presentation with a life-threatening condition",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Adult transfer should routinely be postponed until the late 20s",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Emergency presentations after transfer usually indicate improved self-management",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Poor transition mainly affects appointment paperwork rather than health outcomes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delayed transition is generally associated with fewer secondary complications",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ineffective or delayed transition can lead to loss of illness control and emergency presentation with a life-threatening condition, such as diabetic ketoacidosis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 131,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T21:07:02.804Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B05-9f65f194b0d417e3c19c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because ineffective or delayed transition can result in loss of illness control and emergency presentation with a life-threatening condition such as diabetic ketoacidosis.",
+    "B": "Incorrect because adult transfer is meant to be planned and supported, not routinely delayed until the late 20s.",
+    "C": "Incorrect because emergency presentations after transfer usually reflect poorer control and reduced continuity of care, not improved self-management.",
+    "D": "Incorrect because poor transition can have major clinical consequences, not just administrative ones.",
+    "E": "Incorrect because delayed transition is associated with worse outcomes, including more secondary complications, not fewer."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B05",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmv3s3i10001rjanpt4ry7en",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3020408163265306,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9565473b-0cc8-4dfb-98f0-44a26cd31138",
+      "threshold": 0.35
+    },
+    "manualImportPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-18-02.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "transition",
+      "complications",
+      "chronic illness"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:15.962Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

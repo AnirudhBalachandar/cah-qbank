@@ -1,0 +1,98 @@
+{
+  "id": "4bf962b6-c894-4fce-aede-e2caef563630",
+  "stem": "What effect can substance use have on the developing adolescent brain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It causes an immediate and permanent stop to all prefrontal cortex growth",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It may activate reward pathways and lead to the development of alternative neuronal connections",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It accelerates pruning, leading to earlier brain maturity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It has no measurable effect until late adulthood",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It only affects brain development after the adolescent years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reward pathway activation and alternative neuronal connections is the correct concept. Substance use may activate reward pathways and lead to the development of alternative neuronal connections in the developing adolescent brain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+      "title": "00074 Adolescent_brain and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.544Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8b8d47f67af0d0bd49d6",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because substance use does affect adolescent brain development, but it does not cause an immediate and permanent stop to all prefrontal cortex growth.",
+    "B": "Correct because substances can affect reward circuitry in the developing brain and may lead to the development of alternative neuronal connections.",
+    "C": "Incorrect because substance use is associated with disruption of normal development, not accelerated pruning to make the brain mature earlier.",
+    "D": "Incorrect because the adolescent brain is particularly sensitive to the effects of substances, so there can be measurable effects well before late adulthood.",
+    "E": "Incorrect because the adolescent period is when the brain is developing and most vulnerable, so effects are not limited to after adolescence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how chemicals might interact with the brain's systems for feeling pleasure and making connections.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "74",
+    "lectureTitle": "00074 Adolescent_brain and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a9d59bcc-e1cd-4bba-b1ff-bafcfd9e2c06",
+    "overlapScore": 0.4252873563218391,
+    "questionIndex": 10,
+    "quizFileName": "quiz_074.json",
+    "quizTitle": "Adolescent Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a867e612-3ad2-424c-9acc-8958e39ef9ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:20.722Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

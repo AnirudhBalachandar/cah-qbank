@@ -1,0 +1,109 @@
+{
+  "id": "a3894f60-c37f-4458-8aa0-dd5e8c8d18e4",
+  "stem": "Which of the following is a possible underlying cause of a seizure that requires specific management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Iron deficiency anaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Hypoglycaemia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Constipation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Isolated eczema",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Allergic rhinitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypoglycaemia is a possible underlying cause of a seizure that requires specific management.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 109,
+      "title": "Seizures - Emergency Management"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 111,
+      "title": "Seizures - Emergency Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:49:23.936Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B59-attempt-03-f6d45de1da0a32656b2f",
+  "rationale": "A seizure may be due to a reversible medical cause rather than being a straightforward febrile seizure, and hypoglycaemia is one such cause.",
+  "optionExplanations": {
+    "A": "Incorrect because iron deficiency anaemia is not a typical immediate underlying cause of seizure requiring specific acute management.",
+    "B": "Correct because hypoglycaemia is a reversible cause of seizure that must be identified and treated promptly.",
+    "C": "Incorrect because constipation is not a recognised underlying cause of seizure requiring targeted emergency treatment.",
+    "D": "Incorrect because isolated eczema is not a cause of seizure requiring specific management.",
+    "E": "Incorrect because allergic rhinitis is not a recognised underlying cause of seizure requiring targeted acute treatment."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B59-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr5w1v0001rjdvf4fdgxe5",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3476190476190476,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d51a4747-adcb-473f-8b89-e55261faee51",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B59/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Seizures - emergency management",
+      "underlying causes",
+      "hypoglycaemia"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:00.979Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

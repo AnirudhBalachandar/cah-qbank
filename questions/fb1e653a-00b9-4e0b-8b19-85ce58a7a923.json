@@ -1,0 +1,101 @@
+{
+  "id": "fb1e653a-00b9-4e0b-8b19-85ce58a7a923",
+  "stem": "A febrile child remains persistently neurologically altered after the seizure has ended, which complication should be suspected?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Encephalitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Typical brief febrile seizure recovery",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "No increased risk of developmental issues",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Simple recurrence in the same illness without concern",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Normal post-ictal settling",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Encephalitis should be suspected when a febrile seizure is followed by persistent neurological alteration, as this is a red flag rather than a routine post-ictal recovery.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 109,
+      "title": "Neurology Seizures - Emergency Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:45:08.142Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B59-attempt-01-f896ba8e8f7a7c41ce83",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because persistent neurological alteration after a febrile seizure is a red flag for encephalitis.",
+    "B": "Incorrect because a typical brief febrile seizure should be followed by recovery rather than ongoing neurological abnormality.",
+    "C": "Incorrect because persistent altered neurology is not consistent with a routine benign febrile seizure presentation.",
+    "D": "Incorrect because the key concern is persistent neurological change, not simply another seizure in the same illness.",
+    "E": "Incorrect because normal post-ictal settling should improve, not remain persistently abnormal."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B59-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr0evo0001rjsm32fhj47l",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3461538461538461,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "2bce10cd-fca5-4112-a843-933acc8f13e2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B59/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Seizures - emergency management",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:17.731Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

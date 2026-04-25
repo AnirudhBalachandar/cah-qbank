@@ -1,0 +1,101 @@
+{
+  "id": "ba97cdb2-984e-4a60-be3d-7f4e47a721c1",
+  "stem": "A parent asks how fluids should usually be offered at home when ketosis is suspected or confirmed while following a sick-day plan. Which option is best?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Liquids containing water and electrolytes every 5-10 minutes",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "One large drink every 4 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "No oral fluids until all ketones have cleared",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only plain water once the child feels thirsty",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Wait for hospital assessment before offering any fluids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Liquids containing water and electrolytes every 5-10 minutes are recommended to support frequent small-volume hydration during ketosis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 100,
+      "title": "Diabetes Sick Day Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:32:49.259Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-02-53c0fa509cb16cae0b43",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because frequent small volumes of liquids containing water and electrolytes are the recommended home approach when ketosis is suspected or confirmed.",
+    "B": "Incorrect because the guidance is to offer frequent small amounts, not a single large drink at long intervals.",
+    "C": "Incorrect because fluids should still be given; withholding all oral intake is not the recommended sick-day approach.",
+    "D": "Incorrect because plain water alone is not the specific recommendation; the plan calls for liquids containing water and electrolytes.",
+    "E": "Incorrect because home fluid management should start promptly rather than waiting for hospital assessment before offering any fluids."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B53-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqkkjo0001rj1adscat45p",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3464052287581699,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f21b5ef9-9433-4e14-a71b-74c89735ad77",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "education"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:49.320Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "8023a091-6214-4a7f-a36b-98d78071c169",
+  "stem": "Which principle best explains why some vaccines are given in repeat doses rather than as closely spaced doses over a few days?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spacing allows time for immune memory development",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Spacing is needed so maternal IgG can become an adjuvant",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Spacing prevents all adverse events following immunisation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Spacing converts a non-replicating vaccine into a live vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Spacing is only used to reduce clinic workload",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Spacing allows time for immune memory development. Repeat doses work best when there is enough time between them for the immune system to generate and strengthen memory responses, rather than giving doses too close together.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 59,
+      "title": "Immunisation; Adverse Events Following Immunisation (AEFI)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:03:30.638Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B37-attempt-01-50dfa92aae8fc7a6d908",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because appropriate spacing gives the immune system time to develop and strengthen memory responses after vaccination.",
+    "B": "Incorrect because maternal IgG can interfere with vaccine responses rather than act as an adjuvant.",
+    "C": "Incorrect because spacing does not prevent all adverse events following immunisation.",
+    "D": "Incorrect because spacing does not change a vaccine’s formulation or make a non-replicating vaccine live.",
+    "E": "Incorrect because the reason for spacing is immunological, not just to reduce clinic workload."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B37-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwndq200001rj9zjmjn0wwy",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3209876543209876,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "340390bd-071d-422b-9970-62f72259a21e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B37/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Immunisation principles and AEFI",
+      "management and follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:50.680Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

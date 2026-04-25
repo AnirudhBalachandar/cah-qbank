@@ -1,0 +1,98 @@
+{
+  "id": "01143431-c86b-4f22-a42b-8bd33c99c231",
+  "stem": "Which clinical sign, often found in the axilla, is a characteristic indicator of insulin resistance in children with obesity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Slipped femoral epiphysis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Acanthosis nigricans",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Obstructive sleep apnoea",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypertension",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Striae distensae",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acanthosis nigricans is the characteristic skin sign of insulin resistance in children with obesity, often seen as thickened, darkened skin in the axilla.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+      "title": "00090 Baur SMP Obesity pre-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.202Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c41773782f6bbaa2876f",
+  "rationale": "This question tests recognition of a classic cutaneous marker of insulin resistance.",
+  "optionExplanations": {
+    "A": "Incorrect because slipped femoral epiphysis is an orthopaedic complication associated with obesity, not a skin sign of insulin resistance.",
+    "B": "Correct because acanthosis nigricans presents as thickened, darkened skin and is a characteristic sign of insulin resistance.",
+    "C": "Incorrect because obstructive sleep apnoea is a respiratory complication related to obesity, not a visible dermatological sign.",
+    "D": "Incorrect because hypertension is a cardiovascular finding, not a characteristic skin lesion.",
+    "E": "Incorrect because striae distensae are stretch marks related to rapid growth or weight change, not a specific indicator of insulin resistance."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a term that describes a specific change in skin pigmentation and texture.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "90",
+    "lectureTitle": "00090 Baur SMP Obesity pre-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "abddec6f-9447-4326-a15f-23d9d120e8ae",
+    "overlapScore": 0.4710743801652892,
+    "questionIndex": 4,
+    "quizFileName": "quiz_090.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c886d9c4-927e-4f78-9fc5-77a24d552dc0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:42.607Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "35ca4ffc-67c6-401b-ac38-df7a4e2f1274",
+  "stem": "Which virus is the most common cause of bronchiolitis in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Rhinovirus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Respiratory Syncytial Virus (RSV)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Parainfluenza virus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Adenovirus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Influenza virus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Respiratory Syncytial Virus (RSV) is the most common cause of bronchiolitis in children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.869Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b84e2f752571014809aa",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because rhinovirus commonly causes upper respiratory tract infections and can contribute to wheeze, but it is not the leading cause of bronchiolitis.",
+    "B": "Correct because Respiratory Syncytial Virus (RSV) is the most common viral cause of bronchiolitis in children.",
+    "C": "Incorrect because parainfluenza virus is more commonly associated with croup than bronchiolitis.",
+    "D": "Incorrect because adenovirus can cause respiratory infection, but it is not the most frequent cause of bronchiolitis.",
+    "E": "Incorrect because influenza virus can cause lower respiratory tract disease, but it is not the usual cause of bronchiolitis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the virus often abbreviated as a three-letter acronym.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7a4b24db-fc41-45dd-815c-e94338281071",
+    "overlapScore": 0.5555555555555556,
+    "questionIndex": 5,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:26.967Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

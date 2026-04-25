@@ -1,0 +1,101 @@
+{
+  "id": "cfd0f4ae-57db-4d0b-bb82-c0e77ced6b18",
+  "stem": "When discussing prevention of avoidable treatment harm in paediatric asthma, which concern supports avoiding steroid overuse?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bone health, growth, and behavioural change concerns",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Persistent asymmetry on auscultation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Harsh inspiratory neck sound",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Low-pitched stertor from nasal blockage",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Detection of rhinovirus on PCR",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bone health, growth, and behavioural change concerns support avoiding steroid overuse in paediatric asthma because prolonged or unnecessary steroid exposure can cause avoidable adverse effects.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:34:40.577Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B28-attempt-01-c20bad4f6e3239288e62",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because prolonged or unnecessary steroid exposure can affect bone health, impair growth, and contribute to behavioural change in children.",
+    "B": "Incorrect because persistent asymmetry on auscultation suggests an alternative respiratory problem, not steroid-related harm.",
+    "C": "Incorrect because a harsh inspiratory neck sound describes stridor, which is not a consequence of steroid overuse.",
+    "D": "Incorrect because low-pitched stertor from nasal blockage is an upper-airway finding, not a steroid adverse effect.",
+    "E": "Incorrect because rhinovirus detection indicates a viral trigger or infection, not harm from steroid overuse."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B28-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmcn1y0001rjklgyljwodh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2892561983471074,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d7ab0757-e11b-43b9-8afb-8bace587c985",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B28/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma spirometry and acute exacerbation reasoning",
+      "complication prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:39.235Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

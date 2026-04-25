@@ -1,0 +1,102 @@
+{
+  "id": "a9b6e588-b081-487d-b178-5a74fc12c55b",
+  "stem": "Which question is explicitly included in the pGALS musculoskeletal screening questions?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Do you have any pain or stiffness in your joints, muscles, or back?",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Do you wake every night with bone pain",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Have you had any recent fevers with limping",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Can you run as fast as your classmates",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Have you noticed swelling in the small joints of your hands",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is the question about pain or stiffness in the joints, muscles, or back. This is one of the explicitly listed pGALS screening questions for musculoskeletal symptoms.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 157,
+      "title": "The pGALS Musculoskeletal Screen"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:20:07.392Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B77-attempt-02-dc11445aab024458f10d",
+  "rationale": "pGALS includes a direct symptom screen asking about pain or stiffness in the joints, muscles, or back.",
+  "optionExplanations": {
+    "A": "Correct because this is an explicitly listed pGALS screening question.",
+    "B": "Incorrect because night bone pain is not one of the pGALS screening questions.",
+    "C": "Incorrect because fever with limping is clinically relevant but not one of the listed pGALS screening questions.",
+    "D": "Incorrect because this assesses exercise performance rather than the pGALS symptom screen.",
+    "E": "Incorrect because hand joint swelling is not one of the explicitly listed pGALS screening questions."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B77-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx54ddl0001rjrd69xnm8n3",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.328,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0a93ecba-cdec-45df-bc4d-f39139ecd2f6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B77/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "pGALS and musculoskeletal symptom approach",
+      "pGALS screen",
+      "screening questions"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:13.362Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

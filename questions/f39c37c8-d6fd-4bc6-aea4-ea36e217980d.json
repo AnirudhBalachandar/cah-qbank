@@ -1,0 +1,98 @@
+{
+  "id": "f39c37c8-d6fd-4bc6-aea4-ea36e217980d",
+  "stem": "What is the primary difference between sensitisation and a clinical food allergy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sensitisation is a positive test result without symptoms, whereas clinical allergy causes symptoms on exposure",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Sensitisation is a delayed reaction, whereas clinical allergy is always immediate",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sensitisation only occurs in adults, whereas clinical allergy occurs in children",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Sensitisation means low antibody levels, whereas clinical allergy means high antibody levels",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sensitisation only occurs after repeated severe reactions",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sensitisation is a positive test or immune response without symptoms, whereas a clinical food allergy is defined by symptoms when the food is eaten or otherwise exposed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+      "title": "00031 Year 3 CAH Allergy a-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.990Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c5881d365e38f4a78669",
+  "rationale": "Sensitisation is an immunological finding, but clinical allergy is diagnosed when that sensitisation is associated with symptoms on exposure.",
+  "optionExplanations": {
+    "A": "Correct because sensitisation can be present without any clinical symptoms, while a clinical allergy requires symptoms with exposure.",
+    "B": "Incorrect because the key distinction is symptoms versus no symptoms, not whether the reaction is delayed or immediate.",
+    "C": "Incorrect because sensitisation and clinical allergy can occur in both children and adults.",
+    "D": "Incorrect because antibody level alone does not define clinical allergy; symptoms on exposure are what make it clinical.",
+    "E": "Incorrect because sensitisation does not require repeated severe reactions and may be found on testing alone."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One is an immunological observation, the other is a symptomatic diagnosis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "31",
+    "lectureTitle": "00031 Year 3 CAH Allergy a-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "db145960-f273-4f59-af4e-d853ecc52640",
+    "overlapScore": 0.5194805194805194,
+    "questionIndex": 3,
+    "quizFileName": "quiz_031.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "40c41a73-b27e-4dfa-acd7-d58320f7e14e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:57.106Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "b4fc7c5c-641b-45b0-a411-131753bcef22",
+  "stem": "Which of the following is an absolute indicator for referral for language development concerns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "No single words by 12 months of age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "No two-word combinations by 24 months of age",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Speaking with an unusual accent or voice quality",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Difficulty pronouncing certain consonant sounds",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Limited vocabulary at 3 years of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "No two-word combinations by 24 months of age is the absolute indicator for referral. This age-based language milestone is a red flag that warrants assessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+      "title": "00054 Autism Spectrum Diso-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.464Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bcd10a7c7eed5c34336e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because absence of single words by 12 months is not the listed absolute referral indicator in this item.",
+    "B": "Correct because no two-word combinations by 24 months of age is identified as an absolute indicator for referral.",
+    "C": "Incorrect because an unusual accent or voice quality may be concerning, but it is not the absolute language milestone described here.",
+    "D": "Incorrect because difficulty pronouncing consonant sounds can occur in typical development and is not the absolute referral indicator asked for here.",
+    "E": "Incorrect because limited vocabulary at 3 years is not the specific absolute indicator given in this question."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific age-based threshold for combining words mentioned by the doctor.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "54",
+    "lectureTitle": "00054 Autism Spectrum Diso-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0e175957-5241-4c54-97e3-df372ff654ef",
+    "overlapScore": 0.3789473684210526,
+    "questionIndex": 3,
+    "quizFileName": "quiz_054.json",
+    "quizTitle": "Autism Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b26cd104-16f2-4ec7-9fcd-376ca6baec54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:39.107Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "25cc4ac0-0321-4fe2-9144-b3b120f581e6",
+  "stem": "Which finding is most characteristic of nephritic syndrome rather than nephrotic syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Significant hypoalbuminaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Normal blood pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Presence of red cell casts in urine",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Marked periorbital oedema",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Massive proteinuria",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Presence of red cell casts in urine is most characteristic of nephritic syndrome. It indicates glomerular inflammation and bleeding, which is not a typical feature of nephrotic syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.884Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-75022fa2a256e9d3e94b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because significant hypoalbuminaemia is a feature of nephrotic syndrome due to heavy protein loss.",
+    "B": "Incorrect because nephritic syndrome often causes hypertension, whereas normal blood pressure is not a characteristic distinguishing feature.",
+    "C": "Correct because red cell casts indicate glomerular bleeding and inflammation, which are classic for nephritic syndrome.",
+    "D": "Incorrect because marked periorbital oedema is more typical of nephrotic syndrome due to low plasma oncotic pressure.",
+    "E": "Incorrect because massive proteinuria is a defining feature of nephrotic syndrome, not nephritic syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which microscopic urine finding indicates active glomerular bleeding and inflammation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bdd28bd4-907d-4df6-b011-c1198eb069f3",
+    "overlapScore": 0.4301075268817204,
+    "questionIndex": 1,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:00.678Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

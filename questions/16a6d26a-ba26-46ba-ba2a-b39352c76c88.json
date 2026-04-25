@@ -1,0 +1,98 @@
+{
+  "id": "16a6d26a-ba26-46ba-ba2a-b39352c76c88",
+  "stem": "What is the usual initial clinical pattern of facial swelling in a child with an odontogenic infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A localized, painless cyst",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A cellulitis rather than a specific abscess",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A hard, bony overgrowth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Localized bruising without heat",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A fluctuant abscess with a clear centre",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A cellulitis rather than a specific abscess is the usual initial pattern. Odontogenic facial swelling in children commonly presents as diffuse soft tissue infection before a well-defined abscess forms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+      "title": "00081 Dentistry_infections-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.689Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c9391bbd6d6f8c3ca85d",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because an odontogenic infection typically causes inflammatory swelling rather than a painless cyst.",
+    "B": "Correct because facial swelling from an odontogenic source is usually a diffuse cellulitis before a clearly localised abscess develops.",
+    "C": "Incorrect because the swelling is due to soft tissue infection, not new bone formation.",
+    "D": "Incorrect because bruising does not explain an infective facial swelling and would not account for inflammatory signs.",
+    "E": "Incorrect because a well-defined fluctuant abscess is not usually the initial presentation; cellulitis is more typical first."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the term used to describe a more diffuse spreading infection in the soft tissues.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "81",
+    "lectureTitle": "00081 Dentistry_infections-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bee6c6e3-04d4-472a-9ffc-be21d7ff4701",
+    "overlapScore": 0.4272727272727272,
+    "questionIndex": 3,
+    "quizFileName": "quiz_081.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0b63884-45a6-42c2-bb61-89ab7f81259e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:27.461Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

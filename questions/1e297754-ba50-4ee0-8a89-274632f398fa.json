@@ -1,0 +1,102 @@
+{
+  "id": "1e297754-ba50-4ee0-8a89-274632f398fa",
+  "stem": "Which statement best describes the global burden of diarrhoeal disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is greatest in children under 5 years and in South-East Asia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is greatest in healthy adults in metropolitan Australia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is equally distributed across all ages and regions",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is greatest only in neonates in Europe",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is mainly in older adolescents in North America",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is children under 5 years and South-East Asia. This best matches the global epidemiology described for diarrhoeal disease, which places the greatest burden in young children and in that region.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 52,
+      "title": "Global perspectives of paediatric infectious diseases"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:07:31.048Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B39-attempt-02-9e1db1c56ad471514bc2",
+  "rationale": "This tests recognition of the main age group and geographic region carrying the highest global burden of diarrhoeal disease.",
+  "optionExplanations": {
+    "A": "Correct because the greatest global burden of diarrhoeal disease is described in children under 5 years and in South-East Asia.",
+    "B": "Incorrect because healthy adults in metropolitan Australia are not described as the group with the greatest global burden.",
+    "C": "Incorrect because the burden is not presented as equal across all ages and regions.",
+    "D": "Incorrect because the greatest burden is not limited to neonates or to Europe.",
+    "E": "Incorrect because older adolescents in North America are not identified as the main burden group."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B39-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwnivj50001rjdqo564fptr",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3448275862068966,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6162d473-6534-491f-9fd0-29e67238dd59",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B39/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Infectious disease epidemiology and prevention",
+      "regional perspective",
+      "public health reasoning"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:43.223Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

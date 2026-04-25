@@ -1,0 +1,102 @@
+{
+  "id": "99efc276-22a2-4b7e-9d44-c51a919851a3",
+  "stem": "A surgeon suspects a midline dermoid cyst in the suprasternal notch; what is the most important reason to investigate this lesion carefully before surgery?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It commonly represents metastatic neuroblastoma",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It may communicate intracranially",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It usually resolves with expectant management",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It typically originates from the parotid gland",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is usually caused by a recent viral infection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intracranial communication is the key concern for a midline dermoid cyst. This possibility means the lesion needs careful assessment before surgical excision to avoid missing deeper extension.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 180,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:10:36.898Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B85-attempt-01-3c6baa6acf79cc687dc8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because metastatic neuroblastoma is not the usual explanation for a midline dermoid cyst.",
+    "B": "Correct because a midline dermoid cyst may communicate intracranially, which is the main pre-operative concern.",
+    "C": "Incorrect because dermoid cysts do not typically resolve with expectant management.",
+    "D": "Incorrect because the parotid gland is not the typical origin of a suprasternal midline dermoid cyst.",
+    "E": "Incorrect because a recent viral infection suggests reactive lymphadenopathy rather than a dermoid cyst."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B85-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrx6h80001rjyfs8zyhivx",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3181818181818182,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "68de76af-1068-423d-be9f-6b277e32bb57",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B85/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Acute and chronic neck lumps",
+      "complication/prevention",
+      "investigation/interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:43.927Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

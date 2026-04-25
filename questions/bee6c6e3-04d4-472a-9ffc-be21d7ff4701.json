@@ -1,0 +1,98 @@
+{
+  "id": "bee6c6e3-04d4-472a-9ffc-be21d7ff4701",
+  "stem": "What is the highest cause of morbidity among Australian children that is often overlooked by clinicians?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Measles",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Dental disease (decay)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Whooping cough",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Meningococcal disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Asthma",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Dental disease (decay) is the highest cause of morbidity among Australian children and is frequently overlooked despite its high prevalence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.704Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5d10f7867ddaf9b2d222",
+  "rationale": "It involves the interplay of oral bacteria, carbohydrates, and saliva.",
+  "optionExplanations": {
+    "A": "Incorrect because measles is uncommon in Australia due to vaccination and is not the leading cause of ongoing morbidity.",
+    "B": "Correct because dental decay is highly prevalent in Australian children and is a major, often under-recognised source of morbidity.",
+    "C": "Incorrect because whooping cough is important but does not account for the greatest overall burden of childhood morbidity.",
+    "D": "Incorrect because meningococcal disease is serious but far less common and is not the highest cause of general morbidity.",
+    "E": "Incorrect because asthma is common, but this question is referring to the most prevalent overlooked cause of morbidity, which is dental decay."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It involves the interplay of oral bacteria, carbohydrates, and saliva.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "200df83d-ac25-42e3-8599-14b4bfc11df9",
+    "overlapScore": 0.35,
+    "questionIndex": 15,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:59.279Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

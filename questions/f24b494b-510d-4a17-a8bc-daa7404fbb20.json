@@ -1,0 +1,102 @@
+{
+  "id": "f24b494b-510d-4a17-a8bc-daa7404fbb20",
+  "stem": "A 15-year-old who uses cannabis regularly says, \"It might make people feel weird on the night, but it doesn't cause real longer-term mental health problems.\" Which response is most appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The main ongoing concern with cannabis is appetite change rather than mental health",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Mental health follow-up is only needed if there has already been an acute panic attack",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Early-onset cannabis use is linked to anxiety, depression and psychosis, so longer-term mental health effects should still be discussed",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Cannabis-related mental health risk only matters during withdrawal",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "If he is still attending school, longer-term harms are unlikely",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Early-onset cannabis use is linked to anxiety, depression and psychosis, so longer-term mental health effects should still be discussed. Counselling should address these ongoing risks rather than focusing only on acute intoxication or withdrawal.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T11:07:30.707Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-7727c53092c93089b3b2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because appetite change is not the main ongoing concern highlighted here, and it ignores the longer-term mental health risks.",
+    "B": "Incorrect because mental health follow-up is relevant even without a prior panic attack.",
+    "C": "Correct because early-onset cannabis use is associated with anxiety, depression and psychosis, so those longer-term effects should be discussed.",
+    "D": "Incorrect because the mental health risk is not limited to withdrawal; early cannabis use is also linked to longer-term harm.",
+    "E": "Incorrect because school attendance does not rule out the mental health risks associated with early cannabis use."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmuid3a00001rj9690rno7up",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3273809523809524,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "abf8fa9a-8ac4-4df2-9cb0-024d9c637b02",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-16.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "cannabis",
+      "mental health",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:53.851Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

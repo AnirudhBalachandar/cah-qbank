@@ -1,0 +1,103 @@
+{
+  "id": "d3800bce-bfa6-4fea-9522-884c04740e3d",
+  "stem": "Which medicine is expected to last about 10–12 hours?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lisdexamphetamine (Vyvanse)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Ritalin LA",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Concerta",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Clonidine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Atomoxetine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Lisdexamphetamine (Vyvanse) is the stimulant option expected to last about 10–12 hours.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 85,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T08:39:40.348Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B14-attempt-02-dc37c9fc7ebebd384365",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because lisdexamphetamine (Vyvanse) is listed as lasting about 10–12 hours.",
+    "B": "Incorrect because Ritalin LA is shorter, at about 7–8 hours.",
+    "C": "Incorrect because Concerta is listed as lasting about 12 hours rather than the 10–12 hour range given for lisdexamphetamine.",
+    "D": "Incorrect because clonidine is not the stimulant option described by this duration.",
+    "E": "Incorrect because atomoxetine is a non-stimulant medicine, not the 10–12 hour stimulant formulation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B14-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvsitjq0001rjwjie7lsa69",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3134328358208955,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f0c6269a-3148-4fda-b383-7358030bde35",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B14/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD treatment and longitudinal care",
+      "stimulants",
+      "lisdexamphetamine",
+      "duration"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:49.206Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "62373049-cc9a-407e-90d4-17282739bd58",
+  "stem": "When examining a child with a murmur, what should be listened to first before further characterising the murmur?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Heart sounds",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Only the apex beat",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The carotid arteries alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The liver edge before the precordium",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Breath sounds only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Heart sounds should be listened to first. This provides the initial auscultatory information before the murmur is characterised further.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 81,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:19:37.181Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B46-attempt-02-6367bb7490e374cdc270",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because heart sounds are the first structure to assess on auscultation before analysing the murmur further.",
+    "B": "Incorrect because the apex beat is not the first auscultatory target in a structured murmur examination.",
+    "C": "Incorrect because listening to the carotid arteries alone does not replace assessment of heart sounds in the precordium.",
+    "D": "Incorrect because the liver edge is examined as part of the broader cardiac assessment, not before auscultating heart sounds.",
+    "E": "Incorrect because breath sounds may be relevant in general examination, but they are not the first focus when assessing a murmur."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B46-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq3lkv0001rj5i6wiby3o4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3481012658227848,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ea9a5c7a-1fc2-414b-8286-8356cda348d3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B46/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acyanotic congenital heart disease and murmur interpretation",
+      "auscultation approach",
+      "murmur timing and quality"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:58.930Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

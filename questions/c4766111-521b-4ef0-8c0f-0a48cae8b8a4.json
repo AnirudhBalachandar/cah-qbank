@@ -1,0 +1,102 @@
+{
+  "id": "c4766111-521b-4ef0-8c0f-0a48cae8b8a4",
+  "stem": "A 6-year-old boy is examined because his parent says one testis keeps disappearing; on examination it can be milked into the scrotum and remains there for a substantial period. Which description best fits this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Retractile testis due to a hyperactive cremasteric reflex",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Ectopic testis lying outside the normal line of descent",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Congenital undescended testis that cannot remain in the scrotum",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bell-clapper deformity causing excessive testicular mobility",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ascending testis that is no longer palpable in the scrotum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Retractile testis due to a hyperactive cremasteric reflex is the correct description. The testis can be brought into the scrotum and stays there for a substantial period, which distinguishes it from an undescended or ectopic testis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 177,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:24:57.034Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B84-attempt-04-13329b97089c26dcc8c7",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because a retractile testis is caused by a hyperactive cremasteric reflex and can be milked into the scrotum where it remains temporarily.",
+    "B": "Incorrect because an ectopic testis lies outside the normal line of descent and is not simply a testis that can be brought down into the scrotum.",
+    "C": "Incorrect because an undescended testis cannot be maintained in the scrotum after manipulation.",
+    "D": "Incorrect because bell-clapper deformity is associated with testicular torsion, not a testis that can be milked into the scrotum and remain there.",
+    "E": "Incorrect because an ascending testis has moved out of the scrotum over time and is not the same as a retractile testis that can be positioned back into the scrotum"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B84-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsfm740001rj9vh2gk0adi",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3300492610837438,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B84/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Penile disorders",
+      "retractile testis",
+      "examination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:16.542Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

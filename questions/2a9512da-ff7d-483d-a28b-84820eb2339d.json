@@ -1,0 +1,98 @@
+{
+  "id": "2a9512da-ff7d-483d-a28b-84820eb2339d",
+  "stem": "Which medication is commonly used to manage aggressive behaviour in children with autism when behavioural strategies alone are not enough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Methylphenidate",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fluoxetine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Risperidone",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Clonidine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Aripiprazole",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Risperidone is the medication commonly used to manage aggression in children with autism when behavioural support is insufficient.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+      "title": "00054 Autism Spectrum Diso-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.501Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6fac227d8283c443e897",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because methylphenidate is used for attention and hyperactivity symptoms, not primarily aggression",
+    "B": "Incorrect because fluoxetine is used for anxiety or obsessive symptoms, not first-line for aggressive behaviour",
+    "C": "Correct because risperidone is commonly used to reduce aggressive behaviour in children with autism when behavioural approaches are not enough",
+    "D": "Incorrect because clonidine is more often used for sleep or hyperarousal symptoms",
+    "E": "Incorrect because aripiprazole can also be used for irritability in autism, but it is not the option identified in this question"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the drug often used when behavioral plans are insufficient to control aggression.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "54",
+    "lectureTitle": "00054 Autism Spectrum Diso-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c76a6af5-d795-46ba-88f3-3e704a938d24",
+    "overlapScore": 0.3727272727272727,
+    "questionIndex": 7,
+    "quizFileName": "quiz_054.json",
+    "quizTitle": "Autism Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b26cd104-16f2-4ec7-9fcd-376ca6baec54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:17.674Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

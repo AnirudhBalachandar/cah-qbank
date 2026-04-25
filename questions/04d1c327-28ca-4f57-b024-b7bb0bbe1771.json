@@ -1,0 +1,98 @@
+{
+  "id": "04d1c327-28ca-4f57-b024-b7bb0bbe1771",
+  "stem": "Approximately what percentage of parents experience medicalised trauma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "33%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "22%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "10%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "50%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Parents experience medicalised trauma in about 33% of cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+      "title": "00041 Year 3 CAH Pain Mana-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.552Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9f8b93ebd37d4585a7e9",
+  "rationale": "This figure is higher than the corresponding percentage for children and is the stated estimate for parents.",
+  "optionExplanations": {
+    "A": "Correct because the stated estimate for parents is approximately 33%.",
+    "B": "Incorrect because 22% is the figure given for children, not parents.",
+    "C": "Incorrect because 10% is lower than the reported prevalence for parents.",
+    "D": "Incorrect because 50% is higher than the reported prevalence and is not the stated estimate.",
+    "E": "Incorrect because 5% is far below the reported prevalence for parents."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The percentage for parents is cited as being higher than the percentage for children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "41",
+    "lectureTitle": "00041 Year 3 CAH Pain Mana-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+    "overlapScore": 0.4356435643564356,
+    "questionIndex": 2,
+    "quizFileName": "quiz_041.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a26757ea-8f3b-4239-a98c-14012d648256",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:48.581Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

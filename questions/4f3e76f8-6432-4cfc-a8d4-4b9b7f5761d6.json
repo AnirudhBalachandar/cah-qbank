@@ -1,0 +1,102 @@
+{
+  "id": "4f3e76f8-6432-4cfc-a8d4-4b9b7f5761d6",
+  "stem": "During developmental surveillance, which birth history item should the clinician specifically ask about?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Maternal factors such as gestational diabetes, smoking, or alcohol exposure",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The parent’s preferred school subjects",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The child’s current screen time only",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The number of siblings in the household only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The family’s holiday plans",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Maternal factors such as gestational diabetes, smoking, or alcohol exposure are relevant birth history details to ask about during developmental surveillance.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 94,
+      "title": "Page 94"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:25:03.689Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B16-attempt-01-38638afc3b6b966bd044",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because maternal factors including gestational diabetes, smoking, and alcohol exposure are explicitly relevant components of the birth history.",
+    "B": "Incorrect because a parent’s preferred school subjects are not part of the birth history.",
+    "C": "Incorrect because current screen time is not a birth history item.",
+    "D": "Incorrect because the number of siblings is not a specific birth history detail being targeted here.",
+    "E": "Incorrect because the family’s holiday plans are unrelated to birth history."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B16-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvu56vg0001rj8gm2pi9ogm",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.310126582278481,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3066fc0c-d6ae-432d-b906-cbd705eb8067",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B16/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Normal development and formal developmental assessment",
+      "developmental surveillance",
+      "birth history"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:28.789Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

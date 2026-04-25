@@ -1,0 +1,102 @@
+{
+  "id": "1bd73b6a-7f9d-410e-b33e-cf5bc9df36e3",
+  "stem": "Which statement best defines juvenile idiopathic arthritis (JIA)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Persistent joint swelling for more than 6 weeks in a child under 16 years, without a defined cause",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Any painful joint in a child under 18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Any arthritis lasting more than 2 weeks if inflammatory markers are raised",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Recurrent joint pain after exercise in a hypermobile child",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A child with night pain that improves with NSAIDs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Juvenile idiopathic arthritis is defined as persistent joint swelling for more than 6 weeks in a child under 16 years, with no defined cause.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 161,
+      "title": "Juvenile Idiopathic Arthritis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:31:28.977Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B78-attempt-02-3f10c713f79f13c2d5bf",
+  "rationale": "The key features are chronic joint swelling, duration longer than 6 weeks, age under 16 years, and exclusion of another defined cause.",
+  "optionExplanations": {
+    "A": "Correct because JIA is defined by persistent joint swelling for more than 6 weeks in a child under 16 years without a defined cause.",
+    "B": "Incorrect because not all joint pain in children meets the definition of JIA; swelling, duration, age, and exclusion of other causes are required.",
+    "C": "Incorrect because raised inflammatory markers are not part of the definition of JIA and the duration threshold is longer than 2 weeks.",
+    "D": "Incorrect because exercise-related pain in a hypermobile child suggests a different benign musculoskeletal pattern, not JIA.",
+    "E": "Incorrect because night pain relieved by NSAIDs is not the defining feature of JIA and suggests another diagnosis."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 3,
+  "source": {
+    "batchId": "B78-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5izad0001rjp4uedsd4xz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3489583333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8765fa32-bac0-43cc-93e6-7470db90a6ca",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B78/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Juvenile idiopathic arthritis",
+      "definition",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:37.323Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

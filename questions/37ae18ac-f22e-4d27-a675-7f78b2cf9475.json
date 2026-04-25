@@ -1,0 +1,103 @@
+{
+  "id": "37ae18ac-f22e-4d27-a675-7f78b2cf9475",
+  "stem": "A child has hypoplastic clavicles, supernumerary teeth and delayed eruption of the permanent teeth; which condition best fits this pattern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Holoprosencephaly",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Osteogenesis imperfecta",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Cleidocraniodysplasia",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Normal maxillary frenum",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ectodermal dysplasia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cleidocraniodysplasia is the correct diagnosis because the combination of hypoplastic clavicles, supernumerary teeth and delayed eruption of permanent teeth is characteristic of this condition.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 28,
+      "title": "CAH Bible (shared 2025)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T04:23:36.367Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B07-attempt-01-316a57d4df3be2358266",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because holoprosencephaly is associated with midline craniofacial anomalies such as a single central incisor, not hypoplastic clavicles and extra teeth.",
+    "B": "Incorrect because osteogenesis imperfecta is classically associated with dentinogenesis imperfecta and blue sclera, not this clavicle and dental pattern.",
+    "C": "Correct because cleidocraniodysplasia classically causes hypoplastic clavicles, supernumerary teeth and delayed eruption of the permanent dentition.",
+    "D": "Incorrect because a normal maxillary frenum is a benign anatomical finding and does not explain this syndromic presentation.",
+    "E": "Incorrect because ectodermal dysplasia can affect teeth and other ectodermal structures, but this specific pattern of clavicular hypoplasia and delayed eruption is more typical of cleidocraniodysplasia."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B07-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvjdil80001rj4kf02lnuc0",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2955665024630542,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "34e3a2cc-633e-44aa-ad69-de109f37cf2c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B07/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Dental trauma and the medical-dental interface",
+      "medical-dental interface",
+      "syndromic clues",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:31.637Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

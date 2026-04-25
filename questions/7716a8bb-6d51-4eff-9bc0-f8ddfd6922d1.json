@@ -1,0 +1,102 @@
+{
+  "id": "7716a8bb-6d51-4eff-9bc0-f8ddfd6922d1",
+  "stem": "A child with chronic neutropaenia is otherwise well, but the family asks what serious infective complication may still occur; which is the best answer?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sepsis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Appendicitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Croup",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Migraine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Constipation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sepsis is the serious infective complication that may still occur in chronic neutropaenia. Even when a child is otherwise asymptomatic, chronic neutropaenia can be associated with bacterial infection and sepsis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 108,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:00:47.731Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B35-attempt-01-eb316ae1c00d1dcca133",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because sepsis is specifically recognised as a possible serious infective complication in chronic neutropaenia.",
+    "B": "Incorrect because appendicitis is not a typical complication of chronic neutropaenia.",
+    "C": "Incorrect because croup is not the serious infective complication described here.",
+    "D": "Incorrect because migraine is unrelated to chronic neutropaenia and infection risk.",
+    "E": "Incorrect because constipation is not an infective complication of chronic neutropaenia."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B35-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwna8c30001rjilm00faddj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3392857142857143,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ca35e8c0-6379-446a-b52c-1c5bf799c6bb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B35/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Immunodeficiency",
+      "complication prevention",
+      "follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:36.374Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

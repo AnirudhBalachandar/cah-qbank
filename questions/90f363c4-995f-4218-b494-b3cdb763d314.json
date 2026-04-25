@@ -1,0 +1,103 @@
+{
+  "id": "90f363c4-995f-4218-b494-b3cdb763d314",
+  "stem": "Which abdominal X-ray finding is linked to ascites rather than obstruction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gasless abdomen",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Dilated small bowel loops",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Mosaic pattern in a neonate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Football sign",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lines and tubes in expected position",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Gasless abdomen is the correct answer because it is associated with ascites rather than bowel obstruction on abdominal X-ray.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 196,
+      "title": "Page 196"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:06:12.556Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-01-d9a4174a4756b75501e2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a gasless abdomen is linked with ascites.",
+    "B": "Incorrect because dilated small bowel loops suggest obstruction rather than ascites.",
+    "C": "Incorrect because a mosaic pattern in a neonate is not the finding linked to ascites here.",
+    "D": "Incorrect because the football sign indicates free intraperitoneal gas, not ascites.",
+    "E": "Incorrect because lines and tubes in expected position are not the abnormal finding linked to ascites."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 2,
+  "source": {
+    "batchId": "B11-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwj6vev0001rjhc77ocnok8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3295454545454545,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b899d140-c2ca-46d4-aca3-8c539a0a6085",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "neonatal bowel imaging",
+      "interpretation",
+      "obstruction"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:26.807Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

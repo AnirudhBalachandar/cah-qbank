@@ -1,0 +1,102 @@
+{
+  "id": "25c1bfe0-b9d1-4a90-9de8-095b35de0df4",
+  "stem": "Which non-prescription supplements are mentioned as options for headache prevention?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Riboflavin, magnesium, and coenzyme Q10",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Iron, zinc, and folate",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Calcium, vitamin D, and iodine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fish oil, selenium, and vitamin K",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Creatine, vitamin B12, and sodium chloride tablets",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Riboflavin, magnesium, and coenzyme Q10 are the non-prescription supplements mentioned as options for headache prevention.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 120,
+      "title": "Headache"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:53:23.593Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B63-attempt-01-d34b2c33dc6e125c4750",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because riboflavin, magnesium, and coenzyme Q10 are the supplements named as options for headache prevention.",
+    "B": "Incorrect because iron, zinc, and folate are not the supplements listed for headache prevention.",
+    "C": "Incorrect because calcium, vitamin D, and iodine are not the non-prescription preventive supplements named.",
+    "D": "Incorrect because fish oil, selenium, and vitamin K are not the supplements mentioned in this context.",
+    "E": "Incorrect because creatine, vitamin B12, and sodium chloride tablets are not listed as headache prevention options."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B63-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrb16z0001rj2fv9mj1j2e",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3445945945945946,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fa8b689d-c5e7-4f57-bc08-38e73c5b5671",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B63/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Headache, microcephaly, and macrocephaly",
+      "prevention",
+      "supplements"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:00.592Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

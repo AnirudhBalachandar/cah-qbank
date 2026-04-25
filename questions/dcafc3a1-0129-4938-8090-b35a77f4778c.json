@@ -1,0 +1,98 @@
+{
+  "id": "dcafc3a1-0129-4938-8090-b35a77f4778c",
+  "stem": "In which scenario is resection of a bony bar preferred over epiphysiodesis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bony bar is large and the child is near skeletal maturity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The bony bar area is small and there is significant growth remaining",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child has already reached skeletal maturity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The deformity is purely rotational",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The physeal injury is complete and longstanding",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Resection of a bony bar is preferred when the bar is small and substantial growth remains, because the remaining physis can still recover and contribute to correction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f13cd7b-5400-4793-8e1c-238c9acb605c",
+      "title": "00089 fractures-long-term--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.112Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2bb91c559ac54c2a3540",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a large bar and limited remaining growth make bar resection less likely to succeed, so other procedures are usually considered.",
+    "B": "Correct because a small bony bar can be removed more successfully and significant remaining growth allows the physis to resume growth and improve alignment.",
+    "C": "Incorrect because once skeletal maturity is reached, there is no growth remaining for bar resection to restore.",
+    "D": "Incorrect because purely rotational deformity is not the typical indication for physeal bar resection and is more often managed with osteotomy.",
+    "E": "Incorrect because a longstanding complete physeal injury usually indicates poor potential for recovery, making resection less suitable."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f13cd7b-5400-4793-8e1c-238c9acb605c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the size of the bridge and how much time the bone has left to 'catch up' after the tether is removed.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "89",
+    "lectureTitle": "00089 fractures-long-term--s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8587303a-f1c3-4491-b9f7-95c45ae49737",
+    "overlapScore": 0.3789473684210526,
+    "questionIndex": 8,
+    "quizFileName": "quiz_089.json",
+    "quizTitle": "Growth Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "62d7590b-b415-406f-a764-9d4a02c96325",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:10.884Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

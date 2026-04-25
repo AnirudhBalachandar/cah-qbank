@@ -1,0 +1,109 @@
+{
+  "id": "4ac3b2ed-c749-403e-bf8c-6ba0e6d490cc",
+  "stem": "A 14-month-old with an ash leaf macule is otherwise well at today's visit; what is the most appropriate follow-up approach?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ignore development unless the parents raise a concern at school age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Use each clinical visit as an opportunity for developmental surveillance and arrange referral if concerns emerge",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Perform only one-off screening and stop follow-up if it is normal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Avoid discussing development because skin lesions are unrelated to neurodevelopment",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Provide reassurance only, because ash leaf macules have no developmental associations",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Developmental surveillance should continue at each clinical visit, with referral if concerns emerge. Ash leaf macules are associated with tuberous sclerosis and possible neurodevelopmental issues, so ongoing review is more appropriate than a single normal screen or reassurance alone.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 86,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 15,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:18:55.478Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B48-attempt-01-a3c7fd5c0f23fa1337c4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because developmental concerns may emerge later, so review should not be deferred until school age.",
+    "B": "Correct because each visit should be used for developmental surveillance, with referral arranged if concerns emerge.",
+    "C": "Incorrect because developmental surveillance is ongoing and opportunistic, not a single completed screening event.",
+    "D": "Incorrect because ash leaf macules can be associated with neurodevelopmental conditions, so development should be discussed.",
+    "E": "Incorrect because ash leaf macules do have recognised developmental associations, including tuberous sclerosis-related concerns."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B48-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq2pej0001rjg255ok8w33",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3382352941176471,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "17a34c39-9cf8-440e-8a9e-41479b966c7e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B48/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Birthmarks and developmental skin lesions",
+      "screening",
+      "follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:16.740Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

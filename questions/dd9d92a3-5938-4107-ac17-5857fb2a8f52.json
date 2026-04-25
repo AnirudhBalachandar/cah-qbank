@@ -1,0 +1,98 @@
+{
+  "id": "dd9d92a3-5938-4107-ac17-5857fb2a8f52",
+  "stem": "What is the characteristic clinical presentation of a seizure in self-limited epilepsy with centrotemporal spikes (SeLECTS)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sudden drop attacks with loss of muscle tone",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Hemi-facial sensory motor symptoms with drooling and speech arrest",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Clusters of quick head nods lasting 1 to 2 seconds",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Prolonged behavioural arrest followed by morning confusion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Generalised tonic-clonic seizures with tongue biting",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hemi-facial sensory motor symptoms with drooling and speech arrest are characteristic of SeLECTS, which typically causes focal seizures affecting the face and oropharynx, often during sleep or on waking.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.655Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-192486ee1c46f7d49439",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because sudden drop attacks are typical of atonic seizures, not the focal facial seizures seen in SeLECTS.",
+    "B": "Correct because SeLECTS commonly presents with focal seizures involving the face and oropharynx, causing unilateral facial twitching, drooling, and speech arrest.",
+    "C": "Incorrect because clusters of quick head nods are more consistent with infantile spasms than SeLECTS.",
+    "D": "Incorrect because prolonged behavioural arrest with morning confusion is more suggestive of a generalised seizure pattern, not the focal semiology of SeLECTS.",
+    "E": "Incorrect because generalised tonic-clonic seizures are not the classic presentation of SeLECTS, which usually causes focal facial/oropharyngeal symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the former name 'Benign Rolandic Epilepsy' and its involvement of the face and mouth.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "69fbdf6f-dbe5-4463-a34e-93625ffc597d",
+    "overlapScore": 0.3508771929824561,
+    "questionIndex": 8,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:11.763Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

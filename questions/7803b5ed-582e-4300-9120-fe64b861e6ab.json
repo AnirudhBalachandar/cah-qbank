@@ -1,0 +1,101 @@
+{
+  "id": "7803b5ed-582e-4300-9120-fe64b861e6ab",
+  "stem": "How are most dietary lipids usually transported after absorption?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They usually enter the portal venous system directly as chylomicrons",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They are usually absorbed through the lymphatic system as chylomicrons",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They are usually transported in bile through the portal system",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are excreted by the kidneys before intestinal absorption",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They are carried in erythrocytes to the liver",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Most dietary lipids are absorbed through the lymphatic system as chylomicrons. This is the usual post-absorptive transport pathway, with only some shorter-chain fats entering the portal venous system more directly.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 46,
+      "title": "Diarrhoea and Malabsorption"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:48:08.719Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B31-attempt-02-b086f909a87fedb24031",
+  "rationale": "Most absorbed lipids travel via the lymphatic system as chylomicrons.",
+  "optionExplanations": {
+    "A": "Incorrect because most dietary lipids do not enter the portal venous system directly as chylomicrons; that is not the usual pathway.",
+    "B": "Correct because most dietary lipids are packaged as chylomicrons and absorbed into the lymphatic system before reaching the bloodstream.",
+    "C": "Incorrect because bile salts aid fat solubilisation and digestion, but they are not the main transport form of absorbed lipids.",
+    "D": "Incorrect because lipid absorption occurs in the intestine, not by renal excretion before absorption.",
+    "E": "Incorrect because erythrocytes do not carry absorbed dietary lipids to the liver."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B31-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmtyo20001rjh3sp1zejnw",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3309859154929577,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f0c4de32-922f-4a11-a4a0-cb6dce9f49f7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B31/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Diarrhoea, malabsorption, and chronic GI reasoning",
+      "lipid transport"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:37.782Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

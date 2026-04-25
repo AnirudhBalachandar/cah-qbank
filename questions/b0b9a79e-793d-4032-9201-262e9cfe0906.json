@@ -1,0 +1,101 @@
+{
+  "id": "b0b9a79e-793d-4032-9201-262e9cfe0906",
+  "stem": "A 20-month-old is being reviewed for recurrent wheeze; which developmental change after infancy best explains why wheeze beyond 12 months begins to resemble asthma or viral-induced wheeze more than earlier infant pathology?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Airway diameter and smooth muscle development increase after 12 months",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Chest tightness becomes the most reliable symptom in all toddlers",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Spirometry becomes universally reproducible in all children after 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bacterial pneumonia becomes the usual cause of wheeze after 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Children older than 12 months should always be diagnosed with asthma if they wheeze",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Airway diameter and smooth muscle development increase after 12 months. This developmental change means recurrent wheeze in toddlers is more likely to resemble asthma or viral-induced wheeze than the pathology seen in younger infants.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 32,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:59:04.525Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B27-attempt-04-fa40d6457793b58dab1b",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because increasing airway diameter and smooth muscle development after 12 months helps explain why wheeze starts to resemble asthma or viral-induced wheeze.",
+    "B": "Incorrect because chest tightness is not the developmental change that explains the shift in wheeze after infancy.",
+    "C": "Incorrect because spirometry is not universally reproducible in all children after 12 months.",
+    "D": "Incorrect because bacterial pneumonia is not the usual developmental explanation for wheeze after 12 months.",
+    "E": "Incorrect because wheeze after 12 months does not always mean asthma; the diagnosis still depends on the broader clinical picture."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B27-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn80p90001rj7hsp4mn0g8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3385416666666667,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "897caf21-7da7-4a20-9381-49b5cad0731c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B27/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma diagnosis and chronic management",
+      "asthma pattern recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:31.449Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

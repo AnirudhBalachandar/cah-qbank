@@ -1,0 +1,103 @@
+{
+  "id": "0a15734c-05dc-4aa9-96d7-5c9b0b65fde6",
+  "stem": "In cystic fibrosis, what defect explains why a corrector is needed for the common F508 mutation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A channel opening defect",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A processing defect",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A defect caused by acute infection alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A deficiency of fat-soluble vitamins",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A problem limited to exercise tolerance",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A processing defect is the correct answer. The common F508 mutation is a Class II CFTR defect, so the main problem is abnormal protein processing rather than channel opening.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 42,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:54:46.047Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B29-attempt-04-74bff1ec87470adec745",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because channel opening defects are Class III CFTR mutations, not the F508 mutation described here.",
+    "B": "Correct because the F508 mutation is a Class II CFTR defect with abnormal protein processing, which is why a corrector is needed.",
+    "C": "Incorrect because acute infection is not the underlying CFTR mutation defect.",
+    "D": "Incorrect because fat-soluble vitamin deficiency is a consequence of cystic fibrosis, not the molecular defect itself.",
+    "E": "Incorrect because reduced exercise tolerance is a clinical feature, not the CFTR processing defect being tested."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B29-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn2ha20001rjms4f0juxmn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2977528089887641,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1f9aeac7-1733-4d83-aa43-597a8532ed10",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B29/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cystic fibrosis and sleep across childhood",
+      "Cystic fibrosis",
+      "Mutation reasoning",
+      "Follow-up care"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:00.408Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

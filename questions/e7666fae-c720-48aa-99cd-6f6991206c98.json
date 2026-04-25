@@ -1,0 +1,98 @@
+{
+  "id": "e7666fae-c720-48aa-99cd-6f6991206c98",
+  "stem": "Which CFTR mutation is found in approximately 85% of Caucasian patients with cystic fibrosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "F508del (F508 deletion)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "G551D",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "W1282X",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "R117H",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "N1303K",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "F508del (F508 deletion) is the most common CFTR mutation in patients with cystic fibrosis, particularly in people of Northern European ancestry.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.697Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ede0480cf201b23bd065",
+  "rationale": "The mutation is caused by deletion of phenylalanine at position 508 of the CFTR protein.",
+  "optionExplanations": {
+    "A": "Correct because F508del is the most prevalent cystic fibrosis mutation and accounts for about 85% of cases in Caucasian populations.",
+    "B": "Incorrect because G551D is a gating mutation and is much less common than F508del.",
+    "C": "Incorrect because W1282X is a nonsense mutation and is not the most common mutation in Caucasian patients.",
+    "D": "Incorrect because R117H is a conductance mutation associated with variable, often milder disease.",
+    "E": "Incorrect because N1303K is a less common CFTR mutation and does not account for the majority of Caucasian cases."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This mutation is named after the deletion of phenylalanine at the $508^{th}$ position of the protein.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ee9f9560-8906-4b13-85f0-1e6c6fbae81a",
+    "overlapScore": 0.3818181818181818,
+    "questionIndex": 2,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:30.468Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

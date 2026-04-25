@@ -1,0 +1,98 @@
+{
+  "id": "4508e49c-731d-4238-a030-b508c91ed3e5",
+  "stem": "What percentage of all illnesses in children under 5 years is accounted for by respiratory illnesses?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "30%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "50%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "75%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "90%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "95%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Respiratory illnesses account for 50% of all illnesses in children under 5 years.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.809Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e54c3cfb95eb10b48aef",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 30% is lower than the proportion attributed to respiratory illnesses in this age group.",
+    "B": "Correct because respiratory illnesses account for half of all illnesses in children under 5 years.",
+    "C": "Incorrect because 75% overestimates the share of all childhood illnesses due to respiratory causes.",
+    "D": "Incorrect because 90% is far higher than the documented contribution of respiratory illnesses in this age group.",
+    "E": "Incorrect because 95% greatly overstates the proportion of all illnesses caused by respiratory conditions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the statistic provided for the youngest age group mentioned in the epidemiology section.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e3f418fc-b49f-41a7-b2d6-43e4f5c69cba",
+    "overlapScore": 0.4242424242424243,
+    "questionIndex": 3,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:59.334Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

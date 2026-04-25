@@ -1,0 +1,98 @@
+{
+  "id": "0cb0d933-6bff-4002-a069-92169b5cc8a1",
+  "stem": "Which age group in the Aboriginal and Torres Strait Islander population is currently experiencing an outbreak of infectious syphilis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "0 to 4 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "5 to 14 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "15 to 29 years",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Over 50 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "30 to 49 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "15 to 29 years is the correct age group. This is the age range identified as currently experiencing the infectious syphilis outbreak in Aboriginal and Torres Strait Islander communities.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.612Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8791ec0b85cd171c23ae",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because this age group is not the one identified as having the current outbreak.",
+    "B": "Incorrect because the outbreak described is not centred on primary school-aged children.",
+    "C": "Correct because this is the age group explicitly identified as currently experiencing the infectious syphilis outbreak.",
+    "D": "Incorrect because the outbreak is occurring in younger people, not those over 50 years.",
+    "E": "Incorrect because the outbreak is described in adolescents and young adults rather than middle-aged adults."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The focus is on the adolescent and young adult demographic.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fcb922a7-4d40-4e0c-95cd-18fd283afeb9",
+    "overlapScore": 0.4459459459459459,
+    "questionIndex": 12,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:05.813Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

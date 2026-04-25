@@ -1,0 +1,102 @@
+{
+  "id": "dbb185aa-e8ba-4290-974a-8c422c9091fc",
+  "stem": "A registrar explains that several anomalies can arise downstream from one primary anomaly or mechanical factor. Which embryological term matches this explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spectrum",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Association",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sequence",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Complex",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Developmental field",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sequence is the correct term for a pattern of anomalies resulting from a single primary anomaly or mechanical factor.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 167,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:07:31.398Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B68-attempt-02-29c2bf9dade371ef4c49",
+  "rationale": "Sequence describes anomalies produced by one initiating defect or force, whereas an association is a non-random grouping without a known cause.",
+  "optionExplanations": {
+    "A": "Incorrect because a spectrum describes variable expression across a range, not anomalies caused by one primary factor.",
+    "B": "Incorrect because an association is the co-occurrence of anomalies more often than expected by chance without a single identified cause.",
+    "C": "Correct because a sequence is a pattern of anomalies that arise downstream from one primary anomaly or mechanical factor.",
+    "D": "Incorrect because a complex refers to a related set of malformations grouped together, rather than a cascade from one initiating problem.",
+    "E": "Incorrect because a developmental field is a region of embryonic tissue giving rise to related structures, not the term for secondary anomalies from one defect."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B68-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4o60m0001rjent8no3up2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3133333333333334,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5991c1c1-68fb-4de1-a201-903297e81934",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B68/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Common genetic syndromes",
+      "Embryology concepts",
+      "Anatomy and embryology application"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:07.432Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

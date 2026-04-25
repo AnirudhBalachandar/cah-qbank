@@ -1,0 +1,101 @@
+{
+  "id": "19ec46ae-273a-404c-8032-5fc65dbebc76",
+  "stem": "A toddler with suspected foreign body aspiration has unilateral overinflation on imaging; which mechanism best explains this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Partial expiratory obstruction creates a ball-valve effect with air trapping and overinflation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Complete obstruction prevents all air entry and causes overinflation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Partial inspiratory obstruction allows the lung to empty normally",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The opposite lung cannot ventilate, so the affected lung overinflates",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The object is in the digestive tract rather than the airway",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Partial expiratory obstruction creates a ball-valve effect. In foreign body aspiration, air can enter the airway during inspiration but cannot escape well during expiration, leading to air trapping and unilateral overinflation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 142,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.142"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:11:32.408Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B71-attempt-02-d2d30552fe4a3b276620",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because partial expiratory obstruction allows inspiratory air entry but impairs expiration, producing a ball-valve effect with air trapping and overinflation.",
+    "B": "Incorrect because complete obstruction would block air entry and exit rather than cause air trapping with overinflation.",
+    "C": "Incorrect because the key mechanism is impaired expiration, not isolated inspiratory obstruction with normal emptying.",
+    "D": "Incorrect because unilateral overinflation is caused by the affected airway’s ball-valve effect, not failure of the opposite lung.",
+    "E": "Incorrect because this pattern is due to airway foreign body aspiration, not a digestive tract object."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B71-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4tbyz0001rjf4688br36r",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3308823529411765,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c3020ab0-d84f-4b5c-9aa4-b43e4c57dd3d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B71/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Foreign body aspiration and ingestion",
+      "airway foreign body"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:34.309Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

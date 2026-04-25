@@ -1,0 +1,98 @@
+{
+  "id": "4a0db095-a95e-478e-b4e9-eca27e1cda71",
+  "stem": "Why is calcitriol generally not recommended for treating simple vitamin D deficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is poorly absorbed by the intestine",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It has a short half-life and cannot increase vitamin D stores",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is only effective when combined with high-dose vitamin D2",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It requires activation by sunlight before it works",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is inactive until converted by the liver",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Calcitriol has a short half-life and does not replenish body vitamin D stores, so it is not used for routine replacement in simple deficiency.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.992Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-962cefcc3174b77f8479",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because calcitriol is absorbed adequately; the issue is that it is not suitable for building long-term vitamin D stores.",
+    "B": "Correct because calcitriol acts quickly but is cleared rapidly, so it does not increase the body's long-term vitamin D reserves.",
+    "C": "Incorrect because calcitriol does not need to be combined with vitamin D2, and this is not why it is avoided in simple deficiency.",
+    "D": "Incorrect because calcitriol is already the active form of vitamin D and does not require sunlight activation.",
+    "E": "Incorrect because calcitriol is already active and does not need liver conversion before it can work."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the difference between providing a quick-acting hormone versus building up a storage reserve.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "71cd54bc-de61-4bca-bfd0-abf538f22eb2",
+    "overlapScore": 0.4731182795698925,
+    "questionIndex": 10,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:13.275Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

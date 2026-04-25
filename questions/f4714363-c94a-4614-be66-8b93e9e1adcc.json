@@ -1,0 +1,98 @@
+{
+  "id": "f4714363-c94a-4614-be66-8b93e9e1adcc",
+  "stem": "What is a primary benefit of biological agents such as omalizumab in managing food allergies?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They can increase the reaction threshold for multiple food allergens simultaneously",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They provide a permanent cure for all food allergies after a 16-week course",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They replace the need to carry an adrenaline auto-injector",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are administered as a simple daily oral tablet",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They are only effective for a single specific food allergen",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Omalizumab can raise the reaction threshold across multiple food allergens, which may reduce the risk of reactions from accidental exposure.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+      "title": "00032 Year 3 CAH Allergy a-s1-low (2).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.180Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-380ae044154335726423",
+  "rationale": "This treatment is not food-specific and works by dampening the allergic response rather than curing the allergy or replacing emergency management.",
+  "optionExplanations": {
+    "A": "Correct because omalizumab is not specific to one food and can increase the amount of allergen needed to trigger a reaction across multiple food allergens.",
+    "B": "Incorrect because biologic therapy does not provide a permanent cure for food allergy after a short course.",
+    "C": "Incorrect because patients still need avoidance strategies and emergency treatment such as an adrenaline auto-injector.",
+    "D": "Incorrect because omalizumab is given by subcutaneous injection, not as a daily oral tablet.",
+    "E": "Incorrect because the benefit of omalizumab is not limited to one specific food allergen."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the difference between a treatment that targets one specific food versus one that 'dampens' the overall immune response.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "32",
+    "lectureTitle": "00032 Year 3 CAH Allergy a-s1-low (2).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a81cb8c8-b04f-4c9a-bf0e-b450967280af",
+    "overlapScore": 0.3516483516483517,
+    "questionIndex": 9,
+    "quizFileName": "quiz_032.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e70b8ea9-d86e-4479-a30e-e0961c324e09",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:59.641Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

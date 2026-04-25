@@ -1,0 +1,98 @@
+{
+  "id": "a592dbdf-5c5f-4b10-adfb-dc85d5d4195f",
+  "stem": "According to the World Health Organization, which option best defines sexual health?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The total absence of sexually transmitted infections and unplanned pregnancies",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A state of physical, emotional, mental, and social well-being related to sexuality",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The achievement of reproductive capability and transition to parenthood",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Adherence to societal norms regarding marriage and monogamous partnerships",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The absence of any sexual feelings or behaviours",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A state of physical, emotional, mental, and social well-being related to sexuality is the World Health Organization definition of sexual health.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+      "title": "00077 Adolescent sexual be-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.720Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9aa9a7b12d3e3b47b455",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the definition is broader than preventing infections or unplanned pregnancy and includes overall well-being related to sexuality.",
+    "B": "Correct because the World Health Organization defines sexual health as a state of physical, emotional, mental, and social well-being related to sexuality.",
+    "C": "Incorrect because sexual health is not limited to fertility or parenthood; it includes emotional, mental, and social aspects as well.",
+    "D": "Incorrect because sexual health is not defined by conformity to specific relationship structures or social norms.",
+    "E": "Incorrect because sexual health does not require the absence of sexual feelings or behaviours; it concerns well-being in relation to sexuality."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider if the definition is limited to medical conditions or includes broader psychological and social factors.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "77",
+    "lectureTitle": "00077 Adolescent sexual be-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "50f9a668-92c6-4c0f-87a6-bafbe592040b",
+    "overlapScore": 0.5473684210526316,
+    "questionIndex": 1,
+    "quizFileName": "quiz_077.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f494d4be-0233-4212-82ca-25cccbd58d42",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:05.209Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

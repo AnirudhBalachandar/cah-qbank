@@ -1,0 +1,98 @@
+{
+  "id": "f74b4dac-7130-423a-83be-ae946fcfa817",
+  "stem": "In school-aged children, what is the most common bacterial cause of pneumonia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Mycoplasma pneumoniae",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Staphylococcus aureus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Haemophilus influenzae",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Chlamydia pneumoniae",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mycoplasma pneumoniae is the most common bacterial cause of pneumonia in school-aged children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.899Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cf512cba5389b7be9249",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because Streptococcus pneumoniae is an important cause of community-acquired pneumonia, but it is not the most common bacterial cause in school-aged children.",
+    "B": "Correct because Mycoplasma pneumoniae is the most frequent bacterial cause of pneumonia in school-aged children and is a classic cause of atypical pneumonia.",
+    "C": "Incorrect because Staphylococcus aureus can cause severe pneumonia, but it is less common than Mycoplasma pneumoniae in this age group.",
+    "D": "Incorrect because Haemophilus influenzae can cause respiratory infection, but it is not the leading bacterial cause of pneumonia in school-aged children.",
+    "E": "Incorrect because Chlamydia pneumoniae can cause atypical pneumonia, but Mycoplasma pneumoniae is more common in school-aged children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the bacterium that is particularly prevalent in children who have reached school age.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7a4b24db-fc41-45dd-815c-e94338281071",
+    "overlapScore": 0.4794520547945205,
+    "questionIndex": 6,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:06.472Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

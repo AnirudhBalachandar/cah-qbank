@@ -1,0 +1,101 @@
+{
+  "id": "63f17626-3a86-4d12-9c85-61e645170c19",
+  "stem": "An otherwise well child presents with petechiae; what broad coagulation study result would you expect?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Normal coagulation studies",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Combined bleeding and thrombosis results",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Haemophilia is diagnosed in every child with petechiae",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Factor XIII deficiency is specifically indicated",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Non-accidental injury is confirmed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Normal coagulation studies are expected in an otherwise well child with petechiae. This presentation does not, by itself, indicate a specific coagulation disorder or confirm another diagnosis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 107,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:38:51.962Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B56-attempt-01-bd948f22173a6d389151",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because an otherwise well child with petechiae is described as having normal coagulation studies.",
+    "B": "Incorrect because petechiae in an otherwise well child do not imply a combined bleeding and thrombosis pattern.",
+    "C": "Incorrect because petechiae do not diagnose haemophilia in every child.",
+    "D": "Incorrect because factor XIII deficiency is not specifically indicated by this presentation.",
+    "E": "Incorrect because coagulation studies do not confirm non-accidental injury."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B56-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqscnr0001rj2xyc9i5q1k",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1f9aeac7-1733-4d83-aa43-597a8532ed10",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B56/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Coagulation studies and bleeding disorders",
+      "investigation/interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:01.559Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

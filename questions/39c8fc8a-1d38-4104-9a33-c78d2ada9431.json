@@ -1,0 +1,98 @@
+{
+  "id": "39c8fc8a-1d38-4104-9a33-c78d2ada9431",
+  "stem": "Sudden onset paralytic strabismus in a child should be regarded as what?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A medical emergency",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A normal developmental phase",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A side effect of longsightedness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A condition the child will eventually grow out of",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A harmless squint that needs no assessment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A medical emergency: sudden paralytic strabismus may indicate serious underlying pathology such as trauma, tumour, or raised intracranial pressure and needs urgent assessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.180Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8da1273807a153562190",
+  "rationale": "Paralytic strabismus is not a benign developmental variant when it has a sudden onset.",
+  "optionExplanations": {
+    "A": "Correct because sudden paralytic strabismus can reflect serious underlying causes such as trauma, tumour, or raised intracranial pressure, so urgent assessment is required.",
+    "B": "Incorrect because sudden onset eye deviation is not a normal developmental phase and should not be assumed to be benign.",
+    "C": "Incorrect because longsightedness is associated with accommodative esotropia, which is different from sudden paralytic strabismus.",
+    "D": "Incorrect because a child should not simply be expected to grow out of sudden paralytic strabismus.",
+    "E": "Incorrect because a new paralytic squint is not harmless and requires prompt medical review."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall how the author describes the urgency of a new, sudden loss of eye movement.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2324242f-590b-4bd4-8c08-b2a650ece820",
+    "overlapScore": 0.4597701149425287,
+    "questionIndex": 15,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:34.411Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "1a8893ba-dca1-459d-8deb-204eaad8925e",
+  "stem": "Why is head circumference monitoring most relevant during the first two years of life?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because the brain stops growing completely after age 2",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Because the cranial sutures remain open, allowing the head to act as a pressure valve",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Because measuring a toddler's head is easier than measuring an infant's head",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because hair growth is minimal during this period",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because skull bones are fused and no longer change after birth",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Open cranial sutures make head circumference a useful marker of changes in intracranial volume during early childhood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.563Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1f102639454bc83c6f5d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because brain growth continues well beyond 2 years, although the rate of growth slows.",
+    "B": "Correct because open cranial sutures allow changes in intracranial volume to be reflected in head circumference, so the skull can accommodate growth and raised pressure.",
+    "C": "Incorrect because the value of head circumference monitoring is related to skull development, not ease of measurement.",
+    "D": "Incorrect because hair growth does not determine the clinical usefulness of head circumference measurement.",
+    "E": "Incorrect because skull sutures are not fused at birth and remain open during infancy and early childhood."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the anatomical state of the skull bones during early childhood.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "717449de-df0d-4b33-8318-dabc4909a815",
+    "overlapScore": 0.4646464646464646,
+    "questionIndex": 12,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:34.075Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

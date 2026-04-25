@@ -1,0 +1,102 @@
+{
+  "id": "aabb134b-9ef6-431f-acc1-fde142429520",
+  "stem": "In a sepsis work-up for an infant aged 21 days corrected, which investigation is optional depending on the clinical context rather than routine for every infant in this age group?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CRP",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Blood culture",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Chest X-ray (CXR)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Lumbar puncture (LP)",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Urine culture",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chest X-ray (CXR) is the optional investigation in this age group. The septic work-up includes routine tests such as CRP, blood culture, urine culture, and lumbar puncture, with CXR added only when clinically indicated.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 140,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:07:58.890Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B70-attempt-03-d94dd52c438467cffdbd",
+  "rationale": "The pathway lists CXR as the context-dependent component of the neonatal septic work-up, whereas the other investigations are routine.",
+  "optionExplanations": {
+    "A": "Incorrect because CRP is included routinely in the septic work-up.",
+    "B": "Incorrect because blood culture is included routinely in the septic work-up.",
+    "C": "Correct because CXR is marked as optional and is only performed when clinically indicated.",
+    "D": "Incorrect because lumbar puncture is part of the routine septic work-up in this age group.",
+    "E": "Incorrect because urine culture is included routinely in the septic work-up."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B70-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4or9b0001rjs8m00ow5pc",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3254437869822485,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "340390bd-071d-422b-9970-62f72259a21e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B70/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "The febrile infant",
+      "urine/LP/CXR logic",
+      "septic workup components"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:14.688Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

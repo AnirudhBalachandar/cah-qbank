@@ -1,0 +1,102 @@
+{
+  "id": "1050a694-37f5-46b4-8b1e-905d7ff569db",
+  "stem": "A 2-year-old girl has a febrile convulsion lasting 4 minutes; her parents ask whether they should give paracetamol straight away next time to prevent another convulsion, what is the best response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Yes, because antipyretics prevent the temperature from rising quickly",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Yes, because antipyretics reduce the risk of later epilepsy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "No, because antipyretics do not help febrile convulsions",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "No, because antipyretics worsen seizure duration",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No, because antipyretics should never be used for fever in children",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "No, because antipyretics do not help febrile convulsions. Paracetamol may reduce discomfort from fever, but it does not prevent a febrile convulsion from occurring.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 111,
+      "title": "Paroxysmal Disorders"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T06:56:28.392Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B60-attempt-02-f540d13e489e0bfcb5f1",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because antipyretics do not prevent febrile convulsions by stopping the temperature from rising quickly.",
+    "B": "Incorrect because antipyretics do not reduce the risk of later epilepsy in this context.",
+    "C": "Correct because antipyretics do not help febrile convulsions, so giving paracetamol straight away does not prevent the seizure.",
+    "D": "Incorrect because the issue is lack of preventive benefit, not worsening seizure duration.",
+    "E": "Incorrect because antipyretics can still be used for fever symptoms; they simply do not prevent febrile convulsions."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B60-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx49ygm0001rjinquqm2wuo",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3166666666666667,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "2b4a53fc-fa1e-435f-91c8-e309e8e10d36",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B60/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paroxysmal disorders",
+      "febrile convulsions",
+      "investigation and interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:14.717Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

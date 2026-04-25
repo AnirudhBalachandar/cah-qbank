@@ -1,0 +1,98 @@
+{
+  "id": "ec65be3e-9e2f-4bfe-b1ce-42d72dbdc0f0",
+  "stem": "What is the main risk of prolonged hydrogel use on major burns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Induced hypothermia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Increased bacterial infection",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Chemical dermal irritation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Dehydration of the burn wound",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delayed wound assessment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Induced hypothermia is the main risk because hydrogels provide prolonged cooling and can lower core temperature when used over large burn areas.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.240Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e4c9626e95043db5d332",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because hydrogels can cool a large burn surface for an extended period and may cause a dangerous drop in core temperature.",
+    "B": "Incorrect because infection can complicate burns, but prolonged hydrogel use is primarily associated with hypothermia.",
+    "C": "Incorrect because hydrogels are not typically associated with chemical irritation of the dermis.",
+    "D": "Incorrect because hydrogels are moist dressings and do not primarily cause dehydration of the burn wound.",
+    "E": "Incorrect because delayed assessment may occur with any dressing, but it is not the main risk highlighted for prolonged hydrogel use."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the systemic effect of uncontrolled cooling on a patient who has lost skin integrity.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d9b50e9d-c50d-4fe3-99cb-2cee7b2ff26e",
+    "overlapScore": 0.4230769230769231,
+    "questionIndex": 3,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:39.774Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

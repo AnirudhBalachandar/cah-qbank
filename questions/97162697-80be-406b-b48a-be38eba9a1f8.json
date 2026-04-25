@@ -1,0 +1,98 @@
+{
+  "id": "97162697-80be-406b-b48a-be38eba9a1f8",
+  "stem": "Which technical detail is important when applying a plaster cast to a fractured limb?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Leave a small gap in the plaster to allow for swelling",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Include as many joints as possible for maximum stability",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Encase the fingers within the cast to prevent movement",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use the narrowest plaster roll available for precise moulding",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Apply the cast as tightly as possible to prevent any motion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Leave a small gap in the plaster to allow for swelling. This helps prevent the cast from becoming constrictive as the injured limb swells, reducing the risk of neurovascular compromise and compartment syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+      "title": "00088 fractures-management-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.962Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3601a20a1979fccee82f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a small gap allows for expected post-injury swelling and helps avoid a tight, constrictive cast.",
+    "B": "Incorrect because unnecessary immobilisation of extra joints reduces function and is not the aim of casting.",
+    "C": "Incorrect because the fingers should remain free so movement and neurovascular status can be monitored.",
+    "D": "Incorrect because a broader plaster roll provides better support and strength than a narrow one.",
+    "E": "Incorrect because a cast that is too tight can impair circulation and increase the risk of compartment syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the physiological changes that occur in an injured limb shortly after a fracture.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "88",
+    "lectureTitle": "00088 fractures-management-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "80f95845-31b5-46e0-b1f9-7cd59b54b3e8",
+    "overlapScore": 0.4150943396226415,
+    "questionIndex": 9,
+    "quizFileName": "quiz_088.json",
+    "quizTitle": "Fracture Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "98321e56-9a11-40dd-a47f-af59e92e2b94",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:36.104Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

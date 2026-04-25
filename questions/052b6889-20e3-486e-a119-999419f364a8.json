@@ -1,0 +1,102 @@
+{
+  "id": "052b6889-20e3-486e-a119-999419f364a8",
+  "stem": "A 14-year-old with suspected eosinophilic oesophagitis asks which symptom pattern best fits oesophageal dysfunction rather than a brief immediate allergic reaction. Which option is most consistent with oesophageal dysfunction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chest pain when eating",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Isolated petechiae after a viral illness",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Rapid-onset urticaria only",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Profuse diarrhoea from infectious gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Asymptomatic positive sensitisation test",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chest pain when eating is the correct symptom pattern. This is because chest pain during eating is a feature of oesophageal dysfunction seen in eosinophilic oesophagitis, rather than a brief immediate allergic reaction.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 52,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:56:31.139Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B33-attempt-02-f8c52bc0404a736b219c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because chest pain when eating is a listed symptom of oesophageal dysfunction in eosinophilic oesophagitis.",
+    "B": "Incorrect because petechiae suggest a different diagnostic pathway and are not a symptom of oesophageal dysfunction.",
+    "C": "Incorrect because rapid-onset urticaria is more typical of an immediate IgE-mediated allergic reaction.",
+    "D": "Incorrect because profuse diarrhoea suggests gastroenteritis rather than oesophageal dysfunction.",
+    "E": "Incorrect because a positive sensitisation test without symptoms does not indicate symptomatic oesophageal dysfunction."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B33-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn4qcg0001rjtegfrwy0gb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4d4e6b52-0b13-4399-a344-371248a650b2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B33/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Food allergy and IgE-mediated allergy",
+      "EoE",
+      "symptoms"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:51.403Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "2d526e8b-c4e3-4f90-b233-c4071c86b1ff",
+  "stem": "Which substance is used as the negative control in a standard skin prick test?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Normal saline",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Histamine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A dilute nut mix",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An empty plastic lancet",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sterile water",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Normal saline is the negative control in a standard skin prick test.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+      "title": "00031 Year 3 CAH Allergy a-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.961Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d117ecd79a769f7a2b8b",
+  "rationale": "It should not produce a wheal, so any reaction helps distinguish true allergen sensitivity from skin trauma or nonspecific reactivity.",
+  "optionExplanations": {
+    "A": "Correct because normal saline is the negative control and should not trigger a wheal or flare.",
+    "B": "Incorrect because histamine is the positive control used to confirm that the skin can react appropriately.",
+    "C": "Incorrect because a nut mix is an allergen extract, not a negative control.",
+    "D": "Incorrect because the control in a skin prick test is a liquid, not an empty lancet.",
+    "E": "Incorrect because sterile water is not the standard negative control for skin prick testing."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a neutral substance that should not trigger an immune response.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "31",
+    "lectureTitle": "00031 Year 3 CAH Allergy a-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "428d0787-7d36-40b1-8eb4-6b334ef98e8b",
+    "overlapScore": 0.3780487804878049,
+    "questionIndex": 2,
+    "quizFileName": "quiz_031.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "40c41a73-b27e-4dfa-acd7-d58320f7e14e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:15.666Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

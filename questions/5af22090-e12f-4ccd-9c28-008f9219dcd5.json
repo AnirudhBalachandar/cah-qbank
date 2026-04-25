@@ -1,0 +1,98 @@
+{
+  "id": "5af22090-e12f-4ccd-9c28-008f9219dcd5",
+  "stem": "What condition is indicated by the football sign on a neonatal abdominal X-ray?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Free intraperitoneal gas (pneumoperitoneum)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hypertrophic pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Midgut volvulus with bowel necrosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Severe gastric dilatation due to duodenal atresia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Necrotising enterocolitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Free intraperitoneal gas (pneumoperitoneum) is indicated by the football sign, which reflects a large oval lucency caused by air in the peritoneal cavity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.328Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6c24b83c2734a9d9bcad",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the football sign is the large oval lucency created by free air in the peritoneal cavity, sometimes with the falciform ligament visible as a central line.",
+    "B": "Incorrect because hypertrophic pyloric stenosis is a gastric outlet obstruction diagnosed on ultrasound, not by the football sign on abdominal X-ray.",
+    "C": "Incorrect because midgut volvulus may cause bowel obstruction and ischaemia, but the football sign specifically describes free intraperitoneal air.",
+    "D": "Incorrect because duodenal atresia classically produces a double bubble sign rather than a football sign.",
+    "E": "Incorrect because necrotising enterocolitis can cause pneumatosis intestinalis and, if perforated, free air, but the football sign itself refers to pneumoperitoneum rather than a specific diagnosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This sign is named after the shape of the air collection within the abdominal cavity.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d29c3498-84fb-4169-8478-5dcdf41d0a3c",
+    "overlapScore": 0.4326923076923077,
+    "questionIndex": 3,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:44.019Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

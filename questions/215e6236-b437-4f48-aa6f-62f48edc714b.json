@@ -1,0 +1,102 @@
+{
+  "id": "215e6236-b437-4f48-aa6f-62f48edc714b",
+  "stem": "A school health coordinator sees that teen pregnancy and birth rates have been relatively stable since the 1990s and concludes that sexual health promotion can probably be scaled back because adolescent sexual risk must be falling overall. Which interpretation best fits the notes?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Yes. Stable teen birth rates prove that STI risk is also falling",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Not necessarily. Stable teen births may reflect improved sexual education despite rising STIs",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Yes. Stable teen birth rates mean first sexual experience usually occurs after monogamy is established",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Yes. Stable teen birth rates mean adolescents no longer need protection counselling",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Not necessarily, but only because adolescents are no longer sexually active",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Not necessarily. Stable teen birth rates do not prove that adolescent sexual risk is falling overall, because the notes also describe rising STIs and suggest that improved sexual education may be influencing birth rates.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 128,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T06:40:57.966Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B03-15740209396a3af65f2c",
+  "rationale": "Stable teen birth rates do not mean all sexual health risks are falling. The notes describe rising STI rates despite stable teen births. Population trends need careful interpretation rather than simplistic conclusions.",
+  "optionExplanations": {
+    "A": "Incorrect because stable birth rates do not prove that STI risk is falling.",
+    "B": "Correct because stable teen births may coexist with rising STIs and can reflect improved sexual education rather than reduced overall sexual risk.",
+    "C": "Incorrect because the notes describe an increasing gap between first sexual experience and monogamy, not that monogamy now reliably precedes sexual debut.",
+    "D": "Incorrect because stable birth rates alone do not justify stopping protection counselling.",
+    "E": "Incorrect because the notes do not say adolescents are no longer sexually active."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu8ub740001rj8johkx6fu6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.330316742081448,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f174fdb8-f78b-4359-80ea-6ee93f5e1ac7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-11.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "sexual health trends",
+      "prevention",
+      "interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:53.224Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "f3f096e0-d121-48ba-b1cf-1817df34bb2b",
+  "stem": "A child with diabetic ketoacidosis has marked dehydration and severe circulatory impairment on arrival to the emergency department; what supportive measure is specifically indicated?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Administer supplemental oxygen",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Allow unrestricted oral intake immediately",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Discharge with sick-day advice once ketones are checked",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Avoid all monitoring until venous blood gas results are back",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Prioritise coeliac serology before cardiorespiratory support",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Administer supplemental oxygen. Supplemental oxygen is specifically indicated when a child with diabetic ketoacidosis has severe circulatory impairment or shock, as part of immediate supportive care.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 98,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:36:03.679Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B54-attempt-02-ccd193cef988e55a51fd",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because supplemental oxygen is specifically indicated when severe circulatory impairment or shock is present in diabetic ketoacidosis.",
+    "B": "Incorrect because a child with diabetic ketoacidosis and circulatory compromise should not have unrestricted oral intake immediately.",
+    "C": "Incorrect because this child is acutely unwell and needs emergency management, not discharge.",
+    "D": "Incorrect because monitoring and ABC assessment should proceed immediately rather than waiting for blood gas results.",
+    "E": "Incorrect because coeliac serology is not a priority over urgent cardiorespiratory support in circulatory compromise."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B54-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqoqsz0001rjn6uxwqdtvz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3425414364640884,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4aef6afd-d5bb-4105-a99e-5fc88acd7eef",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B54/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Diabetic ketoacidosis",
+      "supportive care",
+      "circulatory impairment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:57.608Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

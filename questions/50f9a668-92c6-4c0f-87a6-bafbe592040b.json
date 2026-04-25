@@ -1,0 +1,98 @@
+{
+  "id": "50f9a668-92c6-4c0f-87a6-bafbe592040b",
+  "stem": "Which of the following best describes the clinical definition of a birthmark?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A skin lesion that must be present exactly at birth",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An imbalance or preponderance of specific skin components, such as melanocytes or blood vessels",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A temporary skin discoloration caused exclusively by birth trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A growth consisting solely of overactive sweat glands and nerve fibres",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A benign skin infection that develops in early infancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Birthmarks are an imbalance or preponderance of normal skin components such as pigment cells or blood vessels.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.898Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0f2c84d6a0ec253d52ab",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because birthmarks may not be obvious at the moment of birth and can become apparent later.",
+    "B": "Correct because birthmarks are described as an imbalance or preponderance of specific skin components, such as melanocytes or blood vessels.",
+    "C": "Incorrect because birthmarks are structural skin changes, not temporary discolouration caused only by birth trauma.",
+    "D": "Incorrect because birthmarks are not defined as lesions composed solely of sweat glands and nerve fibres.",
+    "E": "Incorrect because birthmarks are not skin infections; they are developmental changes in skin components."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the structural composition of the skin and when these lesions typically appear.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1e5d7b56-5b96-4d41-9a80-5fe04ca2e1a4",
+    "overlapScore": 0.5851063829787234,
+    "questionIndex": 1,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:33.955Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

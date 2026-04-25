@@ -1,0 +1,98 @@
+{
+  "id": "e298090a-003b-4186-af06-00a56f93c0a0",
+  "stem": "What is the primary mechanism of alloimmune neonatal neutropenia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A genetic mutation inherited from both parents that stops neutrophil production",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Maternal antibodies attacking paternal antigens on the infant's neutrophils",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The infant's own immune system attacking its bone marrow",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A toxic reaction to drugs given during labour",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Placental infection causing direct neutrophil destruction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Maternal antibodies against paternal antigens on the infant's neutrophils cause alloimmune neonatal neutropenia and lead to transient neutrophil destruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.119Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ebac8eaa788ba533694e",
+  "rationale": "The key feature is an alloimmune reaction from maternal antibodies directed at paternal antigens inherited by the infant.",
+  "optionExplanations": {
+    "A": "Incorrect because this describes an inherited production defect rather than an immune-mediated neutrophil destruction.",
+    "B": "Correct because maternal antibodies can target paternal antigens on the infant's neutrophils, causing alloimmune destruction.",
+    "C": "Incorrect because alloimmune disease is caused by maternal antibodies, not by the infant's own immune system attacking its marrow.",
+    "D": "Incorrect because drug exposure can cause neutropenia, but it is not the defining mechanism of alloimmune neonatal neutropenia.",
+    "E": "Incorrect because infection may cause neutropenia, but alloimmune neonatal neutropenia is specifically antibody mediated."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the interaction between maternal immune components and inherited paternal markers.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fb1fb4ca-9280-488e-a9e3-59787bc881b2",
+    "overlapScore": 0.5138888888888888,
+    "questionIndex": 3,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:21.663Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

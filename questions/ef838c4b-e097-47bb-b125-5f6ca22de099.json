@@ -1,0 +1,98 @@
+{
+  "id": "ef838c4b-e097-47bb-b125-5f6ca22de099",
+  "stem": "What is the primary conclusion regarding the relationship between exposure to sexual content online and adolescent behaviour?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Exposure clearly causes adolescents to engage in sexual activity at an earlier age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Online sexual content has no measurable impact on adolescent behaviour",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The research is inconclusive about whether exposure causes behaviour or behaviour leads to seeking content",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Online sexual content is the main cause of declining adolescent birth rates",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Exposure only affects adolescents who already have high-risk behaviours",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is that the research is inconclusive. Cross-sectional studies can show associations, but they cannot determine whether exposure leads to behaviour or behaviour leads to seeking content.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+      "title": "00077 Adolescent sexual be-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.865Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3ce152e93b2c479bd36c",
+  "rationale": "Cross-sectional data cannot establish direction of causality, so the observed relationship remains associative rather than causal.",
+  "optionExplanations": {
+    "A": "Incorrect because cross-sectional research cannot prove that exposure directly causes earlier sexual activity.",
+    "B": "Incorrect because the evidence does not support a claim of no measurable impact; it shows associations but not causation.",
+    "C": "Correct because the studies are cross-sectional and can only show associations, not the direction of cause and effect.",
+    "D": "Incorrect because changes in adolescent birth rates are not attributed to online sexual content alone.",
+    "E": "Incorrect because the key issue is the inability to determine causality, not a restriction to adolescents with pre-existing high-risk behaviours."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the limitations of cross-sectional research when trying to determine cause and effect.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "77",
+    "lectureTitle": "00077 Adolescent sexual be-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "874f16cc-3157-49b0-ac75-b8a7316c2377",
+    "overlapScore": 0.4234234234234234,
+    "questionIndex": 9,
+    "quizFileName": "quiz_077.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f494d4be-0233-4212-82ca-25cccbd58d42",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:44.702Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

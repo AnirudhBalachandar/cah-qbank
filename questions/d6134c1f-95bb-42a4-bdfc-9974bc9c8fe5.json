@@ -1,0 +1,102 @@
+{
+  "id": "d6134c1f-95bb-42a4-bdfc-9974bc9c8fe5",
+  "stem": "A 6-year-old has parotid-region swelling; which additional oral structures should be checked on examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Uvula, tonsils, and posterior pharyngeal wall",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hard palate, gingiva, and alveolus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Tongue, floor of mouth, and lower lip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Maxillary frenum, central incisors, and palate",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Buccal sulcus, upper lip, and nasal septum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Uvula, tonsils, and posterior pharyngeal wall are the additional structures to inspect in a child with parotid-region swelling. This completes the oral examination beyond looking at the parotid duct area.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T04:34:55.411Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B07-attempt-03-5dfb1a3d43c2bec48c39",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because these are the additional structures specifically checked as part of the oral examination in parotid-region swelling.",
+    "B": "Incorrect because these structures are not the specific additional areas named for this examination.",
+    "C": "Incorrect because these are not the listed structures to check in parotid-region swelling.",
+    "D": "Incorrect because the frenum and incisors are not the targeted additional examination areas here.",
+    "E": "Incorrect because this combination does not match the structures specified for the assessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B07-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvjs2jn0001rjz9k1qd666o",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B07/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Dental trauma and the medical-dental interface",
+      "dental causes of facial swelling",
+      "oral examination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:55.011Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "707af8c9-ab9d-407c-856f-f3740ffa6e38",
+  "stem": "Which medication has high-level evidence against routine use in children under 12 months with bronchiolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intravenous rehydration fluids",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Supplemental oxygen",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Beta-2 agonists such as salbutamol",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Nasopharyngeal viral swabs",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Oral corticosteroids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Beta-2 agonists such as salbutamol are not recommended routinely for bronchiolitis in infants because the main problem is small-airway oedema and mucus rather than bronchospasm.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+      "title": "00019 Bronchiolitis and Cr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.094Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-da191be2846508c45a22",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because intravenous rehydration fluids may be needed when an infant with bronchiolitis cannot maintain adequate oral intake.",
+    "B": "Incorrect because supplemental oxygen is indicated when bronchiolitis causes hypoxaemia.",
+    "C": "Correct because beta-2 agonists such as salbutamol have high-level evidence against routine use in bronchiolitis in young infants.",
+    "D": "Incorrect because nasopharyngeal viral swabs may help with diagnosis or cohorting and are not the medication being discouraged.",
+    "E": "Incorrect because oral corticosteroids are also not routinely beneficial in uncomplicated bronchiolitis, but this option is not the best answer to the question asked."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about common asthma medications that are often mistakenly prescribed for viral airway inflammation in very young infants.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "19",
+    "lectureTitle": "00019 Bronchiolitis and Cr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c76a6af5-d795-46ba-88f3-3e704a938d24",
+    "overlapScore": 0.4036697247706422,
+    "questionIndex": 7,
+    "quizFileName": "quiz_019.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "803ce9ff-ed81-41dd-8916-47b92839b68a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:22.805Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

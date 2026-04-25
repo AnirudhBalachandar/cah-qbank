@@ -1,0 +1,98 @@
+{
+  "id": "db239ab2-298b-47c8-9987-264c18d3a139",
+  "stem": "In a paediatric sleep study, what apnoea-hypopnoea index (AHI) is typically considered normal?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Less than 1 event per hour",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Between 5 and 10 events per hour",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Exactly 0 events throughout the entire night",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Less than 15 events per hour",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Between 1 and 5 events per hour",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Less than 1 event per hour is the normal paediatric apnoea-hypopnoea index. In children, even small numbers of obstructive events can be clinically significant, so the normal threshold is lower than in adults.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+      "title": "00021 Sleep disorders-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.500Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-363e0f10b61a0c116bd3",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because a paediatric AHI of less than 1 event per hour is typically considered normal.",
+    "B": "Incorrect because 5 to 10 events per hour is abnormal in children and suggests sleep-disordered breathing.",
+    "C": "Incorrect because normal scoring does not require zero events all night; very rare events may still fall within the normal range.",
+    "D": "Incorrect because less than 15 events per hour is far too high for a normal paediatric AHI and would indicate disease.",
+    "E": "Incorrect because 1 to 5 events per hour is above the usual normal range for children and is not considered normal."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The criteria for children are much stricter than those used for adults.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "21",
+    "lectureTitle": "00021 Sleep disorders-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "cc869ed7-2ab4-4811-90c4-ce1694e4896c",
+    "overlapScore": 0.4623655913978494,
+    "questionIndex": 8,
+    "quizFileName": "quiz_021.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b516b8dd-449a-4f65-b9dc-89c25d58f557",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:07.647Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

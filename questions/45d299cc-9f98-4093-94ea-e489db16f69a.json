@@ -1,0 +1,98 @@
+{
+  "id": "45d299cc-9f98-4093-94ea-e489db16f69a",
+  "stem": "What is the leading cause of death for children older than 1 year in the developed world?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Infectious diseases",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Congenital abnormalities",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Injury",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Malignancy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Prematurity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Injury is the leading cause of death for children older than 1 year in the developed world.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.405Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2e0c21e3892460c6f31b",
+  "rationale": "The key concept is the main cause of mortality in children older than 1 year, which is external injury rather than disease or congenital conditions.",
+  "optionExplanations": {
+    "A": "Incorrect because infectious diseases are important causes of childhood illness and death in some settings, but they are not the leading cause in this age group in the developed world.",
+    "B": "Incorrect because congenital abnormalities are a major cause of infant mortality, but they are not the main cause of death after age 1 year.",
+    "C": "Correct because injury is the leading cause of death for children older than 1 year in the developed world.",
+    "D": "Incorrect because malignancy causes significant paediatric morbidity and mortality, but fewer deaths than injury in this age group.",
+    "E": "Incorrect because prematurity is a major cause of death in newborns, not the leading cause of death in children older than 1 year."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the primary focus of the entire presentation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3b12d3b1-b94c-481a-a107-f17124683eb2",
+    "overlapScore": 0.5673076923076923,
+    "questionIndex": 1,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:02.050Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

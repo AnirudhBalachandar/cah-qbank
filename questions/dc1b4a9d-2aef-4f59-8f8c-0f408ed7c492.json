@@ -1,0 +1,98 @@
+{
+  "id": "dc1b4a9d-2aef-4f59-8f8c-0f408ed7c492",
+  "stem": "What sleep hygiene recommendation is specifically suggested for managing the bed environment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Keep the bed as a sleep zone only and avoid other activities there",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Ensure the room is brightly lit in the hour before bedtime",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Engage in vigorous exercise in the bedroom 1 hour before sleep",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use electronic books instead of paper books to wind down",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Use the bed for homework and screen time during the day",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bed-only use is the correct sleep hygiene strategy. Keeping the bed reserved for sleep strengthens the association between the bed and rest, which helps improve sleep onset.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.651Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3c9b5b99c8f6ea44921d",
+  "rationale": "The goal is to create a strong mental association between the bed and sleep so the brain recognises it as a cue for rest.",
+  "optionExplanations": {
+    "A": "Correct because keeping the bed for sleep only strengthens the association between the bed and rest, which can improve sleep onset.",
+    "B": "Incorrect because bright light before bedtime can suppress melatonin and make it harder to fall asleep.",
+    "C": "Incorrect because vigorous exercise close to bedtime can increase arousal and delay sleep.",
+    "D": "Incorrect because electronic books and screens emit light that can interfere with sleep; paper books are generally preferred.",
+    "E": "Incorrect because using the bed for homework or screens weakens the association between the bed and sleep."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This principle is about creating a strong mental association between the bed and rest.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c1ddd177-3937-4a95-801a-baf7f17abf5f",
+    "overlapScore": 0.3979591836734694,
+    "questionIndex": 10,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:08.678Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

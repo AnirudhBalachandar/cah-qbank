@@ -1,0 +1,98 @@
+{
+  "id": "39ecf8ee-a548-43b9-bdfd-0ea5bd61c5c2",
+  "stem": "Which of the following is an immunisation error-related adverse event following immunisation (AEFI)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A coincidental heart attack shortly after vaccination",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Administering a live vaccine to an immunocompromised patient",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Extensive limb swelling after DTP vaccination",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An ulcer at the BCG vaccination site",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Fainting immediately after vaccination",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Immunisation error-related AEFI is the correct concept. It occurs when an adverse event results from a preventable error in vaccine selection, storage, preparation, or administration, such as giving a live vaccine to an immunocompromised patient.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+      "title": "00028 immunisation_adverse-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.452Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f8265be21d5099680ba3",
+  "rationale": "This category refers to harm caused by a mistake in the immunisation process rather than the vaccine itself or an unrelated coincidental event.",
+  "optionExplanations": {
+    "A": "Incorrect because a heart attack occurring after vaccination but not caused by it is a coincidental event.",
+    "B": "Correct because giving a live vaccine to an immunocompromised patient is a preventable administration error involving a contraindication.",
+    "C": "Incorrect because extensive limb swelling after DTP vaccination is a vaccine product-related reaction.",
+    "D": "Incorrect because an ulcer at the BCG site is an expected vaccine-specific local reaction.",
+    "E": "Incorrect because fainting immediately after vaccination is a stress-related or coincidental reaction, not an immunisation error-related AEFI."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on an event caused by a mistake in the decision-making or administration process by the healthcare provider.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "28",
+    "lectureTitle": "00028 immunisation_adverse-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "876d0827-c001-4d41-8686-6d58aedb3cd5",
+    "overlapScore": 0.4328358208955224,
+    "questionIndex": 9,
+    "quizFileName": "quiz_028.json",
+    "quizTitle": "Adverse Events Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cf918a82-1574-470a-a4b0-edd95be5ab28",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:36.246Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

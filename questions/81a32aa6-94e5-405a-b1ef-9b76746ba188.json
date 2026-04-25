@@ -1,0 +1,98 @@
+{
+  "id": "81a32aa6-94e5-405a-b1ef-9b76746ba188",
+  "stem": "In migraine prophylaxis, how does topiramate compare with propranolol?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is more effective but has a higher risk of behaviour disorders",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is less effective and should only be used in girls of childbearing age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is primarily used as a calcium channel blocker",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It has been proven ineffective in well-controlled trials",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is preferred because it has no significant adverse effects",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Topiramate is more effective for migraine prophylaxis than propranolol, but it has a higher risk of behavioural adverse effects.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.253Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-733657708a01c25d5fe9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because topiramate offers better migraine prevention but is associated with behavioural changes and other neuropsychiatric adverse effects.",
+    "B": "Incorrect because this describes neither the comparative effectiveness nor the main safety concern for topiramate in migraine prophylaxis.",
+    "C": "Incorrect because topiramate is an antiepileptic medicine, not a calcium channel blocker.",
+    "D": "Incorrect because topiramate is effective for migraine prevention, although adverse effects limit its use.",
+    "E": "Incorrect because topiramate can cause clinically important adverse effects, including behavioural changes, so it is not free of significant toxicity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the trade-off between higher efficacy and the specific neurological side effects mentioned.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "809655c1-b2ab-470c-9d60-b8996ed9583c",
+    "overlapScore": 0.367816091954023,
+    "questionIndex": 10,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:54.904Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

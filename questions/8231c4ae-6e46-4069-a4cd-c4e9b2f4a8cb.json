@@ -1,0 +1,98 @@
+{
+  "id": "8231c4ae-6e46-4069-a4cd-c4e9b2f4a8cb",
+  "stem": "When examining the tongue for possible squamous cell carcinoma, which areas are most important to inspect?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The dorsal surface and the large papillae at the back",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The lateral borders and the ventral surface",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The tip of the tongue and the midline",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The lingual tonsils at the base of the tongue",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The circumvallate papillae on the posterior dorsum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The lateral borders and ventral surface are the key areas to inspect because early oral squamous cell carcinoma commonly presents there as subtle ulcers, red patches, or white patches.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+      "title": "00082 Oral anatomy video-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.874Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-55ebb9e7c5d932f41107",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the dorsal surface is not the main site where early tongue cancers are most likely to be found.",
+    "B": "Correct because the lateral borders and ventral surface are common sites for early oral squamous cell carcinoma and can show subtle mucosal change.",
+    "C": "Incorrect because the tip and midline are less important than the lateral and inferior surfaces for detecting early lesions.",
+    "D": "Incorrect because lingual tonsils are lymphoid tissue at the tongue base, not the main focus when inspecting for tongue mucosal malignancy.",
+    "E": "Incorrect because the circumvallate papillae are normal posterior dorsal structures and are not the key areas for screening for squamous cell carcinoma."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The examiner used gauze to pull the tongue to the side to see these areas.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "82",
+    "lectureTitle": "00082 Oral anatomy video-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "988dee0f-9aa4-45e1-98bd-125a541f6be1",
+    "overlapScore": 0.3577235772357724,
+    "questionIndex": 7,
+    "quizFileName": "quiz_082.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e862b7d4-09f6-4061-95ee-6fd57899a43e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:56.500Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

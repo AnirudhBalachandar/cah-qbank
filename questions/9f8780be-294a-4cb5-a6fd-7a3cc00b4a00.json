@@ -1,0 +1,98 @@
+{
+  "id": "9f8780be-294a-4cb5-a6fd-7a3cc00b4a00",
+  "stem": "When measuring head circumference, where should the tape be positioned to ensure accuracy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Directly across the middle of the forehead and over the ears",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Just above the ears, aiming for the greatest possible diameter",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Around the base of the neck and the chin",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "From the bridge of the nose to the base of the skull",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Across the temples and the back of the head at eyebrow level",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Head circumference is measured at the greatest occipitofrontal diameter, with the tape placed just above the ears to capture the maximum circumference.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.358Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0812bb189f4faafec837",
+  "rationale": "The goal is to identify the widest horizontal circumference of the skull for consistent monitoring of head growth.",
+  "optionExplanations": {
+    "A": "Incorrect because the tape should not be placed directly across the forehead and over the ears; it should follow the widest head circumference.",
+    "B": "Correct because head circumference is measured at the greatest occipitofrontal diameter, just above the ears, to capture the maximum circumference.",
+    "C": "Incorrect because this would measure the neck and lower face rather than the skull.",
+    "D": "Incorrect because head circumference is a horizontal measurement around the head, not a bridge-of-nose to skull length.",
+    "E": "Incorrect because eyebrow-level placement does not ensure the greatest possible head diameter."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The goal is to find the maximum circumference of the skull.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "49f43026-6698-4d1e-b373-b578a098fada",
+    "overlapScore": 0.3902439024390244,
+    "questionIndex": 3,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:55.966Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

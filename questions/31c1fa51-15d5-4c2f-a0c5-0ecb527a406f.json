@@ -1,0 +1,98 @@
+{
+  "id": "31c1fa51-15d5-4c2f-a0c5-0ecb527a406f",
+  "stem": "What common initial misdiagnosis is seen in nearly 90% of children presenting with their first episode of nephrotic syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Conjunctivitis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Allergy treated with antihistamines",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Heart failure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cellulitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sinusitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Allergy treated with antihistamines is the common initial misdiagnosis, because the periorbital oedema of nephrotic syndrome is often mistaken for an allergic reaction before the renal cause is recognised.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.988Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4164cabc0b55a36b0b1d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because conjunctivitis causes red, irritated eyes rather than isolated periorbital oedema from nephrotic syndrome.",
+    "B": "Correct because the periorbital oedema is frequently mistaken for an allergy, so antihistamines may be given before nephrotic syndrome is recognised.",
+    "C": "Incorrect because heart failure can cause oedema, but it is not the common initial misdiagnosis highlighted here.",
+    "D": "Incorrect because cellulitis is a local skin infection and is not the typical first misdiagnosis for a child with puffy eyes from nephrotic syndrome.",
+    "E": "Incorrect because sinusitis may cause facial discomfort or swelling, but it is not the usual mistaken diagnosis in this presentation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider what parents and doctors might assume if a child wakes up with swollen, puffy eyes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "66983d28-8a8c-408b-8d97-a48b9ebdbbaa",
+    "overlapScore": 0.456140350877193,
+    "questionIndex": 9,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:21.274Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

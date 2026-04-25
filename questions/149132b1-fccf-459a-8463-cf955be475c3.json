@@ -1,0 +1,98 @@
+{
+  "id": "149132b1-fccf-459a-8463-cf955be475c3",
+  "stem": "According to the Salter-Harris classification, a type II injury involves which of the following?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A fracture through the physis and the metaphysis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A fracture isolated to the physis only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A fracture through the physis and the epiphysis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A crush injury to the physis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A fracture through the metaphysis and the epiphysis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Type II Salter-Harris fracture: it involves the physis with extension into the metaphysis and is the most common physeal injury.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.696Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f90fa14ecec5e8d22e9d",
+  "rationale": "Type II fractures pass through the growth plate and into the metaphysis, which distinguishes them from the other Salter-Harris patterns.",
+  "optionExplanations": {
+    "A": "Correct because a type II Salter-Harris injury passes through the physis and extends into the metaphysis.",
+    "B": "Incorrect because an isolated fracture through the physis only is a type I injury.",
+    "C": "Incorrect because a fracture through the physis and epiphysis is a type III injury.",
+    "D": "Incorrect because a crush injury to the physis is a type V injury.",
+    "E": "Incorrect because a fracture involving the metaphysis and epiphysis is not the typical pattern for type II; it is more consistent with injuries that involve the articular surface and physis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This is the most common type of physeal injury and involves the region 'beyond' the growth plate.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "50f9a668-92c6-4c0f-87a6-bafbe592040b",
+    "overlapScore": 0.425531914893617,
+    "questionIndex": 5,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:22.761Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "e7fe9d4d-3730-484f-82ea-db49ad475a25",
+  "stem": "A 6-year-old develops widespread urticaria, facial angioedema, and respiratory difficulty within minutes of eating a suspected allergen. Which statement best fits this presentation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "This is anaphylaxis and requires urgent treatment",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "This cannot be anaphylaxis unless hypotension is also present",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The size of the skin test is the best predictor of reaction severity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Coexistent asthma does not affect reaction severity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Fish reactions are low risk and predictable",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Anaphylaxis is the correct answer. This acute reaction with skin involvement and respiratory difficulty is consistent with anaphylaxis, which requires urgent treatment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 39,
+      "title": "CAH Bible (shared 2025)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:28:46.502Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-03-6d3c3a0a5f9bf4fb7057",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because this presentation has rapid onset, typical skin features, and respiratory involvement, which fits anaphylaxis and needs urgent treatment",
+    "B": "Incorrect because hypotension is not required when typical skin features and respiratory compromise are present",
+    "C": "Incorrect because skin test size predicts the likelihood of reaction, not the severity of future reactions",
+    "D": "Incorrect because asthma can be a factor associated with more severe reactions",
+    "E": "Incorrect because fish allergy can be clinically significant and reactions are not simply low risk and predictable"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B24-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm51xe0001rj7gll7rgfef",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3238636363636364,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c879b84e-1183-416b-890e-db483355d40b",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "anaphylaxis",
+      "upper-airway differentials"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:34.453Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

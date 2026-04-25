@@ -1,0 +1,98 @@
+{
+  "id": "5128df66-2560-4e91-aaa7-14c31b2bced3",
+  "stem": "What is the maximum recommended daily duration for patching the stronger eye to treat amblyopia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "6 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "12 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "1 hour",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "2 hours",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "6 hours is the maximum recommended daily patching duration for treating amblyopia in this setting.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+      "title": "00039 common-eye-problems--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.219Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8d3ab446b675baa6b506",
+  "rationale": "The PEDIG studies showed that 6 hours of patching is as effective as all-day occlusion, so longer daily patching is unnecessary.",
+  "optionExplanations": {
+    "A": "Correct because 6 hours of patching is as effective as all-day occlusion for amblyopia treatment.",
+    "B": "Incorrect because 12 hours exceeds the evidence-based maximum daily duration and offers no added benefit over 6 hours.",
+    "C": "Incorrect because continuous occlusion is not required and does not improve outcomes beyond shorter effective patching periods.",
+    "D": "Incorrect because 1 hour is below the recommended daily duration and is not the studied effective regimen.",
+    "E": "Incorrect because 2 hours may be used in some contexts, but it is not the maximum recommended duration in this question's setting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The study found that all-day occlusion offered no extra benefit over this specific number of hours.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "39",
+    "lectureTitle": "00039 common-eye-problems--s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "df18a3dc-a463-4dd4-be26-ce7857ec3626",
+    "overlapScore": 0.6349206349206349,
+    "questionIndex": 4,
+    "quizFileName": "quiz_039.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e2564b9-536b-41e0-a22e-fe2dc187c45a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:32.355Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

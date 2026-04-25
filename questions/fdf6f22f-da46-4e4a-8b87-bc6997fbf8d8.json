@@ -1,0 +1,98 @@
+{
+  "id": "fdf6f22f-da46-4e4a-8b87-bc6997fbf8d8",
+  "stem": "What does the abbreviation PECS stand for in the context of supporting non-verbal communication?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Parental Emotional Communication Support",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Picture Exchange Communication System",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Primary Early Childhood Screening",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Physical Exercise and Coordination Skills",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Proactive Expressive Communication Strategy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Picture Exchange Communication System is the correct expansion of PECS and refers to a visual communication method used to support children with limited or no speech.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+      "title": "00054 Autism Spectrum Diso-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.531Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ce7a85bd682c1d673dcd",
+  "rationale": "It allows the child to communicate needs by selecting or handing over pictures representing desired items or actions.",
+  "optionExplanations": {
+    "A": "Incorrect because PECS refers to a picture-based communication method, not parental emotional support.",
+    "B": "Correct because PECS stands for Picture Exchange Communication System, a visual communication method for children with limited speech.",
+    "C": "Incorrect because PECS is not a screening tool; it is an augmentative communication system.",
+    "D": "Incorrect because PECS is not a physical exercise or coordination program.",
+    "E": "Incorrect because PECS does not stand for this phrase and is not a generic expressive communication strategy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "094431f4-4fc9-4943-95b2-7581b1aa0b9f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It involves a child giving or pointing to an image to indicate what they want.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "54",
+    "lectureTitle": "00054 Autism Spectrum Diso-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7b669daf-32b0-40c0-9a28-4d276c81d875",
+    "overlapScore": 0.3647058823529412,
+    "questionIndex": 8,
+    "quizFileName": "quiz_054.json",
+    "quizTitle": "Autism Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b26cd104-16f2-4ec7-9fcd-376ca6baec54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:21.632Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

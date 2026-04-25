@@ -1,0 +1,98 @@
+{
+  "id": "4c693c1a-e713-488e-95d9-c8c27cf16fba",
+  "stem": "What is a notable limitation of the Bayley Scales of Infant and Toddler Development?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can only be used for children up to 42 months of age",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It does not separate expressive and receptive language scales",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It can only be administered by medical practitioners",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is used primarily for children aged 4 to 5 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is designed only for adolescents",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Bayley Scales of Infant and Toddler Development are limited to use up to 42 months of age, so they cannot be applied beyond that developmental window.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.734Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-aab680d1460433640807",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the Bayley Scales have a ceiling of 42 months, or 3.5 years, after which they are no longer used.",
+    "B": "Incorrect because the Bayley does separate different developmental domains, including language-related skills.",
+    "C": "Incorrect because developmental assessment tools are not limited to medical practitioners and may be used by trained health professionals.",
+    "D": "Incorrect because the Bayley is for infants and toddlers, not for children aged 4 to 5 years.",
+    "E": "Incorrect because the Bayley is not an adolescent assessment tool; it is designed for early childhood."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific chronological age limit mentioned for this neonatal follow-up tool.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b4cc106a-16ee-4ab0-8bbd-c7fff35898ca",
+    "overlapScore": 0.3786407766990291,
+    "questionIndex": 3,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:21.625Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

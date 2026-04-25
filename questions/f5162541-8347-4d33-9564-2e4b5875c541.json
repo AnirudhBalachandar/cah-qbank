@@ -1,0 +1,102 @@
+{
+  "id": "f5162541-8347-4d33-9564-2e4b5875c541",
+  "stem": "At a routine 12-month review, which fluids are encouraged as the primary intake for a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Formula and fruit juice",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Water and cow’s milk",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Electrolyte solution and water",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cow’s milk only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Breast milk and fruit juice",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Water and cow’s milk are encouraged as the primary fluids from 12 months of age.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 12,
+      "title": "Page 12"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:03:23.371Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-02-acc265002d0c6bd1c75b",
+  "rationale": "This reflects the usual transition from infant feeding to a toddler diet at 12 months, with water and cow’s milk as the main drinks.",
+  "optionExplanations": {
+    "A": "Incorrect because formula and fruit juice are not the recommended primary fluids at 12 months.",
+    "B": "Correct because water and cow’s milk are encouraged as the primary intake from 12 months of age.",
+    "C": "Incorrect because electrolyte solution is reserved for specific clinical situations rather than routine intake.",
+    "D": "Incorrect because cow’s milk alone omits water, which should also be part of the primary fluid intake.",
+    "E": "Incorrect because breast milk and fruit juice are not the preferred primary fluid pattern at 12 months."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B32-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpiq680001rjfo5w8i5bg4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3374233128834356,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "48f05303-f14f-47e3-a766-b758c5a2b7ca",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "follow-up",
+      "infant feeding"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:03.346Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

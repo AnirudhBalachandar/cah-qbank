@@ -1,0 +1,98 @@
+{
+  "id": "bb1072ba-c9f1-43e5-b11c-7e09928c4c5c",
+  "stem": "For a child aged 6 years or older presenting to hospital with severe asthma, what is the appropriate dose of ipratropium bromide (Atrovent)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "8 puffs",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "10 puffs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ipratropium bromide is given as 8 puffs for children aged 6 years or older with severe asthma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.473Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b3f193935c4eae6148b3",
+  "rationale": "The dose is age based, with the older paediatric group receiving the higher inhaled dose in acute severe asthma.",
+  "optionExplanations": {
+    "A": "Incorrect because 2 puffs is below the recommended acute dose for children aged 6 years or older.",
+    "B": "Incorrect because 4 puffs is the lower age-group dose, not the dose for children aged 6 years or older.",
+    "C": "Incorrect because 6 puffs is not the recommended age-based dose for severe asthma in this group.",
+    "D": "Correct because ipratropium bromide is dosed at 8 puffs for children aged 6 years or older with severe asthma.",
+    "E": "Incorrect because 10 puffs exceeds the recommended dose for this age group."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Older children receive exactly twice the number of puffs as the younger age bracket for this specific anticholinergic.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "70b4b411-fb0b-4720-b7d3-3ca91637cfd0",
+    "overlapScore": 0.448,
+    "questionIndex": 3,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:51.189Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

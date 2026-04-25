@@ -1,0 +1,102 @@
+{
+  "id": "b4704cf4-eec0-4578-bc79-2beabd29fcf8",
+  "stem": "A child with known or suspected malignancy develops acute urinary and bowel dysfunction with new lower-limb symptoms; what is the most urgent next investigation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Urgent MRI of the spine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Lumbar puncture before imaging",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Urine HVA/VMA testing",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "MRI of the brain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Watchful waiting with delayed CT",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Urgent MRI of the spine is the correct next investigation because this presentation is concerning for spinal cord compression, which is a neurological emergency.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 121,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:59:26.555Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B66-attempt-01-a61cfa24fe57e18a1a09",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because acute urinary or bowel dysfunction with new lower-limb symptoms in a child with known or suspected malignancy suggests spinal cord compression, and urgent spinal MRI is the key investigation.",
+    "B": "Incorrect because lumbar puncture does not assess the spinal cord emergency described and should not delay urgent imaging.",
+    "C": "Incorrect because urine HVA/VMA may support a diagnosis such as neuroblastoma, but it does not replace urgent imaging for suspected cord compression.",
+    "D": "Incorrect because MRI of the brain does not evaluate the spinal pathology causing urinary, bowel, and lower-limb symptoms.",
+    "E": "Incorrect because suspected spinal cord compression requires urgent imaging rather than observation or delayed CT."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B66-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrit9a0001rjgcyu9cmssf",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3358208955223881,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B66/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Oncological emergencies",
+      "spinal cord compression",
+      "prioritisation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:40.129Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

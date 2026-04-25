@@ -1,0 +1,98 @@
+{
+  "id": "c77b0186-1e98-4efb-a747-435b4c5ddea6",
+  "stem": "On physical examination, which hip position is typically seen in slipped upper femoral epiphysis (SCFE)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A fixed external rotation deformity",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hyperflexion of the hip",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Easy internal rotation of the hip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Total paralysis of the lower limb",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Excessive hip abduction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A fixed external rotation deformity is the typical examination finding in SCFE and contributes to the out-toeing gait.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.710Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ec281b37d64e4100a32f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because SCFE commonly presents with the affected leg held in external rotation and limited internal rotation.",
+    "B": "Incorrect because SCFE restricts movement rather than causing hyperflexion.",
+    "C": "Incorrect because internal rotation is usually reduced and painful in SCFE.",
+    "D": "Incorrect because SCFE is a mechanical hip disorder and does not cause paralysis.",
+    "E": "Incorrect because excessive hip abduction is not the characteristic posture seen in SCFE."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the direction the leg naturally turns when the femoral head slips posteriorly.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "12733798-ab35-442f-be78-f4b01b97b191",
+    "overlapScore": 0.390625,
+    "questionIndex": 10,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:23.787Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

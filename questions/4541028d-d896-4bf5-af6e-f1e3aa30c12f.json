@@ -1,0 +1,101 @@
+{
+  "id": "4541028d-d896-4bf5-af6e-f1e3aa30c12f",
+  "stem": "Which additional overnight contributor is noted in some children with nocturnal enuresis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Nocturnal polyuria",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Recurrent nocturnal wheeze",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Night-time constipation only",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypercalcaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sleepwalking due to reflux",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nocturnal polyuria is an additional overnight contributor in some children with nocturnal enuresis, alongside impaired cortical arousal and reduced bladder capacity.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 26,
+      "title": "Nocturnal enuresis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:27:00.268Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B20-attempt-01-a412e6bacadc3b26cb44",
+  "rationale": "The concept being tested is an additional nocturnal mechanism associated with enuresis.",
+  "optionExplanations": {
+    "A": "Correct because nocturnal polyuria is noted as an additional overnight contributor in some children with nocturnal enuresis.",
+    "B": "Incorrect because recurrent nocturnal wheeze is not a recognised contributor to nocturnal enuresis in this context.",
+    "C": "Incorrect because constipation may be relevant to bladder symptoms, but night-time constipation only is not the listed overnight contributor here.",
+    "D": "Incorrect because hypercalcaemia is not described as a cause of nocturnal enuresis in this question.",
+    "E": "Incorrect because sleepwalking due to reflux is not a recognised mechanism for nocturnal enuresis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B20-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm2rxj0001rjhden31dzyq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.297029702970297,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "cfb5ba8f-b8b7-4dbb-afd3-1d8d9eeed421",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B20/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Common paediatric primary-care presentations",
+      "nocturnal enuresis"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:01.064Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "293237ee-6201-485a-bc40-82c397a6d25d",
+  "stem": "What is the main aim of the 'One Voice' approach in a procedure room?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To prevent the child from feeling overwhelmed by multiple people talking at once",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To ensure that only the most senior medical professional is allowed to speak",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To eliminate the need for distraction techniques during the clinical task",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To discourage parents from interacting with their children during the procedure",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To limit communication between staff for the whole procedure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "One voice reduces noise and confusion by having a single person coach the child, which helps the child feel calmer and less overwhelmed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+      "title": "00041 Year 3 CAH Pain Mana-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.581Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c8993804f9eda073964f",
+  "rationale": "The key idea is to simplify communication around the child so the environment feels calmer and more predictable.",
+  "optionExplanations": {
+    "A": "Correct because using one designated voice reduces competing messages, noise, and confusion for the child.",
+    "B": "Incorrect because the speaker does not have to be the most senior clinician; it is about clear communication, not hierarchy.",
+    "C": "Incorrect because distraction techniques can still be used and are often guided by the single voice.",
+    "D": "Incorrect because parents may still be involved; the aim is to reduce overload, not exclude them.",
+    "E": "Incorrect because the approach limits multiple voices directed at the child, not all communication between staff."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the effect of a small room filled with many staff members all trying to be helpful at once.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "41",
+    "lectureTitle": "00041 Year 3 CAH Pain Mana-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3680bd2b-8d67-4ab1-9a3e-ce6f357729f6",
+    "overlapScore": 0.5,
+    "questionIndex": 4,
+    "quizFileName": "quiz_041.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a26757ea-8f3b-4239-a98c-14012d648256",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:10.171Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

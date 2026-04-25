@@ -1,0 +1,98 @@
+{
+  "id": "42e86ac4-c317-4d8c-99a6-aa7cc9dee1d4",
+  "stem": "During examination of a scrotal swelling, you can get above the mass and it transilluminates brilliantly; what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inguinal hernia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Hydrocele",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Testicular torsion",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Varicocele",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Epididymal cyst",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hydrocele is the most likely diagnosis. It is a fluid-filled scrotal swelling that transilluminates and is usually separate from the inguinal canal, so you can often get above it on examination.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.661Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f70835f2df23f57e5a0c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because an inguinal hernia usually extends through the inguinal canal, so you cannot get above the swelling, and it does not typically transilluminate brilliantly",
+    "B": "Correct because a hydrocele is a fluid-filled scrotal swelling that transilluminates well and is usually confined to the scrotum, allowing you to get above it",
+    "C": "Incorrect because testicular torsion typically presents with acute pain, a high-riding testis, and systemic distress rather than a painless transilluminating swelling",
+    "D": "Incorrect because a varicocele feels like a bag of worms and does not usually transilluminate",
+    "E": "Incorrect because an epididymal cyst is a separate benign cystic lesion, but the classic finding of being able to get above the swelling with brilliant transillumination most strongly suggests a hydrocele"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the diagnostic value of the pen torch test.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e8eb6911-c30f-4898-93ac-fbab10ef2f33",
+    "overlapScore": 0.3969465648854962,
+    "questionIndex": 2,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:53.648Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

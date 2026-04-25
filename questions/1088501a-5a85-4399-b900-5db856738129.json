@@ -1,0 +1,102 @@
+{
+  "id": "1088501a-5a85-4399-b900-5db856738129",
+  "stem": "In a 9-month-old with an acute lower-airway illness who has marked recession, nasal flaring and accessory muscle use, these findings are best classified as what?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Work of breathing",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Efficacy of breathing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Effect of breathing difficulty",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Circulatory compromise",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Exposure findings",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Work of breathing is the correct classification. This is because recession, nasal flaring and accessory muscle use are signs that the child is working harder to breathe, rather than measures of oxygenation or circulation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 5,
+      "title": "Breathing difficulty assessment"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:40:32.362Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-02-f90013335310cd4d4463",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because recession, nasal flaring and accessory muscle use are classic signs of increased work of breathing.",
+    "B": "Incorrect because efficacy of breathing refers to oxygenation or ventilation measures such as SpO2, not visible effort.",
+    "C": "Incorrect because effect of breathing difficulty refers to the child’s overall physiological impact, such as drowsiness or pallor.",
+    "D": "Incorrect because circulatory compromise is assessed with findings such as heart rate, capillary refill, pulses, pallor and hypotension.",
+    "E": "Incorrect because exposure findings relate to skin, trauma and temperature-related observations, not respiratory effort."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B25-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmk6ju0001rjo8xzaebknk",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3245614035087719,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d10085eb-90d7-4eff-86d2-5bf1b2c196c5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "work of breathing",
+      "severity assessment"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:15.746Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

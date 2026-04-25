@@ -1,0 +1,102 @@
+{
+  "id": "c34402a5-c75c-42ee-833c-ddca9b95f2a1",
+  "stem": "A 10 kg toddler with gastroenteritis has no documented premorbid weight and is estimated to be 5% dehydrated; what is the calculated fluid deficit using the alternative formula?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "50 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "100 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "500 mL",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "1,000 mL",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5,000 mL",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is 500 mL. Using the alternative formula, fluid deficit (mL) = weight (kg) × % dehydration × 10, so 10 × 5 × 10 = 500 mL.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 145,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:41:18.250Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B30-attempt-01-d4f7d2cc023eb561be09",
+  "rationale": "The alternative formula is used when premorbid weight is unavailable, with dehydration percentage entered as a whole number.",
+  "optionExplanations": {
+    "A": "Incorrect because 50 mL is far below the calculated deficit for a 10 kg child with 5% dehydration.",
+    "B": "Incorrect because 100 mL underestimates the deficit; the correct calculation is 500 mL.",
+    "C": "Correct because 10 × 5 × 10 = 500 mL using the alternative formula.",
+    "D": "Incorrect because 1,000 mL is double the correct deficit.",
+    "E": "Incorrect because 5,000 mL is ten times too large for a 10 kg child at 5% dehydration."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B30-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwml5ze0001rjct7unreoni",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3424657534246575,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B30/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Gastroenteritis and rehydration reasoning",
+      "dehydration",
+      "calculation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:10.546Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

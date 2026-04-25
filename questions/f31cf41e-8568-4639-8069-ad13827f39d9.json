@@ -1,0 +1,98 @@
+{
+  "id": "f31cf41e-8568-4639-8069-ad13827f39d9",
+  "stem": "Why is blood pressure measurement essential in a child with unexplained altered consciousness?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To rule out cyclical vomiting syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To screen for vitamin B6 deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To identify hypertensive encephalopathy",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To check for leukaemic infiltration",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To assess for dehydration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypertensive encephalopathy is the key concern, because severe hypertension can cause altered consciousness, seizures, and other signs of brain dysfunction in children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+      "title": "00071 Neurology - what not-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.727Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d02d068c1a33b90222d3",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because cyclical vomiting syndrome causes recurrent vomiting episodes, not unexplained altered consciousness that is investigated with blood pressure measurement.",
+    "B": "Incorrect because vitamin B6 deficiency is not identified by measuring blood pressure; it is considered in metabolic and nutritional assessment.",
+    "C": "Correct because severe hypertension can cause hypertensive encephalopathy, which may present with altered consciousness and seizures in children.",
+    "D": "Incorrect because leukaemic infiltration is assessed with blood tests and other investigations, not specifically by blood pressure measurement.",
+    "E": "Incorrect because dehydration may affect vital signs, but the purpose of measuring blood pressure here is to identify hypertensive encephalopathy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how cardiovascular vitals can directly impact brain function and sensorium.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "71",
+    "lectureTitle": "00071 Neurology - what not-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e44bd245-c389-4d3c-ae02-ff57805bae1d",
+    "overlapScore": 0.3826086956521739,
+    "questionIndex": 7,
+    "quizFileName": "quiz_071.json",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e57d3ca2-20dc-4d28-b7fd-7ab669303461",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:54.219Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

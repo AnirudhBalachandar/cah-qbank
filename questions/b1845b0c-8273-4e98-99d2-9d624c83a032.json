@@ -1,0 +1,98 @@
+{
+  "id": "b1845b0c-8273-4e98-99d2-9d624c83a032",
+  "stem": "How is sleep defined as a behavioural state?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A permanent state of unconsciousness allowing metabolic rest",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A reversible state of decreased responsiveness and interaction with the environment",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A period of complete physiological inactivity and brain rest",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A psychological state used solely for consolidating long-term memories",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A state of heightened alertness with increased environmental responsiveness",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A reversible state of decreased responsiveness and interaction with the environment is the correct definition of sleep.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.153Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fd16d11142d73569d6cb",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because sleep is reversible, not a permanent state of unconsciousness, and it does not simply represent metabolic rest.",
+    "B": "Correct because sleep is defined as a reversible state with reduced responsiveness to, and interaction with, the environment.",
+    "C": "Incorrect because sleep is not a state of complete physiological or brain inactivity; it involves ongoing biological activity.",
+    "D": "Incorrect because sleep has multiple functions and is defined by behavioural responsiveness, not solely by memory consolidation.",
+    "E": "Incorrect because sleep is marked by reduced, not increased, responsiveness to the environment."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the key characteristics of how a person interacts with their surroundings during this state.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d7bfc752-3663-41e4-8555-21d582088c13",
+    "overlapScore": 0.4871794871794872,
+    "questionIndex": 1,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:32.369Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

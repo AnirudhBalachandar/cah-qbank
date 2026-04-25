@@ -1,0 +1,98 @@
+{
+  "id": "fff7d92f-9f5b-4984-b491-30e004479e10",
+  "stem": "What is the primary mechanism of action of hypertonic saline in cystic fibrosis treatment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It draws water into the airway to thin out secretions",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It kills bacteria directly by dehydrating them",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It acts as a corrector for CFTR protein folding",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It selectively cleaves DNA in sputum to reduce viscosity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It stimulates surfactant production to improve airway clearance",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypertonic saline works by creating an osmotic gradient that draws water into the airway surface liquid, helping to thin mucus and make it easier to clear.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.730Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5b6028a330314aa3a831",
+  "rationale": "It uses osmosis to hydrate airway secretions rather than treating the underlying CFTR defect.",
+  "optionExplanations": {
+    "A": "Correct because it creates an osmotic gradient that pulls water into the mucus, thinning secretions and improving expectoration.",
+    "B": "Incorrect because hypertonic saline is not used as an antibiotic and does not kill bacteria directly.",
+    "C": "Incorrect because CFTR correctors target the underlying protein folding defect, not mucus hydration.",
+    "D": "Incorrect because this describes dornase alfa, which breaks down extracellular DNA in sputum.",
+    "E": "Incorrect because hypertonic saline does not primarily work by increasing surfactant production."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how salt affects the movement of water across a surface.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "14c80c11-bffb-49bc-8dba-34952a82732b",
+    "overlapScore": 0.4266666666666667,
+    "questionIndex": 8,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:27.271Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

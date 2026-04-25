@@ -1,0 +1,101 @@
+{
+  "id": "17a34c39-9cf8-440e-8a9e-41479b966c7e",
+  "stem": "Which vaccine is associated with a firm lump at the injection site after immunisation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "BCG",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "MMR",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Varicella-zoster vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "DTPa",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hepatitis B vaccine",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Hepatitis B vaccine is the correct answer because it is associated with a lump at the injection site.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 48,
+      "title": "Vaccine specific AEFIs"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:05:38.131Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B37-attempt-02-29848dd2ceb70fe250c1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because BCG is associated with an ulcer at the injection site rather than a lump.",
+    "B": "Incorrect because MMR is associated with a delayed systemic reaction pattern rather than a local lump.",
+    "C": "Incorrect because varicella-zoster vaccine is associated with a mild pustular rash at the injection site.",
+    "D": "Incorrect because DTPa is associated with extensive limb swelling, not a simple injection-site lump.",
+    "E": "Correct because hepatitis B vaccine is associated with a lump at the injection site."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B37-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwngg7u0001rj120i9wcwsa",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3282442748091603,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "2bce10cd-fca5-4112-a843-933acc8f13e2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B37/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Immunisation principles and AEFI",
+      "vaccine-specific AEFI"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:28.801Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

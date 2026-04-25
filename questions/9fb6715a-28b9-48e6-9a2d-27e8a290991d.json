@@ -1,0 +1,98 @@
+{
+  "id": "9fb6715a-28b9-48e6-9a2d-27e8a290991d",
+  "stem": "A 2-year-old child presents with isolated anaemia after a recent viral infection, and bone marrow studies show temporary cessation of red blood cell production with expected spontaneous recovery. What is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Transient erythroblastopenia of childhood",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Diamond-Blackfan anaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Leukaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Erythropoietin deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Iron deficiency anaemia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Transient erythroblastopenia of childhood is the correct diagnosis because it is an acquired, temporary suppression of red cell production in a young child, often following a viral illness, with later spontaneous recovery.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+      "title": "00062 TK Haematology_Red b-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.798Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4940c66430b04b1fd58c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because transient erythroblastopenia of childhood is an acquired, transient arrest of erythropoiesis, often seen after a viral infection, and it typically resolves spontaneously.",
+    "B": "Incorrect because Diamond-Blackfan anaemia is a congenital red cell aplasia that presents earlier in infancy and does not usually recover spontaneously.",
+    "C": "Incorrect because leukaemia more often causes marrow infiltration with additional blood cell line abnormalities, not isolated transient red cell suppression.",
+    "D": "Incorrect because erythropoietin deficiency is usually related to chronic kidney disease rather than a post-viral temporary marrow arrest.",
+    "E": "Incorrect because iron deficiency anaemia causes reduced haemoglobin production, not a temporary cessation of red blood cell production in the marrow."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the term used for a temporary, acquired cessation of red cell production in the bone marrow.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "62",
+    "lectureTitle": "00062 TK Haematology_Red b-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "85f29111-fe7b-4633-8c81-7a1502bba9e2",
+    "overlapScore": 0.4081632653061225,
+    "questionIndex": 3,
+    "quizFileName": "quiz_062.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bd5904a3-c1dc-4487-8b94-985662f8fe69",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:54.954Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

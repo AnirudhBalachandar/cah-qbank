@@ -1,0 +1,66 @@
+{
+  "sequence": 27,
+  "id": "33d0b364-ac4f-4932-ba41-05e71626a3f7",
+  "sourcePath": "questions/33d0b364-ac4f-4932-ba41-05e71626a3f7.json",
+  "issueSummary": {
+    "correctOptionCount": 0,
+    "optionCount": 3,
+    "missingExplanation": true,
+    "missingCitations": true,
+    "missingTags": true,
+    "unclassified": true
+  },
+  "originalQuestion": {
+    "id": "33d0b364-ac4f-4932-ba41-05e71626a3f7",
+    "stem": "Question was either... what’s the percentage who test positive for the disease who actually have the disease (PPV)? OR was what’s the probability that the pt will have a +ve test result if they have the disease (sensitivity)?",
+    "questionType": "SBA",
+    "options": [
+      {
+        "key": "A",
+        "text": "sensitivity",
+        "isCorrect": null
+      },
+      {
+        "key": "B",
+        "text": "specificity",
+        "isCorrect": null
+      },
+      {
+        "key": "C",
+        "text": "positive predictive value",
+        "isCorrect": null
+      }
+    ],
+    "explanation": null,
+    "citations": [],
+    "tags": [],
+    "curriculum": "Unclassified",
+    "status": "published",
+    "createdBy": "import",
+    "createdAt": "2026-03-16T02:10:05.606Z",
+    "sourceFingerprint": "b0febdef2d86781a20cc3152",
+    "rationale": null,
+    "optionExplanations": {},
+    "moduleCode": "CAH 00",
+    "difficulty": null,
+    "ausScore": null,
+    "source": {
+      "file": "import_source/questions/Paeds/Past Questions/Paeds exam MCQs.docx",
+      "importedAt": "2026-03-16T02:22:40.702Z",
+      "moduleInference": {
+        "modules": [
+          "CAH 00"
+        ],
+        "primary": "CAH 00",
+        "scores": {}
+      },
+      "originalQNumber": "12",
+      "parseNotes": [
+        "html-fallback"
+      ],
+      "stemHash": "ac590bccd01697d0e540"
+    }
+  },
+  "fixedQuestion": null,
+  "repairAudit": null
+}

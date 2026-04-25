@@ -1,0 +1,98 @@
+{
+  "id": "3e806118-8f41-48b9-bfca-d8e31dbba8ee",
+  "stem": "In a neonate aged under 3 weeks, which combination of findings should raise strong suspicion for herpes simplex virus infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Honey-coloured crusting around the mouth and nose",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fever, vesicular rash, abnormal CSF findings, and seizures",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Lacy macular rash on the extremities after a mild fever",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High fever for 3 days that resolves as a rash appears",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Parotid swelling with bilateral conjunctivitis and cough",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fever, vesicular rash, abnormal CSF findings, and seizures suggest neonatal herpes simplex virus infection, including possible central nervous system involvement.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.470Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4e06890ba1ae115a0169",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because honey-coloured crusting is typical of impetigo, not neonatal herpes simplex virus infection.",
+    "B": "Correct because neonatal herpes simplex virus infection can present with fever, vesicular lesions, seizures, and abnormal cerebrospinal fluid findings indicating CNS involvement.",
+    "C": "Incorrect because a lacy macular rash after a mild fever is more consistent with parvovirus B19 infection.",
+    "D": "Incorrect because fever that resolves when a rash appears is the classic pattern of roseola infantum.",
+    "E": "Incorrect because parotid swelling with conjunctivitis and cough is more suggestive of mumps or another viral respiratory illness, not neonatal HSV."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for signs that involve both the skin surface (blisters) and the central nervous system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3c529ff9-ca98-42da-9100-49988653e825",
+    "overlapScore": 0.3931034482758621,
+    "questionIndex": 5,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:46.527Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

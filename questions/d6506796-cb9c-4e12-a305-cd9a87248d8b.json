@@ -1,0 +1,98 @@
+{
+  "id": "d6506796-cb9c-4e12-a305-cd9a87248d8b",
+  "stem": "A 6-year-old child with eczema and asthma has itchy red eyes with a ropey white discharge; which clinical sign suggests vernal conjunctivitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Giant cobblestone papillae on the inner conjunctiva",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Small vesicles and bullae on the eyelids",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sudden purulent discharge that sticks the lids together",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Enlarged submandibular lymph nodes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pseudomembrane formation on the conjunctiva",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vernal conjunctivitis is suggested by giant cobblestone papillae on the inner conjunctiva, often with a thick ropey discharge.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.884Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7a41aeb0285c07c21fa0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because giant cobblestone papillae on the tarsal conjunctiva are a classic sign of vernal conjunctivitis.",
+    "B": "Incorrect because eyelid vesicles and bullae suggest a vesicular viral process such as herpes simplex rather than allergic conjunctivitis.",
+    "C": "Incorrect because a sudden purulent discharge is more consistent with bacterial conjunctivitis than vernal conjunctivitis.",
+    "D": "Incorrect because enlarged submandibular lymph nodes are more typical of viral conjunctivitis, not vernal conjunctivitis.",
+    "E": "Incorrect because pseudomembranes are not a typical feature of vernal conjunctivitis and are seen in more severe infectious or inflammatory conjunctival disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a term that describes a specific texture on the inner surface of the eyelid.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5dc1cb04-e3c3-42f4-9e99-90d3f647d6bb",
+    "overlapScore": 0.4596273291925466,
+    "questionIndex": 8,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:56.256Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

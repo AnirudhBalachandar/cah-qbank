@@ -1,0 +1,102 @@
+{
+  "id": "439fb260-1dcb-4434-b12e-90288ba4e4b0",
+  "stem": "A 7-year-old child has a full blood count showing a markedly raised lymphocyte count with anaemia and thrombocytopaenia; what is the most appropriate next step to clarify the white cell finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Request a blood film review",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Assume this is reactive lymphocytosis and discharge",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Repeat the analyser later without any further review",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Order an ultrasound as the first investigation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Interpret the result as isolated monocytosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Request a blood film review. This is because a markedly raised analyser-reported lymphocyte count with anaemia and thrombocytopaenia can represent leukaemic blasts, and a blood film is needed to clarify the white cell population.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 108,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:43:07.009Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B58-attempt-01-f5b8d39c818b479527d8",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because a blood film can identify blasts or other abnormal cells that may be misclassified by the analyser as lymphocytes.",
+    "B": "Incorrect because this pattern is not safely dismissed as reactive when anaemia and thrombocytopaenia are also present.",
+    "C": "Incorrect because repeating the analyser does not clarify whether the counted cells are true lymphocytes or blasts.",
+    "D": "Incorrect because ultrasound does not determine the nature of the abnormal white cell count.",
+    "E": "Incorrect because monocytosis is a different pattern and does not explain a markedly raised lymphocyte count with cytopenias."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B58-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqxtg80001rj7g0gwc4f1l",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3393665158371041,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c3630b73-aca3-48cc-9dda-302792b81142",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B58/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "White blood cell disorders",
+      "investigation",
+      "interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:56.608Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

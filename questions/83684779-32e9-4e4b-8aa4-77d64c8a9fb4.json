@@ -1,0 +1,102 @@
+{
+  "id": "83684779-32e9-4e4b-8aa4-77d64c8a9fb4",
+  "stem": "Which feature in an 18-month-old with constipation should raise concern for an organic cause rather than straightforward functional constipation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Picky eating",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Delayed passage of meconium beyond 48 hours after birth",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Occasional stool withholding while playing",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Recent preschool transition",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A preference for milk over water",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Delayed passage of meconium beyond 48 hours after birth is a red flag for possible organic constipation. In a child with constipation, this should prompt assessment for an underlying cause rather than assuming simple functional constipation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 25,
+      "title": "Constipation"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:29:55.285Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B20-attempt-02-10bd47b1339ce6cb6b30",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because picky eating is not a red flag for organic constipation.",
+    "B": "Correct because delayed passage of meconium beyond 48 hours after birth is a recognised red flag suggesting possible organic disease.",
+    "C": "Incorrect because stool withholding can occur in functional constipation and is not, by itself, a red flag.",
+    "D": "Incorrect because a recent preschool transition may affect toileting habits but is not a red flag for organic constipation.",
+    "E": "Incorrect because a preference for milk over water is not a red flag for organic constipation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B20-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm6izy0001rjyx5eeim70a",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3490566037735849,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0591fbbc-3f64-44e6-9c3a-108feb9f67d7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B20/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Common paediatric primary-care presentations",
+      "constipation",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:59.902Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

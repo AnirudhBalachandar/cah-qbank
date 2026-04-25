@@ -1,0 +1,98 @@
+{
+  "id": "285c3a3b-1bcc-4844-9273-a5756de673e3",
+  "stem": "When resuscitating a bleeding child, what is the recommended approach to fluid management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Aggressive use of isotonic crystalloids to maintain blood pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Early transition to blood products and limiting crystalloids",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Withholding all fluids until surgery is available",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Initial use of multiple colloid boluses",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Repeated large crystalloid boluses until bleeding stops",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Early transition to blood products and limiting crystalloids is the recommended approach in a bleeding child because it supports circulation while reducing dilutional coagulopathy, hypothermia, and worsening of trauma-related coagulopathy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.479Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3b6d0459d6fc6d9b3363",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because aggressive crystalloid resuscitation is discouraged in bleeding trauma due to dilutional coagulopathy and other complications.",
+    "B": "Correct because early blood product administration with restricted crystalloid use helps restore circulating volume while avoiding worsening coagulopathy and hypothermia.",
+    "C": "Incorrect because fluids should not be withheld entirely; ongoing haemodynamic support is needed while definitive haemorrhage control is arranged.",
+    "D": "Incorrect because colloids are not the preferred initial strategy for bleeding resuscitation in children.",
+    "E": "Incorrect because repeated large crystalloid boluses can dilute clotting factors and worsen shock-related complications."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the risks of dilutional coagulopathy mentioned in the talk.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "60146770-8ee8-476b-9714-2bfe826bd2e6",
+    "overlapScore": 0.3603603603603603,
+    "questionIndex": 6,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:09.042Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

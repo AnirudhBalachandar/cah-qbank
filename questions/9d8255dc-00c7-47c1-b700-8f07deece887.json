@@ -1,0 +1,98 @@
+{
+  "id": "9d8255dc-00c7-47c1-b700-8f07deece887",
+  "stem": "In newborn screening, what do TRECs measure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The production and development of new T-cells",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The levels of maternal antibodies transferred in utero",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The oxidative burst capacity of neonatal neutrophils",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence of mutations in the JAK3 receptor",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The number of circulating B-cells",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "TRECs measure new T-cell production and thymic T-cell development. They are DNA byproducts formed during T-cell receptor gene rearrangement, so low levels suggest reduced thymic output.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "63624bef-3c52-42ca-bcd9-9e248221d228",
+      "title": "00034 Year 3 CAH Allergy a-s1-low (4).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.391Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2b2b30b0c5b6ec8f4938",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because TRECs are DNA byproducts created during T-cell receptor gene rearrangement, so they reflect thymic T-cell production and maturation.",
+    "B": "Incorrect because maternal antibodies are not what TRECs measure in newborn screening.",
+    "C": "Incorrect because TRECs assess T-cell development, not neutrophil oxidative burst function.",
+    "D": "Incorrect because TRECs do not detect specific gene mutations such as JAK3 defects.",
+    "E": "Incorrect because TRECs do not measure B-cell numbers."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "63624bef-3c52-42ca-bcd9-9e248221d228",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "These circles are excision products formed during the VDJ recombination process in the thymus.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "34",
+    "lectureTitle": "00034 Year 3 CAH Allergy a-s1-low (4).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4a2b383c-2b3b-48ba-8035-54bdbe974816",
+    "overlapScore": 0.4672897196261682,
+    "questionIndex": 3,
+    "quizFileName": "quiz_034.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e8f3f325-1896-4ba6-9673-dfbe37f7d907",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:50.466Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

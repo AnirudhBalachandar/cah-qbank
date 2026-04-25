@@ -1,0 +1,98 @@
+{
+  "id": "42c70334-97d4-4120-a9b2-a6b0ef00f251",
+  "stem": "What proportion of children with juvenile idiopathic arthritis continue to have active disease into adulthood?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Around 50%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Less than 10%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Nearly 95%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Exactly 75%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Around 25%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Around 50% is the best estimate for persistence of active juvenile idiopathic arthritis into adulthood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.909Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4980268d8466a58668f0",
+  "rationale": "This question tests the key prognostic point that juvenile idiopathic arthritis often does not completely resolve by adulthood.",
+  "optionExplanations": {
+    "A": "Correct because roughly half of children with juvenile idiopathic arthritis continue to have active disease as adults.",
+    "B": "Incorrect because the proportion persisting into adulthood is much higher than 10%.",
+    "C": "Incorrect because nearly all children do not continue with active disease into adulthood.",
+    "D": "Incorrect because the persistence rate is not as high as 75%.",
+    "E": "Incorrect because about one quarter is too low an estimate for ongoing active disease into adulthood."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It is essentially a coin flip whether the disease persists into their adult years.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3d8ca30b-b89e-4fa4-b6d5-9cc0a66bea20",
+    "overlapScore": 0.5,
+    "questionIndex": 14,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:52.396Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

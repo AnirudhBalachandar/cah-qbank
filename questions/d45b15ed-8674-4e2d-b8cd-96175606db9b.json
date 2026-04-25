@@ -1,0 +1,98 @@
+{
+  "id": "d45b15ed-8674-4e2d-b8cd-96175606db9b",
+  "stem": "In a driving simulator study, what was the effect of restricting adolescents to 6.5 hours of sleep over five nights compared with 10 hours of sleep?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It significantly impaired performance",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It impaired performance only when sleep was reduced below 4 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It produced no measurable difference in performance",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It slightly improved performance because of increased adrenaline",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It improved performance because adolescents adapted within five nights",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Significant impairment in performance is the correct answer. Restricting adolescents to 6.5 hours of sleep over five nights reduced driving simulator performance compared with 10 hours of sleep.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.583Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-40c2f06728fbe6ed7d22",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because the study found that 6.5 hours of sleep over five nights significantly worsened adolescent performance compared with 10 hours of sleep.",
+    "B": "Incorrect because the study showed impairment at 6.5 hours, not only at extreme sleep loss below 4 hours.",
+    "C": "Incorrect because there was a measurable decrement in simulator performance with sleep restriction.",
+    "D": "Incorrect because sleep restriction worsens attention and reaction time rather than improving driving performance.",
+    "E": "Incorrect because adolescents did not fully adapt within five nights; performance remained worse with restricted sleep."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the specific hourly durations mentioned in the US simulator studies.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c2a658fb-aa51-4ce3-827c-eb20cabc9390",
+    "overlapScore": 0.3904761904761905,
+    "questionIndex": 6,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:50.880Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

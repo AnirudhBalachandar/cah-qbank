@@ -1,0 +1,108 @@
+{
+  "id": "b0bc36c3-ebfc-488e-901d-1639928a376c",
+  "stem": "In acute otitis externa, which feature is a late sign?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Tenderness of the tragus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tenderness of the external auditory meatus skin",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A draining node on the mastoid tip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Decreased hearing",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Otalgia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Decreased hearing is a late sign of acute otitis externa.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 5,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 34,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:23:20.406Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B21-attempt-01-cc5de2099c42b67caba9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because tragal tenderness is a common feature of otitis externa, not the late sign described here.",
+    "B": "Incorrect because tenderness of the external auditory meatus is a feature of otitis externa, not the late sign described here.",
+    "C": "Incorrect because a draining node on the mastoid tip is not the late sign identified for acute otitis externa.",
+    "D": "Correct because decreased hearing is specifically described as a late sign in acute otitis externa.",
+    "E": "Incorrect because otalgia is a typical symptom of otitis externa, but it is not the late sign described here."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B21-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjswh00001rjpzl4o48uzj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2967032967032967,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b899d140-c2ca-46d4-aca3-8c539a0a6085",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B21/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems I",
+      "Otitis externa"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:31.988Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

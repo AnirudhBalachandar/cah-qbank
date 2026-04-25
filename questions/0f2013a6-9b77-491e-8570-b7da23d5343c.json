@@ -1,52 +1,80 @@
 {
   "id": "0f2013a6-9b77-491e-8570-b7da23d5343c",
-  "stem": "Hip question:",
+  "stem": "A 6-year-old boy presents with a 3-month history of limp and intermittent hip pain. Examination shows reduced hip internal rotation and abduction, with mild wasting of the thigh. Pelvic X-ray shows a flattened, fragmented femoral head. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Perthes disease",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "B",
       "text": "Transient synovitis",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Non-accidental injury fracture",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Accidental injury fracture",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "6 year old, limping, muscle wasting, xray showed hip with flatted femoral head (semi-destroyed",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "3 years old, fell in park, leg deformed with some bruises + bruising on shin. Mum took her to GP who said some to hospital, now at ED 4 hours after injury. Mum really upset because she took her eyes off her for a minute. Girl crying. Well grown, not vaccinated because mum is a conscientious objecter. Well nourished",
-      "isCorrect": null
+      "text": "Septic arthritis of the hip",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "This child’s age, chronic limp, reduced hip range of motion, thigh wasting, and a flattened/fragmented femoral head on X-ray are classic for Perthes disease. Perthes typically presents between 4 and 10 years of age and causes variable limp, hip irritability, and loss of hip motion, especially internal rotation and abduction. Transient synovitis is usually a more acute, self-limited limp in younger children and does not cause femoral head flattening. Fractures and septic arthritis would have a different history and radiographic or systemic features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+      "title": "The limping or non-weight bearing child"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/ortho/for_health_professionals/Perthes_Disease/",
+      "title": "Perthes Disease"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+      "title": "Transient synovitis (irritable hip)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "hip-pain",
+    "limp",
+    "orthopaedics",
+    "perthes-disease",
+    "x-ray"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.141Z",
   "sourceFingerprint": "ff153f4bfd09d18ecd4c2ba1",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The safest interpretation of the fragment is a Perthes disease recognition question. The existing option set already contains Perthes disease as the best answer, so the item was normalized into a complete single-best-answer question around the radiographic and clinical hallmark of Perthes disease. In children with limp, Perthes should be considered in the 4 to 10 year age group, particularly when there is reduced hip internal rotation/abduction and femoral head deformity on plain X-ray.",
+  "optionExplanations": {
+    "A": "Correct. Perthes disease commonly presents in children aged 4 to 10 years with limp, hip pain, reduced hip motion, and X-ray changes in the femoral head",
+    "B": "Incorrect. Transient synovitis causes an acute irritable hip and usually resolves within about two weeks; it does not cause femoral head collapse or fragmentation",
+    "C": "Incorrect. There is no history or pattern here to suggest inflicted injury, and the X-ray description is of Perthes disease rather than fracture",
+    "D": "Incorrect. An accidental fracture would usually follow trauma and would not explain chronic limp with flattened femoral head",
+    "E": "Incorrect. Septic arthritis is typically an acute illness with marked pain, reduced range of motion, often fever, and is an orthopaedic emergency"
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.047Z",
@@ -61,6 +89,78 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "c617ca38d7b86a690b13"
+    "stemHash": "c617ca38d7b86a690b13",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:08:20.360Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "evidenceSources": [
+        {
+          "title": "The limping or non-weight bearing child",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Perthes disease is a common cause of limp in children aged 5 to 10 years; assessment of limp, red flags, and differential diagnosis of hip pathology"
+        },
+        {
+          "title": "Perthes Disease",
+          "url": "https://www.rch.org.au/ortho/for_health_professionals/Perthes_Disease/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_specialty",
+          "supports": "Perthes typically presents between ages 4 and 10 years with variable limp, hip irritability, loss of hip motion, and X-ray findings of femoral head abnormality"
+        },
+        {
+          "title": "Transient synovitis (irritable hip)",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Transient synovitis is a common cause of limp in young children and is usually mild and self-limited, helping distinguish it from Perthes disease"
+        }
+      ],
+      "notes": "Original item was malformed with extra distractor text; repaired by selecting the existing best concept and rewriting into a standard SBA with one clear best answer.",
+      "preRepair": {
+        "stem": "Hip question:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Perthes disease",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Transient synovitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Non-accidental injury fracture",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Accidental injury fracture",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "6 year old, limping, muscle wasting, xray showed hip with flatted femoral head (semi-destroyed",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "3 years old, fell in park, leg deformed with some bruises + bruising on shin. Mum took her to GP who said some to hospital, now at ED 4 hours after injury. Mum really upset because she took her eyes off her for a minute. Girl crying. Well grown, not vaccinated because mum is a conscientious objecter. Well nourished",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

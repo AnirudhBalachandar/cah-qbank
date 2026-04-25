@@ -1,0 +1,98 @@
+{
+  "id": "e3622cd0-b9be-4592-93f6-34d837e50526",
+  "stem": "What is the most appropriate way to identify whether a patient identifies as Aboriginal or Torres Strait Islander in a clinical setting?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ask every patient directly",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Estimate their genetic ancestry",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Judge based on physical appearance",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Wait for the patient to volunteer it",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Check the surname on the record",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ask every patient directly. This is the appropriate approach because Aboriginal and Torres Strait Islander identity should be self-identified rather than assumed or inferred.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c01ec94-8711-42ab-a3b8-8e965a037345",
+      "title": "00024 ATSI health_other ga-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.905Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ee9b1695e433e51f367f",
+  "rationale": "Self-identification is the standard and respectful method in clinical care.",
+  "optionExplanations": {
+    "A": "Correct because Aboriginal and Torres Strait Islander identity should be determined by asking the patient directly.",
+    "B": "Incorrect because ancestry or genetic proportion is not how Aboriginal or Torres Strait Islander identity is determined.",
+    "C": "Incorrect because physical appearance cannot reliably identify Aboriginal or Torres Strait Islander identity.",
+    "D": "Incorrect because clinicians should ask proactively rather than wait for the patient to raise it.",
+    "E": "Incorrect because a surname does not determine Aboriginal or Torres Strait Islander identity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c01ec94-8711-42ab-a3b8-8e965a037345",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The solution is presented as a simple, standard procedural requirement for all admissions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "24",
+    "lectureTitle": "00024 ATSI health_other ga-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fcb922a7-4d40-4e0c-95cd-18fd283afeb9",
+    "overlapScore": 0.425531914893617,
+    "questionIndex": 3,
+    "quizFileName": "quiz_024.json",
+    "quizTitle": "Aboriginal Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9282a4a9-c16e-497d-a27e-d114090082c9",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:23.249Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "08c563d1-b35c-477e-ba80-4fc5bb6e5a14",
+  "stem": "Which pair is used to classify an inguinal hernia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reducible or non-reducible",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Primary or secondary",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Normal line of descent or ectopic",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Torsed or non-torsed",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Simple or complicated",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reducible or non-reducible is the classification pair used for an inguinal hernia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 82,
+      "title": "Lecture: Inguino-scrotal disorders"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:20:38.914Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B83-attempt-03-e7b1fdce0de882bb97ec",
+  "rationale": "The inguinal hernia classification in the referenced paediatric surgery terminology is reducible or non-reducible, which is important for accurate documentation and handover.",
+  "optionExplanations": {
+    "A": "Correct because inguinal hernias are classified as reducible or non-reducible.",
+    "B": "Incorrect because primary or secondary is used for hydrocoele classification, not inguinal hernia.",
+    "C": "Incorrect because normal line of descent or ectopic describes undescended testis terminology.",
+    "D": "Incorrect because torsed or non-torsed is not the classification used for inguinal hernia.",
+    "E": "Incorrect because simple or complicated is not the pair used to classify inguinal hernia."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B83-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsa3180001rjvxkmnynco0",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.34375,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f0fc1222-b9aa-4dda-a7d7-6161bf289557",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B83/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Inguino-scrotal disorders in children",
+      "inguinal hernia",
+      "classification"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:57.746Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

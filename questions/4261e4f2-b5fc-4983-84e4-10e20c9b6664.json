@@ -1,0 +1,98 @@
+{
+  "id": "4261e4f2-b5fc-4983-84e4-10e20c9b6664",
+  "stem": "What is the recommended standard treatment for a mild to moderate allergic reaction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inhaled corticosteroids",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Oral antihistamines",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immediate adrenaline injection",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intravenous fluids",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Topical corticosteroids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Oral antihistamines are the recommended standard treatment for mild to moderate allergic reactions.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.930Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b32c9f5ba45c40b18d96",
+  "rationale": "This question tests first-line symptomatic management of uncomplicated allergic reactions.",
+  "optionExplanations": {
+    "A": "Incorrect because inhaled corticosteroids are used for chronic airway inflammation, not as standard treatment for an acute mild to moderate allergic reaction.",
+    "B": "Correct because oral antihistamines are the recommended standard treatment for mild to moderate allergic reactions.",
+    "C": "Incorrect because immediate adrenaline injection is used for anaphylaxis or severe systemic reactions, not routine mild to moderate symptoms.",
+    "D": "Incorrect because intravenous fluids are reserved for circulatory compromise or severe reactions, not standard treatment for mild to moderate allergy.",
+    "E": "Incorrect because topical corticosteroids may help localised skin inflammation but are not the standard treatment for a mild to moderate allergic reaction."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This common over-the-counter medication class is used to block histamine effects.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "df18a3dc-a463-4dd4-be26-ce7857ec3626",
+    "overlapScore": 0.4571428571428571,
+    "questionIndex": 15,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:50.409Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

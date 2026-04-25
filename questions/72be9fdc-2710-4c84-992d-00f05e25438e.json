@@ -1,0 +1,98 @@
+{
+  "id": "72be9fdc-2710-4c84-992d-00f05e25438e",
+  "stem": "Which feature is a red flag for an organic cause of constipation in an infant?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Large diameter stools",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Delayed passage of meconium beyond 48 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Toilet training stress",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Painful bowel motions",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Withholding behaviour",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Delayed passage of meconium beyond 48 hours is the key red flag because it suggests an underlying organic disorder such as Hirschsprung disease rather than functional constipation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+      "title": "00006 common-problems-cons-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.618Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f5c9b52c93f516b20085",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because large diameter stools are a feature of functional constipation, not a red flag for organic disease.",
+    "B": "Correct because failure to pass meconium within the first 48 hours of life is a major red flag for Hirschsprung disease.",
+    "C": "Incorrect because toilet training stress commonly contributes to functional constipation.",
+    "D": "Incorrect because painful bowel motions are typical of functional constipation due to hard stools.",
+    "E": "Incorrect because withholding behaviour is common in functional constipation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the sign that specifically relates to the first few days of a newborn's life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "6",
+    "lectureTitle": "00006 common-problems-cons-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f381534d-5632-4955-891a-93a8ce546c44",
+    "overlapScore": 0.3960396039603961,
+    "questionIndex": 5,
+    "quizFileName": "quiz_006.json",
+    "quizTitle": "Constipation Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b50f57df-c86d-49e8-b079-40a148286d26",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:26.905Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

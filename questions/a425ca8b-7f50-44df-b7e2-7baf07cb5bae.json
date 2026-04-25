@@ -1,0 +1,98 @@
+{
+  "id": "a425ca8b-7f50-44df-b7e2-7baf07cb5bae",
+  "stem": "What is the key distinction between primary and secondary microcephaly?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Primary occurs in males, while secondary occurs in females",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Primary is present at birth, while secondary develops postnatally after a normal birth measurement",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Primary is caused by genetics, while secondary is caused by trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Primary involves the whole body, while secondary only involves the head",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Primary is due to infection, while secondary is due to prematurity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Primary microcephaly is present at birth, whereas secondary microcephaly develops after birth following a previously normal head measurement.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.386Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f237f54b725b1641b9b1",
+  "rationale": "The defining feature is timing: primary is evident at birth, while secondary appears later when head growth falls behind after an initially normal measurement.",
+  "optionExplanations": {
+    "A": "Incorrect because microcephaly classification is based on timing and head growth pattern, not sex.",
+    "B": "Correct because primary microcephaly is present at birth, while secondary microcephaly develops after birth following a normal initial measurement.",
+    "C": "Incorrect because either type may have genetic or acquired causes; the main distinction is when the small head size becomes evident.",
+    "D": "Incorrect because microcephaly refers specifically to head circumference, not overall body size.",
+    "E": "Incorrect because infection or prematurity may contribute to microcephaly, but they do not define the primary versus secondary distinction."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on whether the head was small when the baby was born or if it fell off the growth curve later.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9efe1dbf-9aaa-4a67-bb5a-d519afd90886",
+    "overlapScore": 0.4487179487179487,
+    "questionIndex": 4,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:03.597Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

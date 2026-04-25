@@ -1,0 +1,98 @@
+{
+  "id": "c4354093-51df-4910-8d05-24b8249bfe34",
+  "stem": "Why is an MRI with contrast sometimes performed during the workup for suspected Guillain-Barré syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To identify specific muscle breakdown patterns",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To rule out surgical emergencies like spinal cord compression",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To confirm the absence of the dystrophin protein",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To measure the severity of intellectual disability",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To diagnose peripheral nerve conduction delay",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "To rule out spinal cord compression. MRI with contrast may show nerve root enhancement in Guillain-Barré syndrome, but its important acute role is to exclude alternative causes of weakness that require urgent surgical management.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.022Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d20effefcd5445dd020d",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because muscle breakdown patterns are investigated in myopathies, not by MRI in suspected Guillain-Barré syndrome.",
+    "B": "Correct because MRI with contrast is sometimes used to exclude spinal cord compression and other surgical emergencies as causes of acute weakness.",
+    "C": "Incorrect because dystrophin deficiency is assessed with genetic testing or muscle biopsy, not MRI.",
+    "D": "Incorrect because MRI is not used to assess intellectual disability, which is not the reason for this investigation in Guillain-Barré syndrome.",
+    "E": "Incorrect because peripheral nerve conduction delay is assessed with nerve conduction studies, not MRI."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the most life-threatening or urgent alternative diagnoses that an image could exclude.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "84db4c51-894d-48a8-ab4b-d6b28a0c0a6c",
+    "overlapScore": 0.3942307692307692,
+    "questionIndex": 15,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:16.113Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "d9b50e9d-c50d-4fe3-99cb-2cee7b2ff26e",
+  "stem": "What are the common side effects of propranolol in infants?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Glaucoma and hypertension",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Hypoglycaemia, hypotension, and sleep disturbances",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Thinning of the bones and Cushing syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Rapid weight gain and increased appetite",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tachycardia and hyperglycaemia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypoglycaemia, hypotension, and sleep disturbances are recognised side effects of propranolol in infants, so monitoring for these adverse effects is important.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.124Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c9372547448a8ff2b67a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because glaucoma and hypertension are not typical side effects of propranolol.",
+    "B": "Correct because propranolol can cause hypoglycaemia, hypotension, and sleep disturbances in infants.",
+    "C": "Incorrect because thinning of the bones and Cushing syndrome are associated with corticosteroid exposure, not propranolol.",
+    "D": "Incorrect because rapid weight gain and increased appetite are not typical adverse effects of propranolol.",
+    "E": "Incorrect because propranolol is more likely to cause bradycardia and hypoglycaemia than tachycardia and hyperglycaemia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the effects a beta-blocker might have on blood pressure, blood sugar, and rest.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bb9685bc-b762-4567-b484-e711ca686abe",
+    "overlapScore": 0.3846153846153846,
+    "questionIndex": 13,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:01.694Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

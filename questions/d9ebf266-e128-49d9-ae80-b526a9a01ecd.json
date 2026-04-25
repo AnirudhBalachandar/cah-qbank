@@ -1,0 +1,98 @@
+{
+  "id": "d9ebf266-e128-49d9-ae80-b526a9a01ecd",
+  "stem": "Which management strategy has level A evidence for treating croup?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Humidified air or mist therapy",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Corticosteroids such as dexamethasone",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Routine chest physiotherapy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Nebulised salbutamol",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Empirical antibiotics",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Corticosteroids such as dexamethasone are the evidence-based treatment for croup because they reduce laryngeal and tracheal oedema and improve outcomes.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+      "title": "00019 Bronchiolitis and Cr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.061Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-88167500505c37e6e087",
+  "rationale": "They reduce upper airway swelling in croup.",
+  "optionExplanations": {
+    "A": "Incorrect because humidified air or mist therapy has not been shown to improve clinical outcomes in croup.",
+    "B": "Correct because systematic reviews and randomised trials support corticosteroids, including dexamethasone, to reduce airway oedema in croup.",
+    "C": "Incorrect because chest physiotherapy has no role in croup management and may distress the child.",
+    "D": "Incorrect because salbutamol treats lower airway bronchospasm, not the upper airway oedema seen in croup.",
+    "E": "Incorrect because croup is usually viral and does not require empirical antibiotics."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This medication helps reduce the swelling in the larynx and trachea.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "19",
+    "lectureTitle": "00019 Bronchiolitis and Cr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba8e77cf-c540-48af-89c2-4b7eac281b4c",
+    "overlapScore": 0.4347826086956522,
+    "questionIndex": 5,
+    "quizFileName": "quiz_019.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "803ce9ff-ed81-41dd-8916-47b92839b68a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:02.237Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

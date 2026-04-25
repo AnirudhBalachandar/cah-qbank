@@ -1,0 +1,98 @@
+{
+  "id": "1fbda6d6-21d6-4639-aa6f-03d7b62a13a5",
+  "stem": "A patient has a left-sided scrotal swelling described as a bag of worms that becomes more prominent when standing; which vessel is most directly involved?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The testicular artery",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The testicular vein",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The femoral vein",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The vas deferens",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The internal iliac artery",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The testicular vein is the correct answer because a varicocele is caused by dilatation of the pampiniform plexus and testicular veins.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.747Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1ff652a1e2d9ece94ba2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a varicocele is a venous abnormality, not an arterial one.",
+    "B": "Correct because a varicocele involves dilatation and tortuosity of the pampiniform plexus of the testicular veins.",
+    "C": "Incorrect because the femoral vein drains the lower limb and is not the vessel involved in a varicocele.",
+    "D": "Incorrect because the vas deferens is a sperm-carrying duct, not a blood vessel.",
+    "E": "Incorrect because the internal iliac artery supplies pelvic structures and is not responsible for varicocele formation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which vascular structure is responsible for venous drainage of the testis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b456464c-88d3-4d8f-8e40-97c8329cbac5",
+    "overlapScore": 0.3825503355704698,
+    "questionIndex": 6,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:46.501Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

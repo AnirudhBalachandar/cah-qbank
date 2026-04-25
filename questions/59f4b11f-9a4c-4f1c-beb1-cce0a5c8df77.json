@@ -1,0 +1,101 @@
+{
+  "id": "59f4b11f-9a4c-4f1c-beb1-cce0a5c8df77",
+  "stem": "In a child with traumatic haemorrhage, which statement best explains why inotropes are not the priority when fluid resuscitation has not restored circulation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inotropes are useless if the pipes are empty",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Inotropes are preferred before any fluid therapy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Inotropes replace the need for transfer to theatre",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Inotropes are first-line for all positive FAST scans",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Inotropes are the main treatment for scalp laceration blood loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Inotropes are useless if the pipes are empty. When circulatory volume is still depleted from haemorrhage, restoring volume and controlling the bleeding source are the priorities rather than relying on inotropic support.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 188,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:15:04.058Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B86-attempt-01-2c178f6361c79127befe",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because inotropes cannot restore circulation when the vascular space is still underfilled from blood loss.",
+    "B": "Incorrect because fluids and blood product resuscitation come before inotropes in haemorrhagic shock.",
+    "C": "Incorrect because inotropes do not replace definitive control of the bleeding source or surgical transfer when needed.",
+    "D": "Incorrect because a positive FAST scan indicates possible intra-abdominal bleeding, not an indication for inotropes as first-line treatment.",
+    "E": "Incorrect because scalp laceration blood loss is managed by local control and resuscitation, not inotropes as the main treatment."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B86-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmws2wnn0001rjbd33z76qob",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3426573426573427,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d720f6ae-d17b-4348-9c09-22cde94acb3c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B86/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Burns and trauma",
+      "paediatric injury priorities"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:43.252Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "8491734e-f633-4d9a-8a1b-00d65d68d6da",
+  "stem": "Which pathogen is the usual cause of bullous impetigo?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Streptococcus pyogenes",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Staphylococcus aureus",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Microsporum canis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Molluscum contagiosum virus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pseudomonas aeruginosa",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Staphylococcus aureus is the usual cause of bullous impetigo. Certain strains produce exfoliative toxins that split the skin and cause flaccid blisters.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "51102533-c601-4132-9b61-bdcd05af5c1c",
+      "title": "00059 dermatology-infectio-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.380Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ed1bedae59c45f587b9d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Streptococcus pyogenes is more often associated with non-bullous impetigo, not the bullous form.",
+    "B": "Correct because Staphylococcus aureus produces exfoliative toxins in bullous impetigo, leading to superficial skin splitting and flaccid blisters.",
+    "C": "Incorrect because Microsporum canis is a dermatophyte fungus that causes tinea infections, not impetigo.",
+    "D": "Incorrect because Molluscum contagiosum virus causes umbilicated papules, not the blistering rash of bullous impetigo.",
+    "E": "Incorrect because Pseudomonas aeruginosa can cause skin and soft tissue infections, but it is not the usual cause of bullous impetigo."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "51102533-c601-4132-9b61-bdcd05af5c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the bacterium often associated with producing toxins that cause skin layers to separate.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "59",
+    "lectureTitle": "00059 dermatology-infectio-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7a4b24db-fc41-45dd-815c-e94338281071",
+    "overlapScore": 0.375,
+    "questionIndex": 2,
+    "quizFileName": "quiz_059.json",
+    "quizTitle": "Dermatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f675632f-c8d2-42ff-9863-8cfa0f929a31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:01.749Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

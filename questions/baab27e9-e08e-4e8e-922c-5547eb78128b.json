@@ -1,0 +1,102 @@
+{
+  "id": "baab27e9-e08e-4e8e-922c-5547eb78128b",
+  "stem": "A parent says, \"I had a lot of dental caries as a child, and now two of my children do as well\"; what is the best response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Caries can cluster in families, but this pattern is usually environmental rather than purely inherited",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "If caries occurs in siblings, saliva quality and flow are no longer relevant",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "If caries occurs in siblings, prolonged night feeding is unlikely to matter",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Family clustering of caries is mainly explained by the timing of primary tooth eruption",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Family clustering of caries is best explained by unilateral tooth eruption",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Caries can cluster in families, but this pattern is usually environmental rather than purely inherited. Family history does not exclude modifiable contributors to caries risk, including saliva factors and feeding practices.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.817Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-20e01f24dacf81375dd9",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because family clustering of caries is often due to shared environmental and behavioural factors rather than a purely inherited cause.",
+    "B": "Incorrect because poor saliva quality or flow remains a relevant caries risk factor even when caries runs in a family.",
+    "C": "Incorrect because prolonged night feeding is a recognised caries risk factor and is still important despite sibling clustering.",
+    "D": "Incorrect because the notes do not identify timing of primary tooth eruption as the main explanation for family clustering of caries.",
+    "E": "Incorrect because unilateral tooth eruption is not an explanation for why dental caries may cluster within a family."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f0c6269a-3148-4fda-b383-7358030bde35",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "dental caries risk and prevention",
+      "family counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:49.787Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

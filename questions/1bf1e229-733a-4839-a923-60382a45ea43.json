@@ -1,0 +1,98 @@
+{
+  "id": "1bf1e229-733a-4839-a923-60382a45ea43",
+  "stem": "What is the most common background cause of developmental delay?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chromosomal syndromes",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Environmental neglect",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Birth trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Completely unknown causes",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Intrauterine infection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Completely unknown causes are the most common background cause of developmental delay, with no obvious physical, medical, or environmental reason identified in many cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+      "title": "00055 Developmental Delay-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.567Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-53888cd27ac29ff969ae",
+  "rationale": "Many cases of developmental delay have no single identifiable cause at presentation.",
+  "optionExplanations": {
+    "A": "Incorrect because chromosomal syndromes can cause developmental delay, but they are not the most common overall cause.",
+    "B": "Incorrect because environmental neglect can contribute to developmental delay, but it is less common than cases with no identifiable cause.",
+    "C": "Incorrect because birth trauma may be associated with developmental problems, but it is not the most common background cause.",
+    "D": "Correct because the most common background cause is often no identifiable physical, medical, or environmental cause.",
+    "E": "Incorrect because intrauterine infection can cause developmental delay, but it is not the most common background cause."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Many medical diagnoses in this field lack a clear, identifiable smoking gun.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "55",
+    "lectureTitle": "00055 Developmental Delay-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6d5dcee0-548f-4c71-94b0-e91f16bc23f5",
+    "overlapScore": 0.4166666666666667,
+    "questionIndex": 4,
+    "quizFileName": "quiz_055.json",
+    "quizTitle": "Development Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2fe3e388-3c7b-4ce4-b2c8-2010baf3ee20",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:38.921Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

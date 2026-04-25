@@ -1,0 +1,102 @@
+{
+  "id": "1cd6a4ea-8aed-461c-ab20-a0c7ac5658a2",
+  "stem": "A 9-year-old girl is booked for a minor painful skin procedure in a paediatric surgical clinic and topical anaesthetic cream is planned; when should it be applied?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediately before the procedure",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "15 minutes before the procedure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "30 minutes before the procedure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "1 hour before the procedure",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "After the procedure if pain persists",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Topical anaesthetic cream should be applied 1 hour before the procedure to allow adequate effect.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 191,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:13:57.700Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-02-a3f50ffd54318a16e7d9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because immediate application does not allow enough time for topical anaesthetic to work.",
+    "B": "Incorrect because 15 minutes is shorter than the recommended pre-procedure timing.",
+    "C": "Incorrect because 30 minutes is not the timing specified for effective pre-procedure use.",
+    "D": "Correct because topical anaesthetic cream is applied 1 hour before the procedure to provide adequate anaesthesia.",
+    "E": "Incorrect because topical anaesthetic is used before the procedure, not as a post-procedure treatment for persistent pain."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B87-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmws1hgc0001rjihz9hnjrvo",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3157894736842105,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6730cb23-b6ca-43ab-bf31-4caee8291134",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Pain management and procedural pain",
+      "local techniques",
+      "procedural planning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:39.867Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ad4200b8-12c7-48ea-93bd-43fef8090753",
+  "stem": "Which posture is specifically associated with a child trying to relax the abdominal muscles to reduce peritonitis pain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Walking around the room",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sitting upright in bed",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Lying with the legs flexed at the hip",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Deep, rapid abdominal breathing",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lying flat with the legs extended",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Lying with the legs flexed at the hip is the correct answer because this posture relaxes the abdominal wall and reduces pain from peritoneal irritation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.564Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fe49b855540bc5757ee5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because movement usually worsens peritonitis pain, so children tend to remain still.",
+    "B": "Incorrect because sitting upright does not relax the abdominal wall and often increases discomfort.",
+    "C": "Correct because flexing the hips relaxes the abdominal wall muscles and can reduce pain from peritonitis.",
+    "D": "Incorrect because abdominal wall movement with deep breathing can increase pain in peritonitis.",
+    "E": "Incorrect because lying flat with the legs extended tightens the abdominal wall and may worsen pain."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about a posture that would physically take the tension off the abdominal wall.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1f85e703-a7ef-4e8e-8a3f-376bb7cd5103",
+    "overlapScore": 0.3759398496240601,
+    "questionIndex": 3,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:22.640Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

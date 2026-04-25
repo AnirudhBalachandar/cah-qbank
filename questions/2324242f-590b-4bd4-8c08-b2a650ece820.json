@@ -1,0 +1,98 @@
+{
+  "id": "2324242f-590b-4bd4-8c08-b2a650ece820",
+  "stem": "In the management of childhood bronchiolitis, what is the standard of care?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inhaled bronchodilators such as salbutamol",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Systemic corticosteroids to reduce airway inflammation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Supportive care focusing on hydration and oxygenation",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Empirical antibiotic therapy to prevent secondary pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Routine antiviral treatment with oseltamivir",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Supportive care focusing on hydration and oxygenation is the standard of care for bronchiolitis. Most cases are viral and self-limiting, so treatment is aimed at maintaining hydration, easing respiratory effort, and providing oxygen if needed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.503Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-da3651015389fabfbb8f",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because inhaled bronchodilators such as salbutamol do not routinely improve outcomes in bronchiolitis.",
+    "B": "Incorrect because systemic corticosteroids have not shown consistent benefit in routine bronchiolitis management.",
+    "C": "Correct because bronchiolitis is usually a viral, self-limiting illness and treatment is mainly supportive, with attention to hydration and oxygenation.",
+    "D": "Incorrect because antibiotics do not treat the usual viral cause of bronchiolitis and are not recommended routinely.",
+    "E": "Incorrect because oseltamivir is not standard treatment for typical bronchiolitis, which is most often caused by respiratory syncytial virus or other viruses."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about whether pharmaceutical interventions or basic physiological assistance is more effective for this viral condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "10980e2e-8233-4e5b-8347-573f2e21b1e5",
+    "overlapScore": 0.4526315789473684,
+    "questionIndex": 7,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:56.899Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

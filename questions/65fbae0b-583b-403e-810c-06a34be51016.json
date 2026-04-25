@@ -1,0 +1,98 @@
+{
+  "id": "65fbae0b-583b-403e-810c-06a34be51016",
+  "stem": "Which criterion defines secondary nocturnal enuresis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child has been dry for over 6 months before wetting starts again",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The child has never been dry for more than a few months",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The child wets only during high-stress situations",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The child has daytime urgency and frequency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The child wets occasionally after recent toilet training",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Secondary nocturnal enuresis is defined by a return of wetting after at least 6 months of dryness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+      "title": "00008 common-problems-enur-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.742Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d48d5f3a297b97763c3a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because secondary nocturnal enuresis requires a previous dry period of more than 6 months before bedwetting returns",
+    "B": "Incorrect because this describes persistent or primary enuresis rather than recurrence after a dry interval",
+    "C": "Incorrect because stress may contribute to wetting but does not define secondary enuresis",
+    "D": "Incorrect because daytime urgency and frequency suggest daytime lower urinary tract symptoms, not the definition of secondary nocturnal enuresis",
+    "E": "Incorrect because recent toilet training with occasional wetting does not meet the definition of secondary nocturnal enuresis"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the duration of the 'dry' period required to distinguish this from the primary form.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "8",
+    "lectureTitle": "00008 common-problems-enur-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f56e1f0e-9a87-4f41-a9b9-a875ef6157b1",
+    "overlapScore": 0.3670886075949367,
+    "questionIndex": 1,
+    "quizFileName": "quiz_008.json",
+    "quizTitle": "Bedwetting Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2c9798db-0ebc-4a15-9ccb-95ac659163f6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:05.124Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

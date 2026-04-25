@@ -1,0 +1,102 @@
+{
+  "id": "a4e85014-631e-4ec4-b789-2c7f9391e255",
+  "stem": "A preterm neonate aged 2 weeks develops abdominal distension, tenderness, vomiting, blood in the stool, and erythema of the abdominal wall; which diagnosis best fits?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Intussusception",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Necrotising enterocolitis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Incarcerated hernia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Necrotising enterocolitis is the best diagnosis. It classically affects preterm neonates in the first weeks of life and presents with abdominal distension, tenderness, feeding intolerance or vomiting, blood in the stool, and abdominal wall erythema or discolouration.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 135,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:09:12.674Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B81-attempt-02-509e7255b72e30f531a5",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because pyloric stenosis usually presents at 3–6 weeks with progressive non-bilious projectile vomiting rather than blood in the stool and abdominal wall erythema.",
+    "B": "Incorrect because intussusception is more typical in older infants and usually presents with intermittent pain and “red currant jelly” stools, not this early neonatal picture.",
+    "C": "Correct because necrotising enterocolitis commonly affects preterm neonates in the first 1–3 weeks after birth and causes abdominal distension, tenderness, vomiting, blood in the stool, and abdominal wall erythema.",
+    "D": "Incorrect because an incarcerated hernia would usually cause an irreducible groin or scrotal swelling, which is not the key feature here.",
+    "E": "Incorrect because malrotation with volvulus typically causes bilious vomiting and acute abdominal obstruction, but the preterm timing with bloody stools and abdominal wall erythema points more strongly to necrotising enterocolitis."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B81-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrvdiy0001rjqbtw7kq4os",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3443708609271523,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0a93ecba-cdec-45df-bc4d-f39139ecd2f6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B81/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Vomiting in surgical disease",
+      "necrotising enterocolitis",
+      "neonatal surgical vomiting"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:04.436Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

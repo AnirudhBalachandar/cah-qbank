@@ -1,0 +1,103 @@
+{
+  "id": "48e2dc8a-6a11-4374-bd15-3d448820af55",
+  "stem": "A teenager presents with vomiting, dehydration, acidosis and marked ketonaemia after a period of very low carbohydrate intake, with a serum glucose of 12 mmol/L; which statement best reflects the diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "This cannot be diabetic ketoacidosis because the glucose is below 14 mmol/L",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "This may represent euglycaemic ketoacidosis, which can occur when blood glucose is below 14 mmol/L",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Ketoacidosis is excluded unless ketonuria is absent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A glucose below 14 mmol/L means insulin should never be considered relevant",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The diagnosis depends mainly on thyroid autoantibodies",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Euglycaemic ketoacidosis is the correct concept. A blood glucose below 14 mmol/L does not exclude ketoacidosis when there is acidosis and marked ketonaemia, especially after starvation or very low carbohydrate intake.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 97,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:38:20.403Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B54-attempt-03-a312a6fe8facf450a8b3",
+  "rationale": "The key point is that ketoacidosis can occur with glucose below 14 mmol/L, so a normal or only mildly elevated glucose does not rule it out in the right clinical context.",
+  "optionExplanations": {
+    "A": "Incorrect because glucose below 14 mmol/L does not exclude diabetic or euglycaemic ketoacidosis.",
+    "B": "Correct because euglycaemic ketoacidosis can occur with blood glucose below 14 mmol/L, particularly in the setting of starvation or low carbohydrate intake.",
+    "C": "Incorrect because ketoacidosis is identified by acidosis with ketonaemia or ketonuria, and the absence of ketonuria is not required to make the diagnosis.",
+    "D": "Incorrect because insulin may still be relevant in ketoacidosis even when the glucose is below 14 mmol/L.",
+    "E": "Incorrect because thyroid autoantibodies are not the basis for diagnosing euglycaemic ketoacidosis."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B54-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqrnph0001rjs3kk475sqk",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.345360824742268,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8c1be15d-d899-46fd-b10f-baec7eaa92bf",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B54/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Diabetic ketoacidosis",
+      "recognition",
+      "euglycaemic ketoacidosis",
+      "clinical reasoning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:10.161Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

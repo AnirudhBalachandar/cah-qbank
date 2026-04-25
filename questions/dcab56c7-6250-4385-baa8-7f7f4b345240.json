@@ -1,0 +1,102 @@
+{
+  "id": "dcab56c7-6250-4385-baa8-7f7f4b345240",
+  "stem": "A junior doctor is preparing to perform a lumbar puncture in a child positioned on their side with the hips and knees flexed, and palpates both posterior-superior iliac crests before drawing an imaginary line between them. What does this landmark indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It intersects L4, helping select the L3/L4 or L4/L5 space for needle insertion",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It intersects L2, so the needle should be inserted at L1/L2",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It guides the choice between iodine and chlorhexidine skin prep",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It indicates the needle should be directed away from the umbilicus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is assessed only after cerebrospinal fluid has been collected",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The posterior-superior iliac crest line intersects L4, which helps identify the L3/L4 or L4/L5 interspace for lumbar puncture.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack excerpt 1",
+      "page": 194,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:08:31.993Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B10-attempt-01-e7d1e53f74fecb152de8",
+  "rationale": "A line between the posterior-superior iliac crests is used as a surface landmark to locate L4 and guide safe lumbar puncture level selection.",
+  "optionExplanations": {
+    "A": "Correct because the intercristal line is used to identify L4 and then choose the L3/L4 or L4/L5 interspace for needle insertion.",
+    "B": "Incorrect because the intercristal line is not taken to intersect L2, and L1/L2 is not the intended lumbar puncture level here.",
+    "C": "Incorrect because skin antiseptic choice is separate from anatomical landmark identification for lumbar puncture.",
+    "D": "Incorrect because needle direction is a separate procedural step; the landmark identifies the vertebral level, not the direction of insertion.",
+    "E": "Incorrect because this landmark is used before insertion to select the puncture site, not after cerebrospinal fluid collection."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B10-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvn4gbx0001rjqkql1j0ush",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3058823529411765,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "04f9e5f8-c7d7-41ea-98d3-b5924f0fdf6f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B10/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Lumbar puncture and CSF basics",
+      "landmarks",
+      "procedure technique"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack excerpt 1"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:10.112Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

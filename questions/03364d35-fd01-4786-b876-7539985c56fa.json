@@ -1,0 +1,98 @@
+{
+  "id": "03364d35-fd01-4786-b876-7539985c56fa",
+  "stem": "Which of the following is a relative contraindication to non-steroidal anti-inflammatory drug use in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Severe asthma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hypermobility syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Neuropathic pain",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Palliative care setting",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Simple viral upper respiratory tract infection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Severe asthma is a relative contraindication to non-steroidal anti-inflammatory drug use because NSAIDs can precipitate bronchospasm in susceptible children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.456Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1a59484e0d25a98eb2a8",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because NSAIDs can precipitate bronchospasm in some children with asthma, so severe asthma is a relative contraindication.",
+    "B": "Incorrect because hypermobility syndrome is not a contraindication to NSAID use and these medicines may be used for associated pain.",
+    "C": "Incorrect because neuropathic pain is not a contraindication to NSAIDs, although they are not usually the main treatment.",
+    "D": "Incorrect because NSAIDs are commonly used in palliative care for analgesia and are not contraindicated by the setting alone.",
+    "E": "Incorrect because a simple viral upper respiratory tract infection is not a contraindication to NSAID use."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about a common respiratory condition that might be worsened by certain anti-inflammatory medications.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "809655c1-b2ab-470c-9d60-b8996ed9583c",
+    "overlapScore": 0.4553571428571428,
+    "questionIndex": 7,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:48.767Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "a6054534-a689-4002-9a43-cd7029d21766",
+  "stem": "Which medication is a recognised risk factor for vitamin D deficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Amoxicillin",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Corticosteroids",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Paracetamol",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Salbutamol",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ibuprofen",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Corticosteroids are a recognised risk factor for vitamin D deficiency because they can interfere with vitamin D metabolism and calcium absorption.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.928Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6268ccc18817851502df",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because amoxicillin is not typically associated with vitamin D deficiency.",
+    "B": "Correct because corticosteroids can interfere with vitamin D metabolism and calcium absorption, increasing the risk of deficiency.",
+    "C": "Incorrect because paracetamol does not typically affect vitamin D metabolism or absorption.",
+    "D": "Incorrect because salbutamol does not typically cause vitamin D deficiency.",
+    "E": "Incorrect because ibuprofen is not a recognised cause of vitamin D deficiency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on classes of drugs often used for chronic inflammatory conditions or seizures.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "02dec00d-a42d-477a-9c4e-8015a270b289",
+    "overlapScore": 0.4051724137931034,
+    "questionIndex": 4,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:07.360Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

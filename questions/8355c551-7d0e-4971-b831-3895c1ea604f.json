@@ -1,0 +1,102 @@
+{
+  "id": "8355c551-7d0e-4971-b831-3895c1ea604f",
+  "stem": "A baby has vertebral defects, anal atresia, cardiac defects, tracheo-oesophageal fistula, renal anomalies and limb abnormalities; which term best describes features occurring together more frequently than expected by chance with no known single cause?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Association",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Sequence",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Developmental field",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Spectrum",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Complex",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Association is the correct term. It describes the concurrence of two or more features occurring together more frequently than expected by chance, without a known single cause.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 167,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:07:31.366Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B68-attempt-02-6a665ace24ee11e18e23",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because an association is a pattern of anomalies that occur together more often than expected by chance without a known single cause.",
+    "B": "Incorrect because a sequence results from a single primary anomaly or mechanical factor leading to secondary abnormalities.",
+    "C": "Incorrect because a developmental field is a group of related structures influenced by a common embryological region.",
+    "D": "Incorrect because a spectrum refers to variable expression within a related set of features or severity levels.",
+    "E": "Incorrect because a complex is a composite of multiple manifestations that occur together as a recognisable pattern."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B68-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4o60m0001rjent8no3up2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2969924812030075,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "78bfbb33-b5d8-4816-8661-6258d32757f7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B68/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Common genetic syndromes",
+      "VACTERL association",
+      "Anatomy and embryology application"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:56.499Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

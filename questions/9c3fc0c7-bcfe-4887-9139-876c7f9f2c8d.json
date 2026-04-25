@@ -1,0 +1,102 @@
+{
+  "id": "9c3fc0c7-bcfe-4887-9139-876c7f9f2c8d",
+  "stem": "A 7-year-old undergoing obesity assessment has height, weight and BMI recorded; which additional anthropometric finding is associated with increased cardiometabolic risk in children older than 6 years?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Waist-to-height ratio greater than 0.5",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Waist circumference measured without using a ratio",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Pregnancy details in the history",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Weekend versus weekday sleep variation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sweet drink intake",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Waist-to-height ratio greater than 0.5 is associated with increased cardiometabolic risk in children older than 6 years.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 60,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:51:08.232Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B29-attempt-02-004152b7183d81117196",
+  "rationale": "This item tests recognition of an obesity-related anthropometric risk marker. In children older than 6 years, a waist-to-height ratio above 0.5 is the relevant finding linked with higher cardiometabolic risk.",
+  "optionExplanations": {
+    "A": "Correct because a waist-to-height ratio greater than 0.5 is the anthropometric marker associated with increased cardiometabolic risk in children older than 6 years.",
+    "B": "Incorrect because waist circumference alone is not the specific risk threshold given; the relevant measure is the waist-to-height ratio.",
+    "C": "Incorrect because pregnancy details are part of history taking, not an anthropometric risk marker.",
+    "D": "Incorrect because weekend versus weekday sleep variation is a sleep history feature, not an anthropometric finding.",
+    "E": "Incorrect because sweet drink intake is a dietary history factor, not an anthropometric measure."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B29-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmxt6y0001rjbnv32mawbo",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3300492610837438,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8bfb0f96-a542-47a8-8eeb-856641619b23",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B29/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cystic fibrosis and sleep across childhood",
+      "Sleep history",
+      "Anthropometry"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:47.551Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

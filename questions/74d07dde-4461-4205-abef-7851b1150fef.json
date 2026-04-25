@@ -1,0 +1,98 @@
+{
+  "id": "74d07dde-4461-4205-abef-7851b1150fef",
+  "stem": "When managing acute severe colitis, which class of medications should be avoided to reduce the risk of toxic megacolon?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Opioids and anticholinergics",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Intravenous corticosteroids",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Oral vancomycin",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Proton pump inhibitors",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Non-steroidal anti-inflammatory drugs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Opioids and anticholinergics should be avoided because they slow intestinal motility, which can worsen colonic dilatation and increase the risk of toxic megacolon in acute severe colitis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.123Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-731b10b318ee1561a4fe",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Correct because these medications inhibit intestinal motility, which can lead to colonic dilatation and increase the risk of perforation in a severely inflamed bowel.",
+    "B": "Incorrect because intravenous corticosteroids are used to treat acute severe colitis and help induce remission.",
+    "C": "Incorrect because oral vancomycin is used to treat Clostridioides difficile infection and does not cause toxic megacolon by reducing motility.",
+    "D": "Incorrect because proton pump inhibitors do not significantly slow colonic motility or increase the risk of toxic megacolon.",
+    "E": "Incorrect because non-steroidal anti-inflammatory drugs are not the key class avoided for toxic megacolon due to reduced gut motility."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on drugs that slow down the movement of the intestines.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "cca264db-18ac-4c80-8c0f-fdb9191c6a28",
+    "overlapScore": 0.4032258064516129,
+    "questionIndex": 7,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:31.569Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

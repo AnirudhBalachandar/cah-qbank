@@ -1,0 +1,98 @@
+{
+  "id": "f21d3ab4-f885-4001-9adb-109b04a14a61",
+  "stem": "What is the correct approach to managing infection in a major burn wound?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Identify specific organisms and use targeted antibiotic therapy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Administer broad-spectrum prophylactic antibiotics upon admission",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Perform routine bronchial lavage to prevent pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Rely solely on silver-based dressings to eliminate all bacteria",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delay antimicrobial treatment until the wound fully heals",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Targeted antibiotic therapy is the correct approach. This is because burn wound infection management requires identifying the specific organism and treating it with an antibiotic directed at that pathogen, rather than giving routine prophylactic antibiotics.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.136Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bc4e9bcf37edd2780b6f",
+  "rationale": "Targeted treatment is preferred over indiscriminate prophylaxis in burn wound infection.",
+  "optionExplanations": {
+    "A": "Correct because burn wound infection management requires identifying the specific organism and treating it with an antibiotic directed at that pathogen.",
+    "B": "Incorrect because routine prophylactic broad-spectrum antibiotics are not recommended in this setting.",
+    "C": "Incorrect because bronchial lavage is not a standard strategy for preventing infection in burn wounds.",
+    "D": "Incorrect because dressings may assist local wound care, but they do not replace targeted systemic treatment when infection is present.",
+    "E": "Incorrect because suspected infection should be assessed and treated promptly rather than waiting for complete wound healing."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The strategy emphasizes precision over prevention when it comes to antibiotic use.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "50f9a668-92c6-4c0f-87a6-bafbe592040b",
+    "overlapScore": 0.5294117647058824,
+    "questionIndex": 8,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:51.335Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

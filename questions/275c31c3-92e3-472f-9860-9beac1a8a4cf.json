@@ -1,0 +1,102 @@
+{
+  "id": "275c31c3-92e3-472f-9860-9beac1a8a4cf",
+  "stem": "A 22-month-old boy attends for review of mild eczema, and the clinician asks targeted questions about development, observes him play, and checks the Blue Book before deciding whether further assessment is needed; what is this process called?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Developmental surveillance",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Developmental screening",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Formalised developmental assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intellectual assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Referral for further evaluation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Developmental surveillance is the correct term. This is because it is a flexible, ongoing process that uses parental concerns, developmental history, observation of the child, and routine review tools such as the Blue Book during clinical visits to decide whether further assessment is needed.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 15,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:29:01.597Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B16-attempt-03-bb4630d163784b7e8357",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because developmental surveillance is a flexible, ongoing review of development using history, observation, and routine clinical encounters.",
+    "B": "Incorrect because developmental screening is a brief standardised test used to identify children who may need more detailed assessment.",
+    "C": "Incorrect because formalised developmental assessment is a structured specialist evaluation used after concerns have been identified.",
+    "D": "Incorrect because intellectual assessment is a specific cognitive evaluation, usually for older children and not the broad process described here.",
+    "E": "Incorrect because referral for further evaluation is a possible outcome of surveillance, not the surveillance process itself."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B16-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvuaagk0001rjphstq315b9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3358208955223881,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7dc35fb4-f018-4cac-b99c-d7aae62170c6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B16/attempt-03.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Normal development and formal developmental assessment",
+      "developmental surveillance",
+      "terminology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:04.949Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

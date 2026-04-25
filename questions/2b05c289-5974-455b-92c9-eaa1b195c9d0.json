@@ -1,0 +1,98 @@
+{
+  "id": "2b05c289-5974-455b-92c9-eaa1b195c9d0",
+  "stem": "Which of the following is a classic clinical red flag suggesting that a child’s headache may be caused by raised intracranial pressure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The headache wakes the child at night or occurs early in the morning",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The headache is relieved by a cool, dark room and sleep",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The headache is localised to the frontal-temporal region",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The headache occurs less than once a month with no other symptoms",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The headache improves after simple analgesia and rest",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is the headache waking the child at night or occurring early in the morning. This timing is a red flag for raised intracranial pressure because headaches from increased pressure often worsen when the child is lying down or on waking.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.291Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-43184cfc0b87135b8d7c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because headaches that wake a child from sleep or occur early in the morning are a classic red flag for raised intracranial pressure.",
+    "B": "Incorrect because relief with a cool, dark room and sleep is more typical of migraine.",
+    "C": "Incorrect because frontal-temporal location is not a specific red flag for raised intracranial pressure.",
+    "D": "Incorrect because infrequent headaches without other symptoms are less suggestive of serious intracranial pathology.",
+    "E": "Incorrect because improvement with simple analgesia and rest is non-specific and does not suggest raised intracranial pressure."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the timing of the headache in relation to the child's sleep-wake cycle.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "92b6741a-ca15-49bf-ae1b-06f91bbc6f87",
+    "overlapScore": 0.3966942148760331,
+    "questionIndex": 11,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:13.215Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

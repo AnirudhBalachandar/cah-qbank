@@ -1,0 +1,102 @@
+{
+  "id": "c8c5fd16-8a2b-4c9b-923e-def11f153ab3",
+  "stem": "A 9-year-old child has a clearly localised soft tissue infection, is alert, well perfused, and not tachycardic; which investigation strategy is most appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Full sepsis workup for every child with fever and a bacterial focus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Blood culture in all cases regardless of age or appearance",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Lumbar puncture because a focal infection can still hide sepsis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Investigations specific to the definite focus unless the child becomes toxic",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "No investigations are ever needed when a focus is identified",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Investigations specific to the definite focus are most appropriate here. In a well older child with a clear localised infection and no toxic features, broader sepsis investigations are not the default unless the child becomes toxic.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 140,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:01:11.099Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B36-attempt-02-161fd07a7b71aa115d00",
+  "rationale": "A definite focus narrows the investigation approach in a well child. Broader sepsis assessment is reserved for children with concerning features such as toxicity.",
+  "optionExplanations": {
+    "A": "Incorrect because a full sepsis workup is not recommended for every child with a localised infection.",
+    "B": "Incorrect because blood cultures are not mandatory in all children with a definite focus; the need depends on the clinical picture.",
+    "C": "Incorrect because lumbar puncture is not indicated for a well child with an isolated soft tissue focus and no neurological or toxic features.",
+    "D": "Correct because a child with a definite focus of infection should have investigations directed to that focus unless they become toxic.",
+    "E": "Incorrect because a focus does not rule out the need for investigations; tests should be targeted to the identified source."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B36-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwnaqdz0001rjkd91h1151z",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3392857142857143,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7716a8bb-6d51-4eff-9bc0-f8ddfd6922d1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B36/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Acute sepsis in children",
+      "blood culture and sepsis workup logic",
+      "recognition of sepsis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:43.448Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

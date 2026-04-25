@@ -1,0 +1,98 @@
+{
+  "id": "ff987580-d591-4279-9371-41ded42d4bea",
+  "stem": "Which is the most sensitive way to assess a child with acute abdominal pain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Single CT scan",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Initial liver function tests",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Repeated clinical examination by the same doctor",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Plain abdominal X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "One-off abdominal ultrasound",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Repeated clinical examination by the same doctor is the most sensitive way to assess a child with acute abdominal pain. Serial assessments let the clinician detect subtle but important changes over time, which often provides more diagnostic value than a single test.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.701Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3ea33221e2e71be5e666",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because a single CT scan may help in selected cases, but it is not the most sensitive overall approach for assessing acute abdominal pain in children.",
+    "B": "Incorrect because liver function tests can support the assessment, but they do not offer the highest sensitivity for identifying the cause of acute abdominal pain.",
+    "C": "Correct because repeated examinations by the same doctor allow serial comparison and detection of subtle changes, making this the most sensitive assessment tool.",
+    "D": "Incorrect because a plain abdominal X-ray has limited sensitivity and only a narrow role in most children with acute abdominal pain.",
+    "E": "Incorrect because a one-off ultrasound can be useful, but a single imaging test is less sensitive than repeated clinical examination over time."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the value of continuity in physical assessment over time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6ba006a5-3cd9-4623-9dd0-bdbe474dc60f",
+    "overlapScore": 0.5423728813559322,
+    "questionIndex": 12,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:24.593Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "4de8a552-f327-406e-915f-3cb3f3cbef3c",
+  "stem": "During a HEEADSS assessment, a 15-year-old says she has lost interest in friends and sometimes thinks it would be easier not to wake up; which domain should be explored directly today?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Activities and peers",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Education and eating",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Home",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Sexuality",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Suicidality and depression",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Suicidality and depression should be explored directly. Her statement suggests possible depressive symptoms and passive suicidal thoughts, which require immediate, specific assessment rather than being left for a later part of the interview.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 126,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-16T11:06:43.675Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B01-b485a2990715315dbada",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because activities and peers are important in HEEADSS, but the disclosure of passive suicidal thoughts makes suicidality and depression the priority domain.",
+    "B": "Incorrect because education and eating may provide useful context, but they do not directly address the immediate mental health risk raised by the statement.",
+    "C": "Incorrect because home circumstances matter, but they are not the most urgent domain prompted by this comment.",
+    "D": "Incorrect because sexuality is a standard HEEADSS area, but it is not the domain most directly indicated by this presentation.",
+    "E": "Correct because reports of loss of interest and thoughts that it would be easier not to wake up are red flags for depression and suicidality, which must be assessed directly today."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmt2w89c0001rjgc79ejmqbe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.291005291005291,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-16-04.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "HEEADSS",
+      "mental health screening",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:26.375Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

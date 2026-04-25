@@ -1,0 +1,98 @@
+{
+  "id": "db145960-f273-4f59-af4e-d853ecc52640",
+  "stem": "What best distinguishes primary snoring from obstructive sleep apnoea (OSA) in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Primary snoring is louder than OSA",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "OSA causes gas exchange abnormalities and sleep arousals, which are absent in primary snoring",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Primary snoring occurs only in adolescents, whereas OSA occurs only in infants",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "OSA always resolves spontaneously within two years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Primary snoring is caused by complete upper airway obstruction during sleep",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Obstructive sleep apnoea is the correct answer because it is defined by sleep-disordered breathing with gas exchange abnormalities and arousals, whereas primary snoring occurs without these features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.187Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8e4582aa9b84afa633db",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because the key distinction is physiological impact, not loudness.",
+    "B": "Correct because OSA involves impaired gas exchange and sleep arousals, while primary snoring does not.",
+    "C": "Incorrect because both conditions can occur across paediatric age groups.",
+    "D": "Incorrect because OSA does not always resolve spontaneously and often requires assessment and treatment.",
+    "E": "Incorrect because complete upper airway obstruction is a feature of OSA, not primary snoring."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which condition involves a disruption in actual breathing and blood oxygen levels.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9abc923d-5ee5-4421-9f32-c915e210e9fa",
+    "overlapScore": 0.4285714285714285,
+    "questionIndex": 7,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:06.390Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "3a9f324a-d925-4ee0-a225-64c0460c1aa3",
+  "stem": "What is the most common cause of lactose intolerance in infancy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Secondary lactase deficiency",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Primary lactase deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Developmental lactase deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Congenital lactase deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Transient lactose overload",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Secondary lactase deficiency is the most common cause of lactose intolerance in infancy, usually due to temporary small bowel injury after gastroenteritis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.651Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ff5445a9a7ab37f6da6f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because secondary lactase deficiency most commonly follows temporary small bowel injury, such as after gastroenteritis, and causes lactose malabsorption in infancy.",
+    "B": "Incorrect because primary lactase deficiency usually presents later in childhood or adulthood, not as the common cause in infancy.",
+    "C": "Incorrect because developmental lactase deficiency is associated with prematurity and is not the most common cause across infants generally.",
+    "D": "Incorrect because congenital lactase deficiency is very rare and does not account for most infant lactose intolerance.",
+    "E": "Incorrect because transient lactose overload is not a recognised common cause of lactose intolerance in infancy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the cause that usually follows a temporary illness or injury to the gut.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5e7151e5-57ae-4d9b-ba74-2fa33b6031aa",
+    "overlapScore": 0.4069767441860465,
+    "questionIndex": 4,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:35.664Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

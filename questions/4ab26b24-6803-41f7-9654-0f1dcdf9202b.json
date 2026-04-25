@@ -1,0 +1,98 @@
+{
+  "id": "4ab26b24-6803-41f7-9654-0f1dcdf9202b",
+  "stem": "What is the main concern with a midline swelling before surgery?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Risk of carotid artery haemorrhage",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Potential communication with intracranial structures",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "High risk of malignant transformation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Risk of permanent tongue paralysis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Risk of acute airway obstruction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Potential communication with intracranial structures is the key concern because some midline lesions, such as dermoids or encephaloceles, may extend through the skull base and alter surgical planning.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+      "title": "00022 surgery-head-neck-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.696Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b42000bfba0f3bad0101",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because carotid artery haemorrhage is not the primary concern with midline swellings; the important issue is whether the lesion communicates with the intracranial compartment.",
+    "B": "Correct because some midline dermoids or encephaloceles can have intracranial extension, which must be identified before surgery to avoid complications.",
+    "C": "Incorrect because most midline swellings in children are benign, and malignant transformation is not the usual preoperative concern.",
+    "D": "Incorrect because permanent tongue paralysis is not the main risk associated with midline swellings; intracranial communication is the important anatomical issue.",
+    "E": "Incorrect because acute airway obstruction is not the defining risk for midline swellings in this context; the priority is excluding intracranial extension."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the potential for the lesion to extend through the skull base.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "22",
+    "lectureTitle": "00022 surgery-head-neck-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "acf57bbf-e663-4ff9-b005-6ef68128c3c2",
+    "overlapScore": 0.3904761904761905,
+    "questionIndex": 8,
+    "quizFileName": "quiz_022.json",
+    "quizTitle": "Pediatric Neck Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "193b9d3f-4a97-4e98-8e83-6da631fa992e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:15.784Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

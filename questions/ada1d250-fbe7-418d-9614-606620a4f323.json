@@ -1,0 +1,98 @@
+{
+  "id": "ada1d250-fbe7-418d-9614-606620a4f323",
+  "stem": "What biological process is primarily responsible for the approximate 40% reduction in slow-wave sleep observed during adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cortical synaptic pruning",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Delayed melatonin secretion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Increased prefrontal cortex myelination",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Excessive blue light exposure",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reduced REM sleep pressure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cortical synaptic pruning is the key adolescent brain-remodelling process associated with the fall in slow-wave sleep.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.480Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d1a148daade272c6ebb5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because cortical synaptic pruning reduces synaptic density during adolescence, which is associated with lower delta power and less slow-wave sleep.",
+    "B": "Incorrect because delayed melatonin secretion affects sleep timing and circadian phase, not the primary structural cause of reduced slow-wave sleep.",
+    "C": "Incorrect because increased myelination is part of brain maturation, but the reduction in slow-wave sleep is more closely linked to synaptic pruning.",
+    "D": "Incorrect because excessive blue light can suppress melatonin and delay sleep onset, but it does not cause the normal adolescent reduction in slow-wave sleep.",
+    "E": "Incorrect because reduced REM sleep pressure is not the mechanism responsible for the decline in slow-wave sleep during adolescence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the structural remodeling of the brain that occurs as it matures.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "97e784a7-46ff-48df-8be1-2f7000192218",
+    "overlapScore": 0.3675213675213675,
+    "questionIndex": 2,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:22.780Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "61dfe123-d2c3-42cd-b9e6-c9738310ad02",
+  "stem": "In a child initially thought to have post-streptococcal glomerulonephritis, which finding should most strongly prompt consideration of a systemic inflammatory disorder?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Low C3 and low C4",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Proteinuria improving within 6 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Macroscopic haematuria settling over 1 to 2 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Microscopic haematuria persisting during follow-up",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Recent streptococcal infection alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Low C3 and low C4 is the key complement pattern that should prompt concern for a systemic inflammatory cause such as lupus rather than simple post-streptococcal nephritis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack item 1",
+      "page": 73,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:34:24.464Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B79-attempt-02-574908f017802b7f2092",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because low C3 and low C4 suggest a hypocomplementaemic systemic process such as lupus nephritis and should prompt a broader diagnostic frame.",
+    "B": "Incorrect because improving proteinuria within 6 weeks is consistent with the expected recovery pattern after post-streptococcal glomerulonephritis.",
+    "C": "Incorrect because macroscopic haematuria settling over 1 to 2 weeks is also compatible with the usual resolving course.",
+    "D": "Incorrect because microscopic haematuria can persist during follow-up and is not, by itself, the strongest red flag for a systemic inflammatory disorder.",
+    "E": "Incorrect because a recent streptococcal infection supports a post-infectious trigger but does not exclude other causes of nephritic syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 3,
+  "source": {
+    "batchId": "B79-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5mqnm0001rjmxzw40hjem",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3132530120481928,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "74e302b9-cc0a-40c8-a7d7-66dcc03180c7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B79/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Vasculitis",
+      "escalation",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack item 1"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:57.287Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

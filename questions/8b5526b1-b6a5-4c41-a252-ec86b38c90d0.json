@@ -1,0 +1,102 @@
+{
+  "id": "8b5526b1-b6a5-4c41-a252-ec86b38c90d0",
+  "stem": "In a child with suspected sepsis, how should cool peripheries and central cyanosis be interpreted?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "As a colour and circulation red flag",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "As an isolated breathing problem only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "As evidence that sepsis is less likely",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "As a finding that matters only if fever is high",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "As a feature that can wait for routine review",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Colour and circulation red flag. This is because cool peripheries and central cyanosis are toxicity signs that indicate poor perfusion and should raise urgent concern in suspected sepsis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 140,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:58:44.103Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B36-attempt-01-803c003ae7241125b1b3",
+  "rationale": "Cool peripheries and central cyanosis are toxicity signs. Colour and circulation changes are important in sepsis recognition. These findings warrant urgent concern rather than watchful delay.",
+  "optionExplanations": {
+    "A": "Correct because cool peripheries and central cyanosis indicate a colour and circulation red flag in suspected sepsis.",
+    "B": "Incorrect because these findings are classified as colour and circulation signs, not just a breathing problem.",
+    "C": "Incorrect because these features increase concern for toxicity rather than making sepsis less likely.",
+    "D": "Incorrect because their significance does not depend on fever being high.",
+    "E": "Incorrect because these are red flags that should not be deferred to routine review."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B36-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn7kwo0001rjget7kih5bu",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3148148148148148,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6d91abb4-eafb-4d22-9edf-19d60d1a6183",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B36/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Acute sepsis in children",
+      "toxicity signs",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:16.005Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "6d91abb4-eafb-4d22-9edf-19d60d1a6183",
+  "stem": "A school-aged child with gastroenteritis continues to pass watery stools after the initial rehydration plan has been prescribed; how should ongoing fluid losses be replaced?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Based on the previous hour's losses",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Based on an estimate of losses over the previous week",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only if the child loses more than 10% body weight",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "As a fixed daily amount regardless of stool volume",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No separate replacement is needed once the deficit has been calculated",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Replacement based on the previous hour's losses is the correct approach. Ongoing losses should be replaced in a way that reflects what the child is continuing to lose so the fluid plan stays current.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 145,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:41:18.276Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B30-attempt-01-77787ab26e9c614c9c8d",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because ongoing losses should be replaced according to the previous hour's measured losses.",
+    "B": "Incorrect because replacement is based on recent measured losses, not a retrospective estimate over a week.",
+    "C": "Incorrect because ongoing loss replacement is not limited to children who reach a 10% body weight loss threshold.",
+    "D": "Incorrect because a fixed daily amount does not account for changing stool losses.",
+    "E": "Incorrect because ongoing losses are replaced separately from the initial deficit calculation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B30-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwml5ze0001rjct7unreoni",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3271604938271605,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f21b5ef9-9433-4e14-a71b-74c89735ad77",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B30/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Gastroenteritis and rehydration reasoning",
+      "ongoing losses",
+      "monitoring"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:19.640Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

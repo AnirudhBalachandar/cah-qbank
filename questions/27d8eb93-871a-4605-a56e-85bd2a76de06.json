@@ -1,0 +1,102 @@
+{
+  "id": "27d8eb93-871a-4605-a56e-85bd2a76de06",
+  "stem": "A well newborn has a red-orange stain in the nappy that the family thinks is blood; which finding commonly causes this in neonates?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Urate crystals in the urine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Nephritic syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Post-infectious glomerulonephritis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Primary hypertension",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Minimal change disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Urate crystals in the urine commonly cause red-orange nappy staining in neonates and may be mistaken for blood, especially if the baby is dehydrated.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 73,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:16:17.211Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B44-attempt-03-6ad0c9b839715eab0924",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because urate crystals can produce a red-orange discolouration in neonatal urine that is often mistaken for haematuria.",
+    "B": "Incorrect because nephritic syndrome causes true haematuria with other renal features, not the usual benign red-orange nappy stain in a well newborn.",
+    "C": "Incorrect because post-infectious glomerulonephritis is a cause of haematuria in older children, not the common neonatal explanation for red nappy staining.",
+    "D": "Incorrect because primary hypertension does not cause a red-orange nappy stain in a neonate.",
+    "E": "Incorrect because minimal change disease causes nephrotic syndrome, not the typical benign red-orange discoloration seen in neonatal nappies."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B44-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpzbbo0001rjl2gr8g36qm",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3277777777777778,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5633d7ec-6db4-4183-98af-b366585c4bc2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B44/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nephritic syndrome, haematuria, and childhood hypertension",
+      "haematuria approach",
+      "neonates"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:05.614Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

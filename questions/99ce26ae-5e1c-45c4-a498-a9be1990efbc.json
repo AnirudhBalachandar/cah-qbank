@@ -1,0 +1,103 @@
+{
+  "id": "99ce26ae-5e1c-45c4-a498-a9be1990efbc",
+  "stem": "A 30 kg child can take oral medication and needs an analgesic dose from the emergency drug table; which option matches oral oxycodone?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "0.1 mg/kg oral",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "0.05–0.1 mg/kg IV",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "1.5 micrograms/kg intranasal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "10 micrograms/kg IV",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "0.15 mg/kg IV or IM",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Oral oxycodone is the correct answer. The emergency drug table lists oxycodone as 0.1 mg/kg by mouth for analgesia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 147,
+      "title": "Page 147"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:15:33.645Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B73-attempt-03-6d6ffd6676a352f5da9c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because oral oxycodone is listed at 0.1 mg/kg.",
+    "B": "Incorrect because 0.05–0.1 mg/kg IV is the morphine dose range, not oral oxycodone.",
+    "C": "Incorrect because 1.5 micrograms/kg intranasal is the fentanyl dose, not oxycodone.",
+    "D": "Incorrect because 10 micrograms/kg IV is the adrenaline dose used in cardiac arrest, not oxycodone.",
+    "E": "Incorrect because 0.15 mg/kg IV or IM is a benzodiazepine dose used for seizures, not oral oxycodone."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": null,
+  "source": {
+    "batchId": "B73-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4yi4r0001rj05f4r8gxvg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3262411347517731,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "707d825b-7c98-4b35-8db7-b130d35d90ae",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B73/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Fluids, electrolytes, and emergency drug dosing",
+      "Pain",
+      "Oxycodone",
+      "Oral dosing"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:42.049Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

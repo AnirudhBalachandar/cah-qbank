@@ -1,0 +1,101 @@
+{
+  "id": "68de76af-1068-423d-be9f-6b277e32bb57",
+  "stem": "When reviewing an AP chest radiograph in a toddler, which interpretation point is most important before overcalling cardiomediastinal enlargement?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "AP films in young children magnify the heart and mediastinum",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A broad upper mediastinum always implies pleural effusion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Round pneumonia is caused by free intraperitoneal gas",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Collapse shifts structures away from the opacity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A normal thymus should produce mass effect",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "AP film magnification is the key interpretation point. In young children, an AP chest radiograph can make the heart and mediastinum appear larger, so technique must be considered before diagnosing true enlargement.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 53,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:11:35.920Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-02-dab45d28d34998d20c87",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because AP projection in young children magnifies the heart and mediastinum, which can mimic cardiomediastinal enlargement.",
+    "B": "Incorrect because a broad upper mediastinum is not synonymous with pleural effusion and may reflect normal thymic contour or projection.",
+    "C": "Incorrect because round pneumonia is a rounded pulmonary opacity, not a consequence of free intraperitoneal gas.",
+    "D": "Incorrect because collapse typically causes volume loss with shift towards the affected side, not away from it.",
+    "E": "Incorrect because the normal thymus may be prominent in children but should not be described as producing mass effect."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B11-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjdsy70001rjv2ehms43yv",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3138686131386861,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6b8db371-2d7d-4ee1-a9fc-3452b3d9a1b8",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "chest X-ray basics"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:10.313Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

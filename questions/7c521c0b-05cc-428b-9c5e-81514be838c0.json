@@ -1,0 +1,98 @@
+{
+  "id": "7c521c0b-05cc-428b-9c5e-81514be838c0",
+  "stem": "Which developmental feature is a red flag that warrants immediate further investigation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A plateau in skill acquisition",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Regression of any developmental skills",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Development proceeding at different rates across domains",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Achieving a milestone at the end of an expected age range",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Mild variation in the order of milestone attainment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Regression of any developmental skills is the red flag feature that needs immediate further investigation. Loss of a previously mastered skill, such as speech or motor ability, suggests possible underlying pathology rather than normal variation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+      "title": "00055 Developmental Delay-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.599Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-266259c9e00dbc0894b4",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because a plateau in skill acquisition can occur as part of normal developmental variation and is not as concerning as loss of skills.",
+    "B": "Correct because losing a previously mastered skill is a major warning sign for an underlying developmental or neurological problem.",
+    "C": "Incorrect because children commonly develop at different rates across domains, such as language, motor and social skills.",
+    "D": "Incorrect because milestones are assessed within normal age ranges, and reaching a milestone at the later end of the range can still be normal.",
+    "E": "Incorrect because variation in the sequence of milestone attainment is often normal if overall development is progressing and no skills are lost."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a sign that suggests a loss of progress rather than just a slowdown.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "55",
+    "lectureTitle": "00055 Developmental Delay-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "72be9fdc-2710-4c84-992d-00f05e25438e",
+    "overlapScore": 0.5,
+    "questionIndex": 5,
+    "quizFileName": "quiz_055.json",
+    "quizTitle": "Development Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2fe3e388-3c7b-4ce4-b2c8-2010baf3ee20",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:45.948Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

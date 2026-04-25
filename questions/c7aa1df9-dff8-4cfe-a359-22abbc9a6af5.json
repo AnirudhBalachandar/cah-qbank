@@ -1,0 +1,98 @@
+{
+  "id": "c7aa1df9-dff8-4cfe-a359-22abbc9a6af5",
+  "stem": "What is the recommended format for a practice HEADS interview with an adolescent?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Allow 40 to 60 minutes and conduct it without the parent present",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Allow about 15 minutes and include the parent for context",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Allow 30 minutes and conduct it with the primary caregiver present",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Allow over two hours and split it across multiple sessions",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Allow 10 minutes and complete it alongside a physical examination",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A practice HEADS interview should allow 40 to 60 minutes and be conducted without the parent present. This gives enough time for a thorough psychosocial discussion and supports adolescent confidentiality and openness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.974Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4926afbd54ee5663a1e6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a HEADS interview needs adequate time for a detailed psychosocial assessment, and excluding the parent helps promote privacy and honest disclosure.",
+    "B": "Incorrect because 15 minutes is usually too brief for a meaningful HEADS interview, and including the parent may reduce the adolescent's willingness to speak openly.",
+    "C": "Incorrect because the interview is intended to be done privately with the adolescent, rather than in the presence of a caregiver.",
+    "D": "Incorrect because the recommended duration is around 40 to 60 minutes, not multiple long sessions.",
+    "E": "Incorrect because 10 minutes is too short for a thorough HEADS interview and would not allow adequate exploration of psychosocial issues."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the time required for a deep psychosocial screening and the importance of confidentiality.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5e531725-c64a-4733-8acb-3fd2e9489fc3",
+    "overlapScore": 0.4074074074074074,
+    "questionIndex": 2,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:23.503Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

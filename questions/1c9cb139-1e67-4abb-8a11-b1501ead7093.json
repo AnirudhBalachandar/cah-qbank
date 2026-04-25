@@ -1,0 +1,98 @@
+{
+  "id": "1c9cb139-1e67-4abb-8a11-b1501ead7093",
+  "stem": "What is the clinical utility of performing an EEG in a child whose only symptom is headache?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is a useless investigation for headaches alone",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is necessary to rule out Alice in Wonderland syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It helps distinguish between tension headache and migraine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is the preferred method for detecting raised intracranial pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It confirms the cause of recurrent headache",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A useless investigation for headaches alone is the correct answer. EEG may show abnormalities in some children with migraine, but it does not help diagnose or manage headache when headache is the only symptom.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.181Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5329cadb1f5241105ed3",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because EEG findings may be abnormal in some children with migraine, but the test does not help diagnose or manage headache when headache is the only symptom.",
+    "B": "Incorrect because Alice in Wonderland syndrome is a clinical diagnosis and is not ruled out by EEG.",
+    "C": "Incorrect because EEG findings are non-specific and do not reliably distinguish tension headache from migraine.",
+    "D": "Incorrect because raised intracranial pressure is assessed with clinical examination and neuroimaging, not EEG.",
+    "E": "Incorrect because EEG does not confirm the cause of recurrent headache and is not useful for headache alone."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether this test, which measures electrical activity, actually changes the treatment plan for pain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9e3280c2-f1ae-41bd-aff8-3d1e386b4188",
+    "overlapScore": 0.459016393442623,
+    "questionIndex": 7,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:39.683Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

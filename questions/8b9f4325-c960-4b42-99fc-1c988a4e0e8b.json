@@ -1,0 +1,98 @@
+{
+  "id": "8b9f4325-c960-4b42-99fc-1c988a4e0e8b",
+  "stem": "Japanese encephalitis vaccination is specifically recommended for which group in Australia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Residents of the outer Torres Strait Islands",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "All Aboriginal and Torres Strait Islander people nationally",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Healthcare workers in remote communities",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Preterm infants born in northern Queensland",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Children attending childcare in northern Australia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Residents of the outer Torres Strait Islands are the correct group because Japanese encephalitis vaccination is targeted to specific high-risk geographic areas rather than recommended nationally for all children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.683Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f295bb93919711fac3ad",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because residents of the outer Torres Strait Islands live in a recognised high-risk area where Japanese encephalitis vaccination is specifically recommended.",
+    "B": "Incorrect because the vaccine is not recommended for all Aboriginal and Torres Strait Islander people nationally; it is based on geographic risk.",
+    "C": "Incorrect because occupation alone does not determine this recommendation; residence in an affected area is the key factor.",
+    "D": "Incorrect because prematurity is not the indication for this vaccine; location-based risk is the relevant criterion.",
+    "E": "Incorrect because childcare attendance is not the specific indication for Japanese encephalitis vaccination; living in a high-risk area is."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The disease is rarely seen on the Australian mainland, focusing the vaccine requirement on specific islands.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a6054534-a689-4002-9a43-cd7029d21766",
+    "overlapScore": 0.4368932038834951,
+    "questionIndex": 14,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:16.078Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

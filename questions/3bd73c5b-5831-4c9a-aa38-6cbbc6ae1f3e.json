@@ -1,0 +1,102 @@
+{
+  "id": "3bd73c5b-5831-4c9a-aa38-6cbbc6ae1f3e",
+  "stem": "What are the key features to observe during horizontal suspension in an infant being assessed for motor difficulties?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Symmetry and stability",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Head control and leg positioning",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Posture and head control",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only proximal muscle power",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Visual fixation only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Head control and leg positioning are the key features to observe during horizontal suspension in an infant assessment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 115,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:53:35.792Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B62-attempt-02-3e04d74d420b3d3177d2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because symmetry and stability are not the main features assessed during horizontal suspension.",
+    "B": "Correct because horizontal suspension is used to assess head control and leg positioning in an infant.",
+    "C": "Incorrect because posture and head control are not the stated key features for horizontal suspension.",
+    "D": "Incorrect because horizontal suspension is not limited to assessing proximal muscle power.",
+    "E": "Incorrect because visual fixation is not the focus of horizontal suspension for motor assessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B62-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrbamj0001rjla5kh0cz91",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.335483870967742,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7b03de88-3170-4ee1-8bd3-783d913ac7cb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B62/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Motor difficulties",
+      "examination logic",
+      "infant examination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:37.933Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

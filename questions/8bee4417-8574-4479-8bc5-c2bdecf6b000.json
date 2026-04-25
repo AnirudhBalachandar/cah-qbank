@@ -1,0 +1,98 @@
+{
+  "id": "8bee4417-8574-4479-8bc5-c2bdecf6b000",
+  "stem": "In a child with hypospadias, what is chordee and how often does it occur?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An infection of the urethral plate seen in 5% of cases",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A ventral deficiency of the foreskin seen in 50% of cases",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A degree of penile bend seen in 20-25% of cases",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The presence of undescended testes seen in 10% of cases",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A narrowing of the urethral meatus seen in most cases",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chordee is a penile curvature associated with hypospadias, and it occurs in about 20-25% of cases.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:46.058Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-aecb14e3f6408bd91658",
+  "rationale": "Chordee refers to the curved penis seen in some children with hypospadias, not an infection, foreskin abnormality, or testicular anomaly.",
+  "optionExplanations": {
+    "A": "Incorrect because chordee is a structural curvature of the penis, not an infection of the urethral plate.",
+    "B": "Incorrect because a ventral hooded or deficient foreskin may occur with hypospadias, but chordee specifically refers to penile bending.",
+    "C": "Correct because chordee is the penile curvature associated with hypospadias and occurs in about 20-25% of cases.",
+    "D": "Incorrect because undescended testes are a separate condition and do not define chordee.",
+    "E": "Incorrect because meatal narrowing can be seen in hypospadias, but chordee refers to curvature of the penis rather than the urethral opening."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the term for the physical curvature of the penis and its statistical prevalence in hypospadias patients.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7b669daf-32b0-40c0-9a28-4d276c81d875",
+    "overlapScore": 0.3809523809523809,
+    "questionIndex": 8,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:17.614Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

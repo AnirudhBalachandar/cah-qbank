@@ -1,0 +1,101 @@
+{
+  "id": "a75c3a33-e7d2-4bca-ad53-106939dcfa5d",
+  "stem": "A 4-year-old with an oesophageal button battery is awaiting theatre 3 hours after ingestion; what honey regimen should be given while waiting?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "10 mL every 10 minutes, up to 6 doses",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "5 mL every 30 minutes until symptoms resolve",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "20 mL once only, then nil by mouth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "10 mL hourly for 12 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Give honey only after the battery has passed the oesophagus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is 10 mL every 10 minutes, up to 6 doses. This is the recommended interim honey regimen for a child older than 1 year with an oesophageal button battery within 12 hours of ingestion while awaiting theatre.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 142,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.142"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:11:32.431Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B71-attempt-02-7add31d490ca93643393",
+  "rationale": "The regimen is a time-specific interim measure used before removal of an oesophageal button battery in an appropriate child.",
+  "optionExplanations": {
+    "A": "Correct because the recommended interim honey regimen is 10 mL every 10 minutes, up to 6 doses.",
+    "B": "Incorrect because this dose and interval do not match the recommended regimen.",
+    "C": "Incorrect because a single 20 mL dose is not the regimen described for this scenario.",
+    "D": "Incorrect because hourly dosing for 12 hours is not the advised honey schedule.",
+    "E": "Incorrect because honey is given while awaiting removal, not only after the battery has passed the oesophagus."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B71-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4tbyz0001rjf4688br36r",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3472222222222222,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a4f1c416-a7e0-4c2a-b3b8-0df0104d6f12",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B71/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Foreign body aspiration and ingestion",
+      "button batteries"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:07.949Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

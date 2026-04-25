@@ -1,0 +1,98 @@
+{
+  "id": "85f29111-fe7b-4633-8c81-7a1502bba9e2",
+  "stem": "A 20-month-old child has a submental midline swelling with purple skin discolouration and central crusting but is otherwise well, what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Acute bacterial cervical lymphadenitis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Thyroglossal duct cyst with secondary infection",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Atypical mycobacterial disease (MAIS)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Lateral external angular dermoid cyst",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Congenital ranula",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Atypical mycobacterial disease (MAIS) is the most likely diagnosis because a chronic cervicofacial swelling with purple skin discolouration, central crusting and minimal systemic upset is characteristic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+      "title": "00022 surgery-head-neck-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.622Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1da4bb24767d3a111606",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because acute bacterial cervical lymphadenitis usually causes tenderness, erythema, fever and other signs of systemic illness rather than a chronic purple lesion.",
+    "B": "Incorrect because an infected thyroglossal duct cyst is typically a midline neck mass, but the distinctive purple discolouration and well child are more suggestive of atypical mycobacterial infection.",
+    "C": "Correct because a chronic cervicofacial swelling with purple skin discolouration, central crusting and little or no systemic illness is classic for atypical mycobacterial disease.",
+    "D": "Incorrect because an external angular dermoid cyst is usually a painless lesion near the lateral eyebrow, not a submental midline swelling with purple discolouration.",
+    "E": "Incorrect because a congenital ranula presents as a floor-of-mouth cystic swelling, usually bluish and intraoral, rather than a submental skin lesion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the specific skin color change and the lack of systemic illness mentioned in the lecture.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "22",
+    "lectureTitle": "00022 surgery-head-neck-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ed6fe82d-7e30-41d0-a600-027a5997efa6",
+    "overlapScore": 0.408284023668639,
+    "questionIndex": 3,
+    "quizFileName": "quiz_022.json",
+    "quizTitle": "Pediatric Neck Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "193b9d3f-4a97-4e98-8e83-6da631fa992e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:06.601Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

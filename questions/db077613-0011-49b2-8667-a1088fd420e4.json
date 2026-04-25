@@ -1,0 +1,102 @@
+{
+  "id": "db077613-0011-49b2-8667-a1088fd420e4",
+  "stem": "A 9-year-old has repeatedly missed important health appointments and the team is concerned about accumulating neglect, but there is no current indication of significant harm requiring an immediate statutory report. What is the most appropriate pathway?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Call the Child Wellbeing Unit during work hours for advice and triage",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediately call the Child Protection Helpline because all concerning patterns require a significant harm report",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Do nothing further because the concern is not imminent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Wait until after hours so the concern can be discussed with the Child Wellbeing Unit",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Refer directly to the Child Protection Unit because it replaces community risk-triage pathways",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Child Wellbeing Unit is the most appropriate pathway for concerns that are worrying but do not meet the threshold for an immediate significant harm report. It provides work-hours advice and triage for accumulating risk concerns such as repeated missed appointments.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 21,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:30:33.387Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B09-attempt-01-6ed2a0ecdaa66c48936a",
+  "rationale": "The Child Wellbeing Unit is used for concerns below the significant harm threshold that still warrant escalation and advice. It is a work-hours triage pathway for accumulative risk of harm rather than an after-hours service.",
+  "optionExplanations": {
+    "A": "Correct because the Child Wellbeing Unit is the work-hours pathway for concerns that do not yet meet the threshold for an immediate significant harm report but still need advice and triage.",
+    "B": "Incorrect because not every concerning pattern requires an immediate significant harm report; this scenario fits a lower-threshold wellbeing pathway.",
+    "C": "Incorrect because repeated missed appointments with concern for neglect still warrant escalation and advice rather than inaction.",
+    "D": "Incorrect because the Child Wellbeing Unit operates during work hours, so delaying until after hours is not the appropriate pathway.",
+    "E": "Incorrect because the Child Protection Unit is not the routine triage pathway for lower-threshold accumulative risk concerns."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B09-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvlrm5s0001rjecoyr30zy6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.345679012345679,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6b8db371-2d7d-4ee1-a9fc-3452b3d9a1b8",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B09/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Children and adolescents at risk",
+      "Child Wellbeing Unit",
+      "accumulative risk"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:05.637Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

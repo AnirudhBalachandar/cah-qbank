@@ -1,0 +1,98 @@
+{
+  "id": "3126f0a7-bc56-4949-a007-0199e24e1c50",
+  "stem": "According to Parkland formula timing, if a patient is burned at 12:00 PM and arrives at hospital at 2:00 PM, by what time should the first half of the calculated fluid be administered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "8:00 PM",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "10:00 PM",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "4:00 PM",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "12:00 AM",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "6:00 PM",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Parkland formula timing starts from the time of injury, so the first half of the fluid should be completed by 8:00 PM.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.293Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7324385ac406f4105590",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the first half of the resuscitation fluid is given within the first 8 hours from the time of the burn, which is 8:00 PM.",
+    "B": "Incorrect because this is 10 hours after the burn; the first half must be completed by 8 hours from injury.",
+    "C": "Incorrect because this is only 4 hours after the burn and is too early for the end point of the first half.",
+    "D": "Incorrect because midnight is 12 hours after the burn, which is too late for completion of the first half.",
+    "E": "Incorrect because this is 6 hours after the burn; the first half is not due until 8 hours after injury."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Remember that the clock for resuscitation begins at the moment of injury.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5e2e13aa-32f4-4c4a-b502-af116dee0f48",
+    "overlapScore": 0.3896103896103896,
+    "questionIndex": 6,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:21.500Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "20653a73-f0b3-4456-b7e5-8e0791e98241",
+  "stem": "Which food pair has a high level of clinical cross-reactivity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cashews and pistachios",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Peanuts and soy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wheat and other grains",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Peanuts and tree nuts",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Egg and milk",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cashews and pistachios are the correct answer because they form a tree nut group with high clinical cross-reactivity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+      "title": "00032 Year 3 CAH Allergy a-s1-low (2).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.115Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8349ae77c6d10994fa02",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because cashews and pistachios are a well-recognised tree nut pair with high clinical cross-reactivity.",
+    "B": "Incorrect because peanuts and soy do not have high clinical cross-reactivity.",
+    "C": "Incorrect because wheat and other grains are not a classic high cross-reactive food pair.",
+    "D": "Incorrect because peanut allergy and tree nut allergy can coexist, but this is not the specific high cross-reactive pair described here.",
+    "E": "Incorrect because egg and milk are common food allergens, but they are not a high cross-reactive pair."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the nuts that are often grouped together because they belong to the same botanical families.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "32",
+    "lectureTitle": "00032 Year 3 CAH Allergy a-s1-low (2).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6b779508-2d40-43d4-91ee-555194fe526d",
+    "overlapScore": 0.3888888888888889,
+    "questionIndex": 4,
+    "quizFileName": "quiz_032.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e70b8ea9-d86e-4479-a30e-e0961c324e09",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:46.948Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

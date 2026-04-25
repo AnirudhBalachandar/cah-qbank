@@ -1,0 +1,98 @@
+{
+  "id": "fc93b30f-7651-489b-89b9-725cc33703d8",
+  "stem": "What is the correct maintenance procedure for a standard non-anti-static spacer used daily?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wash in warm soapy water and air dry every 2 to 3 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Clean in a dishwasher daily to ensure complete sterilisation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wipe the interior with a dry microfibre cloth after every use",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Soak in a bleach solution monthly and rinse with cold water",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Rinse with plain water after each use and towel dry",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Wash in warm soapy water and air dry every 2 to 3 weeks is the correct maintenance for a standard non-anti-static spacer because it cleans the device without promoting static build-up.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+      "title": "00015 video3920953157-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.405Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7ae060abbb24df02b1a3",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because washing in warm soapy water and allowing the spacer to air dry every 2 to 3 weeks is the recommended maintenance to keep it clean and minimise static.",
+    "B": "Incorrect because dishwashers are not the recommended cleaning method and may damage the spacer or affect its performance.",
+    "C": "Incorrect because wiping the spacer with a dry cloth can increase static electricity and reduce medication delivery.",
+    "D": "Incorrect because bleach is not recommended for routine spacer maintenance and may damage the device.",
+    "E": "Incorrect because rinsing alone does not adequately clean the spacer, and towel drying can increase static build-up."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "382e9c2c-f737-4a36-b199-b7dc9fc32773",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how to avoid creating static electricity while maintaining hygiene.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "15",
+    "lectureTitle": "00015 video3920953157-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6c72d676-c792-4520-adcf-8e89d8713593",
+    "overlapScore": 0.3833333333333334,
+    "questionIndex": 3,
+    "quizFileName": "quiz_015.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70b6d54f-fbbf-4264-a8de-db63b29df579",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:18.999Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

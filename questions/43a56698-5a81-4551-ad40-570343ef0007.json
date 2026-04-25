@@ -1,0 +1,102 @@
+{
+  "id": "43a56698-5a81-4551-ad40-570343ef0007",
+  "stem": "A newborn had a faint cutaneous precursor lesion noted after delivery, and by 6 weeks a vascular lesion has become more obvious. Which birthmark is not usually present at birth, although a precursor lesion may be seen in some neonates?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Café au lait spot",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Naevus flammeus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ash leaf macule",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Epidermal naevus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Infantile haemangioma",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Infantile haemangioma is the correct answer because it is usually absent at birth and then becomes more obvious over the first weeks of life, sometimes after a subtle precursor lesion is seen in the newborn period.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 86,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:18:55.457Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B48-attempt-01-1c995e23d9de7951346f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because café au lait spots are flat pigmented lesions, not vascular lesions that typically appear after birth.",
+    "B": "Incorrect because naevus flammeus is a capillary malformation that is generally present from birth, not a lesion that evolves from a neonatal precursor.",
+    "C": "Incorrect because ash leaf macules are hypopigmented lesions associated with tuberous sclerosis, not postnatal vascular lesions.",
+    "D": "Incorrect because epidermal naevi are usually present at birth or early infancy and follow a characteristic linear pattern, rather than developing as an enlarging vascular lesion.",
+    "E": "Correct because infantile haemangioma is often not obvious at birth but develops rapidly in early infancy, and a precursor change may be seen in some neonates."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B48-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq2pej0001rjg255ok8w33",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3393665158371041,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "215e6236-b437-4f48-aa6f-62f48edc714b",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B48/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Birthmarks and developmental skin lesions",
+      "counselling",
+      "history"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:56.892Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "c4b09bd9-8b75-4e1a-b4c7-c6f41346dd31",
+  "stem": "After brushing teeth for two minutes with fluoride toothpaste, what should you advise the child to do?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spit out the froth but do not rinse with water",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Rinse thoroughly with water to remove all residue",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Rinse with a sugary mouthwash for taste",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Swallow the toothpaste to ensure it works",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Brush again immediately to remove the fluoride film",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Spit out the froth but do not rinse with water. This leaves fluoride on the teeth to continue protecting enamel against decay.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.008Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ffe7ef3745ce7a200f17",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because leaving a thin layer of fluoride on the tooth surface helps protect enamel against decay.",
+    "B": "Incorrect because rinsing washes away the fluoride that should remain on the teeth after brushing.",
+    "C": "Incorrect because sugary mouthwash increases the risk of dental caries and is not recommended after brushing.",
+    "D": "Incorrect because toothpaste should be spat out, not swallowed, and the aim is topical fluoride contact rather than ingestion.",
+    "E": "Incorrect because brushing again immediately is unnecessary and can reduce the time fluoride remains on the teeth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how to keep the fluoride in contact with the enamel for as long as possible.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "60146770-8ee8-476b-9714-2bfe826bd2e6",
+    "overlapScore": 0.3513513513513514,
+    "questionIndex": 6,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:15.742Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

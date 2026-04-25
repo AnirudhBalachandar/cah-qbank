@@ -1,0 +1,98 @@
+{
+  "id": "d1d0b9f1-a532-4cea-b4b8-8fb423499716",
+  "stem": "What is the recommended daily limit for recreational screen time for children and adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Less than 2 hours per day",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Exactly 4 hours per day",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "No specific time limit if the child is active",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only on weekends",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Up to 6 hours per day",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Less than 2 hours per day is the recommended daily limit for recreational screen time for children and adolescents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e1311dca-de48-47c0-b390-f8170a828691",
+      "title": "00091 Baur Assessing & man-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.436Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b83f3564b528b029225e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the guideline recommends limiting recreational screen time to less than 2 hours per day.",
+    "B": "Incorrect because 4 hours per day exceeds the recommended limit for recreational screen use.",
+    "C": "Incorrect because the guideline gives a specific daily limit rather than leaving screen time unrestricted.",
+    "D": "Incorrect because the recommendation is about limiting total daily recreational screen time, not restricting it to weekends.",
+    "E": "Incorrect because 6 hours per day is well above the recommended limit."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e1311dca-de48-47c0-b390-f8170a828691",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The suggested limit is a small number of hours, often found in 'Healthy Habits' guides.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "91",
+    "lectureTitle": "00091 Baur Assessing & man-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5e531725-c64a-4733-8acb-3fd2e9489fc3",
+    "overlapScore": 0.4453125,
+    "questionIndex": 9,
+    "quizFileName": "quiz_091.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5c76e46d-2ba0-48ec-b31b-99f3775f2bd6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:46.836Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

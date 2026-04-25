@@ -1,0 +1,109 @@
+{
+  "id": "2266c5cf-0007-46e7-8795-4c78f49ef839",
+  "stem": "Which question is most appropriate if you want to assess brief resolved unexplained event (BRUE) definition and risk classification?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A question asking whether BRUE appears in the General Paediatrics section",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A question asking for a BRUE definition and risk classification",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A question asking which unrelated topic is discussed on page 20",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A question asking whether the notes include a contents section",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A question asking if obesity assessment is discussed in the notes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "BRUE definition and risk classification is the correct focus. It tests the intended clinical concept directly and remains clinically grounded.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 1,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 20,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:25:25.174Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-c25d8fbc98f9ea66b9d4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because this asks about document structure rather than the BRUE clinical concept",
+    "B": "Correct because it directly assesses BRUE definition and risk classification",
+    "C": "Incorrect because it is an unrelated metadata question and does not assess BRUE",
+    "D": "Incorrect because it asks about the presence of a contents section rather than BRUE",
+    "E": "Incorrect because it concerns obesity assessment, not BRUE"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B19-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3284671532846715,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d7150f2b-ecac-4fd6-8a0b-6c27b71f0686",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "BRUE and SIDS prevention",
+      "screening",
+      "source sufficiency"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack",
+      "Retrieved internal source pack"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:55.173Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

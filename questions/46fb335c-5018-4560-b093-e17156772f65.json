@@ -1,0 +1,98 @@
+{
+  "id": "46fb335c-5018-4560-b093-e17156772f65",
+  "stem": "Which triad traditionally defines West syndrome in infants?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Focal aware seizures, cortical tubers, and ADHD",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Absence seizures, 3 Hz spike-and-wave EEG, and normal development",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Epileptic spasms, hypsarrhythmia on EEG, and developmental regression",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Myoclonic jerks, sleep deprivation triggers, and tonic-clonic seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tonic seizures, focal slowing on EEG, and language delay",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Epileptic spasms, hypsarrhythmia on EEG, and developmental regression are the classic triad of West syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.579Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4de0e0f49be06b15ce9f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because focal aware seizures with cortical tubers suggest tuberous sclerosis or another focal epilepsy syndrome, not West syndrome.",
+    "B": "Incorrect because absence seizures with 3 Hz spike-and-wave EEG are typical of childhood absence epilepsy, not an infantile epileptic encephalopathy.",
+    "C": "Correct because West syndrome is classically defined by epileptic spasms, hypsarrhythmia on EEG, and developmental regression.",
+    "D": "Incorrect because myoclonic jerks with sleep deprivation triggers are characteristic of juvenile myoclonic epilepsy, usually presenting in adolescence.",
+    "E": "Incorrect because tonic seizures with focal EEG slowing and language delay do not define the classic West syndrome triad."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the specific seizure type, a unique EEG finding, and the impact on the child's milestones.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "795ac13c-8457-4562-aa1a-dff66e4eb47c",
+    "overlapScore": 0.3561643835616438,
+    "questionIndex": 2,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:03.867Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

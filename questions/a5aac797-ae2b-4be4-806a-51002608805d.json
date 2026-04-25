@@ -1,0 +1,101 @@
+{
+  "id": "a5aac797-ae2b-4be4-806a-51002608805d",
+  "stem": "Which child with an otherwise similar acute viral upper-airway illness should have the lowest threshold for escalation because age-related physiology can reduce oxygen offload to tissues?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A 3-month-old infant",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A 10-month-old infant",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A 2-year-old child",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A 6-year-old child",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A 12-year-old adolescent",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A 3-month-old infant is the best answer because young infants have relatively higher foetal haemoglobin, which reduces oxygen offload to tissues and warrants a lower threshold for escalation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Respiratory 3.1 Acute Respiratory Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:21:16.882Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-01-85cdee98c197ed5608ea",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a 3-month-old infant is within the early infancy period when relatively higher foetal haemoglobin can reduce oxygen offload to tissues.",
+    "B": "Incorrect because by 10 months the infant is beyond the early period in which relatively higher foetal haemoglobin is the key concern.",
+    "C": "Incorrect because a 2-year-old child is well beyond the age range where foetal haemoglobin-related reduction in oxygen offload is most relevant.",
+    "D": "Incorrect because a 6-year-old child does not have the early infancy physiology described in the stem.",
+    "E": "Incorrect because a 12-year-old adolescent does not have the early infancy physiology described in the stem."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B24-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlvez70001rjv96kokautb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2842105263157895,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e036de1b-8058-421f-b4af-d459a8dfb2e1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "Escalation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:06.001Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

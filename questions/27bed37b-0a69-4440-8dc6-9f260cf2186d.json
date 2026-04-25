@@ -1,0 +1,102 @@
+{
+  "id": "27bed37b-0a69-4440-8dc6-9f260cf2186d",
+  "stem": "Which background factor is associated with nocturnal enuresis in a school-aged child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Family history of nocturnal enuresis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Previous use of mineral oil for constipation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Delayed passage of meconium beyond 48 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Feeding from one breast only for a few feeds",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Symptoms of lactose intolerance",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Family history of nocturnal enuresis is the correct answer. Nocturnal enuresis is more common in children with a family history of bedwetting.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 26,
+      "title": "Nocturnal enuresis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:29:55.324Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B20-attempt-02-5c90d34952b2f01fb1de",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a family history of nocturnal enuresis is a recognised association.",
+    "B": "Incorrect because previous use of mineral oil for constipation is not an association with nocturnal enuresis.",
+    "C": "Incorrect because delayed passage of meconium beyond 48 hours suggests possible bowel disease, not enuresis risk.",
+    "D": "Incorrect because feeding from one breast only for a few feeds is unrelated to nocturnal enuresis.",
+    "E": "Incorrect because symptoms of lactose intolerance are not a recognised background factor for nocturnal enuresis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B20-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm6izy0001rjyx5eeim70a",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3424657534246575,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "baab27e9-e08e-4e8e-922c-5547eb78128b",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B20/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Common paediatric primary-care presentations",
+      "nocturnal enuresis",
+      "associations"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:04.661Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

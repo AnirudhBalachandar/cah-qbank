@@ -1,0 +1,102 @@
+{
+  "id": "18ba6ddf-46e8-4fc4-a809-7969f5194a9a",
+  "stem": "An adolescent with diabetes is unwell at home, their glucose is low and blood ketones are elevated; what is the best response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Give insulin and carbohydrates",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Give water only and withhold insulin",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Stop all oral intake until ketones normalise",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Treat only the ketones and ignore the glucose",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Repeat testing tomorrow before acting",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Give insulin and carbohydrates. Low glucose with elevated ketones still requires insulin, and carbohydrate is needed to treat the hypoglycaemia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 100,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:30:21.875Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-01-297d48a3459f9bf0a8fc",
+  "rationale": "Low glucose with elevated ketones still requires insulin; carbohydrate is also needed when hypoglycaemia is present; paired glucose-ketone interpretation is essential in sick day management.",
+  "optionExplanations": {
+    "A": "Correct because low glucose with elevated ketones requires both insulin and carbohydrate, rather than withholding treatment.",
+    "B": "Incorrect because withholding insulin does not address ketonaemia and water alone does not treat hypoglycaemia.",
+    "C": "Incorrect because stopping all oral intake is not the recommended response when carbohydrate is needed for low glucose.",
+    "D": "Incorrect because management must address both the glucose and the ketones, not one in isolation.",
+    "E": "Incorrect because this situation needs prompt active management rather than waiting until the next day."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B53-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqhf2d0001rjvzc238bjkg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3395061728395062,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d2a97784-c746-4f56-be37-56f95b4ae46f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "complications",
+      "education"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:31.636Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

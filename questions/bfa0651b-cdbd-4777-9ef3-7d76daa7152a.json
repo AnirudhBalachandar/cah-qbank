@@ -1,0 +1,98 @@
+{
+  "id": "bfa0651b-cdbd-4777-9ef3-7d76daa7152a",
+  "stem": "Within what timeframe do IgE-mediated food allergic reactions typically occur?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Within 24 to 48 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Immediate to within 2 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Exactly 12 hours after ingestion",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "After 1 week of repeated exposure",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Several days after ingestion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Immediate to within 2 hours is the typical timeframe for IgE-mediated food allergic reactions.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.772Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-18669780fce03c684c9b",
+  "rationale": "IgE-mediated food allergy usually presents rapidly after exposure, unlike delayed non-IgE-mediated reactions.",
+  "optionExplanations": {
+    "A": "Incorrect because reactions over 24 to 48 hours are more typical of delayed non-IgE-mediated responses.",
+    "B": "Correct because IgE-mediated food allergic reactions are immediate and usually occur within 2 hours of ingestion.",
+    "C": "Incorrect because IgE-mediated reactions do not characteristically present at a fixed 12-hour delay.",
+    "D": "Incorrect because a 1-week delay is not typical of IgE-mediated food allergy.",
+    "E": "Incorrect because several days after ingestion is more consistent with delayed immune-mediated reactions, not IgE-mediated allergy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "These reactions are known for being very rapid in onset.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "85001753-f269-4cbf-8095-2978aafe897b",
+    "overlapScore": 0.4197530864197531,
+    "questionIndex": 5,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:02.149Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

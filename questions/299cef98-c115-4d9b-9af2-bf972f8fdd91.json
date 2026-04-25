@@ -1,0 +1,98 @@
+{
+  "id": "299cef98-c115-4d9b-9af2-bf972f8fdd91",
+  "stem": "What is the typical eruption sequence of the primary dentition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1, 2, 4, 3, 5",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "1, 2, 3, 4, 5",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "5, 4, 3, 2, 1",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "2, 1, 4, 3, 5",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "1, 3, 2, 4, 5",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct sequence is 1, 2, 4, 3, 5 for primary tooth eruption.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.939Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-25aa001c3042436392ff",
+  "rationale": "Primary teeth erupt in a characteristic order, with the first molar typically emerging before the canine.",
+  "optionExplanations": {
+    "A": "Correct because the usual primary dentition sequence is central incisor, lateral incisor, first molar, canine, then second molar.",
+    "B": "Incorrect because the canine usually erupts after the first molar, not before it.",
+    "C": "Incorrect because primary teeth do not erupt from the back of the mouth forward in this order.",
+    "D": "Incorrect because the central incisor typically erupts before the lateral incisor.",
+    "E": "Incorrect because this does not match the usual sequence of primary tooth eruption."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Remember that there is a 'gap' in the numerical order where the first molar precedes the canine.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d65a3481-98bd-43ed-a656-5bc5441d7ef5",
+    "overlapScore": 0.4406779661016949,
+    "questionIndex": 4,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:11.168Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

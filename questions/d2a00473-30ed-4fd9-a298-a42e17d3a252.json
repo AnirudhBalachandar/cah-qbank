@@ -1,0 +1,98 @@
+{
+  "id": "d2a00473-30ed-4fd9-a298-a42e17d3a252",
+  "stem": "What does the ‘Sisyphus’ analogy by Pekka Pushka represent in obesity prevention?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The impossibility of losing weight once gained",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The high amount of individual effort required when the environment is steep or unsupportive",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The genetic inevitability of metabolic syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The cycle of weight loss and regain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The idea that obesity prevention is mainly driven by medication",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is the high individual effort needed when the environment is steep or unsupportive. The Sisyphus analogy illustrates how difficult behaviour change becomes when healthy choices are made harder by the surrounding environment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+      "title": "00090 Baur SMP Obesity pre-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.237Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f4f8df397f45e8335fdc",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the analogy is about the difficulty of prevention and behaviour change, not the impossibility of losing weight.",
+    "B": "Correct because Sisyphus pushing the boulder represents the heavy effort required to make healthy choices when the environment works against the individual.",
+    "C": "Incorrect because the analogy focuses on environmental and public health influences rather than genetic inevitability.",
+    "D": "Incorrect because the image is not specifically about yo-yo dieting, but about the uphill struggle of prevention in an unsupportive setting.",
+    "E": "Incorrect because the analogy is about population and environmental factors, not medication as the main driver of obesity prevention."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how an uphill climb relates to the difficulty of making healthy choices in a modern world.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "90",
+    "lectureTitle": "00090 Baur SMP Obesity pre-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "af892b6f-868d-4594-8a9b-d0e0851a699d",
+    "overlapScore": 0.4523809523809524,
+    "questionIndex": 7,
+    "quizFileName": "quiz_090.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c886d9c4-927e-4f78-9fc5-77a24d552dc0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:47.790Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

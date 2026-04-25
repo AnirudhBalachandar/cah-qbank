@@ -1,0 +1,98 @@
+{
+  "id": "0e175957-5241-4c54-97e3-df372ff654ef",
+  "stem": "Which bedside finding is considered the gold standard for diagnosing coarctation of the aorta?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Absent or weak femoral pulses",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A continuous machinery murmur",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Central cyanosis of the lips and tongue",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A musical Still's murmur at the left sternal border",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bounding upper limb pulses",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Absent or weak femoral pulses are the key bedside finding in coarctation of the aorta. The narrowing reduces blood flow to the lower body, so the femoral pulses are diminished compared with the upper limb pulses.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.198Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-16ca5c86c51ce1a3bfed",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because coarctation causes reduced blood flow beyond the narrowed aortic segment, making the femoral pulses weak or absent.",
+    "B": "Incorrect because a continuous machinery murmur is classically associated with a patent ductus arteriosus, not coarctation.",
+    "C": "Incorrect because coarctation is usually an acyanotic lesion, so central cyanosis is not the typical bedside finding.",
+    "D": "Incorrect because a Still's murmur is an innocent murmur and does not indicate aortic narrowing.",
+    "E": "Incorrect because bounding upper limb pulses are not the classic finding; coarctation typically produces stronger arm pulses with weaker leg pulses."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This diagnostic sign involves palpating a specific area of the body to check for blood flow distal to the heart.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "56cf4635-23d0-4afc-a755-ce437bbcc160",
+    "overlapScore": 0.4747474747474748,
+    "questionIndex": 10,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:10.809Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

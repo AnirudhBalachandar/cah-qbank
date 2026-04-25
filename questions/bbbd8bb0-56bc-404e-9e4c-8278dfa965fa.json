@@ -1,0 +1,98 @@
+{
+  "id": "bbbd8bb0-56bc-404e-9e4c-8278dfa965fa",
+  "stem": "In a 3-week-old infant with jaundice, which clinical sign most suggests that bile is not reaching the intestine?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Acolic (pale) stools",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Dark-coloured stools",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Scleral icterus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Birth weight on the 30th centile",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Green vomit",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acolic (pale) stools indicate that bile is not entering the intestine, so stool pigment is absent and neonatal cholestasis or biliary obstruction must be considered.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.055Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-faefd31e2f8df09b396a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because pale stools indicate a lack of bile pigment in the bowel, which suggests impaired bile flow into the intestine.",
+    "B": "Incorrect because dark-coloured stools usually mean bile pigments are present in the gut and do not suggest failure of bile entry.",
+    "C": "Incorrect because scleral icterus shows jaundice but does not indicate whether bile is reaching the intestine.",
+    "D": "Incorrect because birth weight centile reflects growth status, not biliary excretion or stool pigmentation.",
+    "E": "Incorrect because green vomit suggests bilious vomiting from intestinal obstruction and is not a sign of absent bile in the stool."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the diagnostic tool mentioned that helps parents identify abnormal fecal color.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d3f93425-25de-4e35-8172-e2234dbc9e55",
+    "overlapScore": 0.4453781512605042,
+    "questionIndex": 1,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:53.707Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "4bbc0cd7-8afe-4458-9c9a-8d6f8958e822",
+  "stem": "What is the usual long-term prognosis for most children with food protein-induced enterocolitis syndrome (FPIES)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is a lifelong condition requiring strict avoidance",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It frequently progresses to IgE-mediated anaphylaxis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Most children outgrow the condition by 2 to 4 years of age",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Resolution only occurs if the child also has severe eczema",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It commonly causes permanent growth failure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Most children outgrow FPIES by 2 to 4 years of age, so the prognosis is generally favourable in early childhood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.357Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ac2ac712aec6b0830b96",
+  "rationale": "FPIES is usually a transient non-IgE food allergy, and many children develop tolerance within the first few years of life.",
+  "optionExplanations": {
+    "A": "Incorrect because FPIES is usually not lifelong, and many children eventually tolerate the trigger food.",
+    "B": "Incorrect because FPIES is a non-IgE-mediated disorder and does not typically progress to IgE-mediated anaphylaxis.",
+    "C": "Correct because most children develop tolerance and outgrow FPIES by 2 to 4 years of age.",
+    "D": "Incorrect because FPIES resolution is not dependent on eczema or other atopic conditions.",
+    "E": "Incorrect because while feeding issues can occur, permanent growth failure is not the usual long-term outcome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the typical age range for achieving tolerance to FPIES triggers.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "95e4c3bd-abb1-460a-a523-af48af344f64",
+    "overlapScore": 0.4,
+    "questionIndex": 10,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:19.709Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

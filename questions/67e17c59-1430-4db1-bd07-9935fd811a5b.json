@@ -1,0 +1,98 @@
+{
+  "id": "67e17c59-1430-4db1-bd07-9935fd811a5b",
+  "stem": "What ultrasound finding is characteristic of an intussusception?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Multiple concentric rings in the upper abdomen",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A double bubble of fluid-filled structures",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A pyloric channel length exceeding 14 mm",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Branching lucency within the portal venous system",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Free intraperitoneal air under the diaphragm",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The target or donut sign is the characteristic ultrasound finding in intussusception.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.454Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e124cc3078f41a36bfca",
+  "rationale": "It occurs when one segment of bowel telescopes into another, producing concentric rings on transverse ultrasound.",
+  "optionExplanations": {
+    "A": "Correct because intussusception classically appears as a target or donut sign with concentric rings on ultrasound.",
+    "B": "Incorrect because a double bubble is a sign of duodenal atresia, not intussusception.",
+    "C": "Incorrect because an elongated pyloric channel suggests pyloric stenosis, not intussusception.",
+    "D": "Incorrect because branching lucency in the portal venous system indicates portal venous gas, not intussusception.",
+    "E": "Incorrect because free intraperitoneal air suggests bowel perforation, not intussusception."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This sign is created by one segment of bowel telescoping into another.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e42fa1ed-f011-453d-b9bd-6e47a7493692",
+    "overlapScore": 0.3823529411764706,
+    "questionIndex": 10,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:07.511Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

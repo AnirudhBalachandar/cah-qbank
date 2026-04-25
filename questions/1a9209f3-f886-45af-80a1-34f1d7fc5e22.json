@@ -1,0 +1,98 @@
+{
+  "id": "1a9209f3-f886-45af-80a1-34f1d7fc5e22",
+  "stem": "What is the recommended empiric therapy for MRSA skin infections in high-prevalence areas such as Dubbo?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Clindamycin or cotrimoxazole",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Penicillin G",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Amoxicillin with clavulanic acid",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Topical antifungal cream",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cephalexin",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Clindamycin or cotrimoxazole are recommended empiric options for suspected MRSA skin infection in areas with high community MRSA prevalence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+      "title": "00023 ATSI health gap_HG04-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.799Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6b0fa5c410109b206c89",
+  "rationale": "The key issue is coverage for methicillin-resistant Staphylococcus aureus, which requires antibiotics active against MRSA.",
+  "optionExplanations": {
+    "A": "Correct because clindamycin or cotrimoxazole provide empiric cover for community MRSA skin infections.",
+    "B": "Incorrect because penicillin G does not reliably cover MRSA.",
+    "C": "Incorrect because amoxicillin with clavulanic acid is not dependable treatment for MRSA.",
+    "D": "Incorrect because topical antifungal cream treats fungal infection, not bacterial MRSA skin infection.",
+    "E": "Incorrect because cephalexin does not reliably cover MRSA."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b00ea9d2-72e9-446a-87a1-296e34b77055",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The treatment must target multi-resistant Staphylococcus aureus (MRSA).",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "23",
+    "lectureTitle": "00023 ATSI health gap_HG04-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4974dcec-c6c3-47d0-96f8-b6e809dbecbf",
+    "overlapScore": 0.3529411764705883,
+    "questionIndex": 5,
+    "quizFileName": "quiz_023.json",
+    "quizTitle": "Indigenous Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cb62cee4-4a49-4f9e-9d69-3b6588737d6d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:36.098Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

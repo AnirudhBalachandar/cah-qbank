@@ -1,0 +1,98 @@
+{
+  "id": "bf63c696-66cb-4971-9fbe-b65b6667c8e9",
+  "stem": "A 4-year-old child presents with a sudden limp and morning stiffness in the hip but otherwise looks well, and the symptoms resolve within 10 days; what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Osteomyelitis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Transient synovitis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Slipped capital femoral epiphysis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Leukaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Septic arthritis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Transient synovitis is the most likely diagnosis. This is because it commonly affects preschool children, often follows a viral illness, causes a limp with a well-appearing child, and usually resolves spontaneously within days to 1 to 2 weeks.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.398Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4428f18d7a485660f834",
+  "rationale": "Transient synovitis is the most likely diagnosis for a well preschool child with an acute limp and short-lived hip symptoms.",
+  "optionExplanations": {
+    "A": "Incorrect because osteomyelitis usually causes more persistent pain, local tenderness and systemic features, and does not typically resolve spontaneously within 10 days.",
+    "B": "Correct because transient synovitis commonly affects preschool children, often follows a viral illness, causes a limp in a well child, and usually resolves spontaneously within days to 1 to 2 weeks.",
+    "C": "Incorrect because slipped capital femoral epiphysis usually affects older children or adolescents and is not a typical diagnosis in a 4-year-old.",
+    "D": "Incorrect because leukaemia may cause bone or joint pain, but it is usually associated with systemic features such as pallor, bruising or malaise rather than an isolated short-lived limp.",
+    "E": "Incorrect because septic arthritis usually presents with an unwell child, marked pain and reduced movement of the joint, and it is a medical emergency rather than a self-limiting condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the most common cause of hip pain in the preschool and early school-age population.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "85f29111-fe7b-4633-8c81-7a1502bba9e2",
+    "overlapScore": 0.485207100591716,
+    "questionIndex": 6,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:02.930Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

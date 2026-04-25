@@ -1,0 +1,98 @@
+{
+  "id": "ffd611f3-db0a-42fd-8f91-6bdf8f57691f",
+  "stem": "What is the clinical significance of iron deficiency in a child with frequent breath-holding spells?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It contraindicates pacemaker use",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Correction of the iron deficiency may reduce the frequency of the breath-holding events",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It indicates symptomatic epilepsy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It suggests a higher risk of malignant cardiac arrhythmias",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It confirms an underlying structural brain lesion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Correction of iron deficiency may reduce the frequency of breath-holding spells. Breath-holding spells are typically non-epileptic events, and iron supplementation can lessen their recurrence in some children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f0675d98-245a-4db6-af56-a032c2146441",
+      "title": "00065 Approach to children-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.350Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e7d3f174f3b31707517d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because iron deficiency is not a contraindication to pacemaker use in this setting.",
+    "B": "Correct because iron deficiency is associated with breath-holding spells, and treating the deficiency may reduce how often the events occur.",
+    "C": "Incorrect because breath-holding spells are non-epileptic and are not reclassified as epilepsy because iron deficiency is present.",
+    "D": "Incorrect because iron deficiency does not by itself imply malignant arrhythmias, although cardiac causes should be considered if the presentation is atypical.",
+    "E": "Incorrect because iron deficiency does not confirm a structural brain lesion and breath-holding spells are usually functional rather than structural."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f0675d98-245a-4db6-af56-a032c2146441",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how metabolic or nutritional factors might influence the recurrence of these non-epileptic spells.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "65",
+    "lectureTitle": "00065 Approach to children-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9e3280c2-f1ae-41bd-aff8-3d1e386b4188",
+    "overlapScore": 0.3865546218487395,
+    "questionIndex": 5,
+    "quizFileName": "quiz_065.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c12ebfa2-6602-45a3-be50-1c80e6d9c6ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:26.140Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

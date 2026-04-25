@@ -1,0 +1,98 @@
+{
+  "id": "9efe1dbf-9aaa-4a67-bb5a-d519afd90886",
+  "stem": "What is the primary anatomical difference between malrotation and midgut volvulus?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Malrotation is a congenital predisposition, while volvulus is the acute twisting of the bowel",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Malrotation occurs in the small bowel, while volvulus occurs only in the large bowel",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Volvulus is a congenital defect, whereas malrotation is an acquired surgical emergency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Malrotation requires surgery immediately, while volvulus can be monitored",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Malrotation is a temporary blockage, while volvulus is inflammation of the bowel",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Malrotation is the congenital anatomical predisposition, while volvulus is the acute twisting complication that can occur because of it.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.428Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-68320b4bf5ae5120f19a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because malrotation is the underlying congenital abnormality of bowel position and mesenteric attachment, whereas volvulus is the acute twisting event that may result from it.",
+    "B": "Incorrect because both conditions relate to the midgut and small bowel rather than being limited in that way to separate bowel segments.",
+    "C": "Incorrect because the relationship is reversed: malrotation is congenital, and volvulus is the acute complication.",
+    "D": "Incorrect because volvulus is the surgical emergency, while malrotation is the underlying anatomical state that predisposes to it.",
+    "E": "Incorrect because a temporary blockage or inflammation does not describe the distinction between malrotation and volvulus."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One is the underlying condition of abnormal rotation, and the other is the mechanical complication of that condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f39c37c8-d6fd-4bc6-aea4-ea36e217980d",
+    "overlapScore": 0.6025641025641025,
+    "questionIndex": 9,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:53.794Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

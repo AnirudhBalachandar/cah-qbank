@@ -1,0 +1,98 @@
+{
+  "id": "4d7ee42b-81a3-4882-8968-db7cfde9ea38",
+  "stem": "Which condition typically presents as a warm, erythematous, diffuse neck swelling in a moderately unwell child after a viral upper respiratory tract infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Branchial fistula",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Cervical lymphadenitis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Sternomastoid tumour of infancy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lateral external angular dermoid cyst",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Thyroglossal duct cyst",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cervical lymphadenitis is the most likely diagnosis because it causes an acutely inflamed, tender, warm, erythematous neck swelling after a recent viral upper respiratory tract infection.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+      "title": "00022 surgery-head-neck-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.662Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9582a1acea357eb9cb6e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because branchial fistulae usually present as a small opening or intermittent discharge rather than an acute diffuse inflammatory swelling.",
+    "B": "Correct because cervical lymphadenitis commonly follows a viral upper respiratory tract infection and presents with a warm, erythematous, tender neck swelling and systemic upset.",
+    "C": "Incorrect because sternomastoid tumour of infancy presents as a firm, painless neck mass in infants, usually without erythema or acute illness.",
+    "D": "Incorrect because a dermoid cyst is typically a slow-growing, painless lump and is not usually warm or inflamed unless secondarily infected.",
+    "E": "Incorrect because a thyroglossal duct cyst is a midline neck swelling that moves with swallowing or tongue protrusion, not a diffuse warm inflammatory mass."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the acute signs of inflammation and the patient's systemic state.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "22",
+    "lectureTitle": "00022 surgery-head-neck-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f35a77bd-b2a8-48b4-be77-0a0c6f2cccb7",
+    "overlapScore": 0.3724137931034483,
+    "questionIndex": 6,
+    "quizFileName": "quiz_022.json",
+    "quizTitle": "Pediatric Neck Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "193b9d3f-4a97-4e98-8e83-6da631fa992e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:26.292Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

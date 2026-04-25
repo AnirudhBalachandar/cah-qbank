@@ -1,0 +1,98 @@
+{
+  "id": "5e8a7676-d3cb-4266-b9ae-6920b32bc8a3",
+  "stem": "Which of the following best describes the components that contribute to a child's occipitofrontal circumference (OFC)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Brain volume, cerebrospinal fluid, blood, and skull bone thickness",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Brain volume and skull thickness only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Grey matter, white matter, and scalp thickness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Brain volume, intracranial pressure, and hair density",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Brain volume and cerebrospinal fluid only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Brain volume, cerebrospinal fluid, blood, and skull bone thickness all contribute to occipitofrontal circumference.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.325Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-62ef0eab8253e8da956c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because OFC reflects the size of the intracranial contents as well as the skull, including brain volume, cerebrospinal fluid, blood, and skull bone thickness.",
+    "B": "Incorrect because skull thickness is only one part of the measurement and this option omits cerebrospinal fluid and blood.",
+    "C": "Incorrect because grey and white matter are parts of the brain, but scalp thickness is not a main component of OFC and the option omits cerebrospinal fluid, blood, and skull bone.",
+    "D": "Incorrect because intracranial pressure affects physiology but is not itself a component of OFC, and hair density does not contribute to the measurement.",
+    "E": "Incorrect because OFC includes more than brain volume and cerebrospinal fluid, with blood and skull bone thickness also contributing."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about all the physical structures and fluids contained within or making up the cranial vault.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "50f9a668-92c6-4c0f-87a6-bafbe592040b",
+    "overlapScore": 0.4361702127659575,
+    "questionIndex": 1,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:51.647Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

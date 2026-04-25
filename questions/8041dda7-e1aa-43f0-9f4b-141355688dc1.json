@@ -1,0 +1,98 @@
+{
+  "id": "8041dda7-e1aa-43f0-9f4b-141355688dc1",
+  "stem": "What is the primary role of humoral immunity in the adaptive immune system?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Using cytotoxic T cells to kill infected host cells",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Clearing extracellular pathogens through the production of antibodies by B cells",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Providing non-specific physical barriers such as skin and mucosal surfaces",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Regulating body pH and temperature to inhibit bacterial growth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Activating complement by neutrophil phagocytosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Humoral immunity is antibody-mediated defence against extracellular pathogens. B cells produce antibodies that circulate in body fluids and help neutralise or clear these organisms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.293Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-821c7503d8d41eeee943",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because this describes cell-mediated immunity, which uses cytotoxic T cells to target infected cells.",
+    "B": "Correct because humoral immunity is mediated by B cells producing antibodies that act against extracellular pathogens in body fluids.",
+    "C": "Incorrect because physical barriers such as skin and mucosa are part of innate immunity, not adaptive humoral immunity.",
+    "D": "Incorrect because body pH and temperature are innate physiological defences rather than antibody-mediated adaptive responses.",
+    "E": "Incorrect because complement can be activated by antibodies, but neutrophil phagocytosis is not the primary role of humoral immunity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the meaning of the word 'humor' in a historical biological context and what $B$ cells produce.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1cb61378-a15d-4144-806e-ee0acd283fde",
+    "overlapScore": 0.3714285714285714,
+    "questionIndex": 2,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:53.525Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

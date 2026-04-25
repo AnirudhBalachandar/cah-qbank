@@ -1,0 +1,98 @@
+{
+  "id": "1e5d7b56-5b96-4d41-9a80-5fe04ca2e1a4",
+  "stem": "According to the 2020 IASP definition, which of the following best describes pain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An objective sensory response purely determined by activity in sensory neurons",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An unpleasant sensory and emotional experience influenced by biological, psychological, and social factors",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A purely physiological reaction to actual tissue damage without emotional components",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A learned concept that only occurs after a person can verbally describe it",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A simple protective reflex triggered only by nociceptor activation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An unpleasant sensory and emotional experience influenced by biological, psychological, and social factors is the 2020 IASP definition of pain.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.329Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c7b730ef7abca49c9706",
+  "rationale": "Pain is not just a sensory signal or tissue injury; it is a subjective experience shaped by biological, psychological, and social influences.",
+  "optionExplanations": {
+    "A": "Incorrect because pain is not an objective response determined solely by sensory neuron activity; it is a subjective experience.",
+    "B": "Correct because this is the 2020 IASP definition, which describes pain as an unpleasant sensory and emotional experience influenced by biological, psychological, and social factors.",
+    "C": "Incorrect because pain is not purely physiological or limited to tissue damage, and it includes emotional and social dimensions.",
+    "D": "Incorrect because a person can experience pain even if they cannot verbally describe it; communication is not required for pain to exist.",
+    "E": "Incorrect because pain is broader than a reflex response and involves sensory, emotional, and contextual factors."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider if pain is limited to physical signals or if it includes a person's feelings and environment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "36baffe0-bc2c-437e-be68-8f61162ae0f3",
+    "overlapScore": 0.5125,
+    "questionIndex": 1,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:42.653Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

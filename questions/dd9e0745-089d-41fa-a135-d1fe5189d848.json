@@ -1,0 +1,98 @@
+{
+  "id": "dd9e0745-089d-41fa-a135-d1fe5189d848",
+  "stem": "What is a positive benefit of social media for marginalised adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It provides protection from sexually explicit content",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It reinforces traditional gender roles",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It offers a supportive environment to develop identity and well-being",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It reduces all offline risk-taking behaviour",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It eliminates feelings of social exclusion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Supportive online communities can help marginalised adolescents connect with others, explore identity, and improve well-being.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+      "title": "00077 Adolescent sexual be-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.757Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5f9e7581eccd11e7172c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because social media can expose adolescents to sexually explicit content rather than protect them from it.",
+    "B": "Incorrect because the concern described is that social media may be associated with less progressive gender norms, not reinforcement of traditional roles as a benefit.",
+    "C": "Correct because supportive online communities can help marginalised adolescents connect with others, explore identity, and improve well-being.",
+    "D": "Incorrect because social media use does not reliably reduce all offline risk-taking behaviour, and the lecture did not present this as the key benefit.",
+    "E": "Incorrect because social media may reduce isolation, but it does not completely eliminate feelings of social exclusion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how digital spaces can connect individuals who feel isolated in their immediate physical surroundings.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "77",
+    "lectureTitle": "00077 Adolescent sexual be-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a9d59bcc-e1cd-4bba-b1ff-bafcfd9e2c06",
+    "overlapScore": 0.5,
+    "questionIndex": 5,
+    "quizFileName": "quiz_077.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f494d4be-0233-4212-82ca-25cccbd58d42",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:12.750Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

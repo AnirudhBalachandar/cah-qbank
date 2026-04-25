@@ -1,0 +1,98 @@
+{
+  "id": "5de8f1e1-a6c9-4ed4-9ecc-5301d96bb40c",
+  "stem": "How does eye involvement in HLA-B27 associated arthritis differ from that seen in ANA-positive oligoarticular juvenile idiopathic arthritis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It presents as an acute, red, and painful eye",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is entirely asymptomatic and requires screening",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It only occurs in children under age 5",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It never leads to long-term vision damage",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It presents as painless conjunctival discharge",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acute anterior uveitis is the correct concept. In HLA-B27 associated arthritis, eye involvement is typically symptomatic, with a red, painful eye, unlike the silent uveitis seen in ANA-positive oligoarticular JIA.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.873Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0981b503d4604fa934ab",
+  "rationale": "HLA-B27 associated eye disease usually presents acutely with pain and redness, whereas ANA-positive oligoarticular JIA is classically associated with asymptomatic uveitis detected on screening.",
+  "optionExplanations": {
+    "A": "Correct because HLA-B27 associated eye involvement is typically acute anterior uveitis or iritis, which presents with a red, painful eye.",
+    "B": "Incorrect because asymptomatic uveitis is more typical of ANA-positive oligoarticular JIA, not HLA-B27 associated arthritis.",
+    "C": "Incorrect because age under 5 years is more relevant to oligoarticular JIA onset than to the pattern of HLA-B27 associated eye disease.",
+    "D": "Incorrect because untreated uveitis can cause significant long-term visual complications.",
+    "E": "Incorrect because conjunctival discharge suggests conjunctivitis rather than the acute iritis associated with HLA-B27 related disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One form is a 'silent' disease, while the other is an 'acute' medical presentation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "de90f7d1-d333-45a4-ac0b-02dc1ad2dd4e",
+    "overlapScore": 0.3944954128440367,
+    "questionIndex": 13,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:49.805Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

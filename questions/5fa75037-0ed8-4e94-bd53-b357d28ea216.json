@@ -1,0 +1,98 @@
+{
+  "id": "5fa75037-0ed8-4e94-bd53-b357d28ea216",
+  "stem": "What best distinguishes a congenital disruption from other types of congenital anomaly?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It always occurs during the period of organogenesis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It results from a destructive process after normal development",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is typically caused by a single gene mutation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is caused solely by abnormal mechanical forces",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is due to failed fusion of embryological structures",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Congenital disruption is the result of a destructive process acting on a structure that initially developed normally.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+      "title": "00061 dysmorphic syndromes-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.650Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-11136f480a556043f60c",
+  "rationale": "A disruption reflects extrinsic damage to a previously normal structure, such as from vascular interruption or amniotic band effects.",
+  "optionExplanations": {
+    "A": "Incorrect because malformations arise during organogenesis, whereas disruptions occur after a structure has initially formed.",
+    "B": "Correct because a disruption results from a destructive process acting after normal development has begun.",
+    "C": "Incorrect because single-gene mutations are more typical of inherited malformations or syndromic conditions, not disruptions.",
+    "D": "Incorrect because abnormal mechanical forces are more characteristic of deformations, not destructive disruptions.",
+    "E": "Incorrect because failed fusion describes a malformation, not a disruption."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the role of vascular occlusion or other external interfering events in this process.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "61",
+    "lectureTitle": "00061 dysmorphic syndromes-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bfa7d1c5-ba92-4e69-8d45-85eebd3b58a8",
+    "overlapScore": 0.5454545454545454,
+    "questionIndex": 5,
+    "quizFileName": "quiz_061.json",
+    "quizTitle": "Dysmorphology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "18d3845c-8426-41c0-b2e5-47fa8776d878",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:52.956Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

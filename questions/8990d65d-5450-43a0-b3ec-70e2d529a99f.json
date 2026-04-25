@@ -1,0 +1,102 @@
+{
+  "id": "8990d65d-5450-43a0-b3ec-70e2d529a99f",
+  "stem": "A 2-year-old is initially thought to have a lower-airway wheezy illness because expiration is noisy, but loud inspiratory stridor then appears; what is the best interpretation of this change?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The findings still localise only to the lower airway",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Inspiratory stridor means upper airway pathology must now be considered",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Stridor is an expected sign of bronchiolar mucus plugging",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The sound itself defines oxygenation efficacy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Inspiratory stridor is the classic sign of airspace pathology",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Inspiratory stridor indicates upper airway pathology. The change from an expiratory wheeze pattern to inspiratory stridor should prompt reassessment of localisation rather than continued assumption of a purely lower-airway problem.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 5,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:46:48.624Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-04-a165cee496429106e3d1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because new inspiratory stridor suggests upper airway involvement, not localisation only to the lower airway.",
+    "B": "Correct because inspiratory stridor is a sign of upper airway pathology and should prompt consideration of an upper airway cause.",
+    "C": "Incorrect because bronchiolar mucus plugging is a lower-airway process and does not classically produce inspiratory stridor.",
+    "D": "Incorrect because oxygenation is assessed clinically and with measures such as SpO2, not by the breath sound alone.",
+    "E": "Incorrect because airspace pathology is more consistent with findings such as grunting, not inspiratory stridor."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B25-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwms8vh0001rj3l0f2vt19u",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3421052631578947,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e036de1b-8058-421f-b4af-d459a8dfb2e1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "localisation-update",
+      "upper-vs-lower-airway"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:12.868Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

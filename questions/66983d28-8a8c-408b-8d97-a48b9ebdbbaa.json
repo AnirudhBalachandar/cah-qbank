@@ -1,0 +1,98 @@
+{
+  "id": "66983d28-8a8c-408b-8d97-a48b9ebdbbaa",
+  "stem": "What is the standard initial steroid dose for a child’s first episode of nephrotic syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "20\\text{ mg/m}^2 daily",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "40\\text{ mg/m}^2 on alternate days",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "60\\text{ mg/m}^2 daily",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "100\\text{ mg/m}^2 daily",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "60\\text{ mg/m}^2 on alternate days",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "60\\text{ mg/m}^2 daily is the standard initial steroid dose for a first episode of nephrotic syndrome, usually given for 4 to 6 weeks to induce remission.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.915Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-850be14374aab74f90d0",
+  "rationale": "The correct concept is the initial daily prednisolone dose used to induce remission in a child’s first episode of nephrotic syndrome.",
+  "optionExplanations": {
+    "A": "Incorrect because 20\\text{ mg/m}^2 daily is below the standard induction dose used for a first episode.",
+    "B": "Incorrect because alternate-day dosing is not the usual initial regimen for inducing remission in the first episode.",
+    "C": "Correct because 60\\text{ mg/m}^2 daily is the standard initial steroid dose for a child’s first episode of nephrotic syndrome.",
+    "D": "Incorrect because 100\\text{ mg/m}^2 daily exceeds the standard recommended starting dose.",
+    "E": "Incorrect because 60\\text{ mg/m}^2 is the correct daily dose, but alternate-day administration is not the standard initial regimen."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the specific milligram per square meter measurement used for the initial $4$ to $6$ weeks.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "db084857-0e21-4be9-b7c5-b6555c10a7d6",
+    "overlapScore": 0.4222222222222222,
+    "questionIndex": 3,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:04.955Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

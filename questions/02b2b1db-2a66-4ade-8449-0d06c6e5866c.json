@@ -1,0 +1,102 @@
+{
+  "id": "02b2b1db-2a66-4ade-8449-0d06c6e5866c",
+  "stem": "A 17-year-old who usually makes routine decisions well is considering a major elective treatment with significant long-term consequences; why should the clinician assess decision-making capacity especially carefully in this situation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because the gravity or seriousness of the proposed treatment is a relevant factor in competence assessment",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Because any decision after age 16 no longer needs capacity assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because chronic illness automatically prevents a young person from being competent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because only parents can decide when a treatment is serious",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because seriousness matters only in emergency treatment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct concept is that the gravity or seriousness of the proposed treatment is a relevant factor in competence assessment. Capacity is decision-specific, so higher-stakes choices require closer attention to the young person's understanding and ability to decide.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T04:44:26.802Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B02-50e3db0d907ce9175d13",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the seriousness of the proposed treatment is one of the factors considered when assessing competence.",
+    "B": "Incorrect because reaching 16 or 17 years does not remove the need for capacity assessment.",
+    "C": "Incorrect because chronic illness does not automatically mean a young person lacks competence.",
+    "D": "Incorrect because treatment seriousness is assessed clinically and is not decided only by parents.",
+    "E": "Incorrect because seriousness is relevant to competence assessment generally, not only in emergencies."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu4ogsa0001rj2wn09kah24",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3103448275862069,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-08.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "Gillick competence",
+      "clinical reasoning",
+      "high-stakes decisions"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:44.182Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

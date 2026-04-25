@@ -1,0 +1,101 @@
+{
+  "id": "367f156f-7541-4327-b09f-fb1d8323d359",
+  "stem": "A 9-year-old with known diabetes develops nausea and repeated vomiting during an intercurrent illness; how should these symptoms be interpreted on sick-day management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "As signs of insulin deficiency and ketosis until proven otherwise",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "As reassurance that ketosis is unlikely",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "As evidence that insulin should be withheld until oral intake improves",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "As proof of isolated gastroenteritis with no diabetes relevance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "As a reason to delay any diabetes review until the next day",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Signs of insulin deficiency and ketosis until proven otherwise is the correct interpretation. In a child with diabetes who is unwell, nausea and vomiting should be treated as warning features that may indicate ketosis and need prompt attention.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 100,
+      "title": "Diabetes Sick Day Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:32:48.995Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-02-7deb8536926884c865f6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because nausea and vomiting on a sick day are treated as signs of insulin deficiency and ketosis until proven otherwise.",
+    "B": "Incorrect because these symptoms are not reassuring in a child with diabetes; they raise concern for ketosis.",
+    "C": "Incorrect because insulin should not be withheld on this basis; the concern is that insulin deficiency may be present.",
+    "D": "Incorrect because vomiting in a child with diabetes has important diabetes implications and should not be dismissed as unrelated gastroenteritis.",
+    "E": "Incorrect because sick-day symptoms warrant timely assessment and management rather than waiting until the next day."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B53-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqkkjo0001rj1adscat45p",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3172043010752688,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4aef6afd-d5bb-4105-a99e-5fc88acd7eef",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "education"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:29.910Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

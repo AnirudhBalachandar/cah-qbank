@@ -1,0 +1,102 @@
+{
+  "id": "70565735-789d-4d23-ac67-046bde229ee8",
+  "stem": "Which topic comes after Specific GI Conditions in the gastroenterology chapter sequence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Chronic gastrointestinal conditions in children",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Diarrhoea and malabsorption",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Jaundice in children",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Food allergy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jaundice in children is the next topic after Specific GI Conditions in the gastroenterology chapter sequence.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 1,
+      "title": "Page 1"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:36.465Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-04-50ef71bd19757d372284",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because gastroenteritis appears earlier in the chapter sequence.",
+    "B": "Incorrect because chronic gastrointestinal conditions in children appears before Specific GI Conditions.",
+    "C": "Incorrect because diarrhoea and malabsorption appears before Specific GI Conditions.",
+    "D": "Correct because the chapter sequence shows Jaundice in children immediately after Specific GI Conditions.",
+    "E": "Incorrect because food allergy is not the next topic after Specific GI Conditions in the sequence shown."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B32-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpo5gy0001rj7qd0k988kh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3355263157894737,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3da49985-8260-4508-ad92-b0770aa6555c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-04.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "jaundice",
+      "study navigation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:22.217Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

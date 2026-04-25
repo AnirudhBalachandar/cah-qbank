@@ -1,47 +1,82 @@
 {
   "id": "0aff5d67-098c-431c-b61d-0deff775dc19",
-  "stem": "Baby, 6 months, breastfed, has eaten fruit and vegetables and pureed food before. Just had formula mixed with milk for the first time. Has a family history of atopy, has atopic dermatitis. Diffuse rash and vomiting…???",
+  "stem": "A 6-month-old breastfed infant with atopic dermatitis develops a diffuse urticarial rash and vomiting within minutes of first exposure to cow’s milk formula. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Milk protein intolerance",
-      "isCorrect": null
+      "text": "Cow’s milk protein allergy",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "IgE mediated response",
-      "isCorrect": null
+      "text": "IgE-mediated food allergy",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Non-IgE mediated allergy",
-      "isCorrect": null
+      "text": "Non-IgE-mediated food allergy",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Eosinophilic oesophagitis",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Non-eosinophilic oesophagitis",
-      "isCorrect": null
+      "text": "Lactose intolerance",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "The most likely diagnosis is cow’s milk protein allergy presenting as an IgE-mediated food allergy. The key clues are the immediate onset after ingestion, urticarial rash, vomiting, and the background of eczema/atopy. ASCIA and the Royal Children’s Hospital note that rapid-onset cow’s milk allergy commonly causes skin symptoms such as hives plus gastrointestinal symptoms including vomiting, and that children with IgE-mediated food allergy often have other atopic disease such as eczema. Non-IgE-mediated cow’s milk allergy is typically delayed, often with gastrointestinal symptoms later rather than within minutes.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australasian Society of Clinical Immunology and Allergy",
+      "url": "https://www.allergy.org.au/patients/food-allergy/cows-milk-dairy-allergy",
+      "title": "Cow's Milk (Dairy) Allergy"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+      "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy"
+    },
+    {
+      "type": "external",
+      "source": "Australasian Society of Clinical Immunology and Allergy",
+      "url": "https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy",
+      "title": "ASCIA Guide for Milk Substitutes in Cow’s Milk Allergy"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "cow-s-milk-protein-allergy",
+    "eczema",
+    "food-allergy",
+    "ige-mediated-allergy",
+    "infant",
+    "urticaria",
+    "vomiting"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.057Z",
   "sourceFingerprint": "11ea14f572cefb74728ecbcc",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Immediate rash plus vomiting after cow’s milk exposure in an infant with eczema is most consistent with IgE-mediated cow’s milk protein allergy.",
+  "optionExplanations": {
+    "A": "Correct. Cow’s milk protein allergy is the best diagnosis here; in this presentation it is most consistent with an IgE-mediated reaction to cow’s milk formula.",
+    "B": "Incorrect. This describes the mechanism rather than the diagnosis itself; the clinical diagnosis is cow’s milk protein allergy presenting as an IgE-mediated food allergy.",
+    "C": "Incorrect. Non-IgE-mediated cow’s milk allergy is typically delayed, often presenting hours later with eczema flare, vomiting, or diarrhoea rather than immediate urticaria and vomiting.",
+    "D": "Incorrect. Eosinophilic oesophagitis usually presents with feeding difficulty, dysphagia, food refusal, or vomiting over time, not an immediate allergic rash after first formula exposure.",
+    "E": "Incorrect. Lactose intolerance is not an immune-mediated allergy and does not cause urticaria or acute allergic rash; it typically causes gastrointestinal symptoms only."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Basic",
+  "ausScore": 2,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.014Z",
@@ -56,6 +91,73 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "a19f5efa216ec3a50a23"
+    "stemHash": "a19f5efa216ec3a50a23",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:07:52.737Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "normalized_existing_question",
+      "confidence": 0.93,
+      "evidenceSources": [
+        {
+          "title": "Cow's Milk (Dairy) Allergy",
+          "url": "https://www.allergy.org.au/patients/food-allergy/cows-milk-dairy-allergy",
+          "organization": "Australasian Society of Clinical Immunology and Allergy",
+          "sourceType": "australian_specialty",
+          "supports": "Immediate reactions to cow’s milk can occur within minutes to two hours and may cause hives and vomiting; delayed reactions are non-IgE mediated."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "IgE-mediated food allergy commonly presents with rash/urticaria and vomiting, and children often have other atopic disease such as eczema."
+        },
+        {
+          "title": "ASCIA Guide for Milk Substitutes in Cow’s Milk Allergy",
+          "url": "https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy",
+          "organization": "Australasian Society of Clinical Immunology and Allergy",
+          "sourceType": "australian_specialty",
+          "supports": "Provides classification of cow’s milk allergy and distinguishes non-IgE-mediated disease from IgE-mediated allergy."
+        }
+      ],
+      "notes": "Repaired as a complete SBA using the safest clinically relevant interpretation of the fragment. The original answer concept was preserved, but the stem was clarified to specify immediate symptoms after first cow’s milk formula exposure.",
+      "preRepair": {
+        "stem": "Baby, 6 months, breastfed, has eaten fruit and vegetables and pureed food before. Just had formula mixed with milk for the first time. Has a family history of atopy, has atopic dermatitis. Diffuse rash and vomiting…???",
+        "options": [
+          {
+            "key": "A",
+            "text": "Milk protein intolerance",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "IgE mediated response",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Non-IgE mediated allergy",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Eosinophilic oesophagitis",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Non-eosinophilic oesophagitis",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

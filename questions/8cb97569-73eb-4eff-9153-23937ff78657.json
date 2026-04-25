@@ -1,0 +1,98 @@
+{
+  "id": "8cb97569-73eb-4eff-9153-23937ff78657",
+  "stem": "What is the specific purpose of laser Doppler imaging in burn evaluation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To objectively measure blood flow in the superficial dermal capillary plexus",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To determine the exact bacterial load on the wound surface",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To calculate the fluid volume needed for the Parkland formula",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To cauterise bleeding vessels in deep dermal burns",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To estimate the percentage of total body surface area burned",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Laser Doppler imaging objectively measures perfusion in the superficial dermal capillary plexus, helping assess burn depth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.471Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8224cd6ef9366c7cbf10",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because it measures movement of red blood cells and perfusion in the superficial dermal microcirculation, which helps distinguish burn depth.",
+    "B": "Incorrect because it assesses blood flow, not microbial burden or wound contamination.",
+    "C": "Incorrect because Parkland formula fluid calculation is based on burn size and weight, not laser imaging.",
+    "D": "Incorrect because it is a diagnostic imaging technique, not a therapeutic cautery device.",
+    "E": "Incorrect because total body surface area is estimated clinically, whereas laser Doppler evaluates perfusion and depth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It provides a more objective assessment than clinical observation by looking at the microvasculature.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "75efa93e-d155-4f6d-96fd-b38bea3d6cc5",
+    "overlapScore": 0.3513513513513514,
+    "questionIndex": 12,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:20.254Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

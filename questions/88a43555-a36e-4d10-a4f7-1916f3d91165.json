@@ -1,0 +1,102 @@
+{
+  "id": "88a43555-a36e-4d10-a4f7-1916f3d91165",
+  "stem": "A child is reviewed after an episode of acute otitis media and still has middle ear fluid but no signs or symptoms of inflammation; what is the best term for this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Acute otitis media",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Otitis media with effusion",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Mastoiditis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bacterial otitis media requiring antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Chronic suppurative otitis media",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Otitis media with effusion is the correct term for middle ear fluid without signs or symptoms of inflammation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 7,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:14:14.428Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B22-attempt-02-eed721f58995a9ada2ef",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because acute otitis media involves acute inflammation, pain or fever, not just persistent fluid after infection.",
+    "B": "Correct because otitis media with effusion is middle ear fluid without signs or symptoms of inflammation, often following an episode of acute otitis media.",
+    "C": "Incorrect because mastoiditis is a more severe complication with mastoid inflammation, not uncomplicated middle ear effusion.",
+    "D": "Incorrect because otitis media with effusion does not routinely require antibiotics.",
+    "E": "Incorrect because chronic suppurative otitis media involves persistent ear discharge through a perforated tympanic membrane, not a non-inflamed effusion."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B22-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlmd130001rjmz6a79tceg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2974683544303797,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a4f1c416-a7e0-4c2a-b3b8-0df0104d6f12",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B22/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems II",
+      "otitis media with effusion",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:09.836Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

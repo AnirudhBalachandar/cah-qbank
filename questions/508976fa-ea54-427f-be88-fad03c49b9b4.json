@@ -1,0 +1,98 @@
+{
+  "id": "508976fa-ea54-427f-be88-fad03c49b9b4",
+  "stem": "What is the critical first step in managing a newborn with ambiguous external genitalia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediate surgical reconstruction before discharge",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A multidisciplinary workup with a neonatologist, endocrinologist, and paediatric surgeon",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "High-dose testosterone therapy to promote phallic growth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Determining sex from the appearance of the labioscrotal folds alone",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Routine discharge with later outpatient review",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A multidisciplinary workup is the critical first step because ambiguous genitalia requires careful assessment before any sex assignment or treatment decisions are made.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:46.097Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-974ff2b21562921a6589",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because sex assignment should not be rushed and surgery is not the first step before a full assessment.",
+    "B": "Correct because ambiguous genitalia requires coordinated assessment by specialists to determine internal anatomy, endocrine status, and genetic sex before management decisions.",
+    "C": "Incorrect because hormone therapy is not the initial step before diagnosis and specialist assessment are completed.",
+    "D": "Incorrect because external appearance alone can be misleading and is not sufficient to determine sex or underlying anatomy.",
+    "E": "Incorrect because this presentation needs prompt specialist evaluation rather than routine delayed review."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the team of specialists required to handle complex developmental abnormalities and the timeline for decision-making.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c2e72526-3a9e-42c3-b02c-c2ebfcf37798",
+    "overlapScore": 0.4491525423728814,
+    "questionIndex": 9,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:31.436Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

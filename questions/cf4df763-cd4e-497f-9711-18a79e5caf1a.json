@@ -1,0 +1,101 @@
+{
+  "id": "cf4df763-cd4e-497f-9711-18a79e5caf1a",
+  "stem": "A child with 22q11.2 deletion syndrome is being reviewed before ENT surgery. Which finding most directly supports avoiding adenoidectomy in this syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Velopharyngeal insufficiency related to palate anomalies",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A high risk of postoperative iron deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Frequent nephrotic syndrome relapse",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Progressive long-bone fractures",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Generalised muscle weakness from elevated creatine kinase",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Velopharyngeal insufficiency related to palate anomalies is the correct answer. In 22q11.2 deletion syndrome, palate abnormalities can make adenoidectomy worsen speech resonance by reducing velopharyngeal closure.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 168,
+      "title": "22q11.2 Deletion Syndrome (Velocardiofacial Syndrome +/- Di George Syndrome)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:03:55.271Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B67-attempt-03-9b04cef272aa5c849154",
+  "rationale": "22q11.2 deletion syndrome can include palate anomalies that predispose to velopharyngeal insufficiency, so adenoidectomy may be avoided to prevent worsening speech problems.",
+  "optionExplanations": {
+    "A": "Correct because palate anomalies in 22q11.2 deletion syndrome can cause velopharyngeal insufficiency, and adenoidectomy may worsen this.",
+    "B": "Incorrect because iron deficiency is not the surgical consideration that supports avoiding adenoidectomy in this syndrome.",
+    "C": "Incorrect because nephrotic syndrome relapse is not the relevant feature of 22q11.2 deletion syndrome here.",
+    "D": "Incorrect because progressive long-bone fractures are not the key ENT-related issue in 22q11.2 deletion syndrome.",
+    "E": "Incorrect because elevated creatine kinase with muscle weakness is not the finding that explains avoiding adenoidectomy in this syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B67-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4jj810001rjk8uvvolf76",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3402777777777778,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ae7d30c2-9a9d-45b2-baf6-2eb7bf06fa27",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B67/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Congenital malformations and dysmorphology approach",
+      "associated anomalies"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:38.633Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

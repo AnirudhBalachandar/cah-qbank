@@ -1,0 +1,102 @@
+{
+  "id": "3562eb0c-021e-47ba-95c3-1df22ef3713e",
+  "stem": "While applying a back-slab for a child with a fracture, which finding should prompt early referral rather than routine immobilisation and follow-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Neurovascular compromise",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A distal injury considered for a below-joint slab",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use of a broad plaster roll",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Stopping the cast short of joints",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Maintaining reduction until the plaster dries",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Neurovascular compromise requires early referral rather than routine immobilisation and follow-up. It is a red flag because compromised blood flow or nerve function needs urgent assessment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 156,
+      "title": "Page 156"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:19:49.191Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B76-attempt-03-68e724cb4be67f6169f6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because neurovascular compromise is a red flag that requires early referral and urgent reassessment rather than routine plastering and follow-up.",
+    "B": "Incorrect because distal injuries may be appropriate for a below-joint back-slab when otherwise suitable.",
+    "C": "Incorrect because using a broad plaster roll is part of good plaster technique.",
+    "D": "Incorrect because stopping the cast short of joints is a standard principle of appropriate cast application.",
+    "E": "Incorrect because maintaining reduction until the plaster dries is a key step in successful immobilisation."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B76-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx53zaz0001rjk2h5lu6l8n",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3381294964028777,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "31cb0e18-ca07-49c2-8d4e-608d0f4ce764",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B76/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Paediatric fractures",
+      "neurovascular checks",
+      "escalation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:27.207Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

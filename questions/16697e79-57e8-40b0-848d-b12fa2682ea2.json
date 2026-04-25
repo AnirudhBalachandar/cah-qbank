@@ -1,0 +1,98 @@
+{
+  "id": "16697e79-57e8-40b0-848d-b12fa2682ea2",
+  "stem": "Which condition is associated with macrocytic anaemia in which the red blood cells are larger than normal for the patient’s age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vitamin B12 or folate deficiency",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Beta thalassaemia trait",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Lead intoxication",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Chronic gastrointestinal blood loss",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Iron deficiency",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vitamin B12 or folate deficiency causes macrocytic anaemia by impairing DNA synthesis during red blood cell production, which leads to abnormally large red cells.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+      "title": "00062 TK Haematology_Red b-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.910Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-442a632543699e265745",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because deficiency of vitamin B12 or folate impairs DNA synthesis during red blood cell production, producing macrocytosis.",
+    "B": "Incorrect because beta thalassaemia trait typically causes microcytic anaemia with small red blood cells.",
+    "C": "Incorrect because lead intoxication is classically associated with microcytic anaemia rather than macrocytic anaemia.",
+    "D": "Incorrect because chronic gastrointestinal blood loss usually causes iron deficiency anaemia, which is microcytic.",
+    "E": "Incorrect because iron deficiency causes microcytic anaemia, not macrocytic anaemia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This type of anemia is often linked to nutritional deficiencies that affect $DNA$ maturation or primary bone marrow disorders.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "62",
+    "lectureTitle": "00062 TK Haematology_Red b-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9d35f926-2af2-4aa3-bd9e-ab5d5f4813d6",
+    "overlapScore": 0.3966942148760331,
+    "questionIndex": 10,
+    "quizFileName": "quiz_062.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bd5904a3-c1dc-4487-8b94-985662f8fe69",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:23.459Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

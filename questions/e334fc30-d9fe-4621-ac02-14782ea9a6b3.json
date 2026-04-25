@@ -1,0 +1,101 @@
+{
+  "id": "e334fc30-d9fe-4621-ac02-14782ea9a6b3",
+  "stem": "A child with gastroenteritis is assessed as more than 5% dehydrated; which fluid replacement plan best matches usual prescribing practice?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Calculate rehydration fluids at 5% dehydration over the first 24 hours, then replace the remainder over the next 24 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Replace the entire assessed deficit in the first 24 hours regardless of size",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Give maintenance only for 24 hours, then start replacing the deficit",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Replace only the portion above 5% and ignore the first 5%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delay deficit replacement until a premorbid weight is available",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Calculate rehydration fluids at 5% dehydration over 24 hours, then replace any remaining deficit over the next 24 hours. This staged approach is the usual prescribing method for a child assessed as more than 5% dehydrated.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 145,
+      "title": "Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:47:30.421Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B30-attempt-03-60b26694fbcc00d96702",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because usual prescribing is based on replacing 5% dehydration in the first 24 hours, then the remaining deficit over the following 24 hours.",
+    "B": "Incorrect because the full deficit is not usually replaced in the first 24 hours when dehydration is more than 5%.",
+    "C": "Incorrect because maintenance fluids alone do not address the dehydration deficit in the initial management plan.",
+    "D": "Incorrect because the first 5% is included in the standard replacement plan rather than being ignored.",
+    "E": "Incorrect because lack of a premorbid weight does not prevent percentage-based deficit replacement planning."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 3,
+  "source": {
+    "batchId": "B30-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmt54k0001rjn1ryz7ousz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B30/attempt-03.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Gastroenteritis and rehydration reasoning",
+      "Staged rehydration"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:23.005Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

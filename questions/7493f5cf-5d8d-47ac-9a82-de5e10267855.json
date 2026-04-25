@@ -1,0 +1,98 @@
+{
+  "id": "7493f5cf-5d8d-47ac-9a82-de5e10267855",
+  "stem": "Which feature is a specific indicator of pathological gastro-oesophageal reflux disease rather than benign reflux in an infant?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vomiting a small amount with every feed",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sandifer syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Occasional larger vomits",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Being unsettled immediately after feeding",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Poor weight gain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sandifer syndrome is the correct answer. Abnormal neck posturing or back arching associated with feeds suggests significant pathological reflux rather than simple infant regurgitation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+      "title": "00009 Common_Problems_Refl-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.863Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-80230fcd9b683d1f847d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because small-volume regurgitation with feeds is common in benign infant reflux.",
+    "B": "Correct because Sandifer syndrome, with abnormal neck posturing or back arching, is a classic sign of pathological reflux.",
+    "C": "Incorrect because occasional larger vomits can still occur in benign reflux and are not specific for disease.",
+    "D": "Incorrect because irritability after feeds is non-specific and may be seen in both benign and pathological reflux.",
+    "E": "Incorrect because poor weight gain can occur with significant reflux, but it is not as specific a sign as Sandifer syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a sign involving unusual physical posturing that suggests significant discomfort or neurological response to acid.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "9",
+    "lectureTitle": "00009 Common_Problems_Refl-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5201fb36-5615-4c0a-b9c4-d3c0d9fb7f81",
+    "overlapScore": 0.3587786259541985,
+    "questionIndex": 2,
+    "quizFileName": "quiz_009.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "697e57bc-023f-44bd-86ac-677e97816216",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:32.009Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

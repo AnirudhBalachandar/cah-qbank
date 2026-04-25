@@ -1,0 +1,102 @@
+{
+  "id": "45f0678d-9d73-45ea-b43c-910df9c820db",
+  "stem": "Which statement about gastro-oesophageal reflux disease risk in children is correct?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Obesity is a recognised risk factor for gastro-oesophageal reflux disease",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Obesity protects against gastro-oesophageal reflux disease in children",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Weight is unrelated to reflux risk once a child is older than 1 year",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only congenital anomalies are listed as reflux risk factors",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reflux symptoms are always normal if vomiting began in infancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Obesity is a recognised risk factor for gastro-oesophageal reflux disease. In a child with persistent reflux symptoms, excess weight is therefore clinically relevant.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 24,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:09:54.340Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B15-attempt-04-21355aef04711d07d407",
+  "rationale": "Obesity is a recognised paediatric risk factor for gastro-oesophageal reflux disease and should be considered when reviewing persistent reflux symptoms.",
+  "optionExplanations": {
+    "A": "Correct because obesity is listed as a recognised risk factor for gastro-oesophageal reflux disease.",
+    "B": "Incorrect because obesity is associated with increased, not reduced, reflux risk.",
+    "C": "Incorrect because weight can remain relevant to reflux risk beyond infancy.",
+    "D": "Incorrect because reflux risk factors include obesity and other factors, not only congenital anomalies.",
+    "E": "Incorrect because vomiting in infancy does not automatically mean later reflux symptoms are normal"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B15-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvtlp4x0001rjbwckxhnt6v",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3178807947019868,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9d5f9b1f-2337-4405-bb5d-c6a36aa3e01e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B15/attempt-04.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Growth, nutrition, and obesity",
+      "obesity complications",
+      "counselling and prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:07.211Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

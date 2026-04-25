@@ -1,0 +1,101 @@
+{
+  "id": "a0d54905-e063-41c2-92bf-543266a9613f",
+  "stem": "Which statement best explains why isolated pubic hair does not by itself prove central gonadal activation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pubarche is the response to adrenarche, whereas gonadarche reflects gonadal activation by FSH/LH",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pubic hair only appears after puberty has finished",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Pubic hair is the defining sign of ovarian enlargement",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pubarche and gonadarche are synonyms",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pubarche occurs only in boys",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pubarche is the response to adrenarche. Gonadarche refers to gonadal activation by FSH and LH, so isolated pubic hair does not necessarily indicate central gonadal activation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 92,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:28:10.461Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B52-attempt-01-dd989dacef617efccec6",
+  "rationale": "Pubarche and gonadarche are distinct pubertal events. Pubic hair alone does not prove gonadal activation.",
+  "optionExplanations": {
+    "A": "Correct because pubarche reflects adrenarche, whereas gonadarche is driven by FSH and LH-mediated gonadal activation.",
+    "B": "Incorrect because pubic hair is a pubertal change, not something that appears only after puberty has ended.",
+    "C": "Incorrect because pubic hair is not a sign of ovarian enlargement.",
+    "D": "Incorrect because pubarche and gonadarche are different processes, not synonyms.",
+    "E": "Incorrect because pubarche occurs in both sexes, not only in boys."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B52-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqelmp0001rjrm3e7xu0dq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3481012658227848,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4f3e76f8-6432-4cfc-a8d4-4b9b7f5761d6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B52/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Delayed puberty and precocious puberty",
+      "complication/prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:56.979Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

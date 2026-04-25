@@ -1,0 +1,98 @@
+{
+  "id": "665a0c42-703d-4045-a5bb-5cc2ff2cc9d4",
+  "stem": "According to the 2017 ILAE classification, what is the main factor used to make the first division of seizure types?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The duration of seizure activity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The initial manifestation of seizure onset",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The underlying genetic or structural aetiology",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The presence or absence of motor features",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The age at which the seizure occurs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The initial manifestation of seizure onset is the basis for the first division of seizure types. Seizures are classified initially by whether onset is focal, generalised, or unknown.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.550Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-df2facb133c0bf9b21e0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because seizure duration is important for conditions such as status epilepticus, but it is not the first classification step.",
+    "B": "Correct because the ILAE framework first classifies seizures by their initial manifestation, that is, how the seizure begins.",
+    "C": "Incorrect because aetiology is classified separately and does not determine the first division of seizure type.",
+    "D": "Incorrect because motor or non-motor features are descriptive subtypes that come after onset is classified.",
+    "E": "Incorrect because age may be clinically relevant but is not used to determine the initial seizure classification."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether the seizure starts in one part of the body or involves the whole body simultaneously.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "26d72115-dbec-4b4a-a362-f75ecdc5b62a",
+    "overlapScore": 0.3583333333333333,
+    "questionIndex": 1,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:04.298Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "c2e72526-3a9e-42c3-b02c-c2ebfcf37798",
+  "stem": "Why is ambiguous external genitalia in a neonate considered a medical emergency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Risk of a life-threatening salt-losing crisis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Risk of imminent malignant transformation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Need for surgery within the first 24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Need to establish breastfeeding immediately",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Risk of acute airway obstruction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Risk of a life-threatening salt-losing crisis is the key emergency. In congenital adrenal hyperplasia, a neonate may develop severe hyponatraemia, hyperkalaemia, dehydration, and shock within the first days of life, so urgent recognition is essential.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.820Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2ba6e61ec0580272cd30",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because congenital adrenal hyperplasia can cause a severe salt-wasting crisis with dangerous electrolyte imbalance and shock in the neonatal period.",
+    "B": "Incorrect because ambiguous genitalia does not imply an immediate cancer risk.",
+    "C": "Incorrect because urgent assessment is needed, but surgery is not usually the immediate priority.",
+    "D": "Incorrect because breastfeeding is not the reason this presentation is an emergency.",
+    "E": "Incorrect because ambiguous external genitalia is not typically associated with acute airway obstruction."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the acute metabolic risks associated with Congenital Adrenal Hyperplasia ($CAH$).",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5d80eb20-8bf0-4548-9aa9-15487c0c2707",
+    "overlapScore": 0.5106382978723404,
+    "questionIndex": 10,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:12.079Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

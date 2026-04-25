@@ -1,0 +1,98 @@
+{
+  "id": "e5b308f3-5471-4d50-8cb4-b3d894e5a874",
+  "stem": "What is a defining characteristic of the ABAS and Vineland-3 assessment tools?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They are objective performance tests completed by the child",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They are parent interview questionnaires",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They identify the underlying genetic cause of disability",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They measure fine motor skills in a clinical setting",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They are brief hearing screening tools",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Parent interview questionnaires are the defining feature of the ABAS and Vineland-3. These tools assess adaptive functioning by gathering information from caregivers rather than by direct child performance testing.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.863Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ac6a3ed5fff5fda89956",
+  "rationale": "These assessments focus on everyday adaptive behaviour and are commonly obtained via caregiver report.",
+  "optionExplanations": {
+    "A": "Incorrect because these are not direct objective performance tests completed by the child.",
+    "B": "Correct because the ABAS and Vineland-3 are parent interview questionnaires used to assess adaptive functioning.",
+    "C": "Incorrect because they assess adaptive behaviour, not the underlying genetic cause of disability.",
+    "D": "Incorrect because they are not designed as direct clinical tests of fine motor skill.",
+    "E": "Incorrect because they are not hearing screening tools."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how information is gathered for these specific 'functional' assessments.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d30354ae-0e2e-4012-9573-154ca4a14f09",
+    "overlapScore": 0.4047619047619048,
+    "questionIndex": 9,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:25.886Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

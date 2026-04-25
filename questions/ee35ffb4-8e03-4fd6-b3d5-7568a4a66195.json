@@ -1,0 +1,102 @@
+{
+  "id": "ee35ffb4-8e03-4fd6-b3d5-7568a4a66195",
+  "stem": "A 6-month-old infant is being evaluated for faltering growth; which associated symptom cluster most strongly suggests chronic anaemia as a contributing organic problem?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Feeding difficulties, hypersomnolence, and poor suck",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Normal growth with frequent regurgitation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Delayed puberty with delayed bone age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Body disproportion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Height within 3 centiles of mid-parental height",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Feeding difficulties, hypersomnolence, and poor suck are the symptom cluster that most strongly suggests chronic anaemia in an infant with faltering growth.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 104,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.104"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:49:28.426Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B18-attempt-02-a0294418be55ecfbad45",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because chronic anaemia in babies can present with feeding difficulties, hypersomnolence, and poor suck, and may contribute to faltering growth.",
+    "B": "Incorrect because frequent regurgitation with otherwise normal growth is more consistent with uncomplicated gastro-oesophageal reflux.",
+    "C": "Incorrect because delayed puberty with delayed bone age is more suggestive of constitutional delay than chronic anaemia.",
+    "D": "Incorrect because body disproportion suggests a skeletal dysplasia rather than anaemia.",
+    "E": "Incorrect because a height within 3 centiles of mid-parental height supports familial short stature rather than anaemia."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B18-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr5zqc0001rjksue8djnif",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3483146067415731,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "83684779-32e9-4e4b-8aa4-77d64c8a9fb4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B18/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Faltering growth",
+      "workup",
+      "organic contributors"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:41.902Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "9b5caeef-093d-419a-9f8d-43f1773df63f",
+  "stem": "A 15-year-old attends an adolescent clinic with his mother, who answers the CRAFFT questions for him and he becomes guarded; what is the most appropriate next step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Continue CRAFFT and accept the mother's answers where needed",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pause, speak to the adolescent directly, and discuss confidentiality before continuing CRAFFT",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Switch to AUDIT-C instead of addressing the interaction first",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Skip screening today and wait until substance dependence is more obvious",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Move straight to neurocognitive assessment before taking a substance history",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Discussing confidentiality and engaging the adolescent directly is the correct approach. In adolescent substance-use screening, the clinician should first establish rapport and speak privately with the young person so answers are honest and the CRAFFT can be completed appropriately.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T10:17:52.430Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-6754969e6443ebf43c23",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the mother's answers can compromise the accuracy of adolescent screening and do not address the guarded interaction.",
+    "B": "Correct because confidentiality should be explained and the adolescent engaged directly before continuing CRAFFT, which supports honest screening.",
+    "C": "Incorrect because changing to another screening tool does not address the immediate communication problem or the need for adolescent-focused confidentiality.",
+    "D": "Incorrect because screening should not be delayed until substance dependence is obvious; early identification is preferred.",
+    "E": "Incorrect because neurocognitive assessment is not the immediate next step before establishing direct communication and a substance-use history."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmugl98u0001rj9bmlqqrtv0",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3450292397660819,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6a8f815d-e1cc-4e24-9b01-475e4f59d18d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-15.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "screening",
+      "CRAFFT",
+      "confidentiality"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:47.006Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

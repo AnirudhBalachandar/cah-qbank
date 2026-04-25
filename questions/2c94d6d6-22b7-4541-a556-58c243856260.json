@@ -1,0 +1,98 @@
+{
+  "id": "2c94d6d6-22b7-4541-a556-58c243856260",
+  "stem": "In severe or life-threatening croup, what is the role of nebulised adrenaline?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Provide long-term anti-inflammatory control",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Treat underlying bacterial tracheitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Rapidly reduce subglottic oedema and improve airway diameter",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Be given only after 4 hours of observation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Replace corticosteroid treatment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nebulised adrenaline rapidly reduces airway swelling in severe croup by causing mucosal vasoconstriction, which improves airway diameter and relieves stridor.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+      "title": "00019 Bronchiolitis and Cr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.126Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d9663d0c41a3bde33557",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because nebulised adrenaline has a rapid but short-lived effect and does not provide long-term anti-inflammatory control.",
+    "B": "Incorrect because nebulised adrenaline is not an antimicrobial treatment and does not treat bacterial tracheitis.",
+    "C": "Correct because adrenaline causes mucosal vasoconstriction, which rapidly reduces subglottic oedema and improves airway diameter.",
+    "D": "Incorrect because nebulised adrenaline is used promptly in severe croup rather than being delayed for a period of observation.",
+    "E": "Incorrect because corticosteroids provide the anti-inflammatory effect, while nebulised adrenaline gives rapid temporary relief of airway obstruction."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the immediate physical effect needed to open a narrowed upper airway in an emergency.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "19",
+    "lectureTitle": "00019 Bronchiolitis and Cr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bdd28bd4-907d-4df6-b011-c1198eb069f3",
+    "overlapScore": 0.3529411764705883,
+    "questionIndex": 10,
+    "quizFileName": "quiz_019.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "803ce9ff-ed81-41dd-8916-47b92839b68a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:15.257Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

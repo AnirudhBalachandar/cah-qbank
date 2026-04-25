@@ -1,0 +1,102 @@
+{
+  "id": "025c1e1c-ea53-4597-a3ea-da7dedc7e334",
+  "stem": "Which mechanism best explains excess adrenal androgen production in congenital adrenal hyperplasia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Impaired steroidogenesis causes excess ACTH signalling and shunts steroid synthesis towards adrenal androgen production",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Direct pancreatic beta-cell stimulation increases adrenal androgen synthesis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Reduced ACTH signalling causes all steroid precursors to convert into cortisol",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Thyroid hormone excess directly activates adrenal androgen secretion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Renal sodium loss independently drives androgen synthesis without pituitary involvement",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Impaired steroidogenesis causes excess ACTH signalling and diversion of steroid precursors towards adrenal androgen production. In congenital adrenal hyperplasia, reduced cortisol synthesis removes negative feedback on the pituitary, increasing ACTH and shunting precursors into androgen pathways.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 101,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:38:49.637Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B55-attempt-02-8d310e38cb0005743bee",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because impaired steroidogenesis reduces cortisol production, increases ACTH drive, and shunts steroid precursors towards adrenal androgen synthesis.",
+    "B": "Incorrect because pancreatic beta-cell stimulation does not explain adrenal androgen excess in congenital adrenal hyperplasia.",
+    "C": "Incorrect because reduced ACTH would not drive androgen excess, and the pathway does not convert all precursors into cortisol.",
+    "D": "Incorrect because thyroid hormone excess is not the mechanism for adrenal androgen overproduction in congenital adrenal hyperplasia.",
+    "E": "Incorrect because renal sodium loss is not the primary driver of adrenal androgen synthesis without pituitary ACTH signalling."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B55-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqsaue0001rjytrsx5bfoj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3304347826086956,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f0c4de32-922f-4a11-a4a0-cb6dce9f49f7",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B55/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Sick-day management and adrenal insufficiency",
+      "adrenal insufficiency presentation",
+      "pathophysiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:43.843Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

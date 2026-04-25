@@ -1,0 +1,98 @@
+{
+  "id": "f111087d-153d-4d41-bd83-2c39114756cc",
+  "stem": "How are adolescence and puberty distinguished in paediatric development?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Adolescence is the specific physical transition, while puberty encompasses cognitive and psychosocial maturation",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Puberty refers to the physical transitions, whereas adolescence describes the period of cognitive, emotional, and psychosocial maturation",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They are synonymous terms used to describe the onset of reproductive capability",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Adolescence is strictly biological, while puberty is shaped by environmental and social factors",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Puberty refers to childhood growth, while adolescence refers only to legal adulthood",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Puberty refers to the physical changes of sexual maturation, whereas adolescence is the broader developmental period that includes cognitive, emotional, and psychosocial maturation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+      "title": "00060 Puberty -  Prof Shub-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.477Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1385512b4b9af36be7bb",
+  "rationale": "The key distinction is that puberty is the biological process of physical maturation, while adolescence describes the wider stage of development beyond physical change.",
+  "optionExplanations": {
+    "A": "Incorrect because this reverses the definitions; puberty is the physical transition and adolescence is the broader maturational period.",
+    "B": "Correct because puberty describes the physical transitions of sexual maturation, while adolescence refers to the broader period of cognitive, emotional, and psychosocial development.",
+    "C": "Incorrect because puberty and adolescence are not synonymous; they refer to different aspects of development.",
+    "D": "Incorrect because adolescence is not strictly biological, and puberty is primarily a biological process of physical change.",
+    "E": "Incorrect because puberty does not refer to childhood growth alone, and adolescence is not limited to legal adulthood."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "800dd49a-bea0-4a57-8ec5-003f70d44fd1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which term refers only to physical changes like bone growth and secondary sex characteristics.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "60",
+    "lectureTitle": "00060 Puberty -  Prof Shub-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "15e8daf2-c79c-49d2-9fcd-2bd4bec73da2",
+    "overlapScore": 0.4857142857142857,
+    "questionIndex": 1,
+    "quizFileName": "quiz_060.json",
+    "quizTitle": "Puberty Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e22baf88-aef5-4335-9bcc-e7ac01f8c0cc",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:51.198Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "0321bea3-e1a9-4d11-a756-c838236f196a",
+  "stem": "When supporting parents within the health system, which approach best helps improve parenting skills?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Support one goal at a time and praise effort",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Label parents as hopeless when they do not follow advice",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Encourage parents to ignore their own childhood experiences",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Focus only on the child's physical health and ignore the parent",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Set multiple major goals at once and criticise mistakes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Support one goal at a time and praise effort is the best approach because it encourages incremental progress and positive reinforcement when helping parents build parenting skills.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.213Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4b982b9a66500d357a31",
+  "rationale": "This approach is effective because it keeps goals manageable and reinforces effort rather than failure.",
+  "optionExplanations": {
+    "A": "Correct because it encourages incremental progress and positive reinforcement when helping parents build parenting skills.",
+    "B": "Incorrect because stigmatising parents as hopeless undermines engagement and support.",
+    "C": "Incorrect because parents' own experiences can influence how they parent and should be acknowledged.",
+    "D": "Incorrect because supporting parents requires attention to broader family and psychosocial needs, not just the child's physical health.",
+    "E": "Incorrect because setting too many goals at once can overwhelm parents and reduce the chance of success."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This method focuses on incremental progress and positive reinforcement.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "05750cf8-bbbf-4123-8e69-51a47119ac5e",
+    "overlapScore": 0.4102564102564102,
+    "questionIndex": 12,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:45.765Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "d6573da2-e533-40d6-9c9a-fc20cc0b9431",
+  "stem": "Which food allergy is most likely to persist into adulthood rather than be outgrown?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Milk",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Egg",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Shellfish",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Wheat",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Soy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Shellfish allergy is the correct answer because allergies such as shellfish, peanut, and sesame are more likely to persist into later childhood and adulthood than milk or egg allergy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.743Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-67b58487832a2b0b0cc7",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because milk allergy is more common in younger children and is often outgrown.",
+    "B": "Incorrect because egg allergy usually presents in childhood and frequently resolves with age.",
+    "C": "Correct because shellfish allergy is one of the food allergies more likely to persist into adulthood.",
+    "D": "Incorrect because wheat allergy is not the classic persistent food allergy in this context and may be outgrown.",
+    "E": "Incorrect because soy allergy is more often seen in childhood and can be outgrown."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the foods mentioned as persisting through later development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8985c075-6401-4918-a05e-f893602ee1a7",
+    "overlapScore": 0.4382022471910113,
+    "questionIndex": 3,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:56.793Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

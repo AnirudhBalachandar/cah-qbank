@@ -1,0 +1,98 @@
+{
+  "id": "d18d3704-b7c0-4a65-bc72-87283dcb35a7",
+  "stem": "Which anatomical feature of a young child makes it necessary to place a small lift under the shoulders to maintain a neutral airway position?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A relatively small tongue",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A larger occiput",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A rigid chest wall",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A high-set larynx",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A small jaw",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A larger occiput is the correct answer. In young children, the relatively prominent back of the head can flex the neck forward when lying flat, so a small shoulder lift helps keep the airway neutral.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.443Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a775944723f5fa7bd03e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because children typically have a relatively large tongue, which contributes to airway obstruction rather than indicating the need for shoulder positioning.",
+    "B": "Correct because the prominent occiput can flex the neck forward when the child lies flat, and a small lift under the shoulders helps maintain a neutral airway position.",
+    "C": "Incorrect because a child’s chest wall is relatively compliant, not rigid.",
+    "D": "Incorrect because a high-set larynx is a paediatric airway feature, but it is not the reason for placing a lift under the shoulders.",
+    "E": "Incorrect because a small jaw can contribute to airway difficulty, but it does not explain the need for shoulder elevation to neutralise the airway."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the shape and size of the back of the child's head.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "28b27e2c-9d6b-4335-862d-dba17fe971b0",
+    "overlapScore": 0.4471544715447154,
+    "questionIndex": 2,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:44.521Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

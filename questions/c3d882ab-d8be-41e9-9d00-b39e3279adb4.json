@@ -1,0 +1,98 @@
+{
+  "id": "c3d882ab-d8be-41e9-9d00-b39e3279adb4",
+  "stem": "Which additional S topics should be included in a comprehensive HEADS assessment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sleep, safety, spirituality, and social media",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Socioeconomic status, sports, school, and siblings",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Self-esteem, substance use, smoking, and sexual health",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Stress, snacks, screens, and shopping",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sleep, school, smoking, and social support",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sleep, safety, spirituality, and social media are the additional S topics included in a comprehensive HEADS assessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.939Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0467d28f9a71be4dbed5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because sleep, safety, spirituality, and social media are the specific additional S topics included in the expanded HEADS assessment.",
+    "B": "Incorrect because these are relevant adolescent topics, but they are not the specified additional S topics in the framework.",
+    "C": "Incorrect because these are important HEADS domains, but they are not the extra S topics being asked about here.",
+    "D": "Incorrect because these are informal lifestyle items and do not represent the recognised additional S topics.",
+    "E": "Incorrect because this option mixes some relevant concepts, but it does not match the specific additional S topics in the comprehensive HEADS assessment."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the categories that address modern lifestyle habits and personal beliefs alongside physical protection.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "edcfb6de-e43b-416a-9df9-f9ba86bc1108",
+    "overlapScore": 0.459016393442623,
+    "questionIndex": 1,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:13.566Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "7b3c58c0-95b3-435f-be6a-f85494a99c37",
+  "stem": "A child has a broad, thick, fleshy maxillary frenum; how should this be interpreted?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A normal anatomical variation requiring no intervention",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A traumatic injury from the lip being caught between the teeth",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A marker of future speech impairment needing surgical referral",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A sign of an underlying connective tissue disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "An indication for urgent biopsy to exclude malignancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Normal anatomical variation. A broad, thick, fleshy maxillary frenum is usually a normal finding and does not require intervention.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.194Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-62b6b10e463ac3e8467e",
+  "rationale": "This question tests recognition that a broad maxillary frenum is a normal paediatric oral anatomical variant rather than pathology.",
+  "optionExplanations": {
+    "A": "Correct because a broad, thick, fleshy maxillary frenum is commonly a normal anatomical variant and does not need treatment.",
+    "B": "Incorrect because this appearance is not, by itself, evidence of traumatic lip injury.",
+    "C": "Incorrect because this finding is not a diagnostic marker for speech problems and does not automatically require surgery.",
+    "D": "Incorrect because a broad maxillary frenum alone does not indicate a connective tissue disorder.",
+    "E": "Incorrect because this is a benign anatomical variation, not a lesion that requires biopsy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the speaker's advice on avoiding unnecessary medical procedures for standard oral structures.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9eb1642c-371c-42c7-93f3-1f6c7fcf83cc",
+    "overlapScore": 0.3962264150943396,
+    "questionIndex": 1,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:43.240Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "d69c84b4-fe2a-4c7f-a3b2-8bbf819f2440",
+  "stem": "A 16-year-old presents after a risky bicycle stunt and says he knew it would probably be fine; which developmental feature best explains this behaviour?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Adolescents are mainly injured because they are difficult for drivers to see",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Adolescents are protected by better judgement than younger children",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Adolescents make poor risk assessments and may feel invincible",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Adolescents have the lowest exposure to injury because they are closely supervised",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Adolescents are less likely to take risks because peer influence is minimal",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adolescents make poor risk assessments and may feel invincible. This developmental pattern helps explain why some teenagers underestimate danger and engage in risky behaviours.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 187,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:19:27.593Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B86-attempt-03-f9589800d44be4c70f13",
+  "rationale": "Adolescent injury risk is strongly influenced by developmental judgement and a sense of invulnerability.",
+  "optionExplanations": {
+    "A": "Incorrect because difficulty being seen by drivers is a visibility issue more relevant to younger children, not the main developmental feature described here.",
+    "B": "Incorrect because adolescents do not generally have better judgement than younger children in this context; risk assessment is often immature.",
+    "C": "Correct because adolescents commonly underestimate risk and may feel invincible, which fits the behaviour described.",
+    "D": "Incorrect because adolescents are not characterised by the lowest injury exposure due to close supervision.",
+    "E": "Incorrect because peer influence is often significant in adolescence, and this option contradicts the risk-taking pattern in the stem."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B86-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmws8jyz0001rjm5ymnm2c7t",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3481012658227848,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e0811d57-00a4-4092-8153-cc9136f8913e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B86/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Burns and trauma",
+      "trauma assessment",
+      "adolescents",
+      "risk behaviour"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:56.805Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

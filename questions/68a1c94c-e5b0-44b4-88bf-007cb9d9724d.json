@@ -1,0 +1,98 @@
+{
+  "id": "68a1c94c-e5b0-44b4-88bf-007cb9d9724d",
+  "stem": "What percentage of children diagnosed with transient synovitis are ultimately found to have Perthes disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "5%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "90%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "50%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "25%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "10%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "5% is the approximate proportion of children diagnosed with transient synovitis who are ultimately found to have Perthes disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.883Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9edd4d107d5f2602bd8b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a small minority of children with transient synovitis are later diagnosed with Perthes disease.",
+    "B": "Incorrect because this is far higher than the proportion associated with subsequent Perthes disease.",
+    "C": "Incorrect because about half of children with transient synovitis do not go on to Perthes disease.",
+    "D": "Incorrect because one-quarter is higher than the expected proportion.",
+    "E": "Incorrect because 10% is still higher than the usual estimate of 5%."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "It is a relatively small percentage associated with patients who have persisting symptoms.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d483bd9a-5305-4f51-a7d1-dad91cfb6ca4",
+    "overlapScore": 0.4851485148514851,
+    "questionIndex": 8,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:07.471Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

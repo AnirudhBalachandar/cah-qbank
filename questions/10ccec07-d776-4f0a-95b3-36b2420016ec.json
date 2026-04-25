@@ -1,0 +1,98 @@
+{
+  "id": "10ccec07-d776-4f0a-95b3-36b2420016ec",
+  "stem": "A 15-year-old boy has marked wear of the upper anterior teeth without caries, along with morning cough and halitosis; what is the most likely cause of the tooth structure loss?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Extrinsic acid from excessive soft drink consumption",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Asymptomatic gastroesophageal reflux",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A neutrophil function defect causing tooth migration",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Physical trauma from a fall",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bruxism causing attrition",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Asymptomatic gastroesophageal reflux is the most likely cause. The combination of upper anterior enamel wear, absence of caries, morning cough and halitosis points to intrinsic acid exposure from reflux rather than trauma, decay or abrasion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.328Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-afb66614ddf2e84628a4",
+  "rationale": "Intrinsic acid from reflux commonly causes smooth enamel erosion, particularly on the upper anterior teeth, and may present with extra-oesophageal symptoms such as morning cough and halitosis.",
+  "optionExplanations": {
+    "A": "Incorrect because soft drink erosion is an extrinsic acid exposure, but the associated morning cough and halitosis suggest an intrinsic source of acid.",
+    "B": "Correct because reflux can expose the teeth to gastric acid during sleep or at night, causing enamel erosion, and it may present with morning cough and halitosis even when gastrointestinal symptoms are minimal.",
+    "C": "Incorrect because neutrophil function defects are associated with periodontal disease and tooth loss, not smooth acid erosion of the tooth surface.",
+    "D": "Incorrect because trauma causes localised fracture or chipping rather than the pattern of widespread enamel wear described here.",
+    "E": "Incorrect because bruxism causes attrition from tooth-to-tooth contact, which does not fit the associated reflux symptoms and acid erosion pattern."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The symptoms of a morning cough and burping after meals suggest a digestive issue.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6b6e8a0d-af95-4835-9d52-2a25843dcf56",
+    "overlapScore": 0.3695652173913043,
+    "questionIndex": 8,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:17.257Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

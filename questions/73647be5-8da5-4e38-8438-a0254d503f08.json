@@ -1,0 +1,98 @@
+{
+  "id": "73647be5-8da5-4e38-8438-a0254d503f08",
+  "stem": "Which factor is a significant barrier to adolescents accessing effective contraception?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lack of interest in preventing unplanned pregnancies",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Needing medical appointments and paying associated costs",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A societal shift away from the need for contraception",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "No hormonal contraceptives being available in rural areas",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Parental consent being required for all contraception",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is needing medical appointments and paying associated costs. These practical and financial steps can make access harder for adolescents, even when they want contraception.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+      "title": "00077 Adolescent sexual be-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.900Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7cb6ea67bf3b1513b12e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because adolescents are generally interested in preventing unplanned pregnancy, but access barriers can still limit contraception use.",
+    "B": "Correct because needing to organise a medical appointment and cover costs creates a practical barrier to timely contraception access.",
+    "C": "Incorrect because contraception remains important, and the main issue is access rather than a broad societal rejection of it.",
+    "D": "Incorrect because rural access can be difficult, but the key barrier identified is the process and cost of obtaining care, not total unavailability.",
+    "E": "Incorrect because this is not the barrier identified in the question; the main issue is the need for appointments and associated costs."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the practical, logistical, and financial steps an adolescent must take to obtain professional medical care.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "77",
+    "lectureTitle": "00077 Adolescent sexual be-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c9cda91a-b307-420a-bc21-b2a46c66c463",
+    "overlapScore": 0.3592233009708738,
+    "questionIndex": 10,
+    "quizFileName": "quiz_077.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f494d4be-0233-4212-82ca-25cccbd58d42",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:28.778Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "684f560a-d634-431f-aef1-c6f1cc34ae47",
+  "stem": "A 13-year-old has nausea, abdominal pain, venous pH 7.25, point-of-care ketones 3.2 mmol/L, and blood glucose 12 mmol/L. What is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "This does not fit DKA because the glucose is below 14 mmol/L",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "This fits DKA because the triad is satisfied",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "This cannot be DKA unless ketonuria is also present",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "This is excluded because acidosis requires pH below 7.2",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "This is more consistent with uncomplicated hyperglycaemia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Diabetic ketoacidosis is the best interpretation here. The child meets the usual triad with hyperglycaemia, acidaemia, and ketonaemia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 97,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:34:24.648Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B54-attempt-01-7a981233149c9530b61a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the glucose threshold for DKA is lower than 14 mmol/L, and 12 mmol/L does not exclude the diagnosis.",
+    "B": "Correct because the triad is satisfied: blood glucose is elevated, venous pH is below 7.3, and ketones are 3 mmol/L or more.",
+    "C": "Incorrect because ketonaemia alone can satisfy the ketone criterion; ketonuria is not required.",
+    "D": "Incorrect because venous pH below 7.3 meets the acidosis criterion; pH below 7.2 is not required.",
+    "E": "Incorrect because acidosis plus significant ketonaemia is not consistent with uncomplicated hyperglycaemia."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B54-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqmme10001rjhpaublmhqw",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3191489361702128,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "194d0340-8b2c-4523-8e50-1db95f5712ee",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B54/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Diabetic ketoacidosis",
+      "recognition",
+      "interpretation"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:08.015Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

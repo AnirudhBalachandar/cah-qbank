@@ -1,0 +1,102 @@
+{
+  "id": "7cd4d605-1fec-4029-bc2c-21fcd57b74bb",
+  "stem": "Which set of measurements best matches the neonatal 50th percentiles?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Birth weight 2.5 kg, head circumference 32 cm, length 48 cm",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Birth weight 3.0 kg, head circumference 34 cm, length 50 cm",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Birth weight 3.5 kg, head circumference 35 cm, length 53 cm",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Birth weight 4.0 kg, head circumference 36 cm, length 55 cm",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Birth weight 4.5 kg, head circumference 38 cm, length 58 cm",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Birth weight 3.5 kg, head circumference 35 cm, and length 53 cm are the neonatal 50th percentile measurements.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 12,
+      "title": "Page 12"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:03:23.468Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-02-55bb72a624c6bfe613f1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because these values do not match the neonatal 50th percentile measurements.",
+    "B": "Incorrect because these values are below the neonatal 50th percentile measurements.",
+    "C": "Correct because birth weight 3.5 kg, head circumference 35 cm, and length 53 cm are the neonatal 50th percentile measurements.",
+    "D": "Incorrect because these values are above the neonatal 50th percentile measurements.",
+    "E": "Incorrect because these values are well above the neonatal 50th percentile measurements."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B32-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpiq680001rjfo5w8i5bg4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3440860215053764,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bd40bd94-8c91-463e-8bc5-17f714bac1e5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "diagnostic discrimination",
+      "normal values"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:45.860Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

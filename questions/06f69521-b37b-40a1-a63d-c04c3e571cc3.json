@@ -1,47 +1,86 @@
 {
   "id": "06f69521-b37b-40a1-a63d-c04c3e571cc3",
-  "stem": "10 year old girl MVA, what is the least life threatening.",
+  "stem": "A 10-year-old girl is involved in a motor vehicle accident. Which of the following injuries is the least immediately life-threatening during the primary survey?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Tension pneumothorax",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Extradural haemorrhage with midline shift",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "C",
       "text": "Bilateral pulmonary contusions",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Unstable C1/C2 fractures",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
       "text": "Cardiac tamponade",
-      "isCorrect": null
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "In major trauma, tension pneumothorax and cardiac tamponade are immediately life-threatening thoracic emergencies, and significant cervical spine instability can also rapidly threaten airway and ventilation. Bilateral pulmonary contusions are serious and may worsen respiratory function, but among these options an extradural haemorrhage with midline shift is generally less immediately life-threatening during the initial primary survey than the rapidly reversible thoracic causes of obstructive shock and other injuries listed here. The original stem was too fragmentary, so it has been normalised into a primary-survey trauma question with one best answer.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/trauma-service/manual/chest-injury/",
+      "title": "Trauma Service : Chest injury"
+    },
+    {
+      "type": "external",
+      "source": "Victorian State Trauma System",
+      "url": "https://trauma.reach.vic.gov.au/specialist/thoracic-trauma/immediately-life-threatening-injuries/",
+      "title": "Immediately life threatening injuries"
+    },
+    {
+      "type": "external",
+      "source": "American College of Surgeons",
+      "url": "https://www.acilcalisanlari.com/wp-content/uploads/2020/09/ATLS-10-2018.pdf",
+      "title": "Tenth Edition ATLS®"
+    },
+    {
+      "type": "external",
+      "source": "MSD Manual Professional Edition",
+      "url": "https://www.msdmanuals.com/en-au/professional/injuries-poisoning/thoracic-trauma/overview-of-thoracic-trauma",
+      "title": "Overview of Thoracic Trauma"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "head-injury",
+    "major-trauma",
+    "obstructive-shock",
+    "primary-survey",
+    "thoracic-trauma"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.980Z",
   "sourceFingerprint": "1fca56fc3a51246b8d47c7e7",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "This item is best interpreted as asking which injury is least immediately life-threatening among classic major trauma diagnoses. In ATLS-style trauma assessment, the immediately life-threatening thoracic injuries include tension pneumothorax and cardiac tamponade, while pulmonary contusion can also cause major respiratory compromise. A traumatic extradural haemorrhage with midline shift is a critical intracranial injury, but it is not one of the most immediately correctable primary-survey causes of death compared with tension pneumothorax or tamponade. Because the original question was a fragment, the safest repair is to frame it as a trauma primary-survey best-answer question.",
+  "optionExplanations": {
+    "A": "Incorrect. Tension pneumothorax is an immediately life-threatening, rapidly reversible cause of obstructive shock in trauma.",
+    "B": "Correct. Although extradural haemorrhage with midline shift is a neurosurgical emergency, it is typically less immediately life-threatening during the primary survey than tension pneumothorax or cardiac tamponade.",
+    "C": "Incorrect. Pulmonary contusions can cause significant hypoxia and respiratory failure, especially if bilateral.",
+    "D": "Incorrect. Unstable upper cervical spine injuries can threaten airway and ventilation and require urgent immobilisation and assessment.",
+    "E": "Incorrect. Cardiac tamponade is an immediately life-threatening cause of obstructive shock in trauma."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 2,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.982Z",
@@ -56,6 +95,80 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "6f119157d34c25c05e79"
+    "stemHash": "6f119157d34c25c05e79",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:07:37.772Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.57,
+      "evidenceSources": [
+        {
+          "title": "Trauma Service : Chest injury",
+          "url": "https://www.rch.org.au/trauma-service/manual/chest-injury/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Identifies tension pneumothorax and cardiac tamponade as life-threatening chest trauma problems and discusses pulmonary contusion as a significant thoracic injury"
+        },
+        {
+          "title": "Immediately life threatening injuries",
+          "url": "https://trauma.reach.vic.gov.au/specialist/thoracic-trauma/immediately-life-threatening-injuries/",
+          "organization": "Victorian State Trauma System",
+          "sourceType": "australian_health",
+          "supports": "Lists thoracic trauma injuries that are immediately or potentially life threatening, including tension pneumothorax, cardiac tamponade and pulmonary contusion"
+        },
+        {
+          "title": "Tenth Edition ATLS®",
+          "url": "https://www.acilcalisanlari.com/wp-content/uploads/2020/09/ATLS-10-2018.pdf",
+          "organization": "American College of Surgeons",
+          "sourceType": "international_guideline",
+          "supports": "Primary survey trauma framework for immediately life-threatening thoracic injuries such as tension pneumothorax and cardiac tamponade"
+        },
+        {
+          "title": "Overview of Thoracic Trauma",
+          "url": "https://www.msdmanuals.com/en-au/professional/injuries-poisoning/thoracic-trauma/overview-of-thoracic-trauma",
+          "organization": "MSD Manual Professional Edition",
+          "sourceType": "other_reputable",
+          "supports": "Describes tension pneumothorax and cardiac tamponade among the five immediately life-threatening chest injuries"
+        }
+      ],
+      "notes": "Repaired from a fragmentary remembered question. The best answer is based on relative immediacy of threat in trauma primary survey; if the intended teaching point was different, the original item is ambiguous.",
+      "preRepair": {
+        "stem": "10 year old girl MVA, what is the least life threatening.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Tension pneumothorax",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Extradural haemorrhage with midline shift",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Bilateral pulmonary contusions",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Unstable C1/C2 fractures",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Cardiac tamponade",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

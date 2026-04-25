@@ -1,0 +1,101 @@
+{
+  "id": "cef8c9ef-6ec5-46f9-a807-6f59b49e5675",
+  "stem": "Which child and foreign body scenario is appropriate for the interim honey regimen while awaiting theatre?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Child older than 1 year, oesophageal button battery, within 12 hours of ingestion, while awaiting theatre",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Child younger than 1 year, any swallowed object, while awaiting imaging",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Child older than 1 year, non-battery object already beyond the oesophagus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Child of any age with a fish bone causing local discomfort while awaiting CT",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Child older than 1 year with suspected airway aspiration and unilateral hyperinflation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Interim honey use is appropriate for a child older than 1 year with an oesophageal button battery ingested within the previous 12 hours while awaiting theatre.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 142,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.142"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:11:32.355Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B71-attempt-02-37913be4005fe8d70da5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the interim honey regimen is reserved for children older than 1 year with an oesophageal button battery within 12 hours of ingestion while awaiting theatre.",
+    "B": "Incorrect because the regimen is not used in infants and is not recommended for any swallowed object.",
+    "C": "Incorrect because the honey regimen applies to a button battery lodged in the oesophagus, not to an object already beyond the oesophagus.",
+    "D": "Incorrect because fish bone ingestion is not the indication for this honey regimen.",
+    "E": "Incorrect because suspected airway aspiration is a different problem from oesophageal button battery ingestion."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B71-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4tbyz0001rjf4688br36r",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5a3e3525-2793-45c4-9cd2-ef7979b6646a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B71/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Foreign body aspiration and ingestion",
+      "button batteries"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:38.472Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

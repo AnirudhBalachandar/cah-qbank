@@ -1,0 +1,102 @@
+{
+  "id": "13a23d65-3bfc-4c5f-b175-ed553b2adc53",
+  "stem": "An infant with suspected non-IgE-mediated food allergy is breastfed and the mother is advised to eliminate cow milk and soy; what additional counselling should be given?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Suggest calcium supplements",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Advise skin prick testing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Expect immediate improvement",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use allergy testing instead of elimination",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Stop breastfeeding",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Calcium supplements should be suggested. When a breastfeeding mother eliminates cow milk and soy, she should also be advised about calcium supplementation to reduce nutritional deficiency risk.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 53,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:54:35.964Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B33-attempt-01-2e941cf37f5d0272688a",
+  "rationale": "Maternal elimination can be part of management in a breastfed infant with suspected non-IgE-mediated food allergy, and cow milk plus soy avoidance in the mother should trigger advice on calcium supplementation.",
+  "optionExplanations": {
+    "A": "Correct because eliminating cow milk and soy can reduce dietary calcium intake, so supplementation should be advised",
+    "B": "Incorrect because skin prick testing is not the key counselling point for a suspected non-IgE-mediated food allergy managed by elimination",
+    "C": "Incorrect because improvement may take time and is not expected immediately after the first feed change",
+    "D": "Incorrect because management is based on clinical elimination rather than substituting routine allergy testing",
+    "E": "Incorrect because breastfeeding can continue and maternal elimination is a recognised management approach"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B33-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn29hz0001rj93urvv1ry7",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B33/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Food allergy and IgE-mediated allergy",
+      "management",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:20.461Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

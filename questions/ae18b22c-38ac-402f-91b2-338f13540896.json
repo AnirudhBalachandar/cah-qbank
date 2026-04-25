@@ -1,0 +1,101 @@
+{
+  "id": "ae18b22c-38ac-402f-91b2-338f13540896",
+  "stem": "A GP wants to clarify daytime bladder patterns in a child with nocturnal enuresis; which detail should specifically be asked about?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Frequency and volume of daytime voiding",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Number of stools passed in the first week of life",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Typical dairy intake at lunch",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Presence of infant reflux in the newborn period",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Time of first tooth eruption",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Frequency and volume of daytime voiding are the key daytime bladder-pattern details to ask about in a child with nocturnal enuresis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 26,
+      "title": "Nocturnal enuresis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:27:00.229Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B20-attempt-01-734267575e134388fc74",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Correct because daytime voiding frequency and volume are specifically relevant history points when assessing nocturnal enuresis.",
+    "B": "Incorrect because stooling in the first week of life is not a relevant question for assessing nocturnal enuresis.",
+    "C": "Incorrect because lunch-time dairy intake is not a specific bladder-pattern history item for nocturnal enuresis.",
+    "D": "Incorrect because newborn reflux history is unrelated to the recommended bladder history for nocturnal enuresis.",
+    "E": "Incorrect because the timing of first tooth eruption is unrelated to the assessment of nocturnal enuresis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B20-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm2rxj0001rjhden31dzyq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2846153846153846,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5e43f20c-ec69-45d1-a74b-507c053fcba6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B20/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Common paediatric primary-care presentations",
+      "nocturnal enuresis"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:25.786Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

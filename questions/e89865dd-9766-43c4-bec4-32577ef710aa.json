@@ -1,0 +1,98 @@
+{
+  "id": "e89865dd-9766-43c4-bec4-32577ef710aa",
+  "stem": "In a newborn with hypertension in the neonatal unit, which respiratory condition is most commonly associated with this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bronchopulmonary dysplasia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Acute asthma exacerbation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Neonatal pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Congenital diaphragmatic hernia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Transient tachypnoea of the newborn",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bronchopulmonary dysplasia is the respiratory condition most commonly associated with neonatal hypertension.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.200Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-250f50c8506f96a56280",
+  "rationale": "Bronchopulmonary dysplasia can be associated with systemic hypertension in preterm infants, particularly during or after treatment in the neonatal unit.",
+  "optionExplanations": {
+    "A": "Correct because bronchopulmonary dysplasia is a recognised respiratory association of neonatal hypertension.",
+    "B": "Incorrect because acute asthma exacerbation is not a typical neonatal diagnosis or a common cause of hypertension in newborns.",
+    "C": "Incorrect because neonatal pneumonia may cause respiratory illness, but it is not the classic respiratory condition associated with neonatal hypertension.",
+    "D": "Incorrect because congenital diaphragmatic hernia causes respiratory compromise, but it is not the usual association with neonatal hypertension.",
+    "E": "Incorrect because transient tachypnoea of the newborn is usually a short-lived respiratory transition problem and is not classically linked to neonatal hypertension."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition involves underlying lung dysplasia and often requires steroid therapy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c56b42ec-1597-43ff-99be-b5fef4c4d4b1",
+    "overlapScore": 0.4134615384615384,
+    "questionIndex": 5,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:33.369Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

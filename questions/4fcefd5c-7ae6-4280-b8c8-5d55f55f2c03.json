@@ -1,0 +1,101 @@
+{
+  "id": "4fcefd5c-7ae6-4280-b8c8-5d55f55f2c03",
+  "stem": "What term describes a dysregulated host response to infection causing life-threatening organ dysfunction in a febrile infant?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Urinary tract infection",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sepsis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Septic shock",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Simple viral fever",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Dehydration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sepsis is a dysregulated host response to infection causing life-threatening organ dysfunction.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 134,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:12:44.863Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B70-attempt-04-f9b496707cdf30b2eca5",
+  "rationale": "The stem matches the standard definition of sepsis. The other options describe different conditions or a more specific complication of sepsis.",
+  "optionExplanations": {
+    "A": "Incorrect because a urinary tract infection is a source of infection, not the definition of life-threatening organ dysfunction from a dysregulated host response.",
+    "B": "Correct because sepsis is a dysregulated host response to infection causing life-threatening organ dysfunction.",
+    "C": "Incorrect because septic shock is a more severe subset of sepsis with circulatory and metabolic abnormalities.",
+    "D": "Incorrect because a simple viral fever does not describe life-threatening organ dysfunction from infection.",
+    "E": "Incorrect because dehydration is a fluid deficit, not the definition of sepsis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B70-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4uvaz0001rju5snuwbmk9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3202614379084967,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a4f1c416-a7e0-4c2a-b3b8-0df0104d6f12",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B70/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "The febrile infant",
+      "Toxicity"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:29.604Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

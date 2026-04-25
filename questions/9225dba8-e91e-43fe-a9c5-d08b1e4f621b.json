@@ -1,0 +1,98 @@
+{
+  "id": "9225dba8-e91e-43fe-a9c5-d08b1e4f621b",
+  "stem": "Which bowel gas pattern is normal on an abdominal X-ray of a term newborn?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A mosaic pattern of numerous gas-filled small bowel loops",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Gas limited only to the stomach and rectum",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A frame of gas confined to the large bowel",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A completely gasless abdomen for the first 24 hours after birth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A single centrally placed gas-filled bowel loop",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A mosaic pattern of numerous gas-filled small bowel loops is the normal bowel gas pattern in a term newborn. This reflects expected scattered gas throughout the neonatal small bowel.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.299Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7db0d0731b0253d1cafd",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a normal term newborn typically has multiple gas-filled small bowel loops producing a mosaic appearance.",
+    "B": "Incorrect because normal neonatal gas should be seen beyond the stomach and rectum, with gas distributed through the small bowel.",
+    "C": "Incorrect because a frame-like pattern confined to the large bowel is not the expected normal appearance in a term newborn.",
+    "D": "Incorrect because a gasless abdomen is abnormal in a term newborn and may suggest obstruction or other pathology.",
+    "E": "Incorrect because a normal term newborn usually has multiple gas-filled loops rather than a single isolated loop."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the variety of irregular shapes formed by gas throughout the infant's abdomen.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "36baffe0-bc2c-437e-be68-8f61162ae0f3",
+    "overlapScore": 0.4520547945205479,
+    "questionIndex": 2,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:29.310Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

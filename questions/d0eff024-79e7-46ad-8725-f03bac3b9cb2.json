@@ -1,0 +1,103 @@
+{
+  "id": "d0eff024-79e7-46ad-8725-f03bac3b9cb2",
+  "stem": "A 4-year-old child is being reviewed for anaemia; using the red blood cell problem framework, iron deficiency anaemia is best classified as which type of problem?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Production problem due to deficiency",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Destruction/loss problem due to haemolysis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Destruction/loss problem due to splenic pooling",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Polycythaemia due to secondary hypoxia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Myeloproliferative disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Production problem due to deficiency is the correct classification. Iron deficiency anaemia results from inadequate substrate for red blood cell production, so it fits the production problem category in the red blood cell framework.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 104,
+      "title": "Red Blood Cell Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:40:42.290Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B57-attempt-01-f8492f6c3d390b8a830a",
+  "rationale": "Iron deficiency is a deficiency state causing reduced red blood cell production rather than increased destruction or loss.",
+  "optionExplanations": {
+    "A": "Correct because iron deficiency reduces red blood cell production by limiting haemoglobin synthesis and falls under production problems due to deficiency.",
+    "B": "Incorrect because haemolysis is a destruction/loss mechanism, where red cells are broken down prematurely, not a deficiency-related production problem.",
+    "C": "Incorrect because splenic pooling is a destruction/loss mechanism related to sequestration of red cells, not iron deficiency.",
+    "D": "Incorrect because secondary hypoxia leads to polycythaemia, which is increased red cell mass, not anaemia from iron deficiency.",
+    "E": "Incorrect because myeloproliferative disease is a disorder of increased marrow cell production, not the mechanism of iron deficiency anaemia."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B57-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqupqp0001rjs5kywlkln9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3448275862068966,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d2fb7929-849f-474a-8933-f191df3525fb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B57/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Red blood cell problems and iron deficiency anaemia",
+      "anaemia",
+      "framework",
+      "iron deficiency anaemia"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:45.026Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

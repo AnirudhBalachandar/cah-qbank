@@ -1,0 +1,98 @@
+{
+  "id": "75d917a8-4001-4ef6-9ad7-2f81f5955d92",
+  "stem": "What clinical finding is most characteristic of intravascular haemolysis, such as that seen in severe malaria or G6PD deficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Coca-Cola or red wine-coloured urine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Splenic pooling",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Isolated neutropenia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypoalbuminaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pallor with jaundice only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Coca-Cola or red wine-coloured urine is the classic finding of intravascular haemolysis. It reflects free haemoglobin being filtered into the urine when red blood cells are destroyed within the bloodstream.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+      "title": "00062 TK Haematology_Red b-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.872Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9806c38bd84bf07d264f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because this dark urine reflects free haemoglobin being filtered into the urine after red blood cells are destroyed directly within the bloodstream.",
+    "B": "Incorrect because splenic pooling is sequestration of blood cells in the spleen and is not the classic urinary finding of intravascular haemolysis.",
+    "C": "Incorrect because isolated neutropenia is a white cell abnormality and does not indicate red cell destruction in the circulation.",
+    "D": "Incorrect because hypoalbuminaemia is a low serum protein level and is not a characteristic finding of intravascular haemolysis.",
+    "E": "Incorrect because pallor with jaundice can occur in haemolytic disorders generally, but it is less characteristic than dark haemoglobinuria for intravascular haemolysis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a symptom that indicates free hemoglobin is being filtered through the kidneys.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "62",
+    "lectureTitle": "00062 TK Haematology_Red b-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b1f7ef10-bd71-4f86-9693-b1970c612210",
+    "overlapScore": 0.3846153846153846,
+    "questionIndex": 5,
+    "quizFileName": "quiz_062.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bd5904a3-c1dc-4487-8b94-985662f8fe69",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:33.866Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

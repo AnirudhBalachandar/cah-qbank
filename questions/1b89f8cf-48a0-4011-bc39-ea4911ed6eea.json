@@ -1,0 +1,102 @@
+{
+  "id": "1b89f8cf-48a0-4011-bc39-ea4911ed6eea",
+  "stem": "Which young person best fits the SCHN Trapeze transition service?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A 17-year-old with a complex chronic illness currently treated at SCHN and an unclear health transition pathway",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A 13-year-old with an acute injury needing short-term outpatient follow-up only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A 22-year-old already established with adult specialist care and a clear ongoing plan",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A 27-year-old with chronic illness who has never been treated at SCHN",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A 15-year-old with a brief self-limited illness and no chronic care needs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Trapeze is an SCHN transition service for young people with complex chronic illness who are currently treated at SCHN and have an unclear health transition pathway. A 17-year-old with those features best fits the service.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 130,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T21:07:02.775Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B05-19f0282ac04550022a44",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because this young person matches the service profile: adolescent age, complex chronic illness, current SCHN care, and an unclear transition pathway.",
+    "B": "Incorrect because an acute injury with short-term follow-up does not represent complex chronic illness or transition care needs.",
+    "C": "Incorrect because this person already has a clear adult specialist plan, so they do not fit an unclear transition pathway.",
+    "D": "Incorrect because the service is for young people currently treated at SCHN, not someone who has never been managed there.",
+    "E": "Incorrect because a brief self-limited illness without ongoing chronic care needs does not require a transition service."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B05",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmv3s3i10001rjanpt4ry7en",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2803030303030303,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-18-02.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "transition",
+      "services",
+      "SCHN"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:36.774Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

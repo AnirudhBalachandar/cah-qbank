@@ -1,0 +1,101 @@
+{
+  "id": "a3bf2521-aaaf-4841-8641-e149d5c755b2",
+  "stem": "A 9-year-old girl develops pubic hair, mild acne, and body odour. Which pubertal event is the best match?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Adrenarche",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pubarche",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Gonadarche",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Delayed puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Completion of puberty",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pubarche is the correct answer. It refers to the appearance of pubic hair, often accompanied by mild acne and body odour, which fits this presentation best.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 92,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:28:10.425Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B52-attempt-01-82ca9e9c4f4f994c5b99",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because adrenarche is the adrenal androgen phase that precedes the clinical appearance of pubic hair, acne, and body odour.",
+    "B": "Correct because pubarche is the development of pubic hair and is commonly associated with mild acne and body odour in early puberty.",
+    "C": "Incorrect because gonadarche refers to activation of the ovaries or testes, with gonadal enlargement rather than isolated pubic hair and acne.",
+    "D": "Incorrect because delayed puberty is a timing diagnosis, and this vignette describes a normal early pubertal event rather than delayed development.",
+    "E": "Incorrect because completion of puberty is a later stage, not the early pubertal changes described here."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B52-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqelmp0001rjrm3e7xu0dq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2857142857142857,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "22051adc-9998-47c7-b6bc-2423383c31e6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B52/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Delayed puberty and precocious puberty",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:02.813Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

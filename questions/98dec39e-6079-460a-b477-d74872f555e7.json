@@ -1,0 +1,98 @@
+{
+  "id": "98dec39e-6079-460a-b477-d74872f555e7",
+  "stem": "Which ventricle is dominant in both the fetus and the neonate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Right ventricle",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Left ventricle",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Right atrium",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Left atrium",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Interventricular septum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Right ventricle dominance is the correct concept. In fetal life, the right ventricle provides most of the cardiac output, and this predominance continues into the neonatal period before the left ventricle becomes dominant later.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.132Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-10116ecd70e9342f0382",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because in fetal life the right ventricle provides most of the cardiac output, so it is the dominant ventricle at birth.",
+    "B": "Incorrect because the left ventricle is not dominant in the fetus or immediate newborn period; it becomes dominant later as systemic loading increases.",
+    "C": "Incorrect because the right atrium is a receiving chamber, not the dominant pumping ventricle.",
+    "D": "Incorrect because the left atrium is a receiving chamber and does not represent ventricular dominance.",
+    "E": "Incorrect because the interventricular septum is a shared muscular wall, not a ventricle."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the ventricle that performs the majority of the pumping work in a system where the lungs are bypassed.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+    "overlapScore": 0.4343434343434344,
+    "questionIndex": 3,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:41.184Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

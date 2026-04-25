@@ -1,0 +1,101 @@
+{
+  "id": "b0191867-94a8-4a0f-8cef-b31c26b16be4",
+  "stem": "Which condition may ultrasound identify in a child with acute abdominal pain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Renal calculi",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Bowel obstruction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Testicular torsion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Appendicitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Renal calculi are the correct answer. In selected cases, ultrasound may identify renal calculi, whereas pneumonia is assessed with chest X-ray, obstruction with abdominal X-ray when suspected, and ultrasound has no role in testicular torsion.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 171,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:32:22.653Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B80-attempt-04-8b5a6c2ebc0c332d5de6",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because ultrasound may identify renal calculi in selected cases.",
+    "B": "Incorrect because pneumonia is linked to chest X-ray rather than ultrasound.",
+    "C": "Incorrect because suspected bowel obstruction is assessed with abdominal X-ray, not ultrasound as the primary test.",
+    "D": "Incorrect because ultrasound has no role in testicular torsion in this context.",
+    "E": "Incorrect because ultrasound is not used to identify every cause of acute abdominal pain."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B80-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5k4ov0001rj84kqhve8cx",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3442622950819672,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "06a7f0cd-e3ca-4799-b44e-4eaee53a4335",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B80/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Approach to acute abdominal pain",
+      "imaging escalation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:28.917Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

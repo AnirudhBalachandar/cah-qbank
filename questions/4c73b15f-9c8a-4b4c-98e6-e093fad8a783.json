@@ -1,0 +1,98 @@
+{
+  "id": "4c73b15f-9c8a-4b4c-98e6-e093fad8a783",
+  "stem": "Which laboratory test measures the extrinsic pathway of coagulation, particularly factor VII?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Activated partial thromboplastin time (APTT)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Prothrombin time (PT) / INR",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Bleeding time",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fibrinogen level",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Thrombin time",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prothrombin time (PT) / INR is the screening test for the extrinsic coagulation pathway, including factor VII.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.986Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f8df487cfe0ac1a7cec7",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because APTT assesses the intrinsic pathway rather than the extrinsic pathway",
+    "B": "Correct because PT/INR is the screening test for the extrinsic coagulation pathway, including factor VII",
+    "C": "Incorrect because bleeding time is an older test of primary haemostasis and platelet function, not the extrinsic coagulation pathway",
+    "D": "Incorrect because fibrinogen level assesses a common pathway component, not the extrinsic pathway specifically",
+    "E": "Incorrect because thrombin time assesses the conversion of fibrinogen to fibrin, not factor VII or the extrinsic pathway"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This test is often reported alongside the INR.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a1e3855d-8445-4f6c-851a-8d1c66da5ddc",
+    "overlapScore": 0.3728813559322034,
+    "questionIndex": 8,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:21.768Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

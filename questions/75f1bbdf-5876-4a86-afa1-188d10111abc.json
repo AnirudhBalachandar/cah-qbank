@@ -1,0 +1,101 @@
+{
+  "id": "75f1bbdf-5876-4a86-afa1-188d10111abc",
+  "stem": "When counselling parents about long-segment or whole aganglionic bowel, which major long-term problem should be discussed?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intestinal failure",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Guaranteed spontaneous recovery without surgery",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Exclusive disease of the stomach",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Resolution once calretinin becomes positive",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A normal long-term bowel course with no major sequelae",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intestinal failure is the major long-term problem to discuss in extensive aganglionosis. Long-segment or whole aganglionic bowel can lead to short bowel, prolonged parenteral nutrition, and related complications.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 173,
+      "title": "Additional Congenital Surgical Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:08:16.171Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B82-attempt-01-df622254a5c9bd577a9c",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because long-segment or whole aganglionic bowel can cause intestinal failure and other serious long-term complications.",
+    "B": "Incorrect because extensive aganglionosis does not reliably recover spontaneously and often requires surgery and ongoing care.",
+    "C": "Incorrect because Hirschsprung disease is a disorder of the distal bowel, not the stomach alone.",
+    "D": "Incorrect because calretinin is used in diagnosis, not as a marker of later clinical resolution.",
+    "E": "Incorrect because extensive disease can have major long-term sequelae, including intestinal failure."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B82-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwru5vs0001rjlqj1qknvu9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3257575757575757,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c5dc24d3-b17e-43b0-b7ba-b4222b1621e9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B82/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Additional congenital surgical problems",
+      "complication/prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:35.552Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

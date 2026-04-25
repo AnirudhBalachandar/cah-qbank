@@ -1,0 +1,98 @@
+{
+  "id": "92b6741a-ca15-49bf-ae1b-06f91bbc6f87",
+  "stem": "Which clinical sign is a red flag for a surgical cause of vomiting in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Self-limiting episodes of non-bilious vomiting",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Effortless regurgitation after a full feed",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Projectile vomiting suggesting an obstructive process",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A single episode of vomiting containing swallowed mucus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Small-volume vomiting after feeds in an otherwise well infant",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Projectile vomiting is the correct answer because it suggests an obstructive process, such as pyloric stenosis, and warrants surgical assessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.733Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ad9335ffcc943141cbd5",
+  "rationale": "Projectile vomiting is forceful and raises concern for gastric outlet obstruction rather than simple reflux or a self-limiting illness.",
+  "optionExplanations": {
+    "A": "Incorrect because self-limiting non-bilious vomiting is more consistent with a benign medical or functional cause.",
+    "B": "Incorrect because effortless regurgitation after feeds is typical of gastro-oesophageal reflux, which is usually not surgical.",
+    "C": "Correct because projectile vomiting suggests an obstructive process, such as pyloric stenosis, and is a red flag for surgical pathology.",
+    "D": "Incorrect because swallowed mucus can cause a one-off vomit and is usually a benign finding in neonates.",
+    "E": "Incorrect because small-volume vomiting after feeds in a well infant is more suggestive of reflux than an obstructive surgical cause."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the force of the vomiting and what it implies about the exit of the stomach.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f381534d-5632-4955-891a-93a8ce546c44",
+    "overlapScore": 0.4158415841584158,
+    "questionIndex": 2,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:30.673Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

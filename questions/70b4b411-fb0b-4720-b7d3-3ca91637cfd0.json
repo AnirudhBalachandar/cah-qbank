@@ -1,0 +1,98 @@
+{
+  "id": "70b4b411-fb0b-4720-b7d3-3ca91637cfd0",
+  "stem": "What is the recommended salbutamol dose via metered dose inhaler and spacer for a 4-year-old child with severe asthma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 to 6 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "6 puffs",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "8 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "12 puffs",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "4 puffs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Six puffs is the recommended salbutamol dose via metered dose inhaler and spacer for a 4-year-old child with severe asthma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.133Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2f22cb7cab437dbb5992",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 2 to 6 puffs is a wider range used for less severe presentations rather than the recommended dose for severe asthma in this age group.",
+    "B": "Correct because current paediatric asthma dosing recommends 6 puffs of salbutamol via metered dose inhaler and spacer for a 4-year-old with severe asthma.",
+    "C": "Incorrect because 8 puffs is not the recommended dose for a 4-year-old with severe asthma in this dosing regimen.",
+    "D": "Incorrect because 12 puffs is a higher dose than recommended for a 4-year-old with severe asthma.",
+    "E": "Incorrect because 4 puffs is below the recommended dose for severe asthma in a 4-year-old child."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Dosing for severe asthma is generally higher than mild-moderate, but varies based on whether the child is over or under 6 years old.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "86082b23-2d52-4af3-a42d-7df8a80b4f4b",
+    "overlapScore": 0.408,
+    "questionIndex": 3,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:25.417Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

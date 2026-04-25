@@ -1,0 +1,102 @@
+{
+  "id": "f0c4de32-922f-4a11-a4a0-cb6dce9f49f7",
+  "stem": "Which process best explains bronchiolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Viral infection causing inflammation, oedema, and mucus plugging of the terminal bronchioles",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Inspiratory stridor from upper airway pathology",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hypotension as a pre-terminal circulatory sign",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Reduced intake and fewer than 4 wet nappies in 24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Rash, petechiae, bruising, and temperature on exposure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Viral infection causing inflammation, oedema, and mucus plugging of the terminal bronchioles is the correct process. This describes the underlying pathophysiology of bronchiolitis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 31,
+      "title": "Respiratory - Bronchiolitis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:40:32.399Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-02-6cb6b06ee8f9510a26f8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because bronchiolitis is caused by viral infection leading to inflammation, oedema, and mucus plugging of the terminal bronchioles.",
+    "B": "Incorrect because inspiratory stridor suggests upper airway obstruction, not bronchiolitis.",
+    "C": "Incorrect because hypotension is a late circulatory sign, not the mechanism of bronchiolitis.",
+    "D": "Incorrect because reduced intake and fewer than 4 wet nappies are assessment findings of dehydration or severity, not the bronchiolar process.",
+    "E": "Incorrect because rash, petechiae, bruising, and temperature on exposure are not features of bronchiolitis pathogenesis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B25-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmk6ju0001rjo8xzaebknk",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3181818181818182,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "735d5998-0e9b-448c-badd-87ec5904e812",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "bronchiolitis",
+      "pathophysiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:47.530Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

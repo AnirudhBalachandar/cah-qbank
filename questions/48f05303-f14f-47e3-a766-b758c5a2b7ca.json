@@ -1,0 +1,102 @@
+{
+  "id": "48f05303-f14f-47e3-a766-b758c5a2b7ca",
+  "stem": "During a school health review, a 7-year-old has a BMI at the 86th percentile for age; which finding is a growth flag that should prompt closer attention?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "BMI above the 50th percentile",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "BMI above the 75th percentile",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "BMI above the 85th percentile",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "BMI above the 90th percentile only if height is average",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "BMI above the 95th percentile only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "BMI above the 85th percentile is the growth flag that should prompt closer attention.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 13,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:04:56.944Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B15-attempt-02-25b587ef666857ca9ae4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because BMI above the 50th percentile is not the flagged threshold.",
+    "B": "Incorrect because the 75th percentile is not the threshold for closer attention.",
+    "C": "Correct because BMI above the 85th percentile is identified as a growth flag that warrants closer review.",
+    "D": "Incorrect because no extra condition about average height is required for this flag.",
+    "E": "Incorrect because the 95th percentile is a higher cutoff for obesity, not the earlier growth flag threshold."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B15-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvtfbqv0001rjozqoi8hbpe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3374233128834356,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "63abb2c3-6781-4f90-ac69-c9d870907037",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B15/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Growth, nutrition, and obesity",
+      "obesity risk factors",
+      "growth chart use"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:09.674Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "4b319554-a4f7-4d93-97ce-342828356f0e",
+  "stem": "A 2-year-old child presents with leukocoria and strabismus; which diagnosis should be assumed until proven otherwise?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Retinoblastoma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Coats’ disease",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Persistent foveal vasculature",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Congenital cataract",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Endophthalmitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Retinoblastoma is the diagnosis to assume until proven otherwise in a child with leukocoria, especially when strabismus is also present.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 68,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:22.004Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B41-attempt-01-0efcd5eed92635de20cc",
+  "rationale": "Retinoblastoma is the key must-not-miss cause of leukocoria in young children, and associated strabismus increases concern for intraocular pathology.",
+  "optionExplanations": {
+    "A": "Correct because retinoblastoma is the classic must-not-miss diagnosis for leukocoria in a young child and should be assumed until excluded.",
+    "B": "Incorrect because Coats’ disease can cause leukocoria but is not the diagnosis that should be presumed first in this presentation.",
+    "C": "Incorrect because persistent foveal vasculature is a less urgent differential and does not fit the default assumption for leukocoria.",
+    "D": "Incorrect because congenital cataract can cause a white reflex, but retinoblastoma must be excluded first.",
+    "E": "Incorrect because endophthalmitis may cause ocular inflammation, but it is not the presumptive diagnosis for leukocoria in this child."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B41-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpnuck0001rjm69pa0l2v8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9236df55-d813-4d01-9b72-b2122b3e75d5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B41/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Leukocoria and urgent paediatric eye disease",
+      "diagnostic discrimination",
+      "retinoblastoma"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:18.220Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

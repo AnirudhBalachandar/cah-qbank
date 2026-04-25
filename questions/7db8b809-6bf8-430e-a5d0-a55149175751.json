@@ -1,0 +1,102 @@
+{
+  "id": "7db8b809-6bf8-430e-a5d0-a55149175751",
+  "stem": "Which statement about seizure history in paediatric headache presentations is correct?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A seizure history is more commonly associated with childhood headache presentations than adult ones",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Any seizure history means the headache cannot be primary",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Seizure history is irrelevant in paediatric headache assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Seizure history is less common in children with headaches than in adults",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Seizure history confirms raised intracranial pressure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A seizure history is more commonly associated with childhood headache presentations than adult ones. This means the finding should be interpreted in the paediatric context and does not by itself exclude a primary headache such as migraine.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 119,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:59:21.227Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B63-attempt-04-00ab5905d4ddfae073b5",
+  "rationale": "Paediatric headache features should be interpreted using paediatric rather than adult patterns.",
+  "optionExplanations": {
+    "A": "Correct because a seizure history is more commonly associated with childhood headache presentations than adult ones.",
+    "B": "Incorrect because a seizure history does not automatically rule out a primary headache.",
+    "C": "Incorrect because seizure history is a relevant clinical feature in paediatric headache assessment.",
+    "D": "Incorrect because the opposite comparison is stated in the correct concept.",
+    "E": "Incorrect because seizure history alone does not confirm raised intracranial pressure."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B63-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrip580001rjviaxafu39l",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3465909090909091,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1e297754-ba50-4ee0-8a89-274632f398fa",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B63/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Headache, microcephaly, and macrocephaly",
+      "common headache reasoning",
+      "history features"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:47.883Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

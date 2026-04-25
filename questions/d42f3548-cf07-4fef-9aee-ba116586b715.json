@@ -1,0 +1,102 @@
+{
+  "id": "d42f3548-cf07-4fef-9aee-ba116586b715",
+  "stem": "Which set of barriers to access to health care is specifically highlighted for discussion in a culturally safe, non-blaming way for an Aboriginal family living in a very remote community?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Availability, affordability and acceptability of services",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Availability, affordability and accessibility of services",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Availability, accessibility and acceptability of services",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Affordability, accessibility and acceptability of services",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Availability, awareness and acceptability of services",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Availability, affordability and acceptability of services are the key barriers highlighted. A culturally safe discussion should focus on these system factors rather than blaming the family.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 192,
+      "title": "Aboriginal and Torres Strait Islander Health"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:14:45.541Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B08-attempt-02-b951ad86b3d8ca059256",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the cited barrier set is availability, affordability and acceptability of services.",
+    "B": "Incorrect because accessibility is not the third barrier in the highlighted set; acceptability is.",
+    "C": "Incorrect because affordability is part of the highlighted set and accessibility is not.",
+    "D": "Incorrect because availability is one of the three barriers in the highlighted set.",
+    "E": "Incorrect because awareness is not part of the specific three-barrier framework highlighted."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B08-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvl7at80001rjfc8w2gthnw",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3241106719367589,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B08/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Aboriginal and Torres Strait Islander child health",
+      "health access barriers",
+      "culturally safe framing"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:49.912Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "5bc9a5f8-916c-4b80-b2b7-5275ef516798",
+  "stem": "Which bedside finding most strongly localises noisy breathing to the lower airway in a toddler with an acute respiratory illness?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inspiratory stridor",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Expiratory wheeze",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Grunting",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypotension",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reduced urine output",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Expiratory wheeze is the best localising sign of lower airway pathology. It is associated with lower airway narrowing, whereas inspiratory stridor points to upper airway obstruction.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 5,
+      "title": "Breathing difficulty assessment"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:40:32.333Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-02-3c779be02d62a8e2051c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because inspiratory stridor is a sign of upper airway pathology.",
+    "B": "Correct because expiratory wheeze indicates lower airway narrowing and is the classic bedside sign of lower airway pathology.",
+    "C": "Incorrect because grunting is a sign of airspace disease and increased respiratory distress, not a specific lower airway localising sign.",
+    "D": "Incorrect because hypotension is a circulatory abnormality, not a respiratory sound localising the site of airway disease.",
+    "E": "Incorrect because reduced urine output reflects fluid status or perfusion, not the site of respiratory pathology."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B25-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmk6ju0001rjo8xzaebknk",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3405797101449275,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "71fb20a3-366d-44ef-92aa-82d4c45472a4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "localisation",
+      "wheeze"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:44.680Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

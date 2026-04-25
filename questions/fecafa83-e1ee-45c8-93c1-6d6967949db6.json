@@ -1,0 +1,98 @@
+{
+  "id": "fecafa83-e1ee-45c8-93c1-6d6967949db6",
+  "stem": "Approximately what percentage of child abuse cases have dental manifestations?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "10%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "30%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "50%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "75%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "90%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "30% is the approximate proportion of child abuse cases with dental manifestations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+      "title": "00081 Dentistry_infections-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.725Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dbb181b654e620dd3d9b",
+  "rationale": "This item tests recall of the approximate prevalence of dental manifestations in child abuse cases.",
+  "optionExplanations": {
+    "A": "Incorrect because 10% is lower than the approximate proportion given.",
+    "B": "Correct because the approximate proportion of child abuse cases with dental manifestations is 30%.",
+    "C": "Incorrect because 50% is higher than the approximate proportion given.",
+    "D": "Incorrect because 75% is much higher than the approximate proportion given.",
+    "E": "Incorrect because 90% is much higher than the approximate proportion given."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The number provided is less than one-third but still a significant minority.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "81",
+    "lectureTitle": "00081 Dentistry_infections-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "04d1c327-28ca-4f57-b024-b7bb0bbe1771",
+    "overlapScore": 0.504950495049505,
+    "questionIndex": 7,
+    "quizFileName": "quiz_081.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0b63884-45a6-42c2-bb61-89ab7f81259e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:22.314Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

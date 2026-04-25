@@ -1,0 +1,101 @@
+{
+  "id": "bcb7ebbf-69f1-48ca-97f6-80ca91a09bd0",
+  "stem": "In dysmorphology, what does the term complex mean?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A composite of manifestations",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A pattern of anomalies arising from a single primary anomaly or mechanical factor",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Two or more features occurring together more often than expected by chance with no known cause",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A group of features with variable expression",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A finite area of embryonic tissue that develops into related morphologic structures",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A composite of manifestations is the correct meaning of complex. It refers to a set of clinical features considered together, rather than a sequence, association, spectrum, or developmental field.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 167,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:14:17.880Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B68-attempt-04-d484f482546687810c69",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because a complex is a composite of manifestations.",
+    "B": "Incorrect because this describes a sequence, where a primary anomaly or mechanical factor leads to secondary anomalies.",
+    "C": "Incorrect because this describes an association, which is the co-occurrence of features more often than expected by chance without a known cause.",
+    "D": "Incorrect because this describes a spectrum, where related features show variable expression.",
+    "E": "Incorrect because this describes a developmental field, a region of embryonic tissue that gives rise to related structures."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B68-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4wvnw0001rjieise40dlt",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3275862068965517,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ba914e59-a3a1-4d26-b997-3f2dc1484760",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B68/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Common genetic syndromes",
+      "Genetics terminology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:55.827Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

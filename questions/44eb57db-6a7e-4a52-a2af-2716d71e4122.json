@@ -1,0 +1,102 @@
+{
+  "id": "44eb57db-6a7e-4a52-a2af-2716d71e4122",
+  "stem": "A newborn nursery audit reviews 200 male infants. Approximately how many would be expected to have cryptorchidism detected at birth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 to 4 infants",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "6 to 10 infants",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "20 to 30 infants",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "60 to 90 infants",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "More than 100 infants",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cryptorchidism is expected in about 3 to 5% of male newborns at birth, so in 200 infants this corresponds to roughly 6 to 10 cases.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 177,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:23:34.083Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B84-attempt-03-e09c3ee380d4dabe4af9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 2 to 4 out of 200 is about 1 to 2%, which is below the expected birth incidence.",
+    "B": "Correct because 3 to 5% of 200 male infants is approximately 6 to 10 infants.",
+    "C": "Incorrect because 20 to 30 out of 200 is about 10 to 15%, which is higher than the expected incidence.",
+    "D": "Incorrect because 60 to 90 out of 200 would be 30 to 45%, far above the expected incidence.",
+    "E": "Incorrect because more than 100 out of 200 would mean over 50%, which is not consistent with cryptorchidism at birth."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B84-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsdu740001rjj84ln2rxr5",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.270440251572327,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9eb1642c-371c-42c7-93f3-1f6c7fcf83cc",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B84/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Penile disorders",
+      "cryptorchidism",
+      "epidemiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:59.731Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

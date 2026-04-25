@@ -1,0 +1,98 @@
+{
+  "id": "a4286265-6238-4110-b9d0-ee0c0e334379",
+  "stem": "A haemangioma in the beard area requires close monitoring for which internal complication?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spinal dysraphism",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Airway involvement (laryngeal haemangioma)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Renal tract malformations",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Posterior fossa anomalies",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Coarctation of the aorta",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Airway involvement is the key internal complication associated with a beard area haemangioma. Lesions in the mandibular distribution can be linked with laryngeal haemangiomas and may cause stridor or breathing difficulty.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.035Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ea200a70c1808b6eda88",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because spinal dysraphism is associated with lumbosacral cutaneous lesions, not beard area haemangiomas.",
+    "B": "Correct because beard area haemangiomas can be associated with laryngeal haemangiomas and airway obstruction.",
+    "C": "Incorrect because renal tract malformations are not the characteristic complication of a mandibular haemangioma.",
+    "D": "Incorrect because posterior fossa anomalies are part of PHACE syndrome, not the main concern with a beard area lesion.",
+    "E": "Incorrect because coarctation of the aorta is associated with syndromic infantile haemangioma patterns, not specifically beard area lesions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This location is a warning sign for potential respiratory distress or stridor.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "92e688a0-e5b5-4c2f-ad1c-33615b559436",
+    "overlapScore": 0.3826086956521739,
+    "questionIndex": 10,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:03.929Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "7eb17adf-2702-4e81-997e-27f220352c91",
+  "stem": "Which X-ray finding is characteristic of developmental dysplasia of the hip in a child older than 6 months?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A flattened acetabular roof",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A larger femoral head ossification centre",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A steeper acetabular roof with lateral displacement of the femoral head",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Increased amniotic fluid markers",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Medial displacement of the femoral head",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A steeper acetabular roof with lateral displacement of the femoral head is characteristic of developmental dysplasia of the hip on X-ray in an older infant. The socket is more vertical and the femoral head sits further from the acetabular centre.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.300Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-81ca7749458d8302cbb5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because developmental dysplasia of the hip is associated with a steeper, not flattened, acetabular roof.",
+    "B": "Incorrect because the affected femoral head ossification centre is typically delayed or smaller, not larger.",
+    "C": "Correct because a steeper acetabular roof and lateral displacement of the femoral head are classic X-ray features of developmental dysplasia of the hip.",
+    "D": "Incorrect because amniotic fluid markers are prenatal findings and are not seen on a postnatal hip X-ray.",
+    "E": "Incorrect because the femoral head is displaced laterally in developmental dysplasia of the hip, not medially."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for descriptions of the angle of the hip socket and the position of the femur.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e764b446-270d-4fa9-a87a-c5fff985f4a6",
+    "overlapScore": 0.4146341463414634,
+    "questionIndex": 10,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:49.009Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "c5047ca7-ec5d-456f-b938-f0f9097e27c7",
+  "stem": "An infant with a history of maternal vitamin D deficiency presents with twitching and seizures; which metabolic cause should be suspected?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hypocalcaemia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hypoglycaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hyperkalaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Inborn error of metabolism",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hyponatraemia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hypocalcaemia is the most likely metabolic cause. Low calcium can cause neuromuscular irritability, twitching and seizures, particularly when maternal vitamin D deficiency has led to neonatal calcium depletion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+      "title": "00005 BRUE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.528Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d12620d1ae400d323cf8",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because low calcium causes neuromuscular irritability, twitching and seizures, and maternal vitamin D deficiency is a common contributor to neonatal hypocalcaemia.",
+    "B": "Incorrect because hypoglycaemia can cause seizures, but it is not specifically suggested by maternal vitamin D deficiency.",
+    "C": "Incorrect because hyperkalaemia typically causes cardiac conduction abnormalities and arrhythmias rather than twitching and seizures.",
+    "D": "Incorrect because inborn errors of metabolism usually present with a broader systemic picture and are not the most likely explanation here.",
+    "E": "Incorrect because hyponatraemia can cause seizures, but the clinical context here more strongly indicates hypocalcaemia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This mineral's level is closely regulated by Vitamin D, and its deficiency leads to increased neuromuscular excitability.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "5",
+    "lectureTitle": "00005 BRUE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "35e1abb4-05ff-4a71-b789-24c325396c46",
+    "overlapScore": 0.3779527559055118,
+    "questionIndex": 8,
+    "quizFileName": "quiz_005.json",
+    "quizTitle": "BRUE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4a12b74d-8495-4ab6-9d09-b6e011b57050",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:21.219Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

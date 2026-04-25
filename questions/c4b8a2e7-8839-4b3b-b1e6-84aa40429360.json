@@ -1,0 +1,98 @@
+{
+  "id": "c4b8a2e7-8839-4b3b-b1e6-84aa40429360",
+  "stem": "What is the gold standard diagnostic study for identifying malrotation in an infant with bilious vomiting?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Plain abdominal X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Contrast upper gastrointestinal study to identify the duodenojejunal (DJ) junction",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Ultrasound to measure the pyloric muscle thickness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Suction biopsy to assess for ganglion cells",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Abdominal CT scan to assess bowel position",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Contrast upper gastrointestinal study is the gold standard because it shows the position of the duodenojejunal junction and can confirm malrotation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.834Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-27685df3fb47b76a84ec",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a plain abdominal X-ray may show obstruction but cannot reliably confirm malrotation or the position of the DJ junction.",
+    "B": "Correct because contrast imaging of the upper gastrointestinal tract is used to identify the position of the DJ junction, which is the key diagnostic feature in malrotation.",
+    "C": "Incorrect because ultrasound measuring pyloric muscle thickness is used for pyloric stenosis, not for diagnosing malrotation.",
+    "D": "Incorrect because suction biopsy is used to diagnose Hirschsprung disease by assessing ganglion cells, not malrotation.",
+    "E": "Incorrect because CT is not the standard first-line study for diagnosing malrotation in an infant with bilious vomiting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This study involves using a special dye to visualize the anatomy of the upper GI tract.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0d212eac-6628-4e7c-b824-6951b5c7cc2d",
+    "overlapScore": 0.3904761904761905,
+    "questionIndex": 7,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:16.718Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

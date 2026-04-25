@@ -1,0 +1,98 @@
+{
+  "id": "b20ebd91-339c-4da8-a753-fb8b3afe814f",
+  "stem": "Which treatment regimen is suggested for a boy with mild to moderate pathological phimosis to avoid circumcision?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Application of 1% hydrocortisone once daily for one week",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Application of 0.1% betamethasone twice daily for 4 to 6 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Forced retraction by the clinician followed by topical antibiotic ointment",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Oral administration of corticosteroids to reduce systemic inflammation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Topical emollient alone without steroid therapy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Application of 0.1% betamethasone twice daily for 4 to 6 weeks is the recommended regimen for mild to moderate pathological phimosis and may avoid circumcision.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.974Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-592947fb2e868c78d66e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 1% hydrocortisone once daily for one week is too short and not the regimen described for this condition.",
+    "B": "Correct because application of 0.1% betamethasone twice daily for 4 to 6 weeks is the suggested topical steroid regimen and can improve foreskin retractability.",
+    "C": "Incorrect because forced retraction can traumatise the foreskin and worsen scarring rather than treat phimosis safely.",
+    "D": "Incorrect because treatment is with a topical steroid applied directly to the foreskin, not oral corticosteroids.",
+    "E": "Incorrect because emollient alone is not the specific treatment regimen suggested to avoid circumcision in pathological phimosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the strength of the steroid and the necessary duration for the skin to respond to medical therapy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "05ec50fd-3ffe-4108-afe6-7a7b0709d1cc",
+    "overlapScore": 0.3603603603603603,
+    "questionIndex": 5,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:34.395Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

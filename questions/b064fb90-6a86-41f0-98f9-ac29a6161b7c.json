@@ -1,0 +1,102 @@
+{
+  "id": "b064fb90-6a86-41f0-98f9-ac29a6161b7c",
+  "stem": "Why does the clinician start from a different legal presumption for the 18-year-old sibling than for the 17-year-old sibling?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because adults are presumed competent to consent, whereas a minor’s competence must be determined rather than presumed",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Because 18-year-olds can no longer refuse treatment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because once a patient turns 18, consent from parents is always still required as backup",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because competence assessment is only relevant in emergencies for minors",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because a 17-year-old is automatically incompetent to make medical decisions",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adults are presumed competent to consent. In contrast, a minor’s competence must be assessed rather than presumed, so the legal starting point differs once the patient turns 18.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T05:41:47.530Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B02-c90c8144ebb77392fa7c",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because adults are presumed competent to consent, whereas a minor’s competence must be determined rather than presumed",
+    "B": "Incorrect because adults can still refuse treatment unless another legal basis overrides that decision",
+    "C": "Incorrect because parental consent is not always required for adults",
+    "D": "Incorrect because competence assessment is relevant whenever capacity or consent needs to be established, not only in emergencies",
+    "E": "Incorrect because a 17-year-old is not automatically incompetent; competence must be assessed"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu6q7o60001rj5fpd984q8t",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3080808080808081,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-09.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "consent",
+      "adult presumption",
+      "clinical interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:29.837Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

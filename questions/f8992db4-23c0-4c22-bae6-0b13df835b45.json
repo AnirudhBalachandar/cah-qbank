@@ -1,0 +1,98 @@
+{
+  "id": "f8992db4-23c0-4c22-bae6-0b13df835b45",
+  "stem": "What is the leading cause of death in Australian children outside the neonatal period?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Infectious diseases",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Childhood cancer",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Accidents",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Congenital abnormalities",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Prematurity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Accidents are the leading cause of death in Australian children outside the neonatal period.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "56a4d199-36f1-4bc5-80d9-fed407302506",
+      "title": "00072 Oncology prelecture -audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.799Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-272dffca0bfebf8d2d0d",
+  "rationale": "This question tests the most common cause of paediatric mortality beyond the neonatal period, where unintentional injury is the major contributor.",
+  "optionExplanations": {
+    "A": "Incorrect because infectious diseases are not the leading cause of death in Australian children outside the neonatal period.",
+    "B": "Incorrect because childhood cancer is an important cause of death but is not the most common overall cause.",
+    "C": "Correct because unintentional injury, including accidents such as poisonings, drownings and motor vehicle trauma, is the leading cause of death in this age group.",
+    "D": "Incorrect because congenital abnormalities are a major cause of neonatal death, but not the leading cause outside the neonatal period.",
+    "E": "Incorrect because prematurity is mainly a cause of death in the neonatal period, not later childhood."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "56a4d199-36f1-4bc5-80d9-fed407302506",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the common environmental risks and physical hazards children face daily.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "72",
+    "lectureTitle": "00072 Oncology prelecture -audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+    "overlapScore": 0.404040404040404,
+    "questionIndex": 1,
+    "quizFileName": "quiz_072.json",
+    "quizTitle": "Oncology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d5e17bb1-4dc2-4185-bf98-0b84c6976de6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:11.088Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

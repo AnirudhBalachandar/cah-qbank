@@ -1,0 +1,98 @@
+{
+  "id": "f8266b0b-2470-4675-b0e2-649d8fa4c319",
+  "stem": "What is the preferred route for administering sumatriptan to a child during an acute migraine attack, especially if they are experiencing nausea?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Nasal spray",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Intramuscular injection",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Oral tablet",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Topical cream",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sublingual wafer",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nasal spray is the preferred route for sumatriptan in a child with acute migraine, particularly when nausea or vomiting makes oral treatment less suitable.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.221Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-419ab8850aeab989bf17",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because intranasal sumatriptan is a fast-acting, non-oral option that avoids problems with nausea and vomiting.",
+    "B": "Incorrect because intramuscular injection is more invasive and is not the preferred paediatric route for acute migraine relief.",
+    "C": "Incorrect because oral tablets may be difficult to take or absorb reliably when a child is nauseated or vomiting.",
+    "D": "Incorrect because topical cream is not a standard or effective route for administering sumatriptan in migraine.",
+    "E": "Incorrect because sublingual wafer is not the preferred route for sumatriptan in paediatric acute migraine management."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a non-oral route that is fast-acting and avoids the digestive system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fc4485ae-0b43-45ce-9649-19ed089ca1f2",
+    "overlapScore": 0.3769230769230769,
+    "questionIndex": 8,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:08.844Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

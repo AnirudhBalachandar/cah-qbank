@@ -1,0 +1,98 @@
+{
+  "id": "5568aa5d-e351-4239-b87b-9cf30a793591",
+  "stem": "Which screening question is part of the CRAFT tool?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Have you ever been arrested for drug possession",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Have you ever used drugs or alcohol to relax or fit in",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Does your father or mother use alcohol",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "How many standard drinks do you consume per week",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Have you ever ridden in a car with a driver who was high",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Have you ever used drugs or alcohol to relax or fit in is the correct CRAFT question because the R in CRAFT refers to Relax, identifying substance use for coping or social fitting-in.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f934e3e1-c9de-48a0-9442-5e7ac1c0e261",
+      "title": "00075 Medical Student Lect-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.612Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-69561e7f5067fb621d26",
+  "rationale": "The CRAFT tool includes questions about reasons for substance use, including using drugs or alcohol to relax or fit in.",
+  "optionExplanations": {
+    "A": "Incorrect because arrest history is not a CRAFT screening item.",
+    "B": "Correct because the R in CRAFT refers to Relax, which asks whether substances are used to cope, relax or fit in.",
+    "C": "Incorrect because CRAFT focuses on the young person's own substance use and reasons for use rather than parental alcohol use.",
+    "D": "Incorrect because this is a quantity-based alcohol question more typical of other screening tools, not the CRAFT Relax item.",
+    "E": "Incorrect because riding with an intoxicated driver is a risk behaviour question, not the CRAFT Relax screening question."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f934e3e1-c9de-48a0-9442-5e7ac1c0e261",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The question relates to the social or internal motivation for using a substance.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "75",
+    "lectureTitle": "00075 Medical Student Lect-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "446eafc6-66cd-41c8-8608-eb6681f41e4d",
+    "overlapScore": 0.3773584905660378,
+    "questionIndex": 12,
+    "quizFileName": "quiz_075.json",
+    "quizTitle": "Substance Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "475860e8-891b-465a-82e8-46ac99ffe0b3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:37.755Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

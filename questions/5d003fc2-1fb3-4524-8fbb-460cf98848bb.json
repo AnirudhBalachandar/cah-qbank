@@ -1,0 +1,98 @@
+{
+  "id": "5d003fc2-1fb3-4524-8fbb-460cf98848bb",
+  "stem": "Which feature is characteristic of a normal thymus on a paediatric chest X-ray?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Significant mass effect on the trachea",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Uniform soft tissue density with sharply demarcated borders",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Visibility only in children older than 5 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Complete symmetry on both sides of the mediastinum",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Calcified margins with irregular contour",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Uniform soft tissue density with sharply demarcated borders is characteristic of a normal thymus on a paediatric chest X-ray. It may also appear triangular or show a sail sign, but it should not cause mass effect.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+      "title": "00011 medical imaging_ches-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.024Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6a6a268b6a3198f23271",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a normal thymus does not usually produce significant tracheal mass effect.",
+    "B": "Correct because a normal thymus has a uniform soft tissue density with sharply demarcated borders on chest X-ray.",
+    "C": "Incorrect because the thymus is commonly visible in younger children, not only after 5 years of age.",
+    "D": "Incorrect because the thymus is not always perfectly symmetrical and may have a unilateral or triangular appearance.",
+    "E": "Incorrect because calcified, irregular margins are not features of a normal thymus."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c2ae618-3fc4-4b7b-aea4-953c87f3568c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the 'sail sign' and its impact on neighboring airways.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "11",
+    "lectureTitle": "00011 medical imaging_ches-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7a9991cb-6a0d-4c8e-862f-91f5dd04a5e5",
+    "overlapScore": 0.4137931034482759,
+    "questionIndex": 3,
+    "quizFileName": "quiz_011.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e73ef75-292b-4b6f-99ca-b85f928cc8ff",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:47.916Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

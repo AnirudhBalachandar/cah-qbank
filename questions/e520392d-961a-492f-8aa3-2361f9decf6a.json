@@ -1,0 +1,102 @@
+{
+  "id": "e520392d-961a-492f-8aa3-2361f9decf6a",
+  "stem": "Which condition is listed as a leukocoria differential?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Toxoplasmosis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Meningococcaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Bronchiolitis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Epiglottitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Perthes disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Toxoplasmosis is the correct answer. This is because it is listed as a leukocoria differential in the provided material, alongside retinoblastoma and congenital cataract.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 65,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:22.072Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B41-attempt-01-9d54079cbec1f2182588",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because it is listed as a leukocoria differential in the provided material.",
+    "B": "Incorrect because meningococcaemia is not a leukocoria differential.",
+    "C": "Incorrect because bronchiolitis is unrelated to leukocoria.",
+    "D": "Incorrect because epiglottitis is unrelated to leukocoria.",
+    "E": "Incorrect because Perthes disease is not an ocular differential for leukocoria."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": null,
+  "source": {
+    "batchId": "B41-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpnuck0001rjm69pa0l2v8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3473684210526316,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "90f363c4-995f-4218-b494-b3cdb763d314",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B41/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Leukocoria and urgent paediatric eye disease",
+      "diagnostic discrimination",
+      "toxoplasmosis"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:24.863Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

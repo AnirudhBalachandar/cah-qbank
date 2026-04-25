@@ -1,0 +1,103 @@
+{
+  "id": "b09ea749-e2fa-4a40-85a1-1ae87d023e47",
+  "stem": "Which feature of the paediatric airway most directly increases airway resistance compared with adults?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Smaller diameter airways",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "More alveoli",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Lower proportion of foetal haemoglobin until 6 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A more rigid chest wall",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A shorter but wider airway",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Smaller diameter airways are the correct answer. In infants and young children, a narrower airway increases resistance, so swelling or obstruction can cause rapid deterioration.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Page 28"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:29:32.689Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B72-attempt-04-6225d0d456bc8c220cfe",
+  "rationale": "Paediatric airway calibre is smaller than in adults, which increases resistance and helps explain why airway emergencies can escalate quickly.",
+  "optionExplanations": {
+    "A": "Correct because a smaller airway diameter markedly increases resistance to airflow.",
+    "B": "Incorrect because fewer, not more, alveoli are described in young children, and alveolar number does not directly increase airway resistance.",
+    "C": "Incorrect because the source describes an increased proportion of foetal haemoglobin until 6 months, not a lower proportion.",
+    "D": "Incorrect because young children have a compliant chest wall, not a more rigid one.",
+    "E": "Incorrect because the airway is smaller in diameter, not shorter and wider."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B72-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5ghk50001rjz27h4z81zs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3349753694581281,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bab13b43-7a70-4aab-848d-92d1219b11e9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B72/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Anaphylaxis and basic life support",
+      "airway emergencies",
+      "paediatric physiology",
+      "risk recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:31.532Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

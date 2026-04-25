@@ -1,0 +1,102 @@
+{
+  "id": "002836d9-933d-4abc-b1fa-cb29392d6d1e",
+  "stem": "A 6-year-old boy is scheduled for a non-urgent lumbar puncture on the paediatric ward. Which preparation plan is most appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Obtain consent with a full explanation and fact sheet, use a local anaesthetic patch on the lower back unless urgency is extreme, then position him on his side with his legs curled up under his chin",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Rely on brief verbal agreement alone, omit the fact sheet, and position him flat with his legs extended",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use local anaesthetic injection routinely first because it improves landmark identification",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Leave comfort measures until after needle insertion so the examination is not obscured",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Use oral sucrose as the main comfort strategy because this is the preferred option for older children",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is to obtain consent with a full explanation and fact sheet, use a local anaesthetic patch on the lower back unless urgency is extreme, and position the child on his side with his legs curled up under his chin.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack excerpt 1",
+      "page": 194,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:08:31.949Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B10-attempt-01-2216aa2ea0eb0766c901",
+  "rationale": "This preserves the standard preparation for a non-urgent lumbar puncture: informed consent, age-appropriate explanation with written information, topical local anaesthesia when time allows, and lateral flexed positioning.",
+  "optionExplanations": {
+    "A": "Correct because it matches the described preparation: consent, full explanation and fact sheet, topical local anaesthetic patch unless urgency is extreme, and lateral positioning with flexion.",
+    "B": "Incorrect because brief verbal agreement alone is not adequate preparation, and the position described is not the recommended lateral flexed posture.",
+    "C": "Incorrect because the preferred approach is a local anaesthetic patch when time allows; routine injection is not the described first choice.",
+    "D": "Incorrect because comfort measures should be part of preparation before the procedure, not delayed until after needle insertion.",
+    "E": "Incorrect because oral sucrose is used for neonates, not as the main comfort strategy for an older child."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B10-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvn4gbx0001rjqkql1j0ush",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3181818181818182,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B10/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Lumbar puncture and CSF basics",
+      "Lumbar puncture",
+      "Consent and positioning"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack excerpt 1"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:43.046Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "d49a2aa3-1b93-49e5-bd01-1e08e8ed2b1b",
+  "stem": "After starting or changing a child's asthma preventer medication, when should asthma control be reviewed?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1 to 2 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 to 6 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "3 to 4 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "6 months to 1 year",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Immediately after the first dose",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "4 to 6 weeks is the recommended timeframe for reviewing a child's asthma control after starting or changing a preventer medication.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.538Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-961999706265f63ea8ce",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 1 to 2 weeks is usually too soon to judge the full effect of a preventer medication.",
+    "B": "Correct because this timeframe allows enough time to assess symptom control and the response to the change in preventer therapy.",
+    "C": "Incorrect because waiting 3 to 4 months may delay recognition that the preventer is not working well enough.",
+    "D": "Incorrect because 6 months to 1 year is too long to wait for the first review after a treatment change.",
+    "E": "Incorrect because an immediate review does not allow enough time to assess the medication's effect on asthma control."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "A clinical review should occur roughly one to one-and-a-half months after the management plan is adjusted.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0fb10cb8-a7b3-4ea0-8773-32606689d110",
+    "overlapScore": 0.4074074074074074,
+    "questionIndex": 8,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:53.343Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

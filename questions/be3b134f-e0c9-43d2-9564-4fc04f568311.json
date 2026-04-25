@@ -1,0 +1,109 @@
+{
+  "id": "be3b134f-e0c9-43d2-9564-4fc04f568311",
+  "stem": "Why should follow-up and safety-netting in paediatric asthma remain cautious even when a child initially seems only mildly unwell?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because paediatric asthma has the capacity to deteriorate quickly",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Because chest tightness is always absent",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because spirometry is always reliable in children",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because preschool wheeze always becomes asthma",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because viral triggers can never be detected",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Paediatric asthma has the capacity to deteriorate quickly. This is why follow-up advice and safety-netting should remain cautious even when a child initially appears only mildly unwell.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 13,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:52:24.119Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B27-attempt-01-b5579f1686dbcde923da",
+  "rationale": "Children with asthma can worsen quickly; safety-netting is an important part of paediatric follow-up; mild early appearance should not create false reassurance.",
+  "optionExplanations": {
+    "A": "Correct because paediatric asthma can worsen rapidly, so apparently mild symptoms still require careful safety-netting.",
+    "B": "Incorrect because chest tightness may be absent or under-reported, but it is not always absent.",
+    "C": "Incorrect because spirometry is not always reliable in children and is often more difficult to perform or interpret.",
+    "D": "Incorrect because preschool wheeze does not always progress to asthma.",
+    "E": "Incorrect because viral triggers may be identified in many exacerbations and are not impossible to detect."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B27-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmzfqk0001rj1698sdgcj8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2814814814814815,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "03c66510-8c1e-4a97-b8e4-d75ccb2c9d5b",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B27/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma diagnosis and chronic management",
+      "follow-up",
+      "safety-netting"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:58.743Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

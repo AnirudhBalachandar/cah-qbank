@@ -1,0 +1,102 @@
+{
+  "id": "31cb0e18-ca07-49c2-8d4e-608d0f4ce764",
+  "stem": "When following a regurgitating infant over time, which change should most clearly prompt reconsideration of uncomplicated gastro-oesophageal reflux and further assessment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Regurgitation continues but the child is growing normally",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Symptoms gradually improve with age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Poor growth becomes apparent alongside regurgitation",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Regurgitation began in the first 2 months of life",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Episodes have always been frequent",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Poor growth alongside regurgitation is the concerning change. This suggests the infant may no longer have uncomplicated reflux and should be reassessed for an underlying problem.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 24,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:47:03.010Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B18-attempt-01-75d2741f5fcd7b22badc",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because normal growth supports uncomplicated gastro-oesophageal reflux.",
+    "B": "Incorrect because symptoms that improve with age fit the usual course of uncomplicated reflux.",
+    "C": "Correct because poor growth with regurgitation is a red flag that should prompt further assessment.",
+    "D": "Incorrect because onset in the first 2 months of life is compatible with typical infant reflux.",
+    "E": "Incorrect because frequent episodes alone can still occur in uncomplicated reflux."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B18-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr2vjj0001rj9le5lo3gps",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3379310344827586,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "20ac8cca-04aa-4efb-aa42-0acc5628af6e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B18/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Faltering growth",
+      "long-term management",
+      "monitoring"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:21.567Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

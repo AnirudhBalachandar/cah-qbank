@@ -1,0 +1,98 @@
+{
+  "id": "10980e2e-8233-4e5b-8347-573f2e21b1e5",
+  "stem": "Which treatment is considered second-line for nocturnal enuresis in an older child when first-line measures are insufficient?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Desmopressin",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bedwetting alarms",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Fluid restriction before bedtime",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Treatment of constipation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reward charts",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Desmopressin is the second-line treatment for nocturnal enuresis in older children, often used when alarms are ineffective or for short-term situations such as sleepovers.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+      "title": "00008 common-problems-enur-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.830Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c81faf3eace2599cde66",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because desmopressin is a recognised second-line treatment for nocturnal enuresis, particularly when a child needs short-term dryness or does not respond to alarms.",
+    "B": "Incorrect because bedwetting alarms are generally first-line treatment, not second-line.",
+    "C": "Incorrect because simple fluid restriction alone is not an effective second-line treatment.",
+    "D": "Incorrect because treating constipation is an important part of management, but it is not the specific second-line treatment asked for here.",
+    "E": "Incorrect because reward charts are supportive behavioural strategies rather than second-line pharmacological treatment."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This pharmacological option is often used for specific events like camps or sleepovers.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "8",
+    "lectureTitle": "00008 common-problems-enur-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f381534d-5632-4955-891a-93a8ce546c44",
+    "overlapScore": 0.4554455445544555,
+    "questionIndex": 10,
+    "quizFileName": "quiz_008.json",
+    "quizTitle": "Bedwetting Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2c9798db-0ebc-4a15-9ccb-95ac659163f6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:15.774Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

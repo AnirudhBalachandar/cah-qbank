@@ -1,0 +1,101 @@
+{
+  "id": "969762f7-6866-4aac-a711-6296c6d78dee",
+  "stem": "Which condition is a whole chromosomal aneuploidy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Trisomy 18 (Edwards syndrome)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Fragile X syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "CHARGE syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Neurofibromatosis type 1",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tuberous sclerosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Trisomy 18 (Edwards syndrome) is a whole chromosomal aneuploidy because it results from an extra copy of an entire chromosome.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 167,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:14:17.846Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B68-attempt-04-1f1c0c18d76da78a530f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because trisomy 18 is caused by an additional whole chromosome, making it a chromosomal aneuploidy.",
+    "B": "Incorrect because Fragile X syndrome is a single-gene disorder caused by CGG repeat expansion, not a whole chromosomal aneuploidy.",
+    "C": "Incorrect because CHARGE syndrome is a named multiple congenital anomaly syndrome, not an aneuploidy.",
+    "D": "Incorrect because neurofibromatosis type 1 is a single-gene disorder, not a whole chromosomal aneuploidy.",
+    "E": "Incorrect because tuberous sclerosis is a single-gene neurocutaneous disorder, not a whole chromosomal aneuploidy."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B68-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4wvnw0001rjieise40dlt",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2978723404255319,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3c25b6af-a1dc-4a04-ae4c-09f0427ddd75",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B68/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Common genetic syndromes",
+      "Chromosomal aneuploidy"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:36.387Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

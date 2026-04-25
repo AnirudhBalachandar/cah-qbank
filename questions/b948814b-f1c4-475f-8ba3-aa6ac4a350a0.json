@@ -1,0 +1,101 @@
+{
+  "id": "b948814b-f1c4-475f-8ba3-aa6ac4a350a0",
+  "stem": "Which presentation is a classic clue to delayed bleeding due to factor XIII deficiency in a newborn?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bleeding from the umbilical stump in a newborn",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Epistaxis in an adolescent",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Haemarthrosis in a boy with family history",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Easy bruising with previous DVT",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bruising with an inconsistent history",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bleeding from the umbilical stump in a newborn is the classic clue to factor XIII deficiency, which presents with delayed bleeding.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 107,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:38:51.982Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B56-attempt-01-3703e1523b3029e403ec",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because bleeding from the umbilical stump in a newborn is a classic neonatal presentation of factor XIII deficiency with delayed bleeding",
+    "B": "Incorrect because epistaxis in an adolescent is more typical of mucocutaneous bleeding disorders such as von Willebrand disease or platelet dysfunction",
+    "C": "Incorrect because haemarthrosis with a family history suggests haemophilia",
+    "D": "Incorrect because easy bruising with previous DVT points towards dysfibrinogenaemia rather than factor XIII deficiency",
+    "E": "Incorrect because bruising with an inconsistent history raises concern for non-accidental injury"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B56-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqscnr0001rj2xyc9i5q1k",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3252032520325203,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c8ca6248-b2c4-485b-ab9a-d1d91f77966f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B56/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Coagulation studies and bleeding disorders",
+      "complication/prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:47.852Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

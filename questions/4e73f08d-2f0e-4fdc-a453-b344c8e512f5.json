@@ -1,0 +1,101 @@
+{
+  "id": "4e73f08d-2f0e-4fdc-a453-b344c8e512f5",
+  "stem": "A child has a fracture that tends to drift back into deformity after initial reduction; which plastering principle best addresses this problem?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Counteract deforming forces",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Use traction for all distal injuries",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Leave the reduction unmaintained until review",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Trap the fingers to stop movement",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Always choose a broad arm sling",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Counteract deforming forces is the principle that best prevents a reduced fracture from redisplacing in plaster.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 156,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:22:36.190Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B76-attempt-04-50ed322d1351f14c5cb8",
+  "rationale": "Immobilisation must maintain the reduction by opposing the forces that would otherwise pull the fracture back into deformity.",
+  "optionExplanations": {
+    "A": "Correct because plaster should oppose the deforming forces that would otherwise redisplace the fracture.",
+    "B": "Incorrect because traction is not used for all distal injuries and does not directly describe the plastering principle asked about.",
+    "C": "Incorrect because the reduction should be maintained, not left unprotected until review.",
+    "D": "Incorrect because fingers should not be trapped in the cast.",
+    "E": "Incorrect because a broad arm sling may be useful in some injuries, but it is not the core principle for preventing redisplacement."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B76-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx57k630001rjq4dkp1zaku",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3349753694581281,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "77442b1e-7240-473f-81b9-7565cd2368dd",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B76/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Paediatric fractures",
+      "immobilisation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:27.862Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

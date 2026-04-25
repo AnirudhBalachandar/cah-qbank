@@ -1,0 +1,98 @@
+{
+  "id": "f6c22cfe-91f9-4444-978b-dbf1bacacd99",
+  "stem": "Which clinical feature is often the first noticed sign of juvenile arthritis in the lower limbs of a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Limping",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Joint warmth",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Morning stiffness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Severe localised pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Joint swelling",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Limping is the correct answer because in young children juvenile arthritis is often first recognised by an altered gait rather than by a verbal report of joint symptoms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.615Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-beb70105dc01f0fee537",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because an altered gait or limping is frequently the first visible sign noticed by caregivers in a child with lower limb joint involvement.",
+    "B": "Incorrect because joint warmth is a sign of inflammation, but it is less likely to be the first feature noticed than a change in walking.",
+    "C": "Incorrect because morning stiffness is a classic symptom, but young children often present first with a limp rather than describing stiffness.",
+    "D": "Incorrect because severe localised pain is not usually the earliest recognised feature; children more often show reluctance to use the limb or an altered gait.",
+    "E": "Incorrect because joint swelling can occur, but the earliest noticed sign in many children is a limp"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the most visible functional change in a child's mobility.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b1ccd830-9f93-4203-9f09-f9b09e3f64ef",
+    "overlapScore": 0.3894736842105263,
+    "questionIndex": 1,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:06.521Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

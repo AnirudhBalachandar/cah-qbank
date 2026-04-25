@@ -1,0 +1,98 @@
+{
+  "id": "f516daee-7947-49b6-b29e-a4c9593199b4",
+  "stem": "Which condition can present with abdominal rigidity and mimic an acute surgical abdomen in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ovulation pain",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Diabetic ketoacidosis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypertrophic pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Constipation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Diabetic ketoacidosis is the correct answer because it can cause abdominal pain and rigidity that may mimic a surgical abdomen, even though it is a metabolic emergency rather than a primary peritonitic process.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.665Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-12b40506d3339c813355",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because ovulation pain may cause lower abdominal discomfort in adolescents but does not typically produce a rigid abdomen mimicking an acute surgical emergency.",
+    "B": "Correct because diabetic ketoacidosis can present with abdominal pain, vomiting and abdominal rigidity, making it a classic medical mimic of an acute surgical abdomen.",
+    "C": "Incorrect because gastro-oesophageal reflux may cause feeding discomfort or vomiting, but it does not cause a rigid abdomen.",
+    "D": "Incorrect because hypertrophic pyloric stenosis causes projectile vomiting and gastric outlet obstruction, not abdominal rigidity mimicking peritonitis.",
+    "E": "Incorrect because constipation can cause abdominal pain and distension, but it is not the classic cause of a rigid abdomen that mimics a surgical emergency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This is a metabolic emergency that requires a detailed medical history to distinguish it from a surgical cause.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5d80eb20-8bf0-4548-9aa9-15487c0c2707",
+    "overlapScore": 0.3703703703703703,
+    "questionIndex": 11,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:03.409Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

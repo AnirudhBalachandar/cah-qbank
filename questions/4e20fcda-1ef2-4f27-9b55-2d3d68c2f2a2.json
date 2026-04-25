@@ -1,0 +1,98 @@
+{
+  "id": "4e20fcda-1ef2-4f27-9b55-2d3d68c2f2a2",
+  "stem": "In a child with complex regional pain syndrome, what is a defining feature on examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Presence of a known underlying fracture",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pain that is far in excess of the clinical signs or injury",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A total absence of any swelling or skin changes",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Symmetrical involvement of all four limbs",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Complete loss of all sensation in the affected limb",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pain that is far in excess of the clinical signs or injury is a hallmark of complex regional pain syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.475Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-97d5580eed6333e2dfa6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because CRPS does not require an ongoing fracture, and symptoms are usually disproportionate to the original injury.",
+    "B": "Correct because CRPS is characterised by pain that is disproportionate to the apparent injury or physical findings.",
+    "C": "Incorrect because swelling, colour change, temperature change, and skin changes may be present in CRPS.",
+    "D": "Incorrect because CRPS usually affects one region or limb rather than being symmetrical in all four limbs.",
+    "E": "Incorrect because CRPS causes disproportionate pain and altered sensation, not complete loss of all sensation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the relationship between the severity of the patient's pain and the physical findings the doctor can see.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d9f25205-61d4-42cb-b406-67613023cca2",
+    "overlapScore": 0.5,
+    "questionIndex": 10,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:26.295Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

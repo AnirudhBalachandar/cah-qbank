@@ -1,0 +1,98 @@
+{
+  "id": "0490df25-ce67-4fbe-832e-0374a4e1c9af",
+  "stem": "Which head circumference change is a red flag when monitoring a child with macrocephaly?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A head circumference that tracks along the 75th percentile",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An increase in head circumference of more than 2 cm in a single month",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A head circumference that is similar to the father's head circumference",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Head circumference that plateaus after the first year of life",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A head circumference that remains on a consistent percentile over time",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An increase in head circumference of more than 2 cm in a single month is concerning because rapid head growth may indicate pathological accumulation of cerebrospinal fluid or blood.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.418Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-71cc2f6e4f086d800a6d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a consistently high percentile can be normal if the growth trajectory is steady.",
+    "B": "Correct because rapid head growth of this magnitude is a red flag for an underlying pathological process such as hydrocephalus or intracranial bleeding.",
+    "C": "Incorrect because a family history of large head size supports benign familial macrocephaly.",
+    "D": "Incorrect because plateauing after an early rise is more consistent with a stable, benign pattern than a red flag for rapid expansion.",
+    "E": "Incorrect because staying on the same percentile suggests a stable growth pattern rather than accelerated head growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a specific rate of growth that suggests something other than standard tissue expansion.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "39c8fc8a-1d38-4104-9a33-c78d2ada9431",
+    "overlapScore": 0.5365853658536586,
+    "questionIndex": 5,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:49.017Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

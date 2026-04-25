@@ -1,0 +1,104 @@
+{
+  "id": "c3630b73-aca3-48cc-9dda-302792b81142",
+  "stem": "A 7-month-old infant has a bluish swelling over the gum where a tooth is about to erupt, and feeding has become more difficult over the past 2 days; what is the most appropriate explanation and next step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Eruption cyst; aspiration can be used to relieve it if needed",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Natal tooth; it usually has a firm root and should be left alone",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Normal delayed tooth eruption; no follow-up is needed",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Dental caries; repeat antibiotics are required",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Anterior open bite from pacifier use; it will improve only if the pacifier is continued",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Eruption cyst is the correct answer. A bluish swelling over an erupting tooth with feeding difficulty is most consistent with an eruption cyst, and aspiration can be used if it is causing symptoms.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.753Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-d9b841bb6519352bb5c2",
+  "rationale": "A bluish gum swelling over a tooth that is about to erupt is characteristic of an eruption cyst. These lesions can interfere with feeding, and aspiration may be used for symptom relief when needed.",
+  "optionExplanations": {
+    "A": "Correct because a bluish swelling over an erupting tooth is typical of an eruption cyst, and aspiration may relieve feeding difficulty if required.",
+    "B": "Incorrect because a natal tooth is present at birth or soon after birth, and the description here fits an eruption cyst rather than a tooth with a firm root.",
+    "C": "Incorrect because the swelling and colour change are not typical of normal delayed eruption, especially when feeding is affected.",
+    "D": "Incorrect because dental caries does not present as a bluish swelling over an erupting tooth, and antibiotics are not the appropriate management here.",
+    "E": "Incorrect because pacifier-related anterior open bite does not cause a bluish gum swelling over a tooth that is about to erupt."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3484162895927602,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9b5caeef-093d-419a-9f8d-43f1773df63f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "eruption cyst",
+      "feeding difficulties",
+      "family counselling",
+      "Australian paediatrics"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:13.222Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

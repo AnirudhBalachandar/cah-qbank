@@ -1,0 +1,98 @@
+{
+  "id": "708e7940-9d70-4bf7-bdac-a4479fe5d8dc",
+  "stem": "What is the characteristic gait and posture of a child with slipped capital femoral epiphysis (SCFE)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Limping with an out-toeing foot position",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "In-toeing with a high-stepping gait",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Walking on the balls of the feet",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A stiff-legged gait with no knee flexion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A wide-based waddling gait",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Limping with an out-toeing foot position is typical of SCFE. The slipped, externally rotated hip causes the child to walk with a limp and the foot turned outward.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.606Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-998b5f5d83d1a0473070",
+  "rationale": "SCFE commonly presents with external rotation of the affected leg, producing out-toeing and a limp.",
+  "optionExplanations": {
+    "A": "Correct because SCFE classically causes a limp with external rotation of the hip, leading to an out-toeing foot position.",
+    "B": "Incorrect because SCFE causes external rotation and out-toeing, not in-toeing with a high-stepping gait.",
+    "C": "Incorrect because toe-walking is not the typical gait pattern in SCFE.",
+    "D": "Incorrect because SCFE does not classically present as a stiff-legged gait without knee flexion.",
+    "E": "Incorrect because a wide-based waddling gait is more typical of proximal muscle weakness or other gait disorders, not SCFE."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the effect of a fixed 'external rotation' deformity on the foot's direction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e42fa1ed-f011-453d-b9bd-6e47a7493692",
+    "overlapScore": 0.4411764705882353,
+    "questionIndex": 7,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:24.334Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

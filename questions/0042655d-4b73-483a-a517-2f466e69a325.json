@@ -1,47 +1,86 @@
 {
   "id": "0042655d-4b73-483a-a517-2f466e69a325",
-  "stem": "Haematology",
+  "stem": "A 4-year-old child has pallor and mild tiredness. Full blood count shows a microcytic anaemia. Iron studies are normal, and Hb electrophoresis is consistent with a haemoglobinopathy trait. Which is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Fe deficiency",
-      "isCorrect": null
+      "text": "Iron deficiency",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "B12 deficiency",
-      "isCorrect": null
+      "text": "Vitamin B12 deficiency",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Chronic disease",
-      "isCorrect": null
+      "text": "Anaemia of chronic disease",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Malignancy",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
       "text": "Thalassaemia",
-      "isCorrect": null
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Thalassaemia trait is a common cause of microcytic anaemia with normal iron studies. Children with thalassaemia trait are often well or only mildly anaemic, and diagnosis is supported by haemoglobin analysis rather than iron studies. Iron deficiency is the most common alternative diagnosis, but it is typically associated with low ferritin. Vitamin B12 deficiency usually causes macrocytosis, anaemia of chronic disease is typically normocytic or mildly microcytic, and malignancy would usually be suggested by other cytopenias or systemic features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+      "title": "Clinical Practice Guidelines: Anaemia"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsinfo/fact_sheets/thalassaemia_an_overview/",
+      "title": "Kids Health Info: Beta thalassaemia"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/iron_deficiency/",
+      "title": "Clinical Practice Guidelines: Iron deficiency"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+      "title": "Clinical Practice Guidelines: Anaemia"
+    }
+  ],
+  "tags": [
+    "anaemia",
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "haematology",
+    "iron-deficiency",
+    "microcytic-anaemia",
+    "thalassaemia"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.631Z",
   "sourceFingerprint": "a9c8dfe30438fd4e9993ca13",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The safest interpretation of the original fragment is a question testing the common differential diagnosis of microcytic anaemia. Among the options, thalassaemia is the best single answer when iron deficiency is not supported and the child is otherwise well.",
+  "optionExplanations": {
+    "A": "Iron deficiency commonly causes microcytic anaemia, but normal iron studies make it less likely here",
+    "B": "Vitamin B12 deficiency usually causes macrocytic anaemia, not isolated microcytosis",
+    "C": "Anaemia of chronic disease is usually normocytic or only mildly microcytic, and is linked to chronic inflammation or illness",
+    "D": "Malignancy can cause anaemia, but this stem gives no red-flag features such as pancytopenia, bruising, bone pain, or constitutional symptoms",
+    "E": "Thalassaemia trait commonly presents with microcytosis and mild anaemia with normal iron stores"
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Basic",
+  "ausScore": 2,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.459Z",
@@ -56,6 +95,80 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e3dd6b5c880600d46653"
+    "stemHash": "e3dd6b5c880600d46653",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:06:47.868Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Anaemia",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Thalassaemia trait causes microcytic hypochromic red cells with normal or borderline low haemoglobin; iron deficiency, chronic disease and B12 deficiency are alternative causes of anaemia by MCV pattern"
+        },
+        {
+          "title": "Kids Health Info: Beta thalassaemia",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/thalassaemia_an_overview/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Thalassaemia trait causes small red blood cells and children are often healthy with no symptoms of disease"
+        },
+        {
+          "title": "Clinical Practice Guidelines: Iron deficiency",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/iron_deficiency/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Iron deficiency is the most common cause of anaemia in children and low ferritin is the key screening test"
+        },
+        {
+          "title": "Clinical Practice Guidelines: Anaemia",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Vitamin B12 deficiency is a macrocytic cause of anaemia; chronic disease can cause normocytic anaemia; malignancy may be suggested by associated thrombocytopenia or neutropenia"
+        }
+      ],
+      "notes": "Original item was a low-information fragment; repaired into a safe, practice-ready SBA preserving the intended microcytic anaemia differential.",
+      "preRepair": {
+        "stem": "Haematology",
+        "options": [
+          {
+            "key": "A",
+            "text": "Fe deficiency",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "B12 deficiency",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Chronic disease",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Malignancy",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Thalassaemia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

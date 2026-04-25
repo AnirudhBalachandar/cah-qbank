@@ -1,0 +1,98 @@
+{
+  "id": "e53bcf40-5718-4ced-b31b-ee301d88e00e",
+  "stem": "When managing a child with suspected bowel obstruction, why is it recommended to start antibiotics?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To treat the viral infection that likely caused the obstruction",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To prevent sepsis from transmigration of organisms through the compromised bowel wall",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To reduce the size of the hypertrophied pyloric muscle",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To stimulate the return of normal bowel peristalsis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To relieve abdominal pain by reducing bowel spasm",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Preventing sepsis is the reason antibiotics are started in bowel obstruction, because pressure and compromised blood supply can allow organisms to translocate across the bowel wall.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.898Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bc59a643c3507aad20b9",
+  "rationale": "Compromised bowel integrity can permit bacterial translocation and subsequent sepsis.",
+  "optionExplanations": {
+    "A": "Incorrect because bowel obstruction is usually a mechanical or surgical problem, and antibiotics do not treat viral causes.",
+    "B": "Correct because pressure and reduced perfusion in an obstructed bowel can compromise the bowel wall, allowing bacterial translocation and sepsis.",
+    "C": "Incorrect because antibiotics do not reduce pyloric muscle hypertrophy.",
+    "D": "Incorrect because antibiotics do not restore bowel motility or act as prokinetic agents.",
+    "E": "Incorrect because antibiotics are not primary analgesics for bowel spasm."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what happens to bacteria when the intestinal barrier is under pressure or lacks blood flow.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0e71425c-0fc6-4cc2-b668-c1ae40183a07",
+    "overlapScore": 0.3917525773195876,
+    "questionIndex": 10,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:25.936Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

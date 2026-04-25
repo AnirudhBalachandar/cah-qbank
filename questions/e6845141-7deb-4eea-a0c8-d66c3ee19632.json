@@ -1,0 +1,101 @@
+{
+  "id": "e6845141-7deb-4eea-a0c8-d66c3ee19632",
+  "stem": "Which paediatric airway feature means an infant epiglottis should not be assumed to be adult-like?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is longer, floppier, and narrower",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is shorter and wider",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is the narrowest fixed point of the airway",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It explains the winter peak of infections",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It improves oxygen offload to tissues",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is that the infant epiglottis is longer, floppier, and narrower than in adults. This paediatric difference is the key reason adult upper-airway assumptions do not apply.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Respiratory 3.1 Acute Respiratory Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:21:16.917Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-01-e53b2fd2963942234684",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because the infant epiglottis is described as longer, floppier, and narrower than the adult epiglottis.",
+    "B": "Incorrect because the paediatric epiglottis is not shorter and wider.",
+    "C": "Incorrect because the cricoid cartilage, not the epiglottis, is the narrowest fixed point of the paediatric airway.",
+    "D": "Incorrect because winter infection patterns relate to respiratory infections, not epiglottic anatomy.",
+    "E": "Incorrect because improved oxygen offload is related to fetal haemoglobin, not epiglottic shape."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B24-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlvez70001rjv96kokautb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.325,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8663fe91-4d76-492b-8681-a5aa8c9880da",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "Anatomy"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:28.607Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "99f578e2-20b0-42e7-ba59-b956d370ee54",
+  "stem": "In children aged 6 to 11 years, which symptom pattern is consistent with persistent asthma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Waking overnight due to asthma symptoms more than twice per month",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Having symptoms that occur less than once every six weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Experiencing one mild flare-up per year requiring only salbutamol",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Daytime symptoms occurring exactly once per month",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Using salbutamol only before exercise with no other symptoms",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Persistent asthma is suggested by waking overnight due to asthma symptoms more than twice per month, which indicates ongoing poor control.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.571Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-446c0c3d7be8ac8f70b7",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because waking overnight due to asthma symptoms more than twice per month is a feature of persistent asthma in this age group.",
+    "B": "Incorrect because symptoms this infrequent are more consistent with intermittent asthma.",
+    "C": "Incorrect because a single mild flare-up per year does not by itself meet criteria for persistent asthma.",
+    "D": "Incorrect because symptoms once per month are not the typical frequency used to define persistent asthma.",
+    "E": "Incorrect because exercise-only symptoms without other features do not define persistent asthma."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a frequency of nighttime disturbances that indicates the disease is not adequately controlled.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "43b00587-627e-4215-b0cb-ffdbf1a7122a",
+    "overlapScore": 0.4,
+    "questionIndex": 10,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:44.386Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

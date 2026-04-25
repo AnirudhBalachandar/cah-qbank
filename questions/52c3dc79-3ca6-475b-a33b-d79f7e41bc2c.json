@@ -1,0 +1,98 @@
+{
+  "id": "52c3dc79-3ca6-475b-a33b-d79f7e41bc2c",
+  "stem": "In a child with a restrictive diet, such as one associated with autism, which neurological presentation is most specifically associated with vitamin B12 deficiency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Intractable neonatal seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Spastic paraparesis or spinal cord symptoms",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hypocalcaemic seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cyclical vomiting episodes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Peripheral neuropathy with paraesthesia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Spastic paraparesis or spinal cord symptoms are the classic neurological presentation of vitamin B12 deficiency, reflecting subacute combined degeneration of the spinal cord.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+      "title": "00071 Neurology - what not-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.606Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-34db7e077bb9c5b26ce6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because intractable neonatal seizures are more suggestive of neonatal metabolic or structural disorders, not typical vitamin B12 deficiency.",
+    "B": "Correct because vitamin B12 deficiency can cause subacute combined degeneration of the spinal cord, leading to spasticity, weakness and other spinal cord signs.",
+    "C": "Incorrect because hypocalcaemic seizures are due to low calcium, often from vitamin D deficiency or related calcium-phosphate disorders, not vitamin B12 deficiency.",
+    "D": "Incorrect because cyclical vomiting episodes are more consistent with a migraine variant or metabolic disorder than vitamin B12 deficiency.",
+    "E": "Incorrect because peripheral neuropathy can occur with vitamin B12 deficiency, but spastic paraparesis or spinal cord signs are more specifically associated with it in this context."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific impact of this vitamin on the integrity of spinal cord pathways.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "71",
+    "lectureTitle": "00071 Neurology - what not-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "20ac8cca-04aa-4efb-aa42-0acc5628af6e",
+    "overlapScore": 0.4068965517241379,
+    "questionIndex": 1,
+    "quizFileName": "quiz_071.json",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e57d3ca2-20dc-4d28-b7fd-7ab669303461",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:35.238Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

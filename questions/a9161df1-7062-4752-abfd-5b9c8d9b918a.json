@@ -1,0 +1,102 @@
+{
+  "id": "a9161df1-7062-4752-abfd-5b9c8d9b918a",
+  "stem": "A 4-year-old with nephrotic syndrome has very marked oedema despite a no added salt diet; what additional supportive measure may be needed?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fluid restriction",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Routine angiography",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Immediate circumcision",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Void 5–6 times per day",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Daily probiotics",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fluid restriction may be needed in a child with nephrotic syndrome who has gross oedema. It is an additional supportive measure alongside dietary salt restriction when fluid overload is significant.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 72,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:28:09.999Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B43-attempt-03-f760e7da5f05796e982d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because fluid restriction may be needed when oedema is very marked in nephrotic syndrome.",
+    "B": "Incorrect because angiography is not a supportive measure for managing oedema in nephrotic syndrome.",
+    "C": "Incorrect because circumcision is unrelated to nephrotic syndrome and its oedema management.",
+    "D": "Incorrect because regular voiding advice is relevant to urinary symptoms and UTI prevention, not nephrotic oedema.",
+    "E": "Incorrect because probiotics are not used to manage oedema in nephrotic syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B43-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqelbf0001rjqrboaz9gzf",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3448275862068966,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B43/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nephrotic syndrome",
+      "oedema reasoning",
+      "supportive care"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:12.057Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

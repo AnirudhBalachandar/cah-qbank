@@ -1,0 +1,98 @@
+{
+  "id": "98cc5c32-a91e-4d54-97cb-16fc47b03367",
+  "stem": "Which condition typically takes the longest to resolve?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Common cold",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Bronchiolitis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Croup",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Earache",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tonsillitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bronchiolitis typically takes the longest to resolve, with symptoms able to persist for up to 21 days.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.841Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0c793e3c57080744ab82",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the common cold typically resolves in about 15 days.",
+    "B": "Correct because bronchiolitis symptoms can persist for up to 21 days, making it the longest lasting condition listed.",
+    "C": "Incorrect because croup typically resolves much more quickly, often within about 2 days.",
+    "D": "Incorrect because earache generally resolves within 7 to 8 days.",
+    "E": "Incorrect because tonsillitis was not the longest duration condition in this comparison and typically does not persist as long as bronchiolitis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the condition that has a recovery period extending to three weeks.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "74c03962-dca9-49c3-ad18-7b0519fd323e",
+    "overlapScore": 0.4761904761904762,
+    "questionIndex": 4,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:38.333Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

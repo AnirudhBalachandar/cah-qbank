@@ -1,0 +1,102 @@
+{
+  "id": "11064c0a-5658-49a1-9f82-b5e79f49175f",
+  "stem": "A 6-year-old is prescribed montelukast for chronic asthma management; what daily dose is appropriate for this age group?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 mg once daily",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 mg once daily",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "5 mg once daily",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "10 mg once daily",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5 mg twice daily",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Montelukast 5 mg once daily is the correct dose for children aged 6 years and older.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 36,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:54:31.054Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B27-attempt-02-227f723e15990be3790b",
+  "rationale": "Montelukast dosing is age-based, and the 6-year-old age group is given 5 mg once daily.",
+  "optionExplanations": {
+    "A": "Incorrect because 2 mg once daily is not the listed asthma dose for this age group.",
+    "B": "Incorrect because 4 mg once daily is used for younger children aged 2 to 5 years.",
+    "C": "Correct because children aged 6 years and older receive montelukast 5 mg once daily.",
+    "D": "Incorrect because 10 mg once daily is not the recommended paediatric dose in this context.",
+    "E": "Incorrect because montelukast is prescribed once daily, not twice daily."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B27-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn25pp0001rjxdpxegwsy2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3493150684931507,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "27bed37b-0a69-4440-8dc6-9f260cf2186d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B27/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma diagnosis and chronic management",
+      "preventer reasoning",
+      "dose"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:17.573Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

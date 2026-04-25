@@ -1,0 +1,102 @@
+{
+  "id": "6096545f-4a5c-412b-acf3-da075ac61e57",
+  "stem": "In a stable school-aged child undergoing lumbar puncture, which needle technique is most appropriate once the needle has been inserted?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Aim the needle towards the umbilicus and advance slowly",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Aim the needle towards the coccyx and advance briskly",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Advance the needle perpendicular to the skin without using landmarks",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Aim the needle laterally towards the flank",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Redirect the needle cephalad towards the sternum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Aim the needle towards the umbilicus and advance slowly. This is because this is the standard lumbar puncture trajectory described for safe needle advancement once the interspace has been identified.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 194,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:27:05.513Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B10-attempt-04-d1e3bdd43eb7073e9faa",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the needle should be directed towards the umbilicus and advanced slowly during lumbar puncture.",
+    "B": "Incorrect because the needle is not directed towards the coccyx, and brisk advancement is not the recommended technique.",
+    "C": "Incorrect because lumbar puncture requires a deliberate trajectory guided by body landmarks, not blind perpendicular advancement.",
+    "D": "Incorrect because the needle should stay in the midline and be directed towards the umbilicus, not laterally.",
+    "E": "Incorrect because cephalad redirection towards the sternum is not the recommended lumbar puncture trajectory."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B10-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvnsbk40001rj7kw1rym64x",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "dcab56c7-6250-4385-baa8-7f7f4b345240",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B10/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Lumbar puncture and CSF basics",
+      "needle technique",
+      "lumbar puncture"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:54.190Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

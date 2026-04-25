@@ -1,0 +1,102 @@
+{
+  "id": "aadd7e37-dab2-4493-9f80-03e62db26e98",
+  "stem": "During follow-up for food protein-induced enterocolitis syndrome, which trigger group tends to improve earliest?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cow's milk and soy",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Rice and grain",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Peanut",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fish",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Egg",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Rice and grain FPIES improve earliest. This is the trigger group most likely to resolve sooner than other common FPIES triggers.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 53,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:00:59.798Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B34-attempt-03-411f02ffe5bc1c659b1e",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because cow's milk and soy are not identified as the earliest-improving FPIES triggers.",
+    "B": "Correct because rice and grain FPIES are noted to improve earliest.",
+    "C": "Incorrect because peanut is not identified as the earliest-improving trigger group.",
+    "D": "Incorrect because fish is not identified as the earliest-improving trigger group.",
+    "E": "Incorrect because egg is not identified as the earliest-improving trigger group."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B34-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwnahna0001rj76tsz6n4fq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3464052287581699,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f21b5ef9-9433-4e14-a71b-74c89735ad77",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B34/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Mixed and non-IgE-mediated food allergy",
+      "follow-up",
+      "FPIES prognosis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:15.663Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

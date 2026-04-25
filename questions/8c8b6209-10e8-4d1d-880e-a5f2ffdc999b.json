@@ -1,0 +1,98 @@
+{
+  "id": "8c8b6209-10e8-4d1d-880e-a5f2ffdc999b",
+  "stem": "What is the primary reason for giving aspirin in Kawasaki disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To reduce the prolonged fever",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To prevent joint pain from arthritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To manage thrombocytosis and prevent coronary clotting",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "To act as an immunosuppressant alongside IVIG",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To treat the underlying vasculitis directly",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Thrombocytosis and coronary clot prevention are the main reasons for aspirin use in Kawasaki disease. Aspirin is used to reduce platelet-mediated thrombosis risk in inflamed coronary arteries.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+      "title": "00098 Rheumatology_non juv-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.983Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d798848b7471064ffcdb",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because aspirin may lower fever, but that is not the primary reason it is used in Kawasaki disease.",
+    "B": "Incorrect because Kawasaki disease does not primarily cause arthritis, and aspirin is not given for joint pain relief here.",
+    "C": "Correct because thrombocytosis increases the risk of coronary thrombosis in Kawasaki disease, so aspirin is used to reduce platelet aggregation and help prevent clotting.",
+    "D": "Incorrect because IVIG is the main immunomodulatory treatment, while aspirin is used for its antiplatelet effect rather than as an immunosuppressant.",
+    "E": "Incorrect because aspirin does not treat the underlying vasculitis directly; it mainly helps reduce the risk of coronary clotting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the risks associated with an abnormally high platelet count and damaged coronary arteries.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "98",
+    "lectureTitle": "00098 Rheumatology_non juv-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0197b071-a452-4b69-8731-6141664bccba",
+    "overlapScore": 0.4019607843137255,
+    "questionIndex": 4,
+    "quizFileName": "quiz_098.json",
+    "quizTitle": "Rheumatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b2902fa3-3b44-4a19-af87-5f49cdf7e31f",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:19.846Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

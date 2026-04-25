@@ -1,0 +1,98 @@
+{
+  "id": "af892b6f-868d-4594-8a9b-d0e0851a699d",
+  "stem": "In non-epileptic (functional) seizures, what does the teddy bear sign indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child curls into a fetal position during the motor activity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An older child shows regressive behaviour and strong dependence on a parent or comfort object",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child remains completely still and unresponsive during the episode",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The movements are soft and rhythmic, resembling rocking",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The child has brief facial twitching with preserved awareness",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The teddy bear sign is a behavioural clue in functional seizures. It refers to an older child showing regressive behaviour and marked dependence on a parent or comfort object.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f0675d98-245a-4db6-af56-a032c2146441",
+      "title": "00065 Approach to children-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.285Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c8bc2e4443dc52612c28",
+  "rationale": "The key concept is age-inappropriate attachment or dependency, which suggests regression rather than a specific motor pattern.",
+  "optionExplanations": {
+    "A": "Incorrect because curling into a fetal position describes a posture, not the behavioural regression implied by the teddy bear sign.",
+    "B": "Correct because the teddy bear sign refers to regressive behaviour in an older child, with strong dependence on a parent or comfort object.",
+    "C": "Incorrect because complete stillness and unresponsiveness describe a different seizure-like presentation, not the teddy bear sign.",
+    "D": "Incorrect because soft rhythmic rocking is not the defining feature of the teddy bear sign.",
+    "E": "Incorrect because brief facial twitching with preserved awareness is not what the teddy bear sign describes."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f0675d98-245a-4db6-af56-a032c2146441",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a sign related to the child's psychological state or developmental level relative to their actual age.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "65",
+    "lectureTitle": "00065 Approach to children-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7b669daf-32b0-40c0-9a28-4d276c81d875",
+    "overlapScore": 0.4166666666666667,
+    "questionIndex": 3,
+    "quizFileName": "quiz_065.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c12ebfa2-6602-45a3-be50-1c80e6d9c6ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:28.608Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

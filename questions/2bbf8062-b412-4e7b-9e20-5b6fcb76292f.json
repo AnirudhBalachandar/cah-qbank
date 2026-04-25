@@ -1,0 +1,98 @@
+{
+  "id": "2bbf8062-b412-4e7b-9e20-5b6fcb76292f",
+  "stem": "Which imaging modality is generally preferred for evaluating a stable child with macrocephaly and developmental delay?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CT scan of the brain",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "MRI of the brain",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "X-ray of the skull",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Serial head ultrasounds indefinitely",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ultrasound of the brain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "MRI of the brain is the preferred imaging modality in a stable child with macrocephaly and developmental delay because it gives excellent intracranial detail without ionising radiation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.454Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-81990a688c975827b588",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because CT involves ionising radiation and is usually reserved for urgent assessment when rapid imaging is needed.",
+    "B": "Correct because MRI provides the best intracranial detail without ionising radiation, which makes it the preferred study in a stable child.",
+    "C": "Incorrect because a skull X-ray shows bony structure only and does not adequately assess the brain or ventricular system.",
+    "D": "Incorrect because serial ultrasound is limited by fontanelle closure and is not an appropriate definitive assessment strategy.",
+    "E": "Incorrect because cranial ultrasound is limited to infants with an open fontanelle and provides less detail than MRI for this presentation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about which test offers the most detail while minimizing ionizing radiation for a developing child.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ced2d1cf-807a-4729-ad1c-85fb1ee86582",
+    "overlapScore": 0.4188034188034188,
+    "questionIndex": 7,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:14.344Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

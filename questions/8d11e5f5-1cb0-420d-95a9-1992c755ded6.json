@@ -1,0 +1,98 @@
+{
+  "id": "8d11e5f5-1cb0-420d-95a9-1992c755ded6",
+  "stem": "When assessing a child with an acute severe headache, which vital sign is essential for the differential diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Blood pressure",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Body temperature",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Respiratory rate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Oxygen saturation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Heart rate",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Blood pressure is the essential vital sign because hypertension is an important differential diagnosis in a child with acute severe headache.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.062Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d182b320528e6901df1c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because blood pressure helps identify hypertension, which is an important secondary cause of acute severe headache.",
+    "B": "Incorrect because body temperature may suggest infection, but it is not the specifically emphasised vital sign for the differential diagnosis here.",
+    "C": "Incorrect because respiratory rate is part of general assessment, but it is not the key clue highlighted for acute severe headache.",
+    "D": "Incorrect because oxygen saturation is useful in respiratory assessment, but it does not specifically guide the differential diagnosis of acute severe headache.",
+    "E": "Incorrect because heart rate is important in overall assessment, but blood pressure is the vital sign specifically emphasised for this presentation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about a measurement that directly relates to vascular pressure and potential secondary causes of head pain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d60e8a60-1b1f-495b-92ca-4797830178cc",
+    "overlapScore": 0.4,
+    "questionIndex": 1,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:20.970Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "84f8ac50-3ec4-4a1d-b59e-80cc5f40af40",
+  "stem": "What is a primary clinical benefit of establishing a definitive genetic diagnosis for a child with malformations?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It eliminates the possibility of future siblings being affected",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It allows the clinician to anticipate complications and facilitate prevention",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It ensures the child will no longer be susceptible to common childhood illnesses",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It guarantees immediate access to unlimited financial assistance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It confirms the child will not need ongoing follow-up",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "It allows the clinician to anticipate complications and facilitate prevention. A definitive genetic diagnosis helps guide surveillance, counselling, and early management of known associated problems.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+      "title": "00061 dysmorphic syndromes-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.748Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-95214c820ea0581b3e5a",
+  "rationale": "A genetic diagnosis provides prognostic information and a framework for anticipatory care rather than a cure or guarantee of support.",
+  "optionExplanations": {
+    "A": "Incorrect because a diagnosis may identify an inherited condition and does not eliminate recurrence risk in future siblings.",
+    "B": "Correct because a definitive diagnosis can identify expected complications, guide surveillance, and support early prevention or intervention.",
+    "C": "Incorrect because a genetic diagnosis does not protect a child from routine childhood infections or illnesses.",
+    "D": "Incorrect because a diagnosis may help with access to services, but it does not guarantee unlimited financial assistance.",
+    "E": "Incorrect because children with genetic syndromes often need ongoing follow-up and monitoring."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "A label provides a roadmap for the child's future medical needs and expected health trajectory.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "61",
+    "lectureTitle": "00061 dysmorphic syndromes-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "91087c0a-dadb-4cda-aca0-bbfac5d8de4b",
+    "overlapScore": 0.3636363636363636,
+    "questionIndex": 12,
+    "quizFileName": "quiz_061.json",
+    "quizTitle": "Dysmorphology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "18d3845c-8426-41c0-b2e5-47fa8776d878",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:02.715Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

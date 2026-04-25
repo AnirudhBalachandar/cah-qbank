@@ -1,0 +1,102 @@
+{
+  "id": "2873d884-7bfc-4f2f-9912-de3b547720c0",
+  "stem": "At a well-child visit, which measurements should be assessed serially and plotted on the appropriate growth chart?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Weight, height/length, and head circumference",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Weight, blood pressure, and oxygen saturation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Height/length, temperature, and heart rate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Head circumference, abdominal girth, and temperature",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Weight, vision, and hearing",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Weight, height/length, and head circumference are the standard measurements to assess serially and plot on the appropriate growth chart.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 12,
+      "title": "Page 12"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:03:23.440Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-02-e26d7156810525c47263",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because weight, height/length, and head circumference are the key serial growth measurements plotted on paediatric growth charts.",
+    "B": "Incorrect because blood pressure and oxygen saturation are not part of the standard serial growth measurements.",
+    "C": "Incorrect because temperature and heart rate are vital signs, not the core growth parameters plotted serially.",
+    "D": "Incorrect because abdominal girth and temperature are not the routine measurements used for growth chart plotting.",
+    "E": "Incorrect because vision and hearing are developmental assessments, not serial growth measurements."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B32-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpiq680001rjfo5w8i5bg4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3357664233576642,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e65127c9-ac93-4b27-a771-45b73bb528fe",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "investigation",
+      "growth assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:08.072Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

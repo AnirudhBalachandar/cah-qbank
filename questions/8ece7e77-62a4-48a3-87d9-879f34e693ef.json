@@ -1,0 +1,102 @@
+{
+  "id": "8ece7e77-62a4-48a3-87d9-879f34e693ef",
+  "stem": "An adolescent with obesity has sleep disturbance and reduced participation in sport; which item from the complications history best captures this concern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Exercise tolerance",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Breakfast consumption",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "TV/screens history",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Birth weight",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ethnicity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Exercise tolerance is the correct answer. In an obesity assessment, reduced participation in sport and related functional limitation are best captured by asking about exercise tolerance as part of the complications history.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 60,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:51:08.204Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B29-attempt-02-97008b341815e5953e5f",
+  "rationale": "Exercise tolerance is the relevant complications-history item for assessing functional impact in obesity.",
+  "optionExplanations": {
+    "A": "Correct because exercise tolerance best reflects functional limitation and reduced participation in sport within the complications history.",
+    "B": "Incorrect because breakfast consumption is part of the dietary history, not the complications history.",
+    "C": "Incorrect because TV/screens history relates to lifestyle habits, not complications history.",
+    "D": "Incorrect because birth weight is part of the general history, not the complications history.",
+    "E": "Incorrect because ethnicity is part of the background history, not the complications history."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B29-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmxt6y0001rjbnv32mawbo",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3309352517985611,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fcbde8ae-4956-4816-8951-a2cda2c7b143",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B29/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cystic fibrosis and sleep across childhood",
+      "Sleep history",
+      "Complications history"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:24.757Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

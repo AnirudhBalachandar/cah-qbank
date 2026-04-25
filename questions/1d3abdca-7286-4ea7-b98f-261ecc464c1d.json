@@ -1,0 +1,98 @@
+{
+  "id": "1d3abdca-7286-4ea7-b98f-261ecc464c1d",
+  "stem": "What is the primary concern for young people when choosing a contraceptive method?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sexually transmitted infection prevention",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pregnancy prevention",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Ease of purchase at local stores",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Approval from parents or guardians",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Menstrual cycle regulation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pregnancy prevention is the primary concern for young people when choosing a contraceptive method. In this context, the main priority is avoiding pregnancy rather than other factors such as infection prevention or convenience.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "337b65a7-6d08-483f-8b1f-4b21777a6d32",
+      "title": "00076 Adolescent sexual be-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.646Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a24d0f37fa2cea362b1b",
+  "rationale": "The key issue identified is avoiding pregnancy, which is the main driver of contraceptive choice for young people.",
+  "optionExplanations": {
+    "A": "Incorrect because sexually transmitted infection prevention is important, but it is not the primary concern identified here.",
+    "B": "Correct because the main concern for young people when choosing a contraceptive method is preventing pregnancy.",
+    "C": "Incorrect because ease of purchase may affect access, but it is not the main concern driving contraceptive choice.",
+    "D": "Incorrect because parental approval is not identified as the primary concern when selecting contraception.",
+    "E": "Incorrect because menstrual cycle regulation may be a secondary benefit, but it is not the main concern described."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "337b65a7-6d08-483f-8b1f-4b21777a6d32",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The focus is on avoiding a specific long-term life change rather than a medical infection.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "76",
+    "lectureTitle": "00076 Adolescent sexual be-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "43bbefb6-e2b7-4e2e-b25e-c0c130741448",
+    "overlapScore": 0.4123711340206185,
+    "questionIndex": 4,
+    "quizFileName": "quiz_076.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8cef6571-f329-4eab-a20c-92bbd8bdf3c9",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:40.594Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

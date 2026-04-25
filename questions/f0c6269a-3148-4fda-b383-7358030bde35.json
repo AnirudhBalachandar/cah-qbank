@@ -1,0 +1,102 @@
+{
+  "id": "f0c6269a-3148-4fda-b383-7358030bde35",
+  "stem": "A 15-year-old asks a clinician in NSW whether any sexual activity before 16 is automatically a crime; which reply best matches the legal notes?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Yes, any sexual activity involving a person under 16 is always a crime regardless of age difference",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "No, there is a defence if both people are 14 or over and the age difference is 2 years or less",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "No, sexual activity is always lawful from age 15 in NSW",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Yes, unless both families agree to the relationship",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No, the only age threshold that matters is 18",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is the close-in-age defence. In NSW, the notes describe that sexual activity involving a person under 16 is not automatically treated as a crime if both people are 14 or over and the age difference is 2 years or less.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 128,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T06:21:23.947Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B03-66cfe483859ff07e52b8",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because the notes include a close-in-age defence, so the rule is not absolute.",
+    "B": "Correct because the notes describe a defence if both people are 14 or over and the age difference is 2 years or less.",
+    "C": "Incorrect because the notes state that the age of consent is 16, not 15.",
+    "D": "Incorrect because family agreement is not the criterion described in the notes.",
+    "E": "Incorrect because the notes specifically discuss age 16 and a close-in-age defence, not 18 as the only threshold."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu855bn0001rjcmmj39r0jq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3358208955223881,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-10.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "sexual health law",
+      "NSW age of consent",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:47.787Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

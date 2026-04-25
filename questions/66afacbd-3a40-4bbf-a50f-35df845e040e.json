@@ -1,0 +1,108 @@
+{
+  "id": "66afacbd-3a40-4bbf-a50f-35df845e040e",
+  "stem": "A preschooler improves after a wheezy episode, and the family asks which symptom during a future episode should prompt earlier reassessment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A low-pitched snoring sound from the nose or throat only",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Poor feeding during the episode",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A cough that is worse with stress and settles in sleep",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A positive rhinovirus PCR result",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The episode occurring in late autumn",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Poor feeding is the correct red flag. It is a paediatric severity feature that suggests a child may be unwell enough to need earlier reassessment if wheeze recurs.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 35,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:34:40.507Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B28-attempt-01-0dbd3306a75de98aeac1",
+  "rationale": "Poor feeding is a useful paediatric severity clue.",
+  "optionExplanations": {
+    "A": "Incorrect because a low-pitched sound from the nose or throat suggests stertor, not a severity marker for wheeze.",
+    "B": "Correct because poor feeding during a wheezy episode is a recognised warning sign of greater illness severity and should prompt earlier reassessment.",
+    "C": "Incorrect because a cough that worsens with stress and settles in sleep is more consistent with habit cough, not acute deterioration.",
+    "D": "Incorrect because identifying rhinovirus on PCR may support a viral trigger, but it does not by itself indicate severity or the need for urgent review.",
+    "E": "Incorrect because late autumn seasonality may be associated with viral illnesses, but it is not a red-flag feature for reassessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B28-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmcn1y0001rjklgyljwodh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3164556962025317,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B28/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma spirometry and acute exacerbation reasoning",
+      "discharge planning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:05.176Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

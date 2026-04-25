@@ -1,0 +1,103 @@
+{
+  "id": "8103df00-ed02-4d96-8155-bcd14853490d",
+  "stem": "An adolescent is evaluated for delayed puberty. LH, FSH, testosterone and oestradiol are low, and there is no response to GnRH stimulation. Which site of dysfunction is most likely?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gonads",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pituitary",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hypothalamus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Adrenal cortex",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Thyroid gland",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pituitary dysfunction is most likely. Low LH, low FSH, low sex steroids and no response to GnRH stimulation indicate a central cause at the pituitary level.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 95,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:30:21.512Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B52-attempt-02-062740bd33e7d4e04c61",
+  "rationale": "No response to GnRH stimulation supports pituitary dysfunction rather than hypothalamic disease. The combination of low gonadotropins and low sex steroids is consistent with hypogonadotropic hypogonadism.",
+  "optionExplanations": {
+    "A": "Incorrect because primary gonadal failure usually causes low sex steroids with raised LH and FSH.",
+    "B": "Correct because pituitary dysfunction causes low LH and FSH with low sex steroids, and the absent response to GnRH stimulation supports a pituitary cause.",
+    "C": "Incorrect because hypothalamic dysfunction may still show a rise in LH and FSH after GnRH stimulation.",
+    "D": "Incorrect because the adrenal cortex is not the site controlling gonadotropin secretion or the GnRH response.",
+    "E": "Incorrect because thyroid dysfunction can affect puberty timing but does not explain this gonadotropin pattern or absent GnRH response."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B52-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqhern0001rjvr6fux944o",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3475609756097561,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c2b14e88-065a-431e-913d-2b0f3bbbd31b",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B52/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Delayed puberty and precocious puberty",
+      "delayed puberty",
+      "pituitary causes",
+      "GnRH stimulation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:55.322Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

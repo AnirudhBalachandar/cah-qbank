@@ -1,0 +1,103 @@
+{
+  "id": "04f9e5f8-c7d7-41ea-98d3-b5924f0fdf6f",
+  "stem": "A 15-year-old girl in a Sydney paediatric clinic has changed friendship groups, joined different extracurricular groups, and is trying out different styles while saying she is “working out where I fit”. Her mother worries this must mean something is seriously wrong. What is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "This can be a normal part of adolescence, where young people experiment with roles and place increasing importance on peer relationships",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "This usually means adult personality is already fixed and adolescence is effectively over",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "This mainly reflects physical puberty and body-image change rather than broader adolescent development",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "This should be assumed to be pathological even when no other concerning features are described",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "This shows the adolescent has already reached stable personal values and responsibilities",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Normal adolescent development is the correct interpretation. Experimenting with roles, changing peer groups, and trying out different styles can be expected in adolescence as peer relationships become more important.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 126,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T03:03:16.112Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B01-last-1-no-confidentiality-8e9c33fb144f7a9776c7",
+  "rationale": "This pattern fits normal adolescent identity exploration rather than pathology.",
+  "optionExplanations": {
+    "A": "Correct because experimenting with roles and increasing reliance on peers are normal features of adolescence.",
+    "B": "Incorrect because adolescence is a period of ongoing development, not a time when personality is already fixed.",
+    "C": "Incorrect because the vignette is about social identity exploration, not mainly physical puberty or body-image change.",
+    "D": "Incorrect because these behaviours are common in normal adolescence and are not automatically pathological without other concerning features.",
+    "E": "Incorrect because stable values and responsibility typically develop progressively, not as an immediate consequence of trying out identities."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B01-last-1-no-confidentiality",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu12cmg0001rj7fn8ns1f2e",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.319672131147541,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e16f9969-ff40-4556-af10-34eb2db0ebb2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-04.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "developmental tasks",
+      "peer relationships",
+      "role experimentation",
+      "parent counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:51.551Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "e02355f9-f07d-4cbc-a666-f171c1c8fe50",
+  "stem": "How does the culture of adult medicine typically differ from paediatric medicine?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Adult medicine expects patients to function more independently",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Adult medicine is more family-centred",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Adult medicine focuses more on growth and development",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Adult medicine usually has better-supported multidisciplinary teams",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Adult medicine usually involves greater parental involvement",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adult medicine expects patients to function more independently. In contrast with the family-centred paediatric model, adult services place more responsibility for care and attendance on the patient.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+      "title": "00079 adolescent_chronic i-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.363Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8e6f59abcfe44716a6a9",
+  "rationale": "The key difference is who is expected to manage the illness and engage with care.",
+  "optionExplanations": {
+    "A": "Correct because adult medicine generally expects patients to take greater responsibility for their own care and attendance.",
+    "B": "Incorrect because paediatric care is the more family-centred model, while adult care is typically less so.",
+    "C": "Incorrect because growth and development are central concerns in paediatrics, not adult medicine.",
+    "D": "Incorrect because the source indicates adult medicine is less likely to have multidisciplinary teams than paediatrics.",
+    "E": "Incorrect because parental involvement is a feature of paediatric care, whereas adult services expect more patient independence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the difference in who is held responsible for managing the illness in each system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "79",
+    "lectureTitle": "00079 adolescent_chronic i-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "342819c2-640e-488b-8192-f7faa7d8e2c5",
+    "overlapScore": 0.4269662921348314,
+    "questionIndex": 8,
+    "quizFileName": "quiz_079.json",
+    "quizTitle": "Chronic Illness Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8e0bdd99-cd61-45c7-b1ad-862c94d65b53",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:16.723Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

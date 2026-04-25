@@ -1,0 +1,102 @@
+{
+  "id": "24b843ec-8c11-406d-9f3e-62f1b39b7aa4",
+  "stem": "A junior doctor suggests skipping broader adolescent psychosocial review for a 16-year-old with a chronic neurological condition because young people with chronic illness are usually protected from risk-taking; which response is most appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "That is reasonable, because chronic illness usually prevents adolescents from engaging in risk behaviours",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Risk-behaviour review is only needed once the young person has entered adult services",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Broader adolescent review should still occur, because adolescents with chronic illness are more likely to engage in risk behaviours",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Psychosocial review is mainly for adolescents without long-term medical conditions",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Risk-behaviour review should only be done if the parents specifically request it",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Broader adolescent review should still occur. Adolescents with chronic illness are more likely to engage in risk behaviours, so chronic disease should not be used as a reason to omit psychosocial assessment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T21:07:02.822Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B05-67ae3aa47dc4d00f7b75",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because chronic illness does not usually prevent adolescents from engaging in risk behaviours.",
+    "B": "Incorrect because adolescent psychosocial and risk-behaviour review is relevant before transfer to adult services.",
+    "C": "Correct because adolescents with chronic illness are more likely to engage in risk behaviours, so broader adolescent review should still be done.",
+    "D": "Incorrect because adolescents with long-term medical conditions still need psychosocial review.",
+    "E": "Incorrect because the need for adolescent review does not depend on parental request."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B05",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmv3s3i10001rjanpt4ry7en",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3045454545454546,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "threshold": 0.35
+    },
+    "manualImportPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-18-02.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "chronic illness",
+      "psychosocial review",
+      "risk behaviours"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:57.794Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

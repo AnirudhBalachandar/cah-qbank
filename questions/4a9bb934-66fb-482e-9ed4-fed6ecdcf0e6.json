@@ -1,0 +1,102 @@
+{
+  "id": "4a9bb934-66fb-482e-9ed4-fed6ecdcf0e6",
+  "stem": "A child with noisy breathing has biphasic stridor; what does this suggest?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Meningococcus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Raised intracranial pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Glottic or subglottic lesion",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Surgical emergency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "End-stage respiratory compromise",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Glottic or subglottic lesion is the most likely underlying cause of biphasic stridor, which suggests airway narrowing at or just below the vocal cords.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 5,
+      "title": "Recognition of the sick child: common ED presentations"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:22:34.616Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B69-attempt-02-90ca0c6a66560d317ee0",
+  "rationale": "Biphasic stridor is a red-flag airway finding and points to pathology at the glottis or subglottis.",
+  "optionExplanations": {
+    "A": "Incorrect because meningococcus is associated with features such as purpuric rash, not biphasic stridor.",
+    "B": "Incorrect because raised intracranial pressure is associated with signs such as a bulging fontanelle, not biphasic stridor.",
+    "C": "Correct because biphasic stridor suggests a fixed airway obstruction at the glottic or subglottic level.",
+    "D": "Incorrect because surgical emergency is not the specific finding suggested by biphasic stridor.",
+    "E": "Incorrect because end-stage respiratory compromise is more consistent with grunting respiration, not biphasic stridor."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B69-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx57iz60001rjmo8ln92w5u",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.325,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c9136b3d-474d-4f72-bb81-e19bbb7148e6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B69/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Recognising and managing the sick child",
+      "serious-illness red flags",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:14.982Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

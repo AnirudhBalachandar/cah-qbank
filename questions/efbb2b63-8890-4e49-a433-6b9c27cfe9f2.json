@@ -1,0 +1,98 @@
+{
+  "id": "efbb2b63-8890-4e49-a433-6b9c27cfe9f2",
+  "stem": "By age 5, what percentage of children are estimated to have damaged their primary teeth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "30%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "22%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "10%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "50%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "70%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "30% is the best answer. By age 5, about a third of children are estimated to have damaged their primary teeth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "78fb658e-e8de-46de-96ab-bc0172cba5bc",
+      "title": "00084 Dentistry_orofacial -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.147Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0704d658b2aab069f676",
+  "rationale": "Nearly one-third is the key estimate to remember.",
+  "optionExplanations": {
+    "A": "Correct because the estimated proportion by age 5 is about one-third, which is closest to 30%.",
+    "B": "Incorrect because 22% underestimates the estimated proportion of children with damaged primary teeth by age 5.",
+    "C": "Incorrect because 10% is far too low for the estimated frequency of primary tooth damage by age 5.",
+    "D": "Incorrect because 50% is higher than the estimated proportion and overstates how common this is.",
+    "E": "Incorrect because 70% is much higher than the estimated proportion and is not supported by the estimate."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "78fb658e-e8de-46de-96ab-bc0172cba5bc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of a fraction close to one-third.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "84",
+    "lectureTitle": "00084 Dentistry_orofacial -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d483bd9a-5305-4f51-a7d1-dad91cfb6ca4",
+    "overlapScore": 0.5161290322580645,
+    "questionIndex": 3,
+    "quizFileName": "quiz_084.json",
+    "quizTitle": "Dental Trauma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d44e7911-1b6f-4e0c-a0f6-74bcf8893ef3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:44.577Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

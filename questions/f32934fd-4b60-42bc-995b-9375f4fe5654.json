@@ -1,0 +1,98 @@
+{
+  "id": "f32934fd-4b60-42bc-995b-9375f4fe5654",
+  "stem": "A child presents with acute onset joint pain, fever, and a refusal to weight-bear; this should be treated as which diagnosis until proven otherwise?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Growing pains",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Transient synovitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Septic arthritis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Juvenile idiopathic arthritis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Osteomyelitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Septic arthritis is the correct diagnosis to suspect because acute joint pain with fever and inability to weight-bear is a medical emergency requiring urgent assessment and treatment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.349Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ce5e25e864e4100a6b0b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because growing pains are benign, typically occur at night, and do not cause fever or refusal to weight-bear.",
+    "B": "Incorrect because transient synovitis usually causes a limp and mild symptoms rather than high fever and complete refusal to weight-bear.",
+    "C": "Correct because septic arthritis classically presents with acute joint pain, fever, and inability to bear weight, and must be managed urgently.",
+    "D": "Incorrect because juvenile idiopathic arthritis is usually a chronic inflammatory condition with morning stiffness rather than a sudden febrile presentation.",
+    "E": "Incorrect because osteomyelitis can cause fever and limb pain, but the key presentation of an acutely hot, painful joint with refusal to weight-bear points most strongly to septic arthritis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the condition described as a 'surgical emergency' requiring joint aspiration.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "edcfb6de-e43b-416a-9df9-f9ba86bc1108",
+    "overlapScore": 0.3973509933774834,
+    "questionIndex": 4,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:56.864Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

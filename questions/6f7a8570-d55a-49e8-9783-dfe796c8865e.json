@@ -1,0 +1,98 @@
+{
+  "id": "6f7a8570-d55a-49e8-9783-dfe796c8865e",
+  "stem": "Which endoscopic finding is characteristically described as crepe paper mucosa in eosinophilic oesophagitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fragility and tearing of the oesophageal lining",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Cobblestoning of the lower oesophagus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Circular oesophageal rings and focal strictures",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Thick, yellowish pseudomembranes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Diffuse linear ulceration of the oesophagus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fragility and tearing of the oesophageal lining is the finding referred to as crepe paper mucosa in eosinophilic oesophagitis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.216Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77bfd397e888566c1568",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because crepe paper mucosa describes a friable oesophageal lining that tears easily in eosinophilic oesophagitis.",
+    "B": "Incorrect because cobblestoning is not the characteristic endoscopic description of crepe paper mucosa in eosinophilic oesophagitis.",
+    "C": "Incorrect because rings and strictures are common findings in eosinophilic oesophagitis, but they are not what crepe paper mucosa refers to.",
+    "D": "Incorrect because pseudomembranes are not the characteristic appearance associated with crepe paper mucosa in eosinophilic oesophagitis.",
+    "E": "Incorrect because diffuse linear ulceration is not the typical endoscopic feature described as crepe paper mucosa."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the physical texture and integrity of the esophageal lining described in the source.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "23c1f740-533d-4a27-a231-8ff93b589fca",
+    "overlapScore": 0.4173913043478261,
+    "questionIndex": 3,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:21.727Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

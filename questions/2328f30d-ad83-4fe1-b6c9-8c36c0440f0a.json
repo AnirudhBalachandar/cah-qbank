@@ -1,0 +1,98 @@
+{
+  "id": "2328f30d-ad83-4fe1-b6c9-8c36c0440f0a",
+  "stem": "What is the main benefit of corticosteroid therapy in a child with Duchenne muscular dystrophy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Curing the underlying genetic mutation",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Prolonging the time of ambulation",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Eliminating the risk of scoliosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Preventing the inheritance of the disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Restoring normal dystrophin production",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prolonging the time of ambulation is the main benefit of corticosteroid therapy in Duchenne muscular dystrophy. Steroids help preserve muscle strength and function for longer, which can delay loss of walking ability.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.988Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e5e3ef13e7f33beb713e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because corticosteroids do not correct the underlying genetic mutation or restore dystrophin.",
+    "B": "Correct because corticosteroids help preserve muscle strength and slow functional decline, prolonging independent walking.",
+    "C": "Incorrect because corticosteroids may slow progression but do not eliminate the risk of scoliosis.",
+    "D": "Incorrect because treatment of the affected child does not change the inheritance pattern or genetic risk to future children.",
+    "E": "Incorrect because corticosteroids do not restore normal dystrophin production in Duchenne muscular dystrophy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on how the medication affects the patient's ability to walk over time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3438ca25-8b12-42b3-bd90-58ca619c9896",
+    "overlapScore": 0.4466019417475728,
+    "questionIndex": 12,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:57.342Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

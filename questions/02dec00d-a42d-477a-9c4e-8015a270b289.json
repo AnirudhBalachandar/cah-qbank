@@ -1,0 +1,98 @@
+{
+  "id": "02dec00d-a42d-477a-9c4e-8015a270b289",
+  "stem": "Which bacterial species is responsible for essentially all intracranial complications of acute otitis media?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Haemophilus influenzae",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Moraxella catarrhalis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Staphylococcus aureus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pseudomonas aeruginosa",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Streptococcus pneumoniae is the organism responsible for essentially all intracranial complications of acute otitis media.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+      "title": "00002 ENT-ears-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.310Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d88d2c9792819b9d697f",
+  "rationale": "It is also a major cause of pneumonia and meningitis.",
+  "optionExplanations": {
+    "A": "Correct because Streptococcus pneumoniae is described as causing essentially all intracranial complications of acute otitis media.",
+    "B": "Incorrect because Haemophilus influenzae is a common cause of acute otitis media but is not the main cause of intracranial complications.",
+    "C": "Incorrect because Moraxella catarrhalis is a common acute otitis media pathogen but is not the key organism linked to intracranial spread.",
+    "D": "Incorrect because Staphylococcus aureus is more associated with other ear infections, such as otitis externa, than intracranial complications of acute otitis media.",
+    "E": "Incorrect because Pseudomonas aeruginosa is typically associated with otitis externa and chronic ear disease rather than acute otitis media complications."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This pathogen is also a major cause of pneumonia and meningitis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "2",
+    "lectureTitle": "00002 ENT-ears-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0591fbbc-3f64-44e6-9c3a-108feb9f67d7",
+    "overlapScore": 0.3537735849056604,
+    "questionIndex": 9,
+    "quizFileName": "quiz_002.json",
+    "quizTitle": "Otology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2749f85d-0c75-4339-ad80-96e7b5ac47a2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:45.966Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

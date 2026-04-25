@@ -1,0 +1,98 @@
+{
+  "id": "d605bcfb-55c1-4935-a691-4aa43c8e980b",
+  "stem": "According to the summary of adult outcomes, what percentage of children with ADHD will continue to experience symptoms into adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "60% to 80%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "10% to 20%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "100%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Under 5%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "40% to 50%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "60% to 80% of children with ADHD continue to experience symptoms into adolescence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8b08ea00-ae4a-4d35-b7f4-37dc71f03986",
+      "title": "00053 ADHD-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.431Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bb83a0fe4c8a4e7170b6",
+  "rationale": "A large majority, though not all, continue to have symptoms beyond childhood.",
+  "optionExplanations": {
+    "A": "Correct because the summary indicates that a large majority of children with ADHD continue to have symptoms into adolescence.",
+    "B": "Incorrect because this range is too low for the proportion of children who continue to be affected.",
+    "C": "Incorrect because not all children continue to have symptoms into adolescence.",
+    "D": "Incorrect because only a very small minority would fall below this level, which does not match the summary.",
+    "E": "Incorrect because this is lower than the reported proportion that continue to experience symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8b08ea00-ae4a-4d35-b7f4-37dc71f03986",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "A large majority, though not all, continue to have symptoms beyond childhood.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "53",
+    "lectureTitle": "00053 ADHD-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "74c03962-dca9-49c3-ad18-7b0519fd323e",
+    "overlapScore": 0.361344537815126,
+    "questionIndex": 15,
+    "quizFileName": "quiz_053.json",
+    "quizTitle": "ADHD Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e315af0-edfa-4a2c-9fb3-00379d1359ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:53.123Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

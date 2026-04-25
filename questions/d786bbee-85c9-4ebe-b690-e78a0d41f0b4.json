@@ -1,0 +1,98 @@
+{
+  "id": "d786bbee-85c9-4ebe-b690-e78a0d41f0b4",
+  "stem": "What is the recommended naloxone dose for reversing opioid-induced respiratory depression in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "0.1 mg/kg",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "15 mcg/kg",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "5 mcg/kg",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "10 mg/kg",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "50 mcg/kg",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Naloxone 5 mcg/kg is the recommended dose for reversing opioid-induced respiratory depression in a child.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.490Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-06cab3b3a7110d863dba",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 0.1 mg/kg is much larger than the recommended microgram per kilogram dose.",
+    "B": "Incorrect because 15 mcg/kg exceeds the recommended naloxone dose of 5 mcg/kg.",
+    "C": "Correct because naloxone is given at 5 mcg/kg to reverse opioid-induced respiratory depression.",
+    "D": "Incorrect because 10 mg/kg is an extreme overdose and the dose should be in micrograms, not milligrams.",
+    "E": "Incorrect because 50 mcg/kg is higher than the recommended starting dose of 5 mcg/kg."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The dosage for this emergency reversal agent is measured in micrograms per kilogram.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "df18a3dc-a463-4dd4-be26-ce7857ec3626",
+    "overlapScore": 0.3839285714285715,
+    "questionIndex": 9,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:58.527Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "141a39f7-8b4d-4771-900e-856cc68cf1c6",
+  "stem": "A 14-year-old asks for help with “not making stupid relationship decisions”; she has started dating early, spends a lot of time home alone, is missing school, feels bad about herself, and has recently started drinking at parties—what is the best focus for follow-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wait until she reports sexual intercourse before offering sexual health support",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Limit follow-up to condom teaching because the other issues are separate from sexual risk",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Broaden support to include sexual health counselling plus school engagement, family supervision and relationships, self-esteem and mental health, and other risk behaviours",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Focus only on whether her peers are currently sexually active",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reassure her that early dating is not relevant unless there is already an STI or pregnancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Broaden support is the best approach because risky sexual behaviour is influenced by wider psychosocial factors as well as sexual health knowledge. In this case, the follow-up should address sexual health counselling, school engagement, family supervision and relationships, self-esteem and mental health, and other risk behaviours.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 12,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T06:40:57.998Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B03-483044cb77f94877f7c5",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because preventive sexual health support is appropriate before intercourse occurs.",
+    "B": "Incorrect because condom teaching alone is too narrow and does not address the broader drivers of risk in the stem.",
+    "C": "Correct because the best follow-up considers the broader psychosocial context linked to risky sexual behaviour, not sexual health in isolation.",
+    "D": "Incorrect because peer behaviour is only one factor and does not capture the other important risks already present.",
+    "E": "Incorrect because early dating and associated psychosocial factors are relevant before STI or pregnancy occurs."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu8ub740001rj8johkx6fu6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3167420814479638,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-11.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "risky sexual behaviour",
+      "follow-up",
+      "prevention"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:21.149Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

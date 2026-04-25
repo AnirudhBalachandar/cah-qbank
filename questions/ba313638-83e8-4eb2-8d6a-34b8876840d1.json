@@ -1,0 +1,103 @@
+{
+  "id": "ba313638-83e8-4eb2-8d6a-34b8876840d1",
+  "stem": "A 7-year-old with obesity has poor sleep and habitual snoring; which finding is a red flag that should make the clinician cautious about assuming simple lifestyle-related obesity alone?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Short stature",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Weekend sleep-ins",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A family history of obesity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Breakfast skipping",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Watching television after dinner",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Short stature is the red flag feature here. In a child with obesity and sleep concerns, short stature should prompt a broader assessment rather than assuming uncomplicated exogenous obesity.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 60,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:54:46.075Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B29-attempt-04-59a52002f2b6cc285391",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because short stature is a red flag feature in the assessment of childhood obesity and suggests the clinician should look beyond simple lifestyle-related obesity.",
+    "B": "Incorrect because weekend sleep-ins relate to sleep habits, not the red-flag feature that should raise concern for an underlying cause of obesity.",
+    "C": "Incorrect because a family history of obesity is relevant history, but it is not the specific red-flag finding in this scenario.",
+    "D": "Incorrect because breakfast skipping is a dietary habit, not a red-flag feature for secondary causes of obesity.",
+    "E": "Incorrect because watching television after dinner is a lifestyle factor, not the warning sign that should trigger broader investigation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B29-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn2ha20001rjms4f0juxmn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3492063492063492,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "48f05303-f14f-47e3-a766-b758c5a2b7ca",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B29/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cystic fibrosis and sleep across childhood",
+      "Sleep red flags",
+      "Obesity assessment",
+      "Clinical reasoning"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:46.606Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

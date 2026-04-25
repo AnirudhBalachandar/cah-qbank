@@ -1,0 +1,98 @@
+{
+  "id": "db084857-0e21-4be9-b7c5-b6555c10a7d6",
+  "stem": "What is the standard recommended paracetamol dose for a child older than 3 months?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "10 mg/kg every 4 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "15 mg/kg every 6 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "10 mg/kg every 12 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "5 mg/kg as needed",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "20 mg/kg every 8 hours",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Paracetamol 15 mg/kg every 6 hours is the standard recommended dose for a child older than 3 months, with a maximum of four doses in 24 hours.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.423Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-eb50cc254f8d5582f43a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because 10 mg/kg every 4 hours is not the standard recommended paediatric dose.",
+    "B": "Correct because 15 mg/kg every 6 hours is the standard recommended dose for a child older than 3 months, with a maximum of four doses in 24 hours.",
+    "C": "Incorrect because 10 mg/kg every 12 hours is too infrequent for standard analgesic dosing.",
+    "D": "Incorrect because 5 mg/kg as needed is too low to be the standard therapeutic dose.",
+    "E": "Incorrect because 20 mg/kg every 8 hours is not the standard recommended paracetamol regimen for this age group."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The dosing interval is based on a 24-hour day divided into four equal parts.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "29654977-ff7f-47e1-8547-4d31c0b49a0c",
+    "overlapScore": 0.5520833333333334,
+    "questionIndex": 6,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:05.685Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

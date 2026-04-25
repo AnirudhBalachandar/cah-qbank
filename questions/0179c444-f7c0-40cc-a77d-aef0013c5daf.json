@@ -1,50 +1,79 @@
 {
   "id": "0179c444-f7c0-40cc-a77d-aef0013c5daf",
-  "stem": "12m kid on day 2 of bronchiolitis, sats at 90% on room air and 96% on O2. Best management?",
+  "stem": "A 12-month-old child on day 2 of bronchiolitis has oxygen saturations of 90% on room air and improves to 96% with supplemental oxygen. What is the best next management step?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Low flow O2 via nasal prongs",
-      "isCorrect": null
+      "text": "Low flow oxygen via nasal prongs",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "High flow O2 via nasal prongs",
-      "isCorrect": null
+      "text": "High flow oxygen via nasal prongs",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "5cm CPAP",
-      "isCorrect": null
+      "text": "5 cm CPAP",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Intubate and ventilate",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "O2 via face mask",
-      "isCorrect": null
+      "text": "Oxygen via face mask",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "In bronchiolitis, the first-line management for hypoxaemia is supplemental oxygen, typically by low-flow nasal prongs, with escalation to high-flow nasal cannula or CPAP only if there is persistent work of breathing, ongoing hypoxaemia, or clinical deterioration despite standard oxygen therapy. This child’s saturation corrects with oxygen, so low-flow nasal prongs are the best option among those given.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+      "title": "Bronchiolitis"
+    },
+    {
+      "type": "external",
+      "source": "Agency for Clinical Innovation, NSW Health",
+      "url": "https://aci.health.nsw.gov.au/ecat/paediatric/bronchiolitis",
+      "title": "Bronchiolitis (suspected) | Paediatric ECAT protocol"
+    },
+    {
+      "type": "external",
+      "source": "Children’s Health Queensland",
+      "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/bronchiolitis",
+      "title": "Bronchiolitis – Emergency management in children"
+    }
+  ],
   "tags": [
+    "bronchiolitis",
     "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "hypoxaemia",
+    "infant-respiratory-distress",
+    "oxygen-therapy"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.981Z",
   "sourceFingerprint": "3b8c46be905f6f9941cb345a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The safest repair is to preserve the core clinical concept: an infant with bronchiolitis and mild hypoxaemia who responds to oxygen should receive low-flow oxygen first. Australian guidance places nasal prong oxygen as standard initial therapy, with HFNC/CPAP as escalation if needed.",
+  "optionExplanations": {
+    "A": "Correct. Low-flow nasal prongs are the usual initial oxygen delivery method for mild hypoxaemia in bronchiolitis.",
+    "B": "Incorrect. High-flow nasal cannula is generally reserved for children who do not improve adequately with standard oxygen or who have more significant respiratory distress.",
+    "C": "Incorrect. CPAP is an escalation therapy for more severe respiratory compromise, not first-line for uncomplicated bronchiolitis with oxygen-responsive desaturation.",
+    "D": "Incorrect. Intubation and ventilation are reserved for impending or established respiratory failure.",
+    "E": "Incorrect. A simple face mask is usually less suitable than nasal prongs in infants and is not the preferred initial oxygen delivery method for this presentation."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.320Z",
@@ -59,6 +88,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "7eab226cf3bac15a09db"
+    "stemHash": "7eab226cf3bac15a09db",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:07:12.420Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "selected_existing_option",
+      "confidence": 0.91,
+      "evidenceSources": [
+        {
+          "title": "Bronchiolitis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Bronchiolitis management includes supplemental oxygen when needed; high-flow nasal prong therapy is an escalation option rather than first-line for a child whose oxygenation improves with standard oxygen"
+        },
+        {
+          "title": "Bronchiolitis (suspected) | Paediatric ECAT protocol",
+          "url": "https://aci.health.nsw.gov.au/ecat/paediatric/bronchiolitis",
+          "organization": "Agency for Clinical Innovation, NSW Health",
+          "sourceType": "australian_guideline",
+          "supports": "If oxygen saturations remain below 90% following oxygen therapy, prepare for humidified high-flow nasal cannula; this supports low-flow oxygen first and escalation only if needed"
+        },
+        {
+          "title": "Bronchiolitis – Emergency management in children",
+          "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/bronchiolitis",
+          "organization": "Children’s Health Queensland",
+          "sourceType": "australian_guideline",
+          "supports": "Bronchiolitis oxygen targets and escalation to HFNC/CPAP when standard oxygen is insufficient"
+        }
+      ],
+      "notes": "Original stem was a fragment; repaired into a complete SBA while preserving the intended bronchiolitis oxygen-management concept.",
+      "preRepair": {
+        "stem": "12m kid on day 2 of bronchiolitis, sats at 90% on room air and 96% on O2. Best management?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Low flow O2 via nasal prongs",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "High flow O2 via nasal prongs",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "5cm CPAP",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Intubate and ventilate",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "O2 via face mask",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

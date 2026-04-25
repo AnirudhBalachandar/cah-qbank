@@ -1,0 +1,98 @@
+{
+  "id": "be843cc5-8673-43a4-b126-56179eece8bd",
+  "stem": "Which vaccine is specifically recommended for a child with nephrotic syndrome because of the increased risk of infection with encapsulated organisms?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "MMR vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "23-valent pneumococcal vaccine",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hepatitis B vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "BCG vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Varicella vaccine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "23-valent pneumococcal vaccine is recommended to reduce the risk of invasive pneumococcal infection in children with nephrotic syndrome, who are more vulnerable to encapsulated bacteria.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.025Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4fc50443d24aa02fc3b0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because MMR does not specifically address the increased risk from encapsulated bacteria in nephrotic syndrome.",
+    "B": "Correct because the 23-valent pneumococcal vaccine provides protection against pneumococcal infection, which is a key risk in children with nephrotic syndrome.",
+    "C": "Incorrect because hepatitis B vaccination is important for routine immunisation but is not the specific vaccine recommended for encapsulated bacterial risk here.",
+    "D": "Incorrect because BCG protects against tuberculosis and does not target pneumococcal infection.",
+    "E": "Incorrect because varicella vaccine protects against chickenpox and is not the vaccine specifically recommended for encapsulated organisms in nephrotic syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This vaccine targets the most common cause of spontaneous peritonitis in these patients.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8b9f4325-c960-4b42-99fc-1c988a4e0e8b",
+    "overlapScore": 0.4135338345864661,
+    "questionIndex": 10,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:59.771Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

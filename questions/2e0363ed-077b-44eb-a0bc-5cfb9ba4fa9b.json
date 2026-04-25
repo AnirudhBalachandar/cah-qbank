@@ -1,0 +1,102 @@
+{
+  "id": "2e0363ed-077b-44eb-a0bc-5cfb9ba4fa9b",
+  "stem": "At what age is genu varum typically first seen?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1 to 2 years",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "3 to 4 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "4 to 8 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Early infancy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "All ages",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "1 to 2 years is the typical onset window for genu varum. This age range is the normal presentation rather than the timing for other paediatric lower-limb variants.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 149,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.149"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:29:30.568Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B74-attempt-02-d9504a25fa8c57fb9257",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because genu varum is typically first seen at 1 to 2 years of age.",
+    "B": "Incorrect because 3 to 4 years is more consistent with genu valgum.",
+    "C": "Incorrect because 4 to 8 years is associated with resolution of flat feet, not genu varum.",
+    "D": "Incorrect because early infancy is not the typical onset window for genu varum.",
+    "E": "Incorrect because genu varum has a typical onset window, rather than occurring at all ages."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B74-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5gfxk0001rjvrz3om7yiz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3164556962025317,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8987cbc0-9f4c-42fa-8429-fbc9b2d67ec9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B74/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Orthopaedic examination and normal variants",
+      "genu varum",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:16.680Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

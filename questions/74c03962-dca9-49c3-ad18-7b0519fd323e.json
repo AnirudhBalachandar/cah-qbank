@@ -1,0 +1,98 @@
+{
+  "id": "74c03962-dca9-49c3-ad18-7b0519fd323e",
+  "stem": "What is the minimum duration of symptoms required to define constipation in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "One week",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Two weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "One month",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Two months",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Three months",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Two weeks is the minimum symptom duration used to define constipation in children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+      "title": "00006 common-problems-cons-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.560Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-db572f502b8918698dcf",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because one week is shorter than the minimum duration used in the definition.",
+    "B": "Correct because constipation in children is defined by symptoms lasting more than two weeks.",
+    "C": "Incorrect because one month is longer than the minimum definition threshold given here.",
+    "D": "Incorrect because two months is well beyond the minimum duration required to define constipation.",
+    "E": "Incorrect because three months is longer than the minimum definition threshold used for constipation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a47a5ff6-f02b-4611-8994-83ae071d4805",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the general threshold mentioned at the beginning of the text rather than specific diagnostic criteria.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "6",
+    "lectureTitle": "00006 common-problems-cons-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6d5dcee0-548f-4c71-94b0-e91f16bc23f5",
+    "overlapScore": 0.4380952380952381,
+    "questionIndex": 1,
+    "quizFileName": "quiz_006.json",
+    "quizTitle": "Constipation Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b50f57df-c86d-49e8-b079-40a148286d26",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:30.989Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

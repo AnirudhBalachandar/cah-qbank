@@ -1,0 +1,102 @@
+{
+  "id": "0cda6e07-2e61-4990-9522-a16c391870a6",
+  "stem": "Why is a nasal button battery treated as a true urgency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It can cause septal perforation in hours",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It can cause viral pharyngitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It converts the nasopharynx into the oropharynx",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It causes Brodsky grade 4 tonsils",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It prevents use of a light source",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Septal perforation in hours is the key reason a nasal button battery requires urgent removal because it can rapidly damage nasal tissue.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 8,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:17:56.106Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B23-attempt-01-3844a7d6bf73005a365a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because button batteries can cause caustic injury and septal perforation within hours, so urgent removal is required.",
+    "B": "Incorrect because viral pharyngitis is an infection and is not caused by a button battery lodged in the nose.",
+    "C": "Incorrect because the nasopharynx and oropharynx are anatomical regions, and this does not describe a recognised complication.",
+    "D": "Incorrect because Brodsky grade describes tonsil size and is unrelated to nasal button battery injury.",
+    "E": "Incorrect because a light source is used for examination, but it is not the reason the battery is a true urgency."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B23-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlr3zo0001rjs4rrtz3ugs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3088235294117647,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b899d140-c2ca-46d4-aca3-8c539a0a6085",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B23/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nose and throat",
+      "nasal foreign body",
+      "Complication and prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:09.089Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

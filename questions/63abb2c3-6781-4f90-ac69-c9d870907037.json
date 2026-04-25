@@ -1,0 +1,103 @@
+{
+  "id": "63abb2c3-6781-4f90-ac69-c9d870907037",
+  "stem": "A 10-year-old child has ADHD with prominent aggression affecting home and school life; which medication group is specifically noted as potentially helpful for aggression?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Clonidine or guanfacine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Melatonin or dexamphetamine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Atomoxetine or methylphenidate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Concerta or Ritalin LA",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No medication is noted to help aggression",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Clonidine or guanfacine are the medications specifically noted as potentially helpful for aggression in a child with ADHD.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 85,
+      "title": "Page 85"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T08:36:23.311Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B14-attempt-01-11a6c00e0ca707248813",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because clonidine and guanfacine are specifically linked to helping aggression.",
+    "B": "Incorrect because melatonin is used for sleep, and dexamphetamine is not specifically noted as helpful for aggression.",
+    "C": "Incorrect because atomoxetine and methylphenidate are ADHD treatments, but they are not the medication group specifically noted for aggression.",
+    "D": "Incorrect because these are long-acting stimulant formulations and are not specifically noted to reduce aggression.",
+    "E": "Incorrect because the notes do mention clonidine or guanfacine as potentially helpful for aggression."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B14-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvselht0001rjx6wolatdrz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3375,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8663fe91-4d76-492b-8681-a5aa8c9880da",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B14/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD treatment and longitudinal care",
+      "monitoring",
+      "complication reasoning",
+      "non-stimulants"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:01.588Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

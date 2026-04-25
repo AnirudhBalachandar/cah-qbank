@@ -1,0 +1,102 @@
+{
+  "id": "03de1de9-ac87-4bf1-82e0-4ea353aa1598",
+  "stem": "Which additional history point would most strongly support IgA vasculitis nephritis in a child with haematuria and oedema after a recent sore throat?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A previous episode of a rash with swollen joints",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Fever for 24 hours at the time of presentation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "One day of reduced oral intake",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A family member with hypertension",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Dark urine beginning this morning",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "IgA vasculitis nephritis is suggested by a history of a previous rash with swollen joints. This extra-renal clue broadens the differential beyond post-streptococcal glomerulonephritis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 73,
+      "title": "Page 73"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:39:21.781Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B79-attempt-04-121413c741804dacb87c",
+  "rationale": "IgA vasculitis commonly has extra-renal features such as rash and arthralgia. A previous episode of rash with swollen joints supports a vasculitic cause of nephritis.",
+  "optionExplanations": {
+    "A": "Correct because a prior rash with swollen joints suggests IgA vasculitis, which can be associated with nephritis.",
+    "B": "Incorrect because fever is non-specific and does not particularly support IgA vasculitis nephritis.",
+    "C": "Incorrect because reduced oral intake is non-specific and does not indicate a vasculitic cause of nephritis.",
+    "D": "Incorrect because a family history of hypertension does not help distinguish IgA vasculitis nephritis from other causes.",
+    "E": "Incorrect because dark urine reflects haematuria but does not provide the extra-renal history that suggests IgA vasculitis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B79-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5t43h0001rj13myon65ic",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3434343434343434,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0ccda8c8-91b3-45e5-89d4-63cf80ab517f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B79/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Vasculitis",
+      "red flags",
+      "nephritis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:47.442Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "a084971d-33fb-4c9d-a1c5-3710f65c9bfe",
+  "stem": "Which nocturnal symptom should be specifically asked about when assessing a child for obstructive sleep apnoea?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sleepwalking",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Nocturnal enuresis (bedwetting)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Teeth grinding",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Nightmares",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sleep talking",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nocturnal enuresis is an important symptom to ask about when assessing a child for obstructive sleep apnoea.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.315Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-664091734b3c0d86abf7",
+  "rationale": "It can be associated with sleep-disordered breathing and may be missed unless specifically elicited in the history.",
+  "optionExplanations": {
+    "A": "Incorrect because sleepwalking is a parasomnia, but it is not a key symptom of obstructive sleep apnoea.",
+    "B": "Correct because nocturnal enuresis is an important symptom to ask about when assessing a child for obstructive sleep apnoea.",
+    "C": "Incorrect because teeth grinding can occur during sleep, but it is not the specific nocturnal symptom highlighted for obstructive sleep apnoea.",
+    "D": "Incorrect because nightmares are common in children but are not a typical sign of airway obstruction during sleep.",
+    "E": "Incorrect because sleep talking is a benign parasomnia and is not specifically associated with obstructive sleep apnoea."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This symptom involves a loss of bladder control during the night.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0e788b33-5632-4858-870f-41efc5a3b18d",
+    "overlapScore": 0.4017094017094017,
+    "questionIndex": 13,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:56.279Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "2aed239f-be51-454a-b831-38ad5c0d06ba",
+  "stem": "Which growth pattern is more suggestive of a structural or endocrine cause of poor growth than of chronic diarrhoea or malabsorption?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Weight decreases while head circumference is maintained",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Weight and height both decrease, with normal head circumference",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Weight, height, and head circumference all decrease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Normal growth parameters throughout",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Head circumference starts normal and later crosses centiles after a brain insult",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Weight and height both decrease, with normal head circumference. This is because this pattern suggests a structural, endocrine, constitutional, or genetic cause of poor growth rather than the isolated weight loss more typical of chronic diarrhoea or malabsorption.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 17,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:44:57.583Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B31-attempt-01-291d828ec23b40cfb423",
+  "rationale": "Pattern recognition helps distinguish non-GI causes of poor growth from gastrointestinal causes.",
+  "optionExplanations": {
+    "A": "Incorrect because isolated weight loss with preserved head circumference is more typical of nutritional deficiency, increased loss, or hypermetabolic states such as diarrhoea or malabsorption.",
+    "B": "Correct because simultaneous reduction in weight and height with preserved head circumference is more suggestive of structural or endocrine causes of poor growth.",
+    "C": "Incorrect because involvement of head circumference suggests a broader process such as intrauterine insult or genetic abnormality rather than the pattern described.",
+    "D": "Incorrect because normal growth parameters do not indicate poor growth and therefore do not help discriminate between these causes.",
+    "E": "Incorrect because this describes an acquired neurological pattern after a brain insult, not the general growth pattern used to distinguish structural or endocrine causes."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B31-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmpv7d0001rjn546g5spel",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2758620689655172,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5eb4c270-c3a0-444d-8970-b27a4fb44aa2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B31/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Diarrhoea, malabsorption, and chronic GI reasoning",
+      "diagnostic discrimination",
+      "growth patterns"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:12.166Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

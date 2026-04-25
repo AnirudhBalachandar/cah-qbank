@@ -1,0 +1,102 @@
+{
+  "id": "e65127c9-ac93-4b27-a771-45b73bb528fe",
+  "stem": "Which child best fits the criterion for considering short stature secondary to being born small for gestational age with no catch-up growth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A 2-year-old with height below the 2nd centile",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A 5-year-old with height below the 2nd centile and birth weight below the 2nd centile",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A 5-year-old with normal height and low birth weight",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A 5-year-old with height below the 2nd centile but normal birth measurements",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A 10-year-old with delayed bone age only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A 5-year-old with height below the 2nd centile and birth weight below the 2nd centile is the correct answer because this fits the criterion of short stature in a child older than 4 years who was born small for gestational age and has not shown catch-up growth.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 19,
+      "title": "Assessment of Childhood Short Stature"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:02:29.919Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B15-attempt-01-609220a1171fe82f3877",
+  "rationale": "The criterion requires both current short stature and a history of low birth size, and it applies after 4 years of age.",
+  "optionExplanations": {
+    "A": "Incorrect because the criterion applies to children older than 4 years.",
+    "B": "Correct because this child is older than 4 years, has height below the 2nd centile, and had birth weight below the 2nd centile, which fits the SGA no catch-up growth criterion.",
+    "C": "Incorrect because normal current height does not meet the short stature criterion.",
+    "D": "Incorrect because low birth measurements are required as part of the criterion.",
+    "E": "Incorrect because delayed bone age alone suggests a different pattern and does not meet the SGA criterion."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B15-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvtc6bd0001rjkop87ettxb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2837837837837838,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fadb2ca0-8590-46da-bd81-cdc4ada1c9fb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B15/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Growth, nutrition, and obesity",
+      "growth assessment",
+      "screening"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:29.033Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

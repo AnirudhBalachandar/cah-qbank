@@ -1,0 +1,102 @@
+{
+  "id": "89bd1df6-7bb5-4994-a792-827cc8a0b2a1",
+  "stem": "A child aged 1 to 8 years is using Flixotide Junior but now needs a dose higher than 100 micrograms twice daily; what is the most appropriate next formulation step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Continue Flixotide Junior unchanged",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Switch to Flixotide",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Replace preventer therapy with nightly oxygen",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use oral prednisone as the regular preventer",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Stop inhaled therapy until the next flare-up",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Switch to Flixotide. When a child aged 1 to 8 years needs more than 100 micrograms twice daily of Flixotide Junior, the next formulation step is to switch to Flixotide.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 36,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:54:31.087Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B27-attempt-02-b29651c5471630236f2d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the formulation should change when the dose requirement exceeds 100 micrograms twice daily.",
+    "B": "Correct because children aged 1 to 8 years using Flixotide Junior who need a higher dose than 100 micrograms twice daily should switch to Flixotide.",
+    "C": "Incorrect because nightly oxygen is not a long-term preventer formulation step.",
+    "D": "Incorrect because oral prednisone is not the regular inhaled preventer therapy for this situation.",
+    "E": "Incorrect because inhaled preventer therapy should not be stopped when ongoing asthma control is still needed."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B27-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn25pp0001rjxdpxegwsy2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.329608938547486,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "17c5b09d-0695-491d-8c4d-000322af7515",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B27/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma diagnosis and chronic management",
+      "preventer reasoning",
+      "inhaled corticosteroid"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:12.961Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

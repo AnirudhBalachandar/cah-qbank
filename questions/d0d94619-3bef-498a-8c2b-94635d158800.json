@@ -1,0 +1,98 @@
+{
+  "id": "d0d94619-3bef-498a-8c2b-94635d158800",
+  "stem": "What does Gower sign specifically indicate during a motor examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Distal muscle weakness in the hands",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Proximal weakness at the hip joints",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Early spasticity at the ankles",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cerebellar ataxia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Peripheral sensory loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Proximal weakness at the hip joints is indicated by Gower sign. A child with this sign uses the hands to “walk” up the thighs when rising from the floor, showing weakness of the hip and pelvic girdle muscles.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+      "title": "00067 neurology_motor diff-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.732Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-99b6326f8a7b83c14042",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because Gower sign reflects weakness of the proximal lower limb muscles, not distal hand weakness.",
+    "B": "Correct because a child rising by climbing up their own legs indicates proximal pelvic and hip girdle weakness.",
+    "C": "Incorrect because spasticity is an upper motor neurone feature and is not what Gower sign is used to identify.",
+    "D": "Incorrect because ataxia affects coordination and balance, whereas Gower sign indicates muscle weakness.",
+    "E": "Incorrect because sensory loss does not cause the characteristic manoeuvre seen with Gower sign."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall how a child might use their arms to compensate for weak leg and hip muscles when rising from the floor.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "67",
+    "lectureTitle": "00067 neurology_motor diff-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fe4f90ce-cd3c-49ef-8653-3b08430faa19",
+    "overlapScore": 0.3522727272727273,
+    "questionIndex": 4,
+    "quizFileName": "quiz_067.json",
+    "quizTitle": "Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "06bc7f92-731c-431e-8c5d-1cce38c39168",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:44.382Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

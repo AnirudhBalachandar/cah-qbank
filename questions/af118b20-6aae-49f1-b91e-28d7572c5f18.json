@@ -1,0 +1,98 @@
+{
+  "id": "af118b20-6aae-49f1-b91e-28d7572c5f18",
+  "stem": "Which stain is used to help diagnose Hirschsprung disease by assessing for normal bowel innervation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Gram stain",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Calretinin stain",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hematoxylin and eosin stain",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Sudan black stain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ziehl-Neelsen stain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Calretinin staining is used in Hirschsprung disease to highlight normal enteric innervation, with loss of staining in aganglionic bowel.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.262Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-22c6c127973552fb544b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Gram stain is used to identify bacteria, not to assess enteric ganglion cells.",
+    "B": "Correct because calretinin staining is positive in normal bowel but absent in the aganglionic segments of Hirschsprung disease.",
+    "C": "Incorrect because haemotoxylin and eosin is a routine histological stain, but calretinin is the more specific stain used to assess enteric innervation in Hirschsprung disease.",
+    "D": "Incorrect because Sudan black stains lipids and is not used to identify the enteric nervous system.",
+    "E": "Incorrect because Ziehl-Neelsen stain is used for acid-fast organisms, not for diagnosing Hirschsprung disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This specific immunohistochemical marker helps pathologists visualize the health of the enteric nervous system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e1ee0085-58c3-49e0-8225-5a2ceec86fd6",
+    "overlapScore": 0.3658536585365854,
+    "questionIndex": 9,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:27.247Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

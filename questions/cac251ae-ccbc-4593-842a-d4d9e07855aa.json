@@ -1,0 +1,98 @@
+{
+  "id": "cac251ae-ccbc-4593-842a-d4d9e07855aa",
+  "stem": "What is the risk of intracranial haemorrhage associated with a skull fracture in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It carries a risk of approximately 5%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It carries a risk of 25-30%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It carries no additional risk if the fontanelle is open",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is only significant if the child is older than 8 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It carries a risk of less than 1%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is a 25-30% risk. A skull fracture in a child is an important marker of possible intracranial haemorrhage because it is associated with a substantial rate of underlying bleeding.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.588Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e8eb923ec5caaee65541",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because 5% underestimates the risk associated with a paediatric skull fracture.",
+    "B": "Correct because a skull fracture in a child is associated with an intracranial haemorrhage risk of about 25-30%.",
+    "C": "Incorrect because an open fontanelle does not remove the risk of associated intracranial bleeding.",
+    "D": "Incorrect because skull fractures are clinically significant in children of any age, not only those older than 8 years.",
+    "E": "Incorrect because the risk is much higher than 1% when a skull fracture is present."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the statistical range mentioned for intracranial hemorrhage in the context of thin skull bones.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ffd611f3-db0a-42fd-8f91-6bdf8f57691f",
+    "overlapScore": 0.3762376237623762,
+    "questionIndex": 12,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:33.686Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

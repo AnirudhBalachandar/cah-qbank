@@ -1,0 +1,98 @@
+{
+  "id": "5ca29586-8a0d-4ae5-b105-ffa88fe325e2",
+  "stem": "How does reduced sleep affect risk-taking behaviour in adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reduced sleep impairs prefrontal cortex function and self-regulation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Reduced sleep improves motor coordination and encourages physical risk-taking",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Risk-taking is only linked to excessive sleep, not sleep restriction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "There is no established link between sleep and brain function in adolescents",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reduced sleep mainly increases growth hormone secretion and reduces impulsivity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reduced sleep impairs prefrontal cortex function and self-regulation, which increases impulsive and risky behaviour in adolescents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.547Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9485603d5d882569e7b4",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because reduced sleep disrupts prefrontal cortex function, weakening impulse control and self-regulation.",
+    "B": "Incorrect because sleep deprivation impairs, rather than improves, coordination and judgement.",
+    "C": "Incorrect because reduced sleep is associated with increased, not absent, risk-taking behaviour.",
+    "D": "Incorrect because sleep and prefrontal cortex function are clearly linked in adolescent behaviour and self-regulation.",
+    "E": "Incorrect because the main effect relevant to risk-taking is impaired prefrontal control, not increased growth hormone secretion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify which part of the brain is responsible for impulse control.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ef838c4b-e097-47bb-b125-5f6ca22de099",
+    "overlapScore": 0.4684684684684685,
+    "questionIndex": 5,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:46.540Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "403dff68-4d8a-4065-919c-0c56069d140d",
+  "stem": "What is a common acute complication of poor engagement during transition from paediatric to adult diabetes care?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Diabetic ketoacidosis (DKA)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Type 2 diabetes onset",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Immediate end-stage renal failure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Increased insulin sensitivity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hypoglycaemia unawareness",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Diabetic ketoacidosis (DKA) is a common acute complication when diabetes care becomes poorly controlled during an unsuccessful transition to adult services.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+      "title": "00079 adolescent_chronic i-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.403Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-79e099147cfc0cae2c8f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because poor engagement and loss of diabetes control can lead to hyperglycaemia and ketoacidosis, which is a common emergency presentation.",
+    "B": "Incorrect because type 2 diabetes onset is not the acute complication linked to failed transition in this context.",
+    "C": "Incorrect because end-stage renal failure is a chronic complication, not the common acute consequence being asked about.",
+    "D": "Incorrect because poor engagement would not increase insulin sensitivity; it more commonly worsens glycaemic control.",
+    "E": "Incorrect because hypoglycaemia unawareness is a complication of recurrent low glucose, not the usual acute result of disengagement from care."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for an acute, life-threatening complication often seen in the emergency room.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "79",
+    "lectureTitle": "00079 adolescent_chronic i-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6594932b-222e-4b6f-ac70-ae8692affd3f",
+    "overlapScore": 0.3529411764705883,
+    "questionIndex": 10,
+    "quizFileName": "quiz_079.json",
+    "quizTitle": "Chronic Illness Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8e0bdd99-cd61-45c7-b1ad-862c94d65b53",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:47.910Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

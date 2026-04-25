@@ -1,0 +1,98 @@
+{
+  "id": "a8d4be2d-f5c7-4af0-9408-c8d8ecc19f0f",
+  "stem": "Which set of conditions represents the leading causes of adult morbidity and mortality that originate as health risk behaviours in adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Overweight, sedentary behaviour, and smoking",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Diabetes, hypertension, and asthma",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Anxiety, depression, and eating disorders",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Alcohol use, unprotected sex, and drug use",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Poor sleep, dehydration, and stress",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Overweight, sedentary behaviour, and smoking are the key adolescent health risk behaviours linked to major adult morbidity and mortality.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+      "title": "00079 adolescent_chronic i-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.292Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-799d4c0b92b65f47c30c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because overweight, sedentary behaviour, and smoking are the specific lifestyle risk behaviours identified as major contributors to later adult disease and death.",
+    "B": "Incorrect because diabetes, hypertension, and asthma are health conditions, not the adolescent risk behaviours being asked about.",
+    "C": "Incorrect because anxiety, depression, and eating disorders are mental health conditions rather than the lifestyle risk behaviours highlighted in the question.",
+    "D": "Incorrect because alcohol use, unprotected sex, and drug use are important risk behaviours, but they are not the trio identified as the leading causes of adult morbidity and mortality in this context.",
+    "E": "Incorrect because poor sleep, dehydration, and stress are not the specific adolescent health risk behaviours identified here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about behaviors related to long-term lifestyle habits mentioned as impacting future health.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "79",
+    "lectureTitle": "00079 adolescent_chronic i-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0d36bfd1-d5bc-4aed-ad96-aa84c4e49556",
+    "overlapScore": 0.3720930232558139,
+    "questionIndex": 2,
+    "quizFileName": "quiz_079.json",
+    "quizTitle": "Chronic Illness Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8e0bdd99-cd61-45c7-b1ad-862c94d65b53",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:10.661Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

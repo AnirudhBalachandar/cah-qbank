@@ -1,0 +1,102 @@
+{
+  "id": "575cfc80-ce05-4901-ac7b-e09df1b4cd8a",
+  "stem": "A junior doctor in a community clinic becomes concerned about possible maltreatment after a consultation; what is the role of the Mandatory Reporter's Guide?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It assists decision-making about the child's risk and the initial actions to take",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is the service that conducts forensic medical assessment for suspected maltreatment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It replaces clinical judgement when deciding whether risk of harm is present",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is used only after the Department of Family and Community Services has accepted a report",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It should not be used until a complete investigation has established the facts",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Mandatory Reporter's Guide assists decision-making about the child's risk and the initial actions to take. It supports clinicians in responding to concern about possible maltreatment, while clinical judgement remains important and a complete investigation is not required before action is taken.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 193,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:37:42.727Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B09-attempt-02-411f449b770b0222e3ee",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because the guide is designed to help clinicians assess the child's risk and decide on the initial actions to take.",
+    "B": "Incorrect because forensic medical assessment is performed by specialist child protection or forensic services, not by the guide itself.",
+    "C": "Incorrect because the guide supports clinical judgement rather than replacing it.",
+    "D": "Incorrect because the guide is used at the time of concern to inform action, not only after a report has been accepted.",
+    "E": "Incorrect because a complete investigation is not required before using the guide or making a report."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B09-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvm0tgj0001rjsng22jehj1",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3004926108374384,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4b700472-84fb-4e6f-b1f1-44ff68e1bcab",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B09/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Children and adolescents at risk",
+      "Mandatory Reporter's Guide",
+      "Mandatory reporting"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:40.640Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "c87d69cf-5ce0-4ed2-87a7-c7095a5b8ba8",
+  "stem": "Which associated description is most consistent with a congenital diaphragmatic hernia in a newborn with respiratory distress?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Usually right sided, without lung effects",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Usually left sided with pulmonary hypoplasia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Usually central, with diffuse coarse densities",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Usually resolves by 48 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Usually presents only beyond infancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Congenital diaphragmatic hernia is usually left sided with pulmonary hypoplasia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 196,
+      "title": "Page 196"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:06:12.527Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-01-7fd9ade30492259972df",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because congenital diaphragmatic hernia is usually left sided rather than right sided, and it is associated with lung hypoplasia.",
+    "B": "Correct because congenital diaphragmatic hernia is usually left sided and is associated with pulmonary hypoplasia.",
+    "C": "Incorrect because diffuse coarse densities are more in keeping with meconium aspiration than congenital diaphragmatic hernia.",
+    "D": "Incorrect because resolution by 48 hours is typical of transient tachypnoea of the newborn, not diaphragmatic hernia.",
+    "E": "Incorrect because congenital diaphragmatic hernia presents at birth or in the neonatal period, not only beyond infancy."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B11-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwj6vev0001rjhc77ocnok8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3385826771653543,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0a93ecba-cdec-45df-bc4d-f39139ecd2f6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "neonatal lung disease",
+      "chest X-ray",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:26.713Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

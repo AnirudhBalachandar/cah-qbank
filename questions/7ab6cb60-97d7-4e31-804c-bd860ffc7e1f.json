@@ -1,0 +1,102 @@
+{
+  "id": "7ab6cb60-97d7-4e31-804c-bd860ffc7e1f",
+  "stem": "A 10-year-old boy with ADHD returns 3 weeks after starting stimulant treatment and now eats very little at school but has a better evening appetite; which adverse effect best fits this pattern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Loss of appetite, especially at lunch",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hearing impairment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hypertension as the most common adverse effect",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Intellectual disability",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Night sweats",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Loss of appetite, especially at lunch, is the best fit. Stimulant medicines commonly suppress appetite during the school day, with appetite often improving later in the evening.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 85,
+      "title": "Page 85"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T08:42:05.315Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B14-attempt-03-a034508d1bf30a79b5ad",
+  "rationale": "Stimulants commonly reduce appetite, particularly around lunchtime, so a child who eats little at school but better at night is showing a typical adverse effect.",
+  "optionExplanations": {
+    "A": "Correct because stimulant treatment commonly causes appetite suppression, especially at lunchtime, with later evening appetite often returning.",
+    "B": "Incorrect because hearing impairment is not a typical adverse effect of stimulant treatment for ADHD.",
+    "C": "Incorrect because hypertension can occur and should be monitored, but it is not the most common adverse effect described here.",
+    "D": "Incorrect because intellectual disability is not a stimulant adverse effect and does not explain the change in appetite pattern.",
+    "E": "Incorrect because night sweats are not the characteristic adverse effect of stimulant treatment in this scenario."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B14-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvslxen0001rjq3ichqrgjp",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3263157894736842,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e036de1b-8058-421f-b4af-d459a8dfb2e1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B14/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD treatment and longitudinal care",
+      "side effects",
+      "stimulants"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:40.089Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

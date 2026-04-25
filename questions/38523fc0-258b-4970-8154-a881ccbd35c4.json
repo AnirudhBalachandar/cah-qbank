@@ -1,0 +1,98 @@
+{
+  "id": "38523fc0-258b-4970-8154-a881ccbd35c4",
+  "stem": "Why is bubbly saliva considered a positive sign in a child with oral health concerns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It indicates recent use of fluoridated toothpaste",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It shows that saliva is flowing well and protecting the oral environment",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It suggests an active infection of the salivary glands",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is a diagnostic marker for Prader-Willi syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It indicates dehydration from reduced salivary secretion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bubbly saliva is a sign of good salivary flow. This suggests the oral environment is being protected, which helps reduce dental decay risk.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.367Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7a3c122152a4a1c43812",
+  "rationale": "It reflects normal saliva production and movement rather than a disease process.",
+  "optionExplanations": {
+    "A": "Incorrect because fluoridated toothpaste use does not explain the bubbly appearance of saliva.",
+    "B": "Correct because bubbly saliva usually means saliva is flowing well and is helping protect the oral environment.",
+    "C": "Incorrect because salivary gland infection more often causes pain, swelling, or altered saliva rather than a reassuring bubbly appearance.",
+    "D": "Incorrect because Prader-Willi syndrome is not diagnosed by the appearance of saliva.",
+    "E": "Incorrect because dehydration typically reduces salivary flow and leads to a dry mouth rather than bubbly saliva."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the presence of bubbles as a sign of movement and volume.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5d80eb20-8bf0-4548-9aa9-15487c0c2707",
+    "overlapScore": 0.3882352941176471,
+    "questionIndex": 15,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:34.747Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

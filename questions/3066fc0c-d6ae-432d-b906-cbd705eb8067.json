@@ -1,0 +1,103 @@
+{
+  "id": "3066fc0c-d6ae-432d-b906-cbd705eb8067",
+  "stem": "During a teaching discussion on normal dental development, a student asks why permanent teeth can provide clues about early postnatal health. What is the best explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Permanent teeth calcify from birth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Permanent teeth first begin developing at age 3 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Primary teeth erupt between 6 and 18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Permanent tooth eruption is complete by age 3 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Only unilateral tooth eruption is considered normal",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Permanent teeth calcify from birth. This means their development reflects early postnatal growth and health, whereas the other options describe incorrect timelines or a false normal variant.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 133,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.867Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-f2a3d6d4bf1369f3b481",
+  "rationale": "Permanent teeth begin developing in utero and calcify from birth, which is why they can help indicate early postnatal health.",
+  "optionExplanations": {
+    "A": "Correct because permanent teeth calcify from birth, allowing early postnatal influences to be reflected in their development.",
+    "B": "Incorrect because permanent teeth begin developing before birth, not at age 3 years.",
+    "C": "Incorrect because primary teeth erupt in early childhood, not between 6 and 18 years.",
+    "D": "Incorrect because permanent tooth eruption continues through childhood and adolescence, not by age 3 years.",
+    "E": "Incorrect because unilateral eruption is not considered a normal defining feature of tooth development."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.293103448275862,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fb8ef949-fa4c-4364-b5bf-1c48812a9a1d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "normal dental development",
+      "developmental interpretation",
+      "teeth"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:19.411Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

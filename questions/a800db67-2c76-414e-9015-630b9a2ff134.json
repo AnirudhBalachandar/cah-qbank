@@ -1,0 +1,98 @@
+{
+  "id": "a800db67-2c76-414e-9015-630b9a2ff134",
+  "stem": "Why might a child with neurological conditions be predisposed to a chronic cough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immune deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pulmonary aspiration",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Structural airway malformation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Environmental tobacco exposure",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Asthma",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pulmonary aspiration is the correct answer. Neurological conditions can impair swallowing and airway protection, leading to aspiration and a chronic cough.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.993Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-00d7d5252f3747c8ece6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because immune deficiency may predispose to recurrent infections, but it is not the mechanism highlighted here.",
+    "B": "Correct because neurological conditions can impair swallowing and airway protection, causing pulmonary aspiration and chronic cough.",
+    "C": "Incorrect because structural airway malformations are separate causes of respiratory symptoms and are not the usual consequence of neurological conditions.",
+    "D": "Incorrect because environmental tobacco exposure can cause chronic cough, but it is an external exposure rather than a complication of neurological conditions.",
+    "E": "Incorrect because asthma can cause chronic cough, but it does not explain the association with neurological conditions in this question."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the complications that arise from an inability to swallow correctly.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "95e4c3bd-abb1-460a-a523-af48af344f64",
+    "overlapScore": 0.3714285714285714,
+    "questionIndex": 9,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:08.665Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

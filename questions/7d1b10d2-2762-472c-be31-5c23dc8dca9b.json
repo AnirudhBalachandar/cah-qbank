@@ -1,0 +1,98 @@
+{
+  "id": "7d1b10d2-2762-472c-be31-5c23dc8dca9b",
+  "stem": "Which stool test is used as a marker of protein loss in suspected protein-losing enteropathy in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Stool alpha-1 antitrypsin",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Stool elastase",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Reducing substances",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Stool sodium and potassium gap",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Faecal calprotectin",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stool alpha-1 antitrypsin is the correct marker because it is resistant to intestinal digestion and reflects protein loss into the gut.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+      "title": "00026 diarrhoea-assessment-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.234Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d7c215cf78f0a8a81da0",
+  "rationale": "Alpha-1 antitrypsin is useful because it is not easily broken down by intestinal proteases, so increased stool levels indicate protein leakage.",
+  "optionExplanations": {
+    "A": "Correct because stool alpha-1 antitrypsin is resistant to digestion by intestinal enzymes and is a reliable marker of protein loss into the gut.",
+    "B": "Incorrect because stool elastase assesses pancreatic exocrine function, not protein-losing enteropathy.",
+    "C": "Incorrect because reducing substances are used to detect unabsorbed sugars in osmotic diarrhoea.",
+    "D": "Incorrect because the stool sodium and potassium gap helps distinguish osmotic from secretory watery diarrhoea.",
+    "E": "Incorrect because faecal calprotectin is a marker of intestinal inflammation, not protein loss."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This protein is useful because it is not easily broken down by the gut's proteases.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "26",
+    "lectureTitle": "00026 diarrhoea-assessment-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba914e59-a3a1-4d26-b997-3f2dc1484760",
+    "overlapScore": 0.4396551724137931,
+    "questionIndex": 9,
+    "quizFileName": "quiz_026.json",
+    "quizTitle": "Gastroenterology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2d08b08-eeb8-480c-9490-cde49601e0d5",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:47.597Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

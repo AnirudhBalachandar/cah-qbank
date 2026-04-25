@@ -1,0 +1,98 @@
+{
+  "id": "14c49e0d-606d-4fbf-b78d-51d8c8954f5e",
+  "stem": "Which symptom is a definitive indicator of anaphylaxis rather than a mild or moderate allergic reaction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hives or welts",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tingling mouth",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wheeze or persistent cough",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Abdominal pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Runny nose",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Wheeze or persistent cough indicates respiratory involvement and points to anaphylaxis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.899Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-50376583c6eecf5631ad",
+  "rationale": "/Respiratory symptoms suggest airway or breathing compromise, which distinguishes anaphylaxis from a milder allergic reaction.",
+  "optionExplanations": {
+    "A": "Incorrect because hives or welts can occur in mild to moderate allergic reactions and do not by themselves indicate anaphylaxis.",
+    "B": "Incorrect because a tingling mouth is a localised symptom and is usually classified as mild to moderate.",
+    "C": "Correct because wheeze or persistent cough indicates respiratory involvement and points to anaphylaxis.",
+    "D": "Incorrect because abdominal pain can occur in food allergy and on its own is not a definitive marker of anaphylaxis.",
+    "E": "Incorrect because a runny nose is a non-specific upper respiratory symptom and does not indicate anaphylaxis on its own."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on symptoms that suggest the airway or breathing is compromised.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5967a17c-2b10-4103-a310-21515a470666",
+    "overlapScore": 0.5148514851485149,
+    "questionIndex": 14,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:22.842Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

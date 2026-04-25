@@ -1,0 +1,98 @@
+{
+  "id": "b56299eb-4ac4-4163-8625-f134ee276f14",
+  "stem": "In the Asia-Pacific region, what was the approximate increase in the prevalence of overweight and obesity among school-aged children between 2010 and 2016?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "10–15%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "43–48%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "80–90%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "2%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "25–30%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "43–48% is the approximate increase reported for school-aged children in the Western Pacific and Southeast Asian regions over this period.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+      "title": "00090 Baur SMP Obesity pre-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.161Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5a895ac811a7e91ff7d6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the reported increase was much larger than 10–15%.",
+    "B": "Correct because the source cites a 43% increase in the Western Pacific and a 48% increase in the Southeast Asian region.",
+    "C": "Incorrect because the prevalence rose substantially, but not by as much as 80–90%.",
+    "D": "Incorrect because 2% is far below the increase described.",
+    "E": "Incorrect because the increase was higher than 25–30%."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The growth rate in this region was nearly half of the baseline within just a few years.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "90",
+    "lectureTitle": "00090 Baur SMP Obesity pre-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "07219d5b-74be-445f-9ad9-b6e1eb45308d",
+    "overlapScore": 0.3928571428571428,
+    "questionIndex": 3,
+    "quizFileName": "quiz_090.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c886d9c4-927e-4f78-9fc5-77a24d552dc0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:40.813Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

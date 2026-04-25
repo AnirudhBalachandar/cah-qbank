@@ -1,0 +1,98 @@
+{
+  "id": "e0a105b7-49c1-4593-9abe-b51f73faa3d4",
+  "stem": "In a child, what are atypical lymphocytes on a blood film most commonly associated with?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Malignant blasts indicating acute leukaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Reactive cells fighting a viral infection",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Severe vitamin B12 deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An underlying genetic immunodeficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bacterial sepsis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reactive cells fighting a viral infection is the correct concept. Atypical lymphocytes are usually normal lymphocytes that have become enlarged or irregular in appearance as part of a reactive response, commonly during viral illness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.181Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7c5ef1192b1fd4e66bc4",
+  "rationale": "N/A",
+  "optionExplanations": {
+    "A": "Incorrect because atypical lymphocytes are reactive lymphocytes, not malignant blasts suggesting acute leukaemia.",
+    "B": "Correct because atypical lymphocytes are usually reactive lymphocytes seen during a viral infection.",
+    "C": "Incorrect because vitamin B12 deficiency more typically causes macrocytosis and hypersegmented neutrophils, not atypical lymphocytes.",
+    "D": "Incorrect because atypical lymphocytes are a common transient response to infection and do not by themselves indicate a genetic immunodeficiency.",
+    "E": "Incorrect because atypical lymphocytes are classically associated with viral infections rather than being a specific marker of bacterial sepsis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "These cells are often described as 'pleomorphic' and are frequently seen during illnesses like Glandular Fever.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d00e8257-638d-4e94-88b7-a2818cfdb1f5",
+    "overlapScore": 0.3947368421052632,
+    "questionIndex": 5,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:20.804Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

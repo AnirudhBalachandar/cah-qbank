@@ -1,0 +1,98 @@
+{
+  "id": "428d0787-7d36-40b1-8eb4-6b334ef98e8b",
+  "stem": "Which statement about head banging as a rhythmic movement in children is correct?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It typically begins at the end of the first year and stops before age 4",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is significantly more common in females than in males",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is usually associated with abnormal daytime behaviour or development",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It rarely occurs in children who have previously shown body rocking",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It usually begins in late adolescence",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Head banging typically begins near the end of the first year of life and usually resolves before age 4.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+      "title": "00021 Sleep disorders-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.411Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4d1291d149b8e795823a",
+  "rationale": "It is a benign rhythmic movement of early childhood with a characteristic age range and usually normal daytime functioning.",
+  "optionExplanations": {
+    "A": "Correct because head banging typically starts towards the end of the first year and usually resolves before age 4.",
+    "B": "Incorrect because head banging is more common in males than in females.",
+    "C": "Incorrect because it is usually seen in otherwise healthy children and is not typically linked to abnormal daytime behaviour or development.",
+    "D": "Incorrect because head banging may occur alongside other rhythmic behaviours such as body rocking.",
+    "E": "Incorrect because head banging is a phenomenon of early childhood, not late adolescence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the typical age range and developmental context for this behavior.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "21",
+    "lectureTitle": "00021 Sleep disorders-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5bf0820a-5540-430e-8319-d93bdb8aa2b9",
+    "overlapScore": 0.4390243902439024,
+    "questionIndex": 4,
+    "quizFileName": "quiz_021.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b516b8dd-449a-4f65-b9dc-89c25d58f557",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:52.244Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "050282e3-3b40-40b5-ba38-5a89cf4e74e8",
+  "stem": "What is the gold standard investigation for diagnosing obstructive sleep apnoea in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lateral airway X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sleep diary and actigraphy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Polysomnography",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Morning venous gas analysis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pulse oximetry overnight",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Polysomnography is the gold standard investigation for diagnosing obstructive sleep apnoea in children because it measures sleep architecture and respiratory events overnight.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.218Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-61b6a4a0c4651962faef",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a lateral airway X-ray may suggest adenoidal enlargement but does not diagnose obstructive sleep apnoea.",
+    "B": "Incorrect because sleep diaries and actigraphy are more useful for assessing sleep patterns and circadian rhythm problems than airway obstruction.",
+    "C": "Correct because polysomnography provides comprehensive overnight assessment of sleep and breathing and is the gold standard test for diagnosing obstructive sleep apnoea in children.",
+    "D": "Incorrect because a morning venous gas analysis reflects a point-in-time metabolic state and cannot measure nocturnal apnoeic events.",
+    "E": "Incorrect because overnight pulse oximetry can support suspicion of sleep-disordered breathing but is not the gold standard diagnostic test."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This comprehensive test was mentioned as being invented in Australia and provides a detailed view of sleep architecture and respiratory events.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "cc869ed7-2ab4-4811-90c4-ce1694e4896c",
+    "overlapScore": 0.4623655913978494,
+    "questionIndex": 8,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:50.991Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

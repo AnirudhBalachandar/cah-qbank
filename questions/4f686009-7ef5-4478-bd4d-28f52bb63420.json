@@ -1,0 +1,98 @@
+{
+  "id": "4f686009-7ef5-4478-bd4d-28f52bb63420",
+  "stem": "Under the NDIS in Australia, what is true for children under 7 years who need early intervention support?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They must have a formal diagnosis of autism or intellectual disability",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They do not require a formal diagnosis to access early intervention",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They must be Australian citizens and have a paediatrician referral",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They must show delays in at least four developmental domains",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They must first complete a six-month specialist assessment period",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "They do not require a formal diagnosis to access early intervention. Young children can access support on the basis of developmental concerns or delay, allowing help to start early without waiting for a definitive diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+      "title": "00055 Developmental Delay-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.664Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-37ba0223d3767806dca1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a formal diagnosis is not required for early intervention access in this age group.",
+    "B": "Correct because young children can access early intervention under the NDIS without waiting for a formal diagnosis.",
+    "C": "Incorrect because citizenship and a paediatrician referral are not the key requirement for early intervention access.",
+    "D": "Incorrect because there is no requirement to demonstrate delays in four developmental domains.",
+    "E": "Incorrect because the NDIS does not require a six-month specialist assessment period before early intervention support can begin."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "aff0b7e1-220c-4d25-acc3-eee2deb39e7e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The policy aims to provide help as early as possible without waiting for complex diagnostic processes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "55",
+    "lectureTitle": "00055 Developmental Delay-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c785fd8a-d797-43c1-9490-eec3a39edc74",
+    "overlapScore": 0.3789473684210526,
+    "questionIndex": 8,
+    "quizFileName": "quiz_055.json",
+    "quizTitle": "Development Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2fe3e388-3c7b-4ce4-b2c8-2010baf3ee20",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:29.251Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "f381534d-5632-4955-891a-93a8ce546c44",
+  "stem": "When assessing a child for non-accidental injury, which history feature is a red flag?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A delay in seeking medical attention",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The episode occurred immediately after a feed",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The infant was supine during the episode",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An ambulance was called immediately",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The child was settled after the event",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A delay in seeking medical attention is the correct answer. Unexplained delay after a significant event can indicate concern for maltreatment and should raise suspicion for non-accidental injury.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+      "title": "00005 BRUE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.495Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b3ac6febb95bb2579658",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because an unexplained delay in bringing a child for care after a significant event is concerning for possible maltreatment.",
+    "B": "Incorrect because an event occurring after a feed is not, by itself, a red flag for non-accidental injury.",
+    "C": "Incorrect because the infant’s position during the episode is part of the history but is not inherently suspicious.",
+    "D": "Incorrect because calling an ambulance immediately is an appropriate response and is not a red flag.",
+    "E": "Incorrect because the child being settled afterwards does not by itself suggest non-accidental injury."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6309e52a-e8fb-4d74-bba1-52314b44f32e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a behavior or timeline discrepancy that might suggest the caregiver is hesitant to involve medical professionals.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "5",
+    "lectureTitle": "00005 BRUE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c09d61e1-622a-4f73-bceb-5e525b3fe442",
+    "overlapScore": 0.3893129770992366,
+    "questionIndex": 7,
+    "quizFileName": "quiz_005.json",
+    "quizTitle": "BRUE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4a12b74d-8495-4ab6-9d09-b6e011b57050",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:56.479Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

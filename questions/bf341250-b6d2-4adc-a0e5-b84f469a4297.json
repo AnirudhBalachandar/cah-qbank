@@ -1,0 +1,98 @@
+{
+  "id": "bf341250-b6d2-4adc-a0e5-b84f469a4297",
+  "stem": "What is the primary anatomical definition of conjunctivitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inflammation of the mucous membrane lining the outer part of the eye and the inner eyelids",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Infection of the corneal epithelium causing localised redness and blurred vision",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Inflammation of the lacrimal gland and tear drainage system",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Swelling of the sclera caused by an autoimmune response",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Inflammation of the iris and ciliary body",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Conjunctivitis is inflammation of the conjunctiva, the mucous membrane that lines the inner eyelids and covers the exposed surface of the eye.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.732Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3eb1aae3d245cb5c7ba8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the conjunctiva is the mucous membrane lining the inner eyelids and the exposed outer surface of the eye.",
+    "B": "Incorrect because this describes keratitis, which involves the cornea rather than the conjunctiva.",
+    "C": "Incorrect because this describes lacrimal system inflammation, such as dacryoadenitis or dacryocystitis.",
+    "D": "Incorrect because inflammation of the sclera is scleritis, not conjunctivitis.",
+    "E": "Incorrect because this describes uveitis, which affects the iris and ciliary body."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which specific membrane lines the upper and lower fornices.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ae6256ba-ee02-45e3-9f99-c35ccb282670",
+    "overlapScore": 0.4875,
+    "questionIndex": 1,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:59.366Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "3b425c0d-621f-4cf6-b449-4adf2646bc2e",
+  "stem": "By what age have most children who develop atopic dermatitis already shown onset?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "By 5 years of age",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "By 10 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "By 12 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "By 15 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "By 18 years of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "By 5 years of age is correct because most children who develop atopic dermatitis have already had onset by then.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 86,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:57:11.785Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B49-attempt-01-f9f0f028e39c41114f6d",
+  "rationale": "Most cases begin in early childhood, with the large majority presenting by age 5.",
+  "optionExplanations": {
+    "A": "Correct because most children with atopic dermatitis have onset by 5 years of age.",
+    "B": "Incorrect because onset is usually earlier than 10 years in most affected children.",
+    "C": "Incorrect because 12 years is later than the typical age of onset.",
+    "D": "Incorrect because 15 years is later than the typical age of onset.",
+    "E": "Incorrect because 18 years is later than the typical age of onset."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B49-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrfxad0001rje1mxwcj6hm",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "98cd622a-9ae6-40f4-a433-5d8b7246ac75",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B49/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Eczema, psoriasis, and inflammatory dermatoses",
+      "eczema",
+      "long-term management and follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:38.331Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

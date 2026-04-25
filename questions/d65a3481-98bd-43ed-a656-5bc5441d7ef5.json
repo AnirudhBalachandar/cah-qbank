@@ -1,0 +1,98 @@
+{
+  "id": "d65a3481-98bd-43ed-a656-5bc5441d7ef5",
+  "stem": "What is the primary mode of inheritance of cystic fibrosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Autosomal recessive",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Autosomal dominant",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "X-linked recessive",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Mitochondrial inheritance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Y-linked inheritance",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Autosomal recessive inheritance is the correct answer. Cystic fibrosis occurs when a child inherits two affected copies of the CFTR gene, one from each parent.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.666Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b3ea7069fa9f233750fb",
+  "rationale": "Cystic fibrosis is classically inherited when both parents pass on a mutated allele, so affected children usually have carrier parents.",
+  "optionExplanations": {
+    "A": "Correct because cystic fibrosis is caused by inheriting two pathogenic CFTR variants, one from each parent, which is the pattern of autosomal recessive inheritance.",
+    "B": "Incorrect because autosomal dominant conditions usually require only one affected copy of a gene, which is not the inheritance pattern for cystic fibrosis.",
+    "C": "Incorrect because X-linked recessive conditions are linked to genes on the X chromosome, whereas CFTR is on an autosome.",
+    "D": "Incorrect because mitochondrial disorders are inherited through the maternal line, while cystic fibrosis is due to mutations in the CFTR gene on chromosome 7.",
+    "E": "Incorrect because Y-linked inheritance affects only males and is passed from father to son, which does not apply to cystic fibrosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how both parents must be carriers for a child to manifest the condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c058cd33-1733-4d2b-8526-94dfdb3c3f4a",
+    "overlapScore": 0.3866666666666667,
+    "questionIndex": 1,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:56.191Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

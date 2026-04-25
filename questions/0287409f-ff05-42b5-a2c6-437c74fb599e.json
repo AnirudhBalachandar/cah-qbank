@@ -1,0 +1,98 @@
+{
+  "id": "0287409f-ff05-42b5-a2c6-437c74fb599e",
+  "stem": "What is the clinical definition of chronic pain in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pain that persists for more than 1 month after an injury",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pain lasting 3 months or more beyond the usual expected healing time",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Pain that occurs daily for at least 2 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Any pain associated with hypermobility or regional syndromes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pain that recurs only during physical activity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chronic pain is defined as pain lasting 3 months or more beyond the usual expected healing time.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+      "title": "00040 Pain_managment_2024-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.392Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-40e7920e262f8ce84e97",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because 1 month does not meet the usual time-based threshold for chronic pain.",
+    "B": "Correct because chronic pain is time-based and is defined as pain lasting 3 months or more beyond the usual expected healing time.",
+    "C": "Incorrect because 2 weeks is far shorter than the standard definition of chronic pain.",
+    "D": "Incorrect because hypermobility and regional syndromes can be associated with chronic pain, but they are not the definition of chronic pain.",
+    "E": "Incorrect because pain that recurs with activity is not the defining feature of chronic pain."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "291b3f93-3bda-44e8-97ad-f883e1c0d973",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the standard quarterly timeframe used to distinguish acute from persistent pain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "40",
+    "lectureTitle": "00040 Pain_managment_2024-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "29f03ec6-cf6d-40c3-afa9-fbd4c5d06a47",
+    "overlapScore": 0.4774774774774775,
+    "questionIndex": 3,
+    "quizFileName": "quiz_040.json",
+    "quizTitle": "Pain Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "04c08d1f-cc28-43df-ab13-4927fc221f84",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:43.796Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

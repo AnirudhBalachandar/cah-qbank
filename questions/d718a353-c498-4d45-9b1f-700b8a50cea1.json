@@ -1,0 +1,98 @@
+{
+  "id": "d718a353-c498-4d45-9b1f-700b8a50cea1",
+  "stem": "To diagnose an intellectual disability, cognitive assessment must be supplemented by which evaluation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A neuroimaging scan such as MRI",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A functional assessment of adaptive behaviour",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A genetics review and EEG",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A formal screening tool for developmental surveillance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A speech pathology assessment alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A functional assessment of adaptive behaviour is required alongside cognitive testing to diagnose intellectual disability. This assesses how the child functions in daily life, including communication, social skills, and practical independence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.833Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-08c535088585f693dd92",
+  "rationale": "The diagnosis relies on both intellectual testing and adaptive functioning, not cognitive testing alone.",
+  "optionExplanations": {
+    "A": "Incorrect because MRI is not required to diagnose intellectual disability and is only used if there is a specific clinical indication.",
+    "B": "Correct because intellectual disability diagnosis requires assessment of adaptive behaviour in addition to cognitive testing.",
+    "C": "Incorrect because genetics review and EEG may help investigate an underlying cause, but they do not assess adaptive functioning.",
+    "D": "Incorrect because developmental screening is used to identify concerns, not to complete the diagnostic assessment for intellectual disability.",
+    "E": "Incorrect because speech pathology assessment may contribute useful information, but it does not replace a full assessment of adaptive behaviour."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the two-part requirement for an ID diagnosis mentioned toward the end of the presentation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "278d86d5-728d-4401-a2b5-2278c9a2489e",
+    "overlapScore": 0.3809523809523809,
+    "questionIndex": 7,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:57.829Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

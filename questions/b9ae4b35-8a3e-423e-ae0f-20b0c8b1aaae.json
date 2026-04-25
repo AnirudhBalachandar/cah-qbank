@@ -1,0 +1,98 @@
+{
+  "id": "b9ae4b35-8a3e-423e-ae0f-20b0c8b1aaae",
+  "stem": "Which clinical feature best distinguishes the rash of meningococcal disease from many common childhood viral exanthems?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It typically starts on the head and moves to the feet",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is a non-blanching petechial or purpuric rash",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It produces a honey-coloured crust when vesicles burst",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It appears as a slapped-cheek rash followed by a lacy pattern",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It begins as a vesicular rash on the trunk and spreads to the limbs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Non-blanching petechiae or purpura are a key warning sign of meningococcal disease and suggest rash that does not fade with pressure.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.572Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dfbb098df59ececc2212",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a rash that starts on the head and spreads downward is more typical of measles.",
+    "B": "Correct because meningococcal disease classically causes a non-blanching petechial or purpuric rash, which is an important sign of invasive infection.",
+    "C": "Incorrect because honey-coloured crusting is characteristic of impetigo, not meningococcal disease.",
+    "D": "Incorrect because a slapped-cheek rash with a lacy body rash is typical of parvovirus B19 infection (fifth disease).",
+    "E": "Incorrect because a vesicular rash beginning on the trunk and spreading is more consistent with varicella."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what happens to the color of the rash when you apply pressure with a glass.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8c5f8d41-7f20-4920-bd69-51aaeb0e5c6f",
+    "overlapScore": 0.4495412844036697,
+    "questionIndex": 11,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:46.707Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

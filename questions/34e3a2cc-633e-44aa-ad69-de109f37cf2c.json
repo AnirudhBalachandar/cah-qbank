@@ -1,0 +1,103 @@
+{
+  "id": "34e3a2cc-633e-44aa-ad69-de109f37cf2c",
+  "stem": "Which statement best supports focusing preventive oral health care on higher-risk children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Around 75% of caries are found in 25% of children",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "High caries rates in families are usually purely genetic",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Poor saliva quality or flow is irrelevant if family history is absent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Prolonged night feeding lowers the risk of caries",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Dental caries is too evenly distributed for targeted prevention to matter",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Around 75% of caries are found in 25% of children. This shows that caries is concentrated in a smaller high-risk group, so prevention should be targeted rather than assuming an even distribution across all children.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.854Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-6c7eda41961a8f39458c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because around 75% of caries are found in 25% of children, which supports a concentrated-risk pattern.",
+    "B": "Incorrect because family clustering of caries is not usually purely genetic and is more often influenced by environmental factors.",
+    "C": "Incorrect because poor saliva quality or flow is a recognised risk factor for caries.",
+    "D": "Incorrect because prolonged night feeding increases, rather than lowers, caries risk.",
+    "E": "Incorrect because caries burden is not evenly distributed across all children, so targeted prevention is useful."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3364485981308411,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bbb873d9-00ed-46ae-b2f6-0310dcd21937",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "dental caries risk and prevention",
+      "risk stratification",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:27.209Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "49cd8d38-dca8-4be9-9e2b-9a2edec5a147",
+  "stem": "How long should preterm infants receiving vaccinations in hospital be monitored for apnoea?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Up to 48 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "15 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "4 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "24 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "1 week",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Up to 48 hours is the recommended monitoring period for preterm infants after vaccination in hospital to detect apnoea.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.650Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-447d645e41521081139c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because preterm infants can develop delayed apnoea after immunisation, so monitoring for up to 48 hours helps detect clinically significant events.",
+    "B": "Incorrect because 15 minutes is too short to detect delayed post-vaccination apnoea in preterm infants.",
+    "C": "Incorrect because 4 hours does not provide enough observation time for apnoea that may occur later after vaccination.",
+    "D": "Incorrect because 24 hours may miss delayed respiratory events that can occur beyond the first day.",
+    "E": "Incorrect because routine continuous monitoring for 1 week is not required for stable preterm infants after vaccination."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The observation period lasts for two full days.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "81657cff-ed9a-4062-ae84-068d75c8ede1",
+    "overlapScore": 0.3839285714285715,
+    "questionIndex": 10,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:12.132Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "f98c0ee2-45bf-4697-96bd-da41916042d1",
+  "stem": "Why are bleach baths recommended for some patients with atopic dermatitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To bleach the skin and reduce erythema",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To decrease Staphylococcus aureus colonisation and its inflammatory effects",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To chemically break down thick scales and lichenification",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To increase the penetration of topical corticosteroids applied immediately after",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To dry out weeping lesions by removing all skin moisture",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Decreasing Staphylococcus aureus colonisation is the main reason for bleach baths in atopic dermatitis, as this can reduce bacterial-driven inflammation and disease flares.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5d1cabee-f46a-4f31-904d-132653a07a21",
+      "title": "00058 dermatology-dermatol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.259Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c07fb3ccaa98f68af0be",
+  "rationale": "Bleach baths are used for their antimicrobial effect rather than for cosmetic skin changes or scale removal.",
+  "optionExplanations": {
+    "A": "Incorrect because bleach baths are intended to reduce bacterial burden and inflammation, not to whiten the skin.",
+    "B": "Correct because bleach baths help reduce Staphylococcus aureus colonisation on the skin and lessen its inflammatory effects in atopic dermatitis.",
+    "C": "Incorrect because bleach baths are not used to chemically remove thickened skin or lichenification.",
+    "D": "Incorrect because any effect on topical steroid absorption is not the main reason bleach baths are recommended.",
+    "E": "Incorrect because bleach baths are not used to deliberately desiccate lesions by removing skin moisture."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5d1cabee-f46a-4f31-904d-132653a07a21",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the role of 'golden staff' in the skin's inflammatory process.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "58",
+    "lectureTitle": "00058 dermatology-dermatol-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f1802f8c-238d-478f-a5e5-dd3432162c74",
+    "overlapScore": 0.3902439024390244,
+    "questionIndex": 8,
+    "quizFileName": "quiz_058.json",
+    "quizTitle": "Dermatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "61963d6f-4670-4541-be2e-7616941f352e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:12.202Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

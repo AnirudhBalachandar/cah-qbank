@@ -1,0 +1,98 @@
+{
+  "id": "9c994a96-62ac-408f-adba-589cae568803",
+  "stem": "A child’s eye turns outward on examination; what is the term for this deviation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Exotropia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Esotropia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hypertropia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypotropia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Orthotropia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Exotropia is the term for an outward deviation of the eye.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+      "title": "00039 common-eye-problems--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.260Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d6c90a4a5196769fe8e9",
+  "rationale": "It describes a strabismus in which the eye drifts away from the midline.",
+  "optionExplanations": {
+    "A": "Correct because exotropia means the eye deviates outward.",
+    "B": "Incorrect because esotropia is an inward deviation of the eye.",
+    "C": "Incorrect because hypertropia is an upward deviation of the eye.",
+    "D": "Incorrect because hypotropia is a downward deviation of the eye.",
+    "E": "Incorrect because orthotropia means normal eye alignment."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the prefix that usually denotes 'outside' or 'away from'.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "39",
+    "lectureTitle": "00039 common-eye-problems--s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4ac0d282-6d58-4f79-b00a-599dcef24b17",
+    "overlapScore": 0.3928571428571428,
+    "questionIndex": 5,
+    "quizFileName": "quiz_039.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e2564b9-536b-41e0-a22e-fe2dc187c45a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:48.740Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

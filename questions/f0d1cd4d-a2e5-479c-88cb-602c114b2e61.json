@@ -1,0 +1,102 @@
+{
+  "id": "f0d1cd4d-a2e5-479c-88cb-602c114b2e61",
+  "stem": "A school-aged child is reviewed for neurodevelopmental concerns and has a long face, large ears, hypermobility, and behavioural difficulties with autism spectrum features; which syndrome is most likely?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CHARGE syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Foetal alcohol syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Neurofibromatosis type 1",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fragile X syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Tuberous sclerosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fragile X syndrome is the most likely diagnosis. It classically causes intellectual disability or developmental delay, behavioural difficulties, autism spectrum features, a long face, large ears, and joint hypermobility.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 15,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T07:29:11.808Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B12-attempt-01-87ebb89717ba3e5516f8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because CHARGE syndrome is typically associated with coloboma, heart defects, choanal atresia, growth restriction, genital anomalies, and ear abnormalities.",
+    "B": "Incorrect because foetal alcohol syndrome usually causes a smooth philtrum, thin upper lip, growth restriction, and neurodevelopmental impairment.",
+    "C": "Incorrect because neurofibromatosis type 1 is associated with café-au-lait macules, neurofibromas, axillary freckling, and learning difficulties.",
+    "D": "Correct because Fragile X syndrome classically presents with developmental delay or intellectual disability, autism spectrum features, behavioural difficulties, a long face, large ears, and hypermobility.",
+    "E": "Incorrect because tuberous sclerosis may be associated with autism, but it more typically presents with seizures, hypomelanotic macules, and other hamartomas."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B12-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvq06kw0001rjf7i9191qo6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3348214285714285,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "37ae18ac-f22e-4d27-a675-7f78b2cf9475",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B12/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ASD recognition and assessment",
+      "differential discrimination",
+      "syndromic association"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:53.004Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

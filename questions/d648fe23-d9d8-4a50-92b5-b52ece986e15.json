@@ -1,0 +1,98 @@
+{
+  "id": "d648fe23-d9d8-4a50-92b5-b52ece986e15",
+  "stem": "What is the recommended approach to scheduled awakenings for resistant night terrors?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wake the child 10–15 minutes before the usual event time for 5–7 nights",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Wake the child immediately when the night terror begins",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Keep the child awake for at least 30 minutes after each awakening",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Give a mild sedative 30 minutes before the scheduled awakening",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Allow the child to sleep uninterrupted and wait for the episodes to resolve",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Scheduled awakenings involve waking the child shortly before the expected episode time for several nights in a row to disrupt the usual pattern and prevent the night terror.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+      "title": "00021 Sleep disorders-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.380Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-01561e931deab1f4576b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because waking the child 10–15 minutes before the usual event time for 5–7 nights can interrupt the sleep pattern that triggers recurrent night terrors.",
+    "B": "Incorrect because waking a child during a night terror does not shorten the episode and may increase distress or agitation.",
+    "C": "Incorrect because the scheduled awakening method does not require a prolonged awake period after waking the child.",
+    "D": "Incorrect because sedatives are not the recommended management for night terrors; behavioural scheduling is preferred.",
+    "E": "Incorrect because scheduled awakenings are used when episodes are recurrent and troublesome, rather than simply leaving the pattern unchanged."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This method relies on preemptive timing based on a recorded history of the episodes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "21",
+    "lectureTitle": "00021 Sleep disorders-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1f410602-df7d-4c1f-8f8c-3da5f33dc62b",
+    "overlapScore": 0.3863636363636364,
+    "questionIndex": 3,
+    "quizFileName": "quiz_021.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b516b8dd-449a-4f65-b9dc-89c25d58f557",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:55.144Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

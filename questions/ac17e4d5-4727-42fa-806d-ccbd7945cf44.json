@@ -1,0 +1,101 @@
+{
+  "id": "ac17e4d5-4727-42fa-806d-ccbd7945cf44",
+  "stem": "A child develops an adverse event after receiving a vaccine from a batch later found to have a manufacturing defect, which AEFI category best fits this scenario?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vaccine product-related reaction",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Vaccine quality defect-related reaction",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immunisation error-related reaction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Immunisation anxiety-related reaction",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Coincidental event",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vaccine quality defect-related reaction is the best classification because the event is linked to a manufacturing defect in the vaccine batch.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 47,
+      "title": "Lecture: Adverse events following immunisation"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:05:38.051Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B37-attempt-02-7cfeb0ae30932870d71b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because vaccine product-related reactions are caused by the vaccine’s inherent properties, not a manufacturing defect in a batch.",
+    "B": "Correct because a manufacturing defect in the vaccine batch is a vaccine quality defect-related reaction.",
+    "C": "Incorrect because immunisation error-related reactions arise from an error in vaccine handling or administration, not a product manufacturing defect.",
+    "D": "Incorrect because immunisation anxiety-related reactions are related to the stress response around immunisation, not a defective batch.",
+    "E": "Incorrect because a known manufacturing defect points to a vaccine-related cause rather than a coincidental event."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B37-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwngg7u0001rj120i9wcwsa",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.295,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "37ae18ac-f22e-4d27-a675-7f78b2cf9475",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B37/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Immunisation principles and AEFI",
+      "AEFI classification"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:33:36.864Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

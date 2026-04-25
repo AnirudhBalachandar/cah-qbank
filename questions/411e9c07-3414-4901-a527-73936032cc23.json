@@ -1,0 +1,102 @@
+{
+  "id": "411e9c07-3414-4901-a527-73936032cc23",
+  "stem": "A 7-year-old girl is reviewed after blunt head trauma and imaging confirms a skull fracture; she is currently stable. Which teaching point best supports ongoing vigilance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Skull fractures carry an increased risk of intracranial injury",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Skull fractures are usually the most common paediatric chest injury",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Skull fractures only matter if there are external signs of thoracic trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Skull fractures are mainly concerning because they predict positive FAST findings",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Skull fractures are expected to be managed as outpatient burns",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Skull fractures carry an increased risk of intracranial injury. This is because a skull fracture is a marker of potential associated intracranial trauma, so ongoing neurological vigilance is needed even when observations are initially stable.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 188,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:21:44.613Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B86-attempt-04-107df44e435bfc88ff63",
+  "rationale": "Skull fracture is a risk marker for intracranial injury, and initial stability does not remove the need for continued neurological concern.",
+  "optionExplanations": {
+    "A": "Correct because a skull fracture is associated with a higher risk of intracranial injury and therefore requires ongoing vigilance.",
+    "B": "Incorrect because this refers to chest trauma, not skull fractures.",
+    "C": "Incorrect because the significance of a skull fracture is not determined by thoracic signs.",
+    "D": "Incorrect because FAST is used for abdominal trauma assessment, not for skull fracture risk.",
+    "E": "Incorrect because burns management is unrelated to skull fracture care."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B86-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsbhq60001rjczi5qqjn25",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3297872340425532,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fbe1f2f1-68df-46ea-b8b4-0fb3ddef7f48",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B86/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Burns and trauma",
+      "trauma assessment",
+      "head injury"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:49.522Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

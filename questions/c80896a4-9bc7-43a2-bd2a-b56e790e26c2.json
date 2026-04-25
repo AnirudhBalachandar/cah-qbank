@@ -1,0 +1,102 @@
+{
+  "id": "c80896a4-9bc7-43a2-bd2a-b56e790e26c2",
+  "stem": "A 16-year-old with delayed sleep phase disorder has already tried sleep hygiene, early morning light, gradual wake-time advancement and melatonin, but continues to miss substantial amounts of school; which management option is appropriate for difficult cases?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hospital admission for sleep rescheduling",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Encouraging unrestricted sleep-ins every weekend",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Returning to a late sleep schedule on holidays",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Routine sedative use as the main next step",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Stopping school attendance until adulthood",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hospital admission for sleep rescheduling is the appropriate escalation in a difficult case of delayed sleep phase disorder when initial measures have failed and school attendance is being significantly affected.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 130,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T21:07:02.892Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B05-664bfa6442b29ed8d22c",
+  "rationale": "Hospital-based sleep rescheduling is a supported option for severe refractory delayed sleep phase disorder with major functional impairment.",
+  "optionExplanations": {
+    "A": "Correct because hospital admission for sleep rescheduling is a supported escalation for severe refractory delayed sleep phase disorder.",
+    "B": "Incorrect because unrestricted weekend sleep-ins worsen circadian delay and undermine treatment.",
+    "C": "Incorrect because reverting to a late schedule on holidays reinforces the delayed sleep pattern.",
+    "D": "Incorrect because routine sedatives are not the recommended main management step for delayed sleep phase disorder.",
+    "E": "Incorrect because management should focus on sleep rescheduling and maintaining school attendance, not stopping schooling."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B05",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmv3s3i10001rjanpt4ry7en",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3387096774193548,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f33eccad-3830-4575-9f39-4bde36daf256",
+      "threshold": 0.35
+    },
+    "manualImportPath": "docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-18-02.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "sleep",
+      "delayed sleep phase disorder",
+      "management"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:25.443Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

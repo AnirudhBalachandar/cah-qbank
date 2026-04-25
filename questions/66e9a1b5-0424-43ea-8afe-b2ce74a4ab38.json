@@ -1,0 +1,102 @@
+{
+  "id": "66e9a1b5-0424-43ea-8afe-b2ce74a4ab38",
+  "stem": "Which background feature should raise consideration of a vitamin-responsive neurological condition in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Maternal dietary restriction or child dietary restriction",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Left-handedness in a parent",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A history of open fontanelles in infancy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A normal parental head circumference",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Previous cranial ultrasound",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Maternal or child dietary restriction is the key background feature that should prompt consideration of a vitamin-responsive neurological condition.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 121,
+      "title": "What Not to Miss in Neurology"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:55:15.986Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B64-attempt-01-87ebbed9f400b3e91861",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because maternal dietary restriction or child dietary restriction is a recognised red flag for vitamin-responsive neurological conditions.",
+    "B": "Incorrect because parental handedness is not a relevant background feature for this diagnostic consideration.",
+    "C": "Incorrect because open fontanelles relate to infant skull assessment rather than vitamin-responsive neurological conditions.",
+    "D": "Incorrect because normal parental head circumference does not suggest a vitamin-responsive condition.",
+    "E": "Incorrect because previous cranial ultrasound does not address the dietary risk factor highlighted by this question."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B64-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrdfw40001rjlqojaf1x4n",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3307086614173229,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "2873d884-7bfc-4f2f-9912-de3b547720c0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B64/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "What not to miss in neurology",
+      "complication recognition",
+      "dangerous differentials"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:05.113Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

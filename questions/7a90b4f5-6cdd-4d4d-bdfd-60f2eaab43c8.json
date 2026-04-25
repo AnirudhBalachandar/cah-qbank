@@ -1,0 +1,102 @@
+{
+  "id": "7a90b4f5-6cdd-4d4d-bdfd-60f2eaab43c8",
+  "stem": "A child presents to the emergency department appearing seriously unwell, with lethargy, mottled skin, tachycardia, and only a low-grade fever; what is the most appropriate immediate approach?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Manage as suspected sepsis despite the degree of fever",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Wait for a higher fever before treating as sepsis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Attribute the presentation to a viral illness because the fever is mild",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Discharge if there is no obvious focus of infection",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Observe without escalation unless a rash appears",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Manage as suspected sepsis. A seriously unwell child with lethargy, mottled skin and tachycardia should be treated as possible sepsis even if the fever is only low grade, because overall toxicity and shock features matter more than the height of the temperature.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 140,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:58:44.036Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B36-attempt-01-84845c1d969fc7404190",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because a seriously unwell child with signs of toxicity should be managed as suspected sepsis regardless of the degree of fever.",
+    "B": "Incorrect because sepsis should not be delayed until a higher fever develops; clinical unwellness and perfusion signs are more important.",
+    "C": "Incorrect because a mild fever does not rule out sepsis in a child with lethargy, mottling and tachycardia.",
+    "D": "Incorrect because the absence of an obvious infective focus does not make sepsis safe to dismiss in a seriously unwell child.",
+    "E": "Incorrect because waiting for a rash or other additional signs risks missing sepsis and delays urgent escalation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B36-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn7kwo0001rjget7kih5bu",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B36/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Acute sepsis in children",
+      "recognition of sepsis",
+      "prioritisation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:39.604Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

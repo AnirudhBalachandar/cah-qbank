@@ -1,0 +1,98 @@
+{
+  "id": "ac7ebe15-6911-4531-9442-b110747704b1",
+  "stem": "During the progression of Perthes disease, why does the femoral head appear to collapse or disappear on X-ray?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The bone is being resorbed during revascularisation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The bone is turning into soft cartilage",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The X-ray beams cannot penetrate the dense necrotic bone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The femoral head has completely dislocated from the socket",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The femoral head is becoming infected and gas-filled",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The bone is being resorbed during revascularisation. In Perthes disease, the necrotic femoral head is broken down and resorbed as blood supply returns, so it can look smaller, fragmented, or collapsed before it reossifies.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.023Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4f1a757414693e2dcf69",
+  "rationale": "The key concept is what happens to dead bone when blood flow returns.",
+  "optionExplanations": {
+    "A": "Correct because the necrotic femoral head is resorbed during revascularisation, which makes it look fragmented or diminished on X-ray before reossification.",
+    "B": "Incorrect because the femoral head does not turn into soft cartilage; the radiographic change is from resorption of necrotic bone.",
+    "C": "Incorrect because the apparent collapse is not due to X-ray penetration limits; it reflects true bone loss during the healing phase.",
+    "D": "Incorrect because dislocation may occur in some cases, but it does not explain the classic appearance of the femoral head 'disappearing' during Perthes disease.",
+    "E": "Incorrect because gas-forming infection is not the mechanism in Perthes disease; the change is due to avascular necrosis and subsequent resorption."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about what the body does with dead bone tissue once blood flow is restored.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9fe516d8-a479-4cc4-a2f4-456ead8c3d43",
+    "overlapScore": 0.4239130434782609,
+    "questionIndex": 6,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:20.323Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "6ba006a5-3cd9-4623-9dd0-bdbe474dc60f",
+  "stem": "Which imaging modality is preferred for evaluating acute abdominal pain in children because it does not use ionising radiation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Plain abdominal X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "CT abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ultrasound",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "MRI abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Radionuclide scan",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ultrasound is the preferred imaging modality for acute abdominal pain in children because it avoids ionising radiation and can be repeated safely for reassessment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+      "title": "00047 surgery-abdominal-pa-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.600Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4b99934f0496f615ee30",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a plain abdominal X-ray has a limited role in the initial assessment of most children with acute abdominal pain.",
+    "B": "Incorrect because CT abdomen uses ionising radiation and is generally reserved for selected cases when ultrasound is not sufficient.",
+    "C": "Correct because ultrasound does not use ionising radiation, is child-friendly, and is suitable for initial and repeat assessment.",
+    "D": "Incorrect because MRI also avoids ionising radiation, but it is not usually the preferred first-line test for acute abdominal pain in children.",
+    "E": "Incorrect because radionuclide scans are not used as the preferred initial imaging test for acute abdominal pain in children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "30520981-4e54-456f-a9b0-6a5f359bc0fb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This method is described as non-invasive, repeatable, and safe regarding radiation exposure.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "47",
+    "lectureTitle": "00047 surgery-abdominal-pa-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9a49c878-6461-477f-8859-61b7a81b32c4",
+    "overlapScore": 0.3761467889908257,
+    "questionIndex": 6,
+    "quizFileName": "quiz_047.json",
+    "quizTitle": "Clinical Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "35ecd0b6-fac0-4f27-aac9-2089069e9161",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:17.836Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

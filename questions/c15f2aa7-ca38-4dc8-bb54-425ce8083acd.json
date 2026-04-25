@@ -1,0 +1,98 @@
+{
+  "id": "c15f2aa7-ca38-4dc8-bb54-425ce8083acd",
+  "stem": "In Hirschsprung disease, what is the fundamental pathological defect in the affected segment of bowel?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hypertrophy of the mucosal lining",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Absence of ganglion cells in the myenteric and submucosal plexuses",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Excessive production of inhibitory neurotransmitters",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Necrosis of the intestinal wall due to ischaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Inflammation of the intestinal mucosa",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Absence of ganglion cells in the myenteric and submucosal plexuses is the key defect in Hirschsprung disease, producing a permanently contracted aganglionic bowel segment and functional obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.218Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-13c66da4cf86bfe7bac9",
+  "rationale": "The disease results from failed neural crest cell migration, leaving the affected segment without enteric ganglion cells.",
+  "optionExplanations": {
+    "A": "Incorrect because mucosal hypertrophy is not the primary abnormality in Hirschsprung disease; the problem is aganglionosis of the enteric nervous system.",
+    "B": "Correct because Hirschsprung disease is caused by failure of neural crest cells to migrate to the distal bowel, leaving the myenteric and submucosal plexuses without ganglion cells.",
+    "C": "Incorrect because the fundamental problem is not excess inhibitory neurotransmitter production, but absence of the ganglion cells that coordinate normal motility.",
+    "D": "Incorrect because intestinal wall necrosis from ischaemia is not the developmental defect in Hirschsprung disease; it is a separate pathological process.",
+    "E": "Incorrect because mucosal inflammation is not the defining lesion in Hirschsprung disease; the hallmark is absence of enteric ganglion cells."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific cellular deficiency within the enteric nervous system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6a51cd06-8a3a-4044-a625-ad8e864fa23a",
+    "overlapScore": 0.3666666666666666,
+    "questionIndex": 8,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:07.693Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

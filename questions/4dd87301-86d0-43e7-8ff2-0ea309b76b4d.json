@@ -1,0 +1,98 @@
+{
+  "id": "4dd87301-86d0-43e7-8ff2-0ea309b76b4d",
+  "stem": "Which bleeding pattern is most typical of von Willebrand disease or a platelet function disorder?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spontaneous bleeding into large joints",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Mucosal bleeding such as epistaxis and menorrhagia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Delayed bleeding that occurs days after trauma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bleeding only after major surgery",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Deep muscle haematomas after minor knocks",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mucosal bleeding is the typical pattern in von Willebrand disease and platelet function disorders, often presenting with epistaxis and menorrhagia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.058Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-373ffcb2dcf9da05bd44",
+  "rationale": "This pattern reflects a primary haemostatic problem affecting mucosal surfaces rather than deep tissue bleeding.",
+  "optionExplanations": {
+    "A": "Incorrect because spontaneous haemarthroses are more typical of coagulation factor deficiencies such as haemophilia.",
+    "B": "Correct because von Willebrand disease and platelet function disorders classically cause mucosal bleeding, including epistaxis and menorrhagia.",
+    "C": "Incorrect because delayed bleeding days after trauma is more suggestive of factor XIII deficiency or another coagulation defect.",
+    "D": "Incorrect because these disorders commonly cause everyday mucosal bleeding, not only bleeding after major surgery.",
+    "E": "Incorrect because deep muscle haematomas are more characteristic of coagulation factor deficiencies than platelet-related disorders."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the type of surfaces where these symptoms usually manifest.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c9b6278e-f5a0-445d-97eb-e2c945eb6fae",
+    "overlapScore": 0.4086956521739131,
+    "questionIndex": 14,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:26.155Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

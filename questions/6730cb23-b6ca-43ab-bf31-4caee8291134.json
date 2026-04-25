@@ -1,0 +1,103 @@
+{
+  "id": "6730cb23-b6ca-43ab-bf31-4caee8291134",
+  "stem": "An Aboriginal infant is reviewed after a perforated tympanic membrane with ear discharge for more than 2 weeks; which term best describes this condition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chronic suppurative otitis media",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Simple acute otitis media",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Normal prolonged ear drainage",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Iron deficiency-related otorrhoea",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A rare ear problem in remote settings",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chronic suppurative otitis media is the correct diagnosis. It is defined by a perforated tympanic membrane with ongoing ear discharge for 2 weeks or more.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 8,
+      "title": "CAH Bible (shared 2025)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:14:45.590Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B08-attempt-02-c245f5a80e8c2e3611a1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because chronic suppurative otitis media is defined by a perforated tympanic membrane with persistent discharge for at least 2 weeks.",
+    "B": "Incorrect because simple acute otitis media does not account for persistent otorrhoea through a perforation for more than 2 weeks.",
+    "C": "Incorrect because prolonged ear drainage after perforation is not normal and suggests chronic suppurative otitis media.",
+    "D": "Incorrect because iron deficiency does not cause otorrhoea or a perforated tympanic membrane.",
+    "E": "Incorrect because otitis media is common in remote settings, not rare."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B08-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvl7at80001rjfc8w2gthnw",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3448275862068966,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "37ae18ac-f22e-4d27-a675-7f78b2cf9475",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B08/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Aboriginal and Torres Strait Islander child health",
+      "otitis media",
+      "follow-up",
+      "complications"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:05.550Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

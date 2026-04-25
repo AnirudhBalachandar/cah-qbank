@@ -1,0 +1,98 @@
+{
+  "id": "aca9bd88-26b7-4573-b84d-f9232d3de9fa",
+  "stem": "What does SMART therapy mean in adolescent asthma management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A structured breathing exercise program used with inhalers",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A single budesonide-formoterol inhaler used for both maintenance and relief",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "An electronic monitoring system that alerts parents when a dose is missed",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A step-down plan that stops asthma medication during summer",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A short-course oral steroid plan for all asthma symptoms",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "SMART therapy refers to using a single budesonide-formoterol inhaler for both regular maintenance treatment and as-needed relief of symptoms.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.600Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-357a7930233f3708012a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because SMART therapy is a medication strategy, not a breathing exercise program.",
+    "B": "Correct because SMART means Single Maintenance and Reliever Therapy, using one budesonide-formoterol inhaler for both maintenance and relief.",
+    "C": "Incorrect because electronic reminders may support adherence, but they are not what SMART means in asthma management.",
+    "D": "Incorrect because SMART does not involve stopping treatment seasonally; it is a continuous inhaler-based regimen.",
+    "E": "Incorrect because SMART is not a short-course oral steroid strategy and does not apply to all asthma symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This acronym describes using the same combination inhaler for both regular daily dosing and as-needed rescue.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ae6256ba-ee02-45e3-9f99-c35ccb282670",
+    "overlapScore": 0.4125,
+    "questionIndex": 11,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:20.177Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

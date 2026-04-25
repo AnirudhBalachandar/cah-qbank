@@ -1,0 +1,98 @@
+{
+  "id": "cc24269d-77e6-4eb2-82ec-4d3473f9c21b",
+  "stem": "Why should a child with strabismus such as exotropia or esotropia have a thorough ocular examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is always a normal variation that resolves on its own",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It may be the presenting sign of an underlying intraocular pathology like retinoblastoma",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is purely a cosmetic issue that does not affect vision",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It indicates the child needs immediate eye muscle surgery",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It confirms the child has conjunctivitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intraocular pathology may present with strabismus, so a thorough ocular examination is needed to look for serious causes such as retinoblastoma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.019Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1a6e32c4f5424942515e",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because strabismus is not always benign and can be a sign of reduced vision or serious eye disease.",
+    "B": "Correct because strabismus can be the first sign of an underlying intraocular pathology such as retinoblastoma.",
+    "C": "Incorrect because strabismus can reflect abnormal visual input or ocular disease, not just a cosmetic concern.",
+    "D": "Incorrect because the priority is to identify the underlying cause before considering treatment such as surgery.",
+    "E": "Incorrect because conjunctivitis does not explain strabismus and does not replace a full ocular examination."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the story of the little boy whose 'beauty spot' was actually a malignant tumor.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4b319554-a4f7-4d93-97ce-342828356f0e",
+    "overlapScore": 0.3944954128440367,
+    "questionIndex": 10,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:35.457Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "e1ee0085-58c3-49e0-8225-5a2ceec86fd6",
+  "stem": "A rectal suction biopsy is performed in a child with suspected Hirschsprung disease. Which result best supports the diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Absence of ganglion cells in the bowel mucosa with a negative calretinin stain",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Normal ganglion cells in the bowel mucosa with a positive calretinin stain",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Absence of ganglion cells with a positive calretinin stain",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Presence of ganglion cells with a negative calretinin stain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Normal ganglion cells in the bowel mucosa with a negative calretinin stain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Absence of ganglion cells with a negative calretinin stain supports Hirschsprung disease. This biopsy pattern indicates aganglionosis, which is the characteristic histological finding in the condition.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 173,
+      "title": "Additional Congenital Surgical Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:08:16.107Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B82-attempt-01-efa2e7eecf8109b0c170",
+  "rationale": "The diagnosis of Hirschsprung disease is supported by aganglionosis on rectal suction biopsy, and calretinin staining is typically negative in affected bowel.",
+  "optionExplanations": {
+    "A": "Correct because the absence of ganglion cells and negative calretinin staining are the key biopsy findings that support Hirschsprung disease.",
+    "B": "Incorrect because normal ganglion cells and positive calretinin staining are not consistent with Hirschsprung disease.",
+    "C": "Incorrect because a positive calretinin stain does not support aganglionosis in Hirschsprung disease.",
+    "D": "Incorrect because the presence of ganglion cells argues against Hirschsprung disease.",
+    "E": "Incorrect because normal ganglion cells are not the diagnostic finding in Hirschsprung disease, even if calretinin is negative."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B82-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwru5vs0001rjlqj1qknvu9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3488372093023256,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B82/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Additional congenital surgical problems",
+      "investigation/interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:20.483Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

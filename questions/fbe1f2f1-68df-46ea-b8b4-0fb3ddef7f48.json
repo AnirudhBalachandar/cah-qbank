@@ -1,0 +1,116 @@
+{
+  "id": "fbe1f2f1-68df-46ea-b8b4-0fb3ddef7f48",
+  "stem": "A 10-year-old develops ear pain after frequent water exposure. Which examination finding most strongly supports acute otitis externa rather than middle-ear disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Tenderness when the tragus is pressed",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bubbling and air-fluid levels behind the tympanic membrane",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A full or bulging tympanic membrane",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Purulent otorrhoea after tympanic membrane perforation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ear pulling as the only sign in an infant",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acute otitis externa is suggested by tragal tenderness. This pain on pressing the tragus is a classic examination finding of external ear canal inflammation and helps distinguish it from middle-ear disease.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 5,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 6,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 7,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:27:47.601Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B21-attempt-02-c823481c14cf944239c6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because tenderness when the tragus is pressed is a classic sign of acute otitis externa.",
+    "B": "Incorrect because bubbling and air-fluid levels behind the tympanic membrane suggest middle-ear pathology, such as otitis media with effusion.",
+    "C": "Incorrect because a full or bulging tympanic membrane is more consistent with acute otitis media.",
+    "D": "Incorrect because purulent otorrhoea after tympanic membrane perforation is more in keeping with acute otitis media.",
+    "E": "Incorrect because ear pulling in an infant is a nonspecific sign of ear discomfort and is not the key finding for otitis externa."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B21-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjymoj0001rjrmutgnq36o",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3454545454545455,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ea9a5c7a-1fc2-414b-8286-8356cda348d3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B21/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems I",
+      "Otitis externa",
+      "Clinical features"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:17.329Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

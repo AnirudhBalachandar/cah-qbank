@@ -1,0 +1,109 @@
+{
+  "id": "17fa4477-fa92-440f-9571-c5c3d5ab4ec4",
+  "stem": "Which investigation is most appropriate when the clinical picture suggests IgE-mediated sensitisation rather than a delayed non-IgE-mediated process?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Skin prick testing",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Routine allergy testing for every non-IgE-mediated presentation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "No diagnostic test, with diagnosis based on elimination and re-challenge",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Urgent full blood count for thrombocytopaenia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Stool microscopy, culture and sensitivity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Skin prick testing is the most appropriate investigation for IgE-mediated sensitisation. It helps support an immediate-type allergic mechanism, whereas non-IgE-mediated allergy is usually diagnosed clinically with elimination and re-challenge when appropriate.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 50,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 53,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:54:35.989Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B33-attempt-01-674411f2219a60195278",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because skin prick testing is used to assess IgE-mediated sensitisation.",
+    "B": "Incorrect because routine allergy testing is not appropriate for all non-IgE-mediated presentations.",
+    "C": "Incorrect because this is the approach used when non-IgE-mediated allergy is suspected, not the preferred test for IgE-mediated sensitisation.",
+    "D": "Incorrect because a full blood count does not confirm IgE-mediated sensitisation and is not the routine investigation for this presentation.",
+    "E": "Incorrect because stool microscopy, culture and sensitivity may help assess infection, but it does not confirm IgE-mediated sensitisation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B33-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn29hz0001rj93urvv1ry7",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3057851239669421,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a3ddcfd5-29b8-4e3d-a513-1ed2e3f94bc4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B33/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Food allergy and IgE-mediated allergy",
+      "diagnosis",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:31.376Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

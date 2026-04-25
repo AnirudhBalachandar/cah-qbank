@@ -1,0 +1,98 @@
+{
+  "id": "c3c25aa5-58ef-4864-9031-824ff80b8b63",
+  "stem": "Which statement about the size of a skin prick test wheal is correct?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It indicates the likelihood of allergy but not the severity of a reaction",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It guarantees anaphylaxis if it is larger than 10 mm",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is only relevant in children older than 2 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It must be measured exactly 60 minutes after the prick",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It rules out allergy if it is small",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "It indicates the likelihood of allergy but not the severity of a reaction. A larger wheal makes true sensitisation more likely, but it does not predict whether any reaction will be mild or severe.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+      "title": "00031 Year 3 CAH Allergy a-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.021Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-044933b0c514a8b1a23a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a larger wheal increases the likelihood of clinical allergy, but wheal size does not predict reaction severity.",
+    "B": "Incorrect because a large wheal does not guarantee anaphylaxis or any specific reaction severity.",
+    "C": "Incorrect because wheal size interpretation is relevant across paediatric ages, although cut-offs and interpretation may vary.",
+    "D": "Incorrect because skin prick tests are usually read after about 15 to 20 minutes, not 60 minutes.",
+    "E": "Incorrect because a small wheal does not exclude allergy, especially when history suggests sensitisation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the distinction between the probability of reacting and the intensity of that reaction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "31",
+    "lectureTitle": "00031 Year 3 CAH Allergy a-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5bf0820a-5540-430e-8319-d93bdb8aa2b9",
+    "overlapScore": 0.6153846153846154,
+    "questionIndex": 7,
+    "quizFileName": "quiz_031.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "40c41a73-b27e-4dfa-acd7-d58320f7e14e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:12.966Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

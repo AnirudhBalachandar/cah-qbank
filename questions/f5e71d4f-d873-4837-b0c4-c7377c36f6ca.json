@@ -1,0 +1,98 @@
+{
+  "id": "f5e71d4f-d873-4837-b0c4-c7377c36f6ca",
+  "stem": "At what age do Aboriginal and Torres Strait Islander infants receive an additional dose of the 13-valent pneumococcal conjugate vaccine?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "6 months",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "18 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "4 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "2 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "6 months is the correct age for the additional 13-valent pneumococcal conjugate vaccine dose in Aboriginal and Torres Strait Islander infants.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.487Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-98c49acba5e758ffcf78",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the additional 13-valent pneumococcal conjugate vaccine dose is given at 6 months of age.",
+    "B": "Incorrect because 12 months is not the scheduled age for this extra pneumococcal conjugate vaccine dose.",
+    "C": "Incorrect because 18 months is later than the recommended timing for this additional dose.",
+    "D": "Incorrect because 4 years is not the age for an additional 13-valent pneumococcal conjugate vaccine dose.",
+    "E": "Incorrect because 2 years is not the scheduled age for this extra pneumococcal conjugate vaccine dose."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This additional dose occurs midway through the first year of life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fcb922a7-4d40-4e0c-95cd-18fd283afeb9",
+    "overlapScore": 0.3900709219858156,
+    "questionIndex": 2,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:03.414Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

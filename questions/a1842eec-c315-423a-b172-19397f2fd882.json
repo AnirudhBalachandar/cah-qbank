@@ -1,0 +1,98 @@
+{
+  "id": "a1842eec-c315-423a-b172-19397f2fd882",
+  "stem": "Which statement best describes brain plasticity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It occurs only during adolescence",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is the brain's ability to repair itself and remains a lifelong phenomenon",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is the permanent hardening of neuronal pathways after age 25",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is only found in people with intellectual developmental disabilities",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is the loss of the brain's ability to change with experience",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Brain plasticity is the brain's ability to change, adapt and repair itself throughout life.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+      "title": "00074 Adolescent_brain and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.510Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4e88bac60d3f54afdb11",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because brain plasticity is not restricted to adolescence; it persists across the lifespan.",
+    "B": "Correct because brain plasticity refers to the brain's ability to adapt and repair itself, and this capacity continues throughout life.",
+    "C": "Incorrect because plasticity means flexibility and change, not permanent hardening of neural pathways.",
+    "D": "Incorrect because brain plasticity is a normal feature of the brain and is not limited to people with intellectual developmental disabilities.",
+    "E": "Incorrect because brain plasticity is the ability to change with experience, not the loss of that ability."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether the brain loses its ability to change and adapt as we get older.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "74",
+    "lectureTitle": "00074 Adolescent_brain and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba61437e-0a53-4126-be17-c275fd2ef371",
+    "overlapScore": 0.4918032786885246,
+    "questionIndex": 9,
+    "quizFileName": "quiz_074.json",
+    "quizTitle": "Adolescent Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a867e612-3ad2-424c-9acc-8958e39ef9ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:58.195Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

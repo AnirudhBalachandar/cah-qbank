@@ -1,0 +1,102 @@
+{
+  "id": "6baac6c3-cad9-4c61-8b73-c6830d3bb0dd",
+  "stem": "In children, which pathway is the more common cause of death before cardiac arrest?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Respiratory failure, about 60%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Circulatory failure, about 60%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Respiratory failure, about 30%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Raised intracranial pressure, about 60%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Meningococcaemia, about 30%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Respiratory failure is the more common pathway. In children, death usually occurs through respiratory failure at about 60%, compared with circulatory failure at about 30%, before cardiac arrest.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 5,
+      "title": "Recognition of the sick child: common ED presentations"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:22:34.644Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B69-attempt-02-131e79734b22f3b45740",
+  "rationale": "Respiratory failure is the more common deterioration pathway listed in the draft; circulatory failure is the other major pathway mentioned.",
+  "optionExplanations": {
+    "A": "Correct because respiratory failure is the more common pathway and is listed at about 60%.",
+    "B": "Incorrect because circulatory failure is given as about 30%, not 60%.",
+    "C": "Incorrect because respiratory failure is given as about 60%, not 30%.",
+    "D": "Incorrect because raised intracranial pressure is not one of the two pathway percentages listed here.",
+    "E": "Incorrect because meningococcaemia is not the pathway described and is not given as about 30%."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B69-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx57iz60001rjmo8ln92w5u",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3203125,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "93ded6de-8759-46e3-9786-b93a894a0dc1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B69/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Recognising and managing the sick child",
+      "complication recognition",
+      "primary assessment"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:18.192Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "b5e34f60-0d51-4a97-b310-3a99a43c3d36",
+  "stem": "Why does Perthes disease have a poorer prognosis when it presents in a child older than 8 years?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Poor healing potential",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Spread to the spine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Surgery is impossible",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The growth plates have already closed",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The femoral head cannot revascularise",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Poor healing potential is the reason older children with Perthes disease tend to have a worse prognosis. Their ability to remodel bone and revascularise the femoral head is reduced compared with younger children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.092Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-55e67d124e8501d8d727",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because older children have less biological capacity for the bone remodelling and revascularisation needed for recovery.",
+    "B": "Incorrect because Perthes disease is confined to the femoral head and does not spread to the spine.",
+    "C": "Incorrect because surgery may still be possible; the prognosis is limited by the underlying healing potential rather than technical impossibility.",
+    "D": "Incorrect because the growth plates are not the main issue here; the problem is reduced biological recovery with increasing age.",
+    "E": "Incorrect because the femoral head can revascularise, but this process is less effective in older children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the biological limitations regarding bone regeneration that occur as a child grows older.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c4e802af-f8d8-420a-8581-158b9db485ad",
+    "overlapScore": 0.375,
+    "questionIndex": 9,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:40.617Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

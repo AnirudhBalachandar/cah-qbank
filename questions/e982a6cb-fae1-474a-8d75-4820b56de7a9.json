@@ -1,0 +1,98 @@
+{
+  "id": "e982a6cb-fae1-474a-8d75-4820b56de7a9",
+  "stem": "At what age is it generally appropriate to begin 24-hour ambulatory blood pressure monitoring in a child with hypertension?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Older than 5 or 6 years",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "In the neonatal period",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only in late adolescence",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "From age 12 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "From birth if the child is hypertensive",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Older than 5 or 6 years is the usual age at which a child can reliably tolerate and cooperate with 24-hour ambulatory blood pressure monitoring.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.105Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-56627ed4a275be986004",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because children younger than this often struggle to keep the cuff on and complete the monitoring period.",
+    "B": "Incorrect because neonates are not generally able to tolerate or cooperate with ambulatory blood pressure monitoring.",
+    "C": "Incorrect because the test can be used in younger school-age children who can comply with wearing the device.",
+    "D": "Incorrect because age 12 is not the threshold; monitoring may be appropriate well before adolescence.",
+    "E": "Incorrect because birth is far too early for routine 24-hour ambulatory blood pressure monitoring."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the developmental stage at which a child can realistically cooperate with wearing a cuff all day.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ae56c6bf-3cbe-47d8-9931-edc143dd93d9",
+    "overlapScore": 0.3955223880597015,
+    "questionIndex": 2,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:36.178Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

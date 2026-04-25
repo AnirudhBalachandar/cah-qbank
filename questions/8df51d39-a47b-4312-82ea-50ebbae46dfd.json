@@ -1,0 +1,109 @@
+{
+  "id": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+  "stem": "During a routine adolescent review, a parent says, \"My 15-year-old can explain why risky dares are dangerous, but still does reckless things with friends\". Which explanation best matches adolescent risk-taking?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Adolescents generally cannot think abstractly until adulthood",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Reward-oriented and emotionally arousing systems intensify before the prefrontal cortex fully matures",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Risk-taking in adolescence usually means severe intellectual disability",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The adolescent brain is structurally stable after childhood",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Risk-taking is mainly caused by a lack of school discipline",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reward-oriented and emotionally arousing systems intensify before the prefrontal cortex fully matures. This neurodevelopmental imbalance helps explain why an adolescent may understand the risks of an action yet still act impulsively in social settings.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 126,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-16T11:06:43.574Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B01-d901dd4ab9894db90cf8",
+  "rationale": "Adolescent risk-taking is best explained by asynchronous brain development, with reward and emotion systems maturing ahead of prefrontal control. This can produce risky behaviour despite intact reasoning about consequences.",
+  "optionExplanations": {
+    "A": "Incorrect because abstract thinking develops during adolescence and does not wait until adulthood.",
+    "B": "Correct because reward-related and emotionally arousing systems develop earlier than the prefrontal cortex, so drive and impulse can outpace executive control.",
+    "C": "Incorrect because typical adolescent risk-taking is not the same as severe intellectual disability.",
+    "D": "Incorrect because the adolescent brain undergoes significant remodelling, not simple stability after childhood.",
+    "E": "Incorrect because school discipline is not the primary explanation for the neurodevelopmental pattern of adolescent risk-taking."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmt2w89c0001rjgc79ejmqbe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.265625,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-16-04.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "adolescent brain",
+      "risk-taking",
+      "development"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:23.122Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

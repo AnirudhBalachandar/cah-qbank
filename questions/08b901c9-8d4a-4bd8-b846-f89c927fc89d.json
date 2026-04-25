@@ -1,0 +1,98 @@
+{
+  "id": "08b901c9-8d4a-4bd8-b846-f89c927fc89d",
+  "stem": "What is the typical dental effect of prolonged pacifier use?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Anterior open bite with the front teeth not overlapping",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Premature eruption of the permanent teeth",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Permanent loss of the upper central incisors",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Posterior crossbite with the back teeth not touching",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Crowding of the lower incisors",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Anterior open bite is the typical dental effect of prolonged pacifier use. The pacifier can prevent normal overlap of the upper and lower front teeth, leaving a gap when the mouth is closed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.043Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-82643ddad4b2e84804ba",
+  "rationale": "This describes an anterior open bite, in which the front teeth do not meet.",
+  "optionExplanations": {
+    "A": "Correct because prolonged pacifier use can prevent the front teeth from overlapping, producing an anterior open bite.",
+    "B": "Incorrect because pacifier use may alter tooth position but does not typically make permanent teeth erupt early.",
+    "C": "Incorrect because pacifier use affects alignment rather than causing the teeth to be permanently lost.",
+    "D": "Incorrect because the classic effect is an anterior open bite, not a posterior crossbite.",
+    "E": "Incorrect because pacifier use is more likely to affect incisor overlap than directly cause lower incisor crowding."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The term for this condition describes a lack of contact between the front upper and lower teeth.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "86abdb60-ba6a-425f-8637-42c715fca12a",
+    "overlapScore": 0.3604651162790697,
+    "questionIndex": 8,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:58.055Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

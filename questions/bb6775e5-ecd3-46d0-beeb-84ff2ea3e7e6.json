@@ -1,0 +1,98 @@
+{
+  "id": "bb6775e5-ecd3-46d0-beeb-84ff2ea3e7e6",
+  "stem": "What is the primary goal of treating childhood arthritis to prevent long-term disability?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increasing synovial fluid secretion",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Avoiding bone erosions and cartilage degradation",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Promoting synovial membrane thickening",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Inducing nocturnal bone pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Increasing joint deformity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Avoiding bone erosions and cartilage degradation is the main treatment goal in childhood arthritis to limit ongoing joint damage and prevent long-term disability.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.579Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4df9b0b514748146e82d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because increasing synovial fluid secretion is not a treatment goal and does not prevent joint damage.",
+    "B": "Correct because treatment aims to suppress inflammation and protect the joint from progressive cartilage loss and bone erosions.",
+    "C": "Incorrect because synovial membrane thickening reflects active synovitis and is a pathological feature, not a goal of treatment.",
+    "D": "Incorrect because nocturnal bone pain is a symptom that should be relieved, not induced.",
+    "E": "Incorrect because increasing joint deformity would worsen function rather than prevent disability."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the damage shown in the pathological joint slide that doctors aim to stop.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "45d4783b-1f56-4cd6-bb91-746d2218ec81",
+    "overlapScore": 0.4024390243902439,
+    "questionIndex": 15,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:50.939Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

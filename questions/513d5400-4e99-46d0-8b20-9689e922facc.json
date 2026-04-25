@@ -1,0 +1,98 @@
+{
+  "id": "513d5400-4e99-46d0-8b20-9689e922facc",
+  "stem": "What is the primary purpose of meshing a split-thickness skin graft?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To improve the cosmetic appearance of the scar",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To allow the graft to cover a surface area up to 4 to 5 times its original size",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To prevent immune rejection of the donor skin",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To help the graft reach the subcutaneous fat layer",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To increase the graft thickness for better durability",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Meshing a split-thickness skin graft allows it to expand and cover a much larger surface area when donor skin is limited.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.542Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-078f2a90b2c0dd212bbd",
+  "rationale": "This is most useful when treating large wounds or burns with limited available donor skin.",
+  "optionExplanations": {
+    "A": "Incorrect because meshing produces a patterned appearance and is not done to improve scar cosmesis.",
+    "B": "Correct because meshing creates openings that let the graft expand, allowing it to cover approximately 4 to 5 times its original area.",
+    "C": "Incorrect because meshing is a mechanical expansion technique and does not prevent immunological rejection.",
+    "D": "Incorrect because split-thickness grafts are placed on a vascular wound bed, not to reach the subcutaneous fat layer.",
+    "E": "Incorrect because meshing does not increase graft thickness; it increases surface area coverage."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the challenge of a large burn and a small amount of healthy donor skin.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "674a8b73-1f22-40b6-9fc1-f1388500621a",
+    "overlapScore": 0.3924050632911392,
+    "questionIndex": 7,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:34.986Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

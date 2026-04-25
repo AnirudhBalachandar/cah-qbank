@@ -1,0 +1,102 @@
+{
+  "id": "492228ab-c11f-428e-a354-93425d9f830d",
+  "stem": "Before a painful procedure, a parent is visibly anxious and keeps interrupting the preparation; what step should be included in the procedural plan?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Educate the parent or carer before the procedure",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Exclude the parent from all procedures regardless of context",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Delay all explanation until after the procedure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Focus only on staff briefing because parent preparation is unnecessary",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ask the parent to leave the bedside and not participate",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Educate the parent or carer before the procedure is the best answer. This is because the procedural plan should include parent or carer education beforehand to support involvement and reduce disruption during preparation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 191,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:13:57.729Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-02-4c460d74f0ae257a40ec",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because parent or carer education before the procedure is specifically recommended and supports appropriate involvement.",
+    "B": "Incorrect because parents should not be routinely excluded; their involvement is part of the procedural plan when appropriate.",
+    "C": "Incorrect because explanation should occur before the procedure, not be delayed until after it.",
+    "D": "Incorrect because parent preparation is relevant and should not be ignored in favour of staff briefing alone.",
+    "E": "Incorrect because the parent should not be automatically removed from the bedside; support and education are more appropriate."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B87-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmws1hgc0001rjihz9hnjrvo",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "aadd7e37-dab2-4493-9f80-03e62db26e98",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Pain management and procedural pain",
+      "family counselling",
+      "procedural pain planning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:11.559Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

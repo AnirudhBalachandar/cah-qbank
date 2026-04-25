@@ -1,0 +1,102 @@
+{
+  "id": "cfb5ba8f-b8b7-4dbb-afd3-1d8d9eeed421",
+  "stem": "Which option is an example of nutritional insufficiency contributing to short stature?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Crohn's disease",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Delayed skeletal maturation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Poor intake",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Body disproportion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Within 3 centiles of mid-parental height",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Poor intake is an example of nutritional insufficiency contributing to short stature.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 19,
+      "title": "Assessment of Childhood Short Stature"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:02:29.950Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B15-attempt-01-dfd7fbf8025ce1e96226",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because Crohn's disease is an example of systemic disease or inflammation, not nutritional insufficiency specifically",
+    "B": "Incorrect because delayed skeletal maturation is associated with constitutional delay",
+    "C": "Correct because poor intake is listed as an example of nutritional insufficiency contributing to short stature",
+    "D": "Incorrect because body disproportion suggests skeletal dysplasia",
+    "E": "Incorrect because being within 3 centiles of mid-parental height supports familial short stature rather than nutritional insufficiency"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B15-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvtc6bd0001rjkop87ettxb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.32,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d6134c1f-95bb-42a4-bdfc-9974bc9c8fe5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B15/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Growth, nutrition, and obesity",
+      "nutritional reasoning",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:38.780Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

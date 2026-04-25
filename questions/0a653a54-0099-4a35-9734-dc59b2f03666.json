@@ -1,0 +1,98 @@
+{
+  "id": "0a653a54-0099-4a35-9734-dc59b2f03666",
+  "stem": "What is the most common underlying cause of hypertension in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Renal disorders",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Essential hypertension",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Endocrine abnormalities",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Psychological stress",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cardiac coarctation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Renal disorders are the most common underlying cause of hypertension in children, particularly renal parenchymal and renovascular disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.171Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b3e8230745053c4e13d5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because renal parenchymal and renovascular diseases are the most frequent underlying causes of hypertension in the paediatric population.",
+    "B": "Incorrect because essential hypertension is less common in children than secondary hypertension, particularly renal causes.",
+    "C": "Incorrect because endocrine causes can produce hypertension but are less common than renal disorders in children.",
+    "D": "Incorrect because psychological stress may raise blood pressure transiently but is not the most common underlying cause of paediatric hypertension.",
+    "E": "Incorrect because coarctation of the aorta can cause hypertension but is less common than renal disorders overall."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider which medical specialty is delivering the lecture and why.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8718ab00-afcb-4918-a38f-44ed64ea5812",
+    "overlapScore": 0.4444444444444444,
+    "questionIndex": 4,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:01.997Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

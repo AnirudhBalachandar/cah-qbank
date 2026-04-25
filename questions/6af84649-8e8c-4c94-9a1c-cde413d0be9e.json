@@ -1,0 +1,98 @@
+{
+  "id": "6af84649-8e8c-4c94-9a1c-cde413d0be9e",
+  "stem": "Which biological factor contributes to the high vulnerability of adolescent girls to pelvic inflammatory disease (PID)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lower local immunity and specific biological attributes of the reproductive tract",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Faster neurodevelopment in brain regions controlling hygiene",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Routine hormonal contraceptive use causing immune suppression",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An evolutionary trade-off that prioritises fertility over infection resistance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reduced exposure to common childhood infections",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Lower local immunity and specific reproductive tract characteristics increase the likelihood of ascending infection and PID in adolescent girls.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+      "title": "00077 Adolescent sexual be-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.826Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-867b3438dc8ed567809a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because lower local immunity and specific biological features of the reproductive tract make ascending infection and PID more likely.",
+    "B": "Incorrect because neurodevelopment affects behaviour, not the local biological susceptibility of the reproductive tract to PID.",
+    "C": "Incorrect because routine hormonal contraceptive use does not explain the biological vulnerability described here.",
+    "D": "Incorrect because PID vulnerability is due to anatomical and immune factors, not an evolutionary trade-off.",
+    "E": "Incorrect because reduced exposure to childhood infections does not account for the increased reproductive tract susceptibility to PID."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the physical and immune characteristics of a developing reproductive system.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "77",
+    "lectureTitle": "00077 Adolescent sexual be-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c2c9db2a-3b17-4342-a219-a060ec521111",
+    "overlapScore": 0.3944954128440367,
+    "questionIndex": 7,
+    "quizFileName": "quiz_077.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f494d4be-0233-4212-82ca-25cccbd58d42",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:15.295Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "735d5998-0e9b-448c-badd-87ec5904e812",
+  "stem": "Which explanation best describes the mechanism of nocturnal enuresis during sleep?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Impaired cortical arousal with reduced bladder capacity",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Excess conscious choice not to wake",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Isolated vitamin D deficiency causing detrusor failure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Gastro-oesophageal reflux triggering bedwetting",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Congenital lactose intolerance causing bladder spasm",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Impaired cortical arousal with reduced bladder capacity is the best explanation for nocturnal enuresis in this question. The child does not wake appropriately to bladder filling, and reduced bladder capacity can contribute; nocturnal polyuria may also be present.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 26,
+      "title": "Nocturnal enuresis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:27:00.252Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B20-attempt-01-cef5fa22d0ca939ff413",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because nocturnal enuresis is associated with impaired cortical arousal and reduced bladder capacity.",
+    "B": "Incorrect because bedwetting is not due to a deliberate conscious choice not to wake.",
+    "C": "Incorrect because vitamin D deficiency is not a recognised mechanism for nocturnal enuresis here.",
+    "D": "Incorrect because gastro-oesophageal reflux is not the cause of nocturnal enuresis in this context.",
+    "E": "Incorrect because congenital lactose intolerance does not cause bladder spasm leading to nocturnal enuresis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B20-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm2rxj0001rjhden31dzyq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.33,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "dc12d5a9-9be8-48df-b4d2-0d2eed65f771",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B20/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Common paediatric primary-care presentations",
+      "nocturnal enuresis"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:30.374Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

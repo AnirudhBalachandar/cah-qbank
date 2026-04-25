@@ -1,0 +1,102 @@
+{
+  "id": "227d9f33-2f0c-46ea-a29a-a458eafe8aa1",
+  "stem": "In assessing whether a 17-year-old can consent to her own medical treatment, what is the best explanation of competence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Anyone under 18 can never consent to medical treatment for themselves",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Once a young person turns 16, age alone is enough to decide competence",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Capacity depends on factors such as maturity, understanding, and ability to weigh risks, benefits, and longer-term impacts, rather than age alone",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A parent’s agreement automatically makes a minor competent to consent",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "School performance is the main determinant of legal competence",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Capacity depends on factors such as maturity, understanding, and the ability to weigh risks, benefits, and longer-term impacts rather than age alone. A young person under 18 may be competent to consent if they can understand and evaluate the decision sufficiently.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T03:43:19.895Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B02-86efa4d9085f0b08a957",
+  "rationale": "Gillick competence is a capacity-based assessment, not a birthday threshold alone; the key issue is whether the young person can understand the treatment and its consequences.",
+  "optionExplanations": {
+    "A": "Incorrect because some minors can be competent to consent as mature minors.",
+    "B": "Incorrect because age 16 alone does not automatically establish competence.",
+    "C": "Correct because capacity depends on maturity, understanding, and the ability to weigh risks, benefits, and longer-term impacts, rather than age alone.",
+    "D": "Incorrect because parental agreement does not automatically make a minor competent to consent.",
+    "E": "Incorrect because school performance is not the test used to assess consent capacity."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu2hve70001rjy713mtfq3v",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3319672131147541,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "04f9e5f8-c7d7-41ea-98d3-b5924f0fdf6f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-05.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "consent",
+      "Gillick competence",
+      "parent counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:56.174Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

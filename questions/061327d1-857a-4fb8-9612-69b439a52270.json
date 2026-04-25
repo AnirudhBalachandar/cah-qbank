@@ -1,60 +1,85 @@
 {
   "id": "061327d1-857a-4fb8-9612-69b439a52270",
-  "stem": "Wheeze:",
+  "stem": "A 5-year-old child was well until suddenly developing wheeze while playing with small toys. They have a persistent unilateral wheeze, reduced air entry on the right, and are not improving after inhaled salbutamol. Chest x-ray shows right-sided hyperinflation. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Bronchitis",
-      "isCorrect": null
+      "text": "Acute bronchitis",
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Bronchiolitis",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Inhaled foreign body",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "D",
       "text": "Asthma",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
       "text": "Croup",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "5 months, wheezy etc… decreased air entry bilaterally, wheeze, crackles",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "5 year old, was well, then wheezy. Not responding to ventolin via spacer. Otherwise well, tachypnoic, reduced air entry on right upper lobe. Chest expansion normal. Xray showed hyperinflation",
-      "isCorrect": null
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "The combination of sudden onset wheeze in an otherwise well child, poor response to bronchodilator, persistent unilateral chest findings, and focal hyperinflation on x-ray is most consistent with inhaled foreign body. Foreign body aspiration may present with focal wheeze or decreased breath sounds, and a normal or non-specific chest x-ray does not exclude it. Bronchiolitis is usually an illness of infants, asthma is typically recurrent and bronchodilator-responsive, and croup causes upper-airway barky cough and stridor rather than isolated lower-airway wheeze.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_Bodies_Inhaled",
+      "title": "Clinical Practice Guidelines: Foreign bodies inhaled"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+      "title": "Clinical Practice Guidelines: Acute asthma"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cough/",
+      "title": "Clinical Practice Guidelines: Cough"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children’s Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+      "title": "Clinical Practice Guidelines: Bronchiolitis"
+    }
+  ],
   "tags": [
+    "asthma",
+    "bronchiolitis",
     "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "foreign-body-aspiration",
+    "wheeze"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.759Z",
   "sourceFingerprint": "a5698335a4ee6fc856c77c92",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "This is the safest and most clinically relevant interpretation of the fragment. Inhaled foreign body is the best answer because Australian paediatric guidance highlights persistent focal wheeze/decreased breath sounds and unilateral hyperinflation as key clues, and advises a high index of suspicion even when examination or x-ray findings are not definitive. The age and abrupt onset also fit aspiration more than bronchiolitis, croup, or asthma.",
+  "optionExplanations": {
+    "A": "Acute bronchitis may cause cough and wheeze, but it does not usually cause sudden unilateral wheeze with focal hyperinflation",
+    "B": "Bronchiolitis is typically seen in younger infants and usually presents with diffuse wheeze/crackles rather than a focal unilateral chest sign",
+    "C": "Correct: sudden onset, unilateral wheeze, reduced air entry, poor bronchodilator response, and hyperinflation strongly suggest an inhaled foreign body",
+    "D": "Asthma commonly causes bilateral wheeze and usually improves with salbutamol; a persistent focal chest sign should prompt another diagnosis",
+    "E": "Croup is an upper-airway condition causing barky cough and stridor, not focal lower-airway wheeze"
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.308Z",
@@ -69,6 +94,93 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "28c01a22041e472ecda2"
+    "stemHash": "28c01a22041e472ecda2",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:07:21.873Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Foreign bodies inhaled",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_Bodies_Inhaled",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Persistent focal wheeze or decreased breath sounds, sudden onset symptoms, and hyperinflation distal to obstruction are consistent with inhaled foreign body; normal exam or x-ray does not exclude it"
+        },
+        {
+          "title": "Clinical Practice Guidelines: Acute asthma",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Persistent asymmetry on auscultation may indicate inhaled foreign body rather than asthma"
+        },
+        {
+          "title": "Clinical Practice Guidelines: Cough",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cough/",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Sudden onset without viral prodrome or after choking may suggest foreign body inhalation; dry wheeze is more typical of asthma"
+        },
+        {
+          "title": "Clinical Practice Guidelines: Bronchiolitis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+          "organization": "Royal Children’s Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Bronchiolitis is primarily an illness of infants and is less consistent with a sudden focal wheeze in a 5-year-old"
+        }
+      ],
+      "notes": "Normalized malformed fragment into a single-best-answer question while preserving the original intended clinical concept. Existing options A-E were usable; F and G were discarded as stem fragments.",
+      "preRepair": {
+        "stem": "Wheeze:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Bronchitis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Bronchiolitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Inhaled foreign body",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Asthma",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Croup",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "5 months, wheezy etc… decreased air entry bilaterally, wheeze, crackles",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "5 year old, was well, then wheezy. Not responding to ventolin via spacer. Otherwise well, tachypnoic, reduced air entry on right upper lobe. Chest expansion normal. Xray showed hyperinflation",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

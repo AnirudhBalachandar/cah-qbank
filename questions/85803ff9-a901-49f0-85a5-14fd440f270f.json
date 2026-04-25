@@ -1,0 +1,98 @@
+{
+  "id": "85803ff9-a901-49f0-85a5-14fd440f270f",
+  "stem": "Which clinical finding in a full-term baby is highly suspicious for Hirschsprung disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Failure to pass meconium within the first 24 hours of life",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Effortless, non-bilious regurgitation after breastfeeding",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Visible gastric peristalsis on the abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Projectile vomiting starting at two weeks of age",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Abdominal distension with frequent loose stools",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Failure to pass meconium within the first 24 hours of life is highly suggestive of Hirschsprung disease in a term newborn.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.866Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b7cf0667f2ef5a999458",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because delayed passage of meconium in a term baby is a classic hallmark of Hirschsprung disease.",
+    "B": "Incorrect because effortless non-bilious regurgitation is more consistent with gastro-oesophageal reflux.",
+    "C": "Incorrect because visible gastric peristalsis suggests gastric outlet obstruction such as pyloric stenosis.",
+    "D": "Incorrect because projectile vomiting at two weeks is more typical of pyloric stenosis.",
+    "E": "Incorrect because loose stools are not the classic presentation of Hirschsprung disease, which usually causes delayed meconium and constipation"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the timing and nature of the baby's first bowel movement.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba8e77cf-c540-48af-89c2-4b7eac281b4c",
+    "overlapScore": 0.3953488372093023,
+    "questionIndex": 9,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:02.572Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

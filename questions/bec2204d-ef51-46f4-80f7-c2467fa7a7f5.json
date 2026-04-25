@@ -1,0 +1,102 @@
+{
+  "id": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+  "stem": "A 13-year-old presents to the Emergency Department with a life-threatening condition and no parent can be contacted; what is the best next step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wait until a parent or guardian is reached before giving treatment",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Proceed with emergency or life-saving treatment without the consent of the minor or parents",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Treat only if two consultants independently agree",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Do not treat unless the child is already assessed as Gillick competent",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Transfer first for court authorisation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Emergency or life-saving treatment can proceed without consent from the minor or parents. In a life-threatening situation, treatment should not be delayed while waiting for consent or court approval.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T03:43:19.944Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B02-8a53bd0139be36874596",
+  "rationale": "Emergency treatment may be given without prior consent when immediate care is required to prevent serious harm or death.",
+  "optionExplanations": {
+    "A": "Incorrect because life-saving treatment should not be delayed until a parent or guardian can be contacted.",
+    "B": "Correct because emergency or life-saving treatment may be provided without consent when immediate treatment is required to prevent serious harm or death.",
+    "C": "Incorrect because there is no requirement for two consultants to agree before giving emergency treatment in this situation.",
+    "D": "Incorrect because emergency treatment should not be withheld pending a Gillick competence assessment.",
+    "E": "Incorrect because court authorisation is not needed before urgent life-saving treatment in an emergency."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu2hve70001rjy713mtfq3v",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3402777777777778,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-05.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "emergency consent",
+      "acute care",
+      "next-step management"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:59.620Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "897caf21-7da7-4a20-9381-49b5cad0731c",
+  "stem": "A 6-month-old boy develops coryza followed by cough, diffuse wheeze, and crackles, and his team explains that even modest bronchiolar swelling can cause marked symptoms in infancy; which mechanism best accounts for this?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Viral infection causes inflammation, oedema, and mucus plugging of terminal bronchioles in an infant with small-calibre airways",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Viral illness mainly causes fixed obstruction at the cricoid cartilage",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The symptoms are chiefly caused by hypotension as an early respiratory sign",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The process is primarily isolated airspace pathology rather than bronchiolar disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Large occiput flexion when lying flat is the main reason for wheeze and crackles",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Viral bronchiolitis is the correct mechanism. In infants, small-calibre terminal bronchioles are easily narrowed by viral inflammation, oedema, and mucus plugging, so relatively minor swelling can produce significant wheeze and crackles.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 31,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:44:07.624Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-03-3676f10c299b286cbb34",
+  "rationale": "Bronchiolitis is a lower-airway process affecting the terminal bronchioles. Infant small-calibre airways make bronchiolar oedema and mucus plugging clinically important. Wheeze and crackles arise from bronchiolar viral inflammation in infancy.",
+  "optionExplanations": {
+    "A": "Correct because viral infection causes inflammation, oedema, and mucus plugging of terminal bronchioles, and infants have small-calibre airways that become obstructed easily.",
+    "B": "Incorrect because the cricoid cartilage is an upper-airway structure and does not explain the typical lower-airway findings of bronchiolitis.",
+    "C": "Incorrect because hypotension is not the mechanism of wheeze and crackles in bronchiolitis; it is a systemic sign rather than the cause of bronchiolar obstruction.",
+    "D": "Incorrect because bronchiolitis is a bronchiolar disease, not an isolated airspace process.",
+    "E": "Incorrect because occiput position may affect airway positioning, but it does not cause the bronchiolar inflammation, oedema, and mucus plugging that produce bronchiolitis symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B25-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmoso20001rjqvz7h1p8d6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3072916666666667,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b7598a74-319d-4d5f-aaba-63853439e70d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "bronchiolitis pathophysiology",
+      "small-calibre airways"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:12.201Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

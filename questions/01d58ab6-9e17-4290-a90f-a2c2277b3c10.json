@@ -1,0 +1,98 @@
+{
+  "id": "01d58ab6-9e17-4290-a90f-a2c2277b3c10",
+  "stem": "Which of the following is an upstream population health intervention used to address obesity drivers?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Providing individual bariatric surgery referrals",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Implementing a soft drink tax",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Prescribing weight-loss medications in primary care",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Encouraging families to use smaller plates at home",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Offering brief nutrition advice in a clinic visit",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Implementing a soft drink tax is the correct upstream intervention because it changes the food environment at a population level rather than targeting one child or family at a time.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+      "title": "00090 Baur SMP Obesity pre-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.276Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7a35d15b8f9b9c349b8c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because bariatric surgery referrals are a downstream treatment for affected individuals, not an upstream prevention strategy.",
+    "B": "Correct because a soft drink tax is a population-level policy that changes the food environment and can reduce obesity risk across the community.",
+    "C": "Incorrect because prescribing weight-loss medication is an individual clinical intervention rather than a policy that addresses broader obesity drivers.",
+    "D": "Incorrect because using smaller plates is a household behaviour change, not a systemic upstream intervention.",
+    "E": "Incorrect because brief nutrition advice is person-centred counselling and does not alter the wider environment that shapes obesity risk."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ee24aa9d-039d-477c-9915-b76c685c3b5a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of policies that change the environment for everyone simultaneously, rather than focusing on one person at a time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "90",
+    "lectureTitle": "00090 Baur SMP Obesity pre-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "afe5db9e-002c-4c07-97c0-5d189a6b530a",
+    "overlapScore": 0.4070796460176991,
+    "questionIndex": 8,
+    "quizFileName": "quiz_090.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c886d9c4-927e-4f78-9fc5-77a24d552dc0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:41.107Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

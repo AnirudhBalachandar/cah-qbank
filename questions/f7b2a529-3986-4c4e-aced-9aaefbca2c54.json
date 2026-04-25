@@ -1,0 +1,98 @@
+{
+  "id": "f7b2a529-3986-4c4e-aced-9aaefbca2c54",
+  "stem": "What is the term for complete cessation of growth in a physis after a Salter-Harris type V injury?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Partial physeal arrest",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Physeal arrest",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Guided growth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Epiphysiodesis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Physeal bar",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Physeal arrest is complete or partial permanent growth plate failure after injury, leading to premature closure and loss of growth potential.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f13cd7b-5400-4793-8e1c-238c9acb605c",
+      "title": "00089 fractures-long-term--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.037Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d9b03040a6d20dfb151f",
+  "rationale": "The key term for permanent cessation of growth at the physis is physeal arrest, which can follow crush injuries such as Salter-Harris type V fractures.",
+  "optionExplanations": {
+    "A": "Incorrect because partial physeal arrest affects only part of the growth plate and more often causes angular deformity than complete cessation of growth.",
+    "B": "Correct because physeal arrest is the term for permanent damage to the growth plate causing premature closure and loss of growth.",
+    "C": "Incorrect because guided growth is a corrective surgical technique used to address deformity, not the pathological result of a physeal injury.",
+    "D": "Incorrect because epiphysiodesis is a deliberate surgical arrest of a growth plate, not traumatic growth plate failure.",
+    "E": "Incorrect because a physeal bar is a bony bridge across part of the growth plate that can result from arrest, but it is not the term for complete cessation of growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f13cd7b-5400-4793-8e1c-238c9acb605c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This term refers to the permanent damage and premature closure of the growth plate.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "89",
+    "lectureTitle": "00089 fractures-long-term--s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "149132b1-fccf-459a-8463-cf955be475c3",
+    "overlapScore": 0.4712643678160919,
+    "questionIndex": 5,
+    "quizFileName": "quiz_089.json",
+    "quizTitle": "Growth Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "62d7590b-b415-406f-a764-9d4a02c96325",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:09.095Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

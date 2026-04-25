@@ -1,0 +1,101 @@
+{
+  "id": "1fbc305d-7220-45c1-a2e7-5d62e4eec8d5",
+  "stem": "Which feature set is most consistent with a typical febrile seizure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Age 6 months to 6 years, generalised tonic-clonic seizure, brief duration, post-ictal phase",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Afebrile seizure, focal features, prolonged duration, recurrent events",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Fever with persistently altered neurology",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fever with concern for meningitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "New neurological abnormality after the seizure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Typical febrile seizure features are age 6 months to 6 years, a generalised tonic-clonic seizure, brief duration, and a post-ictal phase.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 109,
+      "title": "Neurology Seizures - Emergency Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:45:08.122Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B59-attempt-01-7cdec7def74fda8b0254",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because typical febrile seizures occur between 6 months and 6 years of age, are usually generalised tonic-clonic, brief, and followed by a post-ictal phase.",
+    "B": "Incorrect because afebrile, focal, prolonged, or recurrent seizures are not typical of a simple febrile seizure and suggest an alternative diagnosis.",
+    "C": "Incorrect because persistently altered neurology is a red flag and is not consistent with a typical febrile seizure.",
+    "D": "Incorrect because concern for meningitis points to a serious CNS infection rather than a typical febrile seizure.",
+    "E": "Incorrect because a new neurological abnormality after the event is a red flag and is not part of the typical febrile seizure pattern."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B59-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr0evo0001rjsm32fhj47l",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3383084577114428,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7ad4d4ac-8240-488b-9ddb-db1e4c0c131e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B59/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Seizures - emergency management",
+      "recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:45.731Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

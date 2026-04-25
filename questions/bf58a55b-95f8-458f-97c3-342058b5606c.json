@@ -1,0 +1,98 @@
+{
+  "id": "bf58a55b-95f8-458f-97c3-342058b5606c",
+  "stem": "In a child with acute nephritis and hypertension due to fluid retention, which treatment is most effective?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "ACE inhibitors",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Calcium channel blockers",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Diuretics",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "High-dose oral steroids",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Fluid restriction alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Diuretics are the most effective treatment because they reduce fluid overload, which is the main driver of the hypertension in acute nephritis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+      "title": "00043 renal-nephrotic-neph-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.953Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0c5a33c258e3b26da28a",
+  "rationale": "They directly remove excess fluid, making them the best anti-hypertensive choice when hypertension is caused by volume overload.",
+  "optionExplanations": {
+    "A": "Incorrect because ACE inhibitors do not directly treat the underlying fluid overload driving the hypertension.",
+    "B": "Incorrect because calcium channel blockers may lower blood pressure but do not address the excess fluid causing it.",
+    "C": "Correct because diuretics remove excess fluid and are the most effective way to manage hypertension caused by fluid retention in acute nephritis.",
+    "D": "Incorrect because high-dose oral steroids are not the primary treatment for hypertension due to fluid retention in acute nephritis.",
+    "E": "Incorrect because fluid restriction alone is usually not as effective as diuretics for controlling volume-related hypertension."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ffa09e0f-0506-400c-b491-28cc65713cfa",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the medication that directly removes the excess fluid causing the high blood pressure.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "43",
+    "lectureTitle": "00043 renal-nephrotic-neph-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5eb4c270-c3a0-444d-8970-b27a4fb44aa2",
+    "overlapScore": 0.3983050847457627,
+    "questionIndex": 7,
+    "quizFileName": "quiz_043.json",
+    "quizTitle": "Nephrology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e70c2f2-70d0-4a85-881e-c56616853ebf",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:01.606Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

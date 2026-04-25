@@ -1,0 +1,98 @@
+{
+  "id": "4859ac09-39f7-4174-bee2-8c1ee4b0face",
+  "stem": "What percentage of males typically have a fully retractile foreskin by age 4?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately 10-15%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Approximately 30-40%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Approximately 65-75%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Approximately 90-95%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Approximately 50-60%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Approximately 30-40% is the typical proportion of boys with a fully retractile foreskin by age 4.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.896Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-004b3a29c7211b35316f",
+  "rationale": "This question tests the normal developmental timeline of foreskin retractability in childhood, which is often incomplete at age 4 and improves later.",
+  "optionExplanations": {
+    "A": "Incorrect because this is below the reported proportion of boys with a fully retractile foreskin by age 4.",
+    "B": "Correct because about 30-40% of boys have a fully retractile foreskin by age 4, with many not reaching full retractability until later childhood or puberty.",
+    "C": "Incorrect because this overestimates the proportion of boys with full retractability at age 4.",
+    "D": "Incorrect because nearly all boys do not have a fully retractile foreskin by age 4; this degree of retractability is much less common at that age.",
+    "E": "Incorrect because this is still higher than the typical proportion reported by age 4."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the developmental timeline mentioned for physiological phimosis and when it typically resolves.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fecafa83-e1ee-45c8-93c1-6d6967949db6",
+    "overlapScore": 0.4639175257731959,
+    "questionIndex": 2,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:08.140Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

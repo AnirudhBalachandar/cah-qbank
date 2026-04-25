@@ -1,0 +1,98 @@
+{
+  "id": "c2c9db2a-3b17-4342-a219-a060ec521111",
+  "stem": "What physiological factor, besides enlarged tonsils and adenoids, contributes to the development of obstructive sleep apnoea in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Loss of neuromuscular tone, especially during REM sleep",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Increased production of nitric oxide in the lungs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A transition from REM sleep to slow-wave sleep",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Consistent nasal breathing throughout the night",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Increased chest wall rigidity during sleep",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Loss of neuromuscular tone, especially during REM sleep, can promote upper airway collapse when the airway is already narrowed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+      "title": "00021 Sleep disorders-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.535Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-68575d9403b38388f083",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because reduced muscle tone during REM sleep makes the upper airway more likely to collapse, especially in a child with anatomical narrowing.",
+    "B": "Incorrect because nitric oxide is not a primary mechanism causing upper airway obstruction in obstructive sleep apnoea.",
+    "C": "Incorrect because obstructive events are typically worse during REM sleep, not because of a transition to slow-wave sleep.",
+    "D": "Incorrect because nasal breathing is not a cause of obstructive sleep apnoea; airway obstruction and mouth breathing contribute instead.",
+    "E": "Incorrect because increased chest wall rigidity is not a typical physiological contributor to obstructive sleep apnoea in children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how muscle relaxation during certain sleep stages affects the airway.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "21",
+    "lectureTitle": "00021 Sleep disorders-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "85bf92bb-9b0f-4f67-810b-e51546d6b85c",
+    "overlapScore": 0.5229357798165137,
+    "questionIndex": 10,
+    "quizFileName": "quiz_021.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b516b8dd-449a-4f65-b9dc-89c25d58f557",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:10.278Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "6248623c-c6df-4d08-9237-8a311c834330",
+  "stem": "During a service-planning meeting, a trainee says that higher health funding per Aboriginal person should already have closed the gap, so no further adjustment to service design is needed; which response is best supported?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Higher funding per person is noted, but it is still not enough to close the gap",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Funding per person is lower for Aboriginal Australians than for non-Aboriginal Australians",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The gap has already closed in remote and very remote areas",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Affordability, availability, and acceptability are no longer relevant once funding increases",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No Aboriginal-specific health initiatives are mentioned",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Higher funding per person is noted, but it is still not enough to close the gap. The notes state that although funding per Aboriginal person is higher, this alone has not closed the gap, so service design still needs to address ongoing barriers to care.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 192,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:14:45.633Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B08-attempt-02-d451a04863c302da2ef5",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because the notes say funding per person is higher for Aboriginal Australians, but it still has not been sufficient to close the gap.",
+    "B": "Incorrect because the notes state the opposite: funding per person is higher, not lower.",
+    "C": "Incorrect because the notes do not say the gap has closed; they say it remains despite higher funding.",
+    "D": "Incorrect because the notes still emphasise affordability, availability, and acceptability as relevant barriers.",
+    "E": "Incorrect because the notes specifically mention Aboriginal-specific health initiatives, including Aboriginal Community Controlled Health Organisations and Closing the Gap initiatives."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B08-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvl7at80001rjfc8w2gthnw",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3448275862068966,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "34e3a2cc-633e-44aa-ad69-de109f37cf2c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B08/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Aboriginal and Torres Strait Islander child health",
+      "health access",
+      "service planning",
+      "culturally safe framing"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:58.835Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

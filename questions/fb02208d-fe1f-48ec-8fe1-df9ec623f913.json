@@ -1,0 +1,102 @@
+{
+  "id": "fb02208d-fe1f-48ec-8fe1-df9ec623f913",
+  "stem": "What makes growth assessment most useful in follow-up for a school-aged child with recurrent abdominal symptoms?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Using serial measurements plotted over time",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Relying on the most recent measurement only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Avoiding growth charts to reduce measurement variation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Assessing height alone because weight fluctuates",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Repeating blood tests before considering anthropometry",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Serial measurements plotted over time are the most useful way to assess growth in follow-up because they show trends rather than a single isolated value.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 12,
+      "title": "Page 12"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:36.410Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-04-2159106d778fe25c8297",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because serial measurements plotted over time allow growth trends to be assessed more accurately than a single measurement.",
+    "B": "Incorrect because a single recent value does not show growth trend or progression over time.",
+    "C": "Incorrect because growth charts are used to improve, not reduce, the value of growth assessment.",
+    "D": "Incorrect because both height and weight contribute to growth assessment, and height alone is incomplete.",
+    "E": "Incorrect because anthropometric assessment should not be delayed until blood tests are repeated."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B32-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpo5gy0001rj7qd0k988kh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3439490445859872,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "27bed37b-0a69-4440-8dc6-9f260cf2186d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-04.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "follow-up",
+      "serial assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:14.257Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

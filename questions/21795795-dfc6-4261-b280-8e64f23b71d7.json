@@ -1,0 +1,102 @@
+{
+  "id": "21795795-dfc6-4261-b280-8e64f23b71d7",
+  "stem": "Why is bedside glucose testing often included when a child presents acutely unwell?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Diabetes in children usually presents with a distinctive rash",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Diabetes can present non-specifically in acutely unwell children",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Only children with a family history of diabetes require glucose testing when unwell",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Glucose testing is needed only if nocturnal enuresis is present",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bedside glucose testing is reserved for children with known diabetes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Diabetes can present non-specifically in acutely unwell children, so bedside glucose testing is often included to avoid missing an important diagnosis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 97,
+      "title": "Diabetes in Children and Adolescents Clinical Practice Guidelines: Diabetes Mellitus: new presentation"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:34:44.367Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-03-87600e3dcf704175c7f6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because diabetes does not usually present with a distinctive rash in children.",
+    "B": "Correct because diabetes can present non-specifically in acutely unwell children, so a bedside glucose check helps detect it early.",
+    "C": "Incorrect because glucose testing should not be limited to children with a family history of diabetes.",
+    "D": "Incorrect because nocturnal enuresis is not required before checking a child’s blood glucose.",
+    "E": "Incorrect because glucose testing is also important in acutely unwell children without known diabetes."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B53-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqn1ls0001rj94o12zrbpg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3314917127071823,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3066fc0c-d6ae-432d-b906-cbd705eb8067",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "diagnosis",
+      "education"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:50.716Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

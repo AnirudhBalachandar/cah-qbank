@@ -1,0 +1,98 @@
+{
+  "id": "17074664-5e1c-41ce-83a5-1771bba6e057",
+  "stem": "What is the recommended age range for orchidopexy if a testis remains undescended at 3 months of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Between 1 and 2 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Between 6 and 12 months of age",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Immediately at the time of diagnosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "At puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "After 2 years of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Between 6 and 12 months of age is the recommended timing for orchidopexy after persistent undescended testis at 3 months, allowing spontaneous descent to occur while avoiding unnecessary delay.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.699Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-38a95174290189ca131a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because waiting until 1 to 2 years of age is later than the recommended window for optimal surgical outcomes.",
+    "B": "Correct because orchidopexy is usually performed between 6 and 12 months of age if the testis has not descended by 3 months.",
+    "C": "Incorrect because immediate surgery is not usually required; many testes descend spontaneously in the first few months.",
+    "D": "Incorrect because delaying repair until puberty increases the risk of complications and poorer fertility outcomes.",
+    "E": "Incorrect because waiting beyond 2 years of age is later than recommended and may worsen long-term outcomes."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The goal is to reposition the testis within the first year of life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "18e17808-3ea6-42a6-9334-e615fb8017b5",
+    "overlapScore": 0.4545454545454545,
+    "questionIndex": 3,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:26.303Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

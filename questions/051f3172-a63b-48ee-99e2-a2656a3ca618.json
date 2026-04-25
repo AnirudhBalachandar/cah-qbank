@@ -1,0 +1,98 @@
+{
+  "id": "051f3172-a63b-48ee-99e2-a2656a3ca618",
+  "stem": "What is the estimated male-to-female ratio of attention deficit hyperactivity disorder (ADHD) prevalence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "5:1",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "2:1",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "10:1",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "1:1",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "3:1",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "5:1 is the estimated male-to-female ratio of ADHD prevalence, indicating a clear male predominance.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8b08ea00-ae4a-4d35-b7f4-37dc71f03986",
+      "title": "00053 ADHD-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.265Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0f64ca27d2b38560b42d",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because 5:1 is the estimated male-to-female ratio of ADHD prevalence, indicating a clear male predominance.",
+    "B": "Incorrect because 2:1 underestimates the male predominance described for ADHD prevalence.",
+    "C": "Incorrect because 10:1 overstates the male predominance described for ADHD prevalence.",
+    "D": "Incorrect because 1:1 would indicate equal prevalence in males and females, which is not the estimate given.",
+    "E": "Incorrect because 3:1 is lower than the estimated male-to-female ratio given for ADHD prevalence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8b08ea00-ae4a-4d35-b7f4-37dc71f03986",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The condition is described as being strongly dominated by one gender over the other.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "53",
+    "lectureTitle": "00053 ADHD-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "99dbd046-943e-4365-9b52-a679a9a6b32b",
+    "overlapScore": 0.4444444444444444,
+    "questionIndex": 3,
+    "quizFileName": "quiz_053.json",
+    "quizTitle": "ADHD Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e315af0-edfa-4a2c-9fb3-00379d1359ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:54.801Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

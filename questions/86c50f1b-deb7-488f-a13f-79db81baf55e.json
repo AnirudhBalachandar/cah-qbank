@@ -1,0 +1,98 @@
+{
+  "id": "86c50f1b-deb7-488f-a13f-79db81baf55e",
+  "stem": "What is the recommended systemic treatment for a neonate diagnosed with chlamydial conjunctivitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Oral erythromycin at 50 mg/kg/day",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Topical chloramphenicol drops every 2 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Intravenous acyclovir for 14 days",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Topical tobramycin ointment at night only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Oral amoxicillin for 5 days",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Oral erythromycin at 50 mg/kg/day is the recommended systemic treatment for neonatal chlamydial conjunctivitis because the infection requires systemic therapy rather than topical eye drops alone.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.801Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d8ce038618f0a562c329",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because oral erythromycin at 50 mg/kg/day provides the systemic treatment needed for neonatal chlamydial conjunctivitis.",
+    "B": "Incorrect because topical chloramphenicol does not adequately treat neonatal chlamydial infection, which requires systemic antibiotics.",
+    "C": "Incorrect because acyclovir is an antiviral used for herpes simplex infection, not chlamydial conjunctivitis.",
+    "D": "Incorrect because topical tobramycin alone is insufficient for neonatal chlamydial conjunctivitis, which needs systemic treatment.",
+    "E": "Incorrect because amoxicillin is not the recommended treatment for neonatal chlamydial conjunctivitis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Chlamydial infections in newborns require a systemic approach rather than just topical drops.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4261e4f2-b5fc-4983-84e4-10e20c9b6664",
+    "overlapScore": 0.4239130434782609,
+    "questionIndex": 3,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:06.941Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

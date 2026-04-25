@@ -1,0 +1,103 @@
+{
+  "id": "16e0162b-82e6-45ac-9cd6-326196a04627",
+  "stem": "A school-age child has a persistent brassy cough between otherwise minor viral illnesses; which diagnosis is most strongly suggested?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Asthma",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tracheomalacia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Coryza",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Foreign body aspiration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Tracheomalacia is the best answer. A brassy cough is a classic clue to focal tracheobronchial airway abnormality, especially tracheomalacia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 73,
+      "title": "Differential diagnoses of cough"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:26:15.448Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-02-cc8852240bc1c46f9f56",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because asthma may cause recurrent cough or wheeze, but a brassy cough is not its characteristic clue.",
+    "B": "Correct because a brassy cough is associated with tracheobronchial weakness or collapse, which strongly suggests tracheomalacia.",
+    "C": "Incorrect because coryza is an upper respiratory tract symptom, not a diagnosis that explains a brassy cough quality.",
+    "D": "Incorrect because pneumonia can cause cough and fever, but it is not classically linked to a brassy cough.",
+    "E": "Incorrect because foreign body aspiration can cause cough or stridor, but the classic association here is tracheomalacia."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B24-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm1su50001rj27os5fb9rg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3352941176470588,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "98cd622a-9ae6-40f4-a433-5d8b7246ac75",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "brassy cough",
+      "tracheomalacia",
+      "differentials"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:25.625Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

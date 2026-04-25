@@ -1,0 +1,98 @@
+{
+  "id": "fe158521-5306-40e2-ba99-7eab62b17619",
+  "stem": "Which of the following features makes a febrile convulsion complex?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A generalised tonic-clonic seizure lasting 8 minutes in a child with a temperature of 39.0°C",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A seizure that starts with twitching on the right side of the face before spreading to the rest of the body",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A single 12-minute seizure in a child with a first-degree relative who had febrile seizures",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A seizure occurring in a 2-year-old child that resolves fully within 5 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A generalised seizure that occurs once and lasts 4 minutes",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Focal onset of the seizure makes this a complex febrile convulsion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f0675d98-245a-4db6-af56-a032c2146441",
+      "title": "00065 Approach to children-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.431Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ef24d73e40503d6c28ae",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because a brief generalised seizure lasting less than 15 minutes is consistent with a simple febrile convulsion.",
+    "B": "Correct because focal features at onset or during the seizure classify a febrile convulsion as complex.",
+    "C": "Incorrect because family history increases risk but does not by itself make the seizure complex.",
+    "D": "Incorrect because a single brief generalised seizure with full recovery fits a simple febrile convulsion.",
+    "E": "Incorrect because a one-off generalised seizure lasting less than 15 minutes is simple rather than complex."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f0675d98-245a-4db6-af56-a032c2146441",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "A complex convulsion is defined by its duration, its recurrence within 24 hours, or the presence of localized features.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "65",
+    "lectureTitle": "00065 Approach to children-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ba61437e-0a53-4126-be17-c275fd2ef371",
+    "overlapScore": 0.4430379746835443,
+    "questionIndex": 7,
+    "quizFileName": "quiz_065.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c12ebfa2-6602-45a3-be50-1c80e6d9c6ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:21.610Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

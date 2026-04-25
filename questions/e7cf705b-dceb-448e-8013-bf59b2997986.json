@@ -1,0 +1,98 @@
+{
+  "id": "e7cf705b-dceb-448e-8013-bf59b2997986",
+  "stem": "During adolescent development, what is the pattern of decline in delta EEG power across the brain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It declines first at occipital sites and last at frontal sites",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It declines first at frontal sites and last at occipital sites",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It declines uniformly across all cortical regions simultaneously",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It only declines in the parietal and temporal lobes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It increases first at occipital sites and last at frontal sites",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Delta EEG power declines in a posterior-to-anterior pattern during adolescent brain maturation, with occipital sites changing before frontal sites.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.514Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2fc1686695155003dd78",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because delta EEG power follows a posterior-to-anterior decline, with occipital regions changing before frontal regions.",
+    "B": "Incorrect because this reverses the typical maturation pattern; frontal regions are usually the last to show the decline.",
+    "C": "Incorrect because the decline is regionally patterned rather than occurring everywhere at once.",
+    "D": "Incorrect because the decline is not restricted to only the parietal and temporal lobes.",
+    "E": "Incorrect because the change is a decline in delta power, not an initial increase."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The pattern matches the sequence of dendritic pruning in brain development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "95866a57-4e80-43ae-b6ac-e697755a09cf",
+    "overlapScore": 0.3684210526315789,
+    "questionIndex": 3,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:31.928Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

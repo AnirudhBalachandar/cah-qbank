@@ -1,0 +1,102 @@
+{
+  "id": "c8ca6248-b2c4-485b-ab9a-d1d91f77966f",
+  "stem": "During vaccine preparation, which action should be avoided?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Prime the administration needle",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Select the lateral thigh in an infant under 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use the deltoid in a child older than 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Consider whether the child has special vaccine requirements",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Refer complex immunisation needs to a specialist immunisation clinic",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prime the administration needle should be avoided during vaccine preparation. The other options describe appropriate site selection or appropriate assessment and referral for children with special immunisation needs.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 60,
+      "title": "National Immunisation Schedule and Immunisation for Special Populations"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:05:15.723Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B38-attempt-01-b4b18d814e1c01593dd8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because priming the administration needle is specifically listed as an action not to do.",
+    "B": "Incorrect because the lateral thigh is the recommended injection site in infants under 12 months.",
+    "C": "Incorrect because the deltoid is an appropriate site in children older than 12 months.",
+    "D": "Incorrect because assessing for special vaccine requirements is appropriate practice.",
+    "E": "Incorrect because referral to a specialist immunisation clinic is appropriate for complex immunisation needs."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B38-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpl4ut0001rjk0oqxtr5nc",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ee9f9560-8906-4b13-85f0-1e6c6fbae81a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B38/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "National schedule and special populations",
+      "vaccine administration",
+      "prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:28.958Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

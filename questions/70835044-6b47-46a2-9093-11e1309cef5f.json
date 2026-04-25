@@ -1,0 +1,109 @@
+{
+  "id": "70835044-6b47-46a2-9093-11e1309cef5f",
+  "stem": "A child has bilious vomiting, abdominal distension and guarding, and bowel obstruction is suspected; what is the best next-step plan?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Arrange an AXR, keep the child fasted, insert an NGT, and seek early surgical review",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Arrange a CXR because pneumonia is the preferred explanation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Rely on ultrasound because AXR has no role when obstruction is suspected",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Encourage oral intake while waiting because surgical referral can be delayed",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Avoid analgesia until the diagnosis is certain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Arrange an AXR, keep the child fasted, insert an NGT, and seek early surgical review. This is the appropriate next-step plan when bowel obstruction is suspected, with bilious vomiting, distension and guarding suggesting surgical pathology.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 171,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 196,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:40:51.130Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-01-d98a1487e5efdcd2cc1f",
+  "rationale": "Bilious vomiting, distension and guarding are red flags for surgical pathology. AXR is recommended when obstruction is suspected, and bowel obstruction management includes fasting, NGT decompression and early surgical review.",
+  "optionExplanations": {
+    "A": "Correct because suspected bowel obstruction should be managed with AXR, fasting, NGT decompression and early surgical review.",
+    "B": "Incorrect because a CXR does not address suspected bowel obstruction and pneumonia is not the preferred explanation here.",
+    "C": "Incorrect because AXR still has a role when obstruction is suspected; ultrasound is not the sole test.",
+    "D": "Incorrect because the child should be kept fasted and reviewed early by surgery rather than given oral intake.",
+    "E": "Incorrect because analgesia should not be withheld; appropriate pain relief is recommended."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B11-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvoa0l50001rjzur4kg3zro",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6c72d676-c792-4520-adcf-8e89d8713593",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "Abdominal imaging",
+      "Obstruction"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:24.354Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

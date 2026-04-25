@@ -1,0 +1,98 @@
+{
+  "id": "a9d59bcc-e1cd-4bba-b1ff-bafcfd9e2c06",
+  "stem": "What is a primary benefit of adolescent risk-taking?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It speeds up temporal lobe growth",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It helps adolescents learn their limits and abilities through experience",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It prevents the long-term effects of chronic stress",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It permanently deactivates reward pathways",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It improves immune function in adolescence",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Risk-taking helps adolescents learn their limits and abilities through experience. It is a normal part of development that supports learning from mistakes and testing capabilities.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+      "title": "00074 Adolescent_brain and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.444Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-05603b2b57936e5843bc",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because risk-taking is described as a behavioural learning process, not a driver of temporal lobe growth.",
+    "B": "Correct because risk-taking allows adolescents to test their capabilities, learn their limits, and gain experience from mistakes.",
+    "C": "Incorrect because risk-taking is not presented as preventing the long-term effects of chronic stress.",
+    "D": "Incorrect because reward pathways are not permanently deactivated by risk-taking; they are involved in motivating such behaviour.",
+    "E": "Incorrect because improved immune function is not a primary benefit of adolescent risk-taking."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about why making mistakes can be an important part of the learning process.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "74",
+    "lectureTitle": "00074 Adolescent_brain and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a44cf4a5-5672-42e0-88cc-92a0970bd2e5",
+    "overlapScore": 0.4246575342465753,
+    "questionIndex": 6,
+    "quizFileName": "quiz_074.json",
+    "quizTitle": "Adolescent Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a867e612-3ad2-424c-9acc-8958e39ef9ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:13.532Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

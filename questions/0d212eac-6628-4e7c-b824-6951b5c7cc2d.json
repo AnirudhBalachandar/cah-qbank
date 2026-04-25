@@ -1,0 +1,98 @@
+{
+  "id": "0d212eac-6628-4e7c-b824-6951b5c7cc2d",
+  "stem": "What is the gold-standard test for diagnosing obstructive sleep apnoea in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Overnight polysomnography",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Lateral neck X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Clinical history and tonsil examination",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Two-week sleep log and home video recording",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Overnight pulse oximetry",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Overnight polysomnography is the gold-standard test for diagnosing obstructive sleep apnoea in children because it measures sleep architecture, airflow, respiratory effort and gas exchange during sleep.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+      "title": "00021 Sleep disorders-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.470Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-aef1a5efc49c6cf08764",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because overnight polysomnography provides comprehensive objective data on sleep and breathing during sleep, which is required for a definitive diagnosis.",
+    "B": "Incorrect because a lateral neck X-ray may suggest adenoidal enlargement but does not measure apnoeas, hypopnoeas or oxygenation during sleep.",
+    "C": "Incorrect because history and examination can raise suspicion, but they cannot confirm obstructive sleep apnoea on their own.",
+    "D": "Incorrect because sleep logs and home videos can support screening, but they do not provide the physiological measurements needed for diagnosis.",
+    "E": "Incorrect because overnight pulse oximetry can detect desaturations but does not assess the full pattern of sleep-disordered breathing."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c6e490d9-7f62-4258-a74e-84cde0c075b5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the most comprehensive test that monitors multiple physiological parameters during sleep.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "21",
+    "lectureTitle": "00021 Sleep disorders-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "050282e3-3b40-40b5-ba38-5a89cf4e74e8",
+    "overlapScore": 0.7558139534883721,
+    "questionIndex": 7,
+    "quizFileName": "quiz_021.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b516b8dd-449a-4f65-b9dc-89c25d58f557",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:08.096Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

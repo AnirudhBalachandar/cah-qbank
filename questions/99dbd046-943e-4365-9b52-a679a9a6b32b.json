@@ -1,0 +1,98 @@
+{
+  "id": "99dbd046-943e-4365-9b52-a679a9a6b32b",
+  "stem": "What is the primary goal of the Be Kind to Kids program?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To prevent childhood medical trauma and alleviate both pain and distress",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To ensure all paediatric procedures are performed without any pharmacological intervention",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To require parents to remain outside the procedure room to reduce environmental noise",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To replace junior doctors with child life therapists for all invasive clinical tasks",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To avoid using reassurance or comfort measures during procedures",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is to prevent childhood medical trauma and alleviate both pain and distress. The program focuses on reducing both the physical experience of pain and the emotional experience of distress during procedures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+      "title": "00041 Year 3 CAH Pain Mana-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.521Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9cf1bbc0950a4ccaf825",
+  "rationale": "The item tests recognition that the program’s aim is dual: minimising trauma and addressing both pain and distress.",
+  "optionExplanations": {
+    "A": "Correct because the program focuses on preventing medical trauma and reducing both pain and distress for children undergoing procedures.",
+    "B": "Incorrect because the program supports appropriate pharmacological and non-pharmacological measures to improve comfort during procedures.",
+    "C": "Incorrect because parental presence is generally used to support and reassure the child rather than being excluded to reduce noise.",
+    "D": "Incorrect because the program is about improving paediatric procedural care, not replacing doctors with child life therapists.",
+    "E": "Incorrect because reassurance and comfort measures are part of reducing distress and preventing trauma during procedures."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the dual focus on both the physical sensation of pain and the emotional state of the patient.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "41",
+    "lectureTitle": "00041 Year 3 CAH Pain Mana-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bf341250-b6d2-4adc-a0e5-b84f469a4297",
+    "overlapScore": 0.4567901234567901,
+    "questionIndex": 1,
+    "quizFileName": "quiz_041.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a26757ea-8f3b-4239-a98c-14012d648256",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:44.057Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

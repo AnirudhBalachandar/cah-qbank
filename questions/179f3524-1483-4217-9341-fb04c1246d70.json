@@ -1,0 +1,102 @@
+{
+  "id": "179f3524-1483-4217-9341-fb04c1246d70",
+  "stem": "An 8-week-old infant has respiratory distress; which diagnosis should remain prominent in the differential for an older infant rather than being dismissed as a transient neonatal lung problem?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Transient tachypnoea of the newborn",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Meconium aspiration",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Congenital heart disease",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Chronic neonatal lung disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Diaphragmatic hernia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Congenital heart disease is the key diagnosis to keep in mind in an older infant with respiratory distress. Beyond the first few days of life, persistent or recurrent breathing difficulty should not be assumed to be a transient neonatal lung issue.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 196,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:40:51.171Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-01-28d0e5279cad9a227b9c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because transient tachypnoea of the newborn is a term-infant condition that presents in the first few hours of life and typically resolves by 48 hours",
+    "B": "Incorrect because meconium aspiration is a neonatal respiratory condition, not the main reminder diagnosis for an older infant with ongoing respiratory distress",
+    "C": "Correct because congenital heart disease is an important cause of respiratory distress in older infants and should remain in the differential beyond the immediate newborn period",
+    "D": "Incorrect because chronic neonatal lung disease can cause respiratory symptoms, but it is not the specific diagnosis highlighted as the key older-infant differential in this setting",
+    "E": "Incorrect because diaphragmatic hernia is a separate congenital cause of respiratory distress, but the question is pointing to congenital heart disease as the diagnosis to keep prominent"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B11-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvoa0l50001rjzur4kg3zro",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3317972350230415,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0b88524d-c0c0-4069-b3bf-21c04634e3a2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "chest X-ray",
+      "respiratory distress differential"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:28.855Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

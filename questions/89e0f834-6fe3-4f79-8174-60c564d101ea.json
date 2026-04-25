@@ -1,0 +1,98 @@
+{
+  "id": "89e0f834-6fe3-4f79-8174-60c564d101ea",
+  "stem": "Which feature best distinguishes the innate immune response from the adaptive immune response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It retains memory of previously encountered pathogens",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It uses physical barriers and non-specific phagocytic cells",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It uses B and T cells to target specific antigens",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It develops several days to weeks after first exposure",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It produces antigen-specific antibodies after class switching",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The innate immune response uses physical barriers and non-specific phagocytic cells as an immediate first-line defence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+      "title": "00027 immunisation_immunol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.265Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-10f4cbe9126d72765c4c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because immune memory is a feature of the adaptive immune system, not the innate immune response.",
+    "B": "Correct because the innate immune response is the first line of defence and includes physical barriers such as skin and mucosa, as well as non-specific phagocytic cells.",
+    "C": "Incorrect because B and T lymphocytes are components of the adaptive immune response.",
+    "D": "Incorrect because the innate immune response is immediate, whereas the adaptive response develops more slowly after first exposure.",
+    "E": "Incorrect because antigen-specific antibody production is a function of the adaptive immune response."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d8fd0ad-b2b2-4927-893f-b18482869c79",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about which part of the immune system acts as a generalized 'first responder' without learning from the past.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "27",
+    "lectureTitle": "00027 immunisation_immunol-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2b94dd7b-0412-4766-b022-3368677ad06e",
+    "overlapScore": 0.4827586206896552,
+    "questionIndex": 1,
+    "quizFileName": "quiz_027.json",
+    "quizTitle": "Immunology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "739b850c-410a-42ff-b898-877814ad2832",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:12.412Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

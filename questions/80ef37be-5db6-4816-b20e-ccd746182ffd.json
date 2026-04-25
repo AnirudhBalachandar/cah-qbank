@@ -1,0 +1,102 @@
+{
+  "id": "80ef37be-5db6-4816-b20e-ccd746182ffd",
+  "stem": "A 13-year-old girl is being investigated for delayed puberty; which sex steroid should be measured alongside FSH and LH in the initial blood tests?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Oestradiol",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Testosterone",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "DHEAS",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Insulin",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cortisol",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Oestradiol is the correct sex steroid to measure alongside FSH and LH in the initial assessment of delayed puberty in a girl.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 95,
+      "title": "Delayed Puberty"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:32:56.614Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B52-attempt-03-cd40187296f9fc4313ee",
+  "rationale": "This question asks for the sex steroid paired with FSH and LH in the initial blood tests for delayed puberty. In a girl, that hormone is oestradiol.",
+  "optionExplanations": {
+    "A": "Correct because oestradiol is the relevant sex steroid measured alongside FSH and LH in a girl with delayed puberty.",
+    "B": "Incorrect because testosterone is the male sex steroid and is not the appropriate paired hormone in this girl.",
+    "C": "Incorrect because DHEAS is not the sex steroid paired with FSH and LH for the initial delayed-puberty blood tests.",
+    "D": "Incorrect because insulin is not part of the sex steroid assessment for delayed puberty.",
+    "E": "Incorrect because cortisol is not the sex steroid measured with FSH and LH in this context."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B52-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqkqgn0001rjbe4qu6gjth",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3279569892473118,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "27d8eb93-871a-4605-a56e-85bd2a76de06",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B52/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Delayed puberty and precocious puberty",
+      "initial investigations",
+      "female assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:53.408Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

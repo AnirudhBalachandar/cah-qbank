@@ -1,0 +1,98 @@
+{
+  "id": "8ac462a5-5f3d-4255-8a4b-41f01053ea23",
+  "stem": "Which long-term complication is specifically associated with anthracycline chemotherapy drugs?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ototoxicity",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Cardiac muscle damage",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Precocious puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Reduced lung capacity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Renal impairment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cardiac muscle damage is the classic long-term toxicity of anthracyclines. These drugs can cause cardiotoxicity that may present years after treatment and lead to cardiomyopathy or heart failure.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "56a4d199-36f1-4bc5-80d9-fed407302506",
+      "title": "00072 Oncology prelecture -audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.960Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-57ef259f1b352189274e",
+  "rationale": "Anthracyclines are associated with delayed cardiotoxicity, so the key organ to consider is the heart.",
+  "optionExplanations": {
+    "A": "Incorrect because ototoxicity is more commonly associated with other chemotherapy agents, such as platinum-based drugs.",
+    "B": "Correct because anthracyclines can cause delayed cardiotoxicity with damage to cardiac muscle, sometimes leading to cardiomyopathy or heart failure years later.",
+    "C": "Incorrect because precocious puberty is not a recognised direct long-term toxicity of anthracycline chemotherapy.",
+    "D": "Incorrect because reduced lung capacity is not the classic long-term complication of anthracyclines; the main concern is cardiac toxicity.",
+    "E": "Incorrect because renal impairment is not the hallmark delayed toxicity of anthracyclines."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "56a4d199-36f1-4bc5-80d9-fed407302506",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the organ responsible for systemic circulation.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "72",
+    "lectureTitle": "00072 Oncology prelecture -audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "125514b6-f452-412c-98e3-28da78990d58",
+    "overlapScore": 0.39,
+    "questionIndex": 10,
+    "quizFileName": "quiz_072.json",
+    "quizTitle": "Oncology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d5e17bb1-4dc2-4185-bf98-0b84c6976de6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:15.314Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

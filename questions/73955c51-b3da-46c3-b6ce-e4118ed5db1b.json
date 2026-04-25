@@ -1,0 +1,102 @@
+{
+  "id": "73955c51-b3da-46c3-b6ce-e4118ed5db1b",
+  "stem": "During paediatric basic life support, a clinician calls the child's name, asks \"Are you okay?\", moves the arm, and then checks for a pain response with a trapezius squeeze. Which step is being performed?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Danger",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Response",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Send for help",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Airway",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Defibrillation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Response is the correct step. These actions assess whether the child responds to voice, movement, and pain.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 143,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:27:27.808Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B72-attempt-03-ceda203691e7bca761fd",
+  "rationale": "The described actions are all part of the response check in the paediatric basic life support sequence.",
+  "optionExplanations": {
+    "A": "Incorrect because danger refers to checking the scene for hazards before approaching the child.",
+    "B": "Correct because calling the child's name, asking a question, moving the arm, and using a trapezius squeeze are all used to assess response.",
+    "C": "Incorrect because sending for help comes after the response check has been completed.",
+    "D": "Incorrect because airway management is the next step after assessing response, not the step described here.",
+    "E": "Incorrect because defibrillation is a later resuscitation action and is not part of the initial response assessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B72-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5dt6n0001rjuxq68kapkq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3314285714285714,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "44d81fcb-a2f6-4053-a8bc-5c105c7e9b5d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B72/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Anaphylaxis and basic life support",
+      "PBLS",
+      "response assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:29.005Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

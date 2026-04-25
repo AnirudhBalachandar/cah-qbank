@@ -1,0 +1,98 @@
+{
+  "id": "c22b22c8-ced0-4106-8cf6-93d7dc6172b4",
+  "stem": "When does the most rapid proliferative growth phase of an infantile haemangioma usually occur?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "During the third trimester of pregnancy",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "In the first 3 months of life",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Between 12 and 24 months of age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "In the first 48 hours after delivery",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Between 3 and 5 years of age",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "In the first 3 months of life is when infantile haemangiomas usually show their most rapid proliferative growth, often starting a few weeks after birth and sometimes continuing beyond that period.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.933Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f5e9d8cf741f6831f8d5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because infantile haemangiomas are usually not rapidly proliferating in utero and are often absent or subtle at birth.",
+    "B": "Correct because the proliferative phase typically begins a few weeks after birth and is most intense in the first 3 months of life.",
+    "C": "Incorrect because by 12 to 24 months most infantile haemangiomas are past the rapid growth phase and may already be involuting.",
+    "D": "Incorrect because the rapid proliferative phase does not usually occur immediately after delivery; it generally starts after a few weeks.",
+    "E": "Incorrect because haemangiomas do not typically have their rapid growth phase in early childhood years."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The proliferative phase starts a few weeks after birth and peaks within the first quarter of the first year.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2c12ec94-5763-4265-a09c-a9ec82f5cb46",
+    "overlapScore": 0.3666666666666666,
+    "questionIndex": 6,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:07.497Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

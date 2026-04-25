@@ -1,0 +1,98 @@
+{
+  "id": "a6cca7b4-6c80-4a85-8945-7e7575917146",
+  "stem": "Which statement about benign chronic neutropenia of childhood is true?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is a genetic condition present at birth that requires lifelong GCSF",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is thought to be an immune-mediated process that typically resolves by preschool age",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is always associated with severe, life-threatening bacterial sepsis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is caused by a profound deficiency in dietary vitamin B12",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is a malignant bone marrow failure syndrome requiring urgent chemotherapy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Benign chronic neutropenia of childhood is thought to be an immune-mediated process that usually resolves spontaneously by preschool age.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.212Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7407db9f3af196e14043",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because benign chronic neutropenia of childhood is not a congenital lifelong disorder requiring permanent GCSF.",
+    "B": "Correct because it is thought to be immune mediated and the neutropenia typically improves as the child gets older, usually resolving by preschool age.",
+    "C": "Incorrect because many children are otherwise well and the condition is often discovered incidentally rather than causing severe sepsis.",
+    "D": "Incorrect because vitamin B12 deficiency is a separate cause of neutropenia and would usually be accompanied by other haematological findings.",
+    "E": "Incorrect because this is a benign childhood neutropenia, not a malignant marrow disorder."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the 'benign' nature and the typical age range for resolution.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "53bc3e6b-5150-4772-8454-53617d530709",
+    "overlapScore": 0.4428571428571428,
+    "questionIndex": 8,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:07.932Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

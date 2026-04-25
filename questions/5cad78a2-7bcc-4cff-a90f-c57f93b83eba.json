@@ -1,0 +1,102 @@
+{
+  "id": "5cad78a2-7bcc-4cff-a90f-c57f93b83eba",
+  "stem": "Which lesion is correctly matched with its level of left-to-right shunt?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "VSD - left-to-right shunt at the atria",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "ASD - left-to-right shunt at the ventricles",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "VSD - left-to-right shunt at the ventricles",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "PDA - left-to-right shunt at the atrial septum",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Venous hum - left-to-right shunt at the ventricles",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "VSD is the correct answer: it causes a left-to-right shunt at the ventricular level.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 79,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:24:30.584Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B46-attempt-04-16bdc9ffd951991d7ec0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a VSD shunts at the ventricles, not the atria.",
+    "B": "Incorrect because an ASD shunts at the atria, not the ventricles.",
+    "C": "Correct because a ventricular septal defect produces a left-to-right shunt at the ventricular level.",
+    "D": "Incorrect because a PDA causes shunting between the aorta and pulmonary artery, not across the atrial septum.",
+    "E": "Incorrect because a venous hum is an innocent murmur, not a left-to-right intracardiac shunt."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B46-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq9w0i0001rj02jmeoo4g2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3481481481481482,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6c72d676-c792-4520-adcf-8e89d8713593",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B46/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acyanotic congenital heart disease and murmur interpretation",
+      "shunt physiology",
+      "lesion comparison"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:46.469Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

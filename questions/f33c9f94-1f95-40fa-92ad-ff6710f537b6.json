@@ -1,0 +1,98 @@
+{
+  "id": "f33c9f94-1f95-40fa-92ad-ff6710f537b6",
+  "stem": "When managing an open fracture, which clinical priority takes precedence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Airway, breathing, and circulation (ABC)",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediate surgical debridement within 6 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Application of a sterile dressing and splint",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Obtaining a definitive X-ray series of the limb",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Administering intravenous antibiotics before assessment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Airway, breathing, and circulation (ABC) is the correct priority because life-threatening problems must be managed before limb-specific care in trauma.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+      "title": "00088 fractures-management-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.850Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-213842cb899afcb836bc",
+  "rationale": ": The primary survey always addresses immediate threats to life before definitive fracture management.",
+  "optionExplanations": {
+    "A": "Correct because life-threatening injuries such as an obstructed airway or major haemorrhage take priority over the limb injury.",
+    "B": "Incorrect because debridement is important but comes after the initial trauma assessment and stabilisation.",
+    "C": "Incorrect because dressings and splinting are limb-saving measures that should not delay management of airway, breathing, or circulation.",
+    "D": "Incorrect because imaging is part of secondary assessment and must not delay life-saving measures.",
+    "E": "Incorrect because antibiotics are important in open fractures but come after the primary survey and immediate resuscitation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "237a1437-fa66-4490-b8f6-3a37b0436f9b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the standard trauma protocol for addressing the most immediate threats to life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "88",
+    "lectureTitle": "00088 fractures-management-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "98cc5c32-a91e-4d54-97cb-16fc47b03367",
+    "overlapScore": 0.4054054054054054,
+    "questionIndex": 5,
+    "quizFileName": "quiz_088.json",
+    "quizTitle": "Fracture Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "98321e56-9a11-40dd-a47f-af59e92e2b94",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:54.633Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

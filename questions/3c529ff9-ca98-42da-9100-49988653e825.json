@@ -1,0 +1,102 @@
+{
+  "id": "3c529ff9-ca98-42da-9100-49988653e825",
+  "stem": "A 6-day-old neonate with lethargy, hypoglycaemia, hypotension and atypical genitalia should prompt strong consideration of which diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Acute adrenal crisis, possibly due to congenital adrenal hyperplasia from 21-hydroxylase deficiency",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Isolated dehydration without endocrine pathology",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "New-onset type 1 diabetes mellitus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Simple feeding difficulty only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Primary gastrointestinal sepsis as the only explanation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acute adrenal crisis is the correct diagnosis to strongly consider. In a neonate, atypical genitalia with lethargy, hypoglycaemia and hypotension is a classic red flag for adrenal insufficiency, which may be the presenting feature of congenital adrenal hyperplasia due to 21-hydroxylase deficiency.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 101,
+      "title": "Adrenal Insufficiency"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:40:43.485Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B55-attempt-03-7910d9718e7b205c0445",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Correct because atypical genitalia plus hypoglycaemia and hypotension in a neonate strongly suggests adrenal crisis, often from congenital adrenal hyperplasia due to 21-hydroxylase deficiency.",
+    "B": "Incorrect because isolated dehydration does not explain atypical genitalia or the endocrine features of hypoglycaemia and hypotension.",
+    "C": "Incorrect because type 1 diabetes does not typically present with atypical genitalia and would not be the leading explanation for neonatal shock-like features here.",
+    "D": "Incorrect because simple feeding difficulty alone does not account for the systemic instability and genital findings described.",
+    "E": "Incorrect because sepsis can be considered in a sick neonate, but this pattern specifically raises concern for acute adrenal crisis rather than sepsis as the only explanation."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B55-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwquqnn0001rjyzvzgyv54t",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3191489361702128,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8ecc3771-d83c-439c-9540-8e99b8836962",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B55/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Sick-day management and adrenal insufficiency",
+      "adrenal insufficiency presentation",
+      "neonatal red flags"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:41.519Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

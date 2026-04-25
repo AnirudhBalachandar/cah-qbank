@@ -1,0 +1,98 @@
+{
+  "id": "9aade20c-4611-455e-b5f3-0adbece89605",
+  "stem": "How long should a child be observed after their breathing difficulty has resolved before discharge is considered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "20 to 30 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "1 hour",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "4 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "12 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "24 hours",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "1 hour is the required observation period before discharge is considered once the child's breathing difficulty has resolved.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.204Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a2e5f8c0029ab4a3d7d2",
+  "rationale": "This observation period allows time to confirm the child remains clinically stable after apparent improvement.",
+  "optionExplanations": {
+    "A": "Incorrect because 20 to 30 minutes is too short to confirm sustained stability after symptom resolution.",
+    "B": "Correct because the child should be observed for 1 hour after breathing difficulty has resolved before discharge is considered.",
+    "C": "Incorrect because 4 hours is longer than the required short post-resolution observation period.",
+    "D": "Incorrect because 12 hours is unnecessarily prolonged for routine discharge consideration after recovery.",
+    "E": "Incorrect because 24 hours is not the standard observation period for discharge after symptoms resolve."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This duration matches the interval used for reassessment during the initial treatment phase.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d1b4861f-2133-4df4-af9a-3f8ff1e8b235",
+    "overlapScore": 0.3629032258064516,
+    "questionIndex": 9,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:44.669Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

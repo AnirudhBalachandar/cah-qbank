@@ -1,0 +1,98 @@
+{
+  "id": "113f9182-1d2d-431e-a126-f4762c3c509f",
+  "stem": "Which statement correctly describes the relationship between the epiphysis and the physis in a child’s long bone?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "There is no region between them; the epiphysis is next to the physis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The metaphysis lies between them",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The diaphysis lies between them",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The physeal scar lies between them",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The epiphyseal plate lies between them",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is that there is no region between the epiphysis and the physis; they are directly adjacent.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.661Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5bb215e40e77b75b892b",
+  "rationale": "This tests basic paediatric long-bone anatomy and the relative positions of the epiphysis, physis, metaphysis, and diaphysis.",
+  "optionExplanations": {
+    "A": "Correct because the epiphysis sits directly next to the physis, with no intervening region.",
+    "B": "Incorrect because the metaphysis is distal to the physis toward the shaft, not between the epiphysis and physis.",
+    "C": "Incorrect because the diaphysis is the shaft of the bone and is far from the physis.",
+    "D": "Incorrect because a physeal scar is a healed growth plate remnant seen after closure, not an anatomical region between these structures.",
+    "E": "Incorrect because the epiphyseal plate is another term for the physis, so it is not a separate structure between the epiphysis and physis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the spatial relationship described between these three specific bone regions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a1e3855d-8445-4f6c-851a-8d1c66da5ddc",
+    "overlapScore": 0.3738317757009346,
+    "questionIndex": 2,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:17.756Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

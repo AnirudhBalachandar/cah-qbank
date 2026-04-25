@@ -1,0 +1,98 @@
+{
+  "id": "85a24154-35b1-4f29-a9f6-6a041e14ccd5",
+  "stem": "In the paediatric Rule of Nines, how is the head percentage of total body surface area adjusted after 1 year of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reduce the head by 1% each year and add 0.5% to each leg",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Keep the head at 18% until puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Reduce the head by 0.5% each year and add 1% to the torso",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Keep the head at 9% regardless of age",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Increase the head by 1% each year and reduce the legs",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reduce the head by 1% each year and add 0.5% to each leg is the correct paediatric adjustment to the Rule of Nines after 1 year of age. As the child grows, the head becomes a smaller proportion of body surface area, and this is balanced by increasing the leg allocation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.331Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77473b073f6ca3988852",
+  "rationale": "The paediatric Rule of Nines reflects changing body proportions with growth, especially the relatively larger head in younger children.",
+  "optionExplanations": {
+    "A": "Correct because after 1 year of age the head percentage decreases by 1% per year, with 0.5% added to each leg to reflect growth.",
+    "B": "Incorrect because the head does not remain fixed at 18% beyond infancy; the paediatric Rule of Nines is adjusted as the child grows.",
+    "C": "Incorrect because the standard adjustment is a 1% reduction in head allocation per year, with the increase placed in the legs rather than the torso.",
+    "D": "Incorrect because 9% is the adult head value, not the paediatric value after 1 year of age.",
+    "E": "Incorrect because the head percentage decreases with age rather than increasing, and the compensatory increase is in the legs."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how a child's limbs grow relative to their head size as they approach 10 years of age.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "342819c2-640e-488b-8192-f7faa7d8e2c5",
+    "overlapScore": 0.351063829787234,
+    "questionIndex": 7,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:03.889Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "121cc15f-1faa-4809-816b-42d11a3ac7cc",
+  "stem": "A febrile young infant has noisy breathing; which sound-pattern pairing is correctly matched?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inspiratory stridor - upper airway",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Inspiratory stridor - lower airway",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Expiratory wheeze - subglottic obstruction",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Biphasic stridor - airspace disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Grunting - isolated secretion problem",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Inspiratory stridor indicates upper airway obstruction.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 134,
+      "title": "Emergency Medicine/Surgery - Recognising and Managing the Sick Child"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:04:13.830Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B70-attempt-02-d2d17da3dd81cfa8d5b9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because inspiratory stridor is produced by upper airway obstruction.",
+    "B": "Incorrect because inspiratory stridor is a sign of upper, not lower, airway obstruction.",
+    "C": "Incorrect because expiratory wheeze is more consistent with lower airway narrowing, not subglottic obstruction.",
+    "D": "Incorrect because biphasic stridor suggests fixed upper airway obstruction, not airspace disease.",
+    "E": "Incorrect because grunting reflects lower airway or alveolar disease with expiratory effort, not an isolated secretion problem."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B70-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4jxlu0001rj4ida8sr1uy",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "73df8c33-98de-4ded-920f-0c6a894cbdae",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B70/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "The febrile infant",
+      "toxicity",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:31.175Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

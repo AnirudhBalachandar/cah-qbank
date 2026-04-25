@@ -1,0 +1,98 @@
+{
+  "id": "618920b1-d41b-4c31-ad7f-b2ccd40ee2d0",
+  "stem": "Which of the following best describes Coats disease in the differential diagnosis of leukocoria?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Failure of the primary vitreous to regress",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "An exudative retinal condition",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "An infection within the eye",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A metabolic disorder involving galactose",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A congenital lens opacity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An exudative retinal condition is the best description of Coats disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.985Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cd13ceeffbff71e66f4d",
+  "rationale": "Coats disease is characterised by retinal vascular leakage with exudation, which can present with leukocoria.",
+  "optionExplanations": {
+    "A": "Incorrect because failure of the primary vitreous to regress describes persistent fetal vasculature, not Coats disease.",
+    "B": "Correct because Coats disease is an exudative retinal condition caused by abnormal retinal vessels with leakage and exudation.",
+    "C": "Incorrect because infection within the eye refers to endophthalmitis, which is a different cause of a white pupil.",
+    "D": "Incorrect because a metabolic disorder involving galactose refers to galactosaemia, which can cause cataracts rather than Coats disease.",
+    "E": "Incorrect because a congenital lens opacity describes a congenital cataract, not Coats disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The description involves the leakage of fluids or 'exudates' in the retina.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "218a47e9-ff26-4603-92ab-53b39fc8d64d",
+    "overlapScore": 0.4747474747474748,
+    "questionIndex": 9,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:56.426Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

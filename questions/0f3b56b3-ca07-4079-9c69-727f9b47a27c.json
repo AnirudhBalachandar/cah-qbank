@@ -1,0 +1,102 @@
+{
+  "id": "0f3b56b3-ca07-4079-9c69-727f9b47a27c",
+  "stem": "Which option contains only CFTR correctors?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Elexacaftor, tezacaftor, lumacaftor",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Ivacaftor, tezacaftor, lumacaftor",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ivacaftor, elexacaftor, gene therapy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lumacaftor, nebulised antibiotics, tezacaftor",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Fat-soluble vitamins, elexacaftor, lumacaftor",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "CFTR correctors are elexacaftor, tezacaftor and lumacaftor. Ivacaftor is a potentiator rather than a corrector.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 42,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:48:05.148Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B29-attempt-01-8c11e3429982536e7e88",
+  "rationale": "The correctors in cystic fibrosis pharmacotherapy are elexacaftor, tezacaftor, and lumacaftor, whereas ivacaftor is classified separately as a potentiator.",
+  "optionExplanations": {
+    "A": "Correct because elexacaftor, tezacaftor and lumacaftor are the CFTR correctors.",
+    "B": "Incorrect because ivacaftor is a CFTR potentiator, not a corrector.",
+    "C": "Incorrect because ivacaftor is not a corrector and gene therapy is not a CFTR corrector drug.",
+    "D": "Incorrect because nebulised antibiotics are not CFTR correctors.",
+    "E": "Incorrect because fat-soluble vitamins are not CFTR correctors."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B29-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmtvxj0001rjcc3ubxpbly",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3296703296703297,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c7c16cf9-7306-43d7-8d9d-3c9f527737e9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B29/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cystic fibrosis and sleep across childhood",
+      "cystic fibrosis",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:12.372Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

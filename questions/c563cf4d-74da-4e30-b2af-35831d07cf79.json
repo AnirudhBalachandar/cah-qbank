@@ -1,0 +1,101 @@
+{
+  "id": "c563cf4d-74da-4e30-b2af-35831d07cf79",
+  "stem": "What is the usual epidemiological pattern of acute respiratory tract infections in paediatrics?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Usually chronic infections in adolescents during summer",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Usually acute viral infections, most prevalent among young children and in winter",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Usually bacterial infections, most prevalent among newborns and in summer",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Usually fungal infections, most prevalent among school-aged children in spring",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Usually parasitic infections with no age or seasonal pattern",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Usually acute viral infections, most prevalent among young children and in winter. This is the characteristic epidemiological pattern of acute respiratory tract infections in paediatrics.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Respiratory 3.1 Acute Respiratory Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:21:16.946Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-01-f2a9480e354ce8dfa7ce",
+  "rationale": ", null",
+  "optionExplanations": {
+    "A": "Incorrect because acute respiratory tract infections are typically acute, not chronic, and are most common in young children rather than adolescents in summer.",
+    "B": "Correct because acute respiratory tract infections in paediatrics are usually viral, occur most often in young children, and are more common in winter.",
+    "C": "Incorrect because these infections are not usually described as bacterial, and the typical age and seasonal pattern given is different.",
+    "D": "Incorrect because fungal infection is not the usual pattern for paediatric acute respiratory tract infections, nor is this seasonal distribution described.",
+    "E": "Incorrect because acute respiratory tract infections do have a clear age and seasonal pattern, rather than no pattern at all."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B24-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlvez70001rjv96kokautb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.272108843537415,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9236df55-d813-4d01-9b72-b2122b3e75d5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "Monitoring"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:19.566Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

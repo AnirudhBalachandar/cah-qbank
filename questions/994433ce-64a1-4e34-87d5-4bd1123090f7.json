@@ -1,0 +1,98 @@
+{
+  "id": "994433ce-64a1-4e34-87d5-4bd1123090f7",
+  "stem": "According to longitudinal studies, what is the typical change in total sleep duration between the ages of 11 and 21 years?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It reduces from approximately 11 hours to 9.5 hours per night",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It remains stable at 9.5 hours but shifts to a later onset",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It reduces from 10 hours to 7 hours due to academic pressure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It increases from 8 hours to 10 hours to support brain development",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It remains unchanged at about 8 hours per night",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is a gradual reduction in total sleep duration from about 11 hours per night at age 11 to about 9.5 hours per night by age 21.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.443Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-28283524ace653c9c9a1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because longitudinal studies show a biological decline in total sleep duration from approximately 11 hours to 9.5 hours per night across adolescence and early adulthood.",
+    "B": "Incorrect because a later sleep onset may occur in adolescence, but the total sleep duration still decreases over time.",
+    "C": "Incorrect because the typical longitudinal change is a smaller decline than this, and it is not explained simply by academic pressure.",
+    "D": "Incorrect because sleep duration generally decreases rather than increases across this age range.",
+    "E": "Incorrect because total sleep duration is not usually unchanged; it declines from early adolescence to young adulthood."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the biological baseline observed when school schedules do not interfere.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5128df66-2560-4e91-aaa7-14c31b2bced3",
+    "overlapScore": 0.373015873015873,
+    "questionIndex": 1,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:41.546Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

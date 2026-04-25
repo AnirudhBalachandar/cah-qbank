@@ -1,0 +1,101 @@
+{
+  "id": "5991c1c1-68fb-4de1-a201-903297e81934",
+  "stem": "A registrar receives a genomic result first and then re-examines the child to see whether the physical findings match that result; what is this process called?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cascade screening",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Reverse phenotyping",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Serial surveillance",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Genotype masking",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Targeted counselling",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Reverse phenotyping is the process of starting with a genomic result and then reviewing the phenotype to see whether it fits.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 166,
+      "title": "Genetics"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:03:55.199Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B67-attempt-03-d4cf12b3c11c05799972",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because cascade screening refers to testing relatives in a family after an index case is identified.",
+    "B": "Correct because reverse phenotyping starts with genomic information and then re-examines the child’s phenotype for features that match the result.",
+    "C": "Incorrect because serial surveillance means ongoing monitoring over time, not matching a genomic result to clinical findings.",
+    "D": "Incorrect because genotype masking is not the term for reviewing the phenotype after a genomic finding.",
+    "E": "Incorrect because targeted counselling may be part of clinical care, but it is not the process of matching genotype back to phenotype."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B67-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4jj810001rjk8uvvolf76",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.33125,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8023a091-6214-4a7f-a36b-98d78071c169",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B67/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Congenital malformations and dysmorphology approach",
+      "pattern recognition in dysmorphology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:42.714Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

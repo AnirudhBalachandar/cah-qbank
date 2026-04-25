@@ -1,0 +1,98 @@
+{
+  "id": "445f40d0-53d5-43d2-a364-998a7fb63ddc",
+  "stem": "In eosinophilic oesophagitis, which treatment is typically considered first-line medical therapy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Systemic oral prednisolone",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Proton pump inhibitors (PPIs)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Oesophageal dilation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Anti-IL-4/13 monoclonal antibodies",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Swallowed topical corticosteroids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Proton pump inhibitors are usually the first-line medical therapy for eosinophilic oesophagitis and may improve symptoms and oesophageal inflammation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.282Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-de408c29ba6b0b7edfff",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because systemic oral prednisolone is not preferred first-line therapy in eosinophilic oesophagitis because of its broader adverse-effect profile.",
+    "B": "Correct because proton pump inhibitors are usually the initial medical treatment for eosinophilic oesophagitis and can improve symptoms and inflammation.",
+    "C": "Incorrect because oesophageal dilation is reserved for strictures or significant narrowing and does not treat the underlying inflammatory disease first line.",
+    "D": "Incorrect because anti-IL-4/13 monoclonal antibodies are not the usual first-line medical treatment for eosinophilic oesophagitis.",
+    "E": "Incorrect because swallowed topical corticosteroids are used as treatment, but proton pump inhibitors are typically the first-line medical therapy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the common acid-reducing medication mentioned as the initial approach.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "32be2ee1-3c8b-49ff-8aa3-f23394b01ccc",
+    "overlapScore": 0.4772727272727273,
+    "questionIndex": 5,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:56.957Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "22051adc-9998-47c7-b6bc-2423383c31e6",
+  "stem": "An 11-year-old boy has testicular enlargement with a testicular volume of 4 mL; which pubertal event does this most strongly indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Adrenarche",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pubarche",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Gonadarche",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Completion of puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No pubertal change",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Gonadarche is the correct answer. In boys, testicular enlargement to about 4 mL marks the onset of gonadarche.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 92,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:28:10.403Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B52-attempt-01-74a96d4892412ec80eb8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because adrenarche refers to adrenal androgen secretion and does not begin with testicular enlargement.",
+    "B": "Incorrect because pubarche refers to the development of pubic hair and related androgenic changes, not gonadal enlargement.",
+    "C": "Correct because testicular enlargement to a volume of 4 mL is a classic marker of gonadarche in boys.",
+    "D": "Incorrect because this finding indicates the start of puberty, not its completion.",
+    "E": "Incorrect because a testicular volume of 4 mL is evidence of pubertal change rather than absence of puberty."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B52-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqelmp0001rjrm3e7xu0dq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2986111111111111,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B52/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Delayed puberty and precocious puberty",
+      "investigation/interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:52.512Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

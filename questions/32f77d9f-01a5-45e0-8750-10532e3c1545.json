@@ -1,0 +1,98 @@
+{
+  "id": "32f77d9f-01a5-45e0-8750-10532e3c1545",
+  "stem": "Which physical finding most strongly suggests chronic liver disease rather than acute liver failure in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Spider naevi and clubbing",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Jaundice and scleral icterus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Encephalopathy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ascites",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hepatomegaly",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Spider naevi and clubbing are signs of chronic liver disease. They develop over time and suggest long-standing liver dysfunction or portal hypertension rather than acute liver failure.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.155Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-07b0ede106538ecdaa06",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because spider naevi and clubbing develop over time and indicate chronic liver disease or portal hypertension.",
+    "B": "Incorrect because jaundice and scleral icterus can occur in both acute and chronic liver disease and do not distinguish duration.",
+    "C": "Incorrect because encephalopathy can occur in acute liver failure and in decompensated chronic liver disease.",
+    "D": "Incorrect because ascites can be seen in chronic liver disease and may also occur in acute severe liver dysfunction.",
+    "E": "Incorrect because hepatomegaly is non-specific and can be present in many acute and chronic liver conditions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider specific cutaneous and extremity signs that suggest a prolonged pathological process.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2b94dd7b-0412-4766-b022-3368677ad06e",
+    "overlapScore": 0.4051724137931034,
+    "questionIndex": 8,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:24.168Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

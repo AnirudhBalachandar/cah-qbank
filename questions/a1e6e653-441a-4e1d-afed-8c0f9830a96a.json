@@ -1,0 +1,102 @@
+{
+  "id": "a1e6e653-441a-4e1d-afed-8c0f9830a96a",
+  "stem": "In a young infant with acute lower-airway disease, which feature most directly increases airway resistance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Large occiput",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Smaller diameter airways",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Compliant chest wall",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fewer alveoli",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Higher proportion of foetal haemoglobin",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Smaller diameter airways increase airway resistance. In infants, relatively narrow airways mean even small amounts of swelling or secretions can markedly obstruct airflow.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:37:37.276Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-01-23b0ae59958db0950960",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a large occiput can affect head position and airway alignment, but it does not directly increase airway resistance.",
+    "B": "Correct because smaller diameter airways markedly increase resistance to airflow, especially in infants with acute airway inflammation or secretions.",
+    "C": "Incorrect because a compliant chest wall affects work of breathing and lung volume maintenance rather than directly increasing airway resistance.",
+    "D": "Incorrect because fewer alveoli affect gas exchange capacity, not airway resistance.",
+    "E": "Incorrect because a higher proportion of foetal haemoglobin affects oxygen affinity, not airway resistance."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B25-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmgfha0001rjnhqxhoiy7c",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3095238095238095,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "71fb20a3-366d-44ef-92aa-82d4c45472a4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "Respiratory",
+      "Acute Respiratory Problems"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:58.477Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

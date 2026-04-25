@@ -1,0 +1,98 @@
+{
+  "id": "7fe6be9d-d478-4aba-90e4-2b68b072beb9",
+  "stem": "In diagnostic catheterisation, what does a Qp:Qs ratio of 1.5:1 typically indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The shunt is haemodynamically significant and may warrant intervention",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "There is no evidence of an intracardiac shunt",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "There is severe pulmonary atresia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "There is a significant right-to-left shunt",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "There is isolated mild pulmonary stenosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Haemodynamically significant shunt. A Qp:Qs ratio of 1.5:1 means pulmonary blood flow is 50% greater than systemic blood flow, which suggests a left-to-right shunt that may require intervention.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "fdc4734f-c621-45ce-b90b-6b33db2f52e7",
+      "title": "00049 Year 3_Cardiology_Ca-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.930Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b6f3267a193715e62f24",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a Qp:Qs ratio of 1.5:1 indicates pulmonary blood flow is 50% greater than systemic blood flow, suggesting a left-to-right shunt that may be clinically significant.",
+    "B": "Incorrect because a normal Qp:Qs ratio is approximately 1:1; a value of 1.5:1 indicates excess pulmonary flow, not absence of a shunt.",
+    "C": "Incorrect because pulmonary atresia is a structural outflow obstruction and is not diagnosed by a Qp:Qs shunt ratio.",
+    "D": "Incorrect because a right-to-left shunt would usually give a Qp:Qs ratio below 1, with systemic flow exceeding pulmonary flow.",
+    "E": "Incorrect because mild pulmonary stenosis affects right ventricular outflow, not the interpretation of Qp:Qs shunt magnitude."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "fdc4734f-c621-45ce-b90b-6b33db2f52e7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the threshold at which the volume of extra blood flowing to the lungs becomes clinically concerning.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "49",
+    "lectureTitle": "00049 Year 3_Cardiology_Ca-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7b669daf-32b0-40c0-9a28-4d276c81d875",
+    "overlapScore": 0.3604651162790697,
+    "questionIndex": 2,
+    "quizFileName": "quiz_049.json",
+    "quizTitle": "Intervention Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0634e0dc-137f-4adb-9c66-9351bae049c1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:51.298Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "da18338d-8319-4837-bc09-76839994cce1",
+  "stem": "Regarding Indigenous youth, which outcome is reported as being twice as likely compared with non-Indigenous youth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Death from all causes",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Graduation from tertiary education",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Access to primary healthcare services",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Enrolment in private health insurance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Completion of secondary school",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Death from all causes is the correct answer. The statistic describes a major health disparity in which Indigenous youth are twice as likely to die from all causes than non-Indigenous youth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.146Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-06325eb884c37c574580",
+  "rationale": "This item tests recognition of a reported mortality disparity affecting Indigenous youth.",
+  "optionExplanations": {
+    "A": "Correct because Indigenous youth are described as being twice as likely to die from all causes compared with non-Indigenous youth.",
+    "B": "Incorrect because tertiary graduation is an educational outcome and is not the reported statistic.",
+    "C": "Incorrect because the statistic concerns mortality, not improved access to primary healthcare services.",
+    "D": "Incorrect because private health insurance enrolment is not the outcome described.",
+    "E": "Incorrect because secondary school completion is not the reported twice-as-likely outcome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This statistic highlights a stark difference in overall mortality rates.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "16bbf485-ddfe-4ef6-ae5a-bbfffdad3f69",
+    "overlapScore": 0.3644067796610169,
+    "questionIndex": 9,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:03.537Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

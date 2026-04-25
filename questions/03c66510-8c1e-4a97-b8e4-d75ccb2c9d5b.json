@@ -1,0 +1,102 @@
+{
+  "id": "03c66510-8c1e-4a97-b8e4-d75ccb2c9d5b",
+  "stem": "During follow-up of a child initially thought to have chronic gastrointestinal loss, which finding should prompt reconsideration of a simple decreased-loss explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Head circumference begins crossing centiles downward",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Weight is the first parameter to decrease",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Head circumference remains maintained",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Weight loss occurs with head circumference spared",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Poor growth remains limited to weight",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Head circumference begins crossing centiles downward is the key warning sign. In chronic gastrointestinal loss, weight is usually affected first while head growth is relatively spared; downward crossing of head circumference centiles suggests a different or additional cause and should prompt reassessment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 17,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:44:57.679Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B31-attempt-01-ea063211a892e5dbd517",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because downward crossing of head circumference centiles is not typical of a simple decreased-loss pattern and suggests an alternative or additional pathology.",
+    "B": "Incorrect because weight is usually the first parameter affected in chronic gastrointestinal loss, so this supports rather than challenges the explanation.",
+    "C": "Incorrect because a maintained head circumference is expected in a simple decreased-loss pattern and does not prompt immediate reconsideration on its own.",
+    "D": "Incorrect because weight loss with head circumference spared is more consistent with chronic gastrointestinal loss.",
+    "E": "Incorrect because poor growth limited to weight is still compatible with a decreased-loss explanation and does not by itself suggest brain growth impairment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B31-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmpv7d0001rjn546g5spel",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2888888888888889,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a9176bc2-9080-442d-bfa9-653382d1099d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B31/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Diarrhoea, malabsorption, and chronic GI reasoning",
+      "red flags",
+      "follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:48.328Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

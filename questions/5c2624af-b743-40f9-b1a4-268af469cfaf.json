@@ -1,0 +1,98 @@
+{
+  "id": "5c2624af-b743-40f9-b1a4-268af469cfaf",
+  "stem": "Why is BMI-for-age charting preferred over visual assessment when assessing weight status in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Visual assessment often fails to distinguish between healthy weight, overweight, and obesity in children",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Children's body fat percentage can only be measured with specialised imaging",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Visual assessment is accurate in adults but unreliable in all children",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Parents are usually unable to judge their own child's weight status",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "BMI-for-age is used only to measure linear growth, not weight status",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Visual assessment often fails to distinguish between healthy weight, overweight, and obesity in children. BMI-for-age is preferred because appearance alone can lead to misclassification of a child's weight category.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e1311dca-de48-47c0-b390-f8170a828691",
+      "title": "00091 Baur Assessing & man-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.316Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5da8622253e5bf8bcaf1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because children can look deceptively similar across healthy weight, overweight, and obesity, so appearance alone is not reliable.",
+    "B": "Incorrect because BMI-for-age is a practical screening tool based on height and weight, not specialised imaging.",
+    "C": "Incorrect because the issue is not an adult-versus-child contrast; visual assessment is generally unreliable for categorising children's weight status.",
+    "D": "Incorrect because the main problem is the limitations of visual assessment itself, not specifically parental bias.",
+    "E": "Incorrect because BMI-for-age is used to assess weight status relative to age, not just linear growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e1311dca-de48-47c0-b390-f8170a828691",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the examples given of the three children aged three to four years.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "91",
+    "lectureTitle": "00091 Baur Assessing & man-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "45d299cc-9f98-4093-94ea-e489db16f69a",
+    "overlapScore": 0.4311926605504587,
+    "questionIndex": 1,
+    "quizFileName": "quiz_091.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5c76e46d-2ba0-48ec-b31b-99f3775f2bd6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:45.785Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

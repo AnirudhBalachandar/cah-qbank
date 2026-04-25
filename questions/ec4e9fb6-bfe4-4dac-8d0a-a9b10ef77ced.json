@@ -1,0 +1,98 @@
+{
+  "id": "ec4e9fb6-bfe4-4dac-8d0a-a9b10ef77ced",
+  "stem": "In acute otitis media, what has research suggested about pain relief compared with antibiotics?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Antibiotics are significantly more effective for most children",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pain relief with NSAIDs or paracetamol is often as effective or more useful",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Antibiotics must always be used to prevent hearing loss",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pain relief should be avoided because it masks meningitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Analgesia is only helpful after antibiotics have failed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pain relief with NSAIDs or paracetamol is often as effective or more useful than antibiotics for symptom control in acute otitis media, because many cases are self-limiting.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.673Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f16bf8ce54757015a4b1",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because antibiotics are not significantly more effective for most children with acute otitis media.",
+    "B": "Correct because many cases are self-limiting, and analgesia often provides adequate symptom relief without routine antibiotic treatment.",
+    "C": "Incorrect because antibiotics are not required in all cases to prevent hearing loss.",
+    "D": "Incorrect because analgesia should not be withheld; it is recommended to relieve pain.",
+    "E": "Incorrect because analgesia is appropriate early treatment, not just a backup after antibiotics fail."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the shift toward symptomatic management for self-limiting infections.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "272896a3-59f3-435f-a512-0a3b21400481",
+    "overlapScore": 0.3858267716535433,
+    "questionIndex": 14,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:39.695Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

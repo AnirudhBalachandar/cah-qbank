@@ -1,0 +1,98 @@
+{
+  "id": "c05dee08-a5d0-4c35-8bce-f0354d62985e",
+  "stem": "What fever pattern is most characteristic of systemic juvenile idiopathic arthritis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Quotidian fever",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Sustained high fever",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Relapsing fever every 3 to 4 days",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Low-grade evening fever",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Intermittent fever with rigors only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Quotidian fever is the characteristic fever pattern in systemic juvenile idiopathic arthritis, with daily spikes that return to normal or below baseline between episodes.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.688Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-017f6e00c26cd7e74443",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because quotidian fever in systemic juvenile idiopathic arthritis shows high daily spikes with return to baseline between episodes.",
+    "B": "Incorrect because a sustained high fever without daily return to baseline is not the typical pattern of systemic juvenile idiopathic arthritis.",
+    "C": "Incorrect because fever recurring every 3 to 4 days is not the classic daily pattern seen in systemic juvenile idiopathic arthritis.",
+    "D": "Incorrect because systemic juvenile idiopathic arthritis usually causes high spiking fevers rather than low-grade evening fever.",
+    "E": "Incorrect because rigors alone do not define the characteristic quotidian fever pattern of systemic juvenile idiopathic arthritis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the daily cycle of the temperature reaching a peak and then returning to normal.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "df7b8ca6-02d7-472c-95bb-23162444d6bf",
+    "overlapScore": 0.4285714285714285,
+    "questionIndex": 3,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:04.505Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

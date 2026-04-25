@@ -1,0 +1,98 @@
+{
+  "id": "ed6fe82d-7e30-41d0-a600-027a5997efa6",
+  "stem": "A 4-year-old child has a productive cough for 3 weeks that resolves after a course of oral antibiotics; what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cystic fibrosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Habit cough",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Protracted bacterial bronchitis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Tracheomalacia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Asthma",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Protracted bacterial bronchitis is the most likely diagnosis. This is because a chronic wet or productive cough in a young child that improves with antibiotics is characteristic of PBB.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.277Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ac5dfe375283196b1f4b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because cystic fibrosis usually causes persistent respiratory symptoms with other features such as poor growth, recurrent infections, or malabsorption, and it would not typically resolve after one short antibiotic course.",
+    "B": "Incorrect because habit cough is usually dry, repetitive, and often absent during sleep, rather than a productive cough that responds to antibiotics.",
+    "C": "Correct because protracted bacterial bronchitis classically presents with a persistent wet or productive cough in a young child that settles with an appropriate antibiotic course.",
+    "D": "Incorrect because tracheomalacia is an airway structural abnormality that can cause noisy breathing or cough but would not be expected to resolve with antibiotics.",
+    "E": "Incorrect because asthma more often causes wheeze, shortness of breath, or a dry cough rather than a wet cough that clears with antibiotics."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the duration of the cough and its specific response to a particular type of medication.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f5ccc74e-a70c-4799-b4cf-6b33654a54ba",
+    "overlapScore": 0.391025641025641,
+    "questionIndex": 4,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:42.864Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

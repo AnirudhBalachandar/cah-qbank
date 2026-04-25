@@ -1,0 +1,98 @@
+{
+  "id": "ae08094f-3ba6-45e0-8266-afca898c4bc8",
+  "stem": "Why is a spacer generally recommended on a paediatric asthma action plan?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It improves delivery of the medication to the lungs in children",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is only needed when using a dry powder inhaler",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is required to measure peak flow accurately",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It reduces the prescribed dose needed for effect",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It replaces the need for a reliever inhaler",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A spacer improves delivery of inhaled medication to the lungs in children by helping the medicine get past the throat and into the lower airways.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3f701645-76aa-48a4-83ee-64804f406836",
+      "title": "00012 AsthmaActionPlan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.093Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9350857e601df47b8cdd",
+  "rationale": "Young children often have difficulty coordinating actuation and inhalation with a puffer, so a spacer improves effective drug delivery.",
+  "optionExplanations": {
+    "A": "Correct because spacers help overcome coordination problems and improve the amount of medication reaching the lower airways.",
+    "B": "Incorrect because spacers are used with pressurised metered-dose inhalers, not dry powder inhalers.",
+    "C": "Incorrect because peak flow measurement is done with a peak flow meter, not a spacer.",
+    "D": "Incorrect because a spacer improves delivery efficiency but does not reduce the prescribed dose.",
+    "E": "Incorrect because a spacer assists inhaler delivery but does not replace the reliever medication."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3f701645-76aa-48a4-83ee-64804f406836",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the mechanical challenges young children face when trying to coordinate their breathing with a puffer.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "12",
+    "lectureTitle": "00012 AsthmaActionPlan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "71cd54bc-de61-4bca-bfd0-abf538f22eb2",
+    "overlapScore": 0.375,
+    "questionIndex": 2,
+    "quizFileName": "quiz_012.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "ad94575a-cf7b-4497-8261-459c4933a6f1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:23.190Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

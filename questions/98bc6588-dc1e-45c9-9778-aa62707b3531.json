@@ -1,0 +1,102 @@
+{
+  "id": "98bc6588-dc1e-45c9-9778-aa62707b3531",
+  "stem": "Which finding in a child being assessed for leukocoria should most clearly raise concern for urgent eye pathology?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Unequal red reflexes",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Normal hearing screen",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Mild eczema",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Recent viral coryza",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Flat feet",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Unequal red reflexes are the key concerning finding because they can indicate serious ocular pathology and warrant urgent referral in a child with leukocoria.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 65,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:22.091Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B41-attempt-01-d0f75d93b8d4092ee463",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because unequal red reflexes are a red flag for significant eye pathology in a child with leukocoria and should prompt urgent assessment.",
+    "B": "Incorrect because a normal hearing screen does not indicate or exclude urgent ocular disease.",
+    "C": "Incorrect because mild eczema is unrelated to the eye findings that raise concern for leukocoria.",
+    "D": "Incorrect because recent viral coryza is not a red flag for leukocoria-related pathology.",
+    "E": "Incorrect because flat feet are unrelated to urgent ocular pathology and do not explain leukocoria."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": null,
+  "source": {
+    "batchId": "B41-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpnuck0001rjm69pa0l2v8",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3426966292134832,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "83684779-32e9-4e4b-8aa4-77d64c8a9fb4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B41/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Leukocoria and urgent paediatric eye disease",
+      "investigation",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:37.519Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

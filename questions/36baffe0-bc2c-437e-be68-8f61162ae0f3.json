@@ -1,0 +1,98 @@
+{
+  "id": "36baffe0-bc2c-437e-be68-8f61162ae0f3",
+  "stem": "Which of the following best describes a serious adverse event following immunisation (AEFI) according to WHO criteria?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Any reaction that causes the patient to miss more than two days of school or work",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A reaction that results in a persistent or significant disability",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A local injection site nodule that lasts for more than one week",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A low-grade temperature of 38°C following a flu shot",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A mild rash that settles without treatment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Serious AEFI includes outcomes such as death, life-threatening illness, hospitalisation, persistent or significant disability, or congenital anomaly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+      "title": "00028 immunisation_adverse-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.383Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2d5e1528adf96ab5d6b0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because missing school or work is not a WHO criterion for a serious AEFI",
+    "B": "Correct because WHO classifies an AEFI as serious if it results in persistent or significant disability",
+    "C": "Incorrect because a local injection site nodule is usually a common local reaction, not a serious AEFI by itself",
+    "D": "Incorrect because a low-grade fever is a common minor post-immunisation reaction",
+    "E": "Incorrect because a mild self-limiting rash is not a serious AEFI unless it causes one of the WHO serious outcomes"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the criteria involving the severity of medical outcomes, such as hospitalization or long-term impairment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "28",
+    "lectureTitle": "00028 immunisation_adverse-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "37a85910-e5c3-45ae-80c6-28de430d9573",
+    "overlapScore": 0.4027777777777778,
+    "questionIndex": 5,
+    "quizFileName": "quiz_028.json",
+    "quizTitle": "Adverse Events Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cf918a82-1574-470a-a4b0-edd95be5ab28",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:30.430Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "4a426fdc-926e-456d-911c-6e4a3f2d5634",
+  "stem": "Which of the following best describes the anatomical location and pathophysiology of bronchiolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inflammation of the larynx and trachea causing subglottic narrowing",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Inflammation and oedema of the airways approximately two-thirds down the bronchial tree causing narrowing",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Inflammation of the alveoli causing consolidation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Chronic narrowing of the large airways due to structural abnormalities",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Inflammation of the pleura causing pleuritic pain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bronchiolitis is inflammation and oedema of the small airways in the lower bronchial tree, leading to airway narrowing and obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+      "title": "00019 Bronchiolitis and Cr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.026Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-cec9bb69a844f937a177",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because inflammation of the larynx and trachea with subglottic narrowing describes croup rather than bronchiolitis.",
+    "B": "Correct because bronchiolitis affects the small airways approximately two-thirds down the bronchial tree, where inflammation and oedema narrow the bronchioles.",
+    "C": "Incorrect because alveolar inflammation with consolidation describes pneumonia, not bronchiolitis.",
+    "D": "Incorrect because chronic narrowing due to structural abnormality describes a chronic large-airway disorder, not an acute viral bronchiolar inflammation.",
+    "E": "Incorrect because pleural inflammation causes pleurisy and pleuritic pain, not the small-airway obstruction seen in bronchiolitis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dc8751f1-a11c-4c1e-9c30-68ab0e56ba86",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific part of the bronchial tree mentioned in the definitions and the resulting physical changes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "19",
+    "lectureTitle": "00019 Bronchiolitis and Cr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7bc25253-7ea8-4871-aa27-046e30cc95a0",
+    "overlapScore": 0.3904761904761905,
+    "questionIndex": 1,
+    "quizFileName": "quiz_019.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "803ce9ff-ed81-41dd-8916-47b92839b68a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:13.393Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

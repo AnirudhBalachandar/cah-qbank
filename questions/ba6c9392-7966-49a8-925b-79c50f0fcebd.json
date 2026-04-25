@@ -1,0 +1,101 @@
+{
+  "id": "ba6c9392-7966-49a8-925b-79c50f0fcebd",
+  "stem": "A GP can see an ear canal foreign body but is unsure whether office removal will be straightforward. What is the best next step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Refer to ENT if in doubt",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Keep repeating blind attempts until it comes out",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Send the family home for routine review only",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Start oral antibiotics before trying anything else",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Use warm oil regardless of the object",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Refer to ENT if in doubt. When ear canal foreign body removal is not clearly straightforward, specialist referral is the safest next step.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 34,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:23:20.393Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B21-attempt-01-2709ecccc3c047a9c679",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because uncertainty about straightforward removal should prompt referral to ENT rather than repeated or improvised attempts.",
+    "B": "Incorrect because repeated blind attempts increase the risk of canal trauma and are not the recommended approach.",
+    "C": "Incorrect because simple observation without a plan is not appropriate when the clinician is unsure about removal.",
+    "D": "Incorrect because oral antibiotics do not address the foreign body and are not the next step in uncomplicated cases.",
+    "E": "Incorrect because warm oil is not a universal treatment for ear foreign bodies and is only considered in specific situations."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B21-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjswh00001rjpzl4o48uzj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2857142857142857,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "03ba972b-878b-4b40-9284-cb46131be5e9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B21/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems I",
+      "Office management"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:48.321Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

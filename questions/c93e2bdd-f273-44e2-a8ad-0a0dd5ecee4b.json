@@ -1,0 +1,98 @@
+{
+  "id": "c93e2bdd-f273-44e2-a8ad-0a0dd5ecee4b",
+  "stem": "How is the authoritative parenting style defined?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "High regulation paired with high warmth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "High regulation paired with low warmth",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Low regulation paired with high warmth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Low regulation paired with low warmth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "High warmth paired with no clear boundaries",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Authoritative parenting is high regulation paired with high warmth, combining consistent expectations with responsiveness and emotional support.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.176Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-838a4326590776b71c52",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because authoritative parenting combines firm, consistent rules with warmth, responsiveness, and support.",
+    "B": "Incorrect because high regulation with low warmth describes authoritarian parenting, which is more controlling and less responsive.",
+    "C": "Incorrect because low regulation with high warmth describes a permissive style, which is warm but lacks consistent boundaries.",
+    "D": "Incorrect because low regulation with low warmth describes a neglectful or disengaged style, with little guidance or support.",
+    "E": "Incorrect because high warmth without clear boundaries is permissive rather than authoritative."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the balanced style that provides both structure and emotional connection.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d7bfc752-3663-41e4-8555-21d582088c13",
+    "overlapScore": 0.4358974358974359,
+    "questionIndex": 10,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:32.628Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "e3ac3715-45ec-4f58-a6ac-b1026db663bd",
+  "stem": "Which additional lesion type may be seen in more severe eczema?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Papules and vesicles",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Comedones and nodules",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Purpura and petechiae",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Target lesions",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Large tense bullae only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Papules and vesicles may be seen in more severe eczema.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 87,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:59:17.021Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B49-attempt-02-14d1c0d707c2921b3c3f",
+  "rationale": "Eczema is typically described as having dry skin, fine scale and poorly demarcated margins, with papules and vesicles appearing in more severe disease.",
+  "optionExplanations": {
+    "A": "Correct because more severe eczema may present with papules and vesicles.",
+    "B": "Incorrect because comedones and nodules are features of acne, not eczema.",
+    "C": "Incorrect because purpura and petechiae suggest bleeding into the skin, not eczema.",
+    "D": "Incorrect because target lesions are characteristic of erythema multiforme, not eczema.",
+    "E": "Incorrect because large tense bullae are not the typical additional lesions described in more severe eczema."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B49-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrilvm0001rjnm82zgvxby",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3024691358024691,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "27f39331-b0fc-4de5-82ae-240dff615b98",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B49/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Eczema, psoriasis, and inflammatory dermatoses",
+      "eczema",
+      "flare management"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:23.142Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "a3ddcfd5-29b8-4e3d-a513-1ed2e3f94bc4",
+  "stem": "Which feature best distinguishes otitis media with effusion from an inflammatory middle ear process?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Middle ear fluid is present",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Blocked ear sensation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Reduced hearing",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "No signs or symptoms of inflammation",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "It follows acute otitis media",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Otitis media with effusion is defined by middle ear fluid without signs or symptoms of inflammation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 7,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:14:14.470Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B22-attempt-02-0c0ab1e210455c8a96a5",
+  "rationale": "Otitis media with effusion involves middle ear effusion, but the distinguishing feature from inflammatory middle ear disease is the absence of inflammation. Symptoms such as blocked ear sensation and reduced hearing may occur, and it may follow acute otitis media, but these do not define the condition.",
+  "optionExplanations": {
+    "A": "Incorrect because middle ear fluid can be present in otitis media with effusion, so this does not distinguish it from an inflammatory process.",
+    "B": "Incorrect because blocked ear sensation is a possible symptom or sequela, not the defining feature.",
+    "C": "Incorrect because reduced hearing is a common sequela, not the key discriminator.",
+    "D": "Correct because otitis media with effusion is characterised by middle ear fluid without signs or symptoms of inflammation.",
+    "E": "Incorrect because it may follow acute otitis media, but that history does not define or distinguish the condition."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B22-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlmd130001rjmz6a79tceg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3228346456692913,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "002836d9-933d-4abc-b1fa-cb29392d6d1e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B22/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems II",
+      "otitis media with effusion",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:02.134Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

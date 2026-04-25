@@ -1,0 +1,102 @@
+{
+  "id": "486a47a1-687b-431b-9177-463c57af32d5",
+  "stem": "A 7-year-old child has severe localised hip pain, fever and refusal to walk; which diagnosis must be considered as an orthopaedic emergency?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Transient synovitis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Acute myositis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Septic arthritis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Benign growing pains",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Simple ankle sprain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Septic arthritis is the orthopaedic emergency to consider in a child with severe localised joint pain, fever and inability to weight bear.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 150,
+      "title": "The Limping or Non-Weight-Bearing Child"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:15:55.151Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B75-attempt-02-3dfeea5e010afb3cf46d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because transient synovitis is usually a less serious cause of limp and does not explain the combination of fever, severe localised pain and refusal to walk as well as septic arthritis.",
+    "B": "Incorrect because acute myositis may cause pain and limp, but it is not the orthopaedic emergency suggested by fever with severe localised joint pain.",
+    "C": "Correct because septic arthritis is an orthopaedic emergency and should be considered when a child has severe localised joint pain, fever and refuses to walk.",
+    "D": "Incorrect because benign growing pains do not cause fever, marked localised hip pain or refusal to bear weight.",
+    "E": "Incorrect because a simple ankle sprain does not fit a febrile child with severe localised hip pain and inability to walk."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B75-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4yyqp0001rja21d6z6yms",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9236df55-d813-4d01-9b72-b2122b3e75d5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B75/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "The limping child, DDH, and hip pain",
+      "diagnostic discrimination",
+      "septic arthritis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:12.950Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

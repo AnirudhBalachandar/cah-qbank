@@ -1,0 +1,98 @@
+{
+  "id": "9a290acc-e994-4b67-b731-c3a703ad0abf",
+  "stem": "What is the recommended way to give inhaled medication from a puffer to a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Directly into the mouth",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Using a puffer always in combination with a spacer",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Only while the child is crying",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "By switching to oral steroids",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Without any device to maximise delivery speed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Using a puffer always in combination with a spacer is the recommended technique for children. A spacer improves coordination, slows aerosol velocity, and increases medication delivery to the lungs.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.339Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f14a8d67d127c035d17f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because direct mouth delivery reduces lung deposition and many of the particles impact the back of the throat.",
+    "B": "Correct because a spacer helps the child inhale the medication more effectively by improving coordination and increasing delivery to the lungs.",
+    "C": "Incorrect because crying makes inhalation poorly coordinated and reduces the amount of medication reaching the lungs.",
+    "D": "Incorrect because oral steroids are not a substitute for inhaled reliever or preventer therapy and are used for specific indications.",
+    "E": "Incorrect because using a puffer without a spacer makes it harder for young children to inhale the medicine effectively."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the auxiliary device used to help coordinate the inhalation with the spray.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ae56c6bf-3cbe-47d8-9931-edc143dd93d9",
+    "overlapScore": 0.4104477611940299,
+    "questionIndex": 10,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:45.039Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

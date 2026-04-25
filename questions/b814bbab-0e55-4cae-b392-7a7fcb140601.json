@@ -1,0 +1,98 @@
+{
+  "id": "b814bbab-0e55-4cae-b392-7a7fcb140601",
+  "stem": "Why is computed tomography of the abdomen generally reserved for specific indications in paediatric imaging compared with adult practice?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The high radiation dose associated with CT scans",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The lack of spatial resolution for small paediatric organs",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The requirement for general anaesthesia in all CT scans",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ultrasound is always superior for detecting all abdominal masses",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "CT cannot be used to image abdominal structures in children",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The high radiation dose associated with CT scans is the main reason abdominal CT is used selectively in children, because ionising radiation carries greater long-term risk in paediatric patients.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.270Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e4c60f2ac9180dc5b348",
+  "rationale": ": The key concern is minimising unnecessary ionising radiation exposure in children, so CT is reserved for situations where the expected benefit outweighs the risk.",
+  "optionExplanations": {
+    "A": "Correct because CT delivers a relatively high ionising radiation dose, which is a major concern in children.",
+    "B": "Incorrect because CT has excellent spatial resolution; limited use in children is mainly due to radiation exposure, not poor image detail.",
+    "C": "Incorrect because general anaesthesia is not required for all CT scans, although some children may need sedation to remain still.",
+    "D": "Incorrect because ultrasound is useful for many abdominal problems, but it is not always superior for every abdominal mass.",
+    "E": "Incorrect because CT can image abdominal structures in children, but it is used selectively because of radiation exposure."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the long-term biological risks associated with ionizing radiation in young patients.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "aef0d323-ee83-42db-85a5-7bb73ede1876",
+    "overlapScore": 0.4634146341463415,
+    "questionIndex": 1,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:43.791Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

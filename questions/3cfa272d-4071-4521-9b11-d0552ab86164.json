@@ -1,0 +1,98 @@
+{
+  "id": "3cfa272d-4071-4521-9b11-d0552ab86164",
+  "stem": "After a mixed haemangioma has involuted, what residual change may remain and sometimes require surgical correction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Active bleeding vessels",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fibro-fatty residual tissue",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A malignant melanoma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Persistent ulceration",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A vascular lymphatic malformation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fibro-fatty residual tissue is the residual change that may remain after involution of a mixed haemangioma and can sometimes require surgical correction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.157Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-82de6b18cd23b87723b7",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because active bleeding vessels are not expected once a haemangioma has involuted.",
+    "B": "Correct because involution can leave behind fibro-fatty residual tissue and redundant skin that may not fully regress.",
+    "C": "Incorrect because haemangiomas do not become malignant melanomas.",
+    "D": "Incorrect because ulceration is a complication during the proliferative phase and usually heals, though it may scar.",
+    "E": "Incorrect because a vascular lymphatic malformation is a different congenital lesion, not a residual change after haemangioma involution."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the physical 'bulk' that might stay behind after the redness and blood flow have faded.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "92e688a0-e5b5-4c2f-ad1c-33615b559436",
+    "overlapScore": 0.3636363636363636,
+    "questionIndex": 14,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:44.084Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "2dfaa7ad-19c9-4fbe-a38f-ef1031cd80f7",
+  "stem": "Which neck lump is most consistent with a midline, non-tender, soft, fluctuant, yellowish mass that is tethered to the overlying skin and does not move with tongue protrusion or swallowing?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Midline dermoid cyst",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Reactive lymphadenopathy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Plunging ranula",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lymph node abscess",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Goitre",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Midline dermoid cyst is the best match. A midline, non-tender, soft or fluctuant, yellowish lesion that is tethered to the skin and does not move with swallowing or tongue protrusion is characteristic of a dermoid cyst.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 180,
+      "title": "Neck lumps"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:10:27.222Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B82-attempt-02-7d6e4a06d04fc1bef164",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because a midline dermoid cyst is classically a soft, fluctuant, non-tender congenital lump that may be yellowish and tethered to the overlying skin, without movement on swallowing or tongue protrusion.",
+    "B": "Incorrect because reactive lymphadenopathy is usually mobile and tender and is commonly associated with recent infection.",
+    "C": "Incorrect because a plunging ranula typically presents as a bluish cystic swelling arising from the floor of the mouth rather than a tethered midline neck lump.",
+    "D": "Incorrect because a lymph node abscess would usually be painful, inflamed and tender rather than soft, calm and congenital in appearance.",
+    "E": "Incorrect because a goitre moves with swallowing and is a thyroid swelling rather than a tethered midline dermoid cyst."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B82-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrwz1q0001rjdk5zi0xfso",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3141361256544503,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8765fa32-bac0-43cc-93e6-7470db90a6ca",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B82/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Additional congenital surgical problems",
+      "midline dermoid cyst",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:16.608Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

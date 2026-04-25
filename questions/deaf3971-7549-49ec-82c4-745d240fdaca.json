@@ -1,0 +1,98 @@
+{
+  "id": "deaf3971-7549-49ec-82c4-745d240fdaca",
+  "stem": "What is the recommended objective method for assessing parental concerns about penile size in a boy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Measure the flaccid penile length with a rigid ruler against age-based averages",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Rely on subjective visual assessment during the physical examination",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Measure the stretched penile length and girth using a flexible tape and plot the result on a male growth chart",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Measure penile volume using water displacement",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Measure the penile circumference only while flaccid",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stretched penile length and girth measured with a flexible tape and plotted on a male growth chart is the recommended objective method for assessing penile size concerns.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.859Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1ba65533fbcb802af685",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because flaccid length with a rigid ruler is less standard and less reliable than stretched penile measurement.",
+    "B": "Incorrect because a subjective visual assessment does not provide the objective measurement needed to compare with normal ranges.",
+    "C": "Correct because stretched penile length and girth measured with a flexible tape can be plotted on a male growth chart to give an objective comparison with normal values.",
+    "D": "Incorrect because water displacement is not the standard method for assessing penile size in this clinical context.",
+    "E": "Incorrect because circumference alone does not provide the recommended objective assessment of penile size and should not replace stretched penile measurement."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific tool and the state of the penis required for an accurate clinical comparison on a growth chart.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f8151df2-4249-4709-b355-186b5dba8f79",
+    "overlapScore": 0.3738317757009346,
+    "questionIndex": 1,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:14.085Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

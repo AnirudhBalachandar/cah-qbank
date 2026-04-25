@@ -1,0 +1,98 @@
+{
+  "id": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+  "stem": "What is the approximate prevalence of strabismus and amblyopia in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately 2% for each condition",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Approximately 5% for strabismus and 10% for amblyopia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Approximately 1% for strabismus and 4% for amblyopia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Approximately 0.5% for each condition",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Approximately 20% for each condition",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is approximately 2% for each condition. Strabismus and amblyopia are both given as occurring in about 2% of children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.051Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-101e202f17bce3fb4c3d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the source states that both strabismus and amblyopia occur in about 2% of the paediatric population.",
+    "B": "Incorrect because these figures are higher than the prevalence stated for either condition.",
+    "C": "Incorrect because these percentages do not match the 2% figure given for both conditions.",
+    "D": "Incorrect because this estimate is lower than the prevalence reported in the source.",
+    "E": "Incorrect because this is far higher than the approximate prevalence stated for both conditions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific percentage mentioned for both conditions early in the discussion.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "74c03962-dca9-49c3-ad18-7b0519fd323e",
+    "overlapScore": 0.5047619047619047,
+    "questionIndex": 1,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:33.040Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

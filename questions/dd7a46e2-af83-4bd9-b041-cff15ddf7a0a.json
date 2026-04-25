@@ -1,0 +1,102 @@
+{
+  "id": "dd7a46e2-af83-4bd9-b041-cff15ddf7a0a",
+  "stem": "A child presents with a new acute focal neurological deficit; which dangerous differential should still be actively considered, especially if there is a cardiac history or thrombophilia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Stroke",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Vitamin D deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Fragile X syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Macrocephaly",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Maternal dietary restriction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Stroke is the key dangerous paediatric differential in a child with a new acute focal neurological deficit, particularly when there is a cardiac history or thrombophilia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 121,
+      "title": "What Not to Miss in Neurology"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:55:15.965Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B64-attempt-01-f12e4b876c7fc359d7e6",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because an acute focal neurological deficit in a child should prompt consideration of stroke, and cardiac disease or thrombophilia increase the risk.",
+    "B": "Incorrect because vitamin D deficiency does not typically cause an acute focal neurological deficit and is not the dangerous diagnosis being highlighted.",
+    "C": "Incorrect because Fragile X syndrome is a neurodevelopmental condition, not an acute focal neurological emergency.",
+    "D": "Incorrect because macrocephaly is a clinical finding rather than the acute dangerous differential in this presentation.",
+    "E": "Incorrect because maternal dietary restriction may be relevant to nutritional deficiency, but it is not the acute focal neurological differential being asked about."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B64-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrdfw40001rjlqojaf1x4n",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.341991341991342,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0b651f04-b78a-4c44-87fe-c199318af9f8",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B64/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "What not to miss in neurology",
+      "dangerous differentials",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:10.983Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

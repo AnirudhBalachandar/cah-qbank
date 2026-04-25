@@ -1,0 +1,98 @@
+{
+  "id": "dfe9dac4-b0b8-4c1e-ad5f-2a15bd9b180c",
+  "stem": "Which complication of infantile haemangiomas is particularly painful and slow to heal?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deep tissue infiltration",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Ulceration",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Telangiectasia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Plateau stabilisation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Spontaneous involution",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ulceration is the correct answer. It causes a break in the skin that is very painful, bleeds easily, and heals slowly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.999Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d8371ada233aaa60a1b6",
+  "rationale": "The lesion can outgrow its blood supply, leading to skin breakdown and ulceration.",
+  "optionExplanations": {
+    "A": "Incorrect because deep tissue infiltration describes lesion extent, not the typical painful, slow-healing complication.",
+    "B": "Correct because ulceration causes skin breakdown that is very painful, bleeds easily, and heals slowly.",
+    "C": "Incorrect because telangiectasia is a vascular skin change and is usually a cosmetic finding rather than a painful complication.",
+    "D": "Incorrect because plateau stabilisation is a normal phase of haemangioma growth, not a complication.",
+    "E": "Incorrect because spontaneous involution is the expected natural regression of an infantile haemangioma, not a complication."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This occurs when the rapid growth of the lesion outstrips its own blood supply, leading to a breakdown of the skin.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "dfdc9c78-18db-4c5f-a357-57be5e3eb8fc",
+    "overlapScore": 0.3711340206185567,
+    "questionIndex": 8,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:16.650Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "0dd4b960-8da0-4a63-8e3c-0275a130541d",
+  "stem": "Which investigation is the gold standard for the modern diagnosis of Duchenne muscular dystrophy (DMD)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Muscle biopsy",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Electromyography (EMG)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Molecular genetic testing (MLPA)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Muscle MRI",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Serum creatine kinase level",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Molecular genetic testing (MLPA) is the gold standard for diagnosis of Duchenne muscular dystrophy because it identifies dystrophin gene deletions and duplications directly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.919Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-27d846e19d0e82c6db2f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because muscle biopsy was used more often previously, but modern diagnosis usually relies on genetic testing.",
+    "B": "Incorrect because EMG may show a myopathic pattern but does not confirm the underlying dystrophin gene defect.",
+    "C": "Correct because molecular genetic testing (MLPA) directly detects dystrophin gene deletions and duplications, making it the modern diagnostic gold standard for DMD.",
+    "D": "Incorrect because muscle MRI can support assessment of muscle involvement but does not establish the genetic diagnosis.",
+    "E": "Incorrect because serum creatine kinase is often markedly elevated in DMD, but it is a screening test rather than a definitive diagnostic test."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the transition from physical tissue sampling to identifying specific DNA mutations.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0e175957-5241-4c54-97e3-df372ff654ef",
+    "overlapScore": 0.5578947368421052,
+    "questionIndex": 6,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:09.727Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

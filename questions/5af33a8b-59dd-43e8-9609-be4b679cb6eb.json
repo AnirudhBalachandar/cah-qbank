@@ -1,0 +1,98 @@
+{
+  "id": "5af33a8b-59dd-43e8-9609-be4b679cb6eb",
+  "stem": "Which statement about IgE-mediated food allergy is true regarding its clinical presentation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Future reaction severity is highly predictable",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A clear history of prior exposure is always present",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Resolution of the reaction generally occurs within 24 hours",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It always involves the digestive tract immediately",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Symptoms always begin several days after exposure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Resolution of the reaction generally occurs within 24 hours. IgE-mediated food allergy reactions are typically acute and short-lived once the trigger has been removed or treated.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.835Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a99966e87a990b57ef65",
+  "rationale": "/null",
+  "optionExplanations": {
+    "A": "Incorrect because the severity of future reactions is not highly predictable and can vary from one exposure to the next.",
+    "B": "Incorrect because a clear history of prior exposure is not always present in children with IgE-mediated food allergy.",
+    "C": "Correct because IgE-mediated food allergy reactions are usually acute and generally settle within 24 hours.",
+    "D": "Incorrect because IgE-mediated food allergy does not always present with immediate gastrointestinal involvement; skin and respiratory symptoms are also common.",
+    "E": "Incorrect because IgE-mediated reactions are typically rapid in onset, not delayed by several days."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Reflect on the typical duration of a single allergic episode once it has started.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5092c2fc-76bf-4eec-b499-1f798712d581",
+    "overlapScore": 0.5047619047619047,
+    "questionIndex": 12,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:44.736Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

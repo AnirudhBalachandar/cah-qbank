@@ -1,0 +1,98 @@
+{
+  "id": "841b3ffa-f926-4ed3-84db-6808eed4dfda",
+  "stem": "How does sleep duration change from a newborn to an adolescent?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It remains stable at about 12 hours throughout childhood",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It decreases from 18-20 hours as a newborn to 7.5-8 hours as an adolescent",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It increases as the child develops more complex brain functions",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It decreases from 11 hours at birth to 5 hours in adolescence",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It stays at 8 hours from infancy through adolescence",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sleep duration decreases from the newborn period to adolescence. Newborns typically sleep for 18-20 hours, whereas adolescents sleep for about 7.5-8 hours.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.347Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77b136dfe9b265a3e3f2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because sleep need does not remain stable through childhood; it falls substantially with age.",
+    "B": "Correct because sleep duration decreases from 18-20 hours in a newborn to 7.5-8 hours in an adolescent.",
+    "C": "Incorrect because sleep duration does not increase with age; it decreases as children grow older.",
+    "D": "Incorrect because 5 hours is too low for adolescents; the cited range is 7.5-8 hours.",
+    "E": "Incorrect because sleep duration is not constant at 8 hours across infancy and adolescence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the range starting from nearly the whole day and ending at about a third of the day.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f453622f-1b9a-454e-963e-b84c609c838d",
+    "overlapScore": 0.40625,
+    "questionIndex": 14,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:00.886Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

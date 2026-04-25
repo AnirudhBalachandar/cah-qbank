@@ -1,0 +1,98 @@
+{
+  "id": "af8fa9d0-6cb4-4e7a-9c2e-e2d17e7ec962",
+  "stem": "Skin prick testing is generally unhelpful in which condition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Delayed food reactions such as atopic dermatitis or eczema",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "IgE-mediated peanut allergy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wheat-dependent exercise-induced anaphylaxis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Assessment of clinical reactivity to cow's milk",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Suspected penicillin allergy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Delayed food reactions such as atopic dermatitis or eczema are the correct answer. Skin prick testing detects immediate IgE-mediated reactions, so it is not useful for delayed, non-IgE-mediated skin presentations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+      "title": "00031 Year 3 CAH Allergy a-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.050Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-24971e68f4b67c36f111",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because skin prick testing detects immediate IgE-mediated reactions and is not useful for delayed, non-IgE-mediated skin conditions such as eczema.",
+    "B": "Incorrect because skin prick testing is commonly used in the assessment of immediate IgE-mediated peanut allergy.",
+    "C": "Incorrect because skin prick testing may be part of the investigation for immediate wheat-related allergic reactions, although it is not the whole work-up.",
+    "D": "Incorrect because skin prick testing can help assess sensitisation and the likelihood of clinical reactivity to cow's milk.",
+    "E": "Incorrect because suspected penicillin allergy is evaluated with dedicated drug allergy testing rather than skin prick testing for delayed eczema-like reactions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0ee23fd7-9cca-4f5a-a18a-bb879e4bda95",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The test measures a response that occurs within 20 minutes, not over several days.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "31",
+    "lectureTitle": "00031 Year 3 CAH Allergy a-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "39ecf8ee-a548-43b9-bdfd-0ea5bd61c5c2",
+    "overlapScore": 0.451219512195122,
+    "questionIndex": 8,
+    "quizFileName": "quiz_031.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "40c41a73-b27e-4dfa-acd7-d58320f7e14e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:29.313Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

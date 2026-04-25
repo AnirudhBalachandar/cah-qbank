@@ -1,0 +1,98 @@
+{
+  "id": "3d8ca30b-b89e-4fa4-b6d5-9cc0a66bea20",
+  "stem": "What proportion of children and adolescents with chronic conditions are expected to survive into adulthood?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately 85%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Exactly 70%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Between 10% and 15%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Roughly 50%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Nearly 100%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Approximately 85% of children and adolescents with chronic conditions are expected to survive into adulthood, which is why transition to adult care is important.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+      "title": "00079 adolescent_chronic i-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.327Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-413af4059b281c9fa9b7",
+  "rationale": "This high survival rate means many young people with chronic conditions need planned transfer to adult health services.",
+  "optionExplanations": {
+    "A": "Correct because approximately 85% is the expected proportion surviving into adulthood.",
+    "B": "Incorrect because 70% is lower than the figure given for expected survival into adulthood.",
+    "C": "Incorrect because 10% to 15% is far too low and does not reflect the expected survival proportion.",
+    "D": "Incorrect because 50% underestimates the proportion of children and adolescents with chronic conditions who survive into adulthood.",
+    "E": "Incorrect because nearly 100% overestimates the expected survival proportion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This high percentage explains why 'transition' to adult care has become such a critical focus for pediatricians.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "79",
+    "lectureTitle": "00079 adolescent_chronic i-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d483bd9a-5305-4f51-a7d1-dad91cfb6ca4",
+    "overlapScore": 0.4545454545454545,
+    "questionIndex": 4,
+    "quizFileName": "quiz_079.json",
+    "quizTitle": "Chronic Illness Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8e0bdd99-cd61-45c7-b1ad-862c94d65b53",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:44.814Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

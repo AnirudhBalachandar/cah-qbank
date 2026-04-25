@@ -1,32 +1,77 @@
 {
   "id": "0b153494-ed3d-45ad-bcdb-e5f1fe9db438",
-  "stem": "2/12 old child sees you with a loud cough. Sometimes it gets so bad that they vomit (have done this once). At other times, (twice) they have stopped breathing or turned red, then blue. There is no wheeze. Mother has been sick with the same cough for 1 month prior. Regarding the child’s illness:",
+  "stem": "A 12-year-old child presents with a loud paroxysmal cough. The coughing fits are sometimes followed by vomiting, and on two occasions the child has briefly stopped breathing and turned red then blue. There is no wheeze. The mother had a similar cough for about 1 month before the child’s illness. Which statement is most accurate about the child’s illness?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "There is no immunization for this",
-      "isCorrect": null
+      "text": "There is no immunisation that protects against this infection",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "The immunization isn’t fully effective yet",
-      "isCorrect": null
+      "text": "The current pertussis immunisation schedule does not provide complete lifelong protection",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The child is unlikely to have pertussis because post-tussive vomiting is only seen with pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Apnoea and cyanosis are not recognised features of pertussis in children",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A negative throat swab result at this stage would exclude pertussis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "This is pertussis (whooping cough). Classic features include paroxysmal cough, post-tussive vomiting, and in infants and children, apnoea or cyanosis may occur. Pertussis can occur in immunised children because neither vaccination nor natural infection provides complete lifelong protection, although immunisation reduces severity. The best answer is therefore that the immunisation schedule does not provide complete lifelong protection.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/",
+      "title": "Clinical Practice Guidelines: Whooping cough (pertussis)"
+    },
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough",
+      "title": "Pertussis (whooping cough)"
+    }
+  ],
+  "tags": [
+    "apnoea",
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "cough",
+    "cyanosis",
+    "immunisation",
+    "infectious-diseases",
+    "pertussis",
+    "post-tussive-vomiting",
+    "whooping-cough"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.442Z",
   "sourceFingerprint": "a525a4c7f5dc648cfe5fe4a0",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The stem describes a highly typical clinical picture of pertussis. Australian guidance notes paroxysmal coughing, post-tussive vomiting, and apnoea/cyanosis as recognised features, and states that neither vaccination nor natural disease confers complete or lifelong protective immunity. The repaired item therefore targets the immunisation concept implied by the original fragment while remaining clinically safe and answerable.",
+  "optionExplanations": {
+    "A": "Incorrect: pertussis is vaccine-preventable with acellular pertussis-containing vaccines.",
+    "B": "Correct: pertussis immunity wanes over time and vaccination does not provide complete lifelong protection.",
+    "C": "Incorrect: post-tussive vomiting is a classic feature of pertussis.",
+    "D": "Incorrect: apnoea and cyanosis are recognised features, especially in younger children and infants.",
+    "E": "Incorrect: pertussis testing may become negative later in illness; a negative swab does not exclude the diagnosis."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx",
     "importedAt": "2026-03-16T02:22:42.221Z",
@@ -41,6 +86,51 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "deaa6ffed3912905597e"
+    "stemHash": "deaa6ffed3912905597e",
+    "answerRecovery": {
+      "repairedAt": "2026-04-25T01:08:01.569Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Whooping cough (pertussis)",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Recognises paroxysmal cough, post-tussive vomiting, apnoea and cyanosis as features of pertussis, and states that neither vaccination nor natural disease confers complete or lifelong protective immunity."
+        },
+        {
+          "title": "Pertussis (whooping cough)",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports that pertussis vaccination reduces risk but does not provide complete lifelong protection; guidance on pertussis disease and vaccination."
+        }
+      ],
+      "notes": "Original stem was a fragment; repaired to a complete SBA using the safest interpretation. The best-answer concept is pertussis immunity is not lifelong, rather than the original binary phrasing.",
+      "preRepair": {
+        "stem": "2/12 old child sees you with a loud cough. Sometimes it gets so bad that they vomit (have done this once). At other times, (twice) they have stopped breathing or turned red, then blue. There is no wheeze. Mother has been sick with the same cough for 1 month prior. Regarding the child’s illness:",
+        "options": [
+          {
+            "key": "A",
+            "text": "There is no immunization for this",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "The immunization isn’t fully effective yet",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {}
+      }
+    }
   }
 }

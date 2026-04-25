@@ -1,0 +1,102 @@
+{
+  "id": "6c72d676-c792-4520-adcf-8e89d8713593",
+  "stem": "During a lumbar puncture, which approach best describes how to identify the interspace and needle direction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use the line between the iliac crests to locate L4, then insert at L1/L2 with the bevel down",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Use the line between the iliac crests to locate L4, then insert between L3/L4 or L4/L5 with the bevel up towards the umbilicus",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Use the umbilicus as the surface landmark, then insert at L2/L3 aiming away from the umbilicus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ignore surface landmarks and insert at the first palpable space with the bevel sideways",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Use the line between the iliac crests to locate L4, then insert at L5/S1 aiming posteriorly",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Use the line between the iliac crests to locate L4, then insert between L3/L4 or L4/L5 with the bevel up towards the umbilicus. This matches the standard landmarking and needle orientation described for lumbar puncture.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack excerpt 1",
+      "page": 194,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:08:31.971Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B10-attempt-01-66078a6450f8f61390f1",
+  "rationale": "The iliac crest line is used to identify L4. The preferred lumbar puncture interspaces are L3/L4 or L4/L5, with the bevel facing up and the needle directed towards the umbilicus.",
+  "optionExplanations": {
+    "A": "Incorrect because the iliac-crest line does help locate L4, but L1/L2 is too high and the bevel should not be down.",
+    "B": "Correct because the iliac-crest line is used to locate L4, then the needle is inserted at L3/L4 or L4/L5 with the bevel up towards the umbilicus.",
+    "C": "Incorrect because the umbilicus is not the landmark used here, and the described interspace and needle direction do not match lumbar puncture technique.",
+    "D": "Incorrect because surface landmarks should be used, and the bevel is described as facing up rather than sideways.",
+    "E": "Incorrect because although the iliac-crest line is used to locate L4, the insertion level and direction are wrong; L5/S1 is not the described target and the needle should be aimed towards the umbilicus."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B10-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvn4gbx0001rjqkql1j0ush",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3472222222222222,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a4f1c416-a7e0-4c2a-b3b8-0df0104d6f12",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B10/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Lumbar puncture and CSF basics",
+      "Lumbar puncture",
+      "Needle technique"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack excerpt 1"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:19.860Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

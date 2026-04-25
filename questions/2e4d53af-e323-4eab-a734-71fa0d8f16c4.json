@@ -1,0 +1,98 @@
+{
+  "id": "2e4d53af-e323-4eab-a734-71fa0d8f16c4",
+  "stem": "The Miller Fisher variant of Guillain-Barré syndrome is characterised by which triad of symptoms?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fever, headache, and neck stiffness",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Ophthalmoparesis, ataxia, and areflexia",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Ptosis, fatigability, and bulbar weakness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Calf hypertrophy, scoliosis, and intellectual disability",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Flaccid weakness, respiratory failure, and back pain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ophthalmoparesis, ataxia, and areflexia is the classic triad of Miller Fisher syndrome, a variant of Guillain-Barré syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.952Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-704f2ac9f5ac7f00fe9a",
+  "rationale": "The key features are eye movement weakness, gait or limb incoordination, and absent reflexes.",
+  "optionExplanations": {
+    "A": "Incorrect because fever, headache, and neck stiffness suggest meningitis rather than Miller Fisher syndrome.",
+    "B": "Correct because ophthalmoparesis, ataxia, and areflexia is the characteristic triad of Miller Fisher syndrome.",
+    "C": "Incorrect because ptosis, fatigability, and bulbar weakness are more typical of myasthenia gravis.",
+    "D": "Incorrect because calf hypertrophy, scoliosis, and intellectual disability are associated with Duchenne muscular dystrophy, not an acute neuropathy.",
+    "E": "Incorrect because flaccid weakness, respiratory failure, and back pain are features of Guillain-Barré syndrome more broadly, not the Miller Fisher triad."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on symptoms involving the eyes, balance, and reflexes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4bb535b8-5d22-4d55-ab85-f72c70a19331",
+    "overlapScore": 0.3622047244094488,
+    "questionIndex": 9,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:19.251Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

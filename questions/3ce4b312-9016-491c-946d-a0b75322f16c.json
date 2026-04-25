@@ -1,0 +1,102 @@
+{
+  "id": "3ce4b312-9016-491c-946d-a0b75322f16c",
+  "stem": "A term newborn is seen in general practice because a tooth has been present since birth and is mobile, rubbing on the tongue during feeding; what is the most accurate explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Natal tooth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Eruption cyst",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ankyloglossia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Normal primary tooth eruption",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pacifier-related anterior open bite",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Natal tooth is the correct answer. It may be loose, lack root structure, and cause tongue ulceration, which fits a tooth present at birth that is mobile and rubbing on the tongue during feeding.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.784Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-5c99a959cc172192aeb8",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because a natal tooth is present at birth, is often mobile and poorly rooted, and can traumatise the tongue.",
+    "B": "Incorrect because an eruption cyst is a bluish swelling over an erupting tooth, not a tooth already present at birth.",
+    "C": "Incorrect because ankyloglossia affects the lingual frenulum and feeding, not the presence of a loose tooth.",
+    "D": "Incorrect because normal primary tooth eruption occurs later in infancy, not at birth.",
+    "E": "Incorrect because a pacifier-related anterior open bite is a malocclusion pattern and does not explain a tooth present since birth."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3257918552036199,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c3630b73-aca3-48cc-9dda-302792b81142",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "natal tooth",
+      "newborn counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:44.627Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ba914e59-a3a1-4d26-b997-3f2dc1484760",
+  "stem": "Which statement best reflects the assessment of a child with possible autism spectrum disorder?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "ADOS replaces developmental assessment and is always required for diagnosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "ADOS is used in addition to developmental assessment and is not always necessary for diagnosis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "ADOS is only appropriate after 7 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "ADOS should be the first-line tool for all developmental surveillance visits",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "ADOS is the standard intellectual assessment performed by clinical psychologists",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "ADOS is used in addition to developmental assessment and is not always necessary for diagnosis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 16,
+      "title": "Formalised Developmental Assessment"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:26:54.682Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B16-attempt-02-b5173bc17851136ce052",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because ADOS does not replace broader developmental assessment and is not always required for diagnosis.",
+    "B": "Correct because ADOS is an adjunct to developmental assessment and may support, but is not always required for, autism spectrum disorder diagnosis.",
+    "C": "Incorrect because no age restriction like this is stated for ADOS.",
+    "D": "Incorrect because ADOS is not described as a routine first-line tool for all developmental surveillance visits.",
+    "E": "Incorrect because intellectual assessment is a separate process; ADOS is not the standard intellectual assessment performed by clinical psychologists."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B16-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvu7ki80001rj1pmjzd8ns2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.343558282208589,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b5adf4b9-40cc-456d-941b-7d3a45452858",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B16/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Normal development and formal developmental assessment",
+      "structured developmental assessment",
+      "ASD assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:47.918Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

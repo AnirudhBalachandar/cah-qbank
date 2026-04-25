@@ -1,0 +1,109 @@
+{
+  "id": "fadb2ca0-8590-46da-bd81-cdc4ada1c9fb",
+  "stem": "A 16-year-old reports several sexual partners over a short period and says condoms are used inconsistently. What is the best focus for follow-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reassure the adolescent that this is normal experimentation and does not need further discussion",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Focus only on how the adolescent feels after sex and avoid discussing pregnancy or STI risk",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Broaden counselling and follow-up because the pattern suggests risky sexual behaviour with unplanned pregnancy and STI risk",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Avoid further sexual health discussion unless the adolescent develops STI symptoms",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Conclude that social media is the main issue rather than sexual health risk",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Broaden counselling and follow-up. This pattern suggests risky sexual behaviour, so the discussion should include unplanned pregnancy and STI risk rather than reassurance alone.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 128,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 12,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T06:21:24.064Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B03-2d77274d8afe90e7a34f",
+  "rationale": "Multiple partners over a short period and inconsistent condom use are markers of risky sexual behaviour. Follow-up should address both STI prevention and unplanned pregnancy risk. This should not be dismissed as ordinary experimentation when the risk pattern is clear.",
+  "optionExplanations": {
+    "A": "Incorrect because this pattern fits risky sexual behaviour and needs further sexual health discussion.",
+    "B": "Incorrect because emotional wellbeing matters, but pregnancy and STI risk also need to be addressed.",
+    "C": "Correct because the pattern suggests risky sexual behaviour linked to unplanned pregnancy and STI risk.",
+    "D": "Incorrect because sexual health counselling should not wait for symptoms to appear.",
+    "E": "Incorrect because social media is not the main issue; the concern is the sexual risk pattern described."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu855bn0001rjcmmj39r0jq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3378378378378378,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "227d9f33-2f0c-46ea-a29a-a458eafe8aa1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-10.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "risky sexual behaviour",
+      "follow-up",
+      "prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:14.325Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

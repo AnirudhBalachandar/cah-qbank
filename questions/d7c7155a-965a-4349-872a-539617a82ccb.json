@@ -1,0 +1,98 @@
+{
+  "id": "d7c7155a-965a-4349-872a-539617a82ccb",
+  "stem": "What is the expected timeline for the natural involution of an infantile haemangioma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "90% are gone by age 2",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "50% are gone by age 5, and 90% by age 9",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They typically resolve completely within 6 months of the plateau phase",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Resolution occurs at a rate of 10% per year from birth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Most resolve by age 1 after the proliferative phase ends",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is that infantile haemangiomas involute slowly, with about 50% gone by age 5 and 90% by age 9.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.966Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1c286d0edbd29b5f18f9",
+  "rationale": "Infantile haemangiomas usually grow first, then gradually regress over years rather than resolving quickly.",
+  "optionExplanations": {
+    "A": "Incorrect because involution is much slower than this, and most lesions persist well beyond age 2.",
+    "B": "Correct because infantile haemangiomas involute slowly, with about 50% gone by age 5 and 90% by age 9.",
+    "C": "Incorrect because the plateau phase does not mean immediate disappearance; regression still takes years.",
+    "D": "Incorrect because involution is not a simple linear decline from birth and follows a longer natural course.",
+    "E": "Incorrect because most infantile haemangiomas do not resolve by age 1; they usually persist for several years before fading."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The growth is fast, but the resolution is a slow process spanning nearly a decade.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2c12ec94-5763-4265-a09c-a9ec82f5cb46",
+    "overlapScore": 0.4835164835164835,
+    "questionIndex": 7,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:00.806Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

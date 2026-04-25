@@ -1,0 +1,101 @@
+{
+  "id": "a1390272-bb5b-448d-94c9-32b08519bcff",
+  "stem": "A child with diabetes has suspected ketosis during a viral illness; which insulin approach is recommended for sick-day management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Frequent extra doses of short-acting insulin",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Withhold all insulin until ketones resolve",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use only the usual long-acting insulin",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Stop short-acting insulin when oral intake is reduced",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delay any insulin change until the next outpatient appointment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Frequent extra doses of short-acting insulin are recommended for suspected or confirmed ketosis during sick-day management.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 100,
+      "title": "Diabetes Sick Day Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:32:49.201Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-02-cb879d749e971ab27508",
+  "rationale": "Frequent extra short-acting insulin is the recommended response to suspected or confirmed ketosis, rather than withholding insulin or waiting for routine review.",
+  "optionExplanations": {
+    "A": "Correct because suspected or confirmed ketosis requires frequent extra doses of short-acting insulin as part of active sick-day management.",
+    "B": "Incorrect because insulin should not be withheld when ketosis is suspected or confirmed.",
+    "C": "Incorrect because baseline long-acting insulin alone is not sufficient management for suspected ketosis.",
+    "D": "Incorrect because short-acting insulin should not be stopped when oral intake is reduced if ketosis is suspected.",
+    "E": "Incorrect because insulin changes should be made promptly, not delayed until a routine outpatient appointment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B53-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqkkjo0001rj1adscat45p",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3492063492063492,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "367f156f-7541-4327-b09f-fb1d8323d359",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "education"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:59.248Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "3803bfb5-ca4b-42a5-9e5a-8784a986db61",
+  "stem": "Approximately what percentage of people in Australia and New Zealand is estimated to sustain a burn injury each year?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1%",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "5%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "10%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "0.1%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "20%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "1% is the estimated annual proportion of the population in Australia and New Zealand who sustain a burn injury.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.061Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8c49d56c3e1333d8a332",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because the estimated annual incidence in the general population is 1%.",
+    "B": "Incorrect because 5% is higher than the estimated annual incidence cited for the general population.",
+    "C": "Incorrect because 10% is not the overall annual population incidence of burn injury.",
+    "D": "Incorrect because 0.1% is too low for the annual incidence described.",
+    "E": "Incorrect because 20% is far higher than the estimated annual incidence in the population."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The statistic provided refers to the total annual incidence across the general population.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fcb922a7-4d40-4e0c-95cd-18fd283afeb9",
+    "overlapScore": 0.3971631205673759,
+    "questionIndex": 2,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:31.839Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "897de4f5-e49e-481a-a06b-638a9a8fc2e4",
+  "stem": "What proportion of 5-year-old children are typically affected by nocturnal enuresis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "5%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "10%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "20%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "25%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "40%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "10% is the typical prevalence of nocturnal enuresis in 5-year-old children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+      "title": "00008 common-problems-enur-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.771Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6a5b09c1c03acc997d26",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because 5% underestimates the typical prevalence in this age group.",
+    "B": "Correct because nocturnal enuresis affects up to 10% of 5-year-old children.",
+    "C": "Incorrect because 20% is higher than the typical prevalence quoted for 5-year-olds.",
+    "D": "Incorrect because 25% significantly overstates how common nocturnal enuresis is in this age group.",
+    "E": "Incorrect because 40% is far above the expected prevalence in 5-year-old children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5463e4cd-6422-4c2d-b826-2e032f25e352",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The prevalence is a double-digit figure that represents a common but not majority condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "8",
+    "lectureTitle": "00008 common-problems-enur-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0d2e3d5d-42cf-4e67-9365-d535ae05cda5",
+    "overlapScore": 0.4074074074074074,
+    "questionIndex": 2,
+    "quizFileName": "quiz_008.json",
+    "quizTitle": "Bedwetting Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2c9798db-0ebc-4a15-9ccb-95ac659163f6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:10.730Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "f56e1f0e-9a87-4f41-a9b9-a875ef6157b1",
+  "stem": "Which feature most strongly supports secondary nocturnal enuresis rather than primary nocturnal enuresis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A previously dry period lasting more than 6 months",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Being a boy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Having a family history",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "No conscious control during episodes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Impaired cortical arousal during sleep",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A previously dry period lasting more than 6 months supports secondary nocturnal enuresis. This history item distinguishes secondary enuresis from primary enuresis, whereas the other options are associations or proposed mechanisms rather than classification criteria.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 26,
+      "title": "Nocturnal enuresis"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:27:00.283Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B20-attempt-01-33f19ea6b7e1e6327a6f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a previously dry period lasting more than 6 months is the defining feature that supports secondary nocturnal enuresis.",
+    "B": "Incorrect because male sex is associated with nocturnal enuresis but does not distinguish primary from secondary.",
+    "C": "Incorrect because family history is a risk factor, not the criterion that defines secondary nocturnal enuresis.",
+    "D": "Incorrect because lack of conscious control during episodes describes enuresis generally and does not separate primary from secondary.",
+    "E": "Incorrect because impaired cortical arousal is a proposed mechanism, not the feature used to classify enuresis as secondary."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B20-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm2rxj0001rjhden31dzyq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2868852459016393,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e0811d57-00a4-4092-8153-cc9136f8913e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B20/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Common paediatric primary-care presentations",
+      "nocturnal enuresis"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:03.410Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

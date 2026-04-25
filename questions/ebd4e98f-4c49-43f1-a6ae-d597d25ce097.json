@@ -1,0 +1,98 @@
+{
+  "id": "ebd4e98f-4c49-43f1-a6ae-d597d25ce097",
+  "stem": "What is the main concern with steroid phobia in the management of atopic dermatitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It leads to over-prescription of systemic immunosuppressants",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It causes parents to use ointments instead of creams",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It results in under-treatment, leading to persistent flares and frustration",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It increases the risk of skin thinning from short-term use",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It makes topical steroids less effective after a single use",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Under-treatment is the main concern with steroid phobia in atopic dermatitis. Fear of topical steroids can lead to inadequate use of effective treatment, allowing eczema to persist and flare repeatedly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5d1cabee-f46a-4f31-904d-132653a07a21",
+      "title": "00058 dermatology-dermatol-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.324Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4f627aa88ba7ed102d8a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because steroid phobia primarily causes avoidance or underuse of topical treatment, not over-prescription of systemic immunosuppressants.",
+    "B": "Incorrect because the issue is fear of steroids, not a preference for ointments over creams.",
+    "C": "Correct because fear of topical steroids can lead to inadequate treatment of atopic dermatitis, which allows persistent flares and ongoing frustration.",
+    "D": "Incorrect because skin thinning is mainly associated with prolonged or inappropriate steroid use, not appropriate short-term use.",
+    "E": "Incorrect because steroid phobia affects adherence to treatment rather than making topical steroids intrinsically ineffective after one use."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5d1cabee-f46a-4f31-904d-132653a07a21",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how the patient's condition is affected when they are afraid to use the prescribed treatment.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "58",
+    "lectureTitle": "00058 dermatology-dermatol-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "721505d3-0511-49f2-acb6-df8e55630ede",
+    "overlapScore": 0.3861386138613861,
+    "questionIndex": 11,
+    "quizFileName": "quiz_058.json",
+    "quizTitle": "Dermatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "61963d6f-4670-4541-be2e-7616941f352e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:39.488Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

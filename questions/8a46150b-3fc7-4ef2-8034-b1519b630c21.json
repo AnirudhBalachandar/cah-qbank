@@ -1,0 +1,98 @@
+{
+  "id": "8a46150b-3fc7-4ef2-8034-b1519b630c21",
+  "stem": "What is the standard surgical intervention for a slipped capital femoral epiphysis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Percutaneous screw fixation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Open reduction without hardware",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Femoral head amputation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "External fixation with a metal frame",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hip arthrodesis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Percutaneous screw fixation is the standard treatment for slipped capital femoral epiphysis. A screw is placed under imaging guidance to stabilise the epiphysis and prevent further slippage.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.638Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d2f4f72e4d701b1599f4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a percutaneous screw is inserted to stabilise the slipped epiphysis and prevent further displacement.",
+    "B": "Incorrect because slipped capital femoral epiphysis is treated with stabilisation, not open reduction alone.",
+    "C": "Incorrect because the femoral head is preserved and stabilised rather than removed.",
+    "D": "Incorrect because external fixation is not the standard treatment for slipped capital femoral epiphysis.",
+    "E": "Incorrect because hip arthrodesis is not the usual management for this condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the method used to stabilize the 'slipping' bone using hardware.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d5de612a-b6ab-47b6-96e5-36041d494ec4",
+    "overlapScore": 0.4767441860465116,
+    "questionIndex": 8,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:13.516Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

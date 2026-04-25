@@ -1,0 +1,102 @@
+{
+  "id": "47f59ad7-48ad-43c8-bee4-09e95c4bdb23",
+  "stem": "A phenotypic female child has a 45,X karyotype; which condition does this most likely indicate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Klinefelter syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Turner syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Trisomy 13 (Patau syndrome)",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Trisomy 18 (Edwards syndrome)",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Trisomy 21 (Down syndrome)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Turner syndrome is the correct diagnosis for a phenotypic female with a 45,X karyotype.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 167,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:07:31.419Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B68-attempt-02-a98507f1a7aadd380123",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Klinefelter syndrome is typically 47,XXY in a phenotypic male.",
+    "B": "Correct because Turner syndrome classically has a 45,X karyotype in a phenotypic female.",
+    "C": "Incorrect because trisomy 13 is Patau syndrome and involves an extra chromosome 13, not 45,X.",
+    "D": "Incorrect because trisomy 18 is Edwards syndrome and involves an extra chromosome 18, not 45,X.",
+    "E": "Incorrect because trisomy 21 is Down syndrome and involves an extra chromosome 21, not 45,X."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B68-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4o60m0001rjent8no3up2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2842105263157895,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e520392d-961a-492f-8aa3-2361f9decf6a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B68/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Common genetic syndromes",
+      "Turner syndrome",
+      "Anatomy and embryology application"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:06.872Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

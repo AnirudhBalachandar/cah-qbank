@@ -1,0 +1,98 @@
+{
+  "id": "ad8915c8-ac3b-4674-84a8-b723c2c25ad1",
+  "stem": "A child has translucent teeth that chip easily and blue sclerae; what is the most likely dental diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Dentinogenesis imperfecta",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Amelogenesis imperfecta",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Active dental caries",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ectodermal dysplasia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Fluorosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Dentinogenesis imperfecta is the correct diagnosis: it is a developmental defect of dentine that can cause opalescent, translucent teeth that fracture or chip easily, and it is often associated with osteogenesis imperfecta and blue sclerae.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+      "title": "00085 Dentistry_medical de-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.278Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5cf5b06c4df62c987424",
+  "rationale": "This condition primarily affects dentine rather than enamel.",
+  "optionExplanations": {
+    "A": "Correct because dentinogenesis imperfecta causes abnormal dentine formation, producing translucent, fragile teeth and may be associated with blue sclerae in osteogenesis imperfecta.",
+    "B": "Incorrect because amelogenesis imperfecta affects enamel formation, not dentine, and does not typically cause the same translucent, easily chipped teeth with blue sclerae.",
+    "C": "Incorrect because active dental caries is a bacterial demineralising process that causes cavitated, discoloured lesions rather than a general developmental defect of tooth structure.",
+    "D": "Incorrect because ectodermal dysplasia usually causes absent, peg-shaped, or conical teeth and other ectodermal features, not translucent teeth from defective dentine.",
+    "E": "Incorrect because fluorosis causes enamel mottling or opacities from excess fluoride exposure, not the dentine defect and blue sclerae described here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c60740c2-3362-4cb3-ad41-e659e8b535cb",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition affects the 'bone of the tooth' or dentine layer.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "85",
+    "lectureTitle": "00085 Dentistry_medical de-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b456464c-88d3-4d8f-8e40-97c8329cbac5",
+    "overlapScore": 0.3834586466165413,
+    "questionIndex": 5,
+    "quizFileName": "quiz_085.json",
+    "quizTitle": "Oral Medicine Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d4b0d8a6-1e21-4716-8076-08840b9a39db",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:22.962Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

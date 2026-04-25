@@ -1,0 +1,98 @@
+{
+  "id": "7efc864f-287d-4cef-8a53-a376a0c35b29",
+  "stem": "How does trauma typically relate to the cause of slipped capital femoral epiphysis (SCFE)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is rarely the actual cause of the condition",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is the primary cause in most cases",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It is required for the femoral head to slip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It speeds up recovery from the condition",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It prevents slippage of the femoral head",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Trauma is rarely the actual cause of SCFE. The slip usually occurs because of underlying biomechanical and physiological factors rather than a single injury event.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.575Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4408252e9864cb0750b1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because trauma is often associated with the presentation but is rarely the true underlying cause of SCFE.",
+    "B": "Incorrect because most cases are related to underlying predisposition and mechanical stress, not a single traumatic event.",
+    "C": "Incorrect because SCFE can occur without a specific injury; trauma is not required for the slip to happen.",
+    "D": "Incorrect because trauma is not a treatment and does not improve recovery from SCFE.",
+    "E": "Incorrect because trauma does not prevent slippage; it is not a protective factor in SCFE."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall if the author views a single injury event as the 'true' cause or a 'perceived' cause.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d7bfc752-3663-41e4-8555-21d582088c13",
+    "overlapScore": 0.5121951219512195,
+    "questionIndex": 6,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:49.562Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

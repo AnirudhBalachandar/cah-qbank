@@ -1,0 +1,102 @@
+{
+  "id": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+  "stem": "During a consent discussion for a non-urgent procedure, a 16-year-old gives a clear answer when alone but changes position completely whenever one parent enters the room and cannot explain the change; which concern is most relevant when assessing competence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Limited school performance",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Inability to manage influences on decision-making",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Being younger than 18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lack of previous hospital admission",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Not having a Medicare card",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Inability to manage influences on decision-making is the key concern. Competence for consent includes the ability to maintain and explain a decision despite pressure or external influence, so marked changes in position when a parent enters the room raise concern in this area.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T04:06:24.193Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B02-bcdafd409e76621e11c9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because school performance is not a criterion for assessing competence to consent in this scenario.",
+    "B": "Correct because competence includes the ability to manage influences on decision-making, and a decision that changes under parental pressure suggests difficulty in this area.",
+    "C": "Incorrect because being under 18 years alone does not determine competence to consent.",
+    "D": "Incorrect because previous hospital admission is not part of the competence assessment described here.",
+    "E": "Incorrect because Medicare status is unrelated to competence to consent."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu3bjip0001rjg7wl3napfg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3413461538461539,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b85faa52-dd68-4a57-aaad-e8a49589f3ac",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-06.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "Gillick competence",
+      "capacity assessment",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:36.040Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

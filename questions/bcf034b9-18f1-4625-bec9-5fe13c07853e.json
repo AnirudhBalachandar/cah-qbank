@@ -1,0 +1,98 @@
+{
+  "id": "bcf034b9-18f1-4625-bec9-5fe13c07853e",
+  "stem": "What is the preferred irrigation fluid for a standard, non-grossly contaminated burn wound?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Strong soapy chlorhexidine solution",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Water or normal saline",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "70% isopropyl alcohol solution",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Concentrated povidone-iodine scrub",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hydrogen peroxide solution",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Water or normal saline is the preferred irrigation fluid for a standard, non-grossly contaminated burn wound because simple dilution and cleansing are appropriate and less irritating to tissue.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.509Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4d611b4fab5cd1a143ed",
+  "rationale": "This tests the standard burn wound irrigation choice for uncomplicated wounds.",
+  "optionExplanations": {
+    "A": "Incorrect because strong soapy chlorhexidine is more irritating and is not the preferred routine irrigation fluid for an uncomplicated burn wound.",
+    "B": "Correct because water or normal saline provides simple, appropriate irrigation for a standard burn wound without adding unnecessary tissue irritation.",
+    "C": "Incorrect because 70% isopropyl alcohol is too harsh for open burn wounds and is not recommended for routine irrigation.",
+    "D": "Incorrect because concentrated povidone-iodine scrub is not the preferred routine irrigation fluid and may be unnecessarily irritating to healing tissue.",
+    "E": "Incorrect because hydrogen peroxide can damage healing tissue and is not used as the standard irrigation fluid for uncomplicated burn wounds."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the adage regarding the 'solution to pollution' mentioned in the text.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "cdfeaab0-b9ff-4afc-af58-c35c3cd6e00b",
+    "overlapScore": 0.4554455445544555,
+    "questionIndex": 4,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:56.427Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

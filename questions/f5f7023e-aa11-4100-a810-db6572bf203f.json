@@ -1,0 +1,102 @@
+{
+  "id": "f5f7023e-aa11-4100-a810-db6572bf203f",
+  "stem": "Which statement about immunisation and egg allergy is correct?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Food allergies such as egg allergy are usually okay",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Egg allergy always requires avoidance of all vaccines",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Egg allergy means all vaccines must be given only in hospital",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Egg allergy means vaccines can be given only after mixing with local anaesthetic",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Egg allergy changes the recommended injection site from thigh to forearm",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Food allergies such as egg allergy are usually okay. Egg allergy does not usually mean routine vaccines should be withheld.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 60,
+      "title": "Adverse Events Following Immunisation; National Immunisation Schedule and Immunisation for Special Populations"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:05:15.822Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B38-attempt-01-3e3105efe8ad297cd36a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because food allergies such as egg allergy are usually okay and do not usually require withholding routine vaccines.",
+    "B": "Incorrect because egg allergy does not always require avoidance of all vaccines.",
+    "C": "Incorrect because egg allergy does not mean all vaccines must be given only in hospital.",
+    "D": "Incorrect because vaccines should not be mixed with local anaesthetic, and egg allergy does not change that.",
+    "E": "Incorrect because egg allergy does not change the recommended injection site; site selection is based on age and vaccine type."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B38-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpl4ut0001rjk0oqxtr5nc",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c6c1b8ff-fee6-470a-9779-5f1a3b7c97b3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B38/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "National schedule and special populations",
+      "allergy",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:05.886Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

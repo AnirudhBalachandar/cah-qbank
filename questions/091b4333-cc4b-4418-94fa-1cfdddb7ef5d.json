@@ -1,0 +1,98 @@
+{
+  "id": "091b4333-cc4b-4418-94fa-1cfdddb7ef5d",
+  "stem": "What is the expected prognosis for most children with transient synovitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Full recovery within two weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Chronic hip pain throughout childhood",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Permanent changes on hip X-rays",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Development of septic arthritis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Progression to avascular necrosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Full recovery within two weeks is the expected prognosis for most children with transient synovitis, which is a self-limiting condition with no long-term sequelae.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "24454367-a2d5-4cce-8cea-69567766706e",
+      "title": "00093 child-with-limp-tran-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.917Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a88f631fd1e830e8a222",
+  "rationale": "Transient synovitis usually settles with rest and symptom control, and most children recover completely within a short period.",
+  "optionExplanations": {
+    "A": "Correct because transient synovitis is usually self-limiting and most children recover fully within about two weeks.",
+    "B": "Incorrect because transient synovitis does not usually cause chronic symptoms or long-term hip pain.",
+    "C": "Incorrect because transient synovitis does not typically leave permanent radiographic changes.",
+    "D": "Incorrect because septic arthritis is a separate diagnosis and not the expected outcome of transient synovitis.",
+    "E": "Incorrect because transient synovitis does not progress to avascular necrosis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "24454367-a2d5-4cce-8cea-69567766706e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the duration of the recommended rest period for most children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "93",
+    "lectureTitle": "00093 child-with-limp-tran-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "31d4ab50-7d77-4ff7-92c4-b1a065473bec",
+    "overlapScore": 0.5308641975308642,
+    "questionIndex": 10,
+    "quizFileName": "quiz_093.json",
+    "quizTitle": "Synovitis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4f40d336-bc63-4e17-b511-06dc6127ec1a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:58.255Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

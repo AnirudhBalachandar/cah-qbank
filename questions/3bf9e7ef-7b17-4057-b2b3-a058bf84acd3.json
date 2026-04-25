@@ -1,0 +1,102 @@
+{
+  "id": "3bf9e7ef-7b17-4057-b2b3-a058bf84acd3",
+  "stem": "Which child most closely matches the peak epidemiology of paediatric oro-facial trauma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A 3-year-old boy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "An 8-year-old girl",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A 12-year-old girl",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A 6-month-old girl",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A 15-year-old boy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A 3-year-old boy best matches the peak epidemiology of paediatric oro-facial trauma, which is most common at 2 to 4 years of age and occurs more often in boys.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 133,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T04:34:55.394Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B07-attempt-03-969c283c1740d9a5c480",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a 3-year-old boy fits the peak age range of 2 to 4 years and the male predominance described.",
+    "B": "Incorrect because 8 years is beyond the peak 2 to 4 year age range, and girls are less commonly affected than boys.",
+    "C": "Incorrect because 12 years is well beyond the peak 2 to 4 year age range.",
+    "D": "Incorrect because 6 months is younger than the peak age range, even though the sex does not change the age mismatch.",
+    "E": "Incorrect because 15 years is well beyond the peak 2 to 4 year age range, despite male sex fitting the reported predominance."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": null,
+  "source": {
+    "batchId": "B07-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvjs2jn0001rjz9k1qd666o",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3373493975903614,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ea9a5c7a-1fc2-414b-8286-8356cda348d3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B07/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Dental trauma and the medical-dental interface",
+      "oro-facial trauma",
+      "epidemiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:40.045Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "cc6e9365-c678-4c42-ad67-f9681cc5b148",
+  "stem": "Primary microcephaly is most often associated with which aetiology?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Postnatal stroke",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Chromosomal disorders or neuronal migration defects",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hypoxic ischaemic encephalopathy at delivery",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Meningoencephalitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Congenital hydrocephalus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chromosomal disorders or neuronal migration defects are a common cause of primary microcephaly because they disrupt early brain development before birth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.532Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b3bc911d030ee16ae01b",
+  "rationale": "Primary microcephaly reflects impaired brain growth during fetal development, so congenital structural or genetic causes are the key associations.",
+  "optionExplanations": {
+    "A": "Incorrect because a postnatal stroke occurs after birth and would not explain reduced head growth from early fetal development.",
+    "B": "Correct because chromosomal disorders and neuronal migration defects interfere with the brain’s early formation, leading to primary microcephaly.",
+    "C": "Incorrect because hypoxic ischaemic encephalopathy at delivery is an acquired perinatal injury and is more consistent with secondary microcephaly.",
+    "D": "Incorrect because meningoencephalitis is an acquired postnatal infection that damages an already formed brain and causes secondary microcephaly.",
+    "E": "Incorrect because congenital hydrocephalus usually causes an enlarged head rather than primary microcephaly."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on factors that would prevent the brain from ever reaching a normal size during fetal development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e66afff6-c26b-4498-9af2-c2299b21fad3",
+    "overlapScore": 0.5,
+    "questionIndex": 11,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:36.043Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

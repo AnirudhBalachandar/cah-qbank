@@ -1,0 +1,98 @@
+{
+  "id": "0e00e3bb-4554-436a-b083-e914446b591a",
+  "stem": "Which presentation is most characteristic of a posterior fossa brain tumour in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Abrupt onset hearing loss",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Headache and vomiting worse in the morning",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Sudden onset high-grade fever",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Isolated lower limb weakness",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Intermittent abdominal pain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Headache and vomiting worse in the morning is the classic presentation of raised intracranial pressure from a posterior fossa tumour obstructing cerebrospinal fluid flow.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "56a4d199-36f1-4bc5-80d9-fed407302506",
+      "title": "00072 Oncology prelecture -audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.845Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2abd650540a334efa354",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because abrupt hearing loss is not the typical presenting feature of a posterior fossa brain tumour.",
+    "B": "Correct because headache and vomiting that are worse in the morning are classic signs of raised intracranial pressure, often due to hydrocephalus from cerebrospinal fluid obstruction in the posterior fossa.",
+    "C": "Incorrect because fever suggests infection or inflammatory illness rather than a posterior fossa brain tumour.",
+    "D": "Incorrect because isolated lower limb weakness is more suggestive of spinal cord pathology than a posterior fossa mass.",
+    "E": "Incorrect because intermittent abdominal pain is not a typical presentation of a posterior fossa brain tumour."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "56a4d199-36f1-4bc5-80d9-fed407302506",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the effects of a blockage in the cerebrospinal fluid ($CSF$) pathways.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "72",
+    "lectureTitle": "00072 Oncology prelecture -audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0287409f-ff05-42b5-a2c6-437c74fb599e",
+    "overlapScore": 0.4343434343434344,
+    "questionIndex": 5,
+    "quizFileName": "quiz_072.json",
+    "quizTitle": "Oncology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d5e17bb1-4dc2-4185-bf98-0b84c6976de6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:10.187Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "8e35033f-8b94-4389-a322-7257b1f508ae",
+  "stem": "Which clinical sign is specifically associated with significant neutropenia in a newborn?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Delayed cord separation",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Rapid formation of large abscesses with pus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Isolated macrocytosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Immediate neonatal jaundice",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Persistent thrombocytosis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Delayed cord separation is a recognised sign of significant neutropenia. Neutrophils are important for normal inflammation, wound healing, and umbilical cord separation, so marked deficiency can delay this process.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.091Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b03e4a3085ebabf0a1d8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because neutrophils are important for normal inflammation and wound healing, so significant neutropenia can delay umbilical cord separation.",
+    "B": "Incorrect because severe neutropenia may reduce pus formation rather than cause rapid formation of large abscesses.",
+    "C": "Incorrect because macrocytosis refers to enlarged red blood cells and is not a specific sign of neutropenia.",
+    "D": "Incorrect because immediate neonatal jaundice is related to bilirubin metabolism and red cell breakdown, not neutrophil deficiency.",
+    "E": "Incorrect because thrombocytosis is an elevated platelet count and is not a typical sign of neonatal neutropenia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the role neutrophils play in wound healing and the integrity of mucous membranes.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "55709a1d-7fa7-4aea-ac46-d95c3a0889e0",
+    "overlapScore": 0.3896103896103896,
+    "questionIndex": 2,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:23.462Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "4514366c-94ef-4e01-afe1-d78192b94353",
+  "stem": "Why are steroid eye drops generally avoided in children with viral or allergic conjunctivitis in primary care?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They can cause a rise in intraocular pressure and lead to irreversible glaucoma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "They neutralise the effect of antihistamines used for allergic reactions",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They prevent the formation of follicles needed for immune recovery",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are ineffective at reducing conjunctival redness",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They worsen tear production and cause permanent dry eye",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Steroid eye drops can raise intraocular pressure and cause irreversible glaucoma, so they should not be used casually in children with conjunctivitis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.841Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8057cd6ca69308f5e1d9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because steroid eye drops can raise intraocular pressure and lead to irreversible glaucoma, which risks permanent vision loss.",
+    "B": "Incorrect because steroid eye drops do not neutralise antihistamines; the key concern is ocular harm from steroid use.",
+    "C": "Incorrect because follicles are not the reason steroid eye drops are avoided; the concern is steroid-related pressure rise and glaucoma.",
+    "D": "Incorrect because steroid eye drops can reduce redness, but that does not make them safe for unsupervised use.",
+    "E": "Incorrect because the main risk is raised intraocular pressure and glaucoma, not permanent dry eye."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the long-term risk to vision associated with internal eye pressure.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8344792f-15d4-45c5-8464-46c484afdfb0",
+    "overlapScore": 0.3857142857142857,
+    "questionIndex": 5,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:59.987Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

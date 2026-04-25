@@ -1,0 +1,101 @@
+{
+  "id": "de6515a5-20c6-4008-bb71-a0e1a4811b0c",
+  "stem": "A 7-year-old is found to have a low white cell count on a routine blood test; before deciding that the result is abnormal, which principle should be applied first?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Interpret the white cell count against the child's age",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Assume any low white cell count reflects leukaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Focus only on whether the platelet count is normal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ignore the result if the child appears well",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Use the adult reference range because it is more standardised",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Interpret the white cell count against the child's age. White cell count varies with age, so paediatric results should be compared with age-appropriate reference ranges before deciding that the result is truly abnormal.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 107,
+      "title": "WBC Disorders"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:45:01.901Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B58-attempt-02-34cd163df473d3fc9833",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because white cell count varies with age and should be interpreted using age-appropriate reference ranges.",
+    "B": "Incorrect because a low white cell count does not automatically mean leukaemia; age and the overall clinical context must be considered.",
+    "C": "Incorrect because platelet count may be useful for broader interpretation, but it does not replace age-based assessment of the white cell count.",
+    "D": "Incorrect because a reassuring appearance does not make an abnormal laboratory result irrelevant.",
+    "E": "Incorrect because adult reference ranges are not appropriate for children, whose white cell counts vary with age."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B58-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr0a3t0001rjnsvs5axt88",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.330188679245283,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "439fb260-1dcb-4434-b12e-90288ba4e4b0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B58/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "White blood cell disorders",
+      "age-specific interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:15.114Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

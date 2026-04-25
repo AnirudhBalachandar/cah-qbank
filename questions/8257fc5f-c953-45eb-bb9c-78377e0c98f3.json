@@ -1,0 +1,102 @@
+{
+  "id": "8257fc5f-c953-45eb-bb9c-78377e0c98f3",
+  "stem": "A cooperative 6-year-old has a small rubber earplug tip visible in the external ear canal; which office technique is best for removal under direct vision?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a right-angle hook or wax loop/curette to get behind the object, then pull it forward",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Push the object further medially until it sits deeper in the canal",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Repeatedly compress the tragus to force the object outward",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Insert cotton buds around the object and twist",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Apply a soothing dressing and review later",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Right-angle hook or wax loop/curette removal is the best technique. This is because the instrument is used to get behind the visible foreign body and then draw it forward under direct vision.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 5,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:27:47.573Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B21-attempt-02-a302b3826be75e829d9e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the hook or curette is placed behind the object so it can be brought out forwards under direct vision.",
+    "B": "Incorrect because the object should not be pushed deeper into the ear canal.",
+    "C": "Incorrect because tragal compression is not the described technique for direct-vision foreign body removal.",
+    "D": "Incorrect because cotton buds are not appropriate for this removal method and may worsen impaction.",
+    "E": "Incorrect because observation or a dressing does not remove the foreign body from the canal."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B21-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjymoj0001rjrmutgnq36o",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.326797385620915,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5fc3ac14-1fe0-4a8c-a5ef-fd98e39d7dc0",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B21/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems I",
+      "Foreign body in ear",
+      "Office management"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:57.317Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "3455bbd5-89dd-4f0f-9b44-dbf101e425aa",
+  "stem": "What does the dynamism of a burn imply during the initial clinical assessment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The burn depth can evolve and change over the first 5 days",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The total surface area of the burn will increase over time",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The patient's fluid needs decrease every hour after the first 3 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The burn depth is uniform across the entire affected area",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The burn becomes painless as it heals",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Burn depth can evolve over the first 5 days, so the injury may change after the initial examination.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.438Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-6d96f0fb5c8bdf9179a7",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because burn wounds are not static, and the depth can progress over time, making the initial assessment potentially inaccurate.",
+    "B": "Incorrect because the surface area of the original burn does not typically increase; it is the depth and severity that may evolve.",
+    "C": "Incorrect because fluid requirements are managed according to clinical assessment and burn severity, not by a fixed hourly decrease.",
+    "D": "Incorrect because burn depth is often variable across the affected area rather than uniform.",
+    "E": "Incorrect because pain does not define burn dynamism; the key concept is that tissue injury can progress after the initial insult."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This term refers to the fact that a burn is a process, not a single static event in time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d89d7f33-32da-4822-971f-a3fcda2be4d4",
+    "overlapScore": 0.3956043956043956,
+    "questionIndex": 11,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:27.944Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

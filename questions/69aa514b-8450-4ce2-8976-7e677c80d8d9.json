@@ -1,0 +1,98 @@
+{
+  "id": "69aa514b-8450-4ce2-8976-7e677c80d8d9",
+  "stem": "What is the most common timing of the brain injury that leads to cerebral palsy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Perinatal (during birth)",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Postnatal (after the first month)",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Prenatal (before birth)",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Neonatal (first 28 days)",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Infancy (after 28 days to 1 year)",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prenatal (before birth) is the most common timing of brain injury leading to cerebral palsy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+      "title": "00067 neurology_motor diff-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.796Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-702e2c4b4e1a58dc5dad",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because injury during birth accounts for a smaller proportion of cerebral palsy cases than prenatal injury.",
+    "B": "Incorrect because postnatal causes are less common overall than prenatal causes.",
+    "C": "Correct because most cerebral palsy is due to brain injury acquired before birth, accounting for the largest proportion of cases.",
+    "D": "Incorrect because the neonatal period includes early life after birth, but it is not the most common timing of the original injury.",
+    "E": "Incorrect because injury in later infancy can cause cerebral palsy, but it is less common than prenatal injury."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the developmental period that accounts for $70-80\\%$ of cases.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "67",
+    "lectureTitle": "00067 neurology_motor diff-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1bf1e229-733a-4839-a923-60382a45ea43",
+    "overlapScore": 0.5463917525773195,
+    "questionIndex": 6,
+    "quizFileName": "quiz_067.json",
+    "quizTitle": "Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "06bc7f92-731c-431e-8c5d-1cce38c39168",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:10.953Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

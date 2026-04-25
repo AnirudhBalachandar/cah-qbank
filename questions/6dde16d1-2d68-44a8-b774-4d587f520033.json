@@ -1,0 +1,109 @@
+{
+  "id": "6dde16d1-2d68-44a8-b774-4d587f520033",
+  "stem": "A 3-year-old girl had a choking episode while eating, then developed ongoing cough and recurrent focal chest symptoms over the next few days; what is the best management if there is reasonable suspicion of an airway foreign body?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reassure and arrange review only if symptoms persist",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Treat as asthma first",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Arrange exploratory rigid bronchoscopy",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Exclude aspiration only if the chest X-ray is normal",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Observe because aspirated objects usually pass spontaneously",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Exploratory rigid bronchoscopy is the best management because reasonable suspicion of an airway foreign body is enough to warrant definitive airway evaluation, even if the child is currently comfortable or the chest X-ray is normal.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 141,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 37,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:15:40.929Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B71-attempt-04-f265de4d1ca19947f41a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because comfort at presentation does not exclude a retained airway foreign body when symptoms and history are suggestive.",
+    "B": "Incorrect because asthma treatment may delay definitive assessment of a possible airway foreign body.",
+    "C": "Correct because reasonable suspicion of an airway foreign body warrants exploratory rigid bronchoscopy for definitive diagnosis and removal if present.",
+    "D": "Incorrect because a normal chest X-ray does not exclude an airway foreign body.",
+    "E": "Incorrect because suspected airway foreign bodies require definitive evaluation rather than expectant observation."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B71-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4ynrf0001rj4smc0xhxyk",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3404255319148936,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0b88524d-c0c0-4069-b3bf-21c04634e3a2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B71/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Foreign body aspiration and ingestion",
+      "bronchoscopy thresholds",
+      "airway foreign body"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:20.971Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

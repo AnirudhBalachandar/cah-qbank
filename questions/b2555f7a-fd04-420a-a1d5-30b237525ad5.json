@@ -1,0 +1,98 @@
+{
+  "id": "b2555f7a-fd04-420a-a1d5-30b237525ad5",
+  "stem": "Which of the following is a recommended sleep hygiene practice?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Engaging in high-intensity exercise just before bed",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Avoiding caffeine-containing drinks like coffee or cola after 2 p.m",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Doing homework in bed",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Sleeping in late on weekends to make up for sleep debt",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Using a screen in bed until falling asleep",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Avoiding caffeine-containing drinks like coffee or cola after 2 p.m. is a recommended sleep hygiene practice because caffeine can interfere with falling asleep and maintaining sleep.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+      "title": "00020 respiratory normal s-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.281Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-02f9ee95ef235f7a0c08",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because vigorous exercise immediately before bed can make it harder to fall asleep.",
+    "B": "Correct because caffeine is a stimulant, and avoiding it after 2 p.m. helps reduce sleep disruption.",
+    "C": "Incorrect because the bed should be associated with sleep rather than homework or other alerting activities.",
+    "D": "Incorrect because large changes in weekend sleep timing can disrupt the sleep–wake routine.",
+    "E": "Incorrect because screen use in bed can delay sleep onset and worsen sleep hygiene."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7f107f8-2bcc-42c3-8d08-a13f0a23184f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the specific time of day after which stimulants should be avoided.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "20",
+    "lectureTitle": "00020 respiratory normal s-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fba43b27-9b7a-4604-a548-1367a902f7bf",
+    "overlapScore": 0.4285714285714285,
+    "questionIndex": 12,
+    "quizFileName": "quiz_020.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0a47466a-430c-4068-938e-67c4d2af5f73",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:34.190Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

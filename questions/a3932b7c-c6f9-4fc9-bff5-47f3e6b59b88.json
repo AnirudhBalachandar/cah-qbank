@@ -1,0 +1,101 @@
+{
+  "id": "a3932b7c-c6f9-4fc9-bff5-47f3e6b59b88",
+  "stem": "A child has swallowed a non-battery foreign body that has passed through the oesophagus; what is the best counselling statement?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Once an object has passed through the oesophagus, it is most likely to pass PR via the digestive tract",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Any object beyond the oesophagus routinely needs theatre removal",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Once it passes the oesophagus, it usually lodges in the palatine tonsils",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Passage beyond the oesophagus predicts right-sided lung hyperinflation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "CT is always required once the object enters the stomach",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Once an object has passed through the oesophagus, it is most likely to pass PR via the digestive tract. In this situation, reassurance is usually appropriate for a non-battery foreign body because most such objects continue through the gut, although button batteries are an important exception.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 142,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.142"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:11:32.384Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B71-attempt-02-a901e6805cea7e4fc5ca",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because once a swallowed non-battery foreign body has passed through the oesophagus, it is most likely to pass PR via the digestive tract.",
+    "B": "Incorrect because objects beyond the oesophagus do not routinely require theatre removal and many will pass spontaneously.",
+    "C": "Incorrect because palatine tonsils are not the expected site for an object that has already passed the oesophagus.",
+    "D": "Incorrect because right-sided lung hyperinflation is associated with aspiration, not a swallowed foreign body passing through the oesophagus.",
+    "E": "Incorrect because CT is not always required once the object enters the stomach; management is usually guided by the object type and symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B71-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4tbyz0001rjf4688br36r",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3305785123966942,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "cef8c9ef-6ec5-46f9-a807-6f59b49e5675",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B71/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Foreign body aspiration and ingestion",
+      "ingestion counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:01.524Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

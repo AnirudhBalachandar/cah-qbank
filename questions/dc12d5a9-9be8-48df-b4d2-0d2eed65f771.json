@@ -1,0 +1,102 @@
+{
+  "id": "dc12d5a9-9be8-48df-b4d2-0d2eed65f771",
+  "stem": "A neonatal chest X-ray report describes diffuse, coarse densities. Which diagnosis best matches this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "TTN",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Meconium aspiration",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Chronic neonatal lung disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Diaphragmatic hernia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Congenital heart disease",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Meconium aspiration is the best match for diffuse, coarse densities on a neonatal chest X-ray. TTN is typically a transient early respiratory problem with rapid resolution, chronic neonatal lung disease has a different radiographic pattern, diaphragmatic hernia has characteristic bowel and mediastinal findings, and congenital heart disease does not usually present with this film description.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 196,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:40:51.101Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-01-2f9dbd4644115217bc21",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because TTN is characterised by early onset and rapid improvement rather than diffuse, coarse densities.",
+    "B": "Correct because meconium aspiration is associated with diffuse, coarse densities on the neonatal chest X-ray.",
+    "C": "Incorrect because chronic neonatal lung disease is described with coarse interstitial markings and distorted architecture, not this pattern.",
+    "D": "Incorrect because diaphragmatic hernia is suggested by bowel in the thorax and mediastinal shift rather than diffuse coarse densities.",
+    "E": "Incorrect because congenital heart disease is not the classic explanation for this neonatal chest X-ray description."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B11-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvoa0l50001rjzur4kg3zro",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.325,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6c72d676-c792-4520-adcf-8e89d8713593",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "Chest X-ray interpretation",
+      "Common lung patterns"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:08.478Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

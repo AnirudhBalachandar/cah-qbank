@@ -1,0 +1,98 @@
+{
+  "id": "bbb743ac-96f1-49c3-8628-201351e1168d",
+  "stem": "Which feature is most characteristic of cataplexy in an adolescent with narcolepsy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Loss of muscle tone triggered by emotional stimuli",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Involuntary leg movements occurring in the evening",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A momentary inability to move at sleep onset",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Consistent snoring and witnessed apnoeas during the night",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Excessive daytime thirst with frequent urination",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cataplexy is loss of muscle tone triggered by emotional stimuli. It is a classic symptom of narcolepsy and is commonly brought on by laughter, surprise, or anger while the person remains awake.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+      "title": "00080 Jayasuriya_ Sleep an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.616Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fd7601d630d922248ba6",
+  "rationale": "Cataplexy is the sudden loss of muscle tone caused by emotion, which distinguishes it from sleep paralysis, restless legs syndrome, and obstructive sleep apnoea.",
+  "optionExplanations": {
+    "A": "Correct because cataplexy is a sudden loss of muscle tone during wakefulness, commonly triggered by laughter or other strong emotions.",
+    "B": "Incorrect because this describes restless legs syndrome or periodic limb movement disorder, not cataplexy.",
+    "C": "Incorrect because this is sleep paralysis, which can occur with narcolepsy but is different from emotion-triggered muscle weakness while awake.",
+    "D": "Incorrect because this is more consistent with obstructive sleep apnoea, which causes snoring and witnessed apnoeas during sleep.",
+    "E": "Incorrect because this suggests diabetes mellitus or diabetes insipidus rather than narcolepsy or cataplexy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "03c0e867-f5b3-44f9-b51a-ed22fc21cadc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This symptom involves a physical reaction to laughter or surprise.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "80",
+    "lectureTitle": "00080 Jayasuriya_ Sleep an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2c664a4f-82aa-492c-886d-8ace9bf8245e",
+    "overlapScore": 0.3953488372093023,
+    "questionIndex": 7,
+    "quizFileName": "quiz_080.json",
+    "quizTitle": "Sleep Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d142bf16-ff1e-4c75-ace6-9d61554ebd54",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:53.165Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

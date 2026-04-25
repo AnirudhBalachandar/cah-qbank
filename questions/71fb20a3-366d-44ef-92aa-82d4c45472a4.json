@@ -1,0 +1,101 @@
+{
+  "id": "71fb20a3-366d-44ef-92aa-82d4c45472a4",
+  "stem": "Which developmental feature best explains why infants and young children are prone to ventilation–perfusion mismatch during acute respiratory illness?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fewer alveoli",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Large occiput",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Cricoid cartilage is narrowest",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Longer epiglottis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Higher resting respiratory rate",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fewer alveoli is the correct answer. Infants and young children have fewer alveoli, which increases the potential for ventilation–perfusion mismatch during acute respiratory illness.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Respiratory 3.1 Acute Respiratory Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:21:16.931Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-01-0cc4e7e8d078c06b89c6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because fewer alveoli reduce the respiratory surface area and contribute to ventilation–perfusion mismatch.",
+    "B": "Incorrect because a large occiput affects head positioning and airway alignment, not alveolar number or ventilation–perfusion matching.",
+    "C": "Incorrect because the cricoid cartilage being narrowest is an airway anatomy feature, not the reason for ventilation–perfusion mismatch.",
+    "D": "Incorrect because a longer epiglottis is an anatomical feature of the upper airway, not a cause of ventilation–perfusion mismatch.",
+    "E": "Incorrect because a higher resting respiratory rate is a physiological characteristic, not the developmental feature that explains ventilation–perfusion mismatch."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B24-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlvez70001rjv96kokautb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3376623376623377,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b7598a74-319d-4d5f-aaba-63853439e70d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "Complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:26.685Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

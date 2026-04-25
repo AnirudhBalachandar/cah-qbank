@@ -1,0 +1,103 @@
+{
+  "id": "d1c5bef4-126c-4abf-8d64-a4cf6846ca5b",
+  "stem": "A 7-year-old takes a very long time to finish meals, sips water with food, and gags on solids; which diagnosis should this pattern particularly raise?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Eosinophilic oesophagitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Acute infectious gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Simple constipation",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Viral upper respiratory infection",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Primary thrombocytopaenia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Eosinophilic oesophagitis is the most likely diagnosis because prolonged meals, frequent sipping with food, and gagging on solids are typical signs of oesophageal dysfunction in children.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 52,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:58:50.124Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B33-attempt-03-0c680960461af3123a14",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because this pattern of slow eating, drinking to help food pass, and gagging on solids is characteristic of eosinophilic oesophagitis.",
+    "B": "Incorrect because acute infectious gastroenteritis usually causes vomiting and diarrhoea rather than chronic meal-related swallowing difficulty.",
+    "C": "Incorrect because constipation does not typically present with gagging on solids or needing to sip water with meals.",
+    "D": "Incorrect because a viral upper respiratory infection does not explain a persistent pattern of oesophageal dysfunction during eating.",
+    "E": "Incorrect because primary thrombocytopaenia causes bleeding symptoms, not slow eating or gagging on solids."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B33-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn7pl60001rjwfda52ze1v",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2925170068027211,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9236df55-d813-4d01-9b72-b2122b3e75d5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B33/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Food allergy and IgE-mediated allergy",
+      "eosinophilic oesophagitis",
+      "clinical presentation",
+      "diagnostic suspicion"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:47.097Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

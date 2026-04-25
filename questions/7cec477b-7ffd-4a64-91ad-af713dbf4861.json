@@ -1,0 +1,98 @@
+{
+  "id": "7cec477b-7ffd-4a64-91ad-af713dbf4861",
+  "stem": "Which condition is most likely in a hyperopic child who develops an inward-turning eye at around 2.5 to 3 years of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Accommodative esotropia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Infantile esotropia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Intermittent exotropia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Duane syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Congenital cataract",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Accommodative esotropia is the likely diagnosis. A hyperopic child may over-accommodate to see clearly, which drives convergence and causes an inward deviation of the eyes.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "50ce816c-1b8e-4075-a288-e774cb34985c",
+      "title": "00038 ophthalmology-strabi-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.088Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a5567745b9ee31dfb4fd",
+  "rationale": "N/A",
+  "optionExplanations": {
+    "A": "Correct because hyperopia can trigger over-accommodation and associated convergence, producing an inward-turning eye in a toddler.",
+    "B": "Incorrect because infantile esotropia usually starts in early infancy and is not primarily driven by uncorrected hyperopia.",
+    "C": "Incorrect because intermittent exotropia causes an outward deviation, not an inward-turning eye.",
+    "D": "Incorrect because Duane syndrome is a congenital extraocular muscle innervation disorder, not the typical refractive cause described here.",
+    "E": "Incorrect because congenital cataract causes visual deprivation and reduced red reflex, not the classic hyperopia-related esotropia pattern."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "50ce816c-1b8e-4075-a288-e774cb34985c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall the term used for eye turning caused by the effort of focusing in longsighted children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "38",
+    "lectureTitle": "00038 ophthalmology-strabi-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7fa7385c-537f-4f72-863d-4943b3a81632",
+    "overlapScore": 0.4435483870967742,
+    "questionIndex": 4,
+    "quizFileName": "quiz_038.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2ec4072-3ecb-42bf-a62f-ad4204527b55",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:46.317Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

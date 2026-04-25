@@ -1,0 +1,102 @@
+{
+  "id": "f0fc1222-b9aa-4dda-a7d7-6161bf289557",
+  "stem": "A child has a normal renal ultrasound, and a junior doctor says this makes significant cortical defects unlikely; what is the most accurate reply?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "That is correct because ultrasound is more sensitive than DMSA for cortical defects",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "That is incorrect because DMSA is more sensitive than renal ultrasound for cortical defects and scarring",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "That is incorrect because abdominal X-ray is the most sensitive test for cortical defects",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "That is correct because DTPA is the best cortical imaging study",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "That is correct because MAG3 and ultrasound have equivalent sensitivity for cortical scarring",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "DMSA is more sensitive than renal ultrasound for cortical defects and scarring. A normal renal ultrasound does not exclude cortical abnormality as reliably as DMSA.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 76,
+      "title": "DMSA (Dimercaptosuccinic acid) Scan"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:13:05.821Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B42-attempt-03-6407698e16af91dfcb10",
+  "rationale": "DMSA is the preferred test for detecting cortical defects and scarring, so a normal ultrasound does not rule them out.",
+  "optionExplanations": {
+    "A": "Incorrect because DMSA is more sensitive than renal ultrasound for cortical defects and scarring.",
+    "B": "Correct because DMSA is more sensitive than renal ultrasound for cortical defects and scarring.",
+    "C": "Incorrect because abdominal X-ray is not the most sensitive test for cortical defects.",
+    "D": "Incorrect because DTPA is used for GFR measurement, not cortical defect detection.",
+    "E": "Incorrect because MAG3 and ultrasound are not equivalent for cortical scarring, and DMSA is the key modality for cortical defects."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B42-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpv7m80001rjinx2mnwr3m",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.337719298245614,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b9faf609-d3f3-4542-91c4-29d54068badb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B42/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "UTI and renal tract imaging",
+      "ultrasound",
+      "cortical defects"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:49.868Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

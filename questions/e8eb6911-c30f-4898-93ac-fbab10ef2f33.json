@@ -1,0 +1,102 @@
+{
+  "id": "e8eb6911-c30f-4898-93ac-fbab10ef2f33",
+  "stem": "A child has an upper neck swelling and a fluctuant, bluish mass in the floor of the mouth; what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reactive lymphadenopathy",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Midline dermoid cyst",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Plunging ranula",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Epidermoid cyst",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lymph node abscess",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Plunging ranula is the most likely diagnosis. It classically presents as a fluctuant, bluish floor-of-mouth mass that may extend into the upper neck by plunging through the mylohyoid.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 180,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:10:36.871Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B85-attempt-01-0a8b29a430f335cc5e5a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because reactive lymphadenopathy usually causes a mobile, tender node after infection, not a bluish floor-of-mouth mass.",
+    "B": "Incorrect because a dermoid cyst is typically a midline congenital cystic swelling and does not usually present as a bluish lesion in the floor of the mouth with neck extension.",
+    "C": "Correct because a plunging ranula is a mucus extravasation pseudocyst from salivary tissue that presents as a fluctuant, bluish floor-of-mouth swelling and can extend into the neck.",
+    "D": "Incorrect because an epidermoid cyst is a congenital cystic lesion, but it does not classically cause a bluish floor-of-mouth mass with upper neck swelling.",
+    "E": "Incorrect because a lymph node abscess would present as an inflamed tender neck mass rather than a fluctuant bluish mass in the floor of the mouth."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B85-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrx6h80001rjyfs8zyhivx",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3358778625954199,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "2e9e0a66-e56c-43b9-863e-1a1e3d3e2b9d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B85/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Acute and chronic neck lumps",
+      "investigation/interpretation",
+      "examination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:34.974Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

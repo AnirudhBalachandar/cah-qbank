@@ -1,0 +1,98 @@
+{
+  "id": "8c5f8d41-7f20-4920-bd69-51aaeb0e5c6f",
+  "stem": "Which clinical feature is most useful for distinguishing viral-induced wheeze or asthma from other causes of cough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A moist, productive cough",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Associated wheeze",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A brassy, metallic cough",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Resolution within 48 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sudden onset after choking",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Associated wheeze is the key clinical feature that helps distinguish viral-induced wheeze or asthma from other causes of cough.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+      "title": "00018 Acute Respiratory In-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.933Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a8f65229650629506dea",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a moist, productive cough is more suggestive of chronic suppurative lung disease or protracted bacterial bronchitis.",
+    "B": "Correct because the presence of wheeze is the main feature that helps distinguish viral-induced wheeze or asthma from other respiratory causes of cough.",
+    "C": "Incorrect because a brassy, metallic cough is more typical of airway abnormalities such as tracheomalacia.",
+    "D": "Incorrect because rapid resolution within 48 hours is not the distinguishing feature of asthma or viral-induced wheeze and is more in keeping with other acute conditions such as croup.",
+    "E": "Incorrect because sudden onset after choking suggests foreign body aspiration rather than viral-induced wheeze or asthma."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "97dd79d0-6187-4e04-851b-74787fa1f9a5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the auditory symptom that is often used synonymously with these reactive airway conditions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "18",
+    "lectureTitle": "00018 Acute Respiratory In-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f4b3b6a6-1885-4b8d-ac99-81897af8c6c4",
+    "overlapScore": 0.4594594594594595,
+    "questionIndex": 7,
+    "quizFileName": "quiz_018.json",
+    "quizTitle": "Pediatric Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1148a72c-b28f-45b8-9b88-bbe16e663569",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:18.259Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

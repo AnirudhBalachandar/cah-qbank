@@ -1,0 +1,102 @@
+{
+  "id": "8bfb0f96-a542-47a8-8eeb-856641619b23",
+  "stem": "Which growth pattern is most consistent with healthy infant growth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Serial measurements that track along percentiles with weight and length in proportion",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A single weight above the 97th percentile regardless of proportionality",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Any infant whose weight is below the 50th percentile",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Crossing down percentile lines despite preserved appetite",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Weight gain without considering length or height",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Serial measurements that track along percentiles with weight and length in proportion is the correct answer. Healthy growth is judged by the pattern over time and proportionality, rather than by one isolated measurement.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 13,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:04:56.919Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B15-attempt-02-a0cbe460479dfaa5c6f1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because healthy growth is shown by serial measurements that follow a consistent percentile pattern, with weight and length remaining proportionate.",
+    "B": "Incorrect because a single high weight measurement does not by itself indicate healthy growth and does not assess proportionality over time.",
+    "C": "Incorrect because weight below the 50th percentile can still be normal if the child is growing consistently and proportionately.",
+    "D": "Incorrect because crossing down percentile lines suggests faltering growth rather than a healthy pattern.",
+    "E": "Incorrect because growth assessment must include length or height as well as weight, with attention to proportionality."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B15-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvtfbqv0001rjozqoi8hbpe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3438914027149321,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c3630b73-aca3-48cc-9dda-302792b81142",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B15/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Growth, nutrition, and obesity",
+      "growth assessment",
+      "growth chart use"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:17.479Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

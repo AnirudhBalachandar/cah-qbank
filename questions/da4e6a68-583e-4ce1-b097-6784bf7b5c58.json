@@ -1,0 +1,102 @@
+{
+  "id": "da4e6a68-583e-4ce1-b097-6784bf7b5c58",
+  "stem": "A school-aged child with motor difficulties uses their hands to push up off the floor after lying supine; what does this best suggest?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Asymmetric weakness",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Dystonia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Proximal weakness",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Spasticity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Central hypotonia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Proximal weakness is suggested by Gower's sign, where a child uses the hands to climb up the legs or push up from the floor when rising from supine.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 115,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:51:28.683Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B62-attempt-01-6cc077b2468ae8084ce5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because asymmetric weakness is suggested by an uneven motor pattern, not by Gower's sign.",
+    "B": "Incorrect because dystonia causes abnormal posturing or twisting movements, not the classic floor-to-standing manoeuvre.",
+    "C": "Correct because Gower's sign is the use of the hands to rise from the floor, which indicates proximal muscle weakness.",
+    "D": "Incorrect because spasticity is characterised by increased tone and stiff movements, not compensatory use of the hands to stand up.",
+    "E": "Incorrect because central hypotonia refers to reduced tone from central causes, not the specific pattern of difficulty rising from the floor."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B62-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr8kjs0001rj1jajl9gfxz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.345679012345679,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6d91abb4-eafb-4d22-9edf-19d60d1a6183",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B62/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Motor difficulties",
+      "diagnostic discrimination",
+      "examination logic"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:04.783Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

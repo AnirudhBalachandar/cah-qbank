@@ -1,0 +1,98 @@
+{
+  "id": "cff3de43-e816-4dbb-b35a-a3eb3c8b75d8",
+  "stem": "In an infant with gastro-oesophageal reflux, when is a surgical opinion usually sought?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "When the infant vomits once daily without weight loss",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "When the vomiting is effortless and resolves by 6 months of age",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "When pathological complications such as respiratory aspiration or failure to thrive occur",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "When the parent requests surgery to reduce laundry",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "When the infant has mild regurgitation after feeds but is otherwise thriving",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Surgical opinion is sought when gastro-oesophageal reflux becomes pathological, such as with aspiration or poor growth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.800Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f73f6b46f9330079a246",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because occasional vomiting without weight loss is usually physiological reflux and is managed conservatively.",
+    "B": "Incorrect because reflux commonly improves spontaneously over the first months of life, so this does not indicate surgery.",
+    "C": "Correct because pathological complications such as respiratory aspiration, recurrent chest symptoms, or failure to thrive suggest clinically significant reflux that may need surgical assessment.",
+    "D": "Incorrect because surgery is based on medical indication, not parental convenience.",
+    "E": "Incorrect because mild regurgitation in a thriving infant is typical physiological reflux and does not usually require surgery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the transition from 'physiological' to 'pathological' symptoms.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b4a48073-8bac-41ef-95cf-b4dbf3bde349",
+    "overlapScore": 0.4067796610169492,
+    "questionIndex": 4,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:41.464Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

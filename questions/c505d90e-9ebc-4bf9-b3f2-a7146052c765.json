@@ -1,0 +1,98 @@
+{
+  "id": "c505d90e-9ebc-4bf9-b3f2-a7146052c765",
+  "stem": "What common surgical complication can cause a post-operative urine leak after hypospadias repair?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Urethro-cutaneous fistula",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Testicular atrophy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Phimosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hydrocele",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Urethral stricture",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Urethro-cutaneous fistula is a recognised complication of hypospadias repair, causing urine to leak from the urethra to the skin.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+      "title": "00102 surgery-inguinoscrot-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.784Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1561afe73da9a3a114c8",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a urethro-cutaneous fistula creates an abnormal connection between the urethra and skin, leading to postoperative urine leakage.",
+    "B": "Incorrect because testicular atrophy is not a typical complication of hypospadias repair and does not cause a urine leak.",
+    "C": "Incorrect because phimosis is a foreskin condition, not a postoperative leak from the repair.",
+    "D": "Incorrect because a hydrocele is a fluid collection around the testis and is unrelated to urethral repair leakage.",
+    "E": "Incorrect because a urethral stricture causes narrowing of the urethra rather than urine leaking through the skin."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7d9d8a3-94f5-443b-aa3e-8ccf1d03659c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This term describes an abnormal connection between the urethra and the skin.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "102",
+    "lectureTitle": "00102 surgery-inguinoscrot-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "18e17808-3ea6-42a6-9334-e615fb8017b5",
+    "overlapScore": 0.4130434782608696,
+    "questionIndex": 9,
+    "quizFileName": "quiz_102.json",
+    "quizTitle": "Urology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d350b8e6-1fa5-4d20-a968-7ec7a028e5e0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:19.024Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

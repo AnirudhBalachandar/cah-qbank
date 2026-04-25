@@ -1,0 +1,101 @@
+{
+  "id": "93b1b94c-8e44-4932-9d2f-d65c1330dfd0",
+  "stem": "An adolescent sustains an avulsion injury at a ligamentous attachment near a joint; which fracture grouping does this injury belong to?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Complete transverse fracture",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Incomplete greenstick fracture",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Epiphyseal fracture",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Plastic deformation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Butterfly fracture",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Epiphyseal fracture is the correct grouping. This is because epiphyseal fractures are intra-articular and include avulsion injuries of ligamentous attachments near a joint.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 155,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:22:36.160Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B76-attempt-04-57ec00f778e83f054425",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a complete transverse fracture is a shaft-pattern fracture, not the grouping for an avulsion injury at a ligamentous attachment.",
+    "B": "Incorrect because a greenstick fracture is an incomplete cortical injury, not an avulsion fracture grouping.",
+    "C": "Correct because epiphyseal fractures are intra-articular and include avulsion injuries of ligamentous attachments near a joint.",
+    "D": "Incorrect because plastic deformation is bowing without a distinct fracture line, not an avulsion injury.",
+    "E": "Incorrect because a butterfly fracture is a complete fracture pattern with a wedge fragment, not the category for avulsion injuries."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B76-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx57k630001rjq4dkp1zaku",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3283582089552239,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "707d825b-7c98-4b35-8db7-b130d35d90ae",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B76/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Paediatric fractures",
+      "common fracture patterns"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:32.208Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

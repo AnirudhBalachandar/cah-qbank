@@ -1,0 +1,102 @@
+{
+  "id": "65f678da-a863-473e-8a40-b6610b3d9ce0",
+  "stem": "A boy with a high body mass index is undergoing pubertal review during a broader developmental assessment. What practical point is most important during the examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Watch for a buried penis when assessing pubertal status",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Avoid pubertal assessment altogether",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use weight alone instead of examination",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Assume pubertal stage from age only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Assess shoe size instead of genital examination",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Watch for a buried penis when assessing pubertal status. In boys with a high BMI, this can make genital examination more difficult, so it is an important practical consideration during pubertal staging.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 94,
+      "title": "Page 94"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:25:03.726Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B16-attempt-01-723db157b4590a8b3429",
+  "rationale": "A high BMI can obscure genital examination in boys, so clinicians should recognise a buried penis when assessing pubertal status.",
+  "optionExplanations": {
+    "A": "Correct because a buried penis may be present in boys with high BMI and can affect pubertal assessment.",
+    "B": "Incorrect because pubertal assessment should still be performed as part of the clinical review.",
+    "C": "Incorrect because weight alone does not replace a physical examination of pubertal status.",
+    "D": "Incorrect because age alone is not sufficient to determine pubertal stage.",
+    "E": "Incorrect because shoe size is not part of pubertal assessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B16-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvu56vg0001rj8gm2pi9ogm",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3052631578947368,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "644ed04c-54f7-49bb-bc09-f219c59b62c1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B16/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Normal development and formal developmental assessment",
+      "support and management",
+      "structured assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:02.861Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

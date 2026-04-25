@@ -1,0 +1,102 @@
+{
+  "id": "0fecd421-81a6-468c-8c1f-f7de1b832554",
+  "stem": "A child with a limp also has hepatosplenomegaly and anaemia; what broader cause should be prioritised?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Malignancy",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Growing pains",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Developmental dysplasia of the hip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Transient synovitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Acute myositis after a viral illness",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Malignancy should be prioritised. This is because a limping child with hepatosplenomegaly and anaemia has red flag systemic features that warrant concern for malignancy rather than a simple musculoskeletal cause.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 160,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:18:06.197Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B75-attempt-03-13bc0e4be858adfb27ee",
+  "rationale": "Systemic signs alongside a limp suggest a serious underlying diagnosis rather than a benign orthopaedic problem.",
+  "optionExplanations": {
+    "A": "Correct because hepatosplenomegaly and anaemia are red flag features that make malignancy the priority in a limping child.",
+    "B": "Incorrect because growing pains do not cause hepatosplenomegaly or anaemia and are not associated with systemic red flags.",
+    "C": "Incorrect because developmental dysplasia of the hip does not explain the systemic features of hepatosplenomegaly and anaemia.",
+    "D": "Incorrect because transient synovitis may cause a limp but does not account for hepatosplenomegaly and anaemia.",
+    "E": "Incorrect because acute myositis after a viral illness can cause limp or leg pain, but not hepatosplenomegaly or anaemia."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B75-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx51rv20001rj5vzcpkeupa",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3235294117647059,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4ac3b2ed-c749-403e-bf8c-6ba0e6d490cc",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B75/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "The limping child, DDH, and hip pain",
+      "hip pain differentials",
+      "referral urgency"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:13.799Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

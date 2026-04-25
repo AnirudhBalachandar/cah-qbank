@@ -1,0 +1,98 @@
+{
+  "id": "b062d587-b7d5-45cc-9392-7275a8e550fa",
+  "stem": "A 4-year-old child has an episode of screaming and intense fear during the first third of the night, is unresponsive to his parents, and has no memory of it the next morning. What is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Nightmares",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Night terrors",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Frontal lobe epilepsy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Benign sleep myoclonus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sleepwalking",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Night terrors are the most likely diagnosis. They occur during non-REM sleep, usually in the first third of the night, and are associated with unresponsiveness and no recall the next morning.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f0675d98-245a-4db6-af56-a032c2146441",
+      "title": "00065 Approach to children-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.399Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-06466b89dcca75548180",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because nightmares usually occur during REM sleep later in the night and are typically remembered clearly.",
+    "B": "Correct because night terrors occur during non-REM sleep, usually in the first third of the night, and children are typically difficult to wake and have no recall afterwards.",
+    "C": "Incorrect because frontal lobe epilepsy may cause nocturnal events, but the classic timing, autonomic arousal, and amnesia described here are more consistent with night terrors.",
+    "D": "Incorrect because benign sleep myoclonus causes brief limb jerks during sleep, not prolonged episodes of screaming and fear.",
+    "E": "Incorrect because sleepwalking involves ambulation or complex behaviours during sleep, rather than sudden terror with screaming and marked autonomic arousal."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f0675d98-245a-4db6-af56-a032c2146441",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Note the timing within the sleep cycle and the lack of memory (recall) following the event.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "65",
+    "lectureTitle": "00065 Approach to children-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3322d2d7-61a3-44f0-ac28-fc727323ce48",
+    "overlapScore": 0.3693181818181818,
+    "questionIndex": 6,
+    "quizFileName": "quiz_065.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c12ebfa2-6602-45a3-be50-1c80e6d9c6ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:30.938Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

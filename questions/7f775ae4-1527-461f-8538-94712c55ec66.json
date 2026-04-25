@@ -1,0 +1,101 @@
+{
+  "id": "7f775ae4-1527-461f-8538-94712c55ec66",
+  "stem": "A team wants a specific long-term follow-up claim about procedural pain outcomes, but no explicit supporting text is available; which option best aligns with source rules?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Infer a standard follow-up plan from usual surgical teaching",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Draft the item anyway because follow-up questions are part of the preferred style mix",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use the question style mix as factual justification for the missing content",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Do not generate a specific follow-up claim unless explicit supporting text is available",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Substitute adult practice principles because they are usually similar",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Do not generate unsupported follow-up claims. When explicit source text is absent, the item should not invent a specific clinical outcome or follow-up statement.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 3,
+      "title": "Paediatric Surgery section listed in table of contents"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:12:34.536Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-01-ba92b80144f727439a3f",
+  "rationale": "Unsupported factual claims should not be inferred from general teaching or style guidance.",
+  "optionExplanations": {
+    "A": "Incorrect because usual teaching is external knowledge and not explicit source support.",
+    "B": "Incorrect because preferred style does not override the need for evidence-based content.",
+    "C": "Incorrect because style guidance is not factual justification for missing clinical content.",
+    "D": "Correct because a specific follow-up claim should only be generated when explicit supporting text is available.",
+    "E": "Incorrect because adult practice principles are an unsupported extrapolation for this paediatric context."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B87-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrzov60001rje46zxvxa1g",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3396226415094339,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "aadd7e37-dab2-4493-9f80-03e62db26e98",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Pain management and procedural pain",
+      "long-term management/follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:53.197Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

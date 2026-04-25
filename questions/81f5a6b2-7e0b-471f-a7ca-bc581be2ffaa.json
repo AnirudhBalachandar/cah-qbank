@@ -1,0 +1,98 @@
+{
+  "id": "81f5a6b2-7e0b-471f-a7ca-bc581be2ffaa",
+  "stem": "For how long should splints be worn after a burn to help prevent contractures?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Only at night for the first 2 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Continuously day and night for 3 months, then gradually withdrawn over 12 months",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "For 1 hour daily during physiotherapy sessions",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Until the initial skin graft has taken, usually 7 to 10 days",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Only during the day for the first month",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Continuous splinting is required for the active scar-contraction phase after a burn, then it is reduced gradually over a prolonged period.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.577Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-628571027bcab27692f7",
+  "rationale": "Hypertrophic scars continue to remodel and contract for a long time after the initial injury, so early short-term splinting is not enough.",
+  "optionExplanations": {
+    "A": "Incorrect because nighttime-only splinting for 2 weeks is too little support during the period of greatest contracture risk.",
+    "B": "Correct because continuous day-and-night splinting for the first 3 months helps control scar contraction, with gradual weaning over the following 12 months.",
+    "C": "Incorrect because brief splinting during physiotherapy does not provide ongoing stretch against scar tightening.",
+    "D": "Incorrect because the risk of contracture persists well beyond graft take and early wound healing.",
+    "E": "Incorrect because daytime-only splinting for 1 month is not enough to control the ongoing contractile forces of a burn scar."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Hypertrophic scars continue to model and contract for a long time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "df18a3dc-a463-4dd4-be26-ce7857ec3626",
+    "overlapScore": 0.4095238095238095,
+    "questionIndex": 8,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:55.976Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

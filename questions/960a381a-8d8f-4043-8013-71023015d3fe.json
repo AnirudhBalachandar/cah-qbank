@@ -1,0 +1,98 @@
+{
+  "id": "960a381a-8d8f-4043-8013-71023015d3fe",
+  "stem": "What is the estimated risk of a major malformation in a child with two minor malformations on clinical examination?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "3%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "10%",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "30%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "50%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "10% is the estimated risk of a major malformation when two minor malformations are present.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+      "title": "00061 dysmorphic syndromes-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.580Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-964369fa410801c8c7d6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because this is lower than the estimated risk associated with two minor malformations.",
+    "B": "Incorrect because this is more consistent with a child who has one minor malformation.",
+    "C": "Correct because the risk of a major malformation rises with the number of minor malformations, reaching about 10% when two are present.",
+    "D": "Incorrect because this is a higher risk than expected for two minor malformations and is more in keeping with more numerous minor anomalies.",
+    "E": "Incorrect because this is not the estimated risk for two minor malformations and overstates the association."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The risk of major anomalies increases significantly as the count of minor features rises.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "61",
+    "lectureTitle": "00061 dysmorphic syndromes-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4ac0d282-6d58-4f79-b00a-599dcef24b17",
+    "overlapScore": 0.35,
+    "questionIndex": 1,
+    "quizFileName": "quiz_061.json",
+    "quizTitle": "Dysmorphology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "18d3845c-8426-41c0-b2e5-47fa8776d878",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:34.525Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

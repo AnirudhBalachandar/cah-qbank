@@ -1,0 +1,103 @@
+{
+  "id": "d720f6ae-d17b-4348-9c09-22cde94acb3c",
+  "stem": "A child with neutropaenia now also has low haemoglobin and low platelets; what is the best interpretation of this result pattern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The problem should no longer be treated as an isolated single-cell-line abnormality",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The new results make benign ethnic neutropaenia the most likely explanation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "This pattern confirms reactive lymphocytosis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The white cell result can now be ignored because the main issue is platelet count",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "This change is expected in all children with viral suppression",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct interpretation is that this is no longer an isolated single-cell-line abnormality. When neutropaenia is accompanied by anaemia and thrombocytopaenia, the pattern suggests involvement of more than one cell line and should be assessed accordingly.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 107,
+      "title": "WBC Disorders"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:48:11.944Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B58-attempt-04-0653503fd1dd92a72274",
+  "rationale": "Multi-line cytopenia changes the interpretation of neutropaenia and should prompt review of the full blood count rather than focusing on one abnormal result.",
+  "optionExplanations": {
+    "A": "Correct because the presence of low haemoglobin and low platelets means the abnormality is no longer confined to a single cell line.",
+    "B": "Incorrect because benign ethnic neutropaenia explains isolated neutropaenia, not additional anaemia and thrombocytopaenia.",
+    "C": "Incorrect because reactive lymphocytosis is a different white cell pattern and does not account for the other cytopenias.",
+    "D": "Incorrect because the neutropaenia still matters and multiple cell lines need to be considered together.",
+    "E": "Incorrect because viral suppression can cause neutropaenia, but this broader pattern is not expected in all children with viral illness."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B58-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr4cqp0001rjv7uhk8fhit",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3492063492063492,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a1390272-bb5b-448d-94c9-32b08519bcff",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B58/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "White blood cell disorders",
+      "cytopenias",
+      "monitoring",
+      "referral"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:58.429Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

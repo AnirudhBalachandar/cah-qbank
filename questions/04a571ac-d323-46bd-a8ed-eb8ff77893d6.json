@@ -1,0 +1,98 @@
+{
+  "id": "04a571ac-d323-46bd-a8ed-eb8ff77893d6",
+  "stem": "A child presents with neutropenia, failure to thrive, and steatorrhoea, which syndrome should be considered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Kostmann syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Shwachman-Diamond syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Systemic lupus erythematosus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Aplastic anaemia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Wiskott-Aldrich syndrome",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Shwachman-Diamond syndrome is the correct answer because it classically causes neutropenia, failure to thrive, and pancreatic insufficiency leading to steatorrhoea.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.252Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-571de945fb670b71d24b",
+  "rationale": "It is a genetic bone marrow failure syndrome with exocrine pancreatic dysfunction.",
+  "optionExplanations": {
+    "A": "Incorrect because Kostmann syndrome causes severe congenital neutropenia but does not typically cause primary pancreatic insufficiency.",
+    "B": "Correct because Shwachman-Diamond syndrome classically combines neutropenia, poor growth, and exocrine pancreatic insufficiency.",
+    "C": "Incorrect because systemic lupus erythematosus can cause cytopenias, but it does not typically cause this pattern of pancreatic insufficiency in a child.",
+    "D": "Incorrect because aplastic anaemia causes bone marrow failure, but it is not characterised by pancreatic insufficiency and steatorrhoea.",
+    "E": "Incorrect because Wiskott-Aldrich syndrome is characterised by eczema, thrombocytopenia, and immune dysfunction rather than pancreatic insufficiency."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This specific genetic condition links blood cell production problems with digestive issues.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "35e1abb4-05ff-4a71-b789-24c325396c46",
+    "overlapScore": 0.3759398496240601,
+    "questionIndex": 10,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:48.661Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

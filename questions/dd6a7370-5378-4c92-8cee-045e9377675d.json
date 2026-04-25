@@ -1,0 +1,98 @@
+{
+  "id": "dd6a7370-5378-4c92-8cee-045e9377675d",
+  "stem": "Why should mucous membranes and conjunctiva be checked rather than skin complexion alone when assessing a child for anaemia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Skin complexion can be misleading due to natural paleness or general illness",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Jaundice is only visible in the mucous membranes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Skin colour only changes in acute blood loss",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Red blood cells do not circulate near the skin surface in children",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Conjunctival colour is unaffected by haemoglobin level",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Skin complexion can be misleading because a child may be naturally fair or appear pale from general illness even when haemoglobin is normal. Checking the mucous membranes and conjunctiva gives a more reliable assessment of anaemia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+      "title": "00062 TK Haematology_Red b-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.836Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-83089f14d1ecc24b3a2f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because skin complexion can be misleading due to natural paleness or general illness, so it is a less reliable sign of anaemia.",
+    "B": "Incorrect because jaundice can be seen in the sclera and other tissues, but that is not the reason mucous membranes and conjunctiva are preferred for anaemia assessment.",
+    "C": "Incorrect because skin colour may be affected in both acute and chronic illness, and it is not limited to acute blood loss.",
+    "D": "Incorrect because red blood cells do circulate near the skin surface; the issue is that skin colour is an unreliable marker because of natural complexion and illness-related pallor.",
+    "E": "Incorrect because conjunctival colour can reflect haemoglobin level and is therefore useful when assessing for anaemia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3bf4bef-6a7a-484f-bf47-9fead7432e9d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider factors like ethnicity, natural coloring, and how the body reacts to general illness beyond blood count.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "62",
+    "lectureTitle": "00062 TK Haematology_Red b-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fea3a844-3299-492c-84df-2c48826d4323",
+    "overlapScore": 0.448,
+    "questionIndex": 4,
+    "quizFileName": "quiz_062.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bd5904a3-c1dc-4487-8b94-985662f8fe69",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:11.231Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

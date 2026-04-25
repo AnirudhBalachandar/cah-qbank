@@ -1,0 +1,98 @@
+{
+  "id": "afe5db9e-002c-4c07-97c0-5d189a6b530a",
+  "stem": "Which of the following is not a potential differential diagnosis for acquired palatal injury in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Burn from hot food",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Immune thrombocytopenic purpura",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sexual abuse",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Congenital cleft palate",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Infectious stomatitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Congenital cleft palate is the correct answer because it is a developmental anomaly rather than an acquired cause of palatal injury.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+      "title": "00081 Dentistry_infections-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.762Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c41bb110dc0569309a90",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because burns from hot food are a recognised acquired cause of palatal damage.",
+    "B": "Incorrect because immune thrombocytopenic purpura can present with oral findings that may be considered in the differential.",
+    "C": "Incorrect because sexual abuse is an important cause of acquired palatal trauma to consider.",
+    "D": "Correct because congenital cleft palate is a developmental anomaly rather than an acquired cause of palatal injury.",
+    "E": "Incorrect because infectious stomatitis can cause oral mucosal lesions that may enter the differential for palate abnormalities."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4dd7e2b7-d480-4ee6-a75c-2d3df9e0632c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The differentials mentioned include accidental burns, systemic medical conditions, and intentional trauma.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "81",
+    "lectureTitle": "00081 Dentistry_infections-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "218a47e9-ff26-4603-92ab-53b39fc8d64d",
+    "overlapScore": 0.4504504504504505,
+    "questionIndex": 8,
+    "quizFileName": "quiz_081.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0b63884-45a6-42c2-bb61-89ab7f81259e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:29.576Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

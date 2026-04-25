@@ -1,0 +1,102 @@
+{
+  "id": "caa13bd5-e445-4f66-a74f-c445fa32533e",
+  "stem": "Which child qualifies for NIP-funded influenza vaccination because of age alone in 2025?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A healthy 4-month-old infant",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A healthy 3-year-old child",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A healthy 5-year-old child",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A healthy 10-year-old child",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A healthy 15-year-old adolescent",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A healthy 3-year-old child qualifies for NIP-funded influenza vaccination on age alone because the funded age group is 6 months to less than 5 years.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 61,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:38.923Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B38-attempt-02-fa5a6bec207c2b9d0fc3",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the funded age group starts at 6 months, so a 4-month-old is too young",
+    "B": "Correct because a healthy child aged 3 years falls within the 6 months to less than 5 years funded age group",
+    "C": "Incorrect because a healthy child aged 5 years is not funded on age alone once they reach the fifth birthday",
+    "D": "Incorrect because a healthy 10-year-old does not qualify for NIP-funded influenza vaccination on age alone",
+    "E": "Incorrect because a healthy 15-year-old does not qualify for NIP-funded influenza vaccination on age alone"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B38-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpo7ci0001rj84hdpm2z39",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3040540540540541,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fa8b689d-c5e7-4f57-bc08-38e73c5b5671",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B38/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "National schedule and special populations",
+      "influenza",
+      "funding eligibility"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:33.560Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

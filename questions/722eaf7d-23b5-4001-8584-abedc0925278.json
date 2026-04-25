@@ -1,0 +1,102 @@
+{
+  "id": "722eaf7d-23b5-4001-8584-abedc0925278",
+  "stem": "Which set of ages matches the NSW Blue Book developmental surveillance schedule?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "6 weeks, 6 months, 12 months, 18 months, 5 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "3 months, 9 months, 18 months, 3 years, 5 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6 months, 12 months, 18 months, 2 years, 3 years, 4 years",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "12 months, 24 months, 36 months only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Birth, 6 months, 1 year, 5 years only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "NSW Blue Book developmental surveillance is scheduled at 6 months, 12 months, 18 months, 2 years, 3 years, and 4 years.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 15,
+      "title": "Developmental Delay / Developmental Surveillance"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:26:54.636Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B16-attempt-02-86395aca3a5ef8f8d8a0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because these ages do not match the Blue Book schedule and omit several listed surveillance points.",
+    "B": "Incorrect because these ages are not the standard NSW Blue Book surveillance ages.",
+    "C": "Correct because the NSW Blue Book schedule includes developmental surveillance at 6 months, 12 months, 18 months, 2 years, 3 years, and 4 years.",
+    "D": "Incorrect because the schedule includes six surveillance points, not only three age points.",
+    "E": "Incorrect because the Blue Book surveillance schedule does not use this set of ages."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B16-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvu7ki80001rj1pmjzd8ns2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3291139240506329,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4f3e76f8-6432-4cfc-a8d4-4b9b7f5761d6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B16/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Normal development and formal developmental assessment",
+      "developmental surveillance",
+      "Blue Book"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:27.674Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

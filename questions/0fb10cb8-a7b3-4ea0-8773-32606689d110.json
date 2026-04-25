@@ -1,0 +1,98 @@
+{
+  "id": "0fb10cb8-a7b3-4ea0-8773-32606689d110",
+  "stem": "What is the recommended technique for removing a non-battery foreign body from a child’s nose with a curette?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Push the object medially then rotate it out",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Insert the curette above the object, pull down, then pull forward",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Use a twisting motion to screw the curette into the object",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Apply suction directly to the front of the object",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Grasp the object with forceps and pull straight out",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Insert the curette above the object, pull down, then pull forward is the correct technique for hooking a nasal foreign body and removing it safely.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+      "title": "00003 ENT_nose-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.382Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7dc49447caa410c5722c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because pushing the object can drive it deeper into the nasal cavity and increase the risk of trauma or aspiration.",
+    "B": "Correct because placing the curette above the object and then drawing it down and forward hooks the foreign body and brings it out of the nostril.",
+    "C": "Incorrect because a twisting motion is more likely to dislodge the object unpredictably or injure the nasal mucosa.",
+    "D": "Incorrect because suction is not the recommended curette technique for this manoeuvre and may not effectively engage the object.",
+    "E": "Incorrect because forceps are not the described tool for this mechanical curette technique and straight traction may push the object posteriorly."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "356a01e7-8f80-4bc2-988e-f47c5526d65a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The technique involves moving the instrument behind the object to create leverage.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "3",
+    "lectureTitle": "00003 ENT_nose-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4d7ff3c1-6894-40a5-8bd1-fc4cab3a9f52",
+    "overlapScore": 0.3813559322033898,
+    "questionIndex": 2,
+    "quizFileName": "quiz_003.json",
+    "quizTitle": "Rhinology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2bcb4c85-ae5a-4aff-97a5-112b3fd58317",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:12.927Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

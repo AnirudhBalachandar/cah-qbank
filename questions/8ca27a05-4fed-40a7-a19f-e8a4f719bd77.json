@@ -1,0 +1,103 @@
+{
+  "id": "8ca27a05-4fed-40a7-a19f-e8a4f719bd77",
+  "stem": "Which broader chapter contains the most directly relevant sections for congenital malformations and syndrome recognition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Genetics",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Rheumatology",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Paediatric Surgery",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Red cell disorders",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Musculoskeletal symptoms",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Genetics is the correct answer because the chapter includes congenital malformations and common genetic syndromes, which are the most directly relevant sections for dysmorphology and syndrome recognition.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 3,
+      "title": "Genetics chapter contents"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:02:18.152Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B67-attempt-02-27b2d1b4f4fe95daff54",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the Genetics chapter includes congenital malformations and common genetic syndromes.",
+    "B": "Incorrect because Rheumatology focuses on inflammatory and autoimmune conditions, not dysmorphology.",
+    "C": "Incorrect because Paediatric Surgery covers surgical conditions rather than the main genetics chapter content for syndrome recognition.",
+    "D": "Incorrect because red cell disorders are haematology topics and not the relevant chapter for congenital malformations.",
+    "E": "Incorrect because musculoskeletal symptoms are not the primary chapter for congenital malformations and syndrome recognition."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B67-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4hgc80001rjhijw1s8wav",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3177083333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fcef9601-49e1-40fb-b562-9ad21884f17f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B67/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Congenital malformations and dysmorphology approach",
+      "congenital malformations",
+      "pattern recognition in dysmorphology",
+      "genetics"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:19.235Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

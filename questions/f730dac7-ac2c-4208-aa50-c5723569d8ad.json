@@ -1,0 +1,98 @@
+{
+  "id": "f730dac7-ac2c-4208-aa50-c5723569d8ad",
+  "stem": "What is an accessory pathway in the pathophysiology of supraventricular tachycardia?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An extra muscle bundle that bridges the insulating fibrous layer between the atria and ventricles",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A specialised part of the His-Purkinje system that speeds up normal conduction",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A backup pacemaker located in the ventricular myocardium",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A blockage within the AV node that forces electricity through the atria",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "An inflammatory scar that permanently prevents AV nodal conduction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Accessory pathway: an extra muscle bundle that bridges the insulating fibrous layer between the atria and ventricles. This is because this abnormal electrical connection bypasses the normal insulating separation and can allow re-entry circuits that cause SVT.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.062Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-503807c787fd537e5274",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because an accessory pathway is an abnormal extra muscular connection between the atria and ventricles that bypasses the insulating fibrous tissue.",
+    "B": "Incorrect because the His-Purkinje system is part of the normal conduction pathway, not an abnormal bridging connection.",
+    "C": "Incorrect because a backup pacemaker generates impulses; an accessory pathway conducts impulses between chambers.",
+    "D": "Incorrect because an accessory pathway is an extra route, not an AV nodal blockage.",
+    "E": "Incorrect because scar tissue may impair conduction, but it does not describe an accessory pathway."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of it as an unintended electrical bridge between two chambers.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e911291c-c4c3-47d9-bceb-2b0bef0aea95",
+    "overlapScore": 0.3934426229508197,
+    "questionIndex": 7,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:06.708Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

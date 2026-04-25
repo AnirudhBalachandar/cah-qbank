@@ -1,0 +1,98 @@
+{
+  "id": "c51aa882-eea3-4fb9-a0cb-70fea5ac00cd",
+  "stem": "For the classification of juvenile idiopathic arthritis, symptoms must persist for at least how long?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "3 months",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "6 months",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "6 weeks is the minimum duration required for juvenile idiopathic arthritis classification.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.653Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-32cd8389979e7f4a752b",
+  "rationale": "This duration helps distinguish chronic inflammatory arthritis from transient or reactive causes of joint symptoms.",
+  "optionExplanations": {
+    "A": "Incorrect because 2 weeks is too short and may reflect a transient viral or reactive arthritis.",
+    "B": "Incorrect because 4 weeks does not meet the classification threshold for juvenile idiopathic arthritis.",
+    "C": "Correct because juvenile idiopathic arthritis requires arthritis to persist for at least 6 weeks.",
+    "D": "Incorrect because 3 months is longer than the required classification period and would delay diagnosis.",
+    "E": "Incorrect because 6 months is far beyond the required threshold for classification."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This timeframe is used to differentiate chronic inflammation from transient conditions that resolve spontaneously.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b1ccd830-9f93-4203-9f09-f9b09e3f64ef",
+    "overlapScore": 0.4339622641509434,
+    "questionIndex": 2,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:18.351Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

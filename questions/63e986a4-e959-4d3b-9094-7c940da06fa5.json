@@ -1,0 +1,102 @@
+{
+  "id": "63e986a4-e959-4d3b-9094-7c940da06fa5",
+  "stem": "Which group most commonly experiences these respiratory tract infections in winter?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Older adults in summer",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Adolescents year-round",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Young children in winter",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Neonates only in spring",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Healthy adults in autumn",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Young children in winter is the correct answer. These respiratory tract infections are most prevalent in young children during the winter months.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:37:37.302Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-01-4220c61f439162dd2e4e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the group described is young children in winter, not older adults in summer.",
+    "B": "Incorrect because the pattern is not year-round in adolescents.",
+    "C": "Correct because these respiratory tract infections are most prevalent among young children in winter.",
+    "D": "Incorrect because the condition is not limited to neonates or spring.",
+    "E": "Incorrect because healthy adults in autumn are not the main group described."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B25-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmgfha0001rjnhqxhoiy7c",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3287671232876712,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ea9a5c7a-1fc2-414b-8286-8356cda348d3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "Respiratory",
+      "Acute Respiratory Problems"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:01.621Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "1741b2ed-74da-4988-8d42-8f6b412319ed",
+  "stem": "Which enzyme converts bilirubin to its water-soluble diglucuronide form within hepatocytes?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bilirubin UDP-glucuronosyltransferase",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Heme oxygenase",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Biliverdin reductase",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Albumin",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Glucose-6-phosphatase",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bilirubin UDP-glucuronosyltransferase conjugates bilirubin with glucuronic acid in hepatocytes, producing a water-soluble form that can be excreted in bile.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+      "title": "00025 GI What not to miss-audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.088Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-77f67673a7e6c9f0ace9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because bilirubin UDP-glucuronosyltransferase catalyses bilirubin conjugation with glucuronic acid, making it water-soluble for biliary excretion.",
+    "B": "Incorrect because heme oxygenase breaks down heme to biliverdin in the earlier stage of bilirubin production.",
+    "C": "Incorrect because biliverdin reductase converts biliverdin to unconjugated bilirubin rather than conjugating bilirubin.",
+    "D": "Incorrect because albumin transports unconjugated bilirubin in blood and does not catalyse its conversion.",
+    "E": "Incorrect because glucose-6-phosphatase is involved in glucose metabolism, not bilirubin conjugation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "d2182eb7-9fe8-48a3-ab7f-d140bca8180f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This enzyme facilitates the transition of bilirubin from a fat-soluble to a water-soluble state.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "25",
+    "lectureTitle": "00025 GI What not to miss-audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "42290543-5deb-4489-b55e-aee77262bcbd",
+    "overlapScore": 0.3770491803278688,
+    "questionIndex": 3,
+    "quizFileName": "quiz_025.json",
+    "quizTitle": "GASTRO QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "84eb22eb-f362-4c9e-a785-1bde3602be44",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:26.171Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

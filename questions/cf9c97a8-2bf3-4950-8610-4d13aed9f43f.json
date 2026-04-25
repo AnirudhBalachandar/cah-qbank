@@ -1,0 +1,102 @@
+{
+  "id": "cf9c97a8-2bf3-4950-8610-4d13aed9f43f",
+  "stem": "An infant with growth concerns arches her back repeatedly during feeds and has abnormal neck posturing; which reflux-associated syndrome does this describe?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Melaena",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sandifer's syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Familial short stature",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Constitutional delay of growth and puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Physiological reflux with normal growth",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sandifer's syndrome is the reflux-associated syndrome characterised by abnormal neck posturing and recurrent back arching during feeds.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 24,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf p.24"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:49:28.395Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B18-attempt-02-bb8b68079d14c85a5cce",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because melaena refers to black, tarry stools from gastrointestinal bleeding, not feeding-associated posturing",
+    "B": "Correct because Sandifer's syndrome is characterised by dystonic neck posturing and back arching associated with gastro-oesophageal reflux",
+    "C": "Incorrect because familial short stature explains a growth pattern, not abnormal posturing during feeds",
+    "D": "Incorrect because constitutional delay of growth and puberty affects growth and pubertal timing, not reflux-related movements",
+    "E": "Incorrect because physiological reflux with normal growth would not typically cause abnormal neck posturing or repeated back arching during feeds"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B18-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwr5zqc0001rjksue8djnif",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3443708609271523,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c835fbbb-745d-4b57-af38-790432cf4009",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B18/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Faltering growth",
+      "feeding history",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:38.647Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

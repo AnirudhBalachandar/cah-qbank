@@ -1,0 +1,98 @@
+{
+  "id": "125514b6-f452-412c-98e3-28da78990d58",
+  "stem": "In which patient group are beta-blockers such as atenolol specifically contraindicated?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Patients with asthma",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Patients with renal scarring",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Patients with obesity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Neonates with vascular anomalies",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Patients with diabetes mellitus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Beta-blockers are contraindicated in patients with asthma because they can precipitate bronchospasm and worsen airflow obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.234Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b7fd7660ba32da16e7bb",
+  "rationale": "The key issue is the risk of bronchospasm in patients with reactive airways disease.",
+  "optionExplanations": {
+    "A": "Correct because beta-blockers can trigger bronchospasm and worsen asthma symptoms.",
+    "B": "Incorrect because renal scarring is not a specific contraindication to beta-blocker use.",
+    "C": "Incorrect because obesity alone does not contraindicate beta-blockers.",
+    "D": "Incorrect because vascular anomalies are not the classic reason to avoid beta-blockers in this context.",
+    "E": "Incorrect because diabetes mellitus is not a specific contraindication to beta-blockers, although they may mask some hypoglycaemia symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the respiratory condition that precludes the use of this drug class.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "809655c1-b2ab-470c-9d60-b8996ed9583c",
+    "overlapScore": 0.3684210526315789,
+    "questionIndex": 10,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:18.098Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

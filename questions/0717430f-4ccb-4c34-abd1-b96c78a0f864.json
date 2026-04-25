@@ -1,0 +1,98 @@
+{
+  "id": "0717430f-4ccb-4c34-abd1-b96c78a0f864",
+  "stem": "What is the recommended management for a child who has fully recovered from a single simple febrile convulsion and is otherwise well?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Admission for 24-hour observation and urgent EEG",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Daily prophylactic anti-seizure medication",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Treat the underlying cause of the fever and discharge the child if stable",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Immediate loading dose of phenobarbital",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Routine lumbar puncture and neuroimaging",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Treat the underlying cause of the fever and discharge the child if stable. In a child who has returned to baseline after a single simple febrile convulsion, management focuses on the fever source rather than ongoing seizure treatment.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f0675d98-245a-4db6-af56-a032c2146441",
+      "title": "00065 Approach to children-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.469Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-50de093a50bc690a799b",
+  "rationale": "The child is well after a simple febrile convulsion, so the appropriate approach is to treat the fever source and allow discharge if they remain clinically stable.",
+  "optionExplanations": {
+    "A": "Incorrect because simple febrile convulsions in a well child who has fully recovered do not usually need admission or urgent EEG.",
+    "B": "Incorrect because routine daily prophylactic anti-seizure medication is not indicated after a single simple febrile convulsion.",
+    "C": "Correct because management is directed at the underlying cause of the fever, and a stable child who has returned to baseline can usually be discharged.",
+    "D": "Incorrect because phenobarbital loading is unnecessary for a brief self-limited febrile seizure that has already stopped.",
+    "E": "Incorrect because routine lumbar puncture and neuroimaging are not required for a straightforward simple febrile convulsion in a well child."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f0675d98-245a-4db6-af56-a032c2146441",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The primary focus should be on the source of the fever rather than the seizure itself if the child is now baseline.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "65",
+    "lectureTitle": "00065 Approach to children-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "867f33de-1446-4edf-b74f-4698f90933d0",
+    "overlapScore": 0.3884297520661157,
+    "questionIndex": 8,
+    "quizFileName": "quiz_065.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c12ebfa2-6602-45a3-be50-1c80e6d9c6ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:56.852Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

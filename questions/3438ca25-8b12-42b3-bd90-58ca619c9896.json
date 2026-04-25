@@ -1,0 +1,98 @@
+{
+  "id": "3438ca25-8b12-42b3-bd90-58ca619c9896",
+  "stem": "What is the primary pathological cause of Duchenne muscular dystrophy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reduced dystrophin protein",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Total absence of the dystrophin protein",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Demyelination of peripheral nerves",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Anterior horn cell degeneration",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Defective myelin production in skeletal muscle",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Total absence of dystrophin is the underlying defect in Duchenne muscular dystrophy, leading to progressive muscle fibre breakdown and weakness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.888Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bc6e7e0d23a12d7257fc",
+  "rationale": "Duchenne muscular dystrophy is caused by complete loss of dystrophin, whereas Becker muscular dystrophy involves reduced or abnormal dystrophin.",
+  "optionExplanations": {
+    "A": "Incorrect because reduced dystrophin is more consistent with Becker muscular dystrophy, not Duchenne muscular dystrophy.",
+    "B": "Correct because Duchenne muscular dystrophy results from a complete absence of dystrophin, causing progressive muscle fibre degeneration.",
+    "C": "Incorrect because demyelination of peripheral nerves causes neuropathic disorders, not primary muscular dystrophy.",
+    "D": "Incorrect because anterior horn cell degeneration is seen in disorders such as spinal muscular atrophy, not Duchenne muscular dystrophy.",
+    "E": "Incorrect because skeletal muscle does not produce myelin; myelin defects are a feature of neuropathies rather than muscular dystrophies."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Distinguish between a complete lack of a specific muscle protein and a merely reduced amount.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e66afff6-c26b-4498-9af2-c2299b21fad3",
+    "overlapScore": 0.4647887323943662,
+    "questionIndex": 3,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:26.654Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

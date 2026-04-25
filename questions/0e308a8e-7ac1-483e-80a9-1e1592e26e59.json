@@ -1,0 +1,98 @@
+{
+  "id": "0e308a8e-7ac1-483e-80a9-1e1592e26e59",
+  "stem": "What is the most likely cause of redness at the foreskin in a boy who is still wearing nappies?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A true bacterial infection requiring systemic antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Ammonia dermatitis caused by a reaction to urine",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Early balanitis xerotica obliterans",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The accumulation of retained smegma under the foreskin",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A fungal infection causing candidal balanitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ammonia dermatitis is the most likely cause. In boys still in nappies, redness at the foreskin is often due to urine-related skin irritation rather than bacterial infection or a chronic penile disorder.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.936Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-26dddbc89870268e6e19",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because true bacterial infection is less likely than simple urine-related irritation in a boy still wearing nappies.",
+    "B": "Correct because urine exposure in a nappy can cause ammonia dermatitis, leading to local redness at the foreskin.",
+    "C": "Incorrect because balanitis xerotica obliterans is a chronic scarring condition and does not typically present as simple nappy-related redness.",
+    "D": "Incorrect because retained smegma is usually seen as benign debris or pearly lumps rather than diffuse erythema.",
+    "E": "Incorrect because candidal balanitis is not the typical explanation for foreskin redness in a boy still in nappies."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the environmental factors associated with wearing nappies and the chemical nature of urine.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "dffdcf8a-4668-4eaf-b7aa-dfc2a9bc0bbc",
+    "overlapScore": 0.4017857142857143,
+    "questionIndex": 3,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:11.763Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "5e0cd26c-1298-419f-b8b3-163079b619a3",
+  "stem": "An 8-year-old child with a very restrictive diet develops progressive spastic paraparesis; which potentially vitamin-responsive cause should be considered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vitamin B12 deficiency",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Vitamin C deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Vitamin K deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Zinc deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Vitamin A deficiency",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vitamin B12 deficiency is the best answer because restrictive diets can cause reversible nutritional neurological disease, and B12 deficiency is a recognised cause of progressive spastic paraparesis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 121,
+      "title": "What Not to Miss in Neurology"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:57:32.989Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B64-attempt-02-373ff44d02d239086386",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because vitamin B12 deficiency can cause progressive spastic paraparesis and should be considered in a child with a restrictive diet.",
+    "B": "Incorrect because vitamin C deficiency does not fit the classic vitamin-responsive neurological cause of spastic paraparesis here.",
+    "C": "Incorrect because vitamin K deficiency is associated with bleeding problems rather than this neurological presentation.",
+    "D": "Incorrect because zinc deficiency is not the key vitamin-responsive explanation for progressive spastic paraparesis.",
+    "E": "Incorrect because vitamin A deficiency is not the recognised cause of this neurological syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B64-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrgdna0001rjcplpp6uded",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.349112426035503,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9236df55-d813-4d01-9b72-b2122b3e75d5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B64/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "What not to miss in neurology",
+      "dangerous differentials",
+      "vitamin-responsive conditions"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:49.806Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

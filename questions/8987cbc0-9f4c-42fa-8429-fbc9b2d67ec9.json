@@ -1,0 +1,102 @@
+{
+  "id": "8987cbc0-9f4c-42fa-8429-fbc9b2d67ec9",
+  "stem": "Which instrument is specifically named for removing a nasal foreign body?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Metal ear curette",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Otoscope with speculum",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Light source",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Tongue depressor",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Topical anaesthetic",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Metal ear curette. This is because this is the instrument specifically named for nasal foreign body removal; a decongestant or topical anaesthetic may be used as an adjunct, but they do not replace the extraction tool.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 8,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:17:56.093Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B23-attempt-01-4573b9abcf7cb52568aa",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a metal ear curette is the specifically named instrument used to remove the nasal foreign body.",
+    "B": "Incorrect because an otoscope with speculum is used for examination rather than removal.",
+    "C": "Incorrect because a light source helps with visualisation but is not the removal instrument.",
+    "D": "Incorrect because a tongue depressor is not the named tool for extracting a nasal foreign body.",
+    "E": "Incorrect because topical anaesthetic may assist comfort, but it is not the instrument used to remove the object."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B23-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlr3zo0001rjs4rrtz3ugs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3417721518987342,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "eefa99f5-b215-48fb-9a61-2b92472a26b5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B23/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nose and throat",
+      "nasal foreign body",
+      "Management and follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:11.536Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

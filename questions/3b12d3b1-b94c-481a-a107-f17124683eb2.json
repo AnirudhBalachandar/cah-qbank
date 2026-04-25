@@ -1,0 +1,98 @@
+{
+  "id": "3b12d3b1-b94c-481a-a107-f17124683eb2",
+  "stem": "What is the standard advice for toothpaste use in children under 6 years of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a mere swipe of fluoride toothpaste",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Use a pea-sized amount of fluoride toothpaste",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Avoid fluoride toothpaste until permanent teeth appear",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use a large dollop of fluoride toothpaste",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Use no toothpaste at all until age 6",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A mere swipe of fluoride toothpaste is recommended for children under 6 years of age to provide topical fluoride while limiting the amount swallowed.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+      "title": "00083 Dentistry_oral soft -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.975Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-29a0a7c05b719cad8182",
+  "rationale": "The recommended amount for younger children is smaller than the pea-sized amount used in older children.",
+  "optionExplanations": {
+    "A": "Correct because a mere swipe provides fluoride exposure while reducing the risk of swallowing excess toothpaste.",
+    "B": "Incorrect because a pea-sized amount is generally used for older children, not children under 6 years of age.",
+    "C": "Incorrect because fluoride toothpaste is still recommended in young children to help prevent dental caries.",
+    "D": "Incorrect because a large amount increases the risk of ingestion and is not recommended for young children.",
+    "E": "Incorrect because young children should still use fluoride toothpaste; the key is using a very small amount."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "091ca99f-dfa7-4b45-b9e7-9d6844e8e4d0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The amount for younger children is significantly smaller than the 'pea-sized' amount used for older kids.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "83",
+    "lectureTitle": "00083 Dentistry_oral soft -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+    "overlapScore": 0.5384615384615384,
+    "questionIndex": 5,
+    "quizFileName": "quiz_083.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "46c61eb6-2843-4776-b9f5-4a17aa8a6159",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:37.561Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

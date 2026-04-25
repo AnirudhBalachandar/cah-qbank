@@ -1,0 +1,98 @@
+{
+  "id": "446eafc6-66cd-41c8-8608-eb6681f41e4d",
+  "stem": "Which component of the PHACE syndrome mnemonic refers to posterior fossa abnormalities?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hepatic cirrhosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Posterior fossa anomalies",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Abdominal wall defects",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Endocrine dysfunction",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cardiac defects",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Posterior fossa anomalies are the correct component of the PHACE syndrome mnemonic. The P in PHACE refers to posterior fossa anomalies, which include malformations such as Dandy-Walker malformation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "651161ab-7aa6-4015-9094-af11087f07a7",
+      "title": "00057 dermatology-birthmar-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.061Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7c3cbe5d760f5bd2a5fa",
+  "rationale": "The mnemonic PHACE includes posterior fossa anomalies as one of its defining features.",
+  "optionExplanations": {
+    "A": "Incorrect because hepatic cirrhosis is not part of the PHACE mnemonic.",
+    "B": "Correct because the P in PHACE stands for posterior fossa anomalies.",
+    "C": "Incorrect because abdominal wall defects are not included in PHACE; the A stands for arterial anomalies.",
+    "D": "Incorrect because endocrine dysfunction is not part of the PHACE mnemonic; the E relates to eye abnormalities.",
+    "E": "Incorrect because cardiac defects are not part of the PHACE acronym."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "651161ab-7aa6-4015-9094-af11087f07a7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This letter in the mnemonic refers to brain malformations, specifically in the back part of the skull.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "57",
+    "lectureTitle": "00057 dermatology-birthmar-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "96ce56e4-b56d-42b4-b5a2-4f877f34f66c",
+    "overlapScore": 0.5,
+    "questionIndex": 11,
+    "quizFileName": "quiz_057.json",
+    "quizTitle": "Birthmarks Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "20e0586d-bbe4-420b-b1b6-45c1b32a123b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:58.235Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

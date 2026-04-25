@@ -1,0 +1,102 @@
+{
+  "id": "32e4c7dd-02f6-4616-88a0-62b1ce039e38",
+  "stem": "In a child with suspected inhaled foreign body, what abnormality are inspiratory and expiratory chest radiographs mainly intended to assess?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Air trapping",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pleural effusion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Cardiomegaly",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Free subdiaphragmatic gas",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Skull fracture",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Air trapping is the main abnormality assessed on inspiratory and expiratory chest radiographs when an inhaled foreign body is suspected.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 141,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:13:27.895Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B71-attempt-03-4349af177cf344c46815",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because expiratory films can show unilateral or focal air trapping from partial airway obstruction by an inhaled foreign body.",
+    "B": "Incorrect because pleural effusion is not the main target of inspiratory and expiratory views in suspected airway foreign body.",
+    "C": "Incorrect because cardiomegaly is not what these views are used to assess in this setting.",
+    "D": "Incorrect because free subdiaphragmatic gas is assessed on abdominal or erect chest imaging for perforation, not foreign body air trapping.",
+    "E": "Incorrect because skull fracture is unrelated to chest radiography for a suspected inhaled foreign body."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": null,
+  "source": {
+    "batchId": "B71-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4vt450001rj3l2f43wj0l",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f4a9a7db-a37d-4d1f-94c9-2e74bba97f9f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B71/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Foreign body aspiration and ingestion",
+      "imaging logic",
+      "airway foreign body"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:24.339Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

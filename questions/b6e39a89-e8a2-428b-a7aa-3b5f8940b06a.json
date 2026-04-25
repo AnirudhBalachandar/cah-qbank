@@ -1,0 +1,101 @@
+{
+  "id": "b6e39a89-e8a2-428b-a7aa-3b5f8940b06a",
+  "stem": "A child with acute abdominal pain is lying very still with the hips flexed; what condition is this posture most suggestive of?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Constipation",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Psychosocial stress",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Peritonitis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Polyuria-related pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Diet-related discomfort",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Peritonitis is the best answer. A child with peritonitis may lie very still and keep the hips flexed because movement worsens abdominal pain.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 170,
+      "title": "Approach to Acute Abdominal Pain"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:27:11.366Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B80-attempt-02-a0e23e6ca36654542774",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because constipation does not typically cause the characteristic still, hips-flexed posture described here.",
+    "B": "Incorrect because psychosocial stress may contribute to symptoms, but it does not explain this peritonitic guarding posture.",
+    "C": "Correct because peritonitis commonly causes a child to lie motionless with the hips flexed to reduce pain from peritoneal irritation.",
+    "D": "Incorrect because polyuria is a urinary symptom and is not associated with this abdominal posture.",
+    "E": "Incorrect because diet-related discomfort does not produce the classic still, hips-flexed posture of peritonitis."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B80-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5dgin0001rji3h00kre59",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.328,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "cfb5ba8f-b8b7-4dbb-afd3-1d8d9eeed421",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B80/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Approach to acute abdominal pain",
+      "examination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:41.636Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "edcfb6de-e43b-416a-9df9-f9ba86bc1108",
+  "stem": "A child presents with leukocoria; which condition should be suspected until proven otherwise?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Congenital cataract",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Retinoblastoma",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Coats disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Persistent fetal vasculature",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ocular toxocariasis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Retinoblastoma is the correct answer because leukocoria in a child is a red flag for this potentially life-threatening intraocular malignancy and must be excluded first.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.922Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ab3105e673a0df7c15d6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because congenital cataract can cause a white pupillary reflex, but leukocoria in a child must first raise concern for retinoblastoma.",
+    "B": "Correct because leukocoria in a child is a classic presenting sign of retinoblastoma, a potentially life-threatening malignancy that must be excluded first.",
+    "C": "Incorrect because Coats disease can cause leukocoria, but it is not the condition to suspect first when retinoblastoma is possible.",
+    "D": "Incorrect because persistent fetal vasculature can present with leukocoria, but it is a non-malignant developmental cause rather than the priority diagnosis.",
+    "E": "Incorrect because ocular toxocariasis can cause an abnormal red reflex, but it is not the classic default diagnosis to prove or disprove first in a child with leukocoria."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the most dangerous malignant tumor discussed that can lead to loss of life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4b319554-a4f7-4d93-97ce-342828356f0e",
+    "overlapScore": 0.5,
+    "questionIndex": 2,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:41.820Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

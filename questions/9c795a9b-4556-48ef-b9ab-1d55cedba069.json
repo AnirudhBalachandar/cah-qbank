@@ -1,0 +1,98 @@
+{
+  "id": "9c795a9b-4556-48ef-b9ab-1d55cedba069",
+  "stem": "Which anatomical structure is primarily responsible for the longitudinal growth of long bones in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Physis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Periosteum",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Apophysis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Diaphysis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Metaphysis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Physis is the growth plate responsible for longitudinal growth of long bones in children.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.625Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5118e057f654dfe69ab3",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the physis, or growth plate, is the site from which longitudinal bone growth occurs in children.",
+    "B": "Incorrect because the periosteum mainly contributes to appositional growth, which increases bone width rather than length.",
+    "C": "Incorrect because an apophysis is a separate ossification centre for tendon attachment and does not drive longitudinal growth of the bone.",
+    "D": "Incorrect because the diaphysis is the shaft of the bone, not the active growth region.",
+    "E": "Incorrect because the metaphysis is the flared region adjacent to the physis, but it is not the primary site of longitudinal growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the specific region often referred to as the 'growth plate' on radiographs.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "00502547-fcba-4c75-9dca-6ad2ddc94d72",
+    "overlapScore": 0.4272727272727272,
+    "questionIndex": 1,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:47.791Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

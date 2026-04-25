@@ -1,0 +1,109 @@
+{
+  "id": "b85faa52-dd68-4a57-aaad-e8a49589f3ac",
+  "stem": "During a follow-up consultation, a 16-year-old is trying to balance school, sport, casual work, and future study plans; which consultation approach best matches adolescent cognitive development?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Direct almost all discussion to the parents because adolescents are not yet ready for abstract reasoning",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Keep the discussion concrete only and avoid asking about future consequences or alternative options",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ask the young person to weigh several options, think ahead, and help problem-solve the next steps",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Avoid involving the young person in planning until adulthood because future planning is not part of adolescent development",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Focus only on current emotions because multidimensional thinking is not expected until after adolescence",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adolescent cognitive development includes abstract thinking, future planning, and problem-solving, so involving the young person in weighing options and planning next steps is the best approach.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 126,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T01:50:26.972Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B01-replacements-final-2-a64550bd0a6d65987e4a",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because adolescents are developing the capacity for abstract reasoning and should not be excluded from consultation and planning.",
+    "B": "Incorrect because adolescent development includes the ability to consider future consequences and alternative options.",
+    "C": "Correct because this approach uses emerging abstract thinking, future planning, and problem-solving in a developmentally appropriate way.",
+    "D": "Incorrect because future planning is part of normal adolescent cognitive development, not something deferred until adulthood.",
+    "E": "Incorrect because adolescents are capable of more than current-emotion focus, including multidimensional and forward-looking thinking."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B01-replacements-final-2",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmtygpd60001rje3feubx0xz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3425414364640884,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1be93898-4746-479e-b9e2-35b9a3fdd81f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-01.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "cognitive development",
+      "consultation skills",
+      "future planning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:45.479Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

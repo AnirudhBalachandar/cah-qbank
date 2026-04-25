@@ -1,0 +1,102 @@
+{
+  "id": "2bce10cd-fca5-4112-a843-933acc8f13e2",
+  "stem": "Delayed management of a traumatic septal injury can lead to septal perforation; which additional complication is specifically mentioned?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Septal abscess",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Viral pharyngitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Juvenile angiofibroma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Adenoid visibility",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Middle turbinate enlargement",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Septal abscess is the additional complication mentioned. Delayed management of traumatic septal injury can cause both septal abscess and septal perforation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 36,
+      "title": "CAH Bible (shared 2025)"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:17:56.122Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B23-attempt-01-bef8f1ed41f3863a1808",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because delayed management of traumatic septal injury can lead to septal abscess.",
+    "B": "Incorrect because viral pharyngitis is a throat infection and is not a complication of septal injury.",
+    "C": "Incorrect because juvenile angiofibroma is a separate nasal tumour, not a complication of septal trauma.",
+    "D": "Incorrect because adenoid visibility is an examination finding, not a complication of septal injury.",
+    "E": "Incorrect because middle turbinate enlargement is not the complication described in this setting."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B23-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlr3zo0001rjs4rrtz3ugs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.31875,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8663fe91-4d76-492b-8681-a5aa8c9880da",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B23/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nose and throat",
+      "septal haematoma",
+      "Complication and prevention"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:15.049Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

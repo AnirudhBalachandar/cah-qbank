@@ -1,0 +1,98 @@
+{
+  "id": "7186456c-cbb4-4832-a25a-dce691c0704d",
+  "stem": "What is the primary anatomical difference between exomphalos and gastroschisis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Exomphalos contains only bowel, while gastroschisis contains the liver",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Gastroschisis viscera are covered by a sac, while exomphalos viscera are free-floating",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Exomphalos viscera are covered by an amniotic membrane, while gastroschisis viscera are not",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Gastroschisis is associated with chromosomal syndromes, whereas exomphalos is usually isolated",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Exomphalos is always associated with abdominal wall necrosis, whereas gastroschisis is not",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Exomphalos is covered by a membrane, whereas gastroschisis is not. This distinction is the key anatomical difference between the two abdominal wall defects.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.066Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3dfad106adae2ed0c52b",
+  "rationale": "/null",
+  "optionExplanations": {
+    "A": "Incorrect because exomphalos may contain bowel and often liver, while gastroschisis typically involves bowel rather than the liver.",
+    "B": "Incorrect because this reverses the typical anatomy: gastroschisis has exposed bowel, whereas exomphalos is enclosed in a sac.",
+    "C": "Correct because exomphalos viscera are enclosed by an amniotic membrane, while gastroschisis bowel is exposed without a covering sac.",
+    "D": "Incorrect because exomphalos, not gastroschisis, is more commonly associated with chromosomal abnormalities and other congenital anomalies.",
+    "E": "Incorrect because abdominal wall necrosis is not the defining feature of exomphalos; the key difference is the presence or absence of a covering membrane."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the presence or absence of a protective covering over the herniated organs.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9efe1dbf-9aaa-4a67-bb5a-d519afd90886",
+    "overlapScore": 0.6097560975609756,
+    "questionIndex": 3,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:26.352Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

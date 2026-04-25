@@ -1,0 +1,98 @@
+{
+  "id": "7cfdd8cc-406b-49d3-8b2c-84f5d4242eb7",
+  "stem": "According to mathematical modelling, what is the predicted life expectancy for a patient treated with modern triple-combination modulators compared with basic supportive care?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "71.6 years versus 38 years",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "50 years versus 40 years",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "90 years versus 70 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "38 years versus 18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "60 years versus 45 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "71.6 years versus 38 years is the predicted life expectancy with modern triple-combination modulators compared with basic supportive care. This is because the modelling suggests a substantial improvement in survival with advanced modulator therapy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+      "title": "00017 CF lecture-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.775Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-95554171907db6548219",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because this is the predicted life expectancy with modern triple-combination modulators compared with basic supportive care.",
+    "B": "Incorrect because this underestimates the expected benefit of modern triple-combination modulators.",
+    "C": "Incorrect because these figures are higher than the predicted modelled life expectancy for this comparison.",
+    "D": "Incorrect because the lower survival figure is not the modelled outcome for modern triple-combination modulators versus supportive care.",
+    "E": "Incorrect because this pair does not match the predicted life expectancy estimates from the model."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5aee588a-1294-42ff-8d0e-bd82e547eedd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The new treatment is predicted to extend life well into the seventh decade.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "17",
+    "lectureTitle": "00017 CF lecture-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bec2204d-ef51-46f4-80f7-c2467fa7a7f5",
+    "overlapScore": 0.363013698630137,
+    "questionIndex": 12,
+    "quizFileName": "quiz_017.json",
+    "quizTitle": "CF Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "759f8d2b-d7fd-4d84-a284-aa116d4fa7cd",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:47.083Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

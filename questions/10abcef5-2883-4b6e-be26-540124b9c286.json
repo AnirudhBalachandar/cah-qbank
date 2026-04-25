@@ -1,0 +1,103 @@
+{
+  "id": "10abcef5-2883-4b6e-be26-540124b9c286",
+  "stem": "Which nuclear medicine scan provides differential function information for each kidney in a child with renal tract concerns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "DMSA scan",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Abdominal ultrasound",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Abdominal X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Renal Doppler ultrasound",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ophthalmology review",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "DMSA scan provides differential renal function information for each kidney and is a static nuclear medicine study.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 76,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:11:10.746Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B42-attempt-02-ab066a1eb3518f9f2166",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because DMSA scan is a static nuclear medicine study that provides differential function information for each kidney.",
+    "B": "Incorrect because abdominal ultrasound does not provide differential renal function information in the same way as a DMSA scan.",
+    "C": "Incorrect because abdominal X-ray does not measure differential renal function.",
+    "D": "Incorrect because renal Doppler ultrasound assesses renal blood flow rather than differential renal function of each kidney.",
+    "E": "Incorrect because ophthalmology review is not a renal nuclear medicine study."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B42-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpsqui0001rjlslx6ffh4w",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3157894736842105,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fa8b689d-c5e7-4f57-bc08-38e73c5b5671",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B42/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "UTI and renal tract imaging",
+      "differential renal function",
+      "DMSA",
+      "interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:15.456Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

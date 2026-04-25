@@ -1,0 +1,102 @@
+{
+  "id": "bab13b43-7a70-4aab-848d-92d1219b11e9",
+  "stem": "Which manoeuvre in the paediatric motor examination most directly adds a turning challenge to gait assessment in a 4-year-old?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Heel walking",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "180° manoeuvre",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Toe walking",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Romberg test",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Prone assessment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "180° manoeuvre is the correct answer because it directly challenges turning during gait assessment in a child who can already walk in a straight line.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 115,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:55:48.789Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B62-attempt-03-e2b77e1d8cfe4b3ffb98",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because heel walking assesses balance and lower limb control but does not specifically test turning.",
+    "B": "Correct because the 180° manoeuvre specifically adds a turning component to the gait examination.",
+    "C": "Incorrect because toe walking is a gait task, but it does not specifically focus on changing direction quickly.",
+    "D": "Incorrect because the Romberg test assesses postural stability rather than turning during gait.",
+    "E": "Incorrect because prone assessment evaluates a different part of the motor examination and is not a gait manoeuvre."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B62-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwre58u0001rja9rx5r534h",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3055555555555556,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fbe1f2f1-68df-46ea-b8b4-0fb3ddef7f48",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B62/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Motor difficulties",
+      "gait examination",
+      "examination logic"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:50.351Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

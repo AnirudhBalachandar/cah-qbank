@@ -1,0 +1,98 @@
+{
+  "id": "61b0a56d-c953-4d30-a262-a342e7dfa812",
+  "stem": "When evaluating a child with a chronic cough, which feature most strongly suggests a habit cough?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The cough is productive and associated with malabsorption",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The cough worsens during exercise and cold weather",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The cough disappears completely when the child is asleep",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The cough started after beginning an ACE inhibitor",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The cough is associated with wheeze and recurrent dyspnoea",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Habit cough is suggested by complete disappearance during sleep, which is a classic clue that the cough is not being driven by an organic airway problem.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.307Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-122e532e01484c0b2fda",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because a productive cough with malabsorption suggests cystic fibrosis rather than a habit cough.",
+    "B": "Incorrect because exercise- and cold-induced worsening is more typical of asthma than a habit cough.",
+    "C": "Correct because habit cough typically stops completely during sleep, which strongly supports a functional or behavioural cause.",
+    "D": "Incorrect because ACE inhibitor use can cause a chronic dry cough, but that does not indicate a habit cough.",
+    "E": "Incorrect because wheeze and recurrent dyspnoea suggest asthma or another respiratory disorder rather than a habit cough."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the timing of the cough and whether it persists during unconscious states.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "68fe524b-c6ee-49ab-892a-03b4c9dcb1fa",
+    "overlapScore": 0.3846153846153846,
+    "questionIndex": 7,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:57.033Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

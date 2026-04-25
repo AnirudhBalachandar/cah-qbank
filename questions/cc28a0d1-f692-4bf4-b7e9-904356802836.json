@@ -1,0 +1,102 @@
+{
+  "id": "cc28a0d1-f692-4bf4-b7e9-904356802836",
+  "stem": "Which facial feature combination is most suggestive of foetal alcohol syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Smooth philtrum and thin upper lip",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Long ears and hypermobility",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Coloboma and ear abnormalities",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ashleaf spots and shagreen patches",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cafe-au-lait spots and neurofibromas",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Smooth philtrum and thin upper lip are the facial features most suggestive of foetal alcohol syndrome.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 15,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:10:10.406Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B68-attempt-03-d6ad764e99cceb28302f",
+  "rationale": "Foetal alcohol syndrome has a characteristic facial appearance, and a smooth philtrum with a thin upper lip is a key clue. The other options describe features associated with different genetic or neurocutaneous syndromes.",
+  "optionExplanations": {
+    "A": "Correct because a smooth philtrum and thin upper lip are classic facial features of foetal alcohol syndrome.",
+    "B": "Incorrect because long ears and hypermobility are more suggestive of Fragile X syndrome.",
+    "C": "Incorrect because coloboma and ear abnormalities are associated with CHARGE syndrome.",
+    "D": "Incorrect because ashleaf spots and shagreen patches are features of tuberous sclerosis.",
+    "E": "Incorrect because cafe-au-lait spots and neurofibromas are features of neurofibromatosis type 1."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B68-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4rkqq0001rjfhm73nwhla",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3228346456692913,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7696ede3-b39e-4895-803f-d54bc66a4dc8",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B68/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Common genetic syndromes",
+      "Foetal alcohol syndrome",
+      "facial features"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:35.591Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "b17b91d6-78af-42e1-9799-8e10337c4b1f",
+  "stem": "Which of the following best describes a hybrid procedure in the treatment of congenital heart disease?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The use of both echocardiography and fluoroscopy simultaneously",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A procedure that combines catheter-based techniques with surgical intervention",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Treating two different heart defects in one session",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A procedure performed by both a paediatric and an adult cardiologist",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A catheter-only procedure performed under general anaesthesia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Hybrid procedure means combining catheter-based techniques with surgical intervention, often to manage complex congenital heart disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "fdc4734f-c621-45ce-b90b-6b33db2f52e7",
+      "title": "00049 Year 3_Cardiology_Ca-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.965Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f036fcf9eebad7e694d6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because using both echocardiography and fluoroscopy is an imaging approach, not the defining feature of a hybrid procedure",
+    "B": "Correct because it combines catheter-based techniques with surgical intervention, which is the definition of a hybrid procedure",
+    "C": "Incorrect because treating more than one defect in a single session does not by itself define a hybrid procedure",
+    "D": "Incorrect because a hybrid procedure refers to combining treatment modalities, not simply involving different specialists",
+    "E": "Incorrect because a catheter-only procedure is not hybrid; a hybrid procedure includes both catheter-based and surgical elements"
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "fdc4734f-c621-45ce-b90b-6b33db2f52e7",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This approach bridges the gap between the operating room and the catheterization laboratory.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "49",
+    "lectureTitle": "00049 Year 3_Cardiology_Ca-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "54d21f62-5c85-4e91-b84c-f908ca4dede6",
+    "overlapScore": 0.4943820224719101,
+    "questionIndex": 6,
+    "quizFileName": "quiz_049.json",
+    "quizTitle": "Intervention Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0634e0dc-137f-4adb-9c66-9351bae049c1",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:32.476Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

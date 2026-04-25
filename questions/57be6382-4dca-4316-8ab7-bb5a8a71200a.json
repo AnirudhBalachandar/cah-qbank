@@ -1,0 +1,98 @@
+{
+  "id": "57be6382-4dca-4316-8ab7-bb5a8a71200a",
+  "stem": "Which term is preferred over disease when discussing long-term health conditions in adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chronic illness",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Permanent disability",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Medical disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Health morbidity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Acute illness",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chronic illness is the preferred term for long-term health conditions in adolescents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+      "title": "00079 adolescent_chronic i-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.251Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-9b5479164b32a67a09d2",
+  "rationale": "The correct concept is the use of chronic illness as the preferred label for long-term health conditions.",
+  "optionExplanations": {
+    "A": "Correct because chronic illness is the preferred term for long-term health conditions in adolescents.",
+    "B": "Incorrect because permanent disability describes functional impairment, not the preferred general term for long-term health conditions.",
+    "C": "Incorrect because medical disorder is a broader diagnostic label and is not the preferred term here.",
+    "D": "Incorrect because health morbidity is a statistical or descriptive term rather than the preferred clinical label.",
+    "E": "Incorrect because acute illness refers to a short-term condition, not a long-term health condition."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b2d6913f-c81b-4f08-9200-c7280ce7151d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The speaker introduces this term in the very first sentence of the excerpt.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "79",
+    "lectureTitle": "00079 adolescent_chronic i-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "95e4c3bd-abb1-460a-a523-af48af344f64",
+    "overlapScore": 0.4473684210526316,
+    "questionIndex": 1,
+    "quizFileName": "quiz_079.json",
+    "quizTitle": "Chronic Illness Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8e0bdd99-cd61-45c7-b1ad-862c94d65b53",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:42.130Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

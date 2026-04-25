@@ -1,0 +1,98 @@
+{
+  "id": "430a4eaa-c145-4f02-9699-dc009a5aee60",
+  "stem": "Which radiographic view is most likely to reveal a mild slipped capital femoral epiphysis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Frog lateral view",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Anteroposterior view",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Skyline view",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Weight-bearing standing view",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lateral decubitus view",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Frog lateral view is the best view for detecting a mild slipped capital femoral epiphysis because it better shows the posterior slippage of the femoral head.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.541Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a57aa535ebd72c32187b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the frog lateral view best demonstrates the subtle posterior displacement of the femoral head in mild slipped capital femoral epiphysis.",
+    "B": "Incorrect because an anteroposterior view may miss subtle slips and is less sensitive for mild disease.",
+    "C": "Incorrect because a skyline view is used for the patellofemoral joint, not the hip.",
+    "D": "Incorrect because a weight-bearing standing view does not specifically improve detection of a mild slipped capital femoral epiphysis.",
+    "E": "Incorrect because a lateral decubitus view is not the standard view for diagnosing slipped capital femoral epiphysis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think of the view that would best show the femoral head sliding 'posteriorly'.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d5de612a-b6ab-47b6-96e5-36041d494ec4",
+    "overlapScore": 0.4130434782608696,
+    "questionIndex": 5,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:53.852Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

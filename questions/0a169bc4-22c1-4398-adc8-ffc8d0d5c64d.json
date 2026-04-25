@@ -1,0 +1,98 @@
+{
+  "id": "0a169bc4-22c1-4398-adc8-ffc8d0d5c64d",
+  "stem": "A child presents after a handlebar injury to the abdomen; why is repeated clinical examination critical?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To monitor for secondary hypothermia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To detect potentially delayed signs of hollow viscus injury",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To assess for pelvic fractures",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To check for spinal cord injuries",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To identify splenic rupture early",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "To detect potentially delayed signs of hollow viscus injury, repeated abdominal examination is important because handlebar trauma can cause bowel injury that is not obvious initially.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.552Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-61e482295ed3e038c91d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because hypothermia may be relevant in trauma care, but it is not the main reason for serial abdominal examinations after a handlebar injury.",
+    "B": "Correct because handlebar trauma can cause hollow viscus injury that may be delayed or initially subtle, so repeated examinations help detect evolving signs.",
+    "C": "Incorrect because pelvic fractures are not the characteristic concern in a localised handlebar abdominal impact.",
+    "D": "Incorrect because spinal cord injury is not the specific occult injury class that repeated abdominal examination is intended to detect here.",
+    "E": "Incorrect because splenic rupture is an intra-abdominal injury that can occur with trauma, but the key concern in this mechanism is delayed hollow viscus injury."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Handlebar injuries involve a high-force impact to a very small, localized area of the stomach.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1c9cb139-1e67-4abb-8a11-b1501ead7093",
+    "overlapScore": 0.4672131147540984,
+    "questionIndex": 10,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:00.103Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

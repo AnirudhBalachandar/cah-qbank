@@ -1,0 +1,98 @@
+{
+  "id": "867f33de-1446-4edf-b74f-4698f90933d0",
+  "stem": "What is the recommended duration of antibiotic treatment for a child with febrile urinary tract infection (pyelonephritis)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "3 days",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "7 days",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "14 days",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "48 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5 days",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "7 days is the recommended duration for antibiotic treatment of a child with febrile urinary tract infection (pyelonephritis).",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.743Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-49534f9c3a5ade432b7d",
+  "rationale": "This question tests the distinction between shorter treatment for lower urinary tract infection and longer treatment for febrile upper tract infection.",
+  "optionExplanations": {
+    "A": "Incorrect because 3 days is generally used for uncomplicated lower urinary tract infection, not febrile pyelonephritis.",
+    "B": "Correct because febrile urinary tract infection involves the upper urinary tract and is treated with a 7-day course of antibiotics.",
+    "C": "Incorrect because 14 days is longer than the usual recommended course for this presentation.",
+    "D": "Incorrect because 48 hours may be the time to clinical improvement on intravenous therapy, not the total antibiotic duration.",
+    "E": "Incorrect because 5 days is shorter than the recommended course for febrile urinary tract infection."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Distinguish between the shorter course for lower tract infections and the longer course for upper/febrile infections.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4ebbbeac-9262-4a30-b4d3-e2a6cab65910",
+    "overlapScore": 0.4796747967479675,
+    "questionIndex": 6,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:07.064Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

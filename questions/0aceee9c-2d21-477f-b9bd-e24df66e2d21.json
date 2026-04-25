@@ -1,0 +1,98 @@
+{
+  "id": "0aceee9c-2d21-477f-b9bd-e24df66e2d21",
+  "stem": "During which gestational window is the pertussis-containing vaccine routinely recommended for pregnant women?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Between 20 and 32 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "During the first 12 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only after 36 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Any time before 20 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "At the time of delivery",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Between 20 and 32 weeks is the recommended window for pertussis-containing vaccination in pregnancy to maximise transplacental antibody transfer and protect the newborn from whooping cough.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.617Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ea05f962018e4e644c2b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because vaccination between 20 and 32 weeks allows sufficient time for maternal antibody production and placental transfer before birth.",
+    "B": "Incorrect because the first trimester is not the routine recommended window for pertussis-containing vaccination in pregnancy.",
+    "C": "Incorrect because vaccination after 36 weeks may be too late to achieve optimal antibody transfer to the fetus.",
+    "D": "Incorrect because vaccination before 20 weeks is earlier than the routinely recommended window for this vaccine in pregnancy.",
+    "E": "Incorrect because vaccination at delivery would not provide adequate time for maternal antibodies to transfer to the fetus before birth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This window spans the late second and early third trimesters.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "165e8ffd-c503-4cc2-9972-986361d33484",
+    "overlapScore": 0.3725490196078431,
+    "questionIndex": 9,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:03.313Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "d483bd9a-5305-4f51-a7d1-dad91cfb6ca4",
+  "stem": "What proportion of children with cerebral palsy are estimated to have an intellectual disability?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "10%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "25%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Up to 50%",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "75%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "90%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Up to 50% is the best estimate for intellectual disability in children with cerebral palsy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+      "title": "00067 neurology_motor diff-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.829Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2b174ce7feacd0f299b2",
+  "rationale": "The estimate is approximately half of affected children, so the option stating up to 50% is correct.",
+  "optionExplanations": {
+    "A": "Incorrect because 10% is too low for the estimated proportion of children with cerebral palsy who have an intellectual disability.",
+    "B": "Incorrect because 25% underestimates the reported proportion, which can be as high as half.",
+    "C": "Correct because intellectual disability can affect up to half of children with cerebral palsy.",
+    "D": "Incorrect because 75% is higher than the usual estimate for intellectual disability in cerebral palsy.",
+    "E": "Incorrect because 90% is far above the estimated proportion of children with cerebral palsy who have an intellectual disability."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider a figure that represents nearly half of the affected population.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "67",
+    "lectureTitle": "00067 neurology_motor diff-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "97508cf0-11c0-41c8-898a-dc49aebb7e62",
+    "overlapScore": 0.4957264957264957,
+    "questionIndex": 9,
+    "quizFileName": "quiz_067.json",
+    "quizTitle": "Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "06bc7f92-731c-431e-8c5d-1cce38c39168",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:52.261Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

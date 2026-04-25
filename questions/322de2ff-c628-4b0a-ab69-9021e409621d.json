@@ -1,0 +1,103 @@
+{
+  "id": "322de2ff-c628-4b0a-ab69-9021e409621d",
+  "stem": "A 7-year-old boy has brief, repeated shoulder jerks and throat-clearing noises during class, and he says he feels an uncomfortable sensation just before they happen; which feature most strongly supports a tic rather than an epileptic seizure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An associated premonitory urge before the event",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The movements are non-rhythmic",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "They involve more than one body part",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They occur repeatedly through the day",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They are brief",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An associated premonitory urge before the event is the feature that most strongly supports a tic. This uncomfortable urge is a classic clue for tics and helps distinguish them from epileptic seizures.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 58,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T06:58:11.389Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B60-attempt-03-4d07d273966555e62b74",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because a premonitory urge is a classic feature of tics and strongly supports the diagnosis.",
+    "B": "Incorrect because non-rhythmic movements can occur in tics, but this is less specific than a premonitory urge.",
+    "C": "Incorrect because tics may be simple or complex, so involving more than one body part does not best distinguish them.",
+    "D": "Incorrect because repeated episodes through the day can occur in several paroxysmal conditions and are not specific.",
+    "E": "Incorrect because brief events can occur in both tics and seizures, so brevity alone is not discriminating."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B60-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4c5xp0001rjj0cqm1w01f",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3319148936170213,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "eba77800-fcb6-4f87-a64b-e2cd2267e308",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B60/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paroxysmal disorders",
+      "non-epileptic paroxysmal events",
+      "history discrimination",
+      "tics"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:23.508Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

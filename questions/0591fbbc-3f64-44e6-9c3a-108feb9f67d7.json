@@ -1,0 +1,102 @@
+{
+  "id": "0591fbbc-3f64-44e6-9c3a-108feb9f67d7",
+  "stem": "Which organism is the most common bacterial cause of acute otitis media and the most common cause of its acute complications?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Haemophilus influenzae",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Moraxella catarrhalis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Pseudomonas aeruginosa",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Staphylococcus aureus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Streptococcus pneumoniae is the most common bacterial cause of acute otitis media and the most common cause of acute complications.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 6,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:21:17.199Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B08-attempt-03-2b4ecb56634ba698390b",
+  "rationale": "Streptococcus pneumoniae is identified as the leading bacterial cause of acute otitis media and the most common cause of acute complications.",
+  "optionExplanations": {
+    "A": "Incorrect because Haemophilus influenzae is a common bacterial cause, but it is not the most common cause or the leading cause of acute complications.",
+    "B": "Incorrect because Moraxella catarrhalis is a recognised bacterial cause, but it is less common than Streptococcus pneumoniae.",
+    "C": "Correct because Streptococcus pneumoniae is the most common bacterial cause of acute otitis media and the most common cause of acute complications.",
+    "D": "Incorrect because Pseudomonas aeruginosa is more associated with chronic otitis media or otitis externa than typical acute otitis media.",
+    "E": "Incorrect because Staphylococcus aureus is not listed as a common bacterial cause of acute otitis media in this context."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B08-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvlfp030001rjpnkmki9yry",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3443396226415094,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "98cd622a-9ae6-40f4-a433-5d8b7246ac75",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B08/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Aboriginal and Torres Strait Islander child health",
+      "otitis media",
+      "microbiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:54.962Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "806e34a4-a50f-4aae-b3c1-3efe0b30ef79",
+  "stem": "Which pGALS screening question identifies a potential musculoskeletal concern in a child who needs help getting dressed each morning despite denying pain?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Difficulty getting dressed without help",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Pain or stiffness in the joints, muscles, or back",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Fever with limp",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Night pain",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reduced appetite",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Difficulty getting dressed without help is the correct pGALS screening concern. This is because reduced independence with dressing is a positive musculoskeletal screening response even when the child denies pain.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 157,
+      "title": "The pGALS Musculoskeletal Screen"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:20:07.426Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B77-attempt-02-25faeb0d352f4c3e3ff9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because difficulty getting dressed without help is a pGALS screening question that can indicate a musculoskeletal problem.",
+    "B": "Incorrect because this is a different pGALS screening question and is denied in the scenario.",
+    "C": "Incorrect because fever with limp is not the screening concern described here.",
+    "D": "Incorrect because night pain is not the issue identified by the child’s need for help dressing.",
+    "E": "Incorrect because reduced appetite is not a pGALS screening question and does not identify the concern described."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B77-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx54ddl0001rjrd69xnm8n3",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3416149068322981,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8479c00b-0577-478f-9f8d-cce5d51bb58a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B77/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "pGALS and musculoskeletal symptom approach",
+      "support and management",
+      "screen interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:51.991Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

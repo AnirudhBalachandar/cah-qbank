@@ -1,0 +1,98 @@
+{
+  "id": "4bb535b8-5d22-4d55-ab85-f72c70a19331",
+  "stem": "Which facial feature is part of the diagnostic triad of fetal alcohol syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Upslanting palpebral fissures",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Smooth philtrum",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Single central incisor",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bifid uvula",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Thin upper lip",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Smooth philtrum is one of the classic facial features of fetal alcohol syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+      "title": "00061 dysmorphic syndromes-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.618Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d2b4452e4c821f63a1e0",
+  "rationale": "The diagnostic facial triad includes short palpebral fissures, a smooth philtrum, and a thin upper vermilion.",
+  "optionExplanations": {
+    "A": "Incorrect because fetal alcohol syndrome is associated with short palpebral fissures rather than upslanting palpebral fissures.",
+    "B": "Correct because a smooth philtrum is one of the classic facial features of fetal alcohol syndrome.",
+    "C": "Incorrect because a single central incisor is associated with holoprosencephaly, not the characteristic fetal alcohol syndrome facial triad.",
+    "D": "Incorrect because a bifid uvula is not part of the typical diagnostic triad of fetal alcohol syndrome.",
+    "E": "Incorrect because a thin upper lip is a feature of fetal alcohol syndrome, but the classic triad specifically includes the smooth philtrum instead."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "db47663b-1ed1-4c80-b2ba-a35485b51815",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This feature relates to the vertical groove between the base of the nose and the border of the upper lip.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "61",
+    "lectureTitle": "00061 dysmorphic syndromes-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d60e8a60-1b1f-495b-92ca-4797830178cc",
+    "overlapScore": 0.3816793893129771,
+    "questionIndex": 3,
+    "quizFileName": "quiz_061.json",
+    "quizTitle": "Dysmorphology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "18d3845c-8426-41c0-b2e5-47fa8776d878",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:18.930Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

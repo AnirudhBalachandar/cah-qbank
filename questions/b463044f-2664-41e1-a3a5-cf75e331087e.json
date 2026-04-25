@@ -1,0 +1,98 @@
+{
+  "id": "b463044f-2664-41e1-a3a5-cf75e331087e",
+  "stem": "A child has suspected subarachnoid haemorrhage and the CT scan is normal; what is the next diagnostic step and what finding should be sought?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lumbar puncture to check for xanthochromia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Electroencephalogram to look for spike-and-wave activity",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "MRI to look for temporal lobe lesions",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Blood culture to look for bacterial growth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Repeat CT scan to look for evolving haemorrhage",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Lumbar puncture is the next step, and xanthochromia in the cerebrospinal fluid supports subarachnoid haemorrhage when CT is normal.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.105Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-00b6dfd1cd89cf55f13a",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because cerebrospinal fluid should be examined for xanthochromia, which indicates the presence of blood breakdown products after subarachnoid haemorrhage.",
+    "B": "Incorrect because an EEG assesses electrical brain activity and does not diagnose subarachnoid haemorrhage.",
+    "C": "Incorrect because MRI is not the next step when CT is normal and does not specifically answer the need to look for xanthochromia.",
+    "D": "Incorrect because blood cultures are used to investigate bacteraemia or sepsis, not subarachnoid haemorrhage.",
+    "E": "Incorrect because the next diagnostic step after a normal CT is lumbar puncture, not routine repeat CT to look for xanthochromia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the procedure used to sample spinal fluid and the color change associated with old blood.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+    "overlapScore": 0.3587786259541985,
+    "questionIndex": 2,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:37.284Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

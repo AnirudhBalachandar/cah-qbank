@@ -1,0 +1,98 @@
+{
+  "id": "85b48bd0-af18-44de-ad20-ce3a70dc5dd4",
+  "stem": "Which of the following groups are mandatory reporters in the community based on their interaction with children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "School principals, police, and childcare workers",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "All members of the general public and neighbours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only health professionals working in public hospitals",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Retail workers and hospitality staff in family venues",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sports coaches and after-school tutors",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mandatory reporters include school principals, police, and childcare workers.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6468d975-7faf-4945-ab4e-b33a86ff7e0d",
+      "title": "00001 CAR_reporting 240717-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.249Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-50b1803210e556b0b6a4",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because school principals, police, and childcare workers are identified as mandatory reporters because of their roles and contact with children.",
+    "B": "Incorrect because the general public may report concerns, but they are not designated mandatory reporters simply by being community members.",
+    "C": "Incorrect because mandatory reporting is not limited to health professionals working in public hospitals.",
+    "D": "Incorrect because retail and hospitality staff in family venues are not part of the specified mandatory reporter groups.",
+    "E": "Incorrect because sports coaches and after-school tutors are not the groups identified as mandatory reporters in this context."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6468d975-7faf-4945-ab4e-b33a86ff7e0d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific roles mentioned that are part of the education, justice, or welfare systems.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "1",
+    "lectureTitle": "00001 CAR_reporting 240717-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a9419a8b-c879-43f0-8463-899828747f2c",
+    "overlapScore": 0.4228187919463087,
+    "questionIndex": 1,
+    "quizFileName": "quiz_001.json",
+    "quizTitle": "Child Protection Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "38eaff3f-5386-4a38-9a15-187a57c5e12e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:03.409Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

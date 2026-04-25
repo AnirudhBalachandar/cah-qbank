@@ -1,0 +1,102 @@
+{
+  "id": "f4a9a7db-a37d-4d1f-94c9-2e74bba97f9f",
+  "stem": "A general paediatrician needs to involve the most appropriate specialist service for a child with suspected maltreatment when a forensic medical assessment may be required; which service is most appropriate?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The Child Protection Unit, staffed by child protection and forensic paediatricians, which can perform forensic medical assessment",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The Child Wellbeing Unit, which performs forensic examinations for suspected maltreatment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The Child Protection Helpline, which provides forensic paediatric assessment directly",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The Mandatory Reporter’s Guide, which replaces specialist clinical assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "FaCS, which is the same service as the hospital Child Protection Unit",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Child Protection Unit is the correct service because it is staffed by child protection and forensic paediatricians who can carry out forensic medical assessment when suspected maltreatment needs specialist review.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 193,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:30:33.405Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B09-attempt-01-1f8d0a8c7306d2f9df26",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because the Child Protection Unit is the specialist service that can provide forensic medical assessment through child protection and forensic paediatricians.",
+    "B": "Incorrect because the Child Wellbeing Unit is not the forensic assessment service for suspected maltreatment.",
+    "C": "Incorrect because the Child Protection Helpline is a reporting and advice pathway, not a clinical forensic team.",
+    "D": "Incorrect because the Mandatory Reporter’s Guide supports decision-making but does not replace specialist assessment.",
+    "E": "Incorrect because FaCS is a separate service from the hospital Child Protection Unit."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B09-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvlrm5s0001rjecoyr30zy6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3421052631578947,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9565473b-0cc8-4dfb-98f0-44a26cd31138",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B09/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Children and adolescents at risk",
+      "Child Protection Unit",
+      "forensic assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:59.985Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

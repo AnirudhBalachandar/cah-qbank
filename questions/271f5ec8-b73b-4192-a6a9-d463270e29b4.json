@@ -1,0 +1,102 @@
+{
+  "id": "271f5ec8-b73b-4192-a6a9-d463270e29b4",
+  "stem": "An 8-month-old has cough, wheeze and crackles during a viral lower respiratory illness, with a similar episode documented 6 weeks ago; which detail most strongly argues against bronchiolitis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The child is younger than 12 months",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "This is not the first episode of viral-induced lower respiratory illness",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Wheeze is present",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Crackles are present",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The illness affects the lower respiratory tract",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bronchiolitis is the first episode of viral-induced lower respiratory illness in an infant under 12 months, so a previous similar episode argues against this label.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 31,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:46:48.597Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B25-attempt-04-ee9f05289c3baec5cc51",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because being younger than 12 months supports the bronchiolitis definition.",
+    "B": "Correct because bronchiolitis is defined here as the first episode of viral-induced lower respiratory illness, so a prior similar episode makes bronchiolitis less likely.",
+    "C": "Incorrect because wheeze is compatible with bronchiolitis.",
+    "D": "Incorrect because crackles are also compatible with bronchiolitis.",
+    "E": "Incorrect because lower respiratory tract involvement is part of the bronchiolitis presentation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B25-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwms8vh0001rj3l0f2vt19u",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3446808510638298,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e8e7315a-914b-4920-b1ab-a16fbf2a9551",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B25/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute lower-airway respiratory reasoning",
+      "bronchiolitis-boundary",
+      "episode-interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:02.416Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

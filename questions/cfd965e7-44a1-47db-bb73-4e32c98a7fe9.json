@@ -1,0 +1,98 @@
+{
+  "id": "cfd965e7-44a1-47db-bb73-4e32c98a7fe9",
+  "stem": "What is the initial management of a haemodynamically stable child with supraventricular tachycardia (SVT)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vagal manoeuvres",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediate synchronised cardioversion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Long-term daily medical therapy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Emergency catheter ablation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Intravenous adenosine after instability develops",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vagal manoeuvres are the initial management for a haemodynamically stable child with SVT.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.035Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bd751ce4e139913b3407",
+  "rationale": "They are a non-invasive first step to stimulate the vagus nerve and may terminate the tachycardia before escalation to medication or cardioversion.",
+  "optionExplanations": {
+    "A": "Correct because vagal manoeuvres are the recommended first intervention for a haemodynamically stable child with SVT.",
+    "B": "Incorrect because synchronised cardioversion is reserved for haemodynamic instability or when less invasive measures fail.",
+    "C": "Incorrect because long-term daily therapy is used for prevention, not for immediate termination of acute stable SVT.",
+    "D": "Incorrect because catheter ablation is a definitive specialist treatment, not the initial bedside management.",
+    "E": "Incorrect because adenosine may be used if vagal manoeuvres fail, but it is not the first step here; instability would instead prompt urgent cardioversion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This approach involves simple physical actions to stimulate the vagus nerve.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e80d56f0-0d1c-47c5-9ae6-556ccf51d310",
+    "overlapScore": 0.4,
+    "questionIndex": 6,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:41.392Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

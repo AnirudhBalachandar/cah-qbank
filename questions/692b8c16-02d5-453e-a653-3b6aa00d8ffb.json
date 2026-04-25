@@ -1,0 +1,98 @@
+{
+  "id": "692b8c16-02d5-453e-a653-3b6aa00d8ffb",
+  "stem": "Which statement best describes the typical natural history of cow's milk allergy in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately 90% of children grow out of the allergy by three years of age",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Most children will continue to have the allergy until adolescence",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Only about 10% of children will ever achieve full tolerance to cow's milk",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Resolution usually occurs only if the child avoids even baked forms of milk",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cow's milk allergy is usually lifelong once diagnosed in infancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Approximately 90% of children grow out of cow's milk allergy by three years of age. Cow's milk allergy often resolves in early childhood, with a high proportion of children developing tolerance within the first few years.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+      "title": "00032 Year 3 CAH Allergy a-s1-low (2).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.082Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dd2411687db9a6e0866f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because most children with cow's milk allergy outgrow it early, and about 90% are tolerant by age three.",
+    "B": "Incorrect because persistence until adolescence is not the usual pattern for cow's milk allergy.",
+    "C": "Incorrect because the majority of children do achieve full tolerance, rather than only 10%.",
+    "D": "Incorrect because baked milk does not need to be strictly avoided for resolution to occur, and tolerance can develop over time.",
+    "E": "Incorrect because cow's milk allergy is often outgrown in childhood and is not usually lifelong."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "35b01224-22e3-46ee-a96a-d3fcab07443e",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a high percentage of resolution that occurs within the first few years of life.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "32",
+    "lectureTitle": "00032 Year 3 CAH Allergy a-s1-low (2).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "abebf83d-f1d8-41bc-9b71-c3813754dcd5",
+    "overlapScore": 0.4767441860465116,
+    "questionIndex": 2,
+    "quizFileName": "quiz_032.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e70b8ea9-d86e-4479-a30e-e0961c324e09",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:11.131Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

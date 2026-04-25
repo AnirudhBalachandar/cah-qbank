@@ -1,0 +1,102 @@
+{
+  "id": "b4a06e56-ccbf-4d98-a76b-d2ee91ced502",
+  "stem": "A toddler with a broad flat nose and prominent epicanthal folds appears cross-eyed to the family, but the eye examination is otherwise normal, what is the most likely explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pseudostrabismus can occur in some children with these facial features",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "This appearance confirms a neurological disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "This pattern is typical of chemical conjunctivitis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "These features make urgent ED referral mandatory even if no other concerns are present",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "These facial features exclude true strabismus permanently",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pseudostrabismus is the most likely explanation. Broad flat nasal bridge and prominent epicanthal folds can create the appearance of eye misalignment even when the eyes are actually aligned.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 65,
+      "title": "Strabismus"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:07:33.639Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B40-attempt-01-761ad992b40a475739e7",
+  "rationale": "Correct because broad flat noses and epicanthal folds can make a child appear cross-eyed despite normal alignment on examination.",
+  "optionExplanations": {
+    "A": "Correct because broad flat noses and prominent epicanthal folds can create the appearance of misalignment, producing pseudostrabismus.",
+    "B": "Incorrect because this appearance alone does not confirm a neurological disorder.",
+    "C": "Incorrect because chemical conjunctivitis does not present as pseudostrabismus from facial anatomy.",
+    "D": "Incorrect because urgent referral depends on associated red flags and examination findings, not these facial features alone.",
+    "E": "Incorrect because these facial features can mimic strabismus but do not permanently exclude true strabismus."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B40-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwnixjc0001rjidcukxrfs9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3221153846153846,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3a3abc95-66b0-4b8e-a21e-2b356b805c3d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B40/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Conjunctivitis, strabismus, and amblyopia",
+      "strabismus recognition",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:37.290Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

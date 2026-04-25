@@ -1,0 +1,102 @@
+{
+  "id": "9eb1642c-371c-42c7-93f3-1f6c7fcf83cc",
+  "stem": "A term newborn has a head circumference measured at 12 hours of life and has scalp swelling after birth; how should this measurement be interpreted?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is fully reliable from birth and should be interpreted without caution",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It may be unreliable until day 3 to 4 because of moulding or scalp birth changes",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It should not be measured until 6 weeks of age",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It reflects only skull thickness and not intracranial contents",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is useful only if the anterior fontanelle is closed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Head circumference may be unreliable until day 3 to 4 of life because moulding and scalp birth changes can affect the measurement.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 54,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:55:12.534Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B63-attempt-02-0518f334b8b3b8b0edb9",
+  "rationale": "Early newborn head circumference can be misleading because moulding, cephalohaematoma, and caput succedaneum can alter the result; interpretation improves after the first few days of life.",
+  "optionExplanations": {
+    "A": "Incorrect because newborn measurements may be unreliable in the first few days.",
+    "B": "Correct because moulding and scalp birth changes can make the head circumference measurement unreliable until day 3 to 4 of life.",
+    "C": "Incorrect because the measurement should still be taken in the newborn period; it does not need to be delayed until 6 weeks.",
+    "D": "Incorrect because head circumference is used as a proxy for skull and intracranial growth, not just skull thickness.",
+    "E": "Incorrect because the reliability of head circumference does not depend on the anterior fontanelle being closed."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B63-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrdd8v0001rjd0t3vf5w3k",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3459119496855346,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "62373049-cc9a-407e-90d4-17282739bd58",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B63/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Headache, microcephaly, and macrocephaly",
+      "head-size assessment",
+      "newborn"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:52.715Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

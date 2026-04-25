@@ -1,0 +1,98 @@
+{
+  "id": "c703ec5c-c669-4be2-bcbb-eed84043d882",
+  "stem": "What is the typical female-to-male ratio in developmental dysplasia of the hip (DDH)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2:1",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4:1",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "6:1",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "8:1",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "10:1",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Female predominance is a classic feature of developmental dysplasia of the hip, with an approximate female-to-male ratio of 6:1.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.167Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5fef06dedb74465bf14f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because this underestimates the usual female predominance seen in developmental dysplasia of the hip.",
+    "B": "Incorrect because this ratio is lower than the commonly observed female-to-male ratio in developmental dysplasia of the hip.",
+    "C": "Correct because developmental dysplasia of the hip has a strong female predominance, with an approximate female-to-male ratio of 6:1.",
+    "D": "Incorrect because this overstates the typical female-to-male ratio reported for developmental dysplasia of the hip.",
+    "E": "Incorrect because this is higher than the usual female-to-male ratio in developmental dysplasia of the hip."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The source material mentions a very strong predilection for females compared to males.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0d2e3d5d-42cf-4e67-9365-d535ae05cda5",
+    "overlapScore": 0.3917525773195876,
+    "questionIndex": 1,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:21.644Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

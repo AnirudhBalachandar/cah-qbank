@@ -1,0 +1,102 @@
+{
+  "id": "d51a4747-adcb-473f-8b89-e55261faee51",
+  "stem": "Which additional examination step should be included in the assessment of an infant with a possible acyanotic congenital heart lesion?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Palpation of the liver and spleen",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Formal visual field testing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Weber and Rinne tuning fork tests",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Peak expiratory flow measurement",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Assessment of ankle clonus",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Palpation of the liver and spleen is part of the structured examination for suspected congenital heart disease in an infant. It helps assess for hepatomegaly or splenomegaly as part of a broader cardiovascular review.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 20,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:19:37.131Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B46-attempt-02-34037a4ba21884aae98d",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because palpation of the liver and spleen is explicitly included in the congenital heart disease examination work-up.",
+    "B": "Incorrect because formal visual field testing is a neurological or ophthalmic assessment, not part of this cardiac examination.",
+    "C": "Incorrect because Weber and Rinne tests assess hearing, not congenital heart disease.",
+    "D": "Incorrect because peak expiratory flow measures airway function and is not part of this cardiac work-up.",
+    "E": "Incorrect because ankle clonus is a neurological sign and is not included in the congenital heart disease assessment."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B46-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq3lkv0001rj5i6wiby3o4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3414634146341464,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4a549f7c-7add-47d6-9474-53de9dc28280",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B46/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acyanotic congenital heart disease and murmur interpretation",
+      "examination",
+      "structured assessment"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:52.848Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

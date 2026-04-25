@@ -1,0 +1,98 @@
+{
+  "id": "8d59feba-17ac-4044-82ca-bcfa3d07addb",
+  "stem": "For a patient with a bleeding disorder receiving a vaccination, how long should firm pressure be applied to the injection site?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "5 to 10 minutes",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "30 to 60 seconds",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "1 to 2 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "15 to 20 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No pressure is needed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "5 to 10 minutes is the recommended duration of firm pressure to reduce bleeding and prevent a haematoma after vaccination in a patient with a bleeding disorder.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.585Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-96c9fc24644ebeedee79",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because prolonged firm pressure helps maintain local haemostasis and reduces the risk of a painful haematoma.",
+    "B": "Incorrect because 30 to 60 seconds is too short to achieve adequate haemostasis in a patient with impaired clotting.",
+    "C": "Incorrect because 1 to 2 minutes may still be insufficient to prevent continued oozing or haematoma formation.",
+    "D": "Incorrect because 15 to 20 minutes is longer than typically required and is not the usual recommendation.",
+    "E": "Incorrect because firm pressure should be applied after vaccination in a patient with a bleeding disorder."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The time required is significantly longer than the standard few seconds used for most patients.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ae56c6bf-3cbe-47d8-9931-edc143dd93d9",
+    "overlapScore": 0.417910447761194,
+    "questionIndex": 7,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:22.099Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

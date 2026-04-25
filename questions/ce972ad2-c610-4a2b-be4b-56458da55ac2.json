@@ -1,0 +1,98 @@
+{
+  "id": "ce972ad2-c610-4a2b-be4b-56458da55ac2",
+  "stem": "Which statement about the Autism Diagnostic Observation Schedule (ADOS-2) is true?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is mandatory for every autism diagnosis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It can replace a full developmental assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A diagnosis can often be made using parent history and school feedback",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It is the main tool used by social workers for family support",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is the only assessment required to confirm autism spectrum disorder",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A diagnosis can often be made using parent history and school feedback. The ADOS-2 is a useful assessment tool, but it is not always required as the sole basis for diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.766Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-05b37bfb7eb59c1bd9ad",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the ADOS-2 is not mandatory for every autism diagnosis.",
+    "B": "Incorrect because it does not replace a full developmental assessment.",
+    "C": "Correct because autism diagnosis can often be reached using information from parent history, school feedback, and clinical assessment rather than relying on the ADOS-2 alone.",
+    "D": "Incorrect because the ADOS-2 is a diagnostic observation tool, not a family support tool used by social workers.",
+    "E": "Incorrect because the ADOS-2 is not the only assessment required to confirm autism spectrum disorder."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Reflect on whether this specific tool is the only way to reach a clinical conclusion.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5bf0820a-5540-430e-8319-d93bdb8aa2b9",
+    "overlapScore": 0.5268817204301075,
+    "questionIndex": 4,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:36.538Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

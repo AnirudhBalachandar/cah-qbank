@@ -1,0 +1,103 @@
+{
+  "id": "0ad119ee-90e4-4337-b087-53462a70bbc4",
+  "stem": "What normally causes functional closure of the foramen ovale after birth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increased left atrial pressure together with decreased right atrial pressure",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Reduced umbilical venous return causing passive collapse over 3 to 7 days",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Increased oxygen tension causing thrombosis and fibrosis within weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Slow loss of right ventricular dominance through childhood",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Seasonal viral triggering of vasculitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Increased left atrial pressure together with decreased right atrial pressure is the normal mechanism for functional closure of the foramen ovale after birth.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 19,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:16:09.120Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B45-attempt-02-c522fc41c3b2ed5093ec",
+  "rationale": "Foramen ovale closure is pressure-driven at birth; left atrial pressure rises while right atrial pressure falls.",
+  "optionExplanations": {
+    "A": "Correct because the rise in left atrial pressure and fall in right atrial pressure presses the septal flap closed.",
+    "B": "Incorrect because reduced umbilical venous return relates to closure of the ductus venosus, not the foramen ovale.",
+    "C": "Incorrect because increased oxygen tension is part of ductus arteriosus closure, not the foramen ovale.",
+    "D": "Incorrect because loss of right ventricular dominance is not the direct mechanism of functional foramen ovale closure.",
+    "E": "Incorrect because viral triggering of vasculitis is unrelated to postnatal foramen ovale closure."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B45-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpz5310001rjg7igxstg4a",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3309352517985611,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c8e08b6d-8d6f-44b0-97b3-21b215a1e9dd",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B45/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cardiology foundations and acquired disease",
+      "foetal circulation",
+      "postnatal transition",
+      "foramen ovale"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:03.902Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

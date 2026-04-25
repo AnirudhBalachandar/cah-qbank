@@ -1,0 +1,98 @@
+{
+  "id": "28e54858-debf-4b6f-884c-b02df7d43874",
+  "stem": "A child has recurrent episodes of intractable vomiting with pallor and dehydration, preceded by a distinct prodrome, and gastrointestinal causes have been excluded. What diagnosis should be considered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Functional neurological disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Vitamin B12 deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Cyclical vomiting as a migraine variant",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Hypertensive encephalopathy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Intussusception",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cyclical vomiting as a migraine variant should be considered. In children, migraine equivalents can present with stereotyped episodes of vomiting, pallor, and dehydration rather than headache.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+      "title": "00071 Neurology - what not-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.653Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-264992970e5fd4a07edf",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because functional neurological disorder does not typically cause stereotyped cyclic vomiting episodes with a migraine-like prodrome.",
+    "B": "Incorrect because vitamin B12 deficiency usually causes neurological or haematological features, not recurrent discrete vomiting attacks.",
+    "C": "Correct because cyclical vomiting is a recognised migraine equivalent in children and often presents with recurrent stereotyped vomiting episodes and a prodrome.",
+    "D": "Incorrect because hypertensive encephalopathy usually causes headache, altered conscious state, seizures, or visual symptoms rather than isolated cyclic vomiting.",
+    "E": "Incorrect because intussusception usually causes episodic abdominal pain, distension, and may cause vomiting, but it does not typically present as a recurrent migraine-equivalent syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6122ccaf-6d1a-45e0-a6e3-c25e7cc33dcc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about common neurological conditions in children that can present with episodic, non-headache symptoms.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "71",
+    "lectureTitle": "00071 Neurology - what not-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0a1e9eb9-803f-4a33-8896-ac40f068c3d3",
+    "overlapScore": 0.3714285714285714,
+    "questionIndex": 3,
+    "quizFileName": "quiz_071.json",
+    "quizTitle": "Pediatric Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e57d3ca2-20dc-4d28-b7fd-7ab669303461",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:10.263Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "bb95fc28-2e4d-4712-8e62-1d6b93c3dc53",
+  "stem": "A 17-year-old who denies other drug use reports repeated heavy weekend drinking; which screening tool best fits an alcohol-specific screen for dependence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "CRAFFT",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "AUDIT-C",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "HEEADSSS",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Brief interventions (5 A's)",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Neurocognitive assessment",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "AUDIT-C is the correct answer because it is the alcohol-specific screening tool best suited to assessing problematic drinking in this scenario. CRAFFT is broader and is used to screen for alcohol and other drug use in adolescents.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T09:41:42.521Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-d23e8a7321c85b920df1",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because CRAFFT is a broader adolescent substance-use screen rather than an alcohol-specific dependence screen.",
+    "B": "Correct because AUDIT-C is designed for alcohol-focused screening and best matches the need for an alcohol-specific screen for dependence.",
+    "C": "Incorrect because HEEADSSS is a psychosocial assessment framework, not a specific alcohol screening tool.",
+    "D": "Incorrect because the 5 A's are a brief intervention framework, not a screening instrument.",
+    "E": "Incorrect because neurocognitive assessment evaluates cognition rather than alcohol use or dependence."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmufaqvg0001rjggd8l4gv6x",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3300970873786408,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9c1c537b-a275-4470-b46e-f03c1a9f32ad",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-14.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "AUDIT-C",
+      "alcohol",
+      "screening"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:52.768Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

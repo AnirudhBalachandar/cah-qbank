@@ -1,0 +1,102 @@
+{
+  "id": "0a0ae9a0-5256-4036-b598-4e64f32ab3e1",
+  "stem": "A 10-month-old has vomiting and diarrhoea after feeds, and you are considering a delayed food-allergic mechanism; what is the most important alternative diagnosis to consider?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Infectious gastroenteritis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Eosinophilic oesophagitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Immediate IgE-mediated food allergy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cystic fibrosis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sleep disorder",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Infectious gastroenteritis is the most important alternative diagnosis here. It commonly overlaps with delayed food-allergic presentations, so infection should be considered before labelling the symptoms as allergy.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 53,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:00:59.772Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B34-attempt-03-ee609d0edbd7e6798d2f",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because infectious gastroenteritis is the key competing diagnosis for vomiting and diarrhoea in an infant with a possible delayed food-allergic presentation.",
+    "B": "Incorrect because eosinophilic oesophagitis is a separate condition and is not the main differential for this acute gastrointestinal picture.",
+    "C": "Incorrect because immediate IgE-mediated food allergy typically causes rapid-onset symptoms such as urticaria or angioedema rather than this delayed vomiting-and-diarrhoea pattern.",
+    "D": "Incorrect because cystic fibrosis can cause gastrointestinal symptoms but is not the principal alternative diagnosis being tested here.",
+    "E": "Incorrect because a sleep disorder does not explain the gastrointestinal symptoms in this presentation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B34-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwnahna0001rj76tsz6n4fq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3301435406698565,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3be0ccc7-40ab-4880-8d0e-e35697d17da1",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B34/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Mixed and non-IgE-mediated food allergy",
+      "symptom patterns",
+      "differential diagnosis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:59.411Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

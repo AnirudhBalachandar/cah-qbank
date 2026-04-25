@@ -1,0 +1,98 @@
+{
+  "id": "199bc3c8-9316-4af5-b890-3206b4863d49",
+  "stem": "Chronic stress during early childhood can interfere with learning and memory by affecting which biological system?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The hypothalamic-pituitary-adrenal (HPA) axis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The birds and the bees pathway",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The spinal reflex arc",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The primary visual cortex",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The autonomic respiratory centre",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The hypothalamic-pituitary-adrenal axis is the body’s core stress-response system, and chronic activation can affect brain development, neuronal circuitry, and learning.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+      "title": "00074 Adolescent_brain and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.481Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-620e905fc68a0f68c297",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the hypothalamic-pituitary-adrenal axis mediates the stress response and prolonged activation can alter brain development and memory.",
+    "B": "Incorrect because this is a humorous phrase and not a biological stress-response system.",
+    "C": "Incorrect because the spinal reflex arc mediates rapid reflexes, not the effects of chronic stress on cognition.",
+    "D": "Incorrect because the primary visual cortex processes vision, not endocrine stress signalling.",
+    "E": "Incorrect because respiratory centres regulate breathing, not the hormonal stress response described here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "49bfb8d4-1e96-4dec-8485-9a44a0ebd9dc",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This system involves a complex set of interactions between the endocrine glands and the brain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "74",
+    "lectureTitle": "00074 Adolescent_brain and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c56b42ec-1597-43ff-99be-b5fef4c4d4b1",
+    "overlapScore": 0.3584905660377358,
+    "questionIndex": 8,
+    "quizFileName": "quiz_074.json",
+    "quizTitle": "Adolescent Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a867e612-3ad2-424c-9acc-8958e39ef9ac",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:34.058Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

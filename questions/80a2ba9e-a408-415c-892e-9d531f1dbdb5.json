@@ -1,0 +1,98 @@
+{
+  "id": "80a2ba9e-a408-415c-892e-9d531f1dbdb5",
+  "stem": "Which clinical feature is a red flag suggesting that musculoskeletal symptoms may be due to malignancy rather than a benign condition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Morning stiffness that improves with movement",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Nocturnal bone pain",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Pain specifically after intense sports activity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Localised swelling following a fall",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pain only during daytime activity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Nocturnal bone pain is a red flag for malignancy because pain that wakes a child from sleep or occurs predominantly at night is concerning for a malignant process.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.438Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-83c72979136b44d96b41",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because morning stiffness that improves with movement is more typical of inflammatory conditions such as juvenile idiopathic arthritis.",
+    "B": "Correct because pain that wakes a child from sleep or occurs predominantly at night is a concerning feature suggestive of malignancy.",
+    "C": "Incorrect because pain after intense sports activity is more consistent with mechanical overuse or an apophyseal injury.",
+    "D": "Incorrect because localised swelling after a fall is more suggestive of trauma such as a contusion, sprain, or fracture.",
+    "E": "Incorrect because pain only during daytime activity is less concerning for malignancy and more in keeping with a mechanical cause."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the timing of the pain that was specifically associated with systemic tumors.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4282796d-fbb6-45d0-94c4-46976cf48834",
+    "overlapScore": 0.4388489208633093,
+    "questionIndex": 7,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:52.739Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

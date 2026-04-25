@@ -1,0 +1,98 @@
+{
+  "id": "f50417ec-14d6-4199-92e4-0f3314c7fa50",
+  "stem": "Which burn type is characterised by a pink appearance, brisk capillary refill, and blisters?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Superficial dermal burn",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Epidermal burn",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Mid-dermal burn",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Full thickness burn",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Deep dermal burn",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Superficial dermal burn is the correct answer because it involves the upper dermis, so perfusion is preserved enough to give brisk capillary refill and blister formation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.406Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-97b2993aabae9e78c69e",
+  "rationale": "This burn depth usually heals within 10 to 14 days and retains a functioning superficial capillary plexus.",
+  "optionExplanations": {
+    "A": "Correct because superficial dermal burns involve the upper dermis, where the capillary plexus remains intact enough to produce brisk capillary refill and blistering.",
+    "B": "Incorrect because epidermal burns are limited to the epidermis and typically cause erythema and pain without blister formation.",
+    "C": "Incorrect because mid-dermal burns are deeper and are more likely to have reduced or absent blanching due to injury to the superficial capillary plexus.",
+    "D": "Incorrect because full thickness burns destroy the full skin thickness, often appearing white, waxy, or charred with no capillary refill.",
+    "E": "Incorrect because deep dermal burns are more severe than superficial dermal burns and usually have impaired capillary refill rather than brisk refill."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This depth of burn usually heals within 10 to 14 days and still has a functional superficial capillary plexus.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4565b0b0-b394-4b40-b8ea-c66f5b0f9c7b",
+    "overlapScore": 0.4270833333333333,
+    "questionIndex": 9,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:03.359Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

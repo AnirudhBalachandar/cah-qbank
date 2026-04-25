@@ -1,0 +1,102 @@
+{
+  "id": "03ba972b-878b-4b40-9284-cb46131be5e9",
+  "stem": "A GP is reviewing weight status in a 5-year-old; which is the standard tool for assessing unhealthy weight in children older than 2 years?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Mid-parental height chart",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Body mass index (BMI)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Head circumference alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Weight-for-age only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bone age radiograph",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Body mass index (BMI) is the standard tool for assessing unhealthy weight in children older than 2 years. Interpretation should be based on age and growth stage.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 13,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:04:56.960Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B15-attempt-02-4b5e561d16598347281b",
+  "rationale": "BMI is the standard tool for unhealthy weight assessment in children over 2 years, and it must be interpreted in the context of age and growth stage.",
+  "optionExplanations": {
+    "A": "Incorrect because mid-parental height charts are used to assess growth potential, not unhealthy weight.",
+    "B": "Correct because BMI is the standard tool for assessing unhealthy weight in children older than 2 years.",
+    "C": "Incorrect because head circumference is used to assess head growth in infants and young children, not unhealthy weight.",
+    "D": "Incorrect because weight-for-age alone does not account for height and is not the standard tool for unhealthy weight assessment in this age group.",
+    "E": "Incorrect because bone age radiographs assess skeletal maturation, not unhealthy weight."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B15-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvtfbqv0001rjozqoi8hbpe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3006134969325153,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "48f05303-f14f-47e3-a766-b758c5a2b7ca",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B15/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Growth, nutrition, and obesity",
+      "obesity risk factors",
+      "growth assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:46.126Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

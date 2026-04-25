@@ -1,0 +1,102 @@
+{
+  "id": "41ed5c0f-909a-406c-8397-6d52c92dcb92",
+  "stem": "A critically ill child in septic shock remains unresponsive to fluids and inotropic support, what adrenal-related diagnosis should be considered?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bilateral adrenal haemorrhage causing acute adrenal crisis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "No endocrine cause needs to be considered",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hyperpigmentation must be present before adrenal disease is considered",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Adrenal causes are relevant only in neonates",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bilateral adrenal haemorrhage causing acute adrenal crisis should be considered in a child with refractory septic shock who does not respond to fluids and inotropic support.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 101,
+      "title": "Adrenal Insufficiency"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:40:43.570Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B55-attempt-03-84dddc5e72294918f62d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because bilateral adrenal haemorrhage can cause acute adrenal crisis and should be considered in refractory septic shock.",
+    "B": "Incorrect because persistent shock despite fluids and inotropes does not exclude an endocrine cause such as adrenal crisis.",
+    "C": "Incorrect because congenital adrenal hyperplasia is not the specific adrenal-related diagnosis highlighted in this scenario.",
+    "D": "Incorrect because hyperpigmentation is not required before adrenal disease should be considered.",
+    "E": "Incorrect because adrenal causes can be relevant beyond the neonatal period."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B55-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwquqnn0001rjyzvzgyv54t",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3354430379746836,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "62373049-cc9a-407e-90d4-17282739bd58",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B55/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Sick-day management and adrenal insufficiency",
+      "adrenal insufficiency presentation",
+      "critical illness"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:51.083Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "3da49985-8260-4508-ad92-b0770aa6555c",
+  "stem": "A student wants to revise named gastrointestinal diagnoses rather than broad symptom groups; which section title is the best fit?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Specific GI Conditions",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Jaundice in Children",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Spirometry",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sleep in Infancy and Children",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Specific GI Conditions is the best section title for revising named gastrointestinal diagnoses. It matches individual GI conditions rather than a single illness, an unrelated topic, or a different body system.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 1,
+      "title": "Page 1"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:36.439Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B32-attempt-04-ed7cbdb35a0ec3999ad2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because Specific GI Conditions is the section title that best fits revision of named gastrointestinal diagnoses.",
+    "B": "Incorrect because Gastroenteritis is a single condition, not a broad section title covering multiple named GI diagnoses.",
+    "C": "Incorrect because Jaundice in Children relates to a different clinical topic and is not a GI conditions section.",
+    "D": "Incorrect because Spirometry is a respiratory investigation and is unrelated to gastrointestinal revision.",
+    "E": "Incorrect because Sleep in Infancy and Children is unrelated to gastrointestinal diagnoses."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B32-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpo5gy0001rj7qd0k988kh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0a93ecba-cdec-45df-bc4d-f39139ecd2f6",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B32/attempt-04.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Specific GI conditions and jaundice in children",
+      "specific GI conditions",
+      "study navigation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:43.962Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

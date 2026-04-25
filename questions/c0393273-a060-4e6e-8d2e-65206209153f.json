@@ -1,0 +1,101 @@
+{
+  "id": "c0393273-a060-4e6e-8d2e-65206209153f",
+  "stem": "Why can relatively small changes in upper-airway calibre matter more in infants than in adults?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A compliant chest wall gives more support to lung volume",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Fewer alveoli reduce airway resistance",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Respiratory tract infections are usually bacterial",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Smaller diameter airways increase resistance",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "A large occiput increases oxygen offload to tissues",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Smaller diameter airways increase resistance. In infants, a small reduction in airway calibre produces a proportionally larger rise in resistance, so minor narrowing has a bigger clinical effect.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 28,
+      "title": "Respiratory 3.1 Acute Respiratory Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:21:16.898Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-01-13797e399b12523f75ba",
+  "rationale": "Infants have smaller airways, so resistance rises more steeply when calibre decreases.",
+  "optionExplanations": {
+    "A": "Incorrect because a compliant chest wall provides less support for maintenance of lung volume, not more.",
+    "B": "Incorrect because fewer alveoli relate to gas exchange and V/Q mismatch, not lower airway resistance.",
+    "C": "Incorrect because paediatric respiratory tract infections are usually acute viral infections, not usually bacterial.",
+    "D": "Correct because smaller airway diameter increases resistance, so even small narrowing can significantly increase work of breathing in infants.",
+    "E": "Incorrect because a large occiput affects head position and airway patency, not oxygen offload to tissues."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B24-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlvez70001rjv96kokautb",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3246753246753247,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b7598a74-319d-4d5f-aaba-63853439e70d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "Severity assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:03.762Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

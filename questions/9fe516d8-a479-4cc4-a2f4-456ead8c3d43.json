@@ -1,0 +1,98 @@
+{
+  "id": "9fe516d8-a479-4cc4-a2f4-456ead8c3d43",
+  "stem": "Perthes disease is best defined as which condition affecting the femoral head?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Idiopathic avascular necrosis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Septic arthritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Slipped capital femoral epiphysis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Developmental dysplasia of the hip",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Transient synovitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Idiopathic avascular necrosis is the correct definition of Perthes disease, which is a childhood loss of blood supply to the femoral head causing bone death without an identified cause.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.951Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-47d75c307ab03a016113",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because Perthes disease is idiopathic avascular necrosis of the femoral head.",
+    "B": "Incorrect because septic arthritis is an infection of a joint, not avascular necrosis of bone.",
+    "C": "Incorrect because slipped capital femoral epiphysis is displacement through the growth plate, not idiopathic bone necrosis.",
+    "D": "Incorrect because developmental dysplasia of the hip is abnormal hip joint formation, not femoral head avascular necrosis.",
+    "E": "Incorrect because transient synovitis is a self-limiting inflammation of the hip synovium, not bone death."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the vascular and idiopathic nature of the bone death described in the source.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "618920b1-d41b-4c31-ad7f-b2ccd40ee2d0",
+    "overlapScore": 0.4673913043478261,
+    "questionIndex": 1,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:54.942Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

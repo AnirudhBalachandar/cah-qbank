@@ -1,0 +1,98 @@
+{
+  "id": "3c681b65-f171-4507-97e0-52a1a76694dd",
+  "stem": "What is the estimated incidence of dislocated or dislocatable hips at birth?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "1 per 1,000 live births",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4 per 1,000 live births",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "10 per 1,000 live births",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "30 per 1,000 live births",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "40 per 1,000 live births",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "4 per 1,000 live births is the estimated incidence of dislocated or dislocatable hips at birth.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.198Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-03ce4e55eb3b8b33cc79",
+  "rationale": "The question is testing the approximate birth incidence of clinically significant developmental dysplasia of the hip presenting as dislocated or dislocatable hips.",
+  "optionExplanations": {
+    "A": "Incorrect because 1 per 1,000 live births underestimates the estimated incidence.",
+    "B": "Correct because the estimated incidence of dislocated or dislocatable hips at birth is about 4 per 1,000 live births.",
+    "C": "Incorrect because 10 per 1,000 live births is higher than the usual estimated incidence.",
+    "D": "Incorrect because 30 per 1,000 live births is far above the estimated incidence.",
+    "E": "Incorrect because 40 per 1,000 live births is far above the estimated incidence."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This statistic describes the frequency of the more severe forms of DDH requiring treatment in the general population.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a44cf4a5-5672-42e0-88cc-92a0970bd2e5",
+    "overlapScore": 0.5068493150684932,
+    "questionIndex": 3,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:40.754Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

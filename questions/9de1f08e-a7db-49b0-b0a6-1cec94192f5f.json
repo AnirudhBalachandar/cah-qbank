@@ -1,0 +1,98 @@
+{
+  "id": "9de1f08e-a7db-49b0-b0a6-1cec94192f5f",
+  "stem": "Which serial head circumference pattern in a child should raise significant suspicion of raised intracranial pressure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Measurements that cross percentile lines upward",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Measurements that remain steady on the 50th percentile",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A single measurement taken at the onset of headache",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Measurements that cross percentile lines downward",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Measurements that fluctuate slightly within the same percentile band",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Measurements that cross percentile lines upward are the correct answer because a head circumference that increases faster than expected over time suggests accelerated skull growth and possible raised intracranial pressure.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+      "title": "00069 Headaches_Procopis_E-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.142Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f2d6004e0021bbfdcbd6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because upward crossing of percentile lines on serial head circumference measurements suggests head growth is outpacing expected patterns and may indicate raised intracranial pressure.",
+    "B": "Incorrect because tracking steadily along a percentile is usually consistent with normal growth.",
+    "C": "Incorrect because a single measurement does not show the growth trend needed to assess for raised intracranial pressure.",
+    "D": "Incorrect because downward crossing of percentiles is more suggestive of reduced head growth or growth faltering, not raised intracranial pressure.",
+    "E": "Incorrect because small fluctuations within the same percentile band are usually normal measurement variation and not a concerning trend."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e9dac310-01ec-4476-83c8-99d4ac906a7f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a trend that suggests the head size is increasing faster than the standard growth curve.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "69",
+    "lectureTitle": "00069 Headaches_Procopis_E-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "06a7f0cd-e3ca-4799-b44e-4eaee53a4335",
+    "overlapScore": 0.4086956521739131,
+    "questionIndex": 5,
+    "quizFileName": "quiz_069.json",
+    "quizTitle": "Headache Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0539a56f-d2e9-4abc-b07f-b829f6726092",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:51.105Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

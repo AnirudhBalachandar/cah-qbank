@@ -1,0 +1,98 @@
+{
+  "id": "9be7e838-a80a-4080-af8a-f1d9f8cde911",
+  "stem": "Which of the following is considered a risky sexual behaviour from a medical or public health perspective?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Having a romantic relationship that lasts for several months during adolescence",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Using long-acting reversible contraceptives",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Having two or more sexual partners in the last year",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Expressing a progressive view on gender equality and social justice",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delaying sexual activity until later adolescence",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Having two or more sexual partners in the last year is the correct answer because it is used as an indicator of increased risk for unplanned pregnancy and sexually transmitted infections.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+      "title": "00077 Adolescent sexual be-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.791Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d39031793688963ce3ae",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a romantic relationship of several months is not, by itself, considered a risky sexual behaviour.",
+    "B": "Incorrect because long-acting reversible contraceptives are highly effective methods for preventing unplanned pregnancy.",
+    "C": "Correct because having two or more sexual partners in the last year is used as an indicator of increased risk for unplanned pregnancy and sexually transmitted infections.",
+    "D": "Incorrect because views on gender equality and social justice are not used as markers of risky sexual behaviour.",
+    "E": "Incorrect because delaying sexual activity is generally associated with lower sexual health risk, not higher risk."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f3c9d72c-2217-484e-b7e9-20fc04d09f37",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a specific quantitative indicator often used in health surveys and medical screenings.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "77",
+    "lectureTitle": "00077 Adolescent sexual be-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7c521c0b-05cc-428b-9c5e-81514be838c0",
+    "overlapScore": 0.4343434343434344,
+    "questionIndex": 6,
+    "quizFileName": "quiz_077.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f494d4be-0233-4212-82ca-25cccbd58d42",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:46.592Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

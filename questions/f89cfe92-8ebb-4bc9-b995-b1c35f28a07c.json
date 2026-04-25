@@ -1,0 +1,98 @@
+{
+  "id": "f89cfe92-8ebb-4bc9-b995-b1c35f28a07c",
+  "stem": "In the 10% of cases where Perthes disease is bilateral, what is the usual pattern of onset?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Simultaneous onset in both hips",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Sequential onset at different times",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Onset only after the first hip has fully healed",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Onset only in children under 3 years of age",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Persistent onset without a symptom-free interval",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sequential onset at different times is the usual pattern in bilateral Perthes disease, with one hip affected first and the other involved later.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "04acafd5-0859-492e-8618-2b7668bcc42d",
+      "title": "00094 child-with-limp-pert-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.985Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b489874f5967c4f12aeb",
+  "rationale": "Bilateral Perthes disease typically affects the hips at different times rather than presenting together.",
+  "optionExplanations": {
+    "A": "Incorrect because bilateral Perthes disease usually does not start in both hips at exactly the same time.",
+    "B": "Correct because one hip is usually affected first and the second hip becomes involved later, often months apart.",
+    "C": "Incorrect because the second hip may become involved before the first hip has fully recovered.",
+    "D": "Incorrect because bilateral involvement can occur across the usual age range for Perthes disease.",
+    "E": "Incorrect because the key pattern is delayed involvement of the second hip, not continuous simultaneous onset."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "04acafd5-0859-492e-8618-2b7668bcc42d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall how the timing of diagnosis usually differs between the two affected joints.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "94",
+    "lectureTitle": "00094 child-with-limp-pert-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "084fee2a-1bca-4329-8004-c853f37ac68e",
+    "overlapScore": 0.3561643835616438,
+    "questionIndex": 3,
+    "quizFileName": "quiz_094.json",
+    "quizTitle": "Perthes Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "0bb67d88-3e7c-411c-9033-33cfe3b567fb",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:10.702Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

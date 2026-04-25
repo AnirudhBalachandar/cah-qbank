@@ -1,0 +1,98 @@
+{
+  "id": "c1a86a75-2301-42cf-99c2-ae16844842fc",
+  "stem": "What is the most common cause of burns in children under 4 years of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Scalds and contact burns",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Flame burns from house fires",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Chemical burns from household cleaners",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Electrical injuries from power outlets",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sunburn from outdoor exposure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Scalds and contact burns are the most common cause of burns in children under 4 years because toddlers are frequently injured by hot liquids and hot surfaces in the home.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.096Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fb68a0478fce5bcefd3c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because young children commonly sustain burns from hot drinks, food, baths, and touching hot surfaces.",
+    "B": "Incorrect because flame burns are less common than scald and contact injuries in children under 4 years.",
+    "C": "Incorrect because chemical burns are a recognised hazard but are not the leading cause in this age group.",
+    "D": "Incorrect because electrical injuries occur, but they are much less common than scalds and contact burns in toddlers.",
+    "E": "Incorrect because sunburn can cause skin injury, but it is not the most common cause of burns in children under 4 years."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about common household accidents involving hot liquids or touching hot stoves.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "45d4783b-1f56-4cd6-bb91-746d2218ec81",
+    "overlapScore": 0.4523809523809524,
+    "questionIndex": 3,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:06.140Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

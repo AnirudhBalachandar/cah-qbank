@@ -1,0 +1,102 @@
+{
+  "id": "e036de1b-8058-421f-b4af-d459a8dfb2e1",
+  "stem": "A 10-month-old has an AP chest X-ray after a mild respiratory illness, and the upper mediastinum looks broad but is uniform, triangular, and causes no mass effect; which interpretation best fits this film?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pleural effusion",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Atelectasis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Normal thymus producing a sail sign",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Round pneumonia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lobar collapse",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Normal thymus producing a sail sign is the best interpretation. In young children, the thymus can create a broad upper mediastinal shadow on chest X-ray that is uniform, triangular, and not associated with mass effect.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 53,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T06:48:02.841Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-02-4725efe5866a9961122b",
+  "rationale": "The key appearance is a normal thymic shadow in an infant, which classically produces the sail sign.",
+  "optionExplanations": {
+    "A": "Incorrect because a pleural effusion typically layers in the pleural space and does not present as a uniform triangular upper mediastinal opacity.",
+    "B": "Incorrect because atelectasis usually causes volume loss and localised parenchymal opacity rather than a broad, triangular mediastinal shadow without mass effect.",
+    "C": "Correct because a normal thymus in a young child can appear as a uniform triangular upper mediastinal density with no mass effect, producing the sail sign.",
+    "D": "Incorrect because round pneumonia appears as a rounded airspace opacity within the lung, not as a sail-like mediastinal contour.",
+    "E": "Incorrect because lobar collapse is associated with volume loss and displacement of adjacent structures, not a normal broad triangular thymic shadow."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B11-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvoj9p00001rjt4krund0wf",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3157894736842105,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "15572832-8cc5-4bdd-b616-88e5dda8a5bc",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "Chest X-ray basics",
+      "Thymus"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:17.958Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

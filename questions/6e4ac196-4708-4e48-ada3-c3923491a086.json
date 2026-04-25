@@ -1,0 +1,98 @@
+{
+  "id": "6e4ac196-4708-4e48-ada3-c3923491a086",
+  "stem": "Which anti-seizure medication class should be avoided in juvenile myoclonic epilepsy because it may worsen seizures?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sodium channel blockers such as carbamazepine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Levetiracetam",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Sodium valproate",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lamotrigine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Clonazepam",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Sodium channel blockers such as carbamazepine should be avoided in juvenile myoclonic epilepsy because they can exacerbate seizures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.620Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-279083d34cffdd8dfae5",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because sodium channel blockers such as carbamazepine can worsen myoclonic and generalised seizures in juvenile myoclonic epilepsy.",
+    "B": "Incorrect because levetiracetam is a commonly used treatment for juvenile myoclonic epilepsy.",
+    "C": "Incorrect because sodium valproate is highly effective for juvenile myoclonic epilepsy, although its use requires caution in some patients.",
+    "D": "Incorrect because lamotrigine can be used in juvenile myoclonic epilepsy, even though it may be less effective for myoclonus in some patients.",
+    "E": "Incorrect because clonazepam may help suppress myoclonic seizures rather than exacerbate them."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on a specific class of anti-seizure medications that interact poorly with generalized idiopathic epilepsies.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "74d07dde-4461-4205-abef-7851b1150fef",
+    "overlapScore": 0.4566929133858268,
+    "questionIndex": 7,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:21.056Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

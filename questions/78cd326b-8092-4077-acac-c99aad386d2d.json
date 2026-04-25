@@ -1,0 +1,98 @@
+{
+  "id": "78cd326b-8092-4077-acac-c99aad386d2d",
+  "stem": "Which of the following is a primary risk factor for developmental dysplasia of the hip (DDH)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Being the third or fourth child in a family",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Breech presentation at birth",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Polyhydramnios",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Male sex",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Firstborn status",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Breech presentation at birth is a primary risk factor for developmental dysplasia of the hip (DDH). It is associated with increased mechanical stress on the hip and a higher likelihood of hip instability.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+      "title": "00095 child-with-limp-DDH -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.228Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fceb9c845c775999be4f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because being a later-born child is not a primary risk factor for DDH; firstborn infants are more commonly associated with increased risk.",
+    "B": "Correct because breech presentation at birth is a major risk factor for DDH due to hip positioning and mechanical forces in late pregnancy and delivery.",
+    "C": "Incorrect because polyhydramnios is not a primary risk factor for DDH; oligohydramnios and fetal constraint are more relevant to risk.",
+    "D": "Incorrect because female sex, not male sex, is associated with a higher risk of DDH.",
+    "E": "Incorrect because firstborn status is associated with increased risk, but it is not as strong a primary risk factor as breech presentation at birth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "70a1d64a-7e0b-4668-bdc8-528edefe74f0",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the baby's orientation during delivery or the family's medical history.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "95",
+    "lectureTitle": "00095 child-with-limp-DDH -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "39ecf8ee-a548-43b9-bdfd-0ea5bd61c5c2",
+    "overlapScore": 0.5522388059701493,
+    "questionIndex": 4,
+    "quizFileName": "quiz_095.json",
+    "quizTitle": "Hip Dysplasia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "30487668-a46c-4985-a66c-27c1593cea31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:39.132Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

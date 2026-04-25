@@ -1,0 +1,98 @@
+{
+  "id": "2240c7d2-f887-4687-a80b-ca7b1956d5ce",
+  "stem": "How does inflammatory enthesitis typically differ from mechanical apophysitis in relation to activity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enthesitis improves with activity, whereas apophysitis worsens",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Enthesitis is only found at the tibial tuberosity",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Apophysitis causes significant morning stiffness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Enthesitis never occurs at the same sites as apophysitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Enthesitis only occurs after sports injury",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Enthesitis is an inflammatory process that tends to cause morning stiffness and improves with movement, whereas mechanical apophysitis is aggravated by activity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.834Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c4b74dde61dc0d0a9965",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because inflammatory enthesitis typically causes pain and stiffness that ease with activity, while mechanical apophysitis is usually worse with use.",
+    "B": "Incorrect because enthesitis can occur at multiple insertion sites, not just the tibial tuberosity.",
+    "C": "Incorrect because significant morning stiffness is more typical of inflammatory conditions such as enthesitis than of mechanical apophysitis.",
+    "D": "Incorrect because enthesitis and apophysitis can involve similar anatomical sites, which can make them difficult to distinguish clinically.",
+    "E": "Incorrect because enthesitis is an inflammatory condition and is not limited to occurring only after sports injury."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how movement affects inflammatory versus mechanical pain.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "11e0bbc1-e846-43ac-87ef-9a0084bb6a90",
+    "overlapScore": 0.5462184873949579,
+    "questionIndex": 11,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:54.618Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

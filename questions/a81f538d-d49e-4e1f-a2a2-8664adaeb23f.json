@@ -1,0 +1,98 @@
+{
+  "id": "a81f538d-d49e-4e1f-a2a2-8664adaeb23f",
+  "stem": "In a neonate with suspected oesophageal atresia, at what vertebral level does a nasogastric tube typically fail to progress?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "C1 to C3",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "T2 to T4",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "T8 to T10",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "L1 to L2",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "T5 to T7",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "T2 to T4 is the correct level at which a nasogastric tube typically stops in oesophageal atresia because the tube meets the blind proximal oesophageal pouch in the upper thorax.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.144Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8791e13e43175d872972",
+  "rationale": "The key concept is the upper thoracic level where the tube meets resistance in oesophageal atresia.",
+  "optionExplanations": {
+    "A": "Incorrect because C1 to C3 is too high in the cervical spine and is not the typical point of obstruction.",
+    "B": "Correct because the blind proximal pouch in oesophageal atresia usually stops the nasogastric tube at the upper thoracic level, around T2 to T4.",
+    "C": "Incorrect because T8 to T10 is too low and would be beyond the usual site of oesophageal obstruction.",
+    "D": "Incorrect because L1 to L2 is in the lumbar region, far below the oesophagus.",
+    "E": "Incorrect because T5 to T7 is lower than the usual level of resistance in oesophageal atresia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the specific thoracic vertebral range mentioned as the point of resistance during tube insertion.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "69673980-62c4-4c7e-9357-7f494e3ce541",
+    "overlapScore": 0.3879310344827586,
+    "questionIndex": 5,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:10.255Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

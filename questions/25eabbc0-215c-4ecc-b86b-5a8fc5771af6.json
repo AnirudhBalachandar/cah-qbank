@@ -1,0 +1,103 @@
+{
+  "id": "25eabbc0-215c-4ecc-b86b-5a8fc5771af6",
+  "stem": "A 9-month-old had no obvious symptoms the first time egg was offered, but developed urticaria within minutes on a later exposure. Which immune event most plausibly occurred during the earlier sensitisation phase?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A macrophage presented the allergen to a Th2 cell, which stimulated a B cell to produce IgE",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Neutrophils produced allergen-specific IgE immediately after ingestion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Complement activation caused delayed eosinophilic infiltration of the oesophagus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pre-existing mast cells produced IgE before any allergen presentation occurred",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The first exposure directly caused non-IgE-mediated disease without prior sensitisation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A macrophage presenting the allergen to a Th2 cell, which then stimulates a B cell to produce IgE, is the key sensitisation event in IgE-mediated food allergy. This primes mast cells for a rapid reaction on later exposure.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 50,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:58:50.096Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B33-attempt-03-fa32995647e8d3497f70",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because allergen presentation to a Th2 cell drives B-cell class switching to IgE during sensitisation, preparing for an immediate reaction on re-exposure.",
+    "B": "Incorrect because neutrophils do not produce allergen-specific IgE in the sensitisation phase of IgE-mediated allergy.",
+    "C": "Incorrect because complement activation and delayed eosinophilic infiltration describe a different inflammatory process, not the classic IgE sensitisation pathway.",
+    "D": "Incorrect because mast cells do not produce IgE; they bind IgE after it is made by B cells following allergen presentation.",
+    "E": "Incorrect because the stem describes an IgE-mediated allergy with prior sensitisation, not direct non-IgE-mediated disease on first exposure."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B33-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn7pl60001rjwfda52ze1v",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3005181347150259,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fbe1f2f1-68df-46ea-b8b4-0fb3ddef7f48",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B33/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Food allergy and IgE-mediated allergy",
+      "IgE-mediated reactions",
+      "mechanism",
+      "sensitisation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:02.650Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

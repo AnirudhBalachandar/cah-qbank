@@ -1,0 +1,103 @@
+{
+  "id": "ae3dc667-6066-4e36-987b-6e6783e6f2ab",
+  "stem": "An infant with diagnosed airway malacia is otherwise well, growing appropriately, and has no worsening symptoms; what is the best overall management approach?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Treatment is rarely needed; continue follow-up rather than escalating immediately",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Start a regular asthma preventer because airway malacia usually behaves like asthma",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Use repeated short courses of prednisolone as routine long-term treatment",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Arrange bronchoscopy at every review regardless of progress",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Start prolonged antibiotics to prevent any future cough",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Treatment is rarely needed for uncomplicated airway malacia. In a thriving infant with no worsening symptoms, the appropriate approach is follow-up and observation rather than immediate escalation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:36:00.600Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B26-attempt-03-6867437acf3158947519",
+  "rationale": "Airway malacia often requires little active treatment when the infant is otherwise well. Escalation is more relevant if symptoms worsen or growth falters.",
+  "optionExplanations": {
+    "A": "Correct because uncomplicated airway malacia is usually managed conservatively with follow-up when the infant is well and growing appropriately.",
+    "B": "Incorrect because airway malacia is not routinely managed as asthma, so a preventer is not the standard approach.",
+    "C": "Incorrect because repeated prednisolone is not standard long-term treatment for airway malacia.",
+    "D": "Incorrect because bronchoscopy is not needed at every review when the child is clinically stable.",
+    "E": "Incorrect because prolonged antibiotics are not used to prevent cough in uncomplicated airway malacia."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B26-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmecue0001rjiciy9yepf4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3425414364640884,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4aef6afd-d5bb-4105-a99e-5fc88acd7eef",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B26/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Chronic airway problems foundations",
+      "monitoring and prevention",
+      "long-term assessment",
+      "airway malacia"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:26.627Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

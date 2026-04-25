@@ -1,0 +1,102 @@
+{
+  "id": "9184f6e6-f88c-4364-a637-27932fd106f4",
+  "stem": "A 14-year-old has no trusted adult outside the immediate family, feels school is pointless, has dropped all outside activities, and says, \"Nothing I do changes anything\". What is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Several resilience supports are missing and protective factors should be actively reviewed",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The history is reassuring because independence is increasing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The main issue is only a normal wish for privacy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The pattern mainly suggests advanced cognitive maturity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The history is normal if the adolescent has no major medical condition",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Several resilience supports are missing, so protective factors should be actively reviewed. This pattern shows loss of a trusted adult, school connection, activities, social support, and an internal sense of control, which warrants follow-up rather than reassurance.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 126,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-16T11:06:43.660Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B01-3b349e2fbc03a28f7df0",
+  "rationale": "The vignette removes multiple protective factors that usually support adolescent resilience. This should prompt active review of supports and strengths, not normalisation.",
+  "optionExplanations": {
+    "A": "Correct because the adolescent lacks several key protective factors, including trusted adult support, school engagement, outside activities, and a sense of agency.",
+    "B": "Incorrect because reduced connection and hopelessness are not reassuring signs of healthy independence.",
+    "C": "Incorrect because the pattern is broader than privacy and includes loss of supports and hopeless statements.",
+    "D": "Incorrect because the history does not indicate advanced maturity; it suggests reduced resilience supports.",
+    "E": "Incorrect because the absence of major medical illness does not make the psychosocial risk profile normal."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmt2w89c0001rjgc79ejmqbe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2891566265060241,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-16-04.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "resilience",
+      "screening",
+      "protective factors"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:29.824Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

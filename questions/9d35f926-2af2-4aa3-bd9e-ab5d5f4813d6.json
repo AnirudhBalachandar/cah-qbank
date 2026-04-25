@@ -1,0 +1,98 @@
+{
+  "id": "9d35f926-2af2-4aa3-bd9e-ab5d5f4813d6",
+  "stem": "In the sensitisation phase of an allergic response, which T cells communicate with B cells after allergen presentation by macrophages?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "T_H2 T-cells",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Mast cells",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Red blood cells",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Neutrophils",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Eosinophils",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "T_H2 T-cells are the helper T-cell subset that communicates with B cells during sensitisation to promote IgE-mediated allergic responses.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "1c096069-590c-4e16-9ce8-62533147ff46",
+      "title": "00030 Year 3 CAH Allergy a-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.870Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1b25bb86cc6ef8d696db",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because T_H2 T-cells provide the helper signals to B cells after allergen presentation, driving the allergic sensitisation pathway.",
+    "B": "Incorrect because mast cells are effector cells that act during allergic reactions, not the cells that direct B-cell class switching in sensitisation.",
+    "C": "Incorrect because red blood cells do not have an immune-signalling role in allergic sensitisation.",
+    "D": "Incorrect because neutrophils are not the main T-cell subset responsible for communicating with B cells in allergy development.",
+    "E": "Incorrect because eosinophils are inflammatory effector cells and do not provide the key helper signal to B cells in sensitisation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "1c096069-590c-4e16-9ce8-62533147ff46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify the specific subset of Helper $\\text{T}$-cells involved in allergic pathways.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "30",
+    "lectureTitle": "00030 Year 3 CAH Allergy a-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a34bfe65-ef70-4e7c-9128-7d775a77910d",
+    "overlapScore": 0.4297520661157025,
+    "questionIndex": 13,
+    "quizFileName": "quiz_030.json",
+    "quizTitle": "Food Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7e1b5793-7015-43f0-905e-699bf461e6d7",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:49.721Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

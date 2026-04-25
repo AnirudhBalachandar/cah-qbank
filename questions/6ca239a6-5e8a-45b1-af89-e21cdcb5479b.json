@@ -1,0 +1,102 @@
+{
+  "id": "6ca239a6-5e8a-45b1-af89-e21cdcb5479b",
+  "stem": "A teenager has had both motor tics and vocal tics documented over time; which diagnosis is the combination of motor and vocal tics?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Persistent tic disorder",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Tourette’s syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Simple febrile convulsion",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "SeLECTS",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Dravet syndrome",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Tourette’s syndrome is the correct diagnosis. It is the tic disorder characterised by the presence of both motor and vocal tics.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 58,
+      "title": "Tics"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:00:26.455Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B60-attempt-04-adac487b0fc21ffae77f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because persistent tic disorder involves tics that persist, but it does not specifically indicate both motor and vocal tics together.",
+    "B": "Correct because Tourette’s syndrome is defined by the combination of motor and vocal tics.",
+    "C": "Incorrect because a simple febrile convulsion is a fever-associated seizure, not a tic disorder.",
+    "D": "Incorrect because SeLECTS is an epilepsy syndrome, not a diagnosis for motor and vocal tics.",
+    "E": "Incorrect because Dravet syndrome is a severe epilepsy syndrome, not a tic disorder."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B60-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4f2200001rj75ex125e2u",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "2bce10cd-fca5-4112-a843-933acc8f13e2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B60/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paroxysmal disorders",
+      "non-epileptic paroxysmal events",
+      "Tourette syndrome"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:18.707Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

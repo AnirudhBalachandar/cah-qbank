@@ -1,0 +1,98 @@
+{
+  "id": "ab12af91-f21d-4aff-9b5c-f94b525f036f",
+  "stem": "Which feature is characteristic of an innocent heart murmur in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Musical or vibratory quality",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Diastolic component",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Loudness graded 4/6 or higher",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Radiation to the axilla or back",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Associated thrill on palpation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Musical or vibratory quality is characteristic of an innocent heart murmur. Innocent murmurs, such as Still's murmur, are typically soft and have a musical, reed-like, or vibratory quality rather than features suggesting structural heart disease.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+      "title": "00052 Cardiology_Lecture_7-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.165Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7d9e44fd1d7aa38327bd",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because innocent murmurs, such as Still's murmur, are typically described as having a musical, reed-like, or vibratory quality.",
+    "B": "Incorrect because diastolic murmurs are usually pathological and are not typical of innocent murmurs.",
+    "C": "Incorrect because a murmur graded 4/6 or higher is loud and usually indicates pathology, often with a thrill.",
+    "D": "Incorrect because radiation to the axilla or back suggests a pathological murmur rather than an innocent one.",
+    "E": "Incorrect because an associated thrill indicates a louder, more significant murmur and is not a feature of an innocent murmur."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b77fc69a-9354-40a8-ae3f-f502118dfc65",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the unique acoustic description the lecturer used involving a 'reed' in a stream.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "52",
+    "lectureTitle": "00052 Cardiology_Lecture_7-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5d003fc2-1fb3-4524-8fbb-460cf98848bb",
+    "overlapScore": 0.5977011494252874,
+    "questionIndex": 7,
+    "quizFileName": "quiz_052.json",
+    "quizTitle": "PEDIATRIC CARDIOLOGY QUIZ",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f5ed11f2-c5c8-4939-bf0d-49e42a66ba61",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:16.624Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

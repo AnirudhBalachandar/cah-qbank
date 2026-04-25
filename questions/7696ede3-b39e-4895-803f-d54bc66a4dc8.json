@@ -1,0 +1,102 @@
+{
+  "id": "7696ede3-b39e-4895-803f-d54bc66a4dc8",
+  "stem": "A child with suspected nephritic syndrome has urinalysis sent; which proteinuria pattern is most consistent with this syndrome?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "No proteinuria",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Mild to moderate proteinuria that is non-nephrotic",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Heavy proteinuria that is nephrotic-range",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Proteinuria only with severe renal impairment",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No proteinuria is part of the syndrome",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mild to moderate non-nephrotic proteinuria is the expected pattern in nephritic syndrome.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 73,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:13:42.122Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B44-attempt-02-3f68206d6e7805dceb12",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because proteinuria can be present in nephritic syndrome.",
+    "B": "Correct because nephritic syndrome typically causes mild to moderate, non-nephrotic proteinuria rather than heavy nephrotic-range loss.",
+    "C": "Incorrect because heavy nephrotic-range proteinuria is more typical of nephrotic syndrome.",
+    "D": "Incorrect because proteinuria is not limited to cases with severe renal impairment.",
+    "E": "Incorrect because proteinuria is part of the classic urinalysis pattern in nephritic syndrome."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 2,
+  "source": {
+    "batchId": "B44-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpvzmx0001rj7tuuxyepsh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3410852713178295,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B44/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nephritic syndrome, haematuria, and childhood hypertension",
+      "nephritic syndrome",
+      "urinalysis interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:36.509Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

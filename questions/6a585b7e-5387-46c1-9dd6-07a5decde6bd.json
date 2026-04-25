@@ -1,0 +1,102 @@
+{
+  "id": "6a585b7e-5387-46c1-9dd6-07a5decde6bd",
+  "stem": "What is the purpose of a grommet in mastoiditis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To relieve middle ear pressure and ventilate the middle ear",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To predict whether the fluid will resolve",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To demonstrate that inflammation is absent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To prevent all future episodes of acute otitis media",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To prove that no abscess is present",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Grommet insertion is used to relieve middle ear pressure and ventilate the middle ear in mastoiditis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 7,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:14:14.494Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B22-attempt-02-fa4872d6b441f48c40bc",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a grommet helps relieve middle ear pressure and ventilate the middle ear.",
+    "B": "Incorrect because a grommet does not predict whether middle ear fluid will resolve.",
+    "C": "Incorrect because a grommet does not demonstrate absence of inflammation.",
+    "D": "Incorrect because a grommet does not prevent all future episodes of acute otitis media.",
+    "E": "Incorrect because a grommet does not prove that no abscess is present."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B22-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlmd130001rjmz6a79tceg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.323943661971831,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0891d5aa-d2be-4528-a66e-2554ca479df3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B22/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems II",
+      "mastoiditis",
+      "complication prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:12.308Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

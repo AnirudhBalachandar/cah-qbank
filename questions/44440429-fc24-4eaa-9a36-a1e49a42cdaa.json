@@ -1,0 +1,98 @@
+{
+  "id": "44440429-fc24-4eaa-9a36-a1e49a42cdaa",
+  "stem": "Why is cranial radiotherapy avoided whenever possible in children under 5 years of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It causes immediate and permanent alopecia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It carries a high risk of profound neurocognitive damage",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is ineffective against paediatric brain tumours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Children are too small to undergo radiotherapy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It always causes irreversible hearing loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Profound neurocognitive damage is the main concern. The young brain is still developing, so cranial radiotherapy can cause long-term impairment in cognition, learning, and development.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "56a4d199-36f1-4bc5-80d9-fed407302506",
+      "title": "00072 Oncology prelecture -audio.mp3"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.881Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-866ee9c7a27e2f085d22",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because alopecia can occur with radiotherapy, but it is usually not permanent and is not the main reason for avoiding treatment in very young children.",
+    "B": "Correct because the young brain is still developing, and cranial radiotherapy can cause long-term reductions in IQ, learning difficulties, and developmental delay.",
+    "C": "Incorrect because cranial radiotherapy can be effective against some paediatric brain tumours, but it is avoided when possible in young children because of toxicity to the developing brain.",
+    "D": "Incorrect because size is not the main limitation; the concern is the biological harm of radiation to the developing nervous system.",
+    "E": "Incorrect because hearing loss can occur in some settings, but it is not the primary reason cranial radiotherapy is avoided in children under 5 years of age."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "56a4d199-36f1-4bc5-80d9-fed407302506",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the vulnerability of an organ that is still actively growing and forming connections.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "72",
+    "lectureTitle": "00072 Oncology prelecture -audio.mp3",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "98ac788e-8dc5-4007-ae02-b29fa70c0ded",
+    "overlapScore": 0.3854166666666667,
+    "questionIndex": 6,
+    "quizFileName": "quiz_072.json",
+    "quizTitle": "Oncology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "d5e17bb1-4dc2-4185-bf98-0b84c6976de6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:57.197Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

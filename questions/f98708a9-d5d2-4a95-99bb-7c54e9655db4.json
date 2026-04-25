@@ -1,0 +1,102 @@
+{
+  "id": "f98708a9-d5d2-4a95-99bb-7c54e9655db4",
+  "stem": "A GP is helping a 13-year-old recover after major family stress; which single protective factor most supports adolescent resilience?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Avoiding all new challenges until life is calmer",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Having one trusted adult who cares",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Spending more time alone to build independence",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Focusing only on academic ranking",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Reducing contact with peer groups",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Having one trusted adult who cares is the key protective factor for resilience. Supportive relationships help adolescents cope with stress and recover from adversity.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 126,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-16T11:06:43.605Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B01-5cb7d4c56202dde994ad",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because resilience is supported by facing and adapting to adversity, not by avoiding all challenge.",
+    "B": "Correct because a trusted caring adult provides emotional support, stability and a protective relationship that strengthens resilience.",
+    "C": "Incorrect because isolation is not a protective factor for resilience in adolescence.",
+    "D": "Incorrect because academic ranking is not the main protective factor identified; supportive relationships are more important.",
+    "E": "Incorrect because connection with peers is generally helpful rather than something to reduce."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmt2w89c0001rjgc79ejmqbe",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2751322751322751,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8df51d39-a47b-4312-82ea-50ebbae46dfd",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-16-04.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "resilience",
+      "protective factors",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:11.778Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

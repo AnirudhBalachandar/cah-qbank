@@ -1,0 +1,103 @@
+{
+  "id": "2857fa4e-3740-444b-928b-f4a825bb637b",
+  "stem": "A 13-year-old boy with a high BMI attends for pubertal assessment and his mother is worried that his penis looks very small, but the shaft appears hidden within surrounding tissue; what is the most likely explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Buried penis in a boy with high BMI",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Intravaginal torsion during puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Bell-clapper malformation causing twisting",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Retractile testes due to a hyperactive cremasteric reflex",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Arrested testicular descent from the kidney",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Buried penis in a boy with high BMI is the most likely explanation. In boys with high BMI, surrounding suprapubic tissue can conceal the penile shaft and make the penis appear smaller than it is.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 94,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:21:29.142Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B84-attempt-02-6288d2ad1be6c8c0d1f6",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because increased suprapubic tissue in a boy with high BMI can conceal the shaft and create the appearance of a small penis.",
+    "B": "Incorrect because intravaginal torsion is a form of testicular torsion, not a cause of a hidden penile shaft.",
+    "C": "Incorrect because bell-clapper malformation predisposes to testicular torsion, not penile concealment.",
+    "D": "Incorrect because retractile testes involve testicular position, not the appearance of the penis.",
+    "E": "Incorrect because arrested testicular descent refers to cryptorchidism, which is unrelated to a buried penile shaft."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B84-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsb5s90001rj0ycuevmtto",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3347107438016529,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "85a878aa-3fae-46da-8585-475c918a5cbb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B84/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Penile disorders",
+      "buried penis",
+      "pubertal assessment",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:07.190Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

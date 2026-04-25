@@ -1,0 +1,109 @@
+{
+  "id": "582e57d7-7c3c-49ce-ad71-b14f808b9610",
+  "stem": "A writer argues that because page 20 contains detailed obesity material, the same PDF likely contains detailed BRUE and SIDS material elsewhere, so drafting those items is acceptable; what is the best critique of this argument?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is valid because likely content elsewhere in the same PDF can be treated as retrieved",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is invalid because only the supplied excerpts, not presumed unretrieved pages, can ground examinable claims",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It is valid if the answer choices are broad and non-specific",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It is valid in Australian paediatrics but not internationally",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is invalid only if the question mentions investigations",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Presumed unretrieved pages cannot be used to support examinable claims. Only the supplied excerpts count as available evidence, so inferring detailed BRUE or SIDS content from another page in the same PDF is not a valid basis for drafting.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 1,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 20,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:25:25.193Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B19-attempt-01-a3243df4af69e45a73b1",
+  "rationale": "Only retrieved excerpts count as available evidence here. Probable content in unseen pages cannot be used. Evidence boundaries apply regardless of question specificity.",
+  "optionExplanations": {
+    "A": "Incorrect because possible content elsewhere in the PDF is not available evidence for this call",
+    "B": "Correct because only the supplied excerpts, not presumed unretrieved pages, can ground examinable claims",
+    "C": "Incorrect because broad wording still requires factual grounding",
+    "D": "Incorrect because the issue is evidence access, not geography",
+    "E": "Incorrect because the same evidence rule applies to all BRUE/SIDS claims, not only investigations"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B19-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjvkr60001rjgdb38zxn10",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2764705882352941,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7d1767a1-8ee3-402f-a7c2-65c1ace362ce",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B19/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "BRUE and SIDS prevention",
+      "management",
+      "strict_internal"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack",
+      "Retrieved internal source pack"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:40.241Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

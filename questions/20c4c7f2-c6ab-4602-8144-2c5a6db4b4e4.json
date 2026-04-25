@@ -1,0 +1,98 @@
+{
+  "id": "20c4c7f2-c6ab-4602-8144-2c5a6db4b4e4",
+  "stem": "For an adolescent with frequent daytime symptoms on most days and waking overnight more than once a week, what is a recommended initial treatment?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Short-acting beta agonist (SABA) alone as needed",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Medium to high dose inhaled corticosteroids plus as-needed SABA",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Montelukast alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Oral prednisolone for 30 days",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Low-dose inhaled corticosteroids alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Medium to high dose inhaled corticosteroids plus as-needed SABA is the recommended initial treatment for an adolescent with frequent daytime symptoms and nocturnal waking.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b91cdaba-0e75-4846-9e96-55062d892866",
+      "title": "00016 Asthma Medical Manag-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.638Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0ebabe03760c9eb0e79e",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because SABA alone is only appropriate for very infrequent symptoms and does not provide adequate preventer therapy for this level of asthma control.",
+    "B": "Correct because frequent daytime symptoms and waking overnight more than once a week indicate poorly controlled asthma that needs a higher starting dose of inhaled corticosteroid therapy with reliever medication as needed.",
+    "C": "Incorrect because montelukast alone is generally insufficient for frequent symptoms and is not the preferred initial treatment here.",
+    "D": "Incorrect because oral prednisolone is used for short courses during acute exacerbations, not as routine long-term initial management.",
+    "E": "Incorrect because low-dose inhaled corticosteroids are unlikely to be enough for an adolescent with symptoms on most days and nocturnal waking."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b91cdaba-0e75-4846-9e96-55062d892866",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "High-frequency symptoms in teenagers require a higher starting tier of inhaled preventer therapy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "16",
+    "lectureTitle": "00016 Asthma Medical Manag-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "64820f4c-67cd-4cbc-bb0d-c70e6523836f",
+    "overlapScore": 0.3958333333333333,
+    "questionIndex": 12,
+    "quizFileName": "quiz_016.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e50c6444-b6ec-4bd0-9e19-2d3cc02b2522",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:49.211Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

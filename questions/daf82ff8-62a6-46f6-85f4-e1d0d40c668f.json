@@ -1,0 +1,103 @@
+{
+  "id": "daf82ff8-62a6-46f6-85f4-e1d0d40c668f",
+  "stem": "A child has chronic wet cough and is being assessed for protracted bacterial bronchitis; which additional feature would be least typical of protracted bacterial bronchitis alone?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Prominent concurrent wheeze",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Wet cough lasting more than 4 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A normal or non-specific chest X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Bronchoscopy usually being unnecessary",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Resolution after one or two antibiotic courses",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prominent concurrent wheeze is least typical of protracted bacterial bronchitis alone. Protracted bacterial bronchitis usually presents with a chronic wet cough lasting more than 4 weeks, with a normal or non-specific chest X-ray, and it often responds to one or two antibiotic courses.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:36:00.581Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B26-attempt-03-6895f90d4e6e25f54b75",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because prominent concurrent wheeze is described as uncommon in protracted bacterial bronchitis alone.",
+    "B": "Incorrect because a wet cough lasting more than 4 weeks is a key feature of protracted bacterial bronchitis.",
+    "C": "Incorrect because a normal or non-specific chest X-ray is typical in protracted bacterial bronchitis.",
+    "D": "Incorrect because bronchoscopy is usually not needed in straightforward protracted bacterial bronchitis.",
+    "E": "Incorrect because many cases resolve after one or two antibiotic courses."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B26-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmecue0001rjiciy9yepf4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3370165745856354,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4aef6afd-d5bb-4105-a99e-5fc88acd7eef",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B26/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Chronic airway problems foundations",
+      "pattern recognition across chronic airway problems",
+      "long-term assessment",
+      "protracted bacterial bronchitis"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:04.432Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

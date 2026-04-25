@@ -1,0 +1,101 @@
+{
+  "id": "4ce11998-507f-4cd9-8896-efcc15486297",
+  "stem": "On a supine abdominal X-ray, lucency outlines the falciform ligament; what is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Football sign, suggesting free intraperitoneal gas",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Sail sign, suggesting a normal thymus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Atelectasis, suggesting triangular parenchymal opacity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Round pneumonia, suggesting focal lung consolidation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "AP magnification of the heart and mediastinum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Football sign is the correct interpretation. On a supine abdominal X-ray, lucency outlining the falciform ligament indicates free intraperitoneal gas.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 196,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:11:35.961Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B11-attempt-02-0353368e7ca0b71fda05",
+  "rationale": "The falciform ligament can be outlined by free air on a supine abdominal X-ray, producing the football sign. This is an important radiographic sign of pneumoperitoneum.",
+  "optionExplanations": {
+    "A": "Correct because the football sign is caused by free intraperitoneal gas outlining the falciform ligament on a supine abdominal X-ray.",
+    "B": "Incorrect because the sail sign refers to the thymus on chest radiography and is not a falciform ligament finding on an abdominal X-ray.",
+    "C": "Incorrect because atelectasis is a chest radiograph finding and does not describe free gas outlining the falciform ligament.",
+    "D": "Incorrect because round pneumonia is a focal pulmonary consolidation, not a sign seen on supine abdominal X-ray.",
+    "E": "Incorrect because AP magnification affects apparent cardiac and mediastinal size on chest X-ray, not lucency around the falciform ligament."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B11-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjdsy70001rjv2ehms43yv",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2857142857142857,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "90f363c4-995f-4218-b494-b3cdb763d314",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B11/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Paediatric imaging essentials",
+      "free gas"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:22.089Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

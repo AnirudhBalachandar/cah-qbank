@@ -1,0 +1,102 @@
+{
+  "id": "41508571-7bc5-4396-afde-354b1376f642",
+  "stem": "A question writer argues that because infectious disease appears on the contents page, dermatological infections are implicitly covered. What is the best rebuttal?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A heading implies all related subtopics are fully supported",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A heading supports only management questions, not diagnosis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A heading is useful for navigation but does not provide the topic-specific facts needed for examinable claims",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A heading can be used if the item is easy rather than hard",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A heading is enough if the explanation avoids numbers",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A heading is useful for navigation, but it does not provide the topic-specific facts needed to support examinable claims. The claim still needs explicit content, not just a place in the contents page.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 2,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:25:50.319Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B50-attempt-01-765fcc54acb8fb148860",
+  "rationale": "Navigation structure is not the same as content evidence; a topic appearing in a contents page does not validate specific claim writing.",
+  "optionExplanations": {
+    "A": "Incorrect because a heading does not establish that all related subtopics are fully supported.",
+    "B": "Incorrect because the limitation applies to all claim types, not only diagnosis.",
+    "C": "Correct because a heading is useful for navigation but does not provide the topic-specific facts needed for examinable claims.",
+    "D": "Incorrect because difficulty level does not change the need for evidence.",
+    "E": "Incorrect because avoiding numbers does not make unsupported statements acceptable."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B50-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqbli10001rje40ludckv5",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3470588235294118,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "582e57d7-7c3c-49ce-ad71-b14f808b9610",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B50/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dermatological infections, other important conditions, and exanthems",
+      "strict_internal",
+      "investigation/interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:50.356Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

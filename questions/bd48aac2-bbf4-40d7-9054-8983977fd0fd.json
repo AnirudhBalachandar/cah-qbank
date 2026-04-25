@@ -1,0 +1,103 @@
+{
+  "id": "bd48aac2-bbf4-40d7-9054-8983977fd0fd",
+  "stem": "Which section title provides the most defensible primary anchor for associated-anomaly thinking?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Congenital Malformations",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Hereditary Spherocytosis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Vomiting",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Vasculitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The pGALS Musculoskeletal Screen",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Congenital Malformations is the correct answer because it is the most direct and defensible section title to anchor associated-anomaly thinking.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 3,
+      "title": "Congenital Malformations"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:02:18.186Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B67-attempt-02-e399dc33780000d4538f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because this section title directly relates to congenital anomalies and is the best primary anchor for associated-anomaly thinking.",
+    "B": "Incorrect because hereditary spherocytosis is a red cell disorder and not a congenital malformations section title.",
+    "C": "Incorrect because vomiting is a symptom topic and does not provide an anomaly-focused anchor.",
+    "D": "Incorrect because vasculitis is a inflammatory/rheumatology topic and not the best section title for congenital anomaly framing.",
+    "E": "Incorrect because the pGALS musculoskeletal screen is a clinical screening tool, not a congenital malformations anchor."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B67-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4hgc80001rjhijw1s8wav",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3300492610837438,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6007c78d-c503-4a2c-bca3-56b64e0ca900",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B67/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Congenital malformations and dysmorphology approach",
+      "associated anomalies",
+      "anatomy/physiology-to-clinic",
+      "genetics"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:56.208Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

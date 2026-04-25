@@ -1,0 +1,98 @@
+{
+  "id": "99ee7a9f-91dc-4aad-a3a8-95a299c33185",
+  "stem": "Why is a child’s height centile important when interpreting blood pressure?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The 95th percentile for blood pressure varies significantly based on height",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Height is used to calculate the required intravenous fluid volume",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Taller children are more likely to have primary essential hypertension",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It determines whether a manual or automated cuff should be used",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It determines the child’s pulse pressure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The 95th percentile for blood pressure varies with height, so the threshold for hypertension must be interpreted against the child’s height centile.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "cec02c69-6f92-4d50-ba17-1751e770795a",
+      "title": "00045 renal_hypertension-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.138Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-660b1d2f31a66a1c6d78",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the blood pressure threshold used to define hypertension changes with height centile.",
+    "B": "Incorrect because height centile is not used to calculate intravenous fluid volume.",
+    "C": "Incorrect because height centile helps interpret blood pressure thresholds rather than determine the cause of hypertension.",
+    "D": "Incorrect because cuff type is chosen based on arm size, not height centile.",
+    "E": "Incorrect because pulse pressure is the difference between systolic and diastolic pressure and is not determined by height centile."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "cec02c69-6f92-4d50-ba17-1751e770795a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall how the blood pressure thresholds shift when looking at the $5^{th}$ vs. $95^{th}$ centile for stature.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "45",
+    "lectureTitle": "00045 renal_hypertension-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "95e4c3bd-abb1-460a-a523-af48af344f64",
+    "overlapScore": 0.4190476190476191,
+    "questionIndex": 3,
+    "quizFileName": "quiz_045.json",
+    "quizTitle": "Hypertension Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2b5d6256-3c82-4d5f-b7d6-12805b5af6ae",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:43.751Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

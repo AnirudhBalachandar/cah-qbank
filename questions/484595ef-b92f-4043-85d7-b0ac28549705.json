@@ -1,0 +1,102 @@
+{
+  "id": "484595ef-b92f-4043-85d7-b0ac28549705",
+  "stem": "Which dental and clinical finding is correctly matched with its underlying condition?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pale teeth with blue sclera",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Single upper central incisor with ectodermal dysplasia",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Extra teeth with failure of permanent teeth to erupt and osteogenesis imperfecta",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hypoplastic clavicles with holoprosencephaly",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Normal maxillary frenum with cleidocraniodysplasia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Osteogenesis imperfecta is the correct answer. Pale teeth and blue sclera are classic associated findings, reflecting dentinogenesis imperfecta and connective tissue involvement.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 28,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T04:23:36.396Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B07-attempt-01-6f5cf25531d63b37afdc",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because pale teeth with blue sclera are associated with osteogenesis imperfecta.",
+    "B": "Incorrect because a single upper central incisor is associated with holoprosencephaly, not ectodermal dysplasia.",
+    "C": "Incorrect because extra teeth and failure of permanent teeth to erupt are associated with cleidocraniodysplasia, not osteogenesis imperfecta.",
+    "D": "Incorrect because hypoplastic clavicles are associated with cleidocraniodysplasia, not holoprosencephaly.",
+    "E": "Incorrect because cleidocraniodysplasia is associated with a widened or abnormal maxillary frenum rather than a normal one."
+  },
+  "moduleCode": "B07",
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B07-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvjdil80001rj4kf02lnuc0",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2542372881355932,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "5eb4c270-c3a0-444d-8970-b27a4fb44aa2",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B07/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Dental trauma and the medical-dental interface",
+      "medical conditions presenting with dental findings",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:07.950Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

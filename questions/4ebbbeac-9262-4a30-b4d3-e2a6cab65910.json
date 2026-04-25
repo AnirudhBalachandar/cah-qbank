@@ -1,0 +1,98 @@
+{
+  "id": "4ebbbeac-9262-4a30-b4d3-e2a6cab65910",
+  "stem": "What is the correct sequence of treatment for a child with both refractive error and strabismus?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Refraction and glasses, then occlusion therapy, then surgery if needed",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediate surgery, followed by glasses",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Occlusion therapy, followed by surgery, then glasses",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Atropine drops, followed by immediate surgery",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Prisms, followed by observation only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct sequence is refraction and glasses first, then occlusion therapy if needed, and surgery only if alignment remains unsatisfactory.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+      "title": "00039 common-eye-problems--s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.298Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3b2dbc4031e2c8292643",
+  "rationale": "Vision is treated first because correcting refractive error and amblyopia management should precede surgical correction of strabismus.",
+  "optionExplanations": {
+    "A": "Correct because refractive correction is the first priority, followed by occlusion therapy for amblyopia if required, with surgery reserved for persistent strabismus.",
+    "B": "Incorrect because surgery is not the first step when refractive error and amblyopia may improve with glasses and occlusion therapy.",
+    "C": "Incorrect because occlusion therapy and surgery should not precede correcting the refractive error that may be contributing to the strabismus.",
+    "D": "Incorrect because atropine is not the usual first-line treatment in this sequence, and surgery is only considered after non-surgical measures.",
+    "E": "Incorrect because prisms and observation alone do not replace correcting refractive error and treating amblyopia before considering surgery."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b6cee14f-56c7-4a7c-ae76-ab8efe3a9391",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The source material states that 'vision is our first priority' before cosmetic correction.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "39",
+    "lectureTitle": "00039 common-eye-problems--s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "04ecfc18-846d-428d-8fe1-5b3064fbbece",
+    "overlapScore": 0.3902439024390244,
+    "questionIndex": 9,
+    "quizFileName": "quiz_039.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "1e2564b9-536b-41e0-a22e-fe2dc187c45a",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:29.516Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

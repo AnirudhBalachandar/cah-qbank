@@ -1,0 +1,108 @@
+{
+  "id": "d3443db8-89c2-4499-96bc-b81bb6a0846f",
+  "stem": "Which child is the best candidate for pre- and post-bronchodilator spirometry after a wheezy illness?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A 10-month-old infant",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A 3-year-old with preschool wheeze",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "An 8-year-old school-aged child",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A 2-year-old toddler with viral bronchiolitis history",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A 4-year-old with recurrent wheeze",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "An 8-year-old school-aged child is the best candidate for pre- and post-bronchodilator spirometry. Spirometry with bronchodilator reversibility testing is generally suitable for school-aged children rather than infants and preschool children.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 35,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:34:40.523Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B28-attempt-01-b32465d3f8981c5d223e",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Incorrect because infants are too young for reliable pre- and post-bronchodilator spirometry.",
+    "B": "Incorrect because preschool wheeze is usually not assessed with formal bronchodilator spirometry.",
+    "C": "Correct because school-aged children can usually perform reliable spirometry, including pre- and post-bronchodilator testing.",
+    "D": "Incorrect because a 2-year-old is below the age at which spirometry is usually reliable.",
+    "E": "Incorrect because a 4-year-old is still in the preschool age range and is usually too young for reliable spirometry."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B28-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmcn1y0001rjklgyljwodh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2857142857142857,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "71fb20a3-366d-44ef-92aa-82d4c45472a4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B28/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Asthma spirometry and acute exacerbation reasoning",
+      "review timing"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:49.259Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

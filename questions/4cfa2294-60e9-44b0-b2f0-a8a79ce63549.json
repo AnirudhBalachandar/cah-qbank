@@ -1,0 +1,98 @@
+{
+  "id": "4cfa2294-60e9-44b0-b2f0-a8a79ce63549",
+  "stem": "What is the most common medical cause of vomiting in the first few days of life in a newborn?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Duodenal atresia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Swallowed blood or mucus",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Hirschsprung disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Swallowed blood or mucus is the most common medical cause of vomiting in the first few days of life in a newborn. This is usually benign and related to blood or secretions ingested during delivery.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+      "title": "00048 surgery-vomiting-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.765Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1540fd63a21d422005e2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because duodenal atresia is an important surgical cause of neonatal vomiting, but it is less common than swallowed blood or mucus in the first few days of life.",
+    "B": "Correct because swallowed blood or mucus is a frequent benign cause of early neonatal vomiting after birth, often from maternal blood or birth-related secretions.",
+    "C": "Incorrect because Hirschsprung disease more typically presents with delayed passage of meconium, abdominal distension, and intestinal obstruction rather than simple early vomiting.",
+    "D": "Incorrect because malrotation with volvulus usually presents as an acute surgical emergency with bilious vomiting, not as the most common medical cause of early neonatal vomiting.",
+    "E": "Incorrect because gastro-oesophageal reflux can cause vomiting in infants, but it is not the most common cause in the first few days of life."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "81263e86-3b19-474b-ae05-bd2d764ac9a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a cause related to substances the baby might encounter during the birthing process.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "48",
+    "lectureTitle": "00048 surgery-vomiting-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3a9f324a-d925-4ee0-a225-64c0460c1aa3",
+    "overlapScore": 0.4235294117647059,
+    "questionIndex": 3,
+    "quizFileName": "quiz_048.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "9e76bc6a-8746-4b45-9468-f4895f99ae0e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:26.396Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

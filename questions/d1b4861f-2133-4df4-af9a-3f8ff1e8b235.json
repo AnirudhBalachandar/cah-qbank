@@ -1,0 +1,101 @@
+{
+  "id": "d1b4861f-2133-4df4-af9a-3f8ff1e8b235",
+  "stem": "A child has a smooth plastic bead in the ear canal and office irrigation is being considered; what must be checked before irrigating?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "That the tympanic membrane is intact",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "That the child already has decreased hearing",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "That there is a draining node on the mastoid tip",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "That the canal is itchy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "That soothing dressings have been tried",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Tympanic membrane integrity must be confirmed before ear canal irrigation. Irrigation may be used for some ear foreign bodies, but only if the tympanic membrane is intact.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 5,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T21:23:20.378Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B21-attempt-01-e71579ca5c3b0dd2efb9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the tympanic membrane must be intact before irrigation to reduce the risk of middle ear injury or complications.",
+    "B": "Incorrect because decreased hearing is not the safety check required before irrigating an ear foreign body.",
+    "C": "Incorrect because a draining node on the mastoid tip is not the relevant pre-irrigation assessment.",
+    "D": "Incorrect because canal itch is not the prerequisite that must be checked before irrigation.",
+    "E": "Incorrect because soothing dressings are not required before irrigating an ear canal foreign body."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B21-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwjswh00001rjpzl4o48uzj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B21/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Ear problems I",
+      "Foreign body in ear"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:45.942Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

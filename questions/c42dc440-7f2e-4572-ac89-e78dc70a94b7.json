@@ -1,0 +1,98 @@
+{
+  "id": "c42dc440-7f2e-4572-ac89-e78dc70a94b7",
+  "stem": "A 9-month-old child has a large head but is developmentally normal and non-dysmorphic, and the mother also has a large head circumference of 58 cm; what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Obstructive hydrocephalus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Secondary microcephaly",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Benign familial macrocephaly",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Neurofibromatosis type 1",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Achondroplasia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Benign familial macrocephaly is the most likely diagnosis because the child is otherwise well with normal development and has a parent with a similarly large head.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+      "title": "00070 neurology_micro_macr-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.500Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-dd370f0c12190c73760e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because obstructive hydrocephalus usually causes progressive head enlargement with symptoms or signs of raised intracranial pressure or developmental concerns.",
+    "B": "Incorrect because secondary microcephaly refers to an abnormally small head size, not macrocephaly.",
+    "C": "Correct because a healthy, developmentally normal child with a similarly macrocephalic parent most strongly suggests a benign familial trait.",
+    "D": "Incorrect because neurofibromatosis type 1 typically has additional features such as café-au-lait macules, axillary freckling, or other syndromic signs.",
+    "E": "Incorrect because achondroplasia causes disproportionate short-limbed short stature rather than isolated familial macrocephaly."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0c66d65b-5421-4f12-9a88-eb104f4d8ddf",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the relevance of the mother's head size and the child's normal development.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "70",
+    "lectureTitle": "00070 neurology_micro_macr-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "85f29111-fe7b-4633-8c81-7a1502bba9e2",
+    "overlapScore": 0.3964497041420119,
+    "questionIndex": 8,
+    "quizFileName": "quiz_070.json",
+    "quizTitle": "Head Circumference Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "08528f6e-a8f1-48cd-8dc6-4767d5ba4528",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:16.419Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

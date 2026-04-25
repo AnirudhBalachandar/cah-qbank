@@ -1,0 +1,98 @@
+{
+  "id": "b822ad53-fe23-4b41-aaf9-51ec6b4c1398",
+  "stem": "Which condition is a common immune-mediated cause of thrombocytopenia in children due to platelet destruction?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Haemophilia A",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Immune Thrombocytopenia (ITP)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Von Willebrand disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Henoch-Schönlein purpura",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Acute lymphoblastic leukaemia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Immune Thrombocytopenia (ITP) is the correct answer. This is because it is a common immune-mediated condition in children in which platelets are destroyed, leading to a low platelet count.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.947Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-1df246255c84864413ce",
+  "rationale": "ITP often presents in an otherwise well child with bruising or petechiae after an immune-mediated drop in platelets.",
+  "optionExplanations": {
+    "A": "Incorrect because haemophilia A is an inherited clotting factor VIII deficiency, not an immune-mediated platelet destruction disorder.",
+    "B": "Correct because it is a common immune-mediated condition in children in which platelets are destroyed, leading to a low platelet count.",
+    "C": "Incorrect because von Willebrand disease is an inherited bleeding disorder due to defective von Willebrand factor, not platelet destruction by immune mechanisms.",
+    "D": "Incorrect because Henoch-Schönlein purpura is a small-vessel vasculitis, not a primary cause of immune thrombocytopenia.",
+    "E": "Incorrect because acute lymphoblastic leukaemia can cause thrombocytopenia, but it is a malignancy rather than the common immune-mediated platelet destruction described here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition often presents as a sudden onset of bruising in a previously healthy child.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9e50fcc6-446c-489a-ba60-94a9b986b878",
+    "overlapScore": 0.4,
+    "questionIndex": 2,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:43.435Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

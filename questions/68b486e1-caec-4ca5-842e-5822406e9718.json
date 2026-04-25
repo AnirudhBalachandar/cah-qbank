@@ -1,0 +1,109 @@
+{
+  "id": "68b486e1-caec-4ca5-842e-5822406e9718",
+  "stem": "A clinician reviewing behaviour checklists notes frequent classroom blurting and interruption in one report and acting on temptation without thinking in another; which ADHD feature do these observations best represent?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Impulsive behaviour across reported contexts",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Restricted interests and stereotyped phrases",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Regression of developmental skills",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pubertal delay",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Visual field loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Impulsive behaviour across reported contexts is the best fit. Blurring out, interrupting, intruding, and acting without thinking are all impulsive behaviours that can be identified across different reports.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 84,
+      "title": "Page 84"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 83,
+      "title": "Page 83"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:00:30.657Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B13-attempt-04-70ab7bcba24e1c533740",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because blurting, interrupting, and acting without thinking are classic impulsive behaviours seen across settings.",
+    "B": "Incorrect because restricted interests and stereotyped phrases are associated with autism spectrum features, not ADHD impulsivity.",
+    "C": "Incorrect because regression of developmental skills is not the feature being described here and points to a different clinical concern.",
+    "D": "Incorrect because pubertal delay is unrelated to the behavioural pattern described in the stem.",
+    "E": "Incorrect because visual field loss is a neurological or ophthalmic problem and does not explain impulsive classroom behaviour."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B13-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4f5dh0001rjeigf9gel5b",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3134328358208955,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "275c31c3-92e3-472f-9860-9beac1a8a4cf",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B13/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD recognition and assessment",
+      "symptom domains",
+      "reported behaviour"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:08.605Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

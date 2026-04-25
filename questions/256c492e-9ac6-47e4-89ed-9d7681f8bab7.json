@@ -1,0 +1,98 @@
+{
+  "id": "256c492e-9ac6-47e4-89ed-9d7681f8bab7",
+  "stem": "What is the defining diagnostic challenge in catecholaminergic polymorphic ventricular tachycardia (CPVT)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The resting ECG is completely normal",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It is detected on chest X-ray",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It causes marked bradycardia during exercise",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It cannot be treated once diagnosed",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It always presents with an abnormal resting echocardiogram",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The resting ECG is completely normal. This makes CPVT difficult to diagnose at baseline and means exercise or stress testing is often needed to reveal the arrhythmia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "591ddd4d-6076-426d-99d9-2f8463273874",
+      "title": "00051 Heart Rhythm in Chil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.097Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2455980f48af74ab8cc6",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Correct because the resting ECG is often completely normal in CPVT, so the condition may only become apparent with exercise or adrenergic stress.",
+    "B": "Incorrect because chest X-ray does not diagnose CPVT, which is an electrical rhythm disorder rather than a structural lung or bony abnormality.",
+    "C": "Incorrect because CPVT is characterised by exercise- or stress-triggered ventricular tachyarrhythmias, not slow heart rates.",
+    "D": "Incorrect because CPVT is treatable, and recognising it is important to reduce the risk of sudden cardiac death.",
+    "E": "Incorrect because the resting echocardiogram is typically normal in CPVT, similar to the resting ECG, unless there is another cardiac problem."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "591ddd4d-6076-426d-99d9-2f8463273874",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about why a routine check-up at rest might miss this condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "51",
+    "lectureTitle": "00051 Heart Rhythm in Chil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "04ecfc18-846d-428d-8fe1-5b3064fbbece",
+    "overlapScore": 0.3539823008849557,
+    "questionIndex": 12,
+    "quizFileName": "quiz_051.json",
+    "quizTitle": "Arrhythmia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "44cd0e75-67c9-430c-b063-6150d5a24b62",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:59.381Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "0b88524d-c0c0-4069-b3bf-21c04634e3a2",
+  "stem": "A child has recurrent facial swelling that improves briefly with antibiotics but keeps returning, and there is no clear history of dental caries; which feature most strongly supports keeping an odontogenic infection in the differential?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Repeated antibiotic courses for facial infection",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "No known history of dental caries",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Presence of 20 primary teeth",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Development of permanent teeth from birth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ankyloglossia that might need frenectomy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Repeated antibiotic courses for facial infection most strongly support keeping an odontogenic infection in the differential. Recurrent facial swelling that only temporarily improves with antibiotics can indicate an untreated dental source even when caries are not obvious.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T03:09:20.836Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B06-attempt-01-60bb0f7eca65eec2f82c",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because repeated antibiotic courses for facial infection suggest a persistent or recurrent source such as an odontogenic infection.",
+    "B": "Incorrect because no known history of dental caries does not exclude an odontogenic source.",
+    "C": "Incorrect because having 20 primary teeth is normal dentition and does not point to a dental cause of recurrent facial swelling.",
+    "D": "Incorrect because the development of permanent teeth from birth is not a relevant feature for identifying an odontogenic infection.",
+    "E": "Incorrect because ankyloglossia is related to tongue-tie and feeding or speech issues, not recurrent facial swelling from a dental source."
+  },
+  "moduleCode": "B06",
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B06-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvgq0mq0001rjr84e679hpn",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3009259259259259,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "9565473b-0cc8-4dfb-98f0-44a26cd31138",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B06/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Dentistry foundations and prevention",
+      "oro-facial infections",
+      "red flags",
+      "facial swelling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:05.043Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

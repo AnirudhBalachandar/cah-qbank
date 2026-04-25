@@ -1,0 +1,102 @@
+{
+  "id": "6162d473-6534-491f-9fd0-29e67238dd59",
+  "stem": "Which statement best distinguishes the hospital Child Protection Unit from the Department child protection service?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The Child Protection Unit is part of the Department helpline and mainly receives routine office-hours welfare calls",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The Child Protection Unit is separate from FaCS and is staffed by child protection paediatricians or forensic paediatricians who can perform forensic medical assessment for suspected maltreatment",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "The Child Protection Unit mainly decides whether concerns are accumulative rather than significant",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The Child Protection Unit replaces the need for clinical acumen when deciding whether there is risk of harm",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The Child Protection Unit is the service that all mandatory reporters must notify instead of the Child Protection Helpline",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is B. The Child Protection Unit is a separate hospital-based service from FaCS and is staffed by child protection paediatricians or forensic paediatricians who can undertake forensic medical assessment for suspected maltreatment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 193,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T05:42:32.024Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B09-attempt-04-560681b64a0910040612",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because the Child Protection Unit is not part of the Department helpline and does not mainly receive routine welfare calls.",
+    "B": "Correct because the Child Protection Unit is separate from FaCS and is staffed by child protection paediatricians or forensic paediatricians who can perform forensic medical assessment for suspected maltreatment.",
+    "C": "Incorrect because assessing accumulative concerns is not the main role of the Child Protection Unit.",
+    "D": "Incorrect because clinicians still need clinical acumen to assess risk of harm; the Child Protection Unit does not replace that judgement.",
+    "E": "Incorrect because mandatory reporting is made through the Child Protection Helpline, not directly to the Child Protection Unit."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B09-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvm70on0001rjc07g3lrjb6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3221476510067114,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ea9a5c7a-1fc2-414b-8286-8356cda348d3",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B09/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "Children and adolescents at risk",
+      "child protection unit",
+      "forensic assessment"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:55.898Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

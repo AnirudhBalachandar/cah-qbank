@@ -1,0 +1,98 @@
+{
+  "id": "106731d4-2568-43d9-96ca-df9f89b4ef4a",
+  "stem": "Which of the following is a classic clinical sign used to assess joint hypermobility?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inability to touch the toes with the knees straight",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Bringing the thumb down to the forearm",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Restricted rotation of the hip joint",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Fixed flexion deformity of the elbow",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Inability to hyperextend the little finger",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bringing the thumb down to the forearm is a classic Beighton manoeuvre used to assess joint hypermobility.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.508Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-a0d8adc9d116ef102fce",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because inability to touch the toes suggests reduced flexibility or tight hamstrings rather than hypermobility.",
+    "B": "Correct because bringing the thumb down to the forearm is a classic Beighton manoeuvre used to assess joint hypermobility.",
+    "C": "Incorrect because restricted hip rotation suggests joint stiffness or pathology, not excessive joint laxity.",
+    "D": "Incorrect because a fixed flexion deformity indicates loss of movement rather than hyperextension or laxity.",
+    "E": "Incorrect because inability to hyperextend the little finger would not support a hypermobility sign."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Identify one of the 'Beighton-like' maneuvers shown in the slides to check for 'double-jointedness'.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f381534d-5632-4955-891a-93a8ce546c44",
+    "overlapScore": 0.4158415841584158,
+    "questionIndex": 11,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:14.643Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

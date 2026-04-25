@@ -1,0 +1,98 @@
+{
+  "id": "c3bcdb12-ec54-4d93-87b8-78f27f945bcf",
+  "stem": "Why is planning especially important for a lumbar puncture in a two-year-old child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because if the first attempt fails due to distress, a second attempt will be much more difficult",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Because toddlers are generally more cooperative after fasting for several hours",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Because parents should always be excused from the room before the procedure starts",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because two-year-olds require significantly more local anaesthetic than older children",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because repeated attempts are easier once the child is fully awake and upset",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "First-attempt success is the key issue here. In a distressed toddler, a failed attempt often makes the child harder to settle and far less likely to cooperate with another try.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+      "title": "00041 Year 3 CAH Pain Mana-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.641Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fd6be917a1fc06a38ebf",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because if the first attempt fails and the child becomes distressed, a repeat attempt is usually much harder.",
+    "B": "Incorrect because fasting is related to sedation safety, not improved cooperation in toddlers.",
+    "C": "Incorrect because parents may sometimes stay to comfort the child; they are not automatically excluded.",
+    "D": "Incorrect because local anaesthetic dosing is based on appropriate weight-related limits, not the main reason planning is emphasised.",
+    "E": "Incorrect because repeated attempts usually become more difficult, not easier, once a child is upset."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b68f0b3-c5b3-440b-acfe-b37831353f69",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the likelihood of a child remaining calm if a painful procedure has to be repeated after a failure.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "41",
+    "lectureTitle": "00041 Year 3 CAH Pain Mana-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "44b55a22-f585-40c8-b83d-8946f6d7e64c",
+    "overlapScore": 0.4128440366972477,
+    "questionIndex": 11,
+    "quizFileName": "quiz_041.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a26757ea-8f3b-4239-a98c-14012d648256",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:11.823Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

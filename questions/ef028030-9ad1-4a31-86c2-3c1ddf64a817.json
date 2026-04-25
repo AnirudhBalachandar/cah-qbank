@@ -1,0 +1,98 @@
+{
+  "id": "ef028030-9ad1-4a31-86c2-3c1ddf64a817",
+  "stem": "Which two pathogens are the most common causes of early-onset sepsis in Australian neonates?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Group B Streptococcus and Escherichia coli",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Staphylococcus aureus and Listeria monocytogenes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Coagulase-negative staphylococci and Klebsiella species",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Group A Streptococcus and Haemophilus influenzae",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Enterococcus faecalis and Pseudomonas aeruginosa",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Group B Streptococcus and Escherichia coli are the most common causes of early-onset neonatal sepsis in Australia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+      "title": "00035 ID paeds infections -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.429Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8ac3c463b2bd3259b5fc",
+  "rationale": "Group B Streptococcus is a common maternal genital tract coloniser and Escherichia coli is a frequent enteric gram-negative pathogen in newborn infection.",
+  "optionExplanations": {
+    "A": "Correct because Group B Streptococcus and Escherichia coli are the most common causes of early-onset neonatal sepsis in Australian neonates.",
+    "B": "Incorrect because these organisms can cause neonatal sepsis, but they are not the most common causes of early-onset disease.",
+    "C": "Incorrect because these pathogens are more often associated with late-onset or hospital-acquired neonatal infection.",
+    "D": "Incorrect because these are recognised pathogens, but they are not the leading causes of early-onset neonatal sepsis.",
+    "E": "Incorrect because these organisms may cause serious neonatal infection, but they are not the most common early-onset pathogens."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e453aca-b243-4ee4-bc5e-8c771e1b3277",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "One is a common vaginal colonizer and the other is a frequent enteric gram-negative rod.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "35",
+    "lectureTitle": "00035 ID paeds infections -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "35ca4ffc-67c6-401b-ac38-df7a4e2f1274",
+    "overlapScore": 0.4313725490196079,
+    "questionIndex": 2,
+    "quizFileName": "quiz_035.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "a4d6a5f0-06db-4fef-9521-d62037ede513",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:43.654Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

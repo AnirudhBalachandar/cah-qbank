@@ -1,0 +1,98 @@
+{
+  "id": "85cc77b8-9cd2-4e0a-bdbb-6aedb716030c",
+  "stem": "What is the recommended management of a kerion, an inflammatory reaction to a fungal scalp infection?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Topical antifungals and surgical drainage",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Oral antifungals and low-dose oral steroids",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Intravenous antibiotics alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Cryotherapy to destroy the hair follicles",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Topical corticosteroids alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Oral antifungals and low-dose oral steroids are the recommended treatment. This approach treats the underlying dermatophyte infection and reduces the inflammatory response to lower the risk of scarring and permanent hair loss.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "51102533-c601-4132-9b61-bdcd05af5c1c",
+      "title": "00059 dermatology-infectio-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.446Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-90c76465ec13f35e38ec",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because topical therapy alone is usually inadequate for scalp dermatophyte infection, and kerions do not require routine surgical drainage.",
+    "B": "Correct because oral antifungals clear the underlying fungal infection, while low-dose oral steroids help settle the inflammatory reaction and reduce the risk of scarring alopecia.",
+    "C": "Incorrect because antibiotics do not treat the underlying fungal cause of a kerion.",
+    "D": "Incorrect because cryotherapy would damage hair follicles and is not an appropriate treatment for an inflammatory fungal scalp infection.",
+    "E": "Incorrect because topical corticosteroids alone do not eradicate the fungal infection and therefore do not address the cause of the kerion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "51102533-c601-4132-9b61-bdcd05af5c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Treatment must address both the fungus and the body's overactive inflammatory response.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "59",
+    "lectureTitle": "00059 dermatology-infectio-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "4261e4f2-b5fc-4983-84e4-10e20c9b6664",
+    "overlapScore": 0.4222222222222222,
+    "questionIndex": 7,
+    "quizFileName": "quiz_059.json",
+    "quizTitle": "Dermatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f675632f-c8d2-42ff-9863-8cfa0f929a31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:05.512Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

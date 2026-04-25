@@ -1,0 +1,102 @@
+{
+  "id": "8af725d1-7484-4118-83ff-70878fea01b9",
+  "stem": "A 15-year-old with gender dysphoria attends with her mother and stepfather, both of whom support gender-affirming medical treatment, but her biological father who also has parental responsibility has not been consulted; what is the main unresolved issue?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Whichever adult attends the appointment can provide the necessary parental consent",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The adolescent's agreement alone is enough if she appears Gillick competent",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Consent should come from both parents or all people with parental responsibility",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "The stepfather's support replaces any need to consider other parental responsibility arrangements",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Parental consent is irrelevant once the patient is 15",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Consent should come from both parents or all people with parental responsibility. This is the unresolved issue because the biological father has parental responsibility but has not been consulted.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 127,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T04:44:26.855Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B02-e5d3115d3257f79011f8",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because the notes do not say that any adult who attends can provide consent.",
+    "B": "Incorrect because the pathway requires parental consent and the adolescent's agreement alone is not enough here.",
+    "C": "Correct because consent needs to come from both parents or all people with parental responsibility, and one person with parental responsibility has not been consulted.",
+    "D": "Incorrect because a stepfather's support does not replace the need to consider all people with parental responsibility.",
+    "E": "Incorrect because parental consent is still relevant at age 15 for this treatment pathway."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu4ogsa0001rj2wn09kah24",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3242009132420091,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "0ee889d3-d10a-4765-9583-97ff856bf645",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-08.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "gender-affirming medical treatment",
+      "parental responsibility",
+      "consent pathway"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:15.466Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

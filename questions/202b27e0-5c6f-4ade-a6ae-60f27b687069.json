@@ -1,0 +1,101 @@
+{
+  "id": "202b27e0-5c6f-4ade-a6ae-60f27b687069",
+  "stem": "Which finding best distinguishes gonadarche from pubarche?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Body odour alone",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pubic hair growth alone",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Acne alone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ovarian or testicular enlargement",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Axillary hair growth alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ovarian or testicular enlargement is the key finding of gonadarche. Gonadarche reflects activation of the gonads, whereas pubarche refers to androgen-related changes such as pubic or axillary hair, body odour, and acne.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 92,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:28:10.441Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B52-attempt-01-f7d9c462dfabb75cda3c",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because body odour is an androgen-related pubarche feature, not the defining sign of gonadarche.",
+    "B": "Incorrect because pubic hair growth is a feature of pubarche rather than the gonadal enlargement that defines gonadarche.",
+    "C": "Incorrect because acne is associated with pubarche and androgen effects, not the onset of gonadarche.",
+    "D": "Correct because gonadarche is identified by ovarian enlargement in girls or testicular enlargement in boys.",
+    "E": "Incorrect because axillary hair growth is part of pubarche, not the distinguishing feature of gonadarche."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B52-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqelmp0001rjrm3e7xu0dq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3382352941176471,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b899d140-c2ca-46d4-aca3-8c539a0a6085",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B52/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Delayed puberty and precocious puberty",
+      "complication/prevention"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:45.847Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

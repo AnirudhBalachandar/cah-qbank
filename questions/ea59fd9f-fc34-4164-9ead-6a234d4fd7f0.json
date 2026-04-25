@@ -1,0 +1,98 @@
+{
+  "id": "ea59fd9f-fc34-4164-9ead-6a234d4fd7f0",
+  "stem": "What is the primary purpose of the Kidsburns consultative service?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To keep children in their local health districts and avoid travel to Sydney",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To provide a 24-hour surgical robot for remote operations",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To replace the need for specialised nursing in rural areas",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To conduct large-scale public health education campaigns",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To arrange transport to specialist centres for all burn cases",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Kidsburns is a consultative service designed to support local management of burns so children can remain in their own health districts rather than travelling to Sydney.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+      "title": "00099 Burns_intro and path-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.172Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8d458bb40d69016b8e9e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the service uses consultation and oversight to enable local districts to manage appropriate cases closer to home, avoiding unnecessary travel to Sydney.",
+    "B": "Incorrect because Kidsburns is a consultative review service, not a remote surgery or robotics program.",
+    "C": "Incorrect because it supports local clinicians and nursing care rather than replacing specialised nursing.",
+    "D": "Incorrect because the service is focused on clinical consultation for burns, not broad public health campaigning.",
+    "E": "Incorrect because the aim is to reduce transfers to Sydney by supporting local care, not to arrange transport for all cases."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7a7cb0d2-7b9b-469b-b28a-64ee534ce4c5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the logistical benefits of using digital photography for medical reviews.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "99",
+    "lectureTitle": "00099 Burns_intro and path-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "674a8b73-1f22-40b6-9fc1-f1388500621a",
+    "overlapScore": 0.3855421686746988,
+    "questionIndex": 10,
+    "quizFileName": "quiz_099.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "c8e9ef92-6113-426f-a22e-2c69cc16f9df",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:36.861Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

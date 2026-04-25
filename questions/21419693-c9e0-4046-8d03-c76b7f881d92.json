@@ -1,0 +1,102 @@
+{
+  "id": "21419693-c9e0-4046-8d03-c76b7f881d92",
+  "stem": "A child presents for a routine intramuscular vaccination while anticoagulation is being monitored, and their INR is 3.4; what is the best next step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Proceed with the intramuscular vaccine as usual",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Defer the intramuscular injection while the INR remains above 3.0",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Give the vaccine only if it is mixed with local anaesthetic",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Proceed if the administration needle is primed first",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Give a second intramuscular injection in a different site to reduce haematoma risk",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Defer the intramuscular injection. An INR above 3.0 increases the risk of haematoma at the injection site, so the vaccine should be postponed until the INR is below the stated threshold.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 61,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:38.881Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B38-attempt-02-753ce36ad2c0a9e30c02",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because an INR of 3.4 is above the stated threshold and increases the risk of haematoma with intramuscular injection.",
+    "B": "Correct because the notes state that intramuscular injection should be deferred while the INR remains above 3.0 due to haematoma risk.",
+    "C": "Incorrect because mixing vaccines with local anaesthetic is not the recommended solution to an elevated INR.",
+    "D": "Incorrect because priming the needle does not reduce the bleeding risk associated with a high INR.",
+    "E": "Incorrect because giving another intramuscular injection would not reduce haematoma risk and may increase it."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B38-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpo7ci0001rj84hdpm2z39",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3246753246753247,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4ac0d282-6d58-4f79-b00a-599dcef24b17",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B38/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "National schedule and special populations",
+      "coagulopathy",
+      "intramuscular vaccination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:49.738Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

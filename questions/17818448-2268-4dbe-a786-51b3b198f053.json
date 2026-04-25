@@ -1,0 +1,98 @@
+{
+  "id": "17818448-2268-4dbe-a786-51b3b198f053",
+  "stem": "Which syndrome is most commonly associated with congenital cataracts?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Down syndrome",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Edwards syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Turner syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Marfan syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Noonan syndrome",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Down syndrome is the most common syndrome associated with congenital cataracts.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+      "title": "00037 ophalmology-leukocor-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.952Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2d7d760c094cb3ea66a7",
+  "rationale": "The key association being tested is the syndrome most commonly linked with congenital cataracts.",
+  "optionExplanations": {
+    "A": "Correct because Down syndrome is the most common syndrome associated with congenital cataracts.",
+    "B": "Incorrect because Edwards syndrome is not the most common syndromic association with congenital cataracts.",
+    "C": "Incorrect because Turner syndrome is not classically the most common syndrome linked to congenital cataracts.",
+    "D": "Incorrect because Marfan syndrome is more associated with ectopia lentis than congenital cataracts.",
+    "E": "Incorrect because Noonan syndrome is not the most common syndrome associated with congenital cataracts."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9ad2e01-8d6e-4bd6-b3a8-e14ad8ad3be1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the chromosomal condition mentioned in the section on etiology.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "37",
+    "lectureTitle": "00037 ophalmology-leukocor-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "18d3d4e7-967f-4653-bec5-9e9da6e3cb4c",
+    "overlapScore": 0.5,
+    "questionIndex": 6,
+    "quizFileName": "quiz_037.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "da36d2a9-94b8-41fe-98d3-e07103269d1e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:27.471Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

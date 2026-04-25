@@ -1,0 +1,98 @@
+{
+  "id": "c1b3cee0-5f27-40e1-8cc0-442115ae216c",
+  "stem": "Which statement best describes a key difference between juvenile dermatomyositis and adult dermatomyositis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It does not affect the skin in children",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It is not associated with malignancy in children",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "It causes muscle hypertrophy instead of weakness",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It only affects the distal muscles in children",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It usually presents with isolated joint swelling only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Juvenile dermatomyositis is not associated with malignancy in children. Unlike adult dermatomyositis, which may signal an underlying cancer, the paediatric form is typically an idiopathic inflammatory myopathy without a cancer association.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+      "title": "00098 Rheumatology_non juv-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.020Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7296f889ecd522fadc52",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because juvenile dermatomyositis commonly has characteristic skin findings such as a heliotrope rash and Gottron papules.",
+    "B": "Correct because juvenile dermatomyositis is generally not linked to an underlying malignancy in children, unlike adult dermatomyositis.",
+    "C": "Incorrect because dermatomyositis causes proximal muscle weakness, not muscle hypertrophy.",
+    "D": "Incorrect because the muscle weakness is typically proximal rather than limited to distal muscles.",
+    "E": "Incorrect because the condition is a myositis with skin involvement, not an isolated arthritis or joint-swelling disorder."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f9950c90-422e-4851-9c2f-57ccccc8c402",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the presence or absence of underlying cancer.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "98",
+    "lectureTitle": "00098 Rheumatology_non juv-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "342819c2-640e-488b-8192-f7faa7d8e2c5",
+    "overlapScore": 0.3979591836734694,
+    "questionIndex": 7,
+    "quizFileName": "quiz_098.json",
+    "quizTitle": "Rheumatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b2902fa3-3b44-4a19-af87-5f49cdf7e31f",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:07.242Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

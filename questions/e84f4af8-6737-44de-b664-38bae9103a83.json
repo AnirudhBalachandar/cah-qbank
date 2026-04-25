@@ -1,0 +1,98 @@
+{
+  "id": "e84f4af8-6737-44de-b664-38bae9103a83",
+  "stem": "What is the preferred modern management of a lateral cervical lymphatic malformation (cystic hygroma) to minimise morbidity?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Formal surgical excision with wide margins",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Image-guided sclerotherapy using bleomycin or OK-432",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Observation for spontaneous resolution at puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A prolonged course of broad-spectrum oral antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Simple needle aspiration alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Image-guided sclerotherapy is the preferred modern management because it causes the lymphatic malformation to shrink while avoiding the morbidity of open surgery.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+      "title": "00022 surgery-head-neck-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.574Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-87e2e1fc9d37f3eb490f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because wide surgical excision carries greater risk of morbidity, including injury to adjacent nerves and vessels.",
+    "B": "Correct because image-guided sclerotherapy with agents such as bleomycin or OK-432 induces fibrosis and shrinkage of the lymphatic malformation with less morbidity than surgery.",
+    "C": "Incorrect because these lesions do not usually resolve spontaneously, and symptomatic or enlarging malformations generally need active treatment.",
+    "D": "Incorrect because antibiotics may treat superimposed infection but do not treat the underlying lymphatic malformation.",
+    "E": "Incorrect because aspiration alone is temporary and does not provide definitive treatment for the malformation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the interventional radiology techniques mentioned as being less invasive than surgery.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "22",
+    "lectureTitle": "00022 surgery-head-neck-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5eb4c270-c3a0-444d-8970-b27a4fb44aa2",
+    "overlapScore": 0.4094488188976378,
+    "questionIndex": 2,
+    "quizFileName": "quiz_022.json",
+    "quizTitle": "Pediatric Neck Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "193b9d3f-4a97-4e98-8e83-6da631fa992e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:34.119Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

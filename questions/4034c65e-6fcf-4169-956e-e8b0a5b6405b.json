@@ -1,0 +1,102 @@
+{
+  "id": "4034c65e-6fcf-4169-956e-e8b0a5b6405b",
+  "stem": "A well child has a low-pitched continuous sound heard in the right upper chest and lower neck that is loudest when sitting and disappears with gentle jugular vein compression, what is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Venous hum",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Patent ductus arteriosus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Ventricular septal defect",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Carotid bruit",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Atrial septal defect",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Venous hum is the correct diagnosis. It is a benign continuous murmur in children that is typically heard over the lower neck or right upper chest, is louder when sitting, and disappears with jugular vein compression.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 81,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:19:37.159Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B46-attempt-02-744098d5b90cfd4154c6",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because venous hum is a benign, low-pitched continuous murmur that is loudest when upright and abolished by gentle jugular vein compression.",
+    "B": "Incorrect because a patent ductus arteriosus causes a continuous murmur, but it is not characteristically abolished by jugular vein compression or accentuated by sitting in the same way.",
+    "C": "Incorrect because a ventricular septal defect typically causes a harsh pansystolic murmur rather than a low-pitched continuous murmur in the neck.",
+    "D": "Incorrect because a carotid bruit is a vascular sound over the carotid artery and is not the classic positional, compression-dependent benign murmur of a venous hum.",
+    "E": "Incorrect because an atrial septal defect classically produces a systolic ejection murmur with fixed split S2, not a continuous neck murmur."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B46-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwq3lkv0001rj5i6wiby3o4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3257142857142857,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8990d65d-5450-43a0-b3ec-70e2d529a99f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B46/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acyanotic congenital heart disease and murmur interpretation",
+      "venous hum",
+      "murmur timing and quality"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:47.974Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

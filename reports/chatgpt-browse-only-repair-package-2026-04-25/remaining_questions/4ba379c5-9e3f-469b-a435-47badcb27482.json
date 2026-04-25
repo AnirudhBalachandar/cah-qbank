@@ -1,0 +1,66 @@
+{
+  "sequence": 46,
+  "id": "4ba379c5-9e3f-469b-a435-47badcb27482",
+  "sourcePath": "questions/4ba379c5-9e3f-469b-a435-47badcb27482.json",
+  "issueSummary": {
+    "correctOptionCount": 0,
+    "optionCount": 3,
+    "missingExplanation": true,
+    "missingCitations": true,
+    "missingTags": true,
+    "unclassified": true
+  },
+  "originalQuestion": {
+    "id": "4ba379c5-9e3f-469b-a435-47badcb27482",
+    "stem": "Question was either... what’s the percentage who test positive for the disease who actually have the disease (PPV)? OR was what’s the probability that the pt will have a +ve test result if they have the disease (sensitivity)?",
+    "questionType": "SBA",
+    "options": [
+      {
+        "key": "A",
+        "text": "sensitivity",
+        "isCorrect": null
+      },
+      {
+        "key": "B",
+        "text": "specificity",
+        "isCorrect": null
+      },
+      {
+        "key": "C",
+        "text": "positive predictive value",
+        "isCorrect": null
+      }
+    ],
+    "explanation": null,
+    "citations": [],
+    "tags": [],
+    "curriculum": "Unclassified",
+    "status": "published",
+    "createdBy": "import",
+    "createdAt": "2026-03-16T02:10:06.326Z",
+    "sourceFingerprint": "dd9eb8deec22b79d63435fea",
+    "rationale": null,
+    "optionExplanations": {},
+    "moduleCode": "CAH 00",
+    "difficulty": null,
+    "ausScore": null,
+    "source": {
+      "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2011 Term D.docx",
+      "importedAt": "2026-03-16T02:22:41.091Z",
+      "moduleInference": {
+        "modules": [
+          "CAH 00"
+        ],
+        "primary": "CAH 00",
+        "scores": {}
+      },
+      "originalQNumber": "12",
+      "parseNotes": [
+        "html-fallback"
+      ],
+      "stemHash": "ac590bccd01697d0e540"
+    }
+  },
+  "fixedQuestion": null,
+  "repairAudit": null
+}

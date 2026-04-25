@@ -1,0 +1,98 @@
+{
+  "id": "e44bd245-c389-4d3c-ae02-ff57805bae1d",
+  "stem": "Which child with a severe asthma presentation has a primary indication for adrenaline?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A child with a high fever",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A child with mild symptoms and a history of allergies",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A child who is unresponsive or in whom anaphylaxis is suspected",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "A child who has been taking oral steroids for more than 3 days",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A child with wheeze that improves after inhaled salbutamol",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Adrenaline is indicated when the child is unresponsive or anaphylaxis is suspected.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+      "title": "00013 Asthma Assessment an-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.168Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d09db15d0076e6603244",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because fever is not an indication for adrenaline and more often suggests intercurrent infection.",
+    "B": "Incorrect because a history of allergies alone does not justify adrenaline in a mild asthma presentation.",
+    "C": "Correct because adrenaline is used when anaphylaxis is suspected or the child is unresponsive and may not be able to effectively receive inhaled treatment.",
+    "D": "Incorrect because the duration of oral steroid use does not determine the need for adrenaline.",
+    "E": "Incorrect because improvement with inhaled salbutamol suggests response to standard bronchodilator therapy rather than a need for adrenaline."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "91a3078f-c89f-4cfd-be9f-6f24e8df3df1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about emergencies where the patient might not be able to breathe in bronchodilators or where a systemic allergic reaction is occurring.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "13",
+    "lectureTitle": "00013 Asthma Assessment an-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c76a6af5-d795-46ba-88f3-3e704a938d24",
+    "overlapScore": 0.4782608695652174,
+    "questionIndex": 7,
+    "quizFileName": "quiz_013.json",
+    "quizTitle": "Asthma Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "09f217f7-ddb6-4d3d-bb00-f64a7767686d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:25.078Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "f4e9b72c-5203-4d1a-b17f-cf3ba4b79162",
+  "stem": "In the emergency management of status epilepticus, after addressing airway, breathing and circulation, what is the most critical immediate metabolic check?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Serum liver function tests",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Blood glucose level",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Cerebrospinal fluid culture",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Toxicology screen",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Serum electrolyte levels",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Blood glucose level is the most critical immediate metabolic check because hypoglycaemia is a rapid, reversible cause of seizures and must be identified and treated promptly.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+      "title": "00066 Approach to children-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.697Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-438869c28656189cdbf4",
+  "rationale": "The fastest bedside metabolic test in a child with status epilepticus is to look for hypoglycaemia, which can be immediately corrected.",
+  "optionExplanations": {
+    "A": "Incorrect because liver function tests are not the first immediate metabolic check in status epilepticus.",
+    "B": "Correct because hypoglycaemia is a rapid, reversible cause of seizures and blood glucose should be checked immediately.",
+    "C": "Incorrect because cerebrospinal fluid culture is not the initial metabolic bedside test and is considered later if infection is suspected.",
+    "D": "Incorrect because toxicology screening may help identify the cause, but it is not the most immediate metabolic check.",
+    "E": "Incorrect because electrolytes are important, but bedside blood glucose is the fastest and most critical immediate check."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "dd34b59f-df9c-4fad-b68d-40a544d3ef59",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the simplest and fastest bedside test that checks for a common, treatable cause of seizures.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "66",
+    "lectureTitle": "00066 Approach to children-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+    "overlapScore": 0.3525179856115108,
+    "questionIndex": 9,
+    "quizFileName": "quiz_066.json",
+    "quizTitle": "Epilepsy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "109e5bd8-19d0-4b2e-b561-59f05f7aed07",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:00.244Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

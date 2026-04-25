@@ -1,0 +1,101 @@
+{
+  "id": "6136d19c-f189-42bc-8a30-2c902c20758b",
+  "stem": "During a focused history for acute abdominal pain, which symptoms are listed as systemic symptoms?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Fever, lethargy and weight loss",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Blood, mucus and constipation",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Dysuria, polyuria and polydipsia",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Menstrual and sexual history",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bilious vomiting and haematemesis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Fever, lethargy and weight loss are systemic symptoms to ask about in acute abdominal pain. The other options describe stool, urinary, adolescent history, or vomiting features.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 170,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:32:22.627Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B80-attempt-04-f9e763f6aaec43c10066",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because fever, lethargy and weight loss are specifically listed systemic symptoms.",
+    "B": "Incorrect because blood, mucus and constipation are stool history features.",
+    "C": "Incorrect because dysuria, polyuria and polydipsia are urinary symptoms.",
+    "D": "Incorrect because menstrual and sexual history is a separate adolescent history domain.",
+    "E": "Incorrect because bilious vomiting and haematemesis are vomiting features, not systemic symptoms."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B80-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5k4ov0001rj84kqhve8cx",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3362068965517241,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "8987cbc0-9f4c-42fa-8429-fbc9b2d67ec9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B80/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Approach to acute abdominal pain",
+      "history"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:55.689Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

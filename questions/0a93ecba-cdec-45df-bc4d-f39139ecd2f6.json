@@ -1,0 +1,109 @@
+{
+  "id": "0a93ecba-cdec-45df-bc4d-f39139ecd2f6",
+  "stem": "A 6-year-old has a recurrent swelling on the inner lower lip after habitual lip-biting; which diagnosis best fits?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Mucocoele",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Mumps-related parotid swelling",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Aphthous ulcer",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Herpetic gingivostomatitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Facial cellulitis of dental origin",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mucocoele is the best fit. This is because minor salivary glands are present in the lower lip, and lip-biting can cause a mucocoele with recurrent swelling at that site.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 132,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 28,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T04:34:55.363Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B07-attempt-03-e43eed066e323909c757",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because mucocoeles commonly arise from minor salivary gland trauma, especially after lip-biting, and present as a recurrent lower-lip swelling.",
+    "B": "Incorrect because mumps typically causes parotid gland swelling, not a local recurrent swelling on the inner lower lip.",
+    "C": "Incorrect because aphthous ulcers are painful mucosal ulcers rather than a recurrent cyst-like swelling after lip-biting.",
+    "D": "Incorrect because herpetic gingivostomatitis causes gingival and oral vesicular lesions, not an isolated recurrent lower-lip swelling.",
+    "E": "Incorrect because facial cellulitis of dental origin causes diffuse facial soft tissue infection rather than a localised lower-lip lesion."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B07-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvjs2jn0001rjz9k1qd666o",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3402777777777778,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a4f1c416-a7e0-4c2a-b3b8-0df0104d6f12",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B07/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Dental trauma and the medical-dental interface",
+      "dental causes of facial swelling",
+      "lower lip lesions"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:02.922Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

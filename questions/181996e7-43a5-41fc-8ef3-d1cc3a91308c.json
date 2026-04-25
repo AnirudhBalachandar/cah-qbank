@@ -1,0 +1,98 @@
+{
+  "id": "181996e7-43a5-41fc-8ef3-d1cc3a91308c",
+  "stem": "Which symptom of hypocalcaemia may present specifically in infants under 6 months of age?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Long bone bowing",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Seizures",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Frontal bossing",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Widened fontanelle",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delayed walking",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Seizures are the classic neurological manifestation of severe hypocalcaemia in young infants, including those under 6 months of age.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+      "title": "00010 Vitamin_D_Deficiency-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.961Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fefad177280fc8338c7a",
+  "rationale": "Hypocalcaemia in early infancy can present with neurological symptoms before the skeletal signs of rickets become apparent.",
+  "optionExplanations": {
+    "A": "Incorrect because long bone bowing is a later skeletal sign of rickets and is not the typical early infant presentation of hypocalcaemia.",
+    "B": "Correct because severe hypocalcaemia in infants under 6 months can cause neurological irritability and seizures.",
+    "C": "Incorrect because frontal bossing is a chronic skeletal feature of rickets rather than an acute manifestation of low calcium.",
+    "D": "Incorrect because a widened fontanelle can be seen with rickets but is not the specific acute neurological symptom of hypocalcaemia.",
+    "E": "Incorrect because delayed walking is a later developmental or skeletal issue, not a symptom specifically seen in young infants with hypocalcaemia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c4380ba4-e400-4701-81d2-0d9f05f6ec6d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the neurological consequences of severe electrolyte imbalances in young infants.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "10",
+    "lectureTitle": "00010 Vitamin_D_Deficiency-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7493f5cf-5d8d-47ac-9a82-de5e10267855",
+    "overlapScore": 0.375,
+    "questionIndex": 8,
+    "quizFileName": "quiz_010.json",
+    "quizTitle": "Vitamin D Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "3583634f-71b9-4742-b88f-857bfb50125d",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:31.385Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

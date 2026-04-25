@@ -1,0 +1,98 @@
+{
+  "id": "fba43b27-9b7a-4604-a548-1367a902f7bf",
+  "stem": "What is a role of hind milk in infant lactose digestion?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It contains fat which slows down the rate of absorption",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "It provides the high concentration of carbohydrates needed for energy",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It contains concentrated lactase enzymes for the baby",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "It neutralises the acidity caused by lactose fermentation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It increases the lactose concentration for faster digestion",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "It contains fat which slows down the rate of absorption. The higher fat content of hind milk delays gastric emptying and intestinal transit, giving more time for lactase to act on lactose.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.713Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-e248c136c28fb08dedf2",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the higher fat content of hind milk delays gastric emptying and intestinal transit, giving more time for lactase to act on lactose.",
+    "B": "Incorrect because hind milk is relatively richer in fat, not the main source of carbohydrate load.",
+    "C": "Incorrect because lactase is produced by the infant’s small bowel; milk does not provide this enzyme.",
+    "D": "Incorrect because hind milk slows digestion mechanically; it does not neutralise acid produced by fermentation.",
+    "E": "Incorrect because hind milk is not responsible for increasing lactose concentration to speed digestion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how the fat content affects the speed of the digestive process.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "3b77a78a-8397-4901-af80-bd2b2d777b91",
+    "overlapScore": 0.4444444444444444,
+    "questionIndex": 7,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:17.053Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

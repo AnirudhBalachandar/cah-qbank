@@ -1,0 +1,98 @@
+{
+  "id": "67e5a5e9-cdef-46e3-91a1-39694b4b3858",
+  "stem": "How can a clinician distinguish a floppy strong baby from a floppy weak baby?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Floppy strong babies have absent reflexes",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Floppy strong babies have normal strength despite low tone",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Floppy weak babies are usually dysmorphic",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Floppy weak babies have high alertness",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Floppy weak babies have normal tone with reduced strength",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Floppy strong babies have normal strength despite low tone. This pattern suggests hypotonia with preserved power, as seen in central causes such as Down syndrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+      "title": "00067 neurology_motor diff-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.762Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d2a725fee630035a7d58",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because absent reflexes suggest a floppy weak baby with a peripheral neuromuscular problem rather than preserved strength.",
+    "B": "Correct because floppy strong babies have hypotonia with normal strength, so the key distinction is low tone without true weakness.",
+    "C": "Incorrect because dysmorphism can be associated with some central causes, but it does not distinguish floppy strong from floppy weak babies.",
+    "D": "Incorrect because alertness is not the defining feature; floppy weak babies are identified by reduced strength and often reduced or absent reflexes.",
+    "E": "Incorrect because floppy weak babies have reduced strength with low tone, not normal tone with reduced strength."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "72499622-cfc3-4ce7-8d14-2105fe66d696",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider whether the underlying problem is in the brain (central) or the nerves/muscles (peripheral).",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "67",
+    "lectureTitle": "00067 neurology_motor diff-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "fe4f90ce-cd3c-49ef-8653-3b08430faa19",
+    "overlapScore": 0.4204545454545455,
+    "questionIndex": 5,
+    "quizFileName": "quiz_067.json",
+    "quizTitle": "Neurology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "06bc7f92-731c-431e-8c5d-1cce38c39168",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:07.802Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

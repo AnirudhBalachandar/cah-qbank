@@ -1,0 +1,98 @@
+{
+  "id": "feed2731-1cb3-4e17-ab70-a49f32159de1",
+  "stem": "A preschool boy presents with a low-grade fever, dark red discoloration of the foreskin and purulent discharge; what is the most appropriate initial management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Immediate emergency circumcision",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Topical antimicrobials, improved hygiene and warm baths to encourage voiding",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Aggressive manual retraction of the foreskin to drain the discharge",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Observation only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Oral corticosteroids",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Topical antimicrobials, improved hygiene and warm baths to encourage voiding are the appropriate initial management for balanitis in a child with local infection features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+      "title": "00103 Penile-Andrew-Hollan-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:46.023Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ab6f23eb300d7b8b0e11",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because circumcision is not an emergency treatment for acute balanitis and is usually considered only after recurrent episodes or persistent problems.",
+    "B": "Correct because initial treatment for balanitis focuses on clearing the local infection, improving local hygiene and reducing discomfort before any surgical option is considered.",
+    "C": "Incorrect because forced retraction during an active infection is painful and may worsen inflammation or tissue injury.",
+    "D": "Incorrect because fever and purulent discharge suggest infection, so active treatment is needed rather than observation alone.",
+    "E": "Incorrect because corticosteroids do not treat the likely bacterial infection and are not first-line management here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "c7dda8b2-9cd1-4b47-8b40-df26c86b37d1",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the conservative treatments used to manage the acute infection and the patient's discomfort.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "103",
+    "lectureTitle": "00103 Penile-Andrew-Hollan-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7a90b4f5-6cdd-4d4d-bdfd-60f2eaab43c8",
+    "overlapScore": 0.4345238095238095,
+    "questionIndex": 6,
+    "quizFileName": "quiz_103.json",
+    "quizTitle": "Genitalia Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "550d971b-d7bc-4047-8f61-b34af6e53a3b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:24.736Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

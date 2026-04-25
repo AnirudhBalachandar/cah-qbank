@@ -1,0 +1,98 @@
+{
+  "id": "0d36bfd1-d5bc-4aed-ad96-aa84c4e49556",
+  "stem": "Which of the following is a primary driver of morbidity and mortality in adolescents?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Mental health and injury resulting from risk-taking behaviour",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Communicable diseases and lack of clean water",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Genetic disorders and congenital abnormalities",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Autoimmune diseases and nutritional deficiencies",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Chronic kidney disease and liver failure",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mental health and injury resulting from risk-taking behaviour are key drivers of adolescent morbidity and mortality.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+      "title": "00078 adolescent_basic fac-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.077Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3dee4e6fcf3122b404e3",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because mental health problems and injuries linked to risk-taking are major contributors to illness and death in adolescents.",
+    "B": "Incorrect because these are not the main drivers of adolescent morbidity and mortality in settings where the burden is dominated by behavioural and psychosocial risks.",
+    "C": "Incorrect because congenital and genetic conditions are important causes of illness, but they are not the primary adolescent drivers described here.",
+    "D": "Incorrect because these conditions can affect adolescents, but they are not the leading causes of morbidity and mortality in this age group.",
+    "E": "Incorrect because these chronic organ diseases are not the typical primary drivers of adolescent morbidity and mortality."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "955c4f76-1543-4afe-8f05-2c9a1bde6246",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the shifts in behavior and psychological state that occur during the teenage years.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "78",
+    "lectureTitle": "00078 adolescent_basic fac-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c9cda91a-b307-420a-bc21-b2a46c66c463",
+    "overlapScore": 0.3980582524271845,
+    "questionIndex": 6,
+    "quizFileName": "quiz_078.json",
+    "quizTitle": "Adolescent Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "36616d78-5c36-4535-a1a5-25f2860130e3",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:08.833Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

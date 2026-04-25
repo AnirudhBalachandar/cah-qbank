@@ -1,0 +1,102 @@
+{
+  "id": "873ffcb3-faf7-400b-b1e2-b0137abd5ddc",
+  "stem": "A boy with haemophilia is attending a community clinic for vaccination; which approach is best supported?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Avoid vaccination altogether because any injection is contraindicated",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Use the standard intramuscular route without any extra local measures",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Consider a subcutaneous route instead of intramuscular, and apply firm pressure for 5-10 minutes",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Mix the vaccine with local anaesthetic to reduce bleeding risk",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Prime the administration needle before giving the vaccine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Consider a subcutaneous route instead of intramuscular, and apply firm pressure for 5-10 minutes. This reduces the risk of local bleeding and haematoma in a child with haemophilia.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 61,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:07:38.901Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B38-attempt-02-f3f7cf4be92abcf33a6a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because vaccination is not contraindicated solely due to haemophilia.",
+    "B": "Incorrect because the notes recommend modifying the route and applying local pressure rather than using standard intramuscular administration without precautions.",
+    "C": "Correct because a subcutaneous route can be considered instead of intramuscular injection, and firm pressure for 5-10 minutes helps reduce bleeding and haematoma risk.",
+    "D": "Incorrect because the notes do not recommend mixing the vaccine with local anaesthetic.",
+    "E": "Incorrect because the notes do not recommend priming the administration needle."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 5,
+  "source": {
+    "batchId": "B38-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpo7ci0001rj84hdpm2z39",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3153153153153153,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ee9f9560-8906-4b13-85f0-1e6c6fbae81a",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B38/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "National schedule and special populations",
+      "haemophilia",
+      "vaccine delivery"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:09.296Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

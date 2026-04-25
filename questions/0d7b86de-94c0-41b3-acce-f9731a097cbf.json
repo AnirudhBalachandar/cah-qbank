@@ -1,0 +1,98 @@
+{
+  "id": "0d7b86de-94c0-41b3-acce-f9731a097cbf",
+  "stem": "A child develops a faint rash and swollen salivary glands 8 days after receiving the MMR vaccine; what is the most likely explanation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "An immediate allergic reaction to the vaccine components",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "The live attenuated vaccine is mimicking a mild version of the infection",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A bacterial infection unrelated to the vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An immunisation error caused by improper storage of the vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A toxic reaction to a vaccine preservative",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The live attenuated MMR vaccine can produce a delayed, mild measles-like illness about 7 to 10 days after vaccination.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+      "title": "00028 immunisation_adverse-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.425Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-7ed821a2b129d12ed265",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because immediate allergic reactions occur within hours and usually cause features such as hives, wheeze, or anaphylaxis rather than a delayed rash and gland swelling.",
+    "B": "Correct because the MMR vaccine is live attenuated, so it can briefly replicate and mimic a mild form of the infection, producing delayed vaccine-related symptoms.",
+    "C": "Incorrect because the timing and symptom pattern are typical of a live attenuated vaccine reaction rather than a separate bacterial infection.",
+    "D": "Incorrect because poor storage more commonly reduces vaccine effectiveness than causing this characteristic delayed clinical presentation.",
+    "E": "Incorrect because preservative toxicity would not عادة present as a measles-like illness several days after MMR vaccination."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "6a38d6e5-d785-4ad7-86e1-b8f04d8f350f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the characteristics of live attenuated vaccines and the typical incubation period for these types of reactions.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "28",
+    "lectureTitle": "00028 immunisation_adverse-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f5ccc74e-a70c-4799-b4cf-6b33654a54ba",
+    "overlapScore": 0.391025641025641,
+    "questionIndex": 6,
+    "quizFileName": "quiz_028.json",
+    "quizTitle": "Adverse Events Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "cf918a82-1574-470a-a4b0-edd95be5ab28",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:09.475Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

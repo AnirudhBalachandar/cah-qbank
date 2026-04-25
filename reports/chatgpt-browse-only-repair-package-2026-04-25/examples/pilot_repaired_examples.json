@@ -1,0 +1,1652 @@
+{
+  "count": 10,
+  "examples": [
+    {
+      "id": "0042655d-4b73-483a-a517-2f466e69a325",
+      "stem": "A 4-year-old child has pallor and mild tiredness. Full blood count shows a microcytic anaemia. Iron studies are normal, and Hb electrophoresis is consistent with a haemoglobinopathy trait. Which is the most likely diagnosis?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Iron deficiency",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "Vitamin B12 deficiency",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Anaemia of chronic disease",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Malignancy",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Thalassaemia",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Thalassaemia trait is a common cause of microcytic anaemia with normal iron studies. Children with thalassaemia trait are often well or only mildly anaemic, and diagnosis is supported by haemoglobin analysis rather than iron studies. Iron deficiency is the most common alternative diagnosis, but it is typically associated with low ferritin. Vitamin B12 deficiency usually causes macrocytosis, anaemia of chronic disease is typically normocytic or mildly microcytic, and malignancy would usually be suggested by other cytopenias or systemic features.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+          "title": "Clinical Practice Guidelines: Anaemia"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/thalassaemia_an_overview/",
+          "title": "Kids Health Info: Beta thalassaemia"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/iron_deficiency/",
+          "title": "Clinical Practice Guidelines: Iron deficiency"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+          "title": "Clinical Practice Guidelines: Anaemia"
+        }
+      ],
+      "tags": [
+        "anaemia",
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/general-paediatrics",
+        "haematology",
+        "iron-deficiency",
+        "microcytic-anaemia",
+        "thalassaemia"
+      ],
+      "curriculum": "General Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T00:56:42.631Z",
+      "sourceFingerprint": "a9c8dfe30438fd4e9993ca13",
+      "rationale": "The safest interpretation of the original fragment is a question testing the common differential diagnosis of microcytic anaemia. Among the options, thalassaemia is the best single answer when iron deficiency is not supported and the child is otherwise well.",
+      "optionExplanations": {
+        "A": "Iron deficiency commonly causes microcytic anaemia, but normal iron studies make it less likely here",
+        "B": "Vitamin B12 deficiency usually causes macrocytic anaemia, not isolated microcytosis",
+        "C": "Anaemia of chronic disease is usually normocytic or only mildly microcytic, and is linked to chronic inflammation or illness",
+        "D": "Malignancy can cause anaemia, but this stem gives no red-flag features such as pancytopenia, bruising, bone pain, or constitutional symptoms",
+        "E": "Thalassaemia trait commonly presents with microcytosis and mild anaemia with normal iron stores"
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Basic",
+      "ausScore": 2,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
+        "importedAt": "2026-03-16T02:22:41.459Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "33",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "e3dd6b5c880600d46653",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:06:47.868Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "rewritten_to_complete_sba",
+          "confidence": 0.84,
+          "evidenceSources": [
+            {
+              "title": "Clinical Practice Guidelines: Anaemia",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Thalassaemia trait causes microcytic hypochromic red cells with normal or borderline low haemoglobin; iron deficiency, chronic disease and B12 deficiency are alternative causes of anaemia by MCV pattern"
+            },
+            {
+              "title": "Kids Health Info: Beta thalassaemia",
+              "url": "https://www.rch.org.au/kidsinfo/fact_sheets/thalassaemia_an_overview/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_health",
+              "supports": "Thalassaemia trait causes small red blood cells and children are often healthy with no symptoms of disease"
+            },
+            {
+              "title": "Clinical Practice Guidelines: Iron deficiency",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/iron_deficiency/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Iron deficiency is the most common cause of anaemia in children and low ferritin is the key screening test"
+            },
+            {
+              "title": "Clinical Practice Guidelines: Anaemia",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia_Guideline/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Vitamin B12 deficiency is a macrocytic cause of anaemia; chronic disease can cause normocytic anaemia; malignancy may be suggested by associated thrombocytopenia or neutropenia"
+            }
+          ],
+          "notes": "Original item was a low-information fragment; repaired into a safe, practice-ready SBA preserving the intended microcytic anaemia differential.",
+          "preRepair": {
+            "stem": "Haematology",
+            "options": [
+              {
+                "key": "A",
+                "text": "Fe deficiency",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "B12 deficiency",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Chronic disease",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Malignancy",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "Thalassaemia",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "0179c444-f7c0-40cc-a77d-aef0013c5daf",
+      "stem": "A 12-month-old child on day 2 of bronchiolitis has oxygen saturations of 90% on room air and improves to 96% with supplemental oxygen. What is the best next management step?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Low flow oxygen via nasal prongs",
+          "isCorrect": true
+        },
+        {
+          "key": "B",
+          "text": "High flow oxygen via nasal prongs",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "5 cm CPAP",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Intubate and ventilate",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Oxygen via face mask",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In bronchiolitis, the first-line management for hypoxaemia is supplemental oxygen, typically by low-flow nasal prongs, with escalation to high-flow nasal cannula or CPAP only if there is persistent work of breathing, ongoing hypoxaemia, or clinical deterioration despite standard oxygen therapy. This child’s saturation corrects with oxygen, so low-flow nasal prongs are the best option among those given.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+          "title": "Bronchiolitis"
+        },
+        {
+          "type": "external",
+          "source": "Agency for Clinical Innovation, NSW Health",
+          "url": "https://aci.health.nsw.gov.au/ecat/paediatric/bronchiolitis",
+          "title": "Bronchiolitis (suspected) | Paediatric ECAT protocol"
+        },
+        {
+          "type": "external",
+          "source": "Children’s Health Queensland",
+          "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/bronchiolitis",
+          "title": "Bronchiolitis – Emergency management in children"
+        }
+      ],
+      "tags": [
+        "bronchiolitis",
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+        "hypoxaemia",
+        "infant-respiratory-distress",
+        "oxygen-therapy"
+      ],
+      "curriculum": "Emergency Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T00:56:41.981Z",
+      "sourceFingerprint": "3b8c46be905f6f9941cb345a",
+      "rationale": "The safest repair is to preserve the core clinical concept: an infant with bronchiolitis and mild hypoxaemia who responds to oxygen should receive low-flow oxygen first. Australian guidance places nasal prong oxygen as standard initial therapy, with HFNC/CPAP as escalation if needed.",
+      "optionExplanations": {
+        "A": "Correct. Low-flow nasal prongs are the usual initial oxygen delivery method for mild hypoxaemia in bronchiolitis.",
+        "B": "Incorrect. High-flow nasal cannula is generally reserved for children who do not improve adequately with standard oxygen or who have more significant respiratory distress.",
+        "C": "Incorrect. CPAP is an escalation therapy for more severe respiratory compromise, not first-line for uncomplicated bronchiolitis with oxygen-responsive desaturation.",
+        "D": "Incorrect. Intubation and ventilation are reserved for impending or established respiratory failure.",
+        "E": "Incorrect. A simple face mask is usually less suitable than nasal prongs in infants and is not the preferred initial oxygen delivery method for this presentation."
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Basic",
+      "ausScore": 1,
+      "source": {
+        "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
+        "importedAt": "2026-03-16T02:22:40.320Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "7",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "7eab226cf3bac15a09db",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:07:12.420Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "selected_existing_option",
+          "confidence": 0.91,
+          "evidenceSources": [
+            {
+              "title": "Bronchiolitis",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Bronchiolitis management includes supplemental oxygen when needed; high-flow nasal prong therapy is an escalation option rather than first-line for a child whose oxygenation improves with standard oxygen"
+            },
+            {
+              "title": "Bronchiolitis (suspected) | Paediatric ECAT protocol",
+              "url": "https://aci.health.nsw.gov.au/ecat/paediatric/bronchiolitis",
+              "organization": "Agency for Clinical Innovation, NSW Health",
+              "sourceType": "australian_guideline",
+              "supports": "If oxygen saturations remain below 90% following oxygen therapy, prepare for humidified high-flow nasal cannula; this supports low-flow oxygen first and escalation only if needed"
+            },
+            {
+              "title": "Bronchiolitis – Emergency management in children",
+              "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/bronchiolitis",
+              "organization": "Children’s Health Queensland",
+              "sourceType": "australian_guideline",
+              "supports": "Bronchiolitis oxygen targets and escalation to HFNC/CPAP when standard oxygen is insufficient"
+            }
+          ],
+          "notes": "Original stem was a fragment; repaired into a complete SBA while preserving the intended bronchiolitis oxygen-management concept.",
+          "preRepair": {
+            "stem": "12m kid on day 2 of bronchiolitis, sats at 90% on room air and 96% on O2. Best management?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Low flow O2 via nasal prongs",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "High flow O2 via nasal prongs",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "5cm CPAP",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Intubate and ventilate",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "O2 via face mask",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [
+              "cah-exam-blueprint/cah-kat",
+              "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+            ],
+            "curriculum": "Emergency Paediatrics",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "061327d1-857a-4fb8-9612-69b439a52270",
+      "stem": "A 5-year-old child was well until suddenly developing wheeze while playing with small toys. They have a persistent unilateral wheeze, reduced air entry on the right, and are not improving after inhaled salbutamol. Chest x-ray shows right-sided hyperinflation. What is the most likely diagnosis?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acute bronchitis",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "Bronchiolitis",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Inhaled foreign body",
+          "isCorrect": true
+        },
+        {
+          "key": "D",
+          "text": "Asthma",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Croup",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The combination of sudden onset wheeze in an otherwise well child, poor response to bronchodilator, persistent unilateral chest findings, and focal hyperinflation on x-ray is most consistent with inhaled foreign body. Foreign body aspiration may present with focal wheeze or decreased breath sounds, and a normal or non-specific chest x-ray does not exclude it. Bronchiolitis is usually an illness of infants, asthma is typically recurrent and bronchodilator-responsive, and croup causes upper-airway barky cough and stridor rather than isolated lower-airway wheeze.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_Bodies_Inhaled",
+          "title": "Clinical Practice Guidelines: Foreign bodies inhaled"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+          "title": "Clinical Practice Guidelines: Acute asthma"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cough/",
+          "title": "Clinical Practice Guidelines: Cough"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+          "title": "Clinical Practice Guidelines: Bronchiolitis"
+        }
+      ],
+      "tags": [
+        "asthma",
+        "bronchiolitis",
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+        "foreign-body-aspiration",
+        "wheeze"
+      ],
+      "curriculum": "Emergency Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T02:10:06.759Z",
+      "sourceFingerprint": "a5698335a4ee6fc856c77c92",
+      "rationale": "This is the safest and most clinically relevant interpretation of the fragment. Inhaled foreign body is the best answer because Australian paediatric guidance highlights persistent focal wheeze/decreased breath sounds and unilateral hyperinflation as key clues, and advises a high index of suspicion even when examination or x-ray findings are not definitive. The age and abrupt onset also fit aspiration more than bronchiolitis, croup, or asthma.",
+      "optionExplanations": {
+        "A": "Acute bronchitis may cause cough and wheeze, but it does not usually cause sudden unilateral wheeze with focal hyperinflation",
+        "B": "Bronchiolitis is typically seen in younger infants and usually presents with diffuse wheeze/crackles rather than a focal unilateral chest sign",
+        "C": "Correct: sudden onset, unilateral wheeze, reduced air entry, poor bronchodilator response, and hyperinflation strongly suggest an inhaled foreign body",
+        "D": "Asthma commonly causes bilateral wheeze and usually improves with salbutamol; a persistent focal chest sign should prompt another diagnosis",
+        "E": "Croup is an upper-airway condition causing barky cough and stridor, not focal lower-airway wheeze"
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
+        "importedAt": "2026-03-16T02:22:41.308Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "42",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "28c01a22041e472ecda2",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:07:21.873Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "rewritten_to_complete_sba",
+          "confidence": 0.91,
+          "evidenceSources": [
+            {
+              "title": "Clinical Practice Guidelines: Foreign bodies inhaled",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_Bodies_Inhaled",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Persistent focal wheeze or decreased breath sounds, sudden onset symptoms, and hyperinflation distal to obstruction are consistent with inhaled foreign body; normal exam or x-ray does not exclude it"
+            },
+            {
+              "title": "Clinical Practice Guidelines: Acute asthma",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Persistent asymmetry on auscultation may indicate inhaled foreign body rather than asthma"
+            },
+            {
+              "title": "Clinical Practice Guidelines: Cough",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/cough/",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Sudden onset without viral prodrome or after choking may suggest foreign body inhalation; dry wheeze is more typical of asthma"
+            },
+            {
+              "title": "Clinical Practice Guidelines: Bronchiolitis",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Bronchiolitis is primarily an illness of infants and is less consistent with a sudden focal wheeze in a 5-year-old"
+            }
+          ],
+          "notes": "Normalized malformed fragment into a single-best-answer question while preserving the original intended clinical concept. Existing options A-E were usable; F and G were discarded as stem fragments.",
+          "preRepair": {
+            "stem": "Wheeze:",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bronchitis",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "Bronchiolitis",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Inhaled foreign body",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Asthma",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "Croup",
+                "isCorrect": null
+              },
+              {
+                "key": "F",
+                "text": "5 months, wheezy etc… decreased air entry bilaterally, wheeze, crackles",
+                "isCorrect": null
+              },
+              {
+                "key": "G",
+                "text": "5 year old, was well, then wheezy. Not responding to ventolin via spacer. Otherwise well, tachypnoic, reduced air entry on right upper lobe. Chest expansion normal. Xray showed hyperinflation",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [
+              "cah-exam-blueprint/cah-kat",
+              "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+            ],
+            "curriculum": "Emergency Paediatrics",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "06d5a720-9077-4628-aede-d194e8e00ca7",
+      "stem": "Which of the following is a feature of transient synovitis?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fixed flexion deformity",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "Positive Trendelenburg test",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Muscle wasting",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Leg length deformity",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Positive Barlow test",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Transient synovitis (irritable hip) is a common cause of limp in young children and typically presents after a recent viral illness with hip pain or limp and reduced hip range of motion. It does not cause the developmental hip instability suggested by a positive Barlow test, nor does it typically produce fixed flexion deformity, leg length discrepancy, or muscle wasting. The safest repair of this fragment is to interpret it as asking for the feature least inconsistent with the intended teaching point among the original options: Barlow is a neonatal hip instability test and is not a feature of transient synovitis, so the original item is clinically flawed. However, because the intended answer appears to be asking about hip exam findings, none of the listed options is a true feature of transient synovitis; the correct practice-ready version should instead ask about the typical presentation of transient synovitis, for which reduced hip range of motion and a recent viral prodrome are characteristic.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+          "title": "The limping or non-weight bearing child"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+          "title": "Transient synovitis (irritable hip)"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children’s Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Developmental_Dysplasia_of_the_Hip_DDH/",
+          "title": "Developmental dysplasia of the hip (DDH)"
+        }
+      ],
+      "tags": [
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/general-paediatrics",
+        "developmental-dysplasia-of-the-hip",
+        "hip-pain",
+        "limp",
+        "paediatric-orthopaedics",
+        "transient-synovitis"
+      ],
+      "curriculum": "General Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T02:10:08.027Z",
+      "sourceFingerprint": "10c1568f84b21e5952475ec4",
+      "rationale": "This item is not fully repairable as written because none of the options is a true feature of transient synovitis. The original stem likely intended a hip-examination differential. A clinically safe SBA would ask about transient synovitis being associated with a recent viral illness and a limp, with reduced hip range of motion. Because the requirement is to preserve the existing options when possible, the best available option set still places Barlow as the most clearly wrong hip-specific distractor in the context of transient synovitis, but the item should be treated as flawed for exam use.",
+      "optionExplanations": {
+        "A": "Fixed flexion deformity is not a typical feature of transient synovitis; it raises concern for more significant hip pathology",
+        "B": "A Trendelenburg gait may be seen with hip pathology, but it is not a defining feature of transient synovitis and is not the best answer here",
+        "C": "Muscle wasting is not a feature of acute transient synovitis; it suggests more chronic pathology",
+        "D": "Leg length deformity/discrepancy is not typical of transient synovitis and suggests other hip disorders",
+        "E": "Barlow testing is used for neonatal developmental dysplasia of the hip, not transient synovitis"
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
+        "importedAt": "2026-03-16T02:22:41.998Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "16",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "66ccae07415df623bab9",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:07:29.866Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "selected_existing_option",
+          "confidence": 0.46,
+          "evidenceSources": [
+            {
+              "title": "The limping or non-weight bearing child",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Transient synovitis is a common cause of limp in children; assessment of limp/red flags and hip pathology is outlined"
+            },
+            {
+              "title": "Transient synovitis (irritable hip)",
+              "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_health",
+              "supports": "Transient synovitis commonly affects young children after a viral illness and causes limp and hip pain"
+            },
+            {
+              "title": "Developmental dysplasia of the hip (DDH)",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Developmental_Dysplasia_of_the_Hip_DDH/",
+              "organization": "Royal Children’s Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Barlow and Ortolani testing relate to neonatal DDH rather than transient synovitis"
+            }
+          ],
+          "notes": "Original question is flawed because none of the listed options is a true feature of transient synovitis. Repaired conservatively, but should ideally be rewritten rather than used as-is.",
+          "preRepair": {
+            "stem": "Which of the following is a feature of transient synovitis:",
+            "options": [
+              {
+                "key": "A",
+                "text": "Fixed flexion deformity",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "Positive trendelenberg test",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Muscle wasting",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Leg length deformity",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "Positive barlow test",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "06f69521-b37b-40a1-a63d-c04c3e571cc3",
+      "stem": "A 10-year-old girl is involved in a motor vehicle accident. Which of the following injuries is the least immediately life-threatening during the primary survey?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tension pneumothorax",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "Extradural haemorrhage with midline shift",
+          "isCorrect": true
+        },
+        {
+          "key": "C",
+          "text": "Bilateral pulmonary contusions",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Unstable C1/C2 fractures",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Cardiac tamponade",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In major trauma, tension pneumothorax and cardiac tamponade are immediately life-threatening thoracic emergencies, and significant cervical spine instability can also rapidly threaten airway and ventilation. Bilateral pulmonary contusions are serious and may worsen respiratory function, but among these options an extradural haemorrhage with midline shift is generally less immediately life-threatening during the initial primary survey than the rapidly reversible thoracic causes of obstructive shock and other injuries listed here. The original stem was too fragmentary, so it has been normalised into a primary-survey trauma question with one best answer.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/trauma-service/manual/chest-injury/",
+          "title": "Trauma Service : Chest injury"
+        },
+        {
+          "type": "external",
+          "source": "Victorian State Trauma System",
+          "url": "https://trauma.reach.vic.gov.au/specialist/thoracic-trauma/immediately-life-threatening-injuries/",
+          "title": "Immediately life threatening injuries"
+        },
+        {
+          "type": "external",
+          "source": "American College of Surgeons",
+          "url": "https://www.acilcalisanlari.com/wp-content/uploads/2020/09/ATLS-10-2018.pdf",
+          "title": "Tenth Edition ATLS®"
+        },
+        {
+          "type": "external",
+          "source": "MSD Manual Professional Edition",
+          "url": "https://www.msdmanuals.com/en-au/professional/injuries-poisoning/thoracic-trauma/overview-of-thoracic-trauma",
+          "title": "Overview of Thoracic Trauma"
+        }
+      ],
+      "tags": [
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+        "head-injury",
+        "major-trauma",
+        "obstructive-shock",
+        "primary-survey",
+        "thoracic-trauma"
+      ],
+      "curriculum": "Emergency Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T02:10:07.980Z",
+      "sourceFingerprint": "1fca56fc3a51246b8d47c7e7",
+      "rationale": "This item is best interpreted as asking which injury is least immediately life-threatening among classic major trauma diagnoses. In ATLS-style trauma assessment, the immediately life-threatening thoracic injuries include tension pneumothorax and cardiac tamponade, while pulmonary contusion can also cause major respiratory compromise. A traumatic extradural haemorrhage with midline shift is a critical intracranial injury, but it is not one of the most immediately correctable primary-survey causes of death compared with tension pneumothorax or tamponade. Because the original question was a fragment, the safest repair is to frame it as a trauma primary-survey best-answer question.",
+      "optionExplanations": {
+        "A": "Incorrect. Tension pneumothorax is an immediately life-threatening, rapidly reversible cause of obstructive shock in trauma.",
+        "B": "Correct. Although extradural haemorrhage with midline shift is a neurosurgical emergency, it is typically less immediately life-threatening during the primary survey than tension pneumothorax or cardiac tamponade.",
+        "C": "Incorrect. Pulmonary contusions can cause significant hypoxia and respiratory failure, especially if bilateral.",
+        "D": "Incorrect. Unstable upper cervical spine injuries can threaten airway and ventilation and require urgent immobilisation and assessment.",
+        "E": "Incorrect. Cardiac tamponade is an immediately life-threatening cause of obstructive shock in trauma."
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Intermediate",
+      "ausScore": 2,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
+        "importedAt": "2026-03-16T02:22:41.982Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "8",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "6f119157d34c25c05e79",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:07:37.772Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "rewritten_to_complete_sba",
+          "confidence": 0.57,
+          "evidenceSources": [
+            {
+              "title": "Trauma Service : Chest injury",
+              "url": "https://www.rch.org.au/trauma-service/manual/chest-injury/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_health",
+              "supports": "Identifies tension pneumothorax and cardiac tamponade as life-threatening chest trauma problems and discusses pulmonary contusion as a significant thoracic injury"
+            },
+            {
+              "title": "Immediately life threatening injuries",
+              "url": "https://trauma.reach.vic.gov.au/specialist/thoracic-trauma/immediately-life-threatening-injuries/",
+              "organization": "Victorian State Trauma System",
+              "sourceType": "australian_health",
+              "supports": "Lists thoracic trauma injuries that are immediately or potentially life threatening, including tension pneumothorax, cardiac tamponade and pulmonary contusion"
+            },
+            {
+              "title": "Tenth Edition ATLS®",
+              "url": "https://www.acilcalisanlari.com/wp-content/uploads/2020/09/ATLS-10-2018.pdf",
+              "organization": "American College of Surgeons",
+              "sourceType": "international_guideline",
+              "supports": "Primary survey trauma framework for immediately life-threatening thoracic injuries such as tension pneumothorax and cardiac tamponade"
+            },
+            {
+              "title": "Overview of Thoracic Trauma",
+              "url": "https://www.msdmanuals.com/en-au/professional/injuries-poisoning/thoracic-trauma/overview-of-thoracic-trauma",
+              "organization": "MSD Manual Professional Edition",
+              "sourceType": "other_reputable",
+              "supports": "Describes tension pneumothorax and cardiac tamponade among the five immediately life-threatening chest injuries"
+            }
+          ],
+          "notes": "Repaired from a fragmentary remembered question. The best answer is based on relative immediacy of threat in trauma primary survey; if the intended teaching point was different, the original item is ambiguous.",
+          "preRepair": {
+            "stem": "10 year old girl MVA, what is the least life threatening.",
+            "options": [
+              {
+                "key": "A",
+                "text": "Tension pneumothorax",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "Extradural haemorrhage with midline shift",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Bilateral pulmonary contusions",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Unstable C1/C2 fractures",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "Cardiac tamponade",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "0891d5aa-d2be-4528-a66e-2554ca479df3",
+      "stem": "What term refers to the probability of having a condition when the test result is positive?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sensitivity",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "Specificity",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Pre-test probability",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Negative predictive value",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Positive predictive value",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Positive predictive value is the probability that a person truly has the condition given that the test result is positive. Sensitivity and specificity describe test performance in people with and without disease, respectively, while pre-test probability is the estimated chance of disease before testing. Negative predictive value is the probability of not having the condition when the test is negative.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "MedlinePlus",
+          "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "title": "How to Understand Your Lab Results"
+        },
+        {
+          "type": "external",
+          "source": "MedlinePlus Genetics",
+          "url": "https://medlineplus.gov/genetics/understanding/testing/interpretingresults/",
+          "title": "What do the results of genetic tests mean?"
+        },
+        {
+          "type": "external",
+          "source": "Merck Manual Professional Edition",
+          "url": "https://www.merckmanuals.com/professional/multimedia/table/what-is-a-predictive-value",
+          "title": "What is a predictive value?"
+        }
+      ],
+      "tags": [
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/general-paediatrics",
+        "diagnostic-testing",
+        "epidemiology",
+        "predictive-values",
+        "sensitivity",
+        "specificity"
+      ],
+      "curriculum": "General Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T00:56:41.991Z",
+      "sourceFingerprint": "1ed07c6eba69c1d73548a373",
+      "rationale": "This is a straightforward epidemiology and diagnostic test interpretation question. The best answer is positive predictive value, which directly matches the phrase probability of having a condition when the test is positive.",
+      "optionExplanations": {
+        "A": "Sensitivity is the proportion of people with the condition who test positive",
+        "B": "Specificity is the proportion of people without the condition who test negative",
+        "C": "Pre-test probability is the estimated likelihood of disease before the test is performed",
+        "D": "Negative predictive value is the probability of not having the condition when the test is negative",
+        "E": "Positive predictive value is the probability of having the condition when the test is positive"
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Basic",
+      "ausScore": 1,
+      "source": {
+        "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
+        "importedAt": "2026-03-16T02:22:40.339Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "11",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "e374dff1e5520e5251be",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:07:44.749Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "selected_existing_option",
+          "confidence": 0.98,
+          "evidenceSources": [
+            {
+              "title": "How to Understand Your Lab Results",
+              "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+              "organization": "MedlinePlus",
+              "sourceType": "other_reputable",
+              "supports": "Defines positive test results as indicating the test found what it was looking for and explains that a positive result may mean the person may have the disease or condition"
+            },
+            {
+              "title": "What do the results of genetic tests mean?",
+              "url": "https://medlineplus.gov/genetics/understanding/testing/interpretingresults/",
+              "organization": "MedlinePlus Genetics",
+              "sourceType": "other_reputable",
+              "supports": "Explains that a positive test result can indicate diagnosis or increased likelihood of a condition, supporting the concept of probability after a positive test"
+            },
+            {
+              "title": "What is a predictive value?",
+              "url": "https://www.merckmanuals.com/professional/multimedia/table/what-is-a-predictive-value",
+              "organization": "Merck Manual Professional Edition",
+              "sourceType": "other_reputable",
+              "supports": "Defines positive predictive value as the probability that disease is present when the test result is positive"
+            }
+          ],
+          "notes": "Normalised wording slightly for clarity; original stem was grammatically incomplete but clinically unambiguous.",
+          "preRepair": {
+            "stem": "What refers to the probability of having a condition when test is positive",
+            "options": [
+              {
+                "key": "A",
+                "text": "Sensitivity",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "Specificity",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Pre-test proability",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "NPV",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "PPV",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "0aff5d67-098c-431c-b61d-0deff775dc19",
+      "stem": "A 6-month-old breastfed infant with atopic dermatitis develops a diffuse urticarial rash and vomiting within minutes of first exposure to cow’s milk formula. What is the most likely diagnosis?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cow’s milk protein allergy",
+          "isCorrect": true
+        },
+        {
+          "key": "B",
+          "text": "IgE-mediated food allergy",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Non-IgE-mediated food allergy",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Eosinophilic oesophagitis",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Lactose intolerance",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The most likely diagnosis is cow’s milk protein allergy presenting as an IgE-mediated food allergy. The key clues are the immediate onset after ingestion, urticarial rash, vomiting, and the background of eczema/atopy. ASCIA and the Royal Children’s Hospital note that rapid-onset cow’s milk allergy commonly causes skin symptoms such as hives plus gastrointestinal symptoms including vomiting, and that children with IgE-mediated food allergy often have other atopic disease such as eczema. Non-IgE-mediated cow’s milk allergy is typically delayed, often with gastrointestinal symptoms later rather than within minutes.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Australasian Society of Clinical Immunology and Allergy",
+          "url": "https://www.allergy.org.au/patients/food-allergy/cows-milk-dairy-allergy",
+          "title": "Cow's Milk (Dairy) Allergy"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+          "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy"
+        },
+        {
+          "type": "external",
+          "source": "Australasian Society of Clinical Immunology and Allergy",
+          "url": "https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy",
+          "title": "ASCIA Guide for Milk Substitutes in Cow’s Milk Allergy"
+        }
+      ],
+      "tags": [
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/general-paediatrics",
+        "cow-s-milk-protein-allergy",
+        "eczema",
+        "food-allergy",
+        "ige-mediated-allergy",
+        "infant",
+        "urticaria",
+        "vomiting"
+      ],
+      "curriculum": "General Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T02:10:08.057Z",
+      "sourceFingerprint": "11ea14f572cefb74728ecbcc",
+      "rationale": "Immediate rash plus vomiting after cow’s milk exposure in an infant with eczema is most consistent with IgE-mediated cow’s milk protein allergy.",
+      "optionExplanations": {
+        "A": "Correct. Cow’s milk protein allergy is the best diagnosis here; in this presentation it is most consistent with an IgE-mediated reaction to cow’s milk formula.",
+        "B": "Incorrect. This describes the mechanism rather than the diagnosis itself; the clinical diagnosis is cow’s milk protein allergy presenting as an IgE-mediated food allergy.",
+        "C": "Incorrect. Non-IgE-mediated cow’s milk allergy is typically delayed, often presenting hours later with eczema flare, vomiting, or diarrhoea rather than immediate urticaria and vomiting.",
+        "D": "Incorrect. Eosinophilic oesophagitis usually presents with feeding difficulty, dysphagia, food refusal, or vomiting over time, not an immediate allergic rash after first formula exposure.",
+        "E": "Incorrect. Lactose intolerance is not an immune-mediated allergy and does not cause urticaria or acute allergic rash; it typically causes gastrointestinal symptoms only."
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Basic",
+      "ausScore": 2,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
+        "importedAt": "2026-03-16T02:22:42.014Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "22",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "a19f5efa216ec3a50a23",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:07:52.737Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "normalized_existing_question",
+          "confidence": 0.93,
+          "evidenceSources": [
+            {
+              "title": "Cow's Milk (Dairy) Allergy",
+              "url": "https://www.allergy.org.au/patients/food-allergy/cows-milk-dairy-allergy",
+              "organization": "Australasian Society of Clinical Immunology and Allergy",
+              "sourceType": "australian_specialty",
+              "supports": "Immediate reactions to cow’s milk can occur within minutes to two hours and may cause hives and vomiting; delayed reactions are non-IgE mediated."
+            },
+            {
+              "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_health",
+              "supports": "IgE-mediated food allergy commonly presents with rash/urticaria and vomiting, and children often have other atopic disease such as eczema."
+            },
+            {
+              "title": "ASCIA Guide for Milk Substitutes in Cow’s Milk Allergy",
+              "url": "https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy",
+              "organization": "Australasian Society of Clinical Immunology and Allergy",
+              "sourceType": "australian_specialty",
+              "supports": "Provides classification of cow’s milk allergy and distinguishes non-IgE-mediated disease from IgE-mediated allergy."
+            }
+          ],
+          "notes": "Repaired as a complete SBA using the safest clinically relevant interpretation of the fragment. The original answer concept was preserved, but the stem was clarified to specify immediate symptoms after first cow’s milk formula exposure.",
+          "preRepair": {
+            "stem": "Baby, 6 months, breastfed, has eaten fruit and vegetables and pureed food before. Just had formula mixed with milk for the first time. Has a family history of atopy, has atopic dermatitis. Diffuse rash and vomiting…???",
+            "options": [
+              {
+                "key": "A",
+                "text": "Milk protein intolerance",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "IgE mediated response",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Non-IgE mediated allergy",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Eosinophilic oesophagitis",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "Non-eosinophilic oesophagitis",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "0b153494-ed3d-45ad-bcdb-e5f1fe9db438",
+      "stem": "A 12-year-old child presents with a loud paroxysmal cough. The coughing fits are sometimes followed by vomiting, and on two occasions the child has briefly stopped breathing and turned red then blue. There is no wheeze. The mother had a similar cough for about 1 month before the child’s illness. Which statement is most accurate about the child’s illness?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no immunisation that protects against this infection",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "The current pertussis immunisation schedule does not provide complete lifelong protection",
+          "isCorrect": true
+        },
+        {
+          "key": "C",
+          "text": "The child is unlikely to have pertussis because post-tussive vomiting is only seen with pneumonia",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Apnoea and cyanosis are not recognised features of pertussis in children",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "A negative throat swab result at this stage would exclude pertussis",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "This is pertussis (whooping cough). Classic features include paroxysmal cough, post-tussive vomiting, and in infants and children, apnoea or cyanosis may occur. Pertussis can occur in immunised children because neither vaccination nor natural infection provides complete lifelong protection, although immunisation reduces severity. The best answer is therefore that the immunisation schedule does not provide complete lifelong protection.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/",
+          "title": "Clinical Practice Guidelines: Whooping cough (pertussis)"
+        },
+        {
+          "type": "external",
+          "source": "Australian Immunisation Handbook",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough",
+          "title": "Pertussis (whooping cough)"
+        }
+      ],
+      "tags": [
+        "apnoea",
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/general-paediatrics",
+        "cough",
+        "cyanosis",
+        "immunisation",
+        "infectious-diseases",
+        "pertussis",
+        "post-tussive-vomiting",
+        "whooping-cough"
+      ],
+      "curriculum": "General Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T02:10:08.442Z",
+      "sourceFingerprint": "a525a4c7f5dc648cfe5fe4a0",
+      "rationale": "The stem describes a highly typical clinical picture of pertussis. Australian guidance notes paroxysmal coughing, post-tussive vomiting, and apnoea/cyanosis as recognised features, and states that neither vaccination nor natural disease confers complete or lifelong protective immunity. The repaired item therefore targets the immunisation concept implied by the original fragment while remaining clinically safe and answerable.",
+      "optionExplanations": {
+        "A": "Incorrect: pertussis is vaccine-preventable with acellular pertussis-containing vaccines.",
+        "B": "Correct: pertussis immunity wanes over time and vaccination does not provide complete lifelong protection.",
+        "C": "Incorrect: post-tussive vomiting is a classic feature of pertussis.",
+        "D": "Incorrect: apnoea and cyanosis are recognised features, especially in younger children and infants.",
+        "E": "Incorrect: pertussis testing may become negative later in illness; a negative swab does not exclude the diagnosis."
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx",
+        "importedAt": "2026-03-16T02:22:42.221Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "19",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "deaa6ffed3912905597e",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:08:01.569Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "rewritten_to_complete_sba",
+          "confidence": 0.93,
+          "evidenceSources": [
+            {
+              "title": "Clinical Practice Guidelines: Whooping cough (pertussis)",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Recognises paroxysmal cough, post-tussive vomiting, apnoea and cyanosis as features of pertussis, and states that neither vaccination nor natural disease confers complete or lifelong protective immunity."
+            },
+            {
+              "title": "Pertussis (whooping cough)",
+              "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough",
+              "organization": "Australian Immunisation Handbook",
+              "sourceType": "australian_guideline",
+              "supports": "Supports that pertussis vaccination reduces risk but does not provide complete lifelong protection; guidance on pertussis disease and vaccination."
+            }
+          ],
+          "notes": "Original stem was a fragment; repaired to a complete SBA using the safest interpretation. The best-answer concept is pertussis immunity is not lifelong, rather than the original binary phrasing.",
+          "preRepair": {
+            "stem": "2/12 old child sees you with a loud cough. Sometimes it gets so bad that they vomit (have done this once). At other times, (twice) they have stopped breathing or turned red, then blue. There is no wheeze. Mother has been sick with the same cough for 1 month prior. Regarding the child’s illness:",
+            "options": [
+              {
+                "key": "A",
+                "text": "There is no immunization for this",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "The immunization isn’t fully effective yet",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "0f16ede8-83e0-458f-911b-559131ea5aad",
+      "stem": "A child undergoing small bowel biopsy has total villous atrophy. What is the most likely diagnosis?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Crohn disease",
+          "isCorrect": false
+        },
+        {
+          "key": "B",
+          "text": "Ulcerative colitis",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Coeliac disease",
+          "isCorrect": true
+        },
+        {
+          "key": "D",
+          "text": "Lactose intolerance",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Food protein-induced allergy",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Total villous atrophy on small bowel biopsy is characteristic of coeliac disease. In children, coeliac disease is an immune-mediated disorder triggered by gluten that damages the small intestinal villi, leading to villous atrophy and malabsorption. The other options do not typically cause total villous atrophy on biopsy.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "healthdirect",
+          "url": "https://www.healthdirect.gov.au/coeliac-disease",
+          "title": "Coeliac disease"
+        },
+        {
+          "type": "external",
+          "source": "The Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/gastro/Coeliac%20Disease%20GESA%20patient%20information.pdf",
+          "title": "Coeliac Disease GESA patient information"
+        },
+        {
+          "type": "external",
+          "source": "The Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+          "title": "Coeliac disease abnormal coeliac serology"
+        }
+      ],
+      "tags": [
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+        "coeliac-disease",
+        "gastroenterology",
+        "malabsorption",
+        "villous-atrophy"
+      ],
+      "curriculum": "Paediatric Sub-specialties",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T00:56:42.188Z",
+      "sourceFingerprint": "623252bac518bb4f8ef94a8e",
+      "rationale": "The fragment is best repaired as a straightforward pathology-to-diagnosis SBA. Total villous atrophy is a classic histological feature of coeliac disease, which is the only option that fits the biopsy finding.",
+      "optionExplanations": {
+        "A": "Crohn disease can cause patchy transmural inflammation anywhere in the gastrointestinal tract, but total villous atrophy on small bowel biopsy is not the classic diagnosis.",
+        "B": "Ulcerative colitis affects the colon, not the small bowel villi, so it does not explain total villous atrophy.",
+        "C": "Correct. Coeliac disease causes immune-mediated small bowel injury with villous flattening/atrophy on biopsy.",
+        "D": "Lactose intolerance causes carbohydrate malabsorption symptoms but does not cause villous atrophy.",
+        "E": "Food protein-induced allergy may cause gastrointestinal symptoms in infants and children, but total villous atrophy is not the typical biopsy finding."
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Basic",
+      "ausScore": 1,
+      "source": {
+        "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
+        "importedAt": "2026-03-16T02:22:40.598Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "19",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "9acdb3b78920adeba8c4",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:08:11.112Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "normalized_existing_question",
+          "confidence": 0.98,
+          "evidenceSources": [
+            {
+              "title": "Coeliac disease",
+              "url": "https://www.healthdirect.gov.au/coeliac-disease",
+              "organization": "healthdirect",
+              "sourceType": "other_reputable",
+              "supports": "States that coeliac disease damages the small intestine and that villi become inflamed and flattened, known as villous atrophy"
+            },
+            {
+              "title": "Coeliac Disease GESA patient information",
+              "url": "https://www.rch.org.au/uploadedFiles/Main/Content/gastro/Coeliac%20Disease%20GESA%20patient%20information.pdf",
+              "organization": "The Royal Children's Hospital Melbourne",
+              "sourceType": "australian_health",
+              "supports": "Explains that coeliac disease is a common paediatric diagnosis and confirms diagnosis is made by intestinal biopsy; describes small bowel damage and malabsorption"
+            },
+            {
+              "title": "Coeliac disease abnormal coeliac serology",
+              "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+              "organization": "The Royal Children's Hospital Melbourne",
+              "sourceType": "australian_specialty",
+              "supports": "Provides Australian paediatric referral guidance for suspected coeliac disease, supporting the clinical relevance of the diagnosis in children"
+            }
+          ],
+          "notes": "Repaired from a minimal fragment by adding a complete stem while preserving the intended diagnosis concept. Option wording standardized to a clinically conventional form.",
+          "preRepair": {
+            "stem": "Biopsy showed total villous atrophy. What is the diagnosis?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Crohns",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "Ulcerative colitis",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Coeliac",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Milk intolerance",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "Food protein allergy",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [
+              "cah-exam-blueprint/cah-kat",
+              "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+            ],
+            "curriculum": "Paediatric Sub-specialties",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    },
+    {
+      "id": "0f2013a6-9b77-491e-8570-b7da23d5343c",
+      "stem": "A 6-year-old boy presents with a 3-month history of limp and intermittent hip pain. Examination shows reduced hip internal rotation and abduction, with mild wasting of the thigh. Pelvic X-ray shows a flattened, fragmented femoral head. What is the most likely diagnosis?",
+      "questionType": "SBA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perthes disease",
+          "isCorrect": true
+        },
+        {
+          "key": "B",
+          "text": "Transient synovitis",
+          "isCorrect": false
+        },
+        {
+          "key": "C",
+          "text": "Non-accidental injury fracture",
+          "isCorrect": false
+        },
+        {
+          "key": "D",
+          "text": "Accidental injury fracture",
+          "isCorrect": false
+        },
+        {
+          "key": "E",
+          "text": "Septic arthritis of the hip",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "This child’s age, chronic limp, reduced hip range of motion, thigh wasting, and a flattened/fragmented femoral head on X-ray are classic for Perthes disease. Perthes typically presents between 4 and 10 years of age and causes variable limp, hip irritability, and loss of hip motion, especially internal rotation and abduction. Transient synovitis is usually a more acute, self-limited limp in younger children and does not cause femoral head flattening. Fractures and septic arthritis would have a different history and radiographic or systemic features.",
+      "citations": [
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+          "title": "The limping or non-weight bearing child"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/ortho/for_health_professionals/Perthes_Disease/",
+          "title": "Perthes Disease"
+        },
+        {
+          "type": "external",
+          "source": "Royal Children's Hospital Melbourne",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+          "title": "Transient synovitis (irritable hip)"
+        }
+      ],
+      "tags": [
+        "cah-exam-blueprint/cah-kat",
+        "cah-exam-blueprint/cah-kat/general-paediatrics",
+        "hip-pain",
+        "limp",
+        "orthopaedics",
+        "perthes-disease",
+        "x-ray"
+      ],
+      "curriculum": "General Paediatrics",
+      "status": "published",
+      "createdBy": "import",
+      "createdAt": "2026-03-16T02:10:08.141Z",
+      "sourceFingerprint": "ff153f4bfd09d18ecd4c2ba1",
+      "rationale": "The safest interpretation of the fragment is a Perthes disease recognition question. The existing option set already contains Perthes disease as the best answer, so the item was normalized into a complete single-best-answer question around the radiographic and clinical hallmark of Perthes disease. In children with limp, Perthes should be considered in the 4 to 10 year age group, particularly when there is reduced hip internal rotation/abduction and femoral head deformity on plain X-ray.",
+      "optionExplanations": {
+        "A": "Correct. Perthes disease commonly presents in children aged 4 to 10 years with limp, hip pain, reduced hip motion, and X-ray changes in the femoral head",
+        "B": "Incorrect. Transient synovitis causes an acute irritable hip and usually resolves within about two weeks; it does not cause femoral head collapse or fragmentation",
+        "C": "Incorrect. There is no history or pattern here to suggest inflicted injury, and the X-ray description is of Perthes disease rather than fracture",
+        "D": "Incorrect. An accidental fracture would usually follow trauma and would not explain chronic limp with flattened femoral head",
+        "E": "Incorrect. Septic arthritis is typically an acute illness with marked pain, reduced range of motion, often fever, and is an orthopaedic emergency"
+      },
+      "moduleCode": "CAH 00",
+      "difficulty": "Intermediate",
+      "ausScore": 4,
+      "source": {
+        "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
+        "importedAt": "2026-03-16T02:22:42.047Z",
+        "moduleInference": {
+          "modules": [
+            "CAH 00"
+          ],
+          "primary": "CAH 00",
+          "scores": {}
+        },
+        "originalQNumber": "41",
+        "parseNotes": [
+          "html-fallback"
+        ],
+        "stemHash": "c617ca38d7b86a690b13",
+        "answerRecovery": {
+          "repairedAt": "2026-04-25T01:08:20.360Z",
+          "provider": "openai",
+          "model": "gpt-5.4-mini",
+          "method": "rewritten_to_complete_sba",
+          "confidence": 0.91,
+          "evidenceSources": [
+            {
+              "title": "The limping or non-weight bearing child",
+              "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_guideline",
+              "supports": "Perthes disease is a common cause of limp in children aged 5 to 10 years; assessment of limp, red flags, and differential diagnosis of hip pathology"
+            },
+            {
+              "title": "Perthes Disease",
+              "url": "https://www.rch.org.au/ortho/for_health_professionals/Perthes_Disease/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_specialty",
+              "supports": "Perthes typically presents between ages 4 and 10 years with variable limp, hip irritability, loss of hip motion, and X-ray findings of femoral head abnormality"
+            },
+            {
+              "title": "Transient synovitis (irritable hip)",
+              "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+              "organization": "Royal Children's Hospital Melbourne",
+              "sourceType": "australian_health",
+              "supports": "Transient synovitis is a common cause of limp in young children and is usually mild and self-limited, helping distinguish it from Perthes disease"
+            }
+          ],
+          "notes": "Original item was malformed with extra distractor text; repaired by selecting the existing best concept and rewriting into a standard SBA with one clear best answer.",
+          "preRepair": {
+            "stem": "Hip question:",
+            "options": [
+              {
+                "key": "A",
+                "text": "Perthes disease",
+                "isCorrect": null
+              },
+              {
+                "key": "B",
+                "text": "Transient synovitis",
+                "isCorrect": null
+              },
+              {
+                "key": "C",
+                "text": "Non-accidental injury fracture",
+                "isCorrect": null
+              },
+              {
+                "key": "D",
+                "text": "Accidental injury fracture",
+                "isCorrect": null
+              },
+              {
+                "key": "E",
+                "text": "6 year old, limping, muscle wasting, xray showed hip with flatted femoral head (semi-destroyed",
+                "isCorrect": null
+              },
+              {
+                "key": "F",
+                "text": "3 years old, fell in park, leg deformed with some bruises + bruising on shin. Mum took her to GP who said some to hospital, now at ED 4 hours after injury. Mum really upset because she took her eyes off her for a minute. Girl crying. Well grown, not vaccinated because mum is a conscientious objecter. Well nourished",
+                "isCorrect": null
+              }
+            ],
+            "explanation": null,
+            "citations": [],
+            "tags": [],
+            "curriculum": "Unclassified",
+            "rationale": null,
+            "optionExplanations": {}
+          }
+        }
+      }
+    }
+  ]
+}

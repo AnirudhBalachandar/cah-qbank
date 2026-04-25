@@ -1,0 +1,102 @@
+{
+  "id": "2e423325-b5bc-4389-af80-42b5a133f301",
+  "stem": "A 16-year-old with ADHD describes impulsive sexual decisions that they later regret; what is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "ADHD is unlikely to be relevant because risky sexual behaviour is determined by relationship status alone",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "ADHD can exacerbate risky sexual behaviour because conditions that increase impulsivity may worsen this vulnerability",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "ADHD protects against risky sexual behaviour because it usually delays sexual activity",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "ADHD matters only if the adolescent is younger than 14 years old",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "ADHD is relevant only when there is already a confirmed STI",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "ADHD can exacerbate risky sexual behaviour. Conditions that increase impulsivity may worsen this vulnerability, so ADHD is clinically relevant in this scenario.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 128,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T06:21:24.026Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B03-578b7d4ebc28eb4ef084",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because risky sexual behaviour is not determined by relationship status alone, and ADHD can still be relevant.",
+    "B": "Correct because conditions that increase impulsivity may worsen vulnerability to risky sexual behaviour in adolescents with ADHD.",
+    "C": "Incorrect because ADHD is not protective against risky sexual behaviour in this context.",
+    "D": "Incorrect because the relevance of ADHD is not limited to adolescents younger than 14 years old.",
+    "E": "Incorrect because ADHD can be relevant as a vulnerability factor even without a confirmed STI."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu855bn0001rjcmmj39r0jq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3208955223880597,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f0c6269a-3148-4fda-b383-7358030bde35",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-10.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "ADHD",
+      "risky sexual behaviour",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:18.286Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

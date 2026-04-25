@@ -1,0 +1,98 @@
+{
+  "id": "568a8902-86d7-49f7-b7fd-f7d806223f7e",
+  "stem": "What best describes the proportion of children with slipped capital femoral epiphysis who are pathologically obese?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The vast majority",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Less than 25%",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Exactly 10%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Only those with endocrinopathies",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A small minority",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The vast majority is correct because most children with slipped capital femoral epiphysis are pathologically obese, with more than half above the 97th percentile for weight.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+      "title": "00092 child-with-limp-SCFE-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.507Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f2372045c1852f3f4d32",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because most children with slipped capital femoral epiphysis are pathologically obese, with more than half above the 97th percentile for weight.",
+    "B": "Incorrect because the proportion is much higher than 25% and obesity is strongly associated with this condition.",
+    "C": "Incorrect because 10% is far too low for the prevalence of pathological obesity in children with this condition.",
+    "D": "Incorrect because endocrinopathies can contribute, but they do not account for all or most cases of obesity in slipped capital femoral epiphysis.",
+    "E": "Incorrect because obesity is common rather than rare in children with slipped capital femoral epiphysis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "b82d8408-3cfe-4fe3-bc1f-7a00873cba7d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Reflect on how prevalent childhood weight issues are mentioned in relation to this diagnosis.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "92",
+    "lectureTitle": "00092 child-with-limp-SCFE-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "897de4f5-e49e-481a-a06b-638a9a8fc2e4",
+    "overlapScore": 0.4197530864197531,
+    "questionIndex": 3,
+    "quizFileName": "quiz_092.json",
+    "quizTitle": "SCFE Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "7440e9f2-02c0-4e63-85ff-b7b9781dbf72",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:37.741Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

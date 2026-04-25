@@ -1,0 +1,98 @@
+{
+  "id": "92fb7d4e-8010-4089-8493-e59b985e463d",
+  "stem": "In a breastfed infant with symptoms of relative lactose malabsorption, what is the recommended dietary management?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Continue breastfeeding while ensuring the baby receives hind milk",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Switch immediately to a lactose-free formula",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Introduce soy milk or rice milk as a supplement",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Wait until 2 years of age for symptoms to resolve",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Stop breastfeeding and use standard cow's milk formula",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Continue breastfeeding while ensuring the baby receives hind milk. This supports ongoing breastfeeding while increasing the fat-rich milk intake that can slow gastric emptying and help the infant tolerate lactose better.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+      "title": "00007 common-problems-lact-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.686Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b48ddb0cea305229d791",
+  "rationale": "The key management is to adjust breastfeeding technique rather than stop breast milk feeds.",
+  "optionExplanations": {
+    "A": "Correct because continuing breastfeeding and ensuring access to hind milk improves fat intake and helps symptoms of relative lactose malabsorption.",
+    "B": "Incorrect because immediate conversion to lactose-free formula is usually unnecessary when breastfeeding can continue with feeding adjustments.",
+    "C": "Incorrect because soy milk or rice milk are not appropriate supplements for a young breastfed infant in this situation.",
+    "D": "Incorrect because management should address feeding technique now rather than waiting for spontaneous resolution.",
+    "E": "Incorrect because standard cow's milk formula is not the preferred approach for a symptomatic breastfed infant with relative lactose malabsorption."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "f910c806-cfb6-4d4d-a737-db265aa55e44",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The solution involves altering the feeding process rather than changing the source of nutrition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "7",
+    "lectureTitle": "00007 common-problems-lact-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "721505d3-0511-49f2-acb6-df8e55630ede",
+    "overlapScore": 0.4094488188976378,
+    "questionIndex": 6,
+    "quizFileName": "quiz_007.json",
+    "quizTitle": "Lactase Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "576978c9-b08b-44be-b117-27cb57f93154",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:32.783Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

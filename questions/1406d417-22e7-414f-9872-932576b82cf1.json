@@ -1,0 +1,108 @@
+{
+  "id": "1406d417-22e7-414f-9872-932576b82cf1",
+  "stem": "Which lesion site pattern is most consistent with Ewing sarcoma rather than osteosarcoma in an adolescent?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lesion centred at the diaphysis of a long bone or in the pelvis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Lesion at the distal femoral growth end",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Lesion at the proximal tibial growth end",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Lesion at the proximal humeral growth end",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Lesion centred in the rib shaft",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ewing sarcoma is typically centred in the diaphysis of long bones or the pelvis, whereas osteosarcoma usually arises at the growing ends of long bones.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 123,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    },
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 63,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:04:31.439Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B65-attempt-04-77647071db7745054b84",
+  "rationale": "Ewing sarcoma favours diaphyseal and axial locations, while osteosarcoma favours the metaphyseal growing ends of long bones.",
+  "optionExplanations": {
+    "A": "Correct because Ewing sarcoma commonly arises in the diaphysis of long bones or the pelvis.",
+    "B": "Incorrect because the distal femur is a classic osteosarcoma site at the growing end of a long bone.",
+    "C": "Incorrect because the proximal tibia is a common osteosarcoma location near the growth plate.",
+    "D": "Incorrect because the proximal humerus is another typical osteosarcoma site at the metaphysis.",
+    "E": "Incorrect because rib involvement can occur with Ewing sarcoma, but the more specific classic pattern is a diaphyseal long-bone or pelvic lesion."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B65-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4kb610001rjqiiycxthx6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3488372093023256,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "75609efb-4236-48c4-8e3d-e682e0d08c31",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B65/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Childhood cancer recognition",
+      "sarcomas"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:20.863Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

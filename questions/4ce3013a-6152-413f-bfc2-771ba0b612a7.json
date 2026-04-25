@@ -1,0 +1,98 @@
+{
+  "id": "4ce3013a-6152-413f-bfc2-771ba0b612a7",
+  "stem": "What is the recommended first aid for a burn?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Applying 15°C running water for 20 minutes",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immersing the burn in a swimming pool for at least 60 minutes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Applying hydrogel pads for the first 3 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Applying ice packs until the pain subsides",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Covering the burn with a dry dressing only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Applying 15°C running water for 20 minutes is the recommended first aid for a burn because continuous cool running water helps limit burn depth and tissue injury.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.207Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-5575e3f69a3b051a6943",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because 15°C running water for 20 minutes is the recommended first aid and helps reduce burn depth by cooling the tissue continuously.",
+    "B": "Incorrect because immersion is not the preferred first aid method when running water is available, and the duration given is too long.",
+    "C": "Incorrect because hydrogel pads may soothe pain but do not replace appropriate cooling with running water.",
+    "D": "Incorrect because ice packs can cause further tissue damage and are not recommended for burn first aid.",
+    "E": "Incorrect because a dry dressing alone does not provide the cooling needed for immediate burn first aid."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Focus on the specific temperature and the benefit of continuous flow over static cooling.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "1bf1e229-733a-4839-a923-60382a45ea43",
+    "overlapScore": 0.3854166666666667,
+    "questionIndex": 2,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:22.479Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

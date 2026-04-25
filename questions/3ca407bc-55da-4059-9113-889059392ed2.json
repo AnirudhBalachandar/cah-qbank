@@ -1,0 +1,98 @@
+{
+  "id": "3ca407bc-55da-4059-9113-889059392ed2",
+  "stem": "Which condition is associated with a red halo around the parotid duct opening as a prodromal sign?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Primary oral herpes",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Mumps",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Squamous cell carcinoma",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Mucus retention cysts",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Sjögren syndrome",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Mumps is the condition associated with a red halo around the parotid duct opening as a prodromal sign.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+      "title": "00082 Oral anatomy video-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:41.837Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0fa88d4b6d0ef467dad1",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because primary oral herpes typically causes painful vesicles and gingivitis rather than a red halo around the parotid duct opening.",
+    "B": "Correct because a red halo around the parotid duct opening can be seen as an early prodromal sign of mumps.",
+    "C": "Incorrect because squamous cell carcinoma usually presents as a persistent ulcer, mass, or red and white patch rather than this prodromal finding.",
+    "D": "Incorrect because mucus retention cysts are usually painless swellings related to minor salivary gland obstruction, not a parotid duct halo.",
+    "E": "Incorrect because Sjögren syndrome commonly causes dry mouth and dry eyes from salivary gland dysfunction, not a red halo around the parotid duct opening."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ed848277-39ed-4fd1-a79d-d2e4791cf6e4",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This is a viral infection that affects the salivary glands.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "82",
+    "lectureTitle": "00082 Oral anatomy video-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "339ef308-96b9-4bc3-a044-558206b4e2f5",
+    "overlapScore": 0.4019607843137255,
+    "questionIndex": 6,
+    "quizFileName": "quiz_082.json",
+    "quizTitle": "Dental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e862b7d4-09f6-4061-95ee-6fd57899a43e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:41.072Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

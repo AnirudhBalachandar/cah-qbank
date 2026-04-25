@@ -1,0 +1,102 @@
+{
+  "id": "3a35c2a7-44f3-42ad-b642-f368045545b5",
+  "stem": "A child is found to have a button battery lodged in the nose; what is the most appropriate next step?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Urgent removal",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Routine outpatient review",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Observation at home",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Saline alone and reassess later",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Wait for spontaneous passage",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Urgent removal is required because a button battery in the nose can rapidly cause local tissue injury, including septal damage.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 8,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:17:56.078Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B23-attempt-01-0ca351799c291f776529",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a nasal button battery is an emergency and should be removed urgently to prevent tissue necrosis and septal perforation.",
+    "B": "Incorrect because routine review delays treatment and allows ongoing tissue injury.",
+    "C": "Incorrect because home observation is unsafe for a button battery in the nose.",
+    "D": "Incorrect because saline does not address the battery and is not definitive management.",
+    "E": "Incorrect because spontaneous passage should not be awaited when a button battery is lodged in the nose."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B23-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwlr3zo0001rjs4rrtz3ugs",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3153153153153153,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e8cd3003-b4e0-4116-adb7-b86c8fc0a064",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B23/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Nose and throat",
+      "nasal foreign body",
+      "Management and follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:35.205Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

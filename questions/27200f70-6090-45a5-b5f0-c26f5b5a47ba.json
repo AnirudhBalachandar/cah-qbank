@@ -1,0 +1,101 @@
+{
+  "id": "27200f70-6090-45a5-b5f0-c26f5b5a47ba",
+  "stem": "At a routine review, which advice should be included as a general principle for ketosis prevention on future sick days?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Maintain hydration",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Avoid all fluids once ketones appear",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Wait until the next morning to respond to rising readings",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Use exercise to clear ketones",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ignore symptoms if the child still looks well",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Maintain hydration is a key principle of ketosis prevention during sick days. It helps reduce dehydration and supports ongoing sick-day management alongside monitoring and insulin continuity.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 100,
+      "title": "Diabetes Sick Day Management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:32:49.291Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-02-a555e8d39fe0420e3c8e",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because maintaining hydration is a core sick-day measure that helps prevent ketosis and dehydration.",
+    "B": "Incorrect because fluids should not be withheld when ketones are present; hydration is part of prevention and management.",
+    "C": "Incorrect because sick-day responses should be prompt rather than delayed until the next morning.",
+    "D": "Incorrect because exercise is not a reliable strategy for clearing ketones in sick-day management.",
+    "E": "Incorrect because symptoms and ketone risk should be actively monitored even if the child appears settled."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B53-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqkkjo0001rj1adscat45p",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.316546762589928,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c8ca6248-b2c4-485b-ab9a-d1d91f77966f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "follow-up"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:02.135Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

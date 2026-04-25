@@ -1,0 +1,103 @@
+{
+  "id": "4bc07644-1cdd-40ce-a07a-837feca3c641",
+  "stem": "Which option best describes a food ladder for selected young children with egg or milk allergy?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A food ladder used pragmatically for gradual reintroduction of egg or milk",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Immediate free intake of all previously avoided foods at home",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A 2-week elimination trial to diagnose all IgE-mediated allergy",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Routine epicutaneous patch treatment for every child with milk allergy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Upper gastrointestinal endoscopy before any dietary change",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A food ladder is used pragmatically for gradual reintroduction of egg or milk. This approach allows selected children to progress stepwise through tolerated forms of the food rather than reintroducing it all at once.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 51,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:00:39.091Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B33-attempt-04-248466273fb4c6d83bcd",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a food ladder is a pragmatic, stepwise method for gradual reintroduction of egg or milk in selected children.",
+    "B": "Incorrect because the approach is gradual and structured, not immediate unrestricted intake of previously avoided foods.",
+    "C": "Incorrect because a short elimination trial is not the defining feature of a food ladder for gradual reintroduction.",
+    "D": "Incorrect because epicutaneous patch treatment is not the standard description of a food ladder strategy.",
+    "E": "Incorrect because upper gastrointestinal endoscopy is not required before using a food ladder."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B33-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwna1or0001rjbqhwev613b",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3414634146341464,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f4a9a7db-a37d-4d1f-94c9-2e74bba97f9f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B33/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Food allergy and IgE-mediated allergy",
+      "allergy action planning",
+      "food ladders",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:19.268Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

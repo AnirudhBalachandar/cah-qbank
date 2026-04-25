@@ -1,0 +1,98 @@
+{
+  "id": "e32742f9-09d2-401f-8725-b7ad4df7325f",
+  "stem": "What does the source conclude about pan scans in paediatric trauma?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They are mandatory for all major trauma activations",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Their role is unknown and they carry high radiation risks",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They reduce mortality by 3% in children",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are preferred because they are faster than a physical examination",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They should replace clinical assessment in unstable children",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pan scans have an unproven role in improving paediatric trauma outcomes and they expose children to substantial radiation risk, including concern for later malignancy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "65b63802-eaef-42d6-b8e8-a4270119617d",
+      "title": "00086 Principles of paedia-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.514Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2b7ab3319577b48541ac",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because they are not recommended as mandatory for all major trauma activations.",
+    "B": "Correct because the role of pan scans in improving paediatric outcomes is unproven, and children face substantial radiation risk with concern for later malignancy.",
+    "C": "Incorrect because this benefit is not established in children.",
+    "D": "Incorrect because speed alone does not justify routine pan scanning over clinical assessment and targeted imaging.",
+    "E": "Incorrect because imaging should not replace clinical assessment, especially in unstable children."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "65b63802-eaef-42d6-b8e8-a4270119617d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the long-term biological concerns unique to growing children.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "86",
+    "lectureTitle": "00086 Principles of paedia-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8c7fb3df-dd5e-41a2-920a-54fc3228d625",
+    "overlapScore": 0.3932584269662922,
+    "questionIndex": 8,
+    "quizFileName": "quiz_086.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b9597e6d-2272-478c-89e6-e91fd77f253b",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:22.583Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

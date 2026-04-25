@@ -1,0 +1,102 @@
+{
+  "id": "3be0ccc7-40ab-4880-8d0e-e35697d17da1",
+  "stem": "A former preterm infant is attending a neonatal follow-up clinic at 10 months corrected age, and the team wants a developmental assessment tool with separate expressive and receptive language scales; which tool is the best fit?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Griffiths III",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Bayley Scale of Infant and Toddler Development",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Autism Diagnostic Observation Schedule (ADOS)",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Wechsler Preschool and Primary Scales of Intelligence",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Mary Sheridan 'From Birth to 5 Years'",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Bayley Scale of Infant and Toddler Development is the best fit for this infant. It is used from early infancy through toddlerhood, is commonly used in neonatal follow-up clinics, and includes separate expressive and receptive language scales.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 16,
+      "title": "Formalised Developmental Assessment"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T09:26:54.666Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B16-attempt-02-f48170da5a5676f968d9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Griffiths III is a broader developmental assessment tool, but the age range and the separate expressive and receptive language scales point more specifically to Bayley.",
+    "B": "Correct because it is appropriate for infants and toddlers, is commonly used in neonatal follow-up clinics, and includes separate expressive and receptive language assessment.",
+    "C": "Incorrect because ADOS is an autism diagnostic observation tool, not the main developmental assessment used for this neonatal follow-up scenario.",
+    "D": "Incorrect because the Wechsler Preschool and Primary Scales of Intelligence is intended for older children, not a 10-month corrected age infant.",
+    "E": "Incorrect because Mary Sheridan 'From Birth to 5 Years' is a developmental surveillance reference rather than the formal developmental assessment tool described."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B16-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvu7ki80001rj1pmjzd8ns2",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3257918552036199,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c3630b73-aca3-48cc-9dda-302792b81142",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B16/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Normal development and formal developmental assessment",
+      "structured developmental assessment",
+      "Bayley"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:39.277Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

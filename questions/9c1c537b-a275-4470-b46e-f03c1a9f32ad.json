@@ -1,0 +1,102 @@
+{
+  "id": "9c1c537b-a275-4470-b46e-f03c1a9f32ad",
+  "stem": "A 15-year-old says he hardly ever drinks but sometimes accepts rides home from older friends after parties. Which additional question from a validated adolescent substance-use screen most directly addresses this immediate safety issue?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Have you ever ridden in a car driven by someone under the influence of drugs or alcohol?",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Have you ever used drugs or alcohol to relax or fit in?",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Have you ever used drugs or alcohol while alone?",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Have you ever forgotten anything while using drugs or alcohol?",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Have your friends or family told you to cut down?",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "CRAFFT car question. This is because it directly screens for the immediate safety risk of riding with an intoxicated driver, which is the issue raised in the stem.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 129,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T09:41:42.505Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-1e1dffb3061325858428",
+  "rationale": "/Adolescent substance-use screening should identify immediate harms and risky behaviours, not only the young person's own level of use. The 'Car' item in CRAFFT is the best match for the transport safety concern described./",
+  "optionExplanations": {
+    "A": "Correct because it directly screens for the immediate safety risk of riding with an intoxicated driver.",
+    "B": "Incorrect because it assesses use for social reasons, but does not directly address the ride-home safety risk.",
+    "C": "Incorrect because it asks about solitary use, which is not the main safety issue in the stem.",
+    "D": "Incorrect because it asks about memory loss, which is less directly related to the transport risk described.",
+    "E": "Incorrect because it asks about concern from others, which does not specifically screen the immediate danger of travelling with an impaired driver."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmufaqvg0001rjggd8l4gv6x",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3349514563106796,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "4de8a552-f327-406e-915f-3cb3f3cbef3c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-14.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "CRAFFT",
+      "screening",
+      "safety"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:49.400Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

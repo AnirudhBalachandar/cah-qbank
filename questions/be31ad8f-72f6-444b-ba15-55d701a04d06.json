@@ -1,0 +1,101 @@
+{
+  "id": "be31ad8f-72f6-444b-ba15-55d701a04d06",
+  "stem": "In a febrile 8-week-old infant, what guides the threshold for sepsis workup in the 4-12 week age group?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Clinical appearance and history",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Fever alone without bedside assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Whether the fever started overnight",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Whether the family requests antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Whether there is a weekend review available",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Clinical appearance and history guide the threshold for sepsis workup in febrile infants aged 4-12 weeks.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 140,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:12:44.744Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B70-attempt-04-7575a699a2244f8a6b85",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the threshold for sepsis workup in 4-12 week infants is guided by clinical appearance and history.",
+    "B": "Incorrect because fever alone is not the stated determinant of the workup threshold in this age group.",
+    "C": "Incorrect because the time the fever started is not the criterion used to set the threshold.",
+    "D": "Incorrect because family preference does not determine whether a sepsis workup is indicated.",
+    "E": "Incorrect because weekend review availability is not part of the clinical threshold for workup."
+  },
+  "moduleCode": null,
+  "difficulty": "Hard",
+  "ausScore": null,
+  "source": {
+    "batchId": "B70-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx4uvaz0001rju5snuwbmk9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3125,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a9176bc2-9080-442d-bfa9-653382d1099d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B70/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "The febrile infant",
+      "Investigation thresholds by age"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:58.344Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

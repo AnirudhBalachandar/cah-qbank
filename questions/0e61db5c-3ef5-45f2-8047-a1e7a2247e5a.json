@@ -1,0 +1,98 @@
+{
+  "id": "0e61db5c-3ef5-45f2-8047-a1e7a2247e5a",
+  "stem": "In systemic juvenile idiopathic arthritis, what is the typical appearance and distribution of the evanescent rash?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Salmon-coloured on the trunk and proximal limbs",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Bright red on the cheeks and face",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Purple on the lower legs and feet",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pale white on the chest and back",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Vesicular on the hands and feet",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The evanescent rash of systemic juvenile idiopathic arthritis is salmon-coloured and usually appears on the trunk and proximal limbs.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.725Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8f2a8a10bf68e4a320c7",
+  "rationale": "This rash is classically transient and associated with fever spikes, with a salmon-pink hue on the trunk and proximal limbs rather than the face or distal extremities.",
+  "optionExplanations": {
+    "A": "Correct because the evanescent rash in systemic juvenile idiopathic arthritis is typically salmon-coloured and affects the trunk and proximal limbs.",
+    "B": "Incorrect because a bright red facial rash is more typical of conditions such as erythema infectiosum rather than systemic juvenile idiopathic arthritis.",
+    "C": "Incorrect because a purple rash on the lower legs and feet suggests purpura or vasculitis rather than the typical systemic juvenile idiopathic arthritis rash.",
+    "D": "Incorrect because the rash of systemic juvenile idiopathic arthritis is not pale white; it is usually salmon-pink or salmon-coloured.",
+    "E": "Incorrect because vesicular lesions on the hands and feet are more consistent with viral exanthems such as hand, foot and mouth disease."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The color is similar to a specific type of fish, and the rash avoids the face and peripheries.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "7bab3ebc-4bb1-42ab-a738-ce7112798e59",
+    "overlapScore": 0.4190476190476191,
+    "questionIndex": 5,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:12.057Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

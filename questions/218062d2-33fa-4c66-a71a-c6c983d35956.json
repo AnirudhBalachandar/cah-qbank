@@ -1,0 +1,98 @@
+{
+  "id": "218062d2-33fa-4c66-a71a-c6c983d35956",
+  "stem": "In a neonate with suspected necrotising enterocolitis, which abdominal radiographic finding is a classic sign of disease progression?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Double bubble sign",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Pneumatosis intestinalis",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Complete absence of bowel gas",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "String sign",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Bowel malrotation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pneumatosis intestinalis is the classic radiographic sign of necrotising enterocolitis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.338Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-2355ae5fa932098099da",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because the double bubble sign suggests duodenal obstruction such as duodenal atresia.",
+    "B": "Correct because pneumatosis intestinalis, gas within the bowel wall, is a hallmark radiographic feature of necrotising enterocolitis.",
+    "C": "Incorrect because necrotising enterocolitis more often shows dilated bowel loops and intramural gas rather than a completely gasless abdomen.",
+    "D": "Incorrect because the string sign is associated with conditions such as pyloric stenosis or Crohn disease, not necrotising enterocolitis.",
+    "E": "Incorrect because bowel malrotation is an anatomical abnormality, not the classic radiographic sign of necrotising enterocolitis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for the term that describes the presence of gas within the actual wall of the intestine.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "40e9d48f-339c-489d-b232-12699233b73f",
+    "overlapScore": 0.4234234234234234,
+    "questionIndex": 11,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:51.549Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

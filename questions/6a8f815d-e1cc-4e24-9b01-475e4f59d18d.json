@@ -1,0 +1,102 @@
+{
+  "id": "6a8f815d-e1cc-4e24-9b01-475e4f59d18d",
+  "stem": "A school-based clinician reviews a survey showing students can answer most HIV questions correctly but struggle with common STIs; what is the best educational follow-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reduce sexual health education",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Shift to relationship skills only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Prioritise more STI-focused education",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Wait until students present with symptoms",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Focus only on age-of-consent law",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Prioritise more STI-focused education. HIV knowledge is already high, but STI knowledge is poor, so the next teaching step should target the identified gap.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 12,
+      "title": "CAH Bible (shared 2025).pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T06:21:24.081Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B03-d428d0669442134f2c82",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Incorrect because the survey identifies a specific STI knowledge gap, so reducing education would not address the problem.",
+    "B": "Incorrect because relationship skills may be useful, but the main deficit described is in STI knowledge.",
+    "C": "Correct because HIV knowledge is high but STI knowledge is poor, so follow-up education should focus on STIs.",
+    "D": "Incorrect because the finding supports proactive education, not delaying until students become symptomatic.",
+    "E": "Incorrect because the key gap is infection knowledge, not only legal information."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmu855bn0001rjcmmj39r0jq",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fadb2ca0-8590-46da-bd81-cdc4ada1c9fb",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-10.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "sexual health education",
+      "STIs",
+      "follow-up"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:13.653Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

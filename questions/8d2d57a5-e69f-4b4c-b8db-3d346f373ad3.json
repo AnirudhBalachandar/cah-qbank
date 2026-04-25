@@ -1,0 +1,103 @@
+{
+  "id": "8d2d57a5-e69f-4b4c-b8db-3d346f373ad3",
+  "stem": "Which historical factor is associated with cryptorchidism alongside family history?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use of assisted reproductive technologies",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Day-care attendance",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Air pollution exposure",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Recent viral upper respiratory infection",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Adenoid hypertrophy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Use of assisted reproductive technologies is a recognised risk factor for cryptorchidism. Family history is also associated, and the other options are not part of the listed risk factors.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 177,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:21:29.165Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B84-attempt-02-a483a8ee2b34ab818dbc",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because use of assisted reproductive technologies is explicitly associated with cryptorchidism.",
+    "B": "Incorrect because day-care attendance is not a recognised cryptorchidism risk factor.",
+    "C": "Incorrect because air pollution exposure is not listed as a cryptorchidism risk factor here.",
+    "D": "Incorrect because a recent viral upper respiratory infection is not associated with cryptorchidism in this context.",
+    "E": "Incorrect because adenoid hypertrophy is unrelated to the cryptorchidism risk factors described."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B84-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwsb5s90001rj0ycuevmtto",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3388429752066116,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d7ab0757-e11b-43b9-8afb-8bace587c985",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B84/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Penile disorders",
+      "cryptorchidism",
+      "risk factors",
+      "history"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:21.450Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

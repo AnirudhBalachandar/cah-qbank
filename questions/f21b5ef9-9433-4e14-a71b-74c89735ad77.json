@@ -1,0 +1,103 @@
+{
+  "id": "f21b5ef9-9433-4e14-a71b-74c89735ad77",
+  "stem": "Why is school information often requested at ADHD reviews when home behaviour seems straightforward?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "School reports are only needed when a child has suspected hearing loss",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "ADHD assessment can be subjective, so reports from family and school both matter",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Teacher input is mainly used to decide who can prescribe medication",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "School information is only relevant before age 4 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Parent history is less useful than school testing and should usually be replaced",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "ADHD assessment can be subjective, so reports from family and school both matter. Symptoms may be seen differently across settings, and combining information from home and school helps build a more complete assessment.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 84,
+      "title": "Page 84"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T08:44:38.234Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B14-attempt-04-71161394f4cf3052bf7c",
+  "rationale": "Family and school perspectives are both important because ADHD symptoms are context-dependent and assessment can be subjective.",
+  "optionExplanations": {
+    "A": "Incorrect because school reports are sought as part of ADHD assessment across settings, not only when hearing loss is suspected.",
+    "B": "Correct because ADHD assessment can be subjective, and information from both family and school helps capture symptoms across different settings.",
+    "C": "Incorrect because teacher input contributes to assessment and does not determine prescribing authority.",
+    "D": "Incorrect because school information remains relevant beyond early childhood whenever ADHD symptoms are being assessed.",
+    "E": "Incorrect because parent history remains important and is not replaced by school testing."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B14-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvsp7eh0001rjekpksqgued",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3390804597701149,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "fb8ef949-fa4c-4364-b5bf-1c48812a9a1d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B14/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD treatment and longitudinal care",
+      "classroom supports",
+      "family-school collaboration",
+      "review"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:51.767Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

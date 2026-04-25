@@ -1,0 +1,98 @@
+{
+  "id": "9e3280c2-f1ae-41bd-aff8-3d1e386b4188",
+  "stem": "A urine culture from a child grows Pseudomonas; what is the clinical significance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "It is a common gram-positive contaminant",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "It suggests a normal renal tract and routine antibiotics only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "It strongly suggests an underlying anomaly in the renal tract",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "It indicates the infection is limited to cystitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It is typical of uncomplicated community-acquired UTI",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Underlying anomaly in the renal tract: Pseudomonas in a child’s urine culture is unusual and should prompt concern for structural or functional urinary tract abnormality.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+      "title": "00042 renal-UTI-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:34.677Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-da2e45abcb916b2fb511",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Pseudomonas is a gram-negative organism, not a common gram-positive contaminant.",
+    "B": "Incorrect because Pseudomonas is not typically found in children with a normal renal tract.",
+    "C": "Correct because Pseudomonas rarely infects a healthy urinary system and its presence strongly suggests an underlying structural or functional anomaly.",
+    "D": "Incorrect because the key significance is the association with an abnormal urinary tract, not simply the level of infection.",
+    "E": "Incorrect because Pseudomonas is not typical of an uncomplicated community-acquired UTI in a child."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0918abf8-6d48-4fc6-87fa-fc4fd8807e4b",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about whether this specific bug is typically found in anatomically healthy urinary systems.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "42",
+    "lectureTitle": "00042 renal-UTI-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "94aa666c-224a-4ce0-9df9-de59c0b5a018",
+    "overlapScore": 0.4453781512605042,
+    "questionIndex": 2,
+    "quizFileName": "quiz_042.json",
+    "quizTitle": "UTI Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "fea85cfc-f984-4699-a974-d3abdb25ae50",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:51.638Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

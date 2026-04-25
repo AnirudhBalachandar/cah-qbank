@@ -1,0 +1,98 @@
+{
+  "id": "c729ce16-2985-4fa1-ba4b-997297fcdef2",
+  "stem": "In an infant younger than 2 months, what condition should be suspected with forceful, projectile non-bilious vomiting?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Malrotation",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Pyloric stenosis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Eosinophilic oesophagitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Pyloric stenosis is the likely diagnosis here. It is caused by hypertrophy of the pylorus and classically presents in early infancy with forceful, projectile non-bilious vomiting.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+      "title": "00009 Common_Problems_Refl-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.893Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-990fdf9fd47173a6fe63",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because malrotation more often causes bilious vomiting due to intestinal obstruction.",
+    "B": "Incorrect because gastroenteritis usually causes diarrhoea and vomiting, rather than persistent projectile vomiting in a young infant.",
+    "C": "Correct because hypertrophy of the pylorus causes gastric outlet obstruction with forceful, projectile non-bilious vomiting in early infancy.",
+    "D": "Incorrect because eosinophilic oesophagitis more commonly causes feeding difficulty, food refusal, or dysphagia rather than acute projectile vomiting in a young infant.",
+    "E": "Incorrect because gastro-oesophageal reflux commonly causes posseting or small-volume regurgitation, not forceful projectile vomiting."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4c1deaef-817b-4df2-8150-f41ffa7b5910",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about a structural blockage at the exit of the stomach that develops in early infancy.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "9",
+    "lectureTitle": "00009 Common_Problems_Refl-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "35e1abb4-05ff-4a71-b789-24c325396c46",
+    "overlapScore": 0.3543307086614173,
+    "questionIndex": 3,
+    "quizFileName": "quiz_009.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "697e57bc-023f-44bd-86ac-677e97816216",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:22.478Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

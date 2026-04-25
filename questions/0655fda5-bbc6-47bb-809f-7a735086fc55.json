@@ -1,0 +1,98 @@
+{
+  "id": "0655fda5-bbc6-47bb-809f-7a735086fc55",
+  "stem": "What is the primary indicator used to monitor and adjust the rate of fluid resuscitation in a child with burns?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Urine output aiming for 0.5 to 1 mL/kg/hr",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Reported pain level",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Burn wound blanching",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Blood pressure of 120/80 mmHg",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Capillary refill time alone",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Urine output aiming for 0.5 to 1 mL/kg/hr is the key bedside indicator used to titrate burn fluid resuscitation and assess organ perfusion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+      "title": "00100 burns_evaluation_JH2-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.368Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d93d1d53f45c4c07f9a2",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Correct because urine output is the most reliable clinical guide to ensure adequate organ perfusion and guide fluid titration.",
+    "B": "Incorrect because pain level does not objectively reflect circulating volume or renal perfusion.",
+    "C": "Incorrect because burn wound blanching helps assess wound characteristics, not systemic fluid resuscitation.",
+    "D": "Incorrect because a normal blood pressure can occur despite inadequate early resuscitation, so it is less sensitive than urine output.",
+    "E": "Incorrect because capillary refill time can be helpful but is less reliable than hourly urine output for guiding resuscitation."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5588e552-88e3-4f54-a50d-0a4cf36b0819",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This measurement requires the insertion of a catheter to track hourly volume.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "100",
+    "lectureTitle": "00100 burns_evaluation_JH2-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "6301c095-aa4d-42b1-9939-8add395065a2",
+    "overlapScore": 0.3608247422680412,
+    "questionIndex": 8,
+    "quizFileName": "quiz_100.json",
+    "quizTitle": "Burns Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "68e28f78-c38b-4246-8ba3-aea65a9a1384",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:56.338Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

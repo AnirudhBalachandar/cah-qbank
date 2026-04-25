@@ -1,0 +1,98 @@
+{
+  "id": "9668a545-fb6c-472f-83dd-d6f2474e58e7",
+  "stem": "What is the primary clinical utility of testing for antinuclear antibodies in a child with juvenile idiopathic arthritis (JIA)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To identify risk for uveitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "To confirm the diagnosis of arthritis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "To differentiate JIA from lupus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To predict the likelihood of joint fusion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To assess disease severity",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "To identify risk for uveitis. Antinuclear antibodies are not diagnostic of JIA, but a positive result helps identify children at higher risk of asymptomatic uveitis and guide eye screening.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.760Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-4909999d6007d9327727",
+  "rationale": "Consider a significant asymptomatic complication that affects vision.",
+  "optionExplanations": {
+    "A": "Correct because a positive antinuclear antibody result helps identify children with JIA who are at increased risk of asymptomatic uveitis.",
+    "B": "Incorrect because JIA is a clinical diagnosis and there is no specific blood test that confirms it.",
+    "C": "Incorrect because antinuclear antibodies can occur in lupus, but in JIA their main utility is not to distinguish it from lupus.",
+    "D": "Incorrect because joint fusion is not predicted by antinuclear antibody status.",
+    "E": "Incorrect because antinuclear antibodies do not reliably assess overall JIA disease severity."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider a significant asymptomatic complication that affects vision.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "faf1f9e0-c90c-4866-b238-f1a139f2ab1e",
+    "overlapScore": 0.5319148936170213,
+    "questionIndex": 7,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:34.896Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

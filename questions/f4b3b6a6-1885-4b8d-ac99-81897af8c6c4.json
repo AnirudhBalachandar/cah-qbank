@@ -1,0 +1,98 @@
+{
+  "id": "f4b3b6a6-1885-4b8d-ac99-81897af8c6c4",
+  "stem": "Which clinical feature most strongly suggests asthma rather than simple viral-induced wheeze in a child?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Wheeze only during upper respiratory tract infections",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Complete symptom resolution by age 6",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Interval symptoms such as night coughing or exercise-induced wheeze",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Marked improvement after a single course of oral antibiotics",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Wheeze only after exposure to cold weather",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Interval symptoms such as night coughing or exercise-induced wheeze suggest asthma. These symptoms occur outside acute viral infections and reflect chronic airway hyper-responsiveness.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+      "title": "00014 Asthma diagnosis and-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:30.238Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-3448af43b7c4bed06038",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because wheeze confined to viral infections is more typical of viral-induced wheeze.",
+    "B": "Incorrect because many children with viral-induced wheeze improve with age; this does not specifically indicate asthma.",
+    "C": "Correct because symptoms occurring between infections, especially at night or with exercise, are characteristic of asthma.",
+    "D": "Incorrect because improvement with antibiotics suggests an infective airway process rather than asthma.",
+    "E": "Incorrect because cold weather can trigger symptoms but does not by itself distinguish asthma from other wheezing conditions."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "3ec441da-babb-4ccb-9fee-e6c8318f7ca8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about whether the symptoms are isolated to illness or occur during daily activities.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "14",
+    "lectureTitle": "00014 Asthma diagnosis and-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5dc1cb04-e3c3-42f4-9e99-90d3f647d6bb",
+    "overlapScore": 0.4025974025974026,
+    "questionIndex": 3,
+    "quizFileName": "quiz_014.json",
+    "quizTitle": "Respiratory Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "311fe0d5-17d0-4a08-9bc5-40b773b4ff7e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:59.918Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

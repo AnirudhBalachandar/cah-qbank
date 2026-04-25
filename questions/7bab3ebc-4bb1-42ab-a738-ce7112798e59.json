@@ -1,0 +1,98 @@
+{
+  "id": "7bab3ebc-4bb1-42ab-a738-ce7112798e59",
+  "stem": "Which clinical presentation is most commonly associated with a corkscrew appearance on a contrast study in an infant?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bilious vomiting with suspected midgut volvulus",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Premature birth with bubbly bowel wall gas",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Projectile non-bilious vomiting with a palpable abdominal mass",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Failure to pass meconium with dilated large bowel loops",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Rectal bleeding with abdominal distension",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Midgut volvulus is the correct answer because the corkscrew appearance reflects twisting of the duodenum and jejunum around a narrow mesenteric base.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "77f16292-9d45-49b7-b4d8-7992076888e2",
+      "title": "00046 medical imaging_gast-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:35.488Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-655f38a76227fac12f07",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because the corkscrew appearance reflects twisting of the duodenum and jejunum around a narrow mesenteric base in midgut volvulus.",
+    "B": "Incorrect because this presentation suggests necrotising enterocolitis, which is associated with pneumatosis rather than a corkscrew sign.",
+    "C": "Incorrect because this is typical of pyloric stenosis, which usually causes projectile non-bilious vomiting and is diagnosed by ultrasound.",
+    "D": "Incorrect because this suggests Hirschsprung disease, which more often shows a transition zone rather than a corkscrew twist.",
+    "E": "Incorrect because rectal bleeding with abdominal distension is not the classic presentation of midgut volvulus and does not produce a corkscrew appearance."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "77f16292-9d45-49b7-b4d8-7992076888e2",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This sign is a surgical emergency involving the twisting of the midgut.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "46",
+    "lectureTitle": "00046 medical imaging_gast-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c56b42ec-1597-43ff-99be-b5fef4c4d4b1",
+    "overlapScore": 0.4666666666666667,
+    "questionIndex": 12,
+    "quizFileName": "quiz_046.json",
+    "quizTitle": "Radiology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f67739b7-a46d-4b7f-a7b8-7f13d1796ee2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:43.495Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

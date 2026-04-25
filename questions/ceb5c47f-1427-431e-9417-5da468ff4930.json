@@ -1,0 +1,98 @@
+{
+  "id": "ceb5c47f-1427-431e-9417-5da468ff4930",
+  "stem": "Where is the abdominal wall defect typically located in a neonate with gastroschisis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Directly through the umbilicus",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To the right of the umbilicus",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To the left of the umbilicus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Above the umbilicus in the epigastrium",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Within the linea alba at the midline",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Gastroschisis is a paraumbilical abdominal wall defect, typically located to the right of the umbilicus.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:39.995Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-39f09c8c573c316b42ce",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a defect directly through the umbilicus is more consistent with an umbilical hernia or exomphalos.",
+    "B": "Correct because gastroschisis classically occurs as a small paraumbilical defect to the right of the umbilicus.",
+    "C": "Incorrect because gastroschisis is characteristically right-sided rather than left-sided.",
+    "D": "Incorrect because an epigastric abdominal wall defect suggests other congenital anomalies rather than isolated gastroschisis.",
+    "E": "Incorrect because a midline linea alba defect is not the typical location for gastroschisis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the specific anatomical orientation described as the most common presentation for this condition.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9b55cf6a-882d-4afb-b734-88f0fd8f4cb1",
+    "overlapScore": 0.3595505617977528,
+    "questionIndex": 1,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:36.539Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

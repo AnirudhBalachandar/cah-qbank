@@ -1,0 +1,98 @@
+{
+  "id": "83d19f2e-786e-4976-9ce2-294f2e75cd4c",
+  "stem": "Which of the following is a red flag in a child with obesity that suggests a syndromic or non-lifestyle cause?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Obesity accompanied by short stature",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Obesity with a family history of type 2 diabetes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Weight gain beginning in early primary school years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Good exercise tolerance and active play participation",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tall stature with proportionate weight gain",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Obesity accompanied by short stature is a red flag because it suggests an underlying endocrine or syndromic cause rather than simple lifestyle-related obesity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e1311dca-de48-47c0-b390-f8170a828691",
+      "title": "00091 Baur Assessing & man-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:43.396Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b578b0c0d67ab20d03b6",
+  "rationale": "A growth pattern of excess weight with reduced linear growth is concerning for an underlying medical disorder.",
+  "optionExplanations": {
+    "A": "Correct because obesity with short stature suggests an endocrine or syndromic cause such as hypothyroidism, Cushing syndrome, or another underlying disorder.",
+    "B": "Incorrect because a family history of type 2 diabetes is a risk factor for metabolic disease, but it is not a red flag for a syndromic or non-lifestyle cause.",
+    "C": "Incorrect because early school-age onset can occur in common obesity and is not, by itself, a specific red flag for an underlying disorder.",
+    "D": "Incorrect because good exercise tolerance and active play are reassuring features rather than warning signs of an underlying cause.",
+    "E": "Incorrect because tall stature with proportionate weight gain is less suggestive of endocrine disease than obesity with poor linear growth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e1311dca-de48-47c0-b390-f8170a828691",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a physical growth pattern that contradicts typical simple obesity.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "91",
+    "lectureTitle": "00091 Baur Assessing & man-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2b05c289-5974-455b-92c9-eaa1b195c9d0",
+    "overlapScore": 0.4316546762589928,
+    "questionIndex": 8,
+    "quizFileName": "quiz_091.json",
+    "quizTitle": "Obesity Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5c76e46d-2ba0-48ec-b31b-99f3775f2bd6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:58.750Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

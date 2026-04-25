@@ -1,0 +1,101 @@
+{
+  "id": "fcbde8ae-4956-4816-8951-a2cda2c7b143",
+  "stem": "A thriving breastfed infant with loose stools has a fresh stool sample tested and reducing substances are 0.4%; what is the best interpretation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "This can be a normal finding in a breastfed infant",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "This confirms clinically significant carbohydrate malabsorption",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "This result is impossible if the sample is fresh",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "This specifically proves sucrose malabsorption",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "This means osmotic diarrhoea has been excluded",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Normal stool reducing substances. In a thriving breastfed infant, up to 0.5% reducing substances can be a normal finding, so 0.4% does not by itself indicate disease.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 47,
+      "title": "Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:47:30.440Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B30-attempt-03-d75da4997a7e0135eb81",
+  "rationale": ".",
+  "optionExplanations": {
+    "A": "Correct because in a breastfed infant, reducing substances of 0.4% can fall within the normal range and must be interpreted in clinical context.",
+    "B": "Incorrect because this level alone does not confirm clinically significant carbohydrate malabsorption.",
+    "C": "Incorrect because a fresh sample can still show reducing substances, and this value may be normal in a breastfed infant.",
+    "D": "Incorrect because this result does not specifically diagnose sucrose malabsorption.",
+    "E": "Incorrect because a normal or near-normal reducing substances result does not exclude osmotic diarrhoea or other causes of loose stools."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 2,
+  "source": {
+    "batchId": "B30-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmt54k0001rjn1ryz7ousz",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.302158273381295,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "70835044-6b47-46a2-9093-11e1309cef5f",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B30/attempt-03.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Gastroenteritis and rehydration reasoning",
+      "Breastfed infant stool interpretation"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:20.176Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

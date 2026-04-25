@@ -1,0 +1,103 @@
+{
+  "id": "4aef6afd-d5bb-4105-a99e-5fc88acd7eef",
+  "stem": "An infant with known airway malacia later develops an ongoing wet cough; which secondary problem can occur because of poor cough clearance?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Protracted bacterial bronchitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Asthma with exercise symptoms",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Bronchiolitis from RSV reinfection",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pleural effusion",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Foreign body aspiration",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Protracted bacterial bronchitis can occur in airway malacia because poor cough clearance leads to retained secretions and persistent wet cough.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 34,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:36:00.555Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B26-attempt-03-3fa49fb6f02e113cd2ae",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because poor cough clearance in airway malacia can lead to retained secretions and secondary protracted bacterial bronchitis.",
+    "B": "Incorrect because exercise-induced asthma symptoms are a separate condition and are not the secondary complication described here.",
+    "C": "Incorrect because bronchiolitis from RSV reinfection is not the specific consequence of poor cough clearance in airway malacia.",
+    "D": "Incorrect because pleural effusion is not the expected secondary problem from airway malacia-related poor cough clearance.",
+    "E": "Incorrect because foreign body aspiration is not the secondary complication implied by poor cough clearance in airway malacia."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B26-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmecue0001rjiciy9yepf4",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3425414364640884,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "e25864ee-0861-4459-8c0b-44c994378f88",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B26/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Chronic airway problems foundations",
+      "pattern recognition across chronic airway problems",
+      "long-term assessment",
+      "airway malacia"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:17.546Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

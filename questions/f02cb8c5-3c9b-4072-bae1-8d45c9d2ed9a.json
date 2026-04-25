@@ -1,0 +1,98 @@
+{
+  "id": "f02cb8c5-3c9b-4072-bae1-8d45c9d2ed9a",
+  "stem": "Why do children with burn scars often need ongoing psychological support into adolescence?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Because burn scars often disappear in childhood but reappear during puberty",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Because body image becomes a significant concern during adolescence",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Because the physical pain of the burn returns during growth spurts",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Because the risk of post-traumatic stress disorder only begins after 10 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because scar tissue prevents normal emotional development in all children",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Body image becomes a significant concern during adolescence. Even children who cope well as toddlers may become distressed later as social awareness and self-consciousness increase.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+      "title": "00101 burns_treatment_JH20-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:45.616Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c148bf9d2f9792d1a6be",
+  "rationale": "Adolescence is a period when appearance and peer comparison become more important, so burn scars may cause renewed psychological distress.",
+  "optionExplanations": {
+    "A": "Incorrect because burn scars do not disappear and reappear; the child’s perception of them changes over time.",
+    "B": "Correct because body image becomes increasingly important in adolescence, which can trigger renewed distress about visible scars.",
+    "C": "Incorrect because growth spurts do not cause the original burn pain to return as the main reason for psychological support.",
+    "D": "Incorrect because post-traumatic stress disorder can occur earlier than 10 years after injury, and the key issue here is adolescent body image.",
+    "E": "Incorrect because scar tissue does not prevent normal emotional development in all children; the concern is changing self-image and social awareness."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "912f24ba-fe5e-4579-bab3-4f4a6968674a",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about how a child's social awareness and self-identity change as they age.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "101",
+    "lectureTitle": "00101 burns_treatment_JH20-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "14d7919c-6e66-4e94-950d-a20cacfc77f8",
+    "overlapScore": 0.3684210526315789,
+    "questionIndex": 10,
+    "quizFileName": "quiz_101.json",
+    "quizTitle": "Burn Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e95a007e-cc1c-4974-8536-4585a23dae7c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:46.929Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

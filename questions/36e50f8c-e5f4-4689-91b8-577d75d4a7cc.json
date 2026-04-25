@@ -1,0 +1,101 @@
+{
+  "id": "36e50f8c-e5f4-4689-91b8-577d75d4a7cc",
+  "stem": "A writer wants to use the line “Treatment: supportive – physio, orthotics, orthopaedic surgery, pain management, genetic counselling” to justify a paediatric surgery pain question; what is the main problem with that approach?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The line is unrelated to procedural pain in paediatric surgery and does not provide topic-specific examinable detail",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The line forbids all use of pain management in paediatric teaching",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The line proves that multimodal analgesia is the preferred surgical approach",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The line is an external citation and therefore invalid",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The line provides enough detail to write a counselling question about nitrous oxide",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is A. The quoted line refers to supportive treatment in another context and does not give specific, examinable information about procedural pain in paediatric surgery.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 119,
+      "title": "Supportive treatment mention including pain management"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:12:34.057Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B87-attempt-01-83cf38b823c2aa89adec",
+  "rationale": "The issue is not that pain management is mentioned, but that the line is too broad and off-topic for the intended question.",
+  "optionExplanations": {
+    "A": "Correct because it is about supportive treatment rather than paediatric surgery procedural pain, so it lacks topic-specific examinable detail.",
+    "B": "Incorrect because the line does not ban pain-management teaching; it only fails to support the intended question.",
+    "C": "Incorrect because multimodal analgesia is not stated or implied by the line.",
+    "D": "Incorrect because the problem is relevance and specificity, not whether the source is external.",
+    "E": "Incorrect because nitrous oxide is not mentioned and cannot be inferred from this line."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B87-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrzov60001rje46zxvxa1g",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3450292397660819,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7a11500f-d836-4e73-91b1-34736ceb2b11",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B87/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Pain management and procedural pain",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:30.091Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "01a571cf-651a-4003-a32f-9110260767b6",
+  "stem": "A child with chronic fatty diarrhoea is thought to have inadequate pancreatic enzyme activity; which normal function is most directly reduced?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hydrolysis of fat by gastric acid",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Solubilisation of fat by bile salts",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Digestion of fat",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Direct portal venous entry of small- and medium-chain triglycerides",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Absorption of vitamin B12 in the terminal ileum",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Digestion of fat is the correct answer. Pancreatic enzymes are required for normal fat digestion, so inadequate pancreatic enzyme activity most directly reduces fat digestion.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 46,
+      "title": "Diarrhoea and Malabsorption"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:48:08.699Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B31-attempt-02-991a75eb1ab92793919d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because gastric acid is not the main mechanism for fat digestion",
+    "B": "Incorrect because bile salts help emulsify and solubilise fat, but they are not pancreatic enzymes",
+    "C": "Correct because pancreatic enzymes are required for digestion of fat",
+    "D": "Incorrect because small- and medium-chain triglycerides can enter the portal circulation directly, but this is a transport pathway rather than the main pancreatic function",
+    "E": "Incorrect because vitamin B12 absorption is a separate intestinal process and is not the primary function reduced here"
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B31-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmtyo20001rjh3sp1zejnw",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3194444444444444,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "03c66510-8c1e-4a97-b8e4-d75ccb2c9d5b",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B31/attempt-02.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Diarrhoea, malabsorption, and chronic GI reasoning",
+      "maldigestion reasoning"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:40.845Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

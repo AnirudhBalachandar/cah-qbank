@@ -1,0 +1,98 @@
+{
+  "id": "bc05294b-d9c7-4f4a-b071-743dd174ab92",
+  "stem": "A child has watery diarrhoea and a calculated stool osmotic gap of 120 mOsm/kg; which clinical feature is most likely associated with this finding?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "The diarrhoea stops when the child is nil by mouth",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "The diarrhoea continues unchanged during fasting",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Stool microscopy shows leukocytes and red cells",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The stool pH is neutral or slightly alkaline",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The stool volume remains high overnight",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Osmotic diarrhoea is the correct concept here. A stool osmotic gap greater than 100 mOsm/kg suggests osmotic diarrhoea, which improves or stops when the child fasts because the unabsorbed solute is no longer present in the gut.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+      "title": "00026 diarrhoea-assessment-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.199Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-499afabb491f3bbd590f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because an osmotic stool osmotic gap greater than 100 mOsm/kg indicates osmotic diarrhoea, which typically stops when the child is fasting.",
+    "B": "Incorrect because diarrhoea that continues during fasting is more typical of secretory diarrhoea, which usually has a low stool osmotic gap.",
+    "C": "Incorrect because leukocytes and red cells suggest inflammatory diarrhoea or colitis, not osmotic diarrhoea.",
+    "D": "Incorrect because osmotic diarrhoea, especially from carbohydrate malabsorption, usually causes acidic stools from bacterial fermentation.",
+    "E": "Incorrect because persistent high overnight stool output is more suggestive of secretory diarrhoea than osmotic diarrhoea."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "4d81eacb-c138-4bfe-9ea7-418d6f02edc8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Recall how the presence or absence of oral intake affects different types of watery diarrhea.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "26",
+    "lectureTitle": "00026 diarrhoea-assessment-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "5dc1cb04-e3c3-42f4-9e99-90d3f647d6bb",
+    "overlapScore": 0.3896103896103896,
+    "questionIndex": 4,
+    "quizFileName": "quiz_026.json",
+    "quizTitle": "Gastroenterology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "e2d08b08-eeb8-480c-9490-cde49601e0d5",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:55.757Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

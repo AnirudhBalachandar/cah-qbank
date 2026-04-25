@@ -1,0 +1,98 @@
+{
+  "id": "83e5815c-1a69-4acc-adf2-0fd863c52943",
+  "stem": "What proportion of young people reported feeling good after their last sexual experience in recent surveys?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Approximately 20% to 25%",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Approximately 40% to 50%",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Approximately 80% to 90%",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Approximately 10%",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Approximately 60% to 70%",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Approximately 40% to 50% is the best answer. Recent surveys suggest that positive experiences after the last sexual encounter were reported by about half of young people.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "337b65a7-6d08-483f-8b1f-4b21777a6d32",
+      "title": "00076 Adolescent sexual be-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/adolescent-medicine",
+    "notebooklm"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.679Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-57bac261096f27249d6a",
+  "rationale": "The question asks for the reported proportion of young people who felt good after their last sexual experience, and the stated figure is around half.",
+  "optionExplanations": {
+    "A": "Incorrect because this is lower than the reported proportion of young people who felt good after their last sexual experience.",
+    "B": "Correct because recent surveys indicate that about half of young people reported feeling good after their last sexual experience.",
+    "C": "Incorrect because this is much higher than the reported proportion and does not match the survey finding.",
+    "D": "Incorrect because the reported proportion was substantially higher than 10%.",
+    "E": "Incorrect because this is higher than the reported range and overestimates the survey finding."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "337b65a7-6d08-483f-8b1f-4b21777a6d32",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The speaker suggests this number is 'concerning' because it is only about half of the total respondents.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "76",
+    "lectureTitle": "00076 Adolescent sexual be-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "d398cd5f-6935-482a-abd4-11c44609fccc",
+    "overlapScore": 0.3939393939393939,
+    "questionIndex": 5,
+    "quizFileName": "quiz_076.json",
+    "quizTitle": "Sexual Health Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8cef6571-f329-4eab-a20c-92bbd8bdf3c9",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:00.078Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

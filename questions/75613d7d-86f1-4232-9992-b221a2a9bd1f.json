@@ -1,0 +1,98 @@
+{
+  "id": "75613d7d-86f1-4232-9992-b221a2a9bd1f",
+  "stem": "Which vaccine is strictly contraindicated in all patients with HIV, regardless of CD4 count?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "BCG (Tuberculosis) vaccine",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Inactivated influenza vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Measles, mumps and rubella (MMR) vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hepatitis B vaccine",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pneumococcal conjugate vaccine",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "BCG (Tuberculosis) vaccine is the correct answer because it is a live vaccine and is contraindicated in all patients with HIV due to the risk of disseminated infection.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.550Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-0cc4f8c62cc3aa1f327d",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because BCG is a live attenuated bacterial vaccine and can cause disseminated disease in immunocompromised patients, including those with HIV.",
+    "B": "Incorrect because inactivated influenza vaccine is safe and recommended for patients with HIV.",
+    "C": "Incorrect because MMR is a live vaccine, but it may be given to selected patients with HIV if immune function is adequate; it is not universally contraindicated.",
+    "D": "Incorrect because hepatitis B vaccine is an inactivated vaccine and is recommended for patients with HIV.",
+    "E": "Incorrect because pneumococcal conjugate vaccine is an inactivated vaccine and is recommended for patients with HIV."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This vaccine protects against a common mycobacterial infection.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "c76a6af5-d795-46ba-88f3-3e704a938d24",
+    "overlapScore": 0.4150943396226415,
+    "questionIndex": 5,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:33.175Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

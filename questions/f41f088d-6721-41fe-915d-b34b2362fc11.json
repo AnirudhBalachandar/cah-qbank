@@ -1,0 +1,98 @@
+{
+  "id": "f41f088d-6721-41fe-915d-b34b2362fc11",
+  "stem": "Molluscum contagiosum lesions are characterised by which physical feature?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Honey-coloured adherent crusts",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Umbilicated centres",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Finger-like projections",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Serpiginous scaling edges",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Grouped vesicles on an erythematous base",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Umbilicated centres are the classic feature of molluscum contagiosum, giving the papules a central dimpled appearance.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "51102533-c601-4132-9b61-bdcd05af5c1c",
+      "title": "00059 dermatology-infectio-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:37.413Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c1c67522bcb8e1f9dd26",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because honey-coloured adherent crusts are typical of non-bullous impetigo.",
+    "B": "Correct because molluscum contagiosum classically causes small, skin-coloured papules with a central dimple or umbilication.",
+    "C": "Incorrect because finger-like projections are more consistent with filiform warts.",
+    "D": "Incorrect because serpiginous scaling edges suggest a fungal infection such as tinea.",
+    "E": "Incorrect because grouped vesicles on an erythematous base are more typical of herpes simplex infection."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "51102533-c601-4132-9b61-bdcd05af5c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Look for a term that describes a central indentation in a papule.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "59",
+    "lectureTitle": "00059 dermatology-infectio-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "43b00587-627e-4215-b0cb-ffdbf1a7122a",
+    "overlapScore": 0.4712643678160919,
+    "questionIndex": 4,
+    "quizFileName": "quiz_059.json",
+    "quizTitle": "Dermatology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "f675632f-c8d2-42ff-9863-8cfa0f929a31",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:58.604Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

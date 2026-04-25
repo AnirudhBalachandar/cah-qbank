@@ -1,0 +1,98 @@
+{
+  "id": "91087c0a-dadb-4cda-aca0-bbfac5d8de4b",
+  "stem": "What is one of the primary aims of a diagnostic assessment for a child with developmental impairments?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "To determine the child's future academic ranking compared with peers",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "To develop an intervention plan specific to the child's difficulties and family's capacity",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "To replace the need for ongoing surveillance and screening tools",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "To provide a definitive cure for the underlying cause",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "To confirm that no further support will be needed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intervention planning is a key aim of diagnostic assessment: it should identify the child's difficulties and guide support that fits the family's capacity.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+      "title": "00056 Diagnostic Assessmen-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:36.701Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c4a9141e904460f9a50f",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because diagnostic assessment is used to understand needs and guide support, not to rank a child against peers.",
+    "B": "Correct because one of the main purposes of diagnostic assessment is to create a practical intervention plan tailored to the child's difficulties and the family's capacity to implement support.",
+    "C": "Incorrect because diagnostic assessment does not replace ongoing surveillance and screening, which remain separate parts of child health care.",
+    "D": "Incorrect because diagnostic assessment may identify causes, but developmental impairments usually need ongoing management rather than a definitive cure.",
+    "E": "Incorrect because diagnostic assessment often leads to further support and follow-up, not a conclusion that no further help is needed."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "0482bd2e-4c23-40e8-bfac-6079338e7afd",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the practical outcome intended for the family and the child's daily support.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "56",
+    "lectureTitle": "00056 Diagnostic Assessmen-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e0d53644-78bd-4482-b899-2107bf7c08aa",
+    "overlapScore": 0.371900826446281,
+    "questionIndex": 1,
+    "quizFileName": "quiz_056.json",
+    "quizTitle": "Developmental Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "70d2d150-efd7-4258-ab01-bba0b2c05ee6",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:27.644Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

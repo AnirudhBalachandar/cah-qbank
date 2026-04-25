@@ -1,0 +1,103 @@
+{
+  "id": "b9faf609-d3f3-4542-91c4-29d54068badb",
+  "stem": "Which diagnosis is grouped as a lower respiratory tract infection in this paediatric classification?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Pharyngitis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Otitis media",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Epiglottitis",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Sinusitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Tonsillitis",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Epiglottitis is grouped as a lower respiratory tract infection in this classification. The other options are listed as upper respiratory tract infections.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "CAH Bible (shared 2025).pdf",
+      "page": 73,
+      "title": "Acute respiratory infections"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:26:15.407Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B24-attempt-02-4b1d754ee3870a837bba",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because pharyngitis is listed under upper respiratory tract infection.",
+    "B": "Incorrect because otitis media is listed under upper respiratory tract infection.",
+    "C": "Correct because epiglottitis is listed under lower respiratory tract infection.",
+    "D": "Incorrect because sinusitis is listed under upper respiratory tract infection.",
+    "E": "Incorrect because tonsillitis is listed under upper respiratory tract infection."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B24-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwm1su50001rj27os5fb9rg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3289473684210527,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d10085eb-90d7-4eff-86d2-5bf1b2c196c5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B24/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Acute upper-airway respiratory reasoning",
+      "infection classification",
+      "epiglottitis",
+      "upper-versus-lower tract"
+    ],
+    "sourceRefs": [
+      "CAH Bible (shared 2025).pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:45.557Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

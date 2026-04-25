@@ -1,0 +1,102 @@
+{
+  "id": "22612a9f-fc85-4550-954f-5cd3c6157920",
+  "stem": "What operative approach is used for a plunging ranula?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Expectant management only",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "External neck excision alone",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Intra-oral excision including the sublingual gland of origin",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Immediate drainage of a lymph node abscess",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Thyroid surgery",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intra-oral excision including the sublingual gland of origin is the operative approach for a plunging ranula.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 180,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:10:36.915Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B85-attempt-01-0c89581d5d2c517845dc",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because expectant management is not the operative approach described for a plunging ranula.",
+    "B": "Incorrect because external neck excision alone does not address the sublingual gland of origin.",
+    "C": "Correct because definitive management is intra-oral excision including the sublingual gland of origin.",
+    "D": "Incorrect because lymph node abscess drainage is unrelated to plunging ranula.",
+    "E": "Incorrect because thyroid surgery is not used to treat plunging ranula."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B85-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwrx6h80001rjyfs8zyhivx",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3333333333333333,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "1b89f8cf-48a0-4011-bc39-ea4911ed6eea",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B85/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Acute and chronic neck lumps",
+      "management/follow-up",
+      "salivary lesions"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:55.068Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

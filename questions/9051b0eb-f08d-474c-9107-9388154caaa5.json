@@ -1,0 +1,98 @@
+{
+  "id": "9051b0eb-f08d-474c-9107-9388154caaa5",
+  "stem": "A 5-month-old infant develops profuse vomiting and lethargy 2 hours after first eating rice cereal. What is the most likely diagnosis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "IgE-mediated anaphylaxis",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Food protein-induced enterocolitis syndrome (FPIES)",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "Acute viral gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Coeliac disease",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Cow’s milk protein allergy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Food protein-induced enterocolitis syndrome (FPIES) is the most likely diagnosis. This is because FPIES classically causes delayed profuse vomiting and lethargy 1 to 4 hours after ingestion, often after a first exposure to a trigger such as rice.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+      "title": "00033 Year 3 CAH Allergy a-s1-low (3).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/general-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.323Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-aeaa296c3b44126e1393",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because IgE-mediated anaphylaxis usually occurs more rapidly and commonly includes skin or respiratory features.",
+    "B": "Correct because FPIES classically causes delayed profuse vomiting and lethargy 1 to 4 hours after ingestion, often after a first exposure to a trigger such as rice.",
+    "C": "Incorrect because viral gastroenteritis is not typically so tightly linked to a single food exposure and often has infectious contacts or diarrhoea.",
+    "D": "Incorrect because coeliac disease usually causes chronic gastrointestinal or growth symptoms rather than an acute postprandial vomiting episode.",
+    "E": "Incorrect because cow’s milk protein allergy can cause vomiting, but this presentation is more characteristic of FPIES triggered by rice."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "a436fa35-96ca-471b-ae5c-15edff0227ac",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the timing of the reaction and the specific food trigger involved in this age group.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "33",
+    "lectureTitle": "00033 Year 3 CAH Allergy a-s1-low (3).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ed6fe82d-7e30-41d0-a600-027a5997efa6",
+    "overlapScore": 0.4859154929577465,
+    "questionIndex": 7,
+    "quizFileName": "quiz_033.json",
+    "quizTitle": "Allergy Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "4bd85e27-e173-47f2-bd15-56559e934524",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:26.881Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

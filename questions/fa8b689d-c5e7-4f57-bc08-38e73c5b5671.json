@@ -1,0 +1,102 @@
+{
+  "id": "fa8b689d-c5e7-4f57-bc08-38e73c5b5671",
+  "stem": "Which age group is covered for clinician prescribing of ADHD medication in children in NSW?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "2-12 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4-17 years",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "5-18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "6-16 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Birth-17 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct age range is 4-17 years, which is the age group covered for clinician prescribing of ADHD medication in children in NSW.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 85,
+      "title": "Page 85"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T08:42:05.339Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B14-attempt-03-f81b1cdcc34858e4db60",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because this age range is not the one stated in the NSW prescribing notes.",
+    "B": "Correct because the notes state that clinician prescribing of ADHD medication in children in NSW applies to ages 4-17 years.",
+    "C": "Incorrect because the age limits do not match the stated 4-17 years range.",
+    "D": "Incorrect because this is not the age range specified in the notes.",
+    "E": "Incorrect because the notes do not support ADHD medication prescribing from birth."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B14-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvslxen0001rjq3ichqrgjp",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.34,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "d6134c1f-95bb-42a4-bdfc-9974bc9c8fe5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B14/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ADHD treatment and longitudinal care",
+      "prescribing",
+      "NSW"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:13.861Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

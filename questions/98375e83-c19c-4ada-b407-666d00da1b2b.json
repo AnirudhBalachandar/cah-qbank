@@ -1,0 +1,102 @@
+{
+  "id": "98375e83-c19c-4ada-b407-666d00da1b2b",
+  "stem": "A 6-week-old infant is brought in because the parent keeps saying, 'She's just not right today,' although the triage observations are not yet dramatic. What is the best approach to this concern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Take parental concern seriously when assessing neonates and young infants",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Consider parental concern only if haemodynamic instability is already confirmed",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Set parental concern aside if the infant is afebrile at triage",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Treat parental concern as less useful than a minor localising focus",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Delay assessment until repeated observations are available",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Parental concern should be taken seriously in neonates and young infants. A parent's sense that their infant is not right can be an important early warning sign, even when initial observations are not yet dramatic.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 134,
+      "title": "Recognising and Managing the Sick Child"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:27:52.748Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B69-attempt-04-398e5e78b39ea8250126",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because parental concern in neonates and young infants can be an important early indicator of serious illness and should prompt careful assessment.",
+    "B": "Incorrect because parental concern should not be limited to cases where haemodynamic instability has already been confirmed.",
+    "C": "Incorrect because being afebrile at triage does not make parental concern unimportant in a young infant.",
+    "D": "Incorrect because a minor localising focus does not outweigh a credible parental concern in this age group.",
+    "E": "Incorrect because assessment should not be delayed when a parent reports that a young infant is not behaving normally."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B69-attempt-04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5ecfs0001rj5yy16uc994",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3300492610837438,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c4766111-521b-4ef0-8c0f-0a48cae8b8a4",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B69/attempt-04.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Recognising and managing the sick child",
+      "early action",
+      "young infant"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:38.330Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

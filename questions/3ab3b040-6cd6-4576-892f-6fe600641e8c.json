@@ -1,0 +1,98 @@
+{
+  "id": "3ab3b040-6cd6-4576-892f-6fe600641e8c",
+  "stem": "What feature of growing pains helps distinguish them from more serious pathology?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They occur exclusively on one side of the body",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "They cause significant morning stiffness",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "The pains are always bilateral over time",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "They are caused by rapid growth in long bones",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They are associated with fever and weight loss",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The correct answer is that the pains are always bilateral over time. Growing pains are typically intermittent, bilateral lower limb pains that may not be present on both sides at every episode, but are not persistently unilateral and are not associated with systemic or inflammatory features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+      "title": "00096 rheumatology-musculo-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.543Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-d0f76df0d1de7a26caea",
+  "rationale": "Bilateral, intermittent lower limb pain without daytime symptoms is more consistent with growing pains than focal or inflammatory disease.",
+  "optionExplanations": {
+    "A": "Incorrect because persistent unilateral pain is not typical of growing pains and should prompt consideration of local pathology.",
+    "B": "Incorrect because growing pains do not usually cause morning stiffness or other inflammatory features.",
+    "C": "Correct because growing pains are typically bilateral over time, even if one side may be more noticeable during a given episode.",
+    "D": "Incorrect because growing pains are not proven to result from rapid growth in long bones.",
+    "E": "Incorrect because fever and weight loss suggest systemic disease rather than benign growing pains."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "e2139503-308b-4b1b-8583-bf9a60fbba46",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the symmetry and the timing of these common childhood pains.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "96",
+    "lectureTitle": "00096 rheumatology-musculo-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "ab12af91-f21d-4aff-9b5c-f94b525f036f",
+    "overlapScore": 0.4042553191489361,
+    "questionIndex": 12,
+    "quizFileName": "quiz_096.json",
+    "quizTitle": "Pediatric Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "de97bf03-0cfa-4b9b-8ae3-f4b991921fef",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:38.027Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

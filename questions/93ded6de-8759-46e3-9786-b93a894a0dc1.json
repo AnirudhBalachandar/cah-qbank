@@ -1,0 +1,102 @@
+{
+  "id": "93ded6de-8759-46e3-9786-b93a894a0dc1",
+  "stem": "Which pair of age ranges matches the usual age pattern for type 1 diabetes diagnosis in childhood?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Infancy and 2-3 years",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "4-6 years and 10-14 years",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "7-9 years and 15-17 years",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Birth and 18 years",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "1-2 years and 12-16 years",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "4-6 years and 10-14 years is the correct age pattern for type 1 diabetes diagnosis in childhood.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 97,
+      "title": "Diabetes in Children and Adolescents Clinical Practice Guidelines: Diabetes Mellitus: new presentation"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:34:44.398Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B53-attempt-03-0beaee6704e51e0b32f0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because infancy and 2-3 years are not the age bands described for the usual diagnosis pattern.",
+    "B": "Correct because type 1 diabetes in children is typically diagnosed in two peaks, at 4-6 years and 10-14 years.",
+    "C": "Incorrect because 7-9 years and 15-17 years are not the age ranges given for the usual pattern.",
+    "D": "Incorrect because the pattern is not described as spanning from birth to 18 years; it has two typical age peaks.",
+    "E": "Incorrect because 1-2 years and 12-16 years do not match the age ranges stated in the usual pattern."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B53-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwqn1ls0001rj94o12zrbpg",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3194444444444444,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "48f541b6-a102-451a-bcd0-98262a726fe5",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B53/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Diabetes diagnosis and ongoing management",
+      "diagnosis",
+      "epidemiology"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:36.574Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

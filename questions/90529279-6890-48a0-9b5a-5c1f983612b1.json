@@ -1,0 +1,98 @@
+{
+  "id": "90529279-6890-48a0-9b5a-5c1f983612b1",
+  "stem": "What is the recommended interval to avoid pregnancy after receiving a live vaccine such as MMR or varicella?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "28 days",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "7 days",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "3 months",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "6 months",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No delay is needed",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "28 days is the recommended interval after a live vaccine before attempting pregnancy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "5e731cca-6b30-427e-a41f-76a850ee9653",
+      "title": "00029 immunisation_special-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:32.519Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-f95218b7cbe0f835820e",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because a 28-day interval is recommended after live attenuated vaccination before conception to avoid a theoretical fetal risk.",
+    "B": "Incorrect because 7 days is too short to meet the recommended precautionary interval after a live vaccine.",
+    "C": "Incorrect because 3 months is longer than the usual recommended waiting period after live vaccination.",
+    "D": "Incorrect because 6 months is unnecessarily long for standard live vaccines given before conception.",
+    "E": "Incorrect because a short delay is recommended after live vaccination before attempting pregnancy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "5e731cca-6b30-427e-a41f-76a850ee9653",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "The required duration is approximately one lunar month.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "29",
+    "lectureTitle": "00029 immunisation_special-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "165e8ffd-c503-4cc2-9972-986361d33484",
+    "overlapScore": 0.6761904761904762,
+    "questionIndex": 3,
+    "quizFileName": "quiz_029.json",
+    "quizTitle": "Immunization Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "5f7cf6ab-cd87-4ca5-b7e2-1e143f091073",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:26.188Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

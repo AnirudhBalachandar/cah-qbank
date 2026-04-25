@@ -1,0 +1,98 @@
+{
+  "id": "baa0922f-b861-4b4d-8479-7c1217f32822",
+  "stem": "Which blood film finding is most indicative of severe bacterial infection with toxic neutrophil changes?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Atypical lymphocytes with blue cytoplasm",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Increased granulation and vacuolation in neutrophils",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A uniform population of small, mature lymphocytes",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Macrocytic red blood cells",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hypogranular platelets",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Increased granulation and vacuolation in neutrophils is the classic toxic change seen in severe bacterial infection.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+      "title": "00064 TK Haematology_white-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.151Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-827c0fefe261ed170703",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because atypical lymphocytes are more typical of viral infections such as Epstein-Barr virus or cytomegalovirus.",
+    "B": "Correct because toxic changes in neutrophils include increased granulation and vacuolation, which are seen in severe bacterial infection.",
+    "C": "Incorrect because a uniform population of small, mature lymphocytes is not a toxic neutrophil change and instead suggests a different lymphoid pattern.",
+    "D": "Incorrect because macrocytic red blood cells indicate a red cell size abnormality, not toxic change in neutrophils.",
+    "E": "Incorrect because hypogranular platelets are a platelet abnormality and are not the blood film feature of severe bacterial infection described here."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "46286b37-cbe2-43a6-9711-dbb529f48c1c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the visible physical changes that occur when a neutrophil is actively battling bacteria.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "64",
+    "lectureTitle": "00064 TK Haematology_white-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "bdd28bd4-907d-4df6-b011-c1198eb069f3",
+    "overlapScore": 0.4418604651162791,
+    "questionIndex": 4,
+    "quizFileName": "quiz_064.json",
+    "quizTitle": "Hematology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "048c35a2-f734-4b42-b6e9-c06df58f1c21",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:50.215Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

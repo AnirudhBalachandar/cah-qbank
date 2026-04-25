@@ -1,0 +1,98 @@
+{
+  "id": "1dd64c54-fb9d-4790-86e1-8d062198677d",
+  "stem": "Which maternal factor is most strongly associated with an increased incidence of gastroschisis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Advanced maternal age",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Gestational diabetes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Young motherhood",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Maternal obesity",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Smoking during pregnancy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Young motherhood is the maternal factor most strongly associated with gastroschisis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+      "title": "00073 congenital surgical -s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:40.031Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-fd7d0a0d1e85670bec67",
+  "rationale": "Gastroschisis is classically linked to younger maternal age rather than advanced maternal age or common metabolic pregnancy complications.",
+  "optionExplanations": {
+    "A": "Incorrect because advanced maternal age is not the typical maternal risk factor associated with gastroschisis.",
+    "B": "Incorrect because gestational diabetes is associated with other fetal complications, not a strong increased incidence of gastroschisis.",
+    "C": "Correct because gastroschisis is classically associated with young maternal age.",
+    "D": "Incorrect because maternal obesity is not the strongest maternal association for gastroschisis.",
+    "E": "Incorrect because smoking may be associated with some adverse pregnancy outcomes, but young maternal age is the key risk factor for gastroschisis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "af90228c-6cd1-4193-ab95-70d43d26b8ff",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the demographic profile often highlighted in prenatal counseling for this specific defect.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "73",
+    "lectureTitle": "00073 congenital surgical -s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "f46c82ca-9526-4fb4-8de1-091b603c089e",
+    "overlapScore": 0.5,
+    "questionIndex": 2,
+    "quizFileName": "quiz_073.json",
+    "quizTitle": "Neonatal Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "bf3b6deb-4bca-4f84-9451-d15f53c230d0",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:42.204Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

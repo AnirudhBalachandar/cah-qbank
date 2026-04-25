@@ -1,0 +1,101 @@
+{
+  "id": "084fee2a-1bca-4329-8004-c853f37ac68e",
+  "stem": "Where is Hirschsprung disease usually located?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Rectosigmoid level",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Stomach only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Mid-oesophagus",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Jejunum only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Anal sphincter only",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Rectosigmoid level is the usual site of Hirschsprung disease.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 173,
+      "title": "Additional Congenital Surgical Problems"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:08:16.128Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B82-attempt-01-62dd8f2d095d474252ff",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because Hirschsprung disease usually involves aganglionosis at the rectosigmoid level.",
+    "B": "Incorrect because Hirschsprung disease does not usually present as an isolated stomach lesion.",
+    "C": "Incorrect because Hirschsprung disease affects the distal bowel, not the mid-oesophagus.",
+    "D": "Incorrect because Hirschsprung disease is not usually located in the jejunum only.",
+    "E": "Incorrect because Hirschsprung disease is due to bowel aganglionosis, not an isolated anal sphincter problem."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B82-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwru5vs0001rjlqj1qknvu9",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3380281690140845,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "ba8e77cf-c540-48af-89c2-4b7eac281b4c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B82/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Additional congenital surgical problems",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:23:56.445Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

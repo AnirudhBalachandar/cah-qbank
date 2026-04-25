@@ -1,0 +1,98 @@
+{
+  "id": "df957774-4c85-4a8b-b138-d0ec014d5428",
+  "stem": "An EXIT procedure is most likely to be scheduled for which scenario?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A thyroglossal duct cyst diagnosed on antenatal ultrasound",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A massive cervical lymphatic malformation with potential airway obstruction",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A suspected branchial fistula with intermittent discharge",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A sternocleidomastoid tumour causing significant torticollis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "An uncomplicated preauricular pit without infection",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A massive cervical lymphatic malformation with potential airway obstruction is the classic indication for an EXIT procedure. It allows the airway to be secured while placental circulation is still maintained.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+      "title": "00022 surgery-head-neck-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics",
+    "notebooklm"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:31.731Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-ac202091892aa2228f50",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because a thyroglossal duct cyst is usually not large enough to create an immediate delivery-time airway problem.",
+    "B": "Correct because a massive cervical lymphatic malformation can obstruct the neonatal airway, and EXIT allows airway access before full separation from placental support.",
+    "C": "Incorrect because a branchial fistula may discharge or become infected, but it does not usually require an EXIT procedure.",
+    "D": "Incorrect because torticollis from a sternocleidomastoid tumour is a musculoskeletal issue, not an anticipated airway obstruction.",
+    "E": "Incorrect because an uncomplicated preauricular pit is a minor congenital anomaly and does not threaten the airway at birth."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "7b23f255-04e6-48c3-87b2-22b8e18024c8",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Which condition is large enough to potentially block a newborn's breathing?",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "22",
+    "lectureTitle": "00022 surgery-head-neck-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "2c664a4f-82aa-492c-886d-8ace9bf8245e",
+    "overlapScore": 0.3818181818181818,
+    "questionIndex": 11,
+    "quizFileName": "quiz_022.json",
+    "quizTitle": "Pediatric Neck Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "193b9d3f-4a97-4e98-8e83-6da631fa992e",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:31:14.725Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

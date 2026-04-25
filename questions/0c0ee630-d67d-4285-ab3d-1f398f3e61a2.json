@@ -1,0 +1,103 @@
+{
+  "id": "0c0ee630-d67d-4285-ab3d-1f398f3e61a2",
+  "stem": "Which investigation may accompany urinalysis in an individualised paediatric renal work-up?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Renal Doppler/abdominal ultrasound",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A mandatory DMSA scan for all children",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A mandatory MCUG for all children",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "No imaging at all",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "CT as the universal first investigation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Renal Doppler/abdominal ultrasound may accompany urinalysis in an individualised renal work-up. The investigation set is tailored to the child, rather than using a universal imaging mandate.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack",
+      "page": 75,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:09:29.747Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B42-attempt-01-2c58abf54b21e0c9dfd7",
+  "rationale": "Urinalysis may be paired with ultrasound-based renal imaging, and the work-up is individualised.",
+  "optionExplanations": {
+    "A": "Correct because renal Doppler/abdominal ultrasound is a listed investigation that may accompany urinalysis.",
+    "B": "Incorrect because DMSA scanning is not described as mandatory for all children.",
+    "C": "Incorrect because MCUG is not described as mandatory for all children.",
+    "D": "Incorrect because imaging may be part of the work-up rather than being excluded altogether.",
+    "E": "Incorrect because CT is not described as the universal first investigation."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B42-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpqkvg0001rj3ck4jf8vnh",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3067484662576687,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "b5adf4b9-40cc-456d-941b-7d3a45452858",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B42/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "UTI and renal tract imaging",
+      "management",
+      "investigation choice",
+      "renal ultrasound"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:05.429Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

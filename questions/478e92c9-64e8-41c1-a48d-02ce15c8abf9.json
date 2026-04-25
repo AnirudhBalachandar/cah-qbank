@@ -1,0 +1,98 @@
+{
+  "id": "478e92c9-64e8-41c1-a48d-02ce15c8abf9",
+  "stem": "At what point does a persistent middle ear effusion after an acute infection become classified as otitis media with effusion (glue ear)?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "After 12 weeks",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "After 4 weeks",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Once the fluid becomes thick and glue-like",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Immediately after the fever and pain subside",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "After 6 weeks",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "After 12 weeks is the correct threshold for classifying a persistent middle ear effusion as otitis media with effusion.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+      "title": "00002 ENT-ears-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:29.347Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-b7e461a21328a316427b",
+  "rationale": "The diagnosis depends on persistence over time rather than the appearance of the fluid or the immediate recovery from acute symptoms.",
+  "optionExplanations": {
+    "A": "Correct because a middle ear effusion that persists for 12 weeks, or 3 months, is classified as otitis media with effusion.",
+    "B": "Incorrect because 4 weeks is too soon; effusions can still be present after acute otitis media without being classified as glue ear.",
+    "C": "Incorrect because the thickness of the fluid does not determine the diagnosis.",
+    "D": "Incorrect because the diagnosis requires persistence, not just resolution of the acute fever and pain.",
+    "E": "Incorrect because 6 weeks is still earlier than the 12-week threshold used to define otitis media with effusion."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "27d2e16d-ef4e-4b0d-9a4b-29e4f43fc3ae",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This classification requires the effusion to persist for a specific number of months.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "2",
+    "lectureTitle": "00002 ENT-ears-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "a3ddcfd5-29b8-4e3d-a513-1ed2e3f94bc4",
+    "overlapScore": 0.3902439024390244,
+    "questionIndex": 11,
+    "quizFileName": "quiz_002.json",
+    "quizTitle": "Otology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "2749f85d-0c75-4339-ad80-96e7b5ac47a2",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:05.819Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "68fe524b-c6ee-49ab-892a-03b4c9dcb1fa",
+  "stem": "Which change most strongly suggests deterioration in a child being monitored for suspected sepsis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Improved appetite",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Increased urine output",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Decreased fluid intake and reduced urine output",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Settling to sleep after analgesia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Requesting a drink",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Decreased fluid intake and reduced urine output are concerning signs of deterioration in a child with suspected sepsis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 140,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+  ],
+  "curriculum": "Emergency Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:58:44.084Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B36-attempt-01-1358f64d2c2a11244c5f",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because improved appetite does not suggest the dehydration or clinical worsening pattern described here.",
+    "B": "Incorrect because increased urine output is not the concerning pattern and does not suggest deterioration.",
+    "C": "Correct because decreased fluid intake and reduced urine output indicate worsening hydration and possible clinical deterioration in suspected sepsis.",
+    "D": "Incorrect because settling to sleep after analgesia is not a specific deterioration sign in this context.",
+    "E": "Incorrect because requesting a drink is not the concerning pattern described and does not indicate deterioration."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B36-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwn7kwo0001rjget7kih5bu",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3076923076923077,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c7c16cf9-7306-43d7-8d9d-3c9f527737e9",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B36/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Emergency Paediatrics",
+      "Acute sepsis in children",
+      "toxicity signs",
+      "complication recognition"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:10.104Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

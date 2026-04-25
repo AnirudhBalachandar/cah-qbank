@@ -1,0 +1,102 @@
+{
+  "id": "41d21443-ed59-4c6d-ac30-c40c45e4345d",
+  "stem": "A child is referred for chronic loose stools, but serial measurements show weight, height, and head circumference all crossing down; which alternative explanation is most supported?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increased loss from diarrhoea or malabsorption",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Structural dystrophies or endocrine causes",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Intrauterine insult or genetic abnormality",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Constitutional growth delay alone",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Non-specific growth variation",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Intrauterine insult or genetic abnormality is the most supported explanation. When weight, height, and head circumference all fall together, this pattern suggests a broader underlying problem affecting overall growth rather than isolated gastrointestinal loss.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 17,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  ],
+  "curriculum": "General Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T22:44:57.606Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B31-attempt-01-3b66af345c1f7a44fddb",
+  "rationale": ",",
+  "optionExplanations": {
+    "A": "Incorrect because diarrhoea or malabsorption is more consistent with reduced weight gain without the same implication of all three measures falling together.",
+    "B": "Incorrect because structural or endocrine causes more typically affect weight and height, with head circumference usually relatively preserved.",
+    "C": "Correct because simultaneous downward crossing of weight, height, and head circumference is most suggestive of an intrauterine insult or genetic abnormality.",
+    "D": "Incorrect because constitutional growth delay does not usually explain head circumference also crossing down.",
+    "E": "Incorrect because the pattern of all three parameters falling is clinically meaningful and helps narrow the aetiology."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B31-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwmpv7d0001rjn546g5spel",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3432835820895522,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "7ad4d4ac-8240-488b-9ddb-db1e4c0c131e",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B31/attempt-01.accepted-import.json",
+    "originalTags": [
+      "General Paediatrics",
+      "Diarrhoea, malabsorption, and chronic GI reasoning",
+      "diagnostic discrimination",
+      "red flags"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:50.610Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

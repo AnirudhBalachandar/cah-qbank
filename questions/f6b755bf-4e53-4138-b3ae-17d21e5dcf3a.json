@@ -1,0 +1,98 @@
+{
+  "id": "f6b755bf-4e53-4138-b3ae-17d21e5dcf3a",
+  "stem": "Duchenne muscular dystrophy follows which inheritance pattern?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Autosomal dominant",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Autosomal recessive",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "X-linked recessive",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Mitochondrial inheritance",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Y-linked inheritance",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "X-linked recessive inheritance is the correct pattern for Duchenne muscular dystrophy. It typically affects males and is carried by females on the X chromosome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+      "title": "00068 neurology_motor diff-s1-low (1).mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.859Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-88c682f4caa996fac54a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because Duchenne muscular dystrophy is not inherited as a dominant autosomal condition.",
+    "B": "Incorrect because although some neuromuscular disorders are autosomal recessive, Duchenne muscular dystrophy is linked to the X chromosome.",
+    "C": "Correct because Duchenne muscular dystrophy is caused by an X-linked recessive mutation, so males are typically affected and females are usually carriers.",
+    "D": "Incorrect because mitochondrial inheritance is passed through the maternal line to all children and does not fit Duchenne muscular dystrophy.",
+    "E": "Incorrect because Y-linked disorders would affect only males through the Y chromosome, which is not the inheritance pattern for Duchenne muscular dystrophy."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "ab013ca0-0438-48a8-b13d-9c73b8034de5",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider the chromosome involved and why males are the ones who typically exhibit symptoms.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "68",
+    "lectureTitle": "00068 neurology_motor diff-s1-low (1).mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "e66afff6-c26b-4498-9af2-c2299b21fad3",
+    "overlapScore": 0.4788732394366197,
+    "questionIndex": 2,
+    "quizFileName": "quiz_068.json",
+    "quizTitle": "Neuromuscular Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "b0a634b3-0996-4df3-8023-f79d7fab2197",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:32:06.110Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

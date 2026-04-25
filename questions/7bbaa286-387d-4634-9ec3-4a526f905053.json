@@ -1,0 +1,98 @@
+{
+  "id": "7bbaa286-387d-4634-9ec3-4a526f905053",
+  "stem": "Which feature of growing bone makes non-anatomic reduction more acceptable in some paediatric fractures than in adults?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Remodelling potential",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Higher pain tolerance",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "No need for alignment to heal",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "High risk of non-union",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Faster ligament healing",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Remodelling potential is the key reason. Children's bones can correct mild deformity over time as they grow, so slight imperfections in reduction may still heal with an acceptable final shape.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "8febee40-a1e1-408a-8009-793693ebb19d",
+      "title": "00087 fractures-introducti-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-surgery",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:42.738Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-c6323aa4e8031fa9a4c9",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because growing bone has remodelling potential, allowing deformity to improve over time with continued growth.",
+    "B": "Incorrect because pain tolerance does not determine whether a fracture needs anatomic alignment.",
+    "C": "Incorrect because fractures still require alignment; they are only more forgiving in children because of remodelling.",
+    "D": "Incorrect because non-union is uncommon in children, not a reason to accept poor reduction.",
+    "E": "Incorrect because faster ligament healing is not the main reason non-anatomic reduction is tolerated in paediatric fractures."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "8febee40-a1e1-408a-8009-793693ebb19d",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the unique ability of growing bone to correct its own shape over time.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "87",
+    "lectureTitle": "00087 fractures-introducti-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "b814bbab-0e55-4cae-b392-7a7fcb140601",
+    "overlapScore": 0.4227642276422764,
+    "questionIndex": 11,
+    "quizFileName": "quiz_087.json",
+    "quizTitle": "Orthopedics Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "8b92d7f1-225f-4fee-bf82-2c8b509e4b03",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:27:44.468Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "53a0596a-983e-44ae-97fa-5ee1e4e3d575",
+  "stem": "A 7-year-old boy presents after a splash burn to the anterior trunk and upper arm, with an estimated burn size of 11% body surface area and haemodynamic stability; how should this burn be classified?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A minor burn because he is stable",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "A severe burn because it affects at least 10% body surface area",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "A minor burn because only one side of the body is involved",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "An outpatient burn because most paediatric burns are small",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A moderate burn because it is limited to the trunk and arm",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "A severe burn is classified by burn extent, and any burn affecting 10% or more of body surface area meets that threshold. An 11% burn is therefore severe regardless of haemodynamic stability.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 182,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+  ],
+  "curriculum": "Paediatric Surgery",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T01:19:27.559Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B86-attempt-03-b54106dd70b26ecb0dc0",
+  "rationale": "/",
+  "optionExplanations": {
+    "A": "Incorrect because haemodynamic stability does not change the size-based definition of a severe burn.",
+    "B": "Correct because a burn affecting at least 10% body surface area meets the severe-burn threshold.",
+    "C": "Incorrect because laterality is not the criterion for severity; percentage body surface area is.",
+    "D": "Incorrect because the classification depends on burn extent, and 11% body surface area is severe.",
+    "E": "Incorrect because the relevant severity threshold here is body surface area affected, not anatomical location."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B86-attempt-03",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmws8jyz0001rjm5ymnm2c7t",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3497267759562842,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "6b1e0e21-e4a1-448b-8642-d717c404f860",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B86/attempt-03.accepted-import.json",
+    "originalTags": [
+      "Paediatric Surgery",
+      "Burns and trauma",
+      "burn depth and extent",
+      "severity",
+      "BSA"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:35.760Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

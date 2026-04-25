@@ -1,0 +1,98 @@
+{
+  "id": "35dd571d-79f3-4511-82e9-4cf0cadf1eeb",
+  "stem": "Which complication is specifically associated with temporomandibular joint arthritis in children?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Micrognathia",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Cervical spine fusion",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Hearing loss",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Excessive jaw growth",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Facial nerve palsy",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Micrognathia is the correct answer. Temporomandibular joint arthritis can damage mandibular growth, leading to a small jaw and potential airway or sleep-related problems.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "9914359f-199a-46ac-904d-6bf0b04641a3",
+      "title": "00097 rheumatology-juvenil-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:44.799Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-bc82e84d00acb115f27f",
+  "rationale": "TMJ inflammation can impair normal mandibular growth in childhood.",
+  "optionExplanations": {
+    "A": "Correct because temporomandibular joint arthritis can damage the mandibular growth centre, resulting in micrognathia.",
+    "B": "Incorrect because cervical spine fusion is a separate musculoskeletal manifestation and is not the specific complication of TMJ arthritis asked about here.",
+    "C": "Incorrect because hearing loss is not a primary complication of TMJ arthritis in children.",
+    "D": "Incorrect because TMJ arthritis restricts mandibular growth and causes a smaller jaw, not excessive jaw growth.",
+    "E": "Incorrect because facial nerve palsy is not a typical complication of temporomandibular joint arthritis."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "9914359f-199a-46ac-904d-6bf0b04641a3",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "This condition involves a failure of the lower jaw to develop at a normal rate.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "97",
+    "lectureTitle": "00097 rheumatology-juvenil-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "8ac462a5-5f3d-4255-8a4b-41f01053ea23",
+    "overlapScore": 0.5188679245283019,
+    "questionIndex": 10,
+    "quizFileName": "quiz_097.json",
+    "quizTitle": "Juvenile Arthritis Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "909a88e7-ad48-4478-86a7-ace8d4ec4308",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:25:28.754Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "13c5c926-f22b-4324-b926-5fd18c5baa76",
+  "stem": "A 3-week-old infant has umbilical redness with discharge and the cord has still not separated; which feature is the strongest reason to consider an underlying immunodeficiency or immune dysregulation?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Delayed umbilical cord separation with omphalitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A single episode of uncomplicated bronchiolitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Mild colic in the evenings",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Transient neonatal jaundice that resolved",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Occasional posseting after feeds",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Delayed umbilical cord separation with omphalitis is the strongest red flag here because it should prompt consideration of an underlying immunodeficiency or immune dysregulation.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 108,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T23:00:47.704Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B35-attempt-01-933a1a531f0acc6bef9b",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Correct because delayed separation of the umbilical cord with omphalitis is a recognised warning sign for possible immunodeficiency or immune dysregulation.",
+    "B": "Incorrect because a single uncomplicated episode of bronchiolitis is common and is not, by itself, a strong red flag for immunodeficiency.",
+    "C": "Incorrect because mild evening colic is a common infant behaviour and does not suggest immune dysfunction.",
+    "D": "Incorrect because transient neonatal jaundice that has resolved is not a warning sign for immunodeficiency.",
+    "E": "Incorrect because occasional posseting after feeds is common in young infants and is not suggestive of immune dysregulation."
+  },
+  "moduleCode": null,
+  "difficulty": "Basic",
+  "ausScore": 1,
+  "source": {
+    "batchId": "B35-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwna8c30001rjilm00faddj",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3317972350230415,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "179f3524-1483-4217-9341-fb04c1246d70",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B35/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Immunodeficiency",
+      "warning signs",
+      "diagnostic discrimination"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:24:20.327Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

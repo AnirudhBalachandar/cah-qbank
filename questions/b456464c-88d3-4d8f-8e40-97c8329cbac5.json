@@ -1,0 +1,98 @@
+{
+  "id": "b456464c-88d3-4d8f-8e40-97c8329cbac5",
+  "stem": "A 10-day-old infant has bilateral red eyes with discharge that began on day 9; which diagnosis is most likely?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Chlamydial conjunctivitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Gonococcal conjunctivitis",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Staphylococcal conjunctivitis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Herpes simplex virus conjunctivitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Nasolacrimal duct obstruction",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Chlamydial conjunctivitis is the most likely diagnosis because neonatal chlamydial eye infection typically presents about 5 to 14 days after birth, matching onset on day 9.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+      "title": "00036 ophthalmology-conjun-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:33.771Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-02d4481ba55d5fe3c570",
+  "rationale": "The timing of onset is the key clue for distinguishing common causes of neonatal conjunctivitis.",
+  "optionExplanations": {
+    "A": "Correct because chlamydial conjunctivitis usually presents after the first week of life, commonly around days 5 to 14.",
+    "B": "Incorrect because gonococcal conjunctivitis usually presents much earlier, often within the first 2 to 5 days, and is typically more fulminant.",
+    "C": "Incorrect because staphylococcal conjunctivitis is less classically linked to this day 9 presentation and is not the best fit for the timing given.",
+    "D": "Incorrect because herpes simplex virus conjunctivitis can occur in neonates but is less likely than chlamydial conjunctivitis for this timing and presentation.",
+    "E": "Incorrect because nasolacrimal duct obstruction causes tearing and discharge without true conjunctival injection or red eyes."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "59f24069-a59d-4ed6-b84c-fb47e0972d2c",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Think about the specific day ranges associated with different neonatal pathogens.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "36",
+    "lectureTitle": "00036 ophthalmology-conjun-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "9051b0eb-f08d-474c-9107-9388154caaa5",
+    "overlapScore": 0.4710144927536232,
+    "questionIndex": 2,
+    "quizFileName": "quiz_036.json",
+    "quizTitle": "Ophthalmology Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "714eab24-e0b4-47af-843a-f85fb32e355c",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:37.595Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

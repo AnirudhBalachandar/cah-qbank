@@ -1,0 +1,102 @@
+{
+  "id": "610d1563-e0c2-43dd-8099-4434adb416a7",
+  "stem": "Which clinical scenario best fits an acquired paediatric heart disease rather than a congenital lesion?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "A school-aged child develops cardiac inflammation 3 weeks after Group A streptococcal pharyngitis",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "A newborn with a duct-dependent circulation needs prostaglandin E1 to maintain the ductus arteriosus",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "A baby develops a ventricular septal defect murmur only after pulmonary vascular resistance falls",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "A normal newborn is reviewed again at 6 weeks because coarctation can be missed initially",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A neonate has right ventricular dominance that gradually diminishes through childhood",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Acute rheumatic fever is the correct answer because it is an acquired inflammatory heart disease that can occur 10 days to 6 weeks after Group A streptococcal pharyngitis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 77,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T00:14:10.132Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B45-attempt-01-e80882768245ac685831",
+  "rationale": "Acute rheumatic fever is an acquired disease after Group A streptococcal infection, whereas the other options describe congenital or normal transitional cardiovascular findings.",
+  "optionExplanations": {
+    "A": "Correct because cardiac inflammation appearing 3 weeks after Group A streptococcal pharyngitis fits acute rheumatic fever, an acquired paediatric heart disease.",
+    "B": "Incorrect because prostaglandin E1 use for a duct-dependent circulation describes a congenital cardiac lesion.",
+    "C": "Incorrect because a ventricular septal defect is a congenital lesion that becomes more apparent after pulmonary vascular resistance falls.",
+    "D": "Incorrect because delayed review for coarctation reflects a congenital lesion that may be missed on the newborn examination.",
+    "E": "Incorrect because right ventricular dominance in the newborn is a normal transitional pattern, not acquired disease."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 2,
+  "source": {
+    "batchId": "B45-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmwpwl8l0001rjv1mya1e6ol",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3478260869565217,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "3da49985-8260-4508-ad92-b0770aa6555c",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B45/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Cardiology foundations and acquired disease",
+      "acute rheumatic fever",
+      "congenital vs acquired heart disease"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:55.893Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

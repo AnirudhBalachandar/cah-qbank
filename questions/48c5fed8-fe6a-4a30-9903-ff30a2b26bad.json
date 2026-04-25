@@ -1,0 +1,109 @@
+{
+  "id": "48c5fed8-fe6a-4a30-9903-ff30a2b26bad",
+  "stem": "A 3-year-old is brought to a community paediatrics clinic because his speech is limited; which additional finding most strongly supports autism spectrum disorder rather than isolated language delay?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Lack of gesture and no pointing",
+      "isCorrect": true
+    },
+    {
+      "key": "B",
+      "text": "Macroorchidism and long ears",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Asymmetry of strength and tone",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Growth retardation with a smooth philtrum",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Shagreen patches and seizures",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Lack of gesture and no pointing is the key feature suggesting autism spectrum disorder. These are social communication red flags that extend beyond isolated expressive language delay.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 83,
+      "title": "Community/Developmental - Autism Spectrum Disorder"
+    },
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 15,
+      "title": "Genetic Syndromes and Developmental Delay"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  ],
+  "curriculum": "Community-based Paediatrics",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-18T07:29:11.576Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B12-attempt-01-cfe2ecbf5454e1c73a5d",
+  "rationale": "null",
+  "optionExplanations": {
+    "A": "Correct because lack of gesture and no pointing indicate impaired social communication, which supports autism spectrum disorder over an isolated language delay.",
+    "B": "Incorrect because macroorchidism and long ears suggest Fragile X syndrome rather than the social communication pattern that distinguishes autism spectrum disorder from language delay.",
+    "C": "Incorrect because asymmetry of strength and tone is a general neurological developmental concern, not a specific marker of autism spectrum disorder.",
+    "D": "Incorrect because growth retardation with a smooth philtrum suggests foetal alcohol spectrum disorder rather than the core social communication deficits of autism spectrum disorder.",
+    "E": "Incorrect because shagreen patches and seizures suggest tuberous sclerosis, which may be associated with autism but does not itself identify the key discriminator here."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": null,
+  "source": {
+    "batchId": "B12-attempt-01",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmvq06kw0001rjf7i9191qo6",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3227513227513227,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "f765d0b8-184c-415b-97b6-253251ca0673",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B12/attempt-01.accepted-import.json",
+    "originalTags": [
+      "Community-based Paediatrics",
+      "ASD recognition and assessment",
+      "screening",
+      "social communication"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:26:09.485Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

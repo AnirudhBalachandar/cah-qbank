@@ -1,0 +1,98 @@
+{
+  "id": "8e5fa640-e8e6-4117-a379-3785ac42cd77",
+  "stem": "Why should a bleeding history ask specifically about procedures such as tongue-tie release or circumcision?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "They are the most common causes of immune thrombocytopenia",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Families may not remember or describe them as surgeries",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "They commonly cause vitamin C deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "They are the only way to diagnose factor XIII deficiency",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "They usually indicate inherited haemophilia",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Families may not remember or describe them as surgeries. These minor neonatal procedures can be overlooked unless asked about specifically in a bleeding history.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+      "title": "00063 TK Haematology_Bleed-s1-low.mp4"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat",
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
+    "notebooklm"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "manual",
+  "createdAt": "2026-03-19T19:35:38.020Z",
+  "sourceFingerprint": "notebooklm-notebookLM-quizzes-8468de7bbb6a6574c63a",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because immune thrombocytopenia is unrelated to whether a child has had minor procedures.",
+    "B": "Correct because families may not remember or describe minor neonatal procedures as surgeries, so asking specifically can uncover a relevant bleeding history.",
+    "C": "Incorrect because these procedures do not cause vitamin C deficiency.",
+    "D": "Incorrect because factor XIII deficiency is not diagnosed only by asking about these procedures.",
+    "E": "Incorrect because these procedures do not usually indicate inherited haemophilia."
+  },
+  "moduleCode": null,
+  "difficulty": null,
+  "ausScore": null,
+  "source": {
+    "artifactId": "86dd6a8f-2c95-4606-b3bd-c6a17f0a0b4f",
+    "bundleId": "notebookLM-quizzes",
+    "hint": "Consider how families might perceive minor neonatal procedures compared to major operations.",
+    "importKind": "notebooklm_quiz_bundle",
+    "lecture": "63",
+    "lectureTitle": "00063 TK Haematology_Bleed-s1-low.mp4",
+    "overlapOverrideImport": true,
+    "overlapQuestionId": "0e788b33-5632-4858-870f-41efc5a3b18d",
+    "overlapScore": 0.4018691588785047,
+    "questionIndex": 12,
+    "quizFileName": "quiz_063.json",
+    "quizTitle": "Bleeding Disorders Quiz",
+    "rawAnswerOptionCount": 4,
+    "sourceId": "462ab8f6-4489-455e-8888-bbcdad34de95",
+    "zipPath": "/Users/anirudhbalachandar/Temp/SMP Y3 - 2026/CAH - Term 2/notebookLM quizzes.zip",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:28:23.630Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 4,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "manual"
+    }
+  }
+}

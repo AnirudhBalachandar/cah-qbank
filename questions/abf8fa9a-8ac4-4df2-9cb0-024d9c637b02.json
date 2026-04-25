@@ -1,0 +1,102 @@
+{
+  "id": "abf8fa9a-8ac4-4df2-9cb0-024d9c637b02",
+  "stem": "A 15-year-old says, “I only vape, so at least I’m not smoking cigarettes”; what is the most appropriate response?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vaping is usually not relevant if cigarettes are not being smoked",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Vaping still matters because e-cigarette use is rising in adolescents and is associated with later uptake of traditional cigarettes",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "E-cigarettes are only relevant when used with cannabis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The key question is only whether the parents smoke",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Because smoking rates are declining overall, vaping is not a meaningful adolescent concern",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Vaping still matters. E-cigarette use is increasing in adolescents and is associated with later uptake of traditional cigarettes, so it should be addressed in adolescent risk assessment even when the young person is not currently smoking.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf",
+      "page": 128,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+  ],
+  "curriculum": "Adolescent Medicine",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-17T09:41:42.446Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B04-86f97e188fdc34b849e0",
+  "rationale": null,
+  "optionExplanations": {
+    "A": "Incorrect because vaping is relevant to adolescent substance-use and risk assessment even when cigarettes are not being smoked.",
+    "B": "Correct because e-cigarette use is rising in adolescents and is associated with later uptake of traditional cigarettes, so it remains an important concern.",
+    "C": "Incorrect because the relevance of e-cigarettes does not depend on concurrent cannabis use.",
+    "D": "Incorrect because parental smoking may be relevant, but the adolescent’s own vaping behaviour is still important to assess.",
+    "E": "Incorrect because declining cigarette smoking does not make vaping unimportant; e-cigarette use itself is a growing adolescent concern."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 4,
+  "source": {
+    "batchId": "B04",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmufaqvg0001rjggd8l4gv6x",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.2977099236641221,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "c4bed1cc-4812-4988-adf5-5b18b4b9e18d",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/Projects/cah-qbank/docs/chatgpt-pro/cah-notes-mega-workflow-2026-03-16/outputs/chatgpt-pro-batch-2026-03-17-14.json",
+    "originalTags": [
+      "Adolescent Medicine",
+      "vaping",
+      "substance use",
+      "counselling"
+    ],
+    "sourceRefs": [
+      "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:29:19.803Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

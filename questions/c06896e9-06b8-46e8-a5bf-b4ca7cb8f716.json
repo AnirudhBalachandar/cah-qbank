@@ -1,0 +1,102 @@
+{
+  "id": "c06896e9-06b8-46e8-a5bf-b4ca7cb8f716",
+  "stem": "A child with nephritis has complement testing performed; which complement pattern is most concerning for lupus rather than IgA vasculitis nephritis or uncomplicated post-streptococcal glomerulonephritis?",
+  "questionType": "SBA",
+  "options": [
+    {
+      "key": "A",
+      "text": "Low C3 only",
+      "isCorrect": false
+    },
+    {
+      "key": "B",
+      "text": "Low C4 only",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "Low C3 and low C4",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Normal C3 with low C4",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Normal C3 and normal C4",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Low C3 and low C4 is the complement pattern most concerning for lupus nephritis, whereas isolated low C3 is more in keeping with post-streptococcal glomerulonephritis.",
+  "citations": [
+    {
+      "type": "internal",
+      "source": "Retrieved internal source pack item 1",
+      "page": 73,
+      "title": "Louisa Leone MD3 2025 - Child and Adolescent Health - Study Notes.pdf"
+    }
+  ],
+  "tags": [
+    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
+  "status": "published",
+  "createdBy": "ai",
+  "createdAt": "2026-03-19T07:34:24.423Z",
+  "sourceFingerprint": "manual-chatgpt-pro-B79-attempt-02-cfd20ec3ca85ed0ba9a2",
+  "rationale": ":",
+  "optionExplanations": {
+    "A": "Incorrect because isolated low C3 is more typical of complement activation in post-streptococcal glomerulonephritis.",
+    "B": "Incorrect because isolated low C4 is not the key pattern highlighted for lupus nephritis.",
+    "C": "Correct because both C3 and C4 are low in lupus-related complement consumption, making this pattern more concerning for lupus nephritis.",
+    "D": "Incorrect because a normal C3 with low C4 is not the classic complement pattern that most strongly suggests lupus nephritis.",
+    "E": "Incorrect because normal complement levels do not support the complement consumption pattern that raises concern for lupus nephritis."
+  },
+  "moduleCode": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
+  "source": {
+    "batchId": "B79-attempt-02",
+    "generationMethod": "manual_chatgpt_pro_import",
+    "generationRunId": "cmmx5mqnm0001rjmxzw40hjem",
+    "localSimilarityCheck": {
+      "maxOverlap": 0.3290322580645161,
+      "mode": "trigram_overlap_only",
+      "overlapQuestionId": "a1e9aa20-71ed-473f-88f1-28f9bfd9b106",
+      "threshold": 0.35
+    },
+    "manualImportPath": "/Users/anirudhbalachandar/.codex/worktrees/5d53/cah-qbank/workflow/artifacts/raw/cah-notes-mega-2026-03-16/B79/attempt-02.accepted-import.json",
+    "originalTags": [
+      "Paediatric Sub-specialties",
+      "Vasculitis",
+      "initial investigations",
+      "investigation interpretation"
+    ],
+    "sourceRefs": [
+      "Retrieved internal source pack item 1"
+    ],
+    "strictness": "strict_internal",
+    "promotionReadiness": {
+      "status": "ready_for_published_practice",
+      "blockers": [],
+      "reason": "Draft is schema-valid, answerable, tagged, cited, and normalized for the plain-text UI.",
+      "preparedAt": "2026-04-23T07:09:20.779Z"
+    },
+    "stylePolish": {
+      "polishedAt": "2026-04-23T07:30:05.038Z",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "originalOptionCount": 5,
+      "houseStyleVersion": "2026-04-23-v1"
+    },
+    "review": {
+      "reviewedBy": "anirudhbalachandar",
+      "reviewedAt": "2026-04-25T00:46:58.011Z",
+      "decision": "publish",
+      "promotedAt": "2026-04-25T00:46:58.011Z",
+      "promotedFromCreatedBy": "ai"
+    }
+  }
+}

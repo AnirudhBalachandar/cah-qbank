@@ -1,42 +1,68 @@
 {
   "id": "c3b78ef0-eeff-4594-b5f7-894c1c086049",
-  "stem": "What is the best way to prevent reperfusion injury of the GIT in burns patients?",
+  "stem": "Which intervention helps reduce gastrointestinal complications and support recovery after a significant paediatric burn?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Early intestinal feeding",
-      "isCorrect": null
+      "text": "Early enteral nutrition when clinically appropriate",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Late resuscitation",
-      "isCorrect": null
+      "text": "Routine prolonged fasting",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Delayed intestinal feeding",
-      "isCorrect": null
+      "text": "Avoid all protein intake",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "escharotmoy",
-      "isCorrect": null
+      "text": "Daily prophylactic broad-spectrum antibiotics for all burns",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ice-water immersion",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Children with significant burns have increased nutritional requirements, and early enteral feeding is used when clinically appropriate to support recovery and reduce complications.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_Post_Acute_Care_and_Dressings/",
+      "title": "Clinical Practice Guidelines: Burns - post acute care and dressings"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+      "title": "Clinical Practice Guidelines: Burns - acute management"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/burns"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.967Z",
   "sourceFingerprint": "b626a8512139b82093493d45",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Children with significant burns have increased nutritional requirements, and early enteral feeding is used when clinically appropriate to support recovery and reduce complications.",
+  "optionExplanations": {
+    "A": "Children with significant burns have increased nutritional requirements, and early enteral feeding is used when clinically appropriate to support recovery and reduce complications.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers).docx",
     "importedAt": "2026-03-16T02:22:41.792Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "55224667b6b3a5a0bd22"
+    "stemHash": "55224667b6b3a5a0bd22",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Burns - post acute care and dressings",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_Post_Acute_Care_and_Dressings/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports nutrition, dressings and prevention of post-acute burn complications."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Burns - acute management",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports burn first aid, cooling, keeping the child warm and acute burn resuscitation principles."
+        }
+      ],
+      "preRepair": {
+        "stem": "What is the best way to prevent reperfusion injury of the GIT in burns patients?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Early intestinal feeding",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Late resuscitation",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Delayed intestinal feeding",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "escharotmoy",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

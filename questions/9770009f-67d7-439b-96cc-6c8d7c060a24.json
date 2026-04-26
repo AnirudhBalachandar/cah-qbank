@@ -1,50 +1,68 @@
 {
   "id": "9770009f-67d7-439b-96cc-6c8d7c060a24",
-  "stem": "answers:",
+  "stem": "A 5-week-old infant has progressive projectile non-bilious vomiting after feeds and remains hungry afterwards. Blood gas shows hypochloraemic metabolic alkalosis. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "pyloric stenosis",
-      "isCorrect": null
+      "text": "Pyloric stenosis",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "reflux",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "uti",
-      "isCorrect": null
+      "text": "Hirschsprung disease",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "gastro",
-      "isCorrect": null
+      "text": "Duodenal atresia",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "metabolic disorder",
-      "isCorrect": null
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Pyloric stenosis typically presents at 2 to 6 weeks with progressive projectile non-bilious vomiting, hunger after feeds and hypochloraemic metabolic alkalosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+      "title": "Clinical Practice Guidelines: Pyloric stenosis"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+      "title": "Clinical Practice Guidelines: Vomiting"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/vomiting-infant"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.144Z",
   "sourceFingerprint": "587677b86d0091882b8b464f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Pyloric stenosis typically presents at 2 to 6 weeks with progressive projectile non-bilious vomiting, hunger after feeds and hypochloraemic metabolic alkalosis.",
+  "optionExplanations": {
+    "A": "Pyloric stenosis typically presents at 2 to 6 weeks with progressive projectile non-bilious vomiting, hunger after feeds and hypochloraemic metabolic alkalosis.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.996Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8d0ff910dc2909961eb6"
+    "stemHash": "8d0ff910dc2909961eb6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Pyloric stenosis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports non-bilious projectile vomiting in early infancy and hypochloraemic metabolic alkalosis."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Vomiting",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports assessment of vomiting patterns, including red flags in infants and children."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers:",
+        "options": [
+          {
+            "key": "A",
+            "text": "pyloric stenosis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "reflux",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "uti",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "gastro",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "metabolic disorder",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

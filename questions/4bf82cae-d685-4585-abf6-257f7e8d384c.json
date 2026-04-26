@@ -1,42 +1,68 @@
 {
   "id": "4bf82cae-d685-4585-abf6-257f7e8d384c",
-  "stem": "What has the best evidence for the use of oral corticosteroids:",
+  "stem": "In which child are oral corticosteroids most clearly indicated?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Child with cough but no wheeze",
-      "isCorrect": null
+      "text": "A child with cough but no wheeze",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Acute Viral induced wheeze",
-      "isCorrect": null
+      "text": "An infant with bronchiolitis",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Children with asthma not fully responding to inhaled bronchodilators",
-      "isCorrect": null
+      "text": "A child with acute asthma not adequately responding to inhaled salbutamol",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Child under 5 years old with wheeze",
-      "isCorrect": null
+      "text": "A preschool child with mild viral wheeze that has fully settled",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "A child with uncomplicated viral upper respiratory symptoms",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Systemic corticosteroids are indicated for acute asthma exacerbations when symptoms are more than mild or not responding adequately to bronchodilator therapy. They are not routinely used for bronchiolitis or uncomplicated viral cough.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+      "title": "Clinical Practice Guidelines: Acute asthma"
+    },
+    {
+      "type": "external",
+      "source": "National Asthma Council Australia",
+      "url": "https://www.asthmahandbook.org.au/download/1295",
+      "title": "Australian Asthma Handbook: Managing acute asthma in clinical settings"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/asthma"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.960Z",
   "sourceFingerprint": "ca9d3611a423989b915a2fbf",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Systemic corticosteroids are indicated for acute asthma exacerbations when symptoms are more than mild or not responding adequately to bronchodilator therapy. They are not routinely used for bronchiolitis or uncomplicated viral cough.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Systemic corticosteroids are indicated for acute asthma exacerbations when symptoms are more than mild or not responding adequately to bronchodilator therapy. They are not routinely used for bronchiolitis or uncomplicated viral cough.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.972Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "047af2ba393ae2066e81"
+    "stemHash": "047af2ba393ae2066e81",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Acute asthma",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports use of salbutamol as reliever therapy and oral corticosteroids for acute asthma not responding adequately to bronchodilator therapy."
+        },
+        {
+          "title": "Australian Asthma Handbook: Managing acute asthma in clinical settings",
+          "url": "https://www.asthmahandbook.org.au/download/1295",
+          "organization": "National Asthma Council Australia",
+          "sourceType": "australian_guideline",
+          "supports": "Supports Australian acute asthma treatment with salbutamol and systemic corticosteroids when indicated."
+        }
+      ],
+      "preRepair": {
+        "stem": "What has the best evidence for the use of oral corticosteroids:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Child with cough but no wheeze",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Acute Viral induced wheeze",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Children with asthma not fully responding to inhaled bronchodilators",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Child under 5 years old with wheeze",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

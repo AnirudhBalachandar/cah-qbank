@@ -1,62 +1,68 @@
 {
   "id": "7dc86c47-00e8-4c32-811d-b5d5ff1f7786",
-  "stem": "Hearing/autism",
+  "stem": "A 3-year-old has no spoken words, poor eye contact and becomes very distressed if toy trains are moved out of a particular line. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Autism",
-      "isCorrect": null
+      "text": "Hearing impairment",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "ADHD",
-      "isCorrect": null
+      "text": "Attention deficit hyperactivity disorder",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Aspergers",
-      "isCorrect": null
+      "text": "Autism spectrum disorder",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "GDD",
-      "isCorrect": null
+      "text": "Global developmental delay",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Hearing problem",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Isolated speech problem",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "6 year old girl, not disruptive. Doesn’t cause trouble at home. Only pays attention to teacher when she speaks face to face up close. Doesn’t pay attention during reading time in class. All gross motor/fine motor skills normal milestones. Plays well. Delayed speech, knows colours. Has 20 words but does not form sentences, only 4 word phrases.",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "3 year old, shy, quiet. Does not make eye contact well, loves Thomas the tank engine. Does not like it when people move his Thomas the tank engine out of the line with the other trains. Does not talk",
-      "isCorrect": null
+      "text": "Oppositional defiant disorder",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Poor eye contact, absent language and restricted repetitive play are characteristic of autism spectrum disorder. Hearing impairment should be assessed, but the restricted and repetitive behaviour strongly supports autism.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/uploadedFiles/Main/Content/ccch/Community_Paediatric_Review_Vol_19_No_1_March_2011_-_ASD.pdf",
+      "title": "Community Paediatric Review: Autism spectrum disorders"
+    },
+    {
+      "type": "external",
+      "source": "Sydney Children's Hospitals Network",
+      "url": "https://www.schn.health.nsw.gov.au/factsheets/developmental-delay",
+      "title": "Developmental delay"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/development"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.706Z",
   "sourceFingerprint": "bfe056ba3e243bb221fc3985",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Poor eye contact, absent language and restricted repetitive play are characteristic of autism spectrum disorder. Hearing impairment should be assessed, but the restricted and repetitive behaviour strongly supports autism.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Poor eye contact, absent language and restricted repetitive play are characteristic of autism spectrum disorder. Hearing impairment should be assessed, but the restricted and repetitive behaviour strongly supports autism.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.293Z",
@@ -71,6 +77,83 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "b4b8305480068d11dd9b"
+    "stemHash": "b4b8305480068d11dd9b",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Community Paediatric Review: Autism spectrum disorders",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/ccch/Community_Paediatric_Review_Vol_19_No_1_March_2011_-_ASD.pdf",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports autism features including social-communication impairment and restricted repetitive behaviours."
+        },
+        {
+          "title": "Developmental delay",
+          "url": "https://www.schn.health.nsw.gov.au/factsheets/developmental-delay",
+          "organization": "Sydney Children's Hospitals Network",
+          "sourceType": "australian_health",
+          "supports": "Supports global developmental delay as delay in multiple developmental domains."
+        }
+      ],
+      "preRepair": {
+        "stem": "Hearing/autism",
+        "options": [
+          {
+            "key": "A",
+            "text": "Autism",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "ADHD",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Aspergers",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "GDD",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Hearing problem",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Isolated speech problem",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "6 year old girl, not disruptive. Doesn’t cause trouble at home. Only pays attention to teacher when she speaks face to face up close. Doesn’t pay attention during reading time in class. All gross motor/fine motor skills normal milestones. Plays well. Delayed speech, knows colours. Has 20 words but does not form sentences, only 4 word phrases.",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "3 year old, shy, quiet. Does not make eye contact well, loves Thomas the tank engine. Does not like it when people move his Thomas the tank engine out of the line with the other trains. Does not talk",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,62 +1,62 @@
 {
   "id": "72ec78d6-71f5-42a3-b258-b07a445d285a",
-  "stem": "Gram stains",
+  "stem": "A urine microscopy from a child with UTI shows Gram-negative rods. Which organism is the most common cause?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Strep pneumoniae",
-      "isCorrect": null
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Staph aureus",
-      "isCorrect": null
+      "text": "Staphylococcus aureus",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "E coli",
-      "isCorrect": null
+      "text": "Escherichia coli",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Klebsiella",
-      "isCorrect": null
+      "text": "Klebsiella pneumoniae",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Strep viridans",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
       "text": "Enterococcus faecalis",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Mycoplasma pneumonia",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "Pseudomonas aeruginosa",
-      "isCorrect": null
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Escherichia coli is the most common cause of childhood urinary tract infection and appears as a Gram-negative rod.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_tract_infection/",
+      "title": "Clinical Practice Guidelines: Urinary tract infection"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/infection"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.841Z",
   "sourceFingerprint": "1517583bd6692e0baa72dc2e",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Escherichia coli is the most common cause of childhood urinary tract infection and appears as a Gram-negative rod.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Escherichia coli is the most common cause of childhood urinary tract infection and appears as a Gram-negative rod.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.661Z",
@@ -71,6 +71,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "c90424f8576b8960f2c7"
+    "stemHash": "c90424f8576b8960f2c7",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Urinary tract infection",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_tract_infection/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and typical microbiology of paediatric urinary tract infection."
+        }
+      ],
+      "preRepair": {
+        "stem": "Gram stains",
+        "options": [
+          {
+            "key": "A",
+            "text": "Strep pneumoniae",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Staph aureus",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "E coli",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Klebsiella",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Strep viridans",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Enterococcus faecalis",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Mycoplasma pneumonia",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "Pseudomonas aeruginosa",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

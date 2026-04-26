@@ -1,50 +1,62 @@
 {
   "id": "ff1a41cf-ae24-4ace-8cce-748b037187b7",
-  "stem": "Testing for congenital hypothyroid – what are you looking for?",
+  "stem": "A newborn screening result shows a markedly elevated TSH with low free thyroxine. What is the most likely cause pattern?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "High TSH due to central cause",
-      "isCorrect": null
+      "text": "Central hypothyroidism from pituitary failure",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Low TSH due to central cause",
-      "isCorrect": null
+      "text": "Transient hyperthyroidism",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "High TSH due to glandular cause",
-      "isCorrect": null
+      "text": "Primary congenital hypothyroidism",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Low TSH due to glandular cause",
-      "isCorrect": null
+      "text": "Normal newborn thyroid physiology",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Low T4 due to glandular cause",
-      "isCorrect": null
+      "text": "Iodine excess causing hyperthyroidism",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A high TSH with low free thyroxine indicates primary hypothyroidism, where the thyroid gland is underactive and the pituitary responds by increasing TSH.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Safer Care Victoria",
+      "url": "https://www.safercare.vic.gov.au/best-practice-improvement/clinical-guidance/neonatal/hypothyroidism-in-neonates",
+      "title": "Hypothyroidism in neonates"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "paediatric-sub-specialties/endocrinology"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.020Z",
   "sourceFingerprint": "3ed417b9c65b7383cd762487",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A high TSH with low free thyroxine indicates primary hypothyroidism, where the thyroid gland is underactive and the pituitary responds by increasing TSH.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "A high TSH with low free thyroxine indicates primary hypothyroidism, where the thyroid gland is underactive and the pituitary responds by increasing TSH.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.376Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "f8ce0c2998e5b9cfb408"
+    "stemHash": "f8ce0c2998e5b9cfb408",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Hypothyroidism in neonates",
+          "url": "https://www.safercare.vic.gov.au/best-practice-improvement/clinical-guidance/neonatal/hypothyroidism-in-neonates",
+          "organization": "Safer Care Victoria",
+          "sourceType": "australian_guideline",
+          "supports": "Supports neonatal hypothyroidism screening interpretation and primary hypothyroidism with elevated TSH."
+        }
+      ],
+      "preRepair": {
+        "stem": "Testing for congenital hypothyroid – what are you looking for?",
+        "options": [
+          {
+            "key": "A",
+            "text": "High TSH due to central cause",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Low TSH due to central cause",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "High TSH due to glandular cause",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Low TSH due to glandular cause",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Low T4 due to glandular cause",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

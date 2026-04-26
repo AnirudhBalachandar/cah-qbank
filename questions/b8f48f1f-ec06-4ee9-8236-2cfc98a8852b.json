@@ -1,52 +1,68 @@
 {
   "id": "b8f48f1f-ec06-4ee9-8236-2cfc98a8852b",
-  "stem": "Vaccinations",
+  "stem": "A 3-month-old infant has one week of coughing paroxysms with oxygen desaturation during episodes but normal saturations between episodes. Which vaccine-preventable disease is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Rotavirus",
-      "isCorrect": null
+      "text": "Measles",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Rubella",
-      "isCorrect": null
+      "text": "Varicella",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Polio",
-      "isCorrect": null
+      "text": "Rotavirus",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Pertussis",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "Diptheria",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Pneumococcus",
-      "isCorrect": null
+      "text": "Hib meningitis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Pertussis can cause paroxysmal cough with apnoea or desaturation in young infants, and is vaccine-preventable with pertussis-containing vaccines.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough",
+      "title": "Australian Immunisation Handbook: Pertussis (whooping cough)"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/whooping_cough_pertussis/",
+      "title": "Clinical Practice Guidelines: Whooping cough (pertussis)"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/infectious-diseases"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.634Z",
   "sourceFingerprint": "749f4e2f207aa49a39aa7f02",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Pertussis can cause paroxysmal cough with apnoea or desaturation in young infants, and is vaccine-preventable with pertussis-containing vaccines.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Pertussis can cause paroxysmal cough with apnoea or desaturation in young infants, and is vaccine-preventable with pertussis-containing vaccines.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.461Z",
@@ -61,6 +77,73 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "c7bf3166816b44ec901f"
+    "stemHash": "c7bf3166816b44ec901f",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Australian Immunisation Handbook: Pertussis (whooping cough)",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports pertussis vaccination and severe infant presentations with cough episodes and apnoea."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Whooping cough (pertussis)",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/whooping_cough_pertussis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports recognition of pertussis in infants with paroxysmal cough and apnoea/desaturation."
+        }
+      ],
+      "preRepair": {
+        "stem": "Vaccinations",
+        "options": [
+          {
+            "key": "A",
+            "text": "Rotavirus",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Rubella",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Polio",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Pertussis",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Diptheria",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Pneumococcus",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,42 +1,62 @@
 {
   "id": "5a3e3525-2793-45c4-9cd2-ef7979b6646a",
-  "stem": "Which of the following is the most useful in determining the presence of a foreign body in the airways of an 18 month old?",
+  "stem": "An 18-month-old with suspected inhaled foreign body cannot cooperate with expiratory chest films. Which additional chest radiographic view is most useful?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Inspiratory and expiratory CXR",
-      "isCorrect": null
+      "text": "AP lordotic chest radiograph",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "CT",
-      "isCorrect": null
+      "text": "Lateral decubitus chest radiograph",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Lateral decubitus CXR",
-      "isCorrect": null
+      "text": "Oblique cervical spine radiograph",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Lateral CXR",
-      "isCorrect": null
+      "text": "Abdominal radiograph only",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Pelvic radiograph",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "When a young child cannot cooperate with expiratory views, lateral decubitus chest radiographs can help demonstrate air trapping from an inhaled foreign body.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+      "title": "Clinical Practice Guidelines: Foreign bodies inhaled"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/respiratory"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.970Z",
   "sourceFingerprint": "a186e20527a1f5cc06caf8bf",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "When a young child cannot cooperate with expiratory views, lateral decubitus chest radiographs can help demonstrate air trapping from an inhaled foreign body.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "When a young child cannot cooperate with expiratory views, lateral decubitus chest radiographs can help demonstrate air trapping from an inhaled foreign body.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers).docx",
     "importedAt": "2026-03-16T02:22:41.795Z",
@@ -51,6 +71,56 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1bf5f6185d81d3686d2f"
+    "stemHash": "1bf5f6185d81d3686d2f",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.87,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Foreign bodies inhaled",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and imaging of suspected inhaled foreign body, including hyperinflation and decubitus/expiratory views."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which of the following is the most useful in determining the presence of a foreign body in the airways of an 18 month old?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Inspiratory and expiratory CXR",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "CT",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Lateral decubitus CXR",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Lateral CXR",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

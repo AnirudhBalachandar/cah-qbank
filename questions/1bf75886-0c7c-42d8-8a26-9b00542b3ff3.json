@@ -1,50 +1,74 @@
 {
   "id": "1bf75886-0c7c-42d8-8a26-9b00542b3ff3",
-  "stem": "1 year old was in hospital for some gastroenteritis or something. He was treated with fluids and supportive care. He then returned a few days later with non-febrile vomiting and now has tachycardia. What is appropriate rehydration or fluid management?",
+  "stem": "A 1-year-old child re-presents after gastroenteritis with persistent vomiting, tachycardia and moderate dehydration despite an attempted oral fluid trial. What is the most appropriate fluid management?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Admit and continue fluid trial",
-      "isCorrect": null
+      "text": "Admit and continue oral fluids only",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "IV rehydration",
-      "isCorrect": null
+      "text": "Intravenous rehydration",
+      "isCorrect": true
     },
     {
       "key": "C",
       "text": "Maintenance fluids only",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Oral rehydration",
-      "isCorrect": null
+      "text": "Discharge with oral rehydration solution",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "No fluids",
-      "isCorrect": null
+      "text": "No fluid treatment",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A child with ongoing vomiting, tachycardia and moderate dehydration after failed oral rehydration requires intravenous rehydration. Oral rehydration remains preferred when tolerated, but this child has failed that approach.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/gastroenteritis/",
+      "title": "Clinical Practice Guidelines: Gastroenteritis"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+      "title": "Clinical Practice Guidelines: Dehydration"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+    "general-paediatrics/fluids-dehydration"
   ],
   "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.176Z",
   "sourceFingerprint": "ff1d5aac496c99a5df30eec2",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A child with ongoing vomiting, tachycardia and moderate dehydration after failed oral rehydration requires intravenous rehydration. Oral rehydration remains preferred when tolerated, but this child has failed that approach.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "A child with ongoing vomiting, tachycardia and moderate dehydration after failed oral rehydration requires intravenous rehydration. Oral rehydration remains preferred when tolerated, but this child has failed that approach.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.588Z",
@@ -59,6 +83,78 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "66f5f4a5031b5876b08e"
+    "stemHash": "66f5f4a5031b5876b08e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Gastroenteritis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/gastroenteritis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports oral rehydration when tolerated and IV rehydration when oral rehydration fails or dehydration is significant."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports dehydration assessment and deficit plus maintenance fluid calculations."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        }
+      ],
+      "preRepair": {
+        "stem": "1 year old was in hospital for some gastroenteritis or something. He was treated with fluids and supportive care. He then returned a few days later with non-febrile vomiting and now has tachycardia. What is appropriate rehydration or fluid management?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Admit and continue fluid trial",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "IV rehydration",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Maintenance fluids only",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Oral rehydration",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "No fluids",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,37 +1,68 @@
 {
   "id": "1ac979cc-8f62-40e5-8ac1-43df305c3b76",
-  "stem": "Developmental delay",
+  "stem": "A child is delayed in language, gross motor, fine motor and social developmental domains. Which term best describes this pattern?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Global",
-      "isCorrect": null
+      "text": "Global developmental delay",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Autism",
-      "isCorrect": null
+      "text": "Autism spectrum disorder",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Asperger’s",
-      "isCorrect": null
+      "text": "Asperger syndrome",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Isolated speech delay",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Attention deficit hyperactivity disorder",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Global developmental delay describes significant delay across more than one developmental domain. Isolated speech delay affects language alone, while autism is primarily defined by social-communication differences and restricted or repetitive behaviours.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Sydney Children's Hospitals Network",
+      "url": "https://www.schn.health.nsw.gov.au/factsheets/developmental-delay",
+      "title": "Developmental delay"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/uploadedFiles/Main/Content/ccch/Community_Paediatric_Review_Vol_19_No_1_March_2011_-_ASD.pdf",
+      "title": "Community Paediatric Review: Autism spectrum disorders"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/development"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.627Z",
   "sourceFingerprint": "202f5512650d2947c227bc6f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Global developmental delay describes significant delay across more than one developmental domain. Isolated speech delay affects language alone, while autism is primarily defined by social-communication differences and restricted or repetitive behaviours.",
+  "optionExplanations": {
+    "A": "Global developmental delay describes significant delay across more than one developmental domain. Isolated speech delay affects language alone, while autism is primarily defined by social-communication differences and restricted or repetitive behaviours.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.457Z",
@@ -46,6 +77,58 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e287f8f7af7e872b5814"
+    "stemHash": "e287f8f7af7e872b5814",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Developmental delay",
+          "url": "https://www.schn.health.nsw.gov.au/factsheets/developmental-delay",
+          "organization": "Sydney Children's Hospitals Network",
+          "sourceType": "australian_health",
+          "supports": "Supports global developmental delay as delay in multiple developmental domains."
+        },
+        {
+          "title": "Community Paediatric Review: Autism spectrum disorders",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/ccch/Community_Paediatric_Review_Vol_19_No_1_March_2011_-_ASD.pdf",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports autism features including social-communication impairment and restricted repetitive behaviours."
+        }
+      ],
+      "preRepair": {
+        "stem": "Developmental delay",
+        "options": [
+          {
+            "key": "A",
+            "text": "Global",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Autism",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Asperger’s",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

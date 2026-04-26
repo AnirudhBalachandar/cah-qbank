@@ -1,57 +1,62 @@
 {
   "id": "8ba3e196-c079-4d13-a105-ad120076d1b1",
-  "stem": "Genetics",
+  "stem": "Two unaffected parents are both carriers of the same autosomal recessive condition. What is the chance that each pregnancy will result in an affected child?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "½",
-      "isCorrect": null
+      "text": "1 in 2",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "¼",
-      "isCorrect": null
+      "text": "1 in 4",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "1/10000",
-      "isCorrect": null
+      "text": "1 in 8",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "1/25000",
-      "isCorrect": null
+      "text": "3 in 4",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "1/100000",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "What is the risk of having an affected child when both parents are carriers of an autosomal recessive condition.",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "The disease has is autosomal dominant and has a risk of 1/10000 in the general population, what is the risk",
-      "isCorrect": null
+      "text": "4 in 4",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "When both parents are carriers of the same autosomal recessive condition, each pregnancy has a 1 in 4, or 25 percent, chance of producing an affected child.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Centre for Genetics Education NSW",
+      "url": "https://www.genetics.edu.au/SitePages/Autosomal-recessive-inheritance.aspx",
+      "title": "Autosomal recessive inheritance"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/genetics"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.155Z",
   "sourceFingerprint": "2889593e020c3d16cc5bed2d",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "When both parents are carriers of the same autosomal recessive condition, each pregnancy has a 1 in 4, or 25 percent, chance of producing an affected child.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "When both parents are carriers of the same autosomal recessive condition, each pregnancy has a 1 in 4, or 25 percent, chance of producing an affected child.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.054Z",
@@ -66,6 +71,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "3b096ab7467aff69376a"
+    "stemHash": "3b096ab7467aff69376a",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.95,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Autosomal recessive inheritance",
+          "url": "https://www.genetics.edu.au/SitePages/Autosomal-recessive-inheritance.aspx",
+          "organization": "Centre for Genetics Education NSW",
+          "sourceType": "australian_health",
+          "supports": "Supports the 1 in 4 recurrence risk when both parents are carriers of an autosomal recessive condition."
+        }
+      ],
+      "preRepair": {
+        "stem": "Genetics",
+        "options": [
+          {
+            "key": "A",
+            "text": "½",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "¼",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "1/10000",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "1/25000",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "1/100000",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "What is the risk of having an affected child when both parents are carriers of an autosomal recessive condition.",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "The disease has is autosomal dominant and has a risk of 1/10000 in the general population, what is the risk",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

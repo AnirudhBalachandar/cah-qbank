@@ -1,55 +1,68 @@
 {
   "id": "77df38e1-bd61-4f7d-8d39-b7745839883b",
-  "stem": "Hip pain",
+  "stem": "An overweight 13-year-old has hip and knee pain, a limp and reduced internal rotation of the hip with the leg resting externally rotated. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Perthes",
-      "isCorrect": null
+      "text": "Perthes disease",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "DDH",
-      "isCorrect": null
+      "text": "Developmental dysplasia of the hip",
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Transient synovitis",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "SCFE",
-      "isCorrect": null
+      "text": "Slipped upper femoral epiphysis",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "Child abuse",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Fractures",
-      "isCorrect": null
+      "text": "Septic arthritis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Slipped upper femoral epiphysis typically presents in adolescents with hip, groin or knee pain, limp and reduced internal rotation, often with the affected leg externally rotated.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/",
+      "title": "Slipped upper femoral epiphysis - Emergency Department"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+      "title": "Clinical Practice Guidelines: The limping or non-weight bearing child"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/orthopaedics"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.196Z",
   "sourceFingerprint": "77292dc9c4a390a679f906b5",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Slipped upper femoral epiphysis typically presents in adolescents with hip, groin or knee pain, limp and reduced internal rotation, often with the affected leg externally rotated.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Slipped upper femoral epiphysis typically presents in adolescents with hip, groin or knee pain, limp and reduced internal rotation, often with the affected leg externally rotated.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.603Z",
@@ -64,6 +77,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "a9a96677f2d9763a15ac"
+    "stemHash": "a9a96677f2d9763a15ac",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Slipped upper femoral epiphysis - Emergency Department",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports SUFE presentation with adolescent hip/knee pain and altered hip rotation."
+        },
+        {
+          "title": "Clinical Practice Guidelines: The limping or non-weight bearing child",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports age-based differential diagnosis for limp, including Perthes disease and SUFE."
+        }
+      ],
+      "preRepair": {
+        "stem": "Hip pain",
+        "options": [
+          {
+            "key": "A",
+            "text": "Perthes",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "DDH",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Transient synovitis",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "SCFE",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Child abuse",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Fractures",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

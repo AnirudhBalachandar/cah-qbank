@@ -1,45 +1,68 @@
 {
   "id": "5a0f72b2-f422-43fc-a5a4-ef1c049e0d74",
-  "stem": "GI",
+  "stem": "A neonate has bilious vomiting and abdominal radiography suggests proximal obstruction. Which diagnosis is the most urgent to exclude?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Malorotation and volvulus",
-      "isCorrect": null
+      "text": "Malrotation with volvulus",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Intussuception",
-      "isCorrect": null
+      "text": "Intussusception",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "……",
-      "isCorrect": null
+      "text": "Pyloric stenosis",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Neonate 6 days old, bilious vomiting, xray showed no air beyond duodenum",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Functional constipation",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Bilious vomiting in a neonate is a surgical emergency until malrotation with volvulus is excluded. Pyloric stenosis causes non-bilious vomiting, and intussusception is more typical later in infancy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/",
+      "title": "Clinical Practice Guidelines: Recognition of the seriously unwell neonate and young infant"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+      "title": "Clinical Practice Guidelines: Vomiting"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/neonatal-vomiting"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.151Z",
   "sourceFingerprint": "61f17883852f677c9101d9db",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Bilious vomiting in a neonate is a surgical emergency until malrotation with volvulus is excluded. Pyloric stenosis causes non-bilious vomiting, and intussusception is more typical later in infancy.",
+  "optionExplanations": {
+    "A": "Bilious vomiting in a neonate is a surgical emergency until malrotation with volvulus is excluded. Pyloric stenosis causes non-bilious vomiting, and intussusception is more typical later in infancy.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.053Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1917d730c88ed0f6fd76"
+    "stemHash": "1917d730c88ed0f6fd76",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Recognition of the seriously unwell neonate and young infant",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports urgent assessment of bilious vomiting and serious neonatal presentations."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Vomiting",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports assessment of vomiting patterns, including red flags in infants and children."
+        }
+      ],
+      "preRepair": {
+        "stem": "GI",
+        "options": [
+          {
+            "key": "A",
+            "text": "Malorotation and volvulus",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Intussuception",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "……",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Neonate 6 days old, bilious vomiting, xray showed no air beyond duodenum",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

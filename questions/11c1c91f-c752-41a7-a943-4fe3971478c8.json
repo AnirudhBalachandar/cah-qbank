@@ -1,50 +1,68 @@
 {
   "id": "11c1c91f-c752-41a7-a943-4fe3971478c8",
-  "stem": "Kid in a car crash- lots of trauma, brought in by ambulance to ED with a GCS of 7. Some tachy &amp; hypotension? Best management? (had no idea for this one???)- some options included get IV access",
+  "stem": "A child arrives after a high-speed car crash with multiple injuries, hypotension and a Glasgow Coma Scale score of 7. What is the best immediate management priority?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Call trauma specialists",
-      "isCorrect": null
+      "text": "Call the trauma team and wait for their arrival before intervening",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Secure the airway, sats &amp; log roll",
-      "isCorrect": null
+      "text": "Give morphine before assessing airway and breathing",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Something with morphine as well",
-      "isCorrect": null
+      "text": "Secure the airway with cervical spine protection and give high-flow oxygen",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "?",
-      "isCorrect": null
+      "text": "Log roll the child before airway assessment",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "? I think this related to getting a guedels in (GCS 7) and getting urgent fluids in due to hypotension ++.",
-      "isCorrect": null
+      "text": "Transfer directly to CT before stabilisation",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A child with major trauma and a GCS of 7 needs immediate airway management with cervical spine protection as part of the primary survey. Analgesia, imaging and secondary survey steps are important but must not precede airway and oxygenation priorities.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_primary_survey/",
+      "title": "Clinical Practice Guidelines: Major paediatric trauma - the primary survey"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_spine_assessment/",
+      "title": "Clinical Practice Guidelines: Cervical spine assessment"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/trauma"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.328Z",
   "sourceFingerprint": "5605198829d5d74417028f3c",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A child with major trauma and a GCS of 7 needs immediate airway management with cervical spine protection as part of the primary survey. Analgesia, imaging and secondary survey steps are important but must not precede airway and oxygenation priorities.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "A child with major trauma and a GCS of 7 needs immediate airway management with cervical spine protection as part of the primary survey. Analgesia, imaging and secondary survey steps are important but must not precede airway and oxygenation priorities.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - 2012 July.docx",
     "importedAt": "2026-03-16T02:22:40.834Z",
@@ -60,6 +78,71 @@
       "html-fallback"
     ],
     "sectionTitle": "SBA",
-    "stemHash": "6f02d8ca502d38617d7d"
+    "stemHash": "6f02d8ca502d38617d7d",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Major paediatric trauma - the primary survey",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_primary_survey/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports ABCDE priorities, airway protection, cervical spine protection and early trauma team activation in major paediatric trauma."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Cervical spine assessment",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_spine_assessment/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports cervical spine protection and assessment in injured children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid in a car crash- lots of trauma, brought in by ambulance to ED with a GCS of 7. Some tachy &amp; hypotension? Best management? (had no idea for this one???)- some options included get IV access",
+        "options": [
+          {
+            "key": "A",
+            "text": "Call trauma specialists",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Secure the airway, sats &amp; log roll",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Something with morphine as well",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "?",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "? I think this related to getting a guedels in (GCS 7) and getting urgent fluids in due to hypotension ++.",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

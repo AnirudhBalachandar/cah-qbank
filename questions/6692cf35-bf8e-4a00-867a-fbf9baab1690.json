@@ -1,47 +1,68 @@
 {
   "id": "6692cf35-bf8e-4a00-867a-fbf9baab1690",
-  "stem": "Which of the following causes a fixed split second heart sound?",
+  "stem": "A child has a fixed split second heart sound on examination. Which mechanism best explains this classic finding in atrial septal defect?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Delayed closure of the aortic valve",
-      "isCorrect": null
+      "text": "Delayed aortic valve closure",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Delayed closure of the pulmonary valve",
-      "isCorrect": null
+      "text": "Delayed pulmonary valve closure from increased right-sided flow",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Delayed closure of mitral valve",
-      "isCorrect": null
+      "text": "Early pulmonary valve closure",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Delayed closure of tricuspid valve",
-      "isCorrect": null
+      "text": "Mitral valve prolapse",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Delayed closure of the duct",
-      "isCorrect": null
+      "text": "Continuous ductal flow",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "A fixed split second heart sound in atrial septal defect reflects delayed pulmonary valve closure due to increased right-sided volume and a relatively constant left-to-right atrial shunt across respiration.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/cardiology/heart_defects/Atrial_Septal_Defect/",
+      "title": "Kids Health Info: Atrial septal defect"
+    },
+    {
+      "type": "external",
+      "source": "Ochsner Journal",
+      "url": "https://www.ochsnerjournal.org/content/ochjnl/4/4/221.full.pdf",
+      "title": "Adult congenital heart disease"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/cardiology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.966Z",
   "sourceFingerprint": "a7826eec850551fc4645219a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A fixed split second heart sound in atrial septal defect reflects delayed pulmonary valve closure due to increased right-sided volume and a relatively constant left-to-right atrial shunt across respiration.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "A fixed split second heart sound in atrial septal defect reflects delayed pulmonary valve closure due to increased right-sided volume and a relatively constant left-to-right atrial shunt across respiration.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.976Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "4a9cfdaf32606083bb87"
+    "stemHash": "4a9cfdaf32606083bb87",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.82,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Kids Health Info: Atrial septal defect",
+          "url": "https://www.rch.org.au/cardiology/heart_defects/Atrial_Septal_Defect/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports atrial septal defect as a congenital heart lesion considered with fixed splitting of S2."
+        },
+        {
+          "title": "Adult congenital heart disease",
+          "url": "https://www.ochsnerjournal.org/content/ochjnl/4/4/221.full.pdf",
+          "organization": "Ochsner Journal",
+          "sourceType": "other_reputable",
+          "supports": "Supports fixed split second heart sound as a characteristic finding in atrial septal defect."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which of the following causes a fixed split second heart sound?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Delayed closure of the aortic valve",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Delayed closure of the pulmonary valve",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Delayed closure of mitral valve",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Delayed closure of tricuspid valve",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Delayed closure of the duct",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

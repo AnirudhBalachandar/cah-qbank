@@ -1,55 +1,68 @@
 {
   "id": "6b5d7df6-41fe-404a-b6d1-447963fa8e1a",
-  "stem": "answers:",
+  "stem": "A mother says her infant vomited after a routine immunisation and asks which vaccine in the routine infant schedule is given orally. Which vaccine was it?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "rotavirus",
-      "isCorrect": null
+      "text": "Haemophilus influenzae type b vaccine",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "hib",
-      "isCorrect": null
+      "text": "Pneumococcal vaccine",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "hav",
-      "isCorrect": null
+      "text": "Rotavirus vaccine",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "hbv",
-      "isCorrect": null
+      "text": "Varicella vaccine",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "varicella",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "pneumococcus",
-      "isCorrect": null
+      "text": "Pertussis-containing vaccine",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Rotavirus vaccine is administered orally in infancy. Hib, pneumococcal, varicella and pertussis-containing vaccines are not the routine oral vaccine in this context.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/rotavirus",
+      "title": "Australian Immunisation Handbook: Rotavirus"
+    },
+    {
+      "type": "external",
+      "source": "Australian Government Department of Health and Aged Care",
+      "url": "https://www.health.gov.au/topics/immunisation/vaccines/rotavirus-vaccine",
+      "title": "Rotavirus vaccine"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+    "general-paediatrics/immunisation"
   ],
   "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.149Z",
   "sourceFingerprint": "8f6321c96ab461c3f0cc12ee",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Rotavirus vaccine is administered orally in infancy. Hib, pneumococcal, varicella and pertussis-containing vaccines are not the routine oral vaccine in this context.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Rotavirus vaccine is administered orally in infancy. Hib, pneumococcal, varicella and pertussis-containing vaccines are not the routine oral vaccine in this context.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.998Z",
@@ -64,6 +77,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8d0ff910dc2909961eb6"
+    "stemHash": "8d0ff910dc2909961eb6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.95,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Australian Immunisation Handbook: Rotavirus",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/rotavirus",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports rotavirus as an orally administered routine infant vaccine."
+        },
+        {
+          "title": "Rotavirus vaccine",
+          "url": "https://www.health.gov.au/topics/immunisation/vaccines/rotavirus-vaccine",
+          "organization": "Australian Government Department of Health and Aged Care",
+          "sourceType": "australian_health",
+          "supports": "Supports oral rotavirus vaccination in infancy."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers:",
+        "options": [
+          {
+            "key": "A",
+            "text": "rotavirus",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "hib",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "hav",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "hbv",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "varicella",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "pneumococcus",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,47 +1,68 @@
 {
   "id": "830cc782-b8e6-4529-bb1e-10c05d075e48",
-  "stem": "Given antibiotic guidelines for hospital, not really helpful",
+  "stem": "A well child has a short history of cough, coryza and no focal chest signs. What is the best management regarding antibiotics?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Gentamicin PO",
-      "isCorrect": null
+      "text": "Amoxicillin for 7 days",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Gentamicin IV",
-      "isCorrect": null
+      "text": "Azithromycin for atypical pneumonia",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Amoxicillin",
-      "isCorrect": null
+      "text": "Intravenous ceftriaxone",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Fluclox",
-      "isCorrect": null
+      "text": "Flucloxacillin for Staphylococcus aureus",
+      "isCorrect": false
     },
     {
       "key": "E",
       "text": "No antibiotics",
-      "isCorrect": null
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Antibiotics are not indicated for an uncomplicated viral upper respiratory tract infection. Management is supportive unless features suggest bacterial infection or another diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cough/",
+      "title": "Clinical Practice Guidelines: Cough"
+    },
+    {
+      "type": "external",
+      "source": "Choosing Wisely Australia",
+      "url": "https://www.choosingwisely.org.au/recommendations/asid3",
+      "title": "Do not prescribe antibiotics for viral upper respiratory tract infections"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/respiratory"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.642Z",
   "sourceFingerprint": "5461861d5d50acedc31280d0",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Antibiotics are not indicated for an uncomplicated viral upper respiratory tract infection. Management is supportive unless features suggest bacterial infection or another diagnosis.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "Antibiotics are not indicated for an uncomplicated viral upper respiratory tract infection. Management is supportive unless features suggest bacterial infection or another diagnosis."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.470Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "882c7942cfdc4bedbef8"
+    "stemHash": "882c7942cfdc4bedbef8",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Cough",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cough/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports avoiding antibiotics in uncomplicated viral upper respiratory illness."
+        },
+        {
+          "title": "Do not prescribe antibiotics for viral upper respiratory tract infections",
+          "url": "https://www.choosingwisely.org.au/recommendations/asid3",
+          "organization": "Choosing Wisely Australia",
+          "sourceType": "australian_specialty",
+          "supports": "Supports avoiding antibiotics for viral upper-respiratory infections."
+        }
+      ],
+      "preRepair": {
+        "stem": "Given antibiotic guidelines for hospital, not really helpful",
+        "options": [
+          {
+            "key": "A",
+            "text": "Gentamicin PO",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Gentamicin IV",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Amoxicillin",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Fluclox",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "No antibiotics",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

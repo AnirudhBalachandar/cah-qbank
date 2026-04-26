@@ -1,47 +1,68 @@
 {
   "id": "f43e5afb-6420-466a-a2f3-9cbdbae86e8a",
-  "stem": "A 2week old baby has an episode of simple partial seizure lasting 2minutes. What investigations would you do?",
+  "stem": "A neonate has recurrent afebrile focal seizures. Which investigation is most appropriate to look for an underlying structural brain abnormality?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "No investigations",
-      "isCorrect": null
+      "text": "No investigation is required",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "EEG",
-      "isCorrect": null
+      "text": "Skull x-ray only",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "MRI",
-      "isCorrect": null
+      "text": "MRI brain",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "CT",
-      "isCorrect": null
+      "text": "Plain abdominal x-ray",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "??",
-      "isCorrect": null
+      "text": "Spirometry",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Recurrent neonatal focal seizures are concerning for structural or other serious pathology, and MRI brain is an appropriate investigation when clinically stable and available.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/afebrile_seizures/",
+      "title": "Clinical Practice Guidelines: Afebrile seizures"
+    },
+    {
+      "type": "external",
+      "source": "Children's Health Queensland",
+      "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/first-afebrile-seizure",
+      "title": "First afebrile seizure - Emergency management in children"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/neurology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.358Z",
   "sourceFingerprint": "7fb9577bffaecb1c44fd0dba",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Recurrent neonatal focal seizures are concerning for structural or other serious pathology, and MRI brain is an appropriate investigation when clinically stable and available.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Recurrent neonatal focal seizures are concerning for structural or other serious pathology, and MRI brain is an appropriate investigation when clinically stable and available.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Summary of Remembered Exam Questions - Term E 2011.docx",
     "importedAt": "2026-03-16T02:22:42.191Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "af721aa03f85a38f5b77"
+    "stemHash": "af721aa03f85a38f5b77",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Afebrile seizures",
+          "url": "https://www.rch.org.au/afebrile_seizures/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports evaluation of afebrile seizures and focal seizures as concerning for structural pathology."
+        },
+        {
+          "title": "First afebrile seizure - Emergency management in children",
+          "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/first-afebrile-seizure",
+          "organization": "Children's Health Queensland",
+          "sourceType": "australian_guideline",
+          "supports": "Supports neuroimaging considerations for focal or neonatal seizures."
+        }
+      ],
+      "preRepair": {
+        "stem": "A 2week old baby has an episode of simple partial seizure lasting 2minutes. What investigations would you do?",
+        "options": [
+          {
+            "key": "A",
+            "text": "No investigations",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "EEG",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "MRI",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "CT",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "??",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

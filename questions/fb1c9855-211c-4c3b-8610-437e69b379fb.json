@@ -1,37 +1,68 @@
 {
   "id": "fb1c9855-211c-4c3b-8610-437e69b379fb",
-  "stem": "child loses 2 teeth, they find 1. what to do?",
+  "stem": "A toddler falls and an upper primary incisor is missing from the mouth. The tooth is not found. What is the most important next step?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Go to dentist",
-      "isCorrect": null
+      "text": "Reimplant the primary tooth immediately if found",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Put tooth back in",
-      "isCorrect": null
+      "text": "Ignore the missing tooth because it is primary",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Find 2nd tooth",
-      "isCorrect": null
+      "text": "Look for the missing tooth and assess for intrusion, embedding or aspiration",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Rinse the mouth and send the child home without review",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Start antibiotics for every avulsed primary tooth",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "An avulsed primary tooth should not be replanted, but a missing tooth must be accounted for because it may be intruded, embedded in soft tissue or aspirated.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dental_injuries/",
+      "title": "Clinical Practice Guidelines: Dental trauma"
+    },
+    {
+      "type": "external",
+      "source": "International Association of Dental Traumatology",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/161686/1/IADT%20guidelines%20-%20Injuries%20in%20the%20primary%20dentition.pdf",
+      "title": "IADT guidelines: Injuries in the primary dentition"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/dental-trauma"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.255Z",
   "sourceFingerprint": "f815c2b4eb12325f0e13655a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "An avulsed primary tooth should not be replanted, but a missing tooth must be accounted for because it may be intruded, embedded in soft tissue or aspirated.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "An avulsed primary tooth should not be replanted, but a missing tooth must be accounted for because it may be intruded, embedded in soft tissue or aspirated.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
     "importedAt": "2026-03-16T02:22:42.133Z",
@@ -46,6 +77,58 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "0aaa2a44f1c2c26f5ad3"
+    "stemHash": "0aaa2a44f1c2c26f5ad3",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.89,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Dental trauma",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dental_injuries/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports assessment of avulsed teeth, tooth storage and dental trauma management."
+        },
+        {
+          "title": "IADT guidelines: Injuries in the primary dentition",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/161686/1/IADT%20guidelines%20-%20Injuries%20in%20the%20primary%20dentition.pdf",
+          "organization": "International Association of Dental Traumatology",
+          "sourceType": "international_guideline",
+          "supports": "Supports not replanting avulsed primary teeth and checking for missing tooth fragments."
+        }
+      ],
+      "preRepair": {
+        "stem": "child loses 2 teeth, they find 1. what to do?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Go to dentist",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Put tooth back in",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Find 2nd tooth",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

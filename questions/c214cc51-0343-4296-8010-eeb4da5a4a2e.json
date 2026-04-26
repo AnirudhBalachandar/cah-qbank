@@ -1,70 +1,68 @@
 {
   "id": "c214cc51-0343-4296-8010-eeb4da5a4a2e",
-  "stem": "Vomiting in the young infant",
+  "stem": "A 5-week-old infant has progressive projectile non-bilious vomiting after feeds and remains hungry afterwards. Blood gas shows hypochloraemic metabolic alkalosis. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Pyloric stenosis",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Gastroesophageal reflux",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Hirschsprung’s disease",
-      "isCorrect": null
+      "text": "Hirschsprung disease",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Duodenal atresia",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Malrotation and volvulus",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Coeliac disease",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Acute appendicitis",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "Intussusception",
-      "isCorrect": null
-    },
-    {
-      "key": "I",
-      "text": "Obstructed inguinal hernia",
-      "isCorrect": null
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Pyloric stenosis typically presents at 2 to 6 weeks with progressive projectile non-bilious vomiting, hunger after feeds and hypochloraemic metabolic alkalosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+      "title": "Clinical Practice Guidelines: Pyloric stenosis"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+      "title": "Clinical Practice Guidelines: Vomiting"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/vomiting-infant"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.209Z",
   "sourceFingerprint": "79dce1568adcd9a651aa591d",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Pyloric stenosis typically presents at 2 to 6 weeks with progressive projectile non-bilious vomiting, hunger after feeds and hypochloraemic metabolic alkalosis.",
+  "optionExplanations": {
+    "A": "Pyloric stenosis typically presents at 2 to 6 weeks with progressive projectile non-bilious vomiting, hunger after feeds and hypochloraemic metabolic alkalosis.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.611Z",
@@ -79,6 +77,91 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "f0e8b85a2117777ed144"
+    "stemHash": "f0e8b85a2117777ed144",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Pyloric stenosis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports non-bilious projectile vomiting in early infancy and hypochloraemic metabolic alkalosis."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Vomiting",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports assessment of vomiting patterns, including red flags in infants and children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Vomiting in the young infant",
+        "options": [
+          {
+            "key": "A",
+            "text": "Pyloric stenosis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Gastroesophageal reflux",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Hirschsprung’s disease",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Duodenal atresia",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Malrotation and volvulus",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Coeliac disease",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Acute appendicitis",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "Intussusception",
+            "isCorrect": null
+          },
+          {
+            "key": "I",
+            "text": "Obstructed inguinal hernia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

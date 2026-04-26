@@ -1,50 +1,74 @@
 {
   "id": "c5ceddb7-479d-49d9-85e8-7abc2056d17f",
-  "stem": "Aboriginal girl with high fever, drooling, never been vaccinated. Previously well. What is the causative organism",
+  "stem": "An unimmunised child has high fever, drooling, muffled voice, tripod posture and minimal cough. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "HiB",
-      "isCorrect": null
+      "text": "Epiglottitis",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Strep pneumonia",
-      "isCorrect": null
+      "text": "Tracheo-oesophageal fistula",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Parainfluezna",
-      "isCorrect": null
+      "text": "Pneumonia",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "RSV",
-      "isCorrect": null
+      "text": "Laryngomalacia",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Staph",
-      "isCorrect": null
+      "text": "Croup",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  "explanation": "Epiglottitis classically presents with toxic appearance, high fever, drooling, muffled voice and tripod posture. Croup usually has a barking cough and is generally less toxic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/acute_upper_airway_obstruction/",
+      "title": "Clinical Practice Guidelines: Acute upper airway obstruction"
+    },
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/haemophilus-influenzae-type-b-hib",
+      "title": "Australian Immunisation Handbook: Haemophilus influenzae type b (Hib)"
+    },
+    {
+      "type": "external",
+      "source": "Healthdirect Australia",
+      "url": "https://www.healthdirect.gov.au/haemophilus-influenzae-type-b-hib",
+      "title": "Haemophilus influenzae type b (Hib)"
+    }
   ],
-  "curriculum": "Community-based Paediatrics",
+  "tags": [
+    "emergency-paediatrics/airway"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.036Z",
   "sourceFingerprint": "fb657c82e1e6efc6d1d4fe8c",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Epiglottitis classically presents with toxic appearance, high fever, drooling, muffled voice and tripod posture. Croup usually has a barking cough and is generally less toxic.",
+  "optionExplanations": {
+    "A": "Epiglottitis classically presents with toxic appearance, high fever, drooling, muffled voice and tripod posture. Croup usually has a barking cough and is generally less toxic.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.007Z",
@@ -59,6 +83,78 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "72bb48640c64a3c34567"
+    "stemHash": "72bb48640c64a3c34567",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Acute upper airway obstruction",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/acute_upper_airway_obstruction/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports recognition of epiglottitis as a severe upper-airway illness with fever, drooling, tripod posture and muffled voice."
+        },
+        {
+          "title": "Australian Immunisation Handbook: Haemophilus influenzae type b (Hib)",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/haemophilus-influenzae-type-b-hib",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports Hib vaccination and Hib-related invasive disease such as epiglottitis."
+        },
+        {
+          "title": "Haemophilus influenzae type b (Hib)",
+          "url": "https://www.healthdirect.gov.au/haemophilus-influenzae-type-b-hib",
+          "organization": "Healthdirect Australia",
+          "sourceType": "australian_health",
+          "supports": "Supports Hib disease and vaccine-preventable presentations."
+        }
+      ],
+      "preRepair": {
+        "stem": "Aboriginal girl with high fever, drooling, never been vaccinated. Previously well. What is the causative organism",
+        "options": [
+          {
+            "key": "A",
+            "text": "HiB",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Strep pneumonia",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Parainfluezna",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "RSV",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Staph",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+        ],
+        "curriculum": "Community-based Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,47 +1,68 @@
 {
   "id": "7190d6e1-39eb-46e9-945c-e86f104c0f7c",
-  "stem": "Asthma medications",
+  "stem": "Which asthma medicine is a short-acting beta-2 agonist reliever used for acute bronchoconstriction in children?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Ipratropium",
-      "isCorrect": null
+      "text": "Budesonide",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Na cromoglycate",
-      "isCorrect": null
+      "text": "Fluticasone",
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Salbutamol",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Salmetarol",
-      "isCorrect": null
+      "text": "Salmeterol",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Beclamethasone",
-      "isCorrect": null
+      "text": "Sodium cromoglycate",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Salbutamol is a short-acting beta-2 agonist used as reliever therapy for acute bronchoconstriction. Inhaled corticosteroids such as budesonide and fluticasone are preventers, and salmeterol is a long-acting beta agonist.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+      "title": "Clinical Practice Guidelines: Acute asthma"
+    },
+    {
+      "type": "external",
+      "source": "National Asthma Council Australia",
+      "url": "https://www.asthmahandbook.org.au/download/1295",
+      "title": "Australian Asthma Handbook: Managing acute asthma in clinical settings"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/asthma"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.648Z",
   "sourceFingerprint": "52f59df944285e97574f8227",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Salbutamol is a short-acting beta-2 agonist used as reliever therapy for acute bronchoconstriction. Inhaled corticosteroids such as budesonide and fluticasone are preventers, and salmeterol is a long-acting beta agonist.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Salbutamol is a short-acting beta-2 agonist used as reliever therapy for acute bronchoconstriction. Inhaled corticosteroids such as budesonide and fluticasone are preventers, and salmeterol is a long-acting beta agonist.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.475Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "878ada0705d92ceafb7e"
+    "stemHash": "878ada0705d92ceafb7e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Acute asthma",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports use of salbutamol as reliever therapy and oral corticosteroids for acute asthma not responding adequately to bronchodilator therapy."
+        },
+        {
+          "title": "Australian Asthma Handbook: Managing acute asthma in clinical settings",
+          "url": "https://www.asthmahandbook.org.au/download/1295",
+          "organization": "National Asthma Council Australia",
+          "sourceType": "australian_guideline",
+          "supports": "Supports Australian acute asthma treatment with salbutamol and systemic corticosteroids when indicated."
+        }
+      ],
+      "preRepair": {
+        "stem": "Asthma medications",
+        "options": [
+          {
+            "key": "A",
+            "text": "Ipratropium",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Na cromoglycate",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Salbutamol",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Salmetarol",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Beclamethasone",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

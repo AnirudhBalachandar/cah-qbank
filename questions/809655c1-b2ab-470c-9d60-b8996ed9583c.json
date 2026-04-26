@@ -1,50 +1,68 @@
 {
   "id": "809655c1-b2ab-470c-9d60-b8996ed9583c",
-  "stem": "Propranolol is used for migraine in kids. Which of the following is not a contraindication for propranolol use.",
+  "stem": "A child is being considered for propranolol migraine prophylaxis. Which listed condition is not a usual contraindication to propranolol?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Asthma",
-      "isCorrect": null
+      "text": "Asthma with bronchospasm",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Renal failure",
-      "isCorrect": null
+      "text": "Second-degree heart block",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Liver failure",
-      "isCorrect": null
+      "text": "Symptomatic hypoglycaemia risk in a fasting infant",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Resting HR &lt;100",
-      "isCorrect": null
+      "text": "Renal failure",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "Cardiomyopathy",
-      "isCorrect": null
+      "text": "Severe bradycardia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Propranolol is contraindicated or avoided in conditions such as bronchospasm, significant bradycardia and heart block. Renal failure is not usually listed as a standard contraindication, though clinical caution and monitoring remain important.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/uploadedfiles/main/content/pharmacy/propranolol.pdf",
+      "title": "Propranolol information"
+    },
+    {
+      "type": "external",
+      "source": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507873/",
+      "title": "StatPearls: Migraine Prophylaxis"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "paediatric-sub-specialties/neurology"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.559Z",
   "sourceFingerprint": "150e7a728612124817d6b98a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Propranolol is contraindicated or avoided in conditions such as bronchospasm, significant bradycardia and heart block. Renal failure is not usually listed as a standard contraindication, though clinical caution and monitoring remain important.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Propranolol is contraindicated or avoided in conditions such as bronchospasm, significant bradycardia and heart block. Renal failure is not usually listed as a standard contraindication, though clinical caution and monitoring remain important.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.209Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "6be405252caa907d9909"
+    "stemHash": "6be405252caa907d9909",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.78,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Propranolol information",
+          "url": "https://www.rch.org.au/uploadedfiles/main/content/pharmacy/propranolol.pdf",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports cautions and contraindications relevant to propranolol use in children."
+        },
+        {
+          "title": "StatPearls: Migraine Prophylaxis",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507873/",
+          "organization": "NCBI Bookshelf",
+          "sourceType": "other_reputable",
+          "supports": "Supports propranolol use and common contraindications in migraine prophylaxis."
+        }
+      ],
+      "preRepair": {
+        "stem": "Propranolol is used for migraine in kids. Which of the following is not a contraindication for propranolol use.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Asthma",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Renal failure",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Liver failure",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Resting HR &lt;100",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Cardiomyopathy",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

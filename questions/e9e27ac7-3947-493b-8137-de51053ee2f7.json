@@ -1,45 +1,68 @@
 {
   "id": "e9e27ac7-3947-493b-8137-de51053ee2f7",
-  "stem": "What is the most accurate description of the information in the Australian Childhood immunisation registry",
+  "stem": "In its historic form, what did the Australian Childhood Immunisation Register record?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Details of immunisations of children born overseas only",
-      "isCorrect": null
+      "text": "Only vaccines given in hospitals",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Details of All adverse reactions related to vaccination",
-      "isCorrect": null
+      "text": "Only influenza vaccines in adults",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Details of all immunisations in Indigenous children only",
-      "isCorrect": null
+      "text": "Only vaccines given to Aboriginal and Torres Strait Islander children",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Details of all vaccinations in children under 7 years old",
-      "isCorrect": null
+      "text": "Details of childhood vaccinations for children under 7 years",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Only vaccines given after overseas travel",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "The historic Australian Childhood Immunisation Register recorded childhood immunisation details for children under 7 years. It has since been replaced by the broader Australian Immunisation Register.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Government",
+      "url": "https://rockingham.wa.edu.au/wp-content/uploads/2016/03/Australian-Childhood-Immunisation-Register-Information.pdf",
+      "title": "Australian Childhood Immunisation Register information"
+    },
+    {
+      "type": "external",
+      "source": "Services Australia",
+      "url": "https://www.servicesaustralia.gov.au/australian-immunisation-register",
+      "title": "Australian Immunisation Register"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+    "community-based-paediatrics/immunisation-systems"
   ],
   "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.009Z",
   "sourceFingerprint": "a77e230e786c847f2d56955e",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The historic Australian Childhood Immunisation Register recorded childhood immunisation details for children under 7 years. It has since been replaced by the broader Australian Immunisation Register.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "The historic Australian Childhood Immunisation Register recorded childhood immunisation details for children under 7 years. It has since been replaced by the broader Australian Immunisation Register.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.991Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "062f3f947c69517972f4"
+    "stemHash": "062f3f947c69517972f4",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Australian Childhood Immunisation Register information",
+          "url": "https://rockingham.wa.edu.au/wp-content/uploads/2016/03/Australian-Childhood-Immunisation-Register-Information.pdf",
+          "organization": "Australian Government",
+          "sourceType": "australian_health",
+          "supports": "Supports historic description of the Australian Childhood Immunisation Register for children under seven."
+        },
+        {
+          "title": "Australian Immunisation Register",
+          "url": "https://www.servicesaustralia.gov.au/australian-immunisation-register",
+          "organization": "Services Australia",
+          "sourceType": "australian_health",
+          "supports": "Supports the national register recording vaccines given to people in Australia."
+        }
+      ],
+      "preRepair": {
+        "stem": "What is the most accurate description of the information in the Australian Childhood immunisation registry",
+        "options": [
+          {
+            "key": "A",
+            "text": "Details of immunisations of children born overseas only",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Details of All adverse reactions related to vaccination",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Details of all immunisations in Indigenous children only",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Details of all vaccinations in children under 7 years old",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+        ],
+        "curriculum": "Community-based Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

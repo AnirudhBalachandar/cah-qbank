@@ -1,40 +1,62 @@
 {
   "id": "8ab72c0a-8ee4-4e3b-87fc-b384ba2dc33e",
-  "stem": "What is true of JIA? Patient is 2yo",
+  "stem": "Which statement about oligoarticular juvenile idiopathic arthritis is most accurate?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "90% recover (no)",
-      "isCorrect": null
+      "text": "It commonly presents in young children and requires uveitis screening",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "it is atypical in her age (no)",
-      "isCorrect": null
+      "text": "Ninety percent of children recover without follow-up",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "???",
-      "isCorrect": null
+      "text": "It is atypical before adolescence",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Antibiotics are first-line treatment",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Uveitis screening is unnecessary",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Oligoarticular juvenile idiopathic arthritis commonly affects young children and is associated with chronic anterior uveitis, so ophthalmology screening is important.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "RACGP",
+      "url": "https://www.racgp.org.au/getattachment/e443085a-a6ed-492e-98b1-def69b369aa9/Juvenile-idiopathic-arthritis.aspx",
+      "title": "Juvenile idiopathic arthritis"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "paediatric-sub-specialties/rheumatology"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.263Z",
   "sourceFingerprint": "284c8e2fa33c52c290c727dc",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Oligoarticular juvenile idiopathic arthritis commonly affects young children and is associated with chronic anterior uveitis, so ophthalmology screening is important.",
+  "optionExplanations": {
+    "A": "Oligoarticular juvenile idiopathic arthritis commonly affects young children and is associated with chronic anterior uveitis, so ophthalmology screening is important.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
     "importedAt": "2026-03-16T02:22:42.138Z",
@@ -49,6 +71,54 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "25b23b8f7d4fb999c9f4"
+    "stemHash": "25b23b8f7d4fb999c9f4",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Juvenile idiopathic arthritis",
+          "url": "https://www.racgp.org.au/getattachment/e443085a-a6ed-492e-98b1-def69b369aa9/Juvenile-idiopathic-arthritis.aspx",
+          "organization": "RACGP",
+          "sourceType": "australian_specialty",
+          "supports": "Supports JIA subtypes, epidemiology and the need for uveitis screening in oligoarticular JIA."
+        }
+      ],
+      "preRepair": {
+        "stem": "What is true of JIA? Patient is 2yo",
+        "options": [
+          {
+            "key": "A",
+            "text": "90% recover (no)",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "it is atypical in her age (no)",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "???",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

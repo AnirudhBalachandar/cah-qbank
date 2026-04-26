@@ -1,47 +1,62 @@
 {
   "id": "2e7f7d82-0526-41f6-8c65-fad46a0b4489",
-  "stem": "answers: most likely initial complication",
+  "stem": "What is the most likely early systemic complication after a major paediatric burn involving a large total body surface area?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "inhalation injury",
-      "isCorrect": null
+      "text": "Inhalation injury",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "hypovolemia",
-      "isCorrect": null
+      "text": "Hypovolaemia",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "hypervolemia",
-      "isCorrect": null
+      "text": "Hypervolaemia",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "infection",
-      "isCorrect": null
+      "text": "Late wound infection",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "git complications",
-      "isCorrect": null
+      "text": "Gastrointestinal complications",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Major burns cause capillary leak and fluid shifts that can lead to hypovolaemia and shock early after injury. Infection and gastrointestinal complications are usually later concerns, while inhalation injury depends on exposure history.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+      "title": "Clinical Practice Guidelines: Burns - acute management"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/burns"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.139Z",
   "sourceFingerprint": "8a3a30f31b0afb3ea7f9e6c2",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Major burns cause capillary leak and fluid shifts that can lead to hypovolaemia and shock early after injury. Infection and gastrointestinal complications are usually later concerns, while inhalation injury depends on exposure history.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Major burns cause capillary leak and fluid shifts that can lead to hypovolaemia and shock early after injury. Infection and gastrointestinal complications are usually later concerns, while inhalation injury depends on exposure history.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.994Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "ceac7ff26f5c6e7547d7"
+    "stemHash": "ceac7ff26f5c6e7547d7",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.86,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Burns - acute management",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports burn first aid, cooling, keeping the child warm and acute burn resuscitation principles."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers: most likely initial complication",
+        "options": [
+          {
+            "key": "A",
+            "text": "inhalation injury",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "hypovolemia",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "hypervolemia",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "infection",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "git complications",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

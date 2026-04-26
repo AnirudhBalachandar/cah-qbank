@@ -1,45 +1,62 @@
 {
   "id": "5011714e-3619-4190-b403-71e78245eec9",
-  "stem": "answers:",
+  "stem": "An adolescent boy has sudden severe unilateral scrotal pain, nausea, a high-riding horizontal testis and absent cremasteric reflex. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "testicular torsion",
-      "isCorrect": null
+      "text": "Acute epididymitis",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "epididymorchitis",
-      "isCorrect": null
+      "text": "Testicular torsion",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "testicular cancer",
-      "isCorrect": null
+      "text": "Testicular cancer",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "undescended testes",
-      "isCorrect": null
+      "text": "Inguinal hernia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Torsion of the appendix testis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Sudden severe unilateral scrotal pain with nausea, high-riding or horizontal testis and absent cremasteric reflex is most concerning for testicular torsion, a surgical emergency.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/",
+      "title": "Clinical Practice Guidelines: Acute scrotal pain or swelling"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/urology"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.128Z",
   "sourceFingerprint": "2aa2ff68613f46fa7b8534a0",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Sudden severe unilateral scrotal pain with nausea, high-riding or horizontal testis and absent cremasteric reflex is most concerning for testicular torsion, a surgical emergency.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Sudden severe unilateral scrotal pain with nausea, high-riding or horizontal testis and absent cremasteric reflex is most concerning for testicular torsion, a surgical emergency.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.990Z",
@@ -54,6 +71,59 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8d0ff910dc2909961eb6"
+    "stemHash": "8d0ff910dc2909961eb6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Acute scrotal pain or swelling",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports testicular torsion features and urgency of surgical assessment."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers:",
+        "options": [
+          {
+            "key": "A",
+            "text": "testicular torsion",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "epididymorchitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "testicular cancer",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "undescended testes",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

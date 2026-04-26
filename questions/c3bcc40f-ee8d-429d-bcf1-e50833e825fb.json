@@ -1,50 +1,62 @@
 {
   "id": "c3bcc40f-ee8d-429d-bcf1-e50833e825fb",
-  "stem": "Genetics",
+  "stem": "A child has conotruncal congenital heart disease, palatal abnormality, immune problems and characteristic facial features. Which genetic syndrome is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Velo-cardio-facial",
-      "isCorrect": null
+      "text": "22q11.2 deletion syndrome",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Downs",
-      "isCorrect": null
+      "text": "Turner syndrome",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Turner",
-      "isCorrect": null
+      "text": "Noonan syndrome",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Fragile X",
-      "isCorrect": null
+      "text": "Williams syndrome",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Edwards",
-      "isCorrect": null
+      "text": "Fragile X syndrome",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "22q11.2 deletion syndrome can present with conotruncal heart defects, palatal abnormalities, immune deficiency and characteristic facial features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "GeneReviews",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1523/",
+      "title": "22q11.2 deletion syndrome"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "paediatric-sub-specialties/genetics"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.632Z",
   "sourceFingerprint": "d213d158bc1dbda6c1385b73",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "22q11.2 deletion syndrome can present with conotruncal heart defects, palatal abnormalities, immune deficiency and characteristic facial features.",
+  "optionExplanations": {
+    "A": "22q11.2 deletion syndrome can present with conotruncal heart defects, palatal abnormalities, immune deficiency and characteristic facial features.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.460Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "3b096ab7467aff69376a"
+    "stemHash": "3b096ab7467aff69376a",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "22q11.2 deletion syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK1523/",
+          "organization": "GeneReviews",
+          "sourceType": "other_reputable",
+          "supports": "Supports 22q11.2 deletion syndrome features including cardiac defects, palatal abnormalities and facial features."
+        }
+      ],
+      "preRepair": {
+        "stem": "Genetics",
+        "options": [
+          {
+            "key": "A",
+            "text": "Velo-cardio-facial",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Downs",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Turner",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Fragile X",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Edwards",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

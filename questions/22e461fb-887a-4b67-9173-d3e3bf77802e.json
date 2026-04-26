@@ -1,40 +1,68 @@
 {
   "id": "22e461fb-887a-4b67-9173-d3e3bf77802e",
-  "stem": "Calculate resus fluid requirements for 20kg boy who’s 5% dehydrated. Gave formula for bolus, resus and maintenance fluids. Had to calculate hourly rate",
+  "stem": "A 20 kg child is estimated to be 5 percent dehydrated and has completed initial bolus resuscitation. If the remaining deficit is replaced evenly over 24 hours with maintenance, what approximate hourly fluid rate is required?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "75 ml/hr",
-      "isCorrect": null
+      "text": "75 mL/hour",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "85",
-      "isCorrect": null
+      "text": "85 mL/hour",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "105",
-      "isCorrect": null
+      "text": "105 mL/hour",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "125 mL/hour",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "150 mL/hour",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A 5 percent deficit in a 20 kg child is about 1000 mL. Maintenance is 1500 mL/day for 20 kg, or about 62.5 mL/hour. Adding 1000 mL over 24 hours gives about 41.7 mL/hour, for a total close to 105 mL/hour.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+      "title": "Clinical Practice Guidelines: Dehydration"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/fluids-dehydration"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:05.592Z",
   "sourceFingerprint": "1c836ef47f65300aa6a4feca",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A 5 percent deficit in a 20 kg child is about 1000 mL. Maintenance is 1500 mL/day for 20 kg, or about 62.5 mL/hour. Adding 1000 mL over 24 hours gives about 41.7 mL/hour, for a total close to 105 mL/hour.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "A 5 percent deficit in a 20 kg child is about 1000 mL. Maintenance is 1500 mL/day for 20 kg, or about 62.5 mL/hour. Adding 1000 mL over 24 hours gives about 41.7 mL/hour, for a total close to 105 mL/hour.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds exam MCQs.docx",
     "importedAt": "2026-03-16T02:22:40.693Z",
@@ -49,6 +77,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "f8295d433d610c8bfc41"
+    "stemHash": "f8295d433d610c8bfc41",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports dehydration assessment and deficit plus maintenance fluid calculations."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        }
+      ],
+      "preRepair": {
+        "stem": "Calculate resus fluid requirements for 20kg boy who’s 5% dehydrated. Gave formula for bolus, resus and maintenance fluids. Had to calculate hourly rate",
+        "options": [
+          {
+            "key": "A",
+            "text": "75 ml/hr",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "85",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "105",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

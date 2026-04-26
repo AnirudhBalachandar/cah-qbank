@@ -1,42 +1,68 @@
 {
   "id": "b356146b-b1ba-4a55-b9e9-e66a4be51391",
-  "stem": "Child has a rash with some vesciles, some papules, some pustules. She has come from overseas 2 months ago. She was playing with her cousins on the weekend. Mum wants to know how long the infectious period is:",
+  "stem": "For how long is a child with chickenpox generally considered infectious?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "From 2 weeks before the rash appeared until all lesions crust",
-      "isCorrect": null
+      "text": "Only after the rash has fully crusted",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "From a few days before the rash appeared until all lesions crust",
-      "isCorrect": null
+      "text": "From a few days before rash onset until all lesions have crusted",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "From 2 weeks before the rash until all the lesions had cleared",
-      "isCorrect": null
+      "text": "Only during the fever before the rash",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "From a few days before the rash until all lesions cleared",
-      "isCorrect": null
+      "text": "Only on the first day of the rash",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "For exactly 24 hours after exposure",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Chickenpox is infectious from before the rash appears until lesions have crusted. This timing is important for school exclusion and contact management.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/chickenpox_varicella/",
+      "title": "Clinical Practice Guidelines: Chickenpox (varicella)"
+    },
+    {
+      "type": "external",
+      "source": "Victorian Department of Health",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/chickenpox-and-shingles-varicella-herpes-zoster",
+      "title": "Chickenpox and shingles (varicella / herpes zoster)"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/infectious-diseases"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.018Z",
   "sourceFingerprint": "c259c258972cb0265cfe1e82",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Chickenpox is infectious from before the rash appears until lesions have crusted. This timing is important for school exclusion and contact management.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Chickenpox is infectious from before the rash appears until lesions have crusted. This timing is important for school exclusion and contact management.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.995Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "bd14e66df842c3998931"
+    "stemHash": "bd14e66df842c3998931",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.92,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Chickenpox (varicella)",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/chickenpox_varicella/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports chickenpox clinical recognition and infectivity until lesions crust."
+        },
+        {
+          "title": "Chickenpox and shingles (varicella / herpes zoster)",
+          "url": "https://www.health.vic.gov.au/infectious-diseases/chickenpox-and-shingles-varicella-herpes-zoster",
+          "organization": "Victorian Department of Health",
+          "sourceType": "australian_health",
+          "supports": "Supports public-health advice on infectious period and management after exposure to varicella."
+        }
+      ],
+      "preRepair": {
+        "stem": "Child has a rash with some vesciles, some papules, some pustules. She has come from overseas 2 months ago. She was playing with her cousins on the weekend. Mum wants to know how long the infectious period is:",
+        "options": [
+          {
+            "key": "A",
+            "text": "From 2 weeks before the rash appeared until all lesions crust",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "From a few days before the rash appeared until all lesions crust",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "From 2 weeks before the rash until all the lesions had cleared",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "From a few days before the rash until all lesions cleared",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

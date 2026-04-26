@@ -1,37 +1,68 @@
 {
   "id": "ee5d6c64-3aa8-4855-a927-41d7c1ec92cc",
-  "stem": "Teenagers will need to transfer from paediatric care to adult care. Which of the following factors is least important in transfer to adult care",
+  "stem": "Which statement is least consistent with good transition care for an adolescent with chronic disease?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "A checklist",
-      "isCorrect": null
+      "text": "Planning should start before transfer to adult services",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Starting at a young age",
-      "isCorrect": null
+      "text": "The young person should be supported to build self-management skills",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Transferring care to a specialist rather than a GP",
-      "isCorrect": null
+      "text": "Care should simply be transferred to a specialist without involving the general practitioner",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Parents and carers should be included appropriately while supporting autonomy",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Written information and clear follow-up plans should be provided",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Good transition care is planned, coordinated and developmentally appropriate, and usually includes primary care as well as paediatric and adult specialist teams. A simple handover to a specialist without coordination is not good transition care.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "American Academy of Pediatrics",
+      "url": "https://ctc-ri.org/sites/default/files/uploads/peds_20182587.pdf%20updated%20AAP%20endorsement%20of%20pediatric%20to%20adult%20transition%209%2013%2023.pdf",
+      "title": "Supporting the health care transition from adolescence to adulthood"
+    },
+    {
+      "type": "external",
+      "source": "NICE",
+      "url": "https://www.nice.org.uk/guidance/ng43/documents/transition-from-childrens-to-adults-services-how-this-guide-was-developed2",
+      "title": "Transition from children’s to adults’ services: guideline development materials"
+    }
+  ],
+  "tags": [
+    "adolescent-medicine/transition"
+  ],
+  "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.167Z",
   "sourceFingerprint": "57e601b8b5f9285405db840e",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Good transition care is planned, coordinated and developmentally appropriate, and usually includes primary care as well as paediatric and adult specialist teams. A simple handover to a specialist without coordination is not good transition care.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Good transition care is planned, coordinated and developmentally appropriate, and usually includes primary care as well as paediatric and adult specialist teams. A simple handover to a specialist without coordination is not good transition care.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.574Z",
@@ -46,6 +77,58 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "9b154586049d934baf92"
+    "stemHash": "9b154586049d934baf92",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.82,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Supporting the health care transition from adolescence to adulthood",
+          "url": "https://ctc-ri.org/sites/default/files/uploads/peds_20182587.pdf%20updated%20AAP%20endorsement%20of%20pediatric%20to%20adult%20transition%209%2013%2023.pdf",
+          "organization": "American Academy of Pediatrics",
+          "sourceType": "international_guideline",
+          "supports": "Supports structured, planned health-care transition from paediatric to adult services."
+        },
+        {
+          "title": "Transition from children’s to adults’ services: guideline development materials",
+          "url": "https://www.nice.org.uk/guidance/ng43/documents/transition-from-childrens-to-adults-services-how-this-guide-was-developed2",
+          "organization": "NICE",
+          "sourceType": "international_guideline",
+          "supports": "Supports structured transition planning and multidisciplinary involvement."
+        }
+      ],
+      "preRepair": {
+        "stem": "Teenagers will need to transfer from paediatric care to adult care. Which of the following factors is least important in transfer to adult care",
+        "options": [
+          {
+            "key": "A",
+            "text": "A checklist",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Starting at a young age",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Transferring care to a specialist rather than a GP",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

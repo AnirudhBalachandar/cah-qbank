@@ -1,67 +1,62 @@
 {
   "id": "594b2485-e1a1-4090-ae73-a7af269613f9",
-  "stem": "Asthma medications: match class to drug:",
+  "stem": "Which asthma medicine is a leukotriene receptor antagonist?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Salbutamol",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Montelukast",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "C",
       "text": "Budesonide",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Salmeterol",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
       "text": "Ipratropium bromide",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Fluticasone",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Cromones",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "Long acting beta agonist",
-      "isCorrect": null
-    },
-    {
-      "key": "I",
-      "text": "Leukotriene antagonist",
-      "isCorrect": null
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Montelukast is a leukotriene receptor antagonist. Salbutamol is a short-acting beta agonist, budesonide is an inhaled corticosteroid, salmeterol is a long-acting beta agonist and ipratropium is an anticholinergic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+      "title": "Clinical Practice Guidelines: Acute asthma"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/asthma"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.100Z",
   "sourceFingerprint": "00b42a0acaffe4e8a326f637",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Montelukast is a leukotriene receptor antagonist. Salbutamol is a short-acting beta agonist, budesonide is an inhaled corticosteroid, salmeterol is a long-acting beta agonist and ipratropium is an anticholinergic.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Montelukast is a leukotriene receptor antagonist. Salbutamol is a short-acting beta agonist, budesonide is an inhaled corticosteroid, salmeterol is a long-acting beta agonist and ipratropium is an anticholinergic.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.033Z",
@@ -76,6 +71,81 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1e5d101c82725688260e"
+    "stemHash": "1e5d101c82725688260e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "selected_existing_option",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Acute asthma",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports use of salbutamol as reliever therapy and oral corticosteroids for acute asthma not responding adequately to bronchodilator therapy."
+        }
+      ],
+      "preRepair": {
+        "stem": "Asthma medications: match class to drug:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Salbutamol",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Montelukast",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Budesonide",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Salmeterol",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Ipratropium bromide",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Fluticasone",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Cromones",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "Long acting beta agonist",
+            "isCorrect": null
+          },
+          {
+            "key": "I",
+            "text": "Leukotriene antagonist",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

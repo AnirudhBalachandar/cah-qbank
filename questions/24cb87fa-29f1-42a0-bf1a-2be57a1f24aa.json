@@ -1,47 +1,68 @@
 {
   "id": "24cb87fa-29f1-42a0-bf1a-2be57a1f24aa",
-  "stem": "How many hours sleep per night does a 16 year old need?",
+  "stem": "Approximately how many hours of sleep per night is appropriate for a healthy 16-year-old?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "5.5",
-      "isCorrect": null
+      "text": "5.5 hours",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "6.5",
-      "isCorrect": null
+      "text": "6.5 hours",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "7.5",
-      "isCorrect": null
+      "text": "7.5 hours",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "8.5",
-      "isCorrect": null
+      "text": "8.5 hours",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "9.5",
-      "isCorrect": null
+      "text": "9.5 hours",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Most adolescents need about 8 to 10 hours of sleep per night. Of the options given, 8.5 hours best matches the recommended range for a 16-year-old.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Sleep Health Foundation",
+      "url": "https://www.sleephealthfoundation.org.au/sleep-topics/quick-facts-and-faq-about-sleep-for-high-school-students",
+      "title": "Quick facts and FAQ about sleep for high school students"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Sleep_problems_children_and_teens/",
+      "title": "Kids Health Info: Sleep problems in children and teens"
+    }
+  ],
+  "tags": [
+    "adolescent-medicine/sleep"
+  ],
+  "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.977Z",
   "sourceFingerprint": "595d44fa154ec48326575c3b",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Most adolescents need about 8 to 10 hours of sleep per night. Of the options given, 8.5 hours best matches the recommended range for a 16-year-old.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Most adolescents need about 8 to 10 hours of sleep per night. Of the options given, 8.5 hours best matches the recommended range for a 16-year-old.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.310Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "5f8182aa7c4557687f41"
+    "stemHash": "5f8182aa7c4557687f41",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "selected_existing_option",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Quick facts and FAQ about sleep for high school students",
+          "url": "https://www.sleephealthfoundation.org.au/sleep-topics/quick-facts-and-faq-about-sleep-for-high-school-students",
+          "organization": "Sleep Health Foundation",
+          "sourceType": "australian_health",
+          "supports": "Supports recommended sleep duration for adolescents."
+        },
+        {
+          "title": "Kids Health Info: Sleep problems in children and teens",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Sleep_problems_children_and_teens/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports adolescent sleep-health counselling."
+        }
+      ],
+      "preRepair": {
+        "stem": "How many hours sleep per night does a 16 year old need?",
+        "options": [
+          {
+            "key": "A",
+            "text": "5.5",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "6.5",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "7.5",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "8.5",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "9.5",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

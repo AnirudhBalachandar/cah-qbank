@@ -1,50 +1,68 @@
 {
   "id": "cc591147-67b7-475e-b4ca-933816c7cb5c",
-  "stem": "Boy 7 days, has bilateral hydronephrosis. What is the most likely cause:",
+  "stem": "A male neonate has bilateral hydronephrosis, a thick-walled bladder and poor urinary stream. Which diagnosis is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Posterior urethral valves",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Malignancy",
-      "isCorrect": null
+      "text": "Vesicoureteric reflux alone",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Urethroceole",
-      "isCorrect": null
+      "text": "Ureteropelvic junction obstruction",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Kidney stones",
-      "isCorrect": null
+      "text": "Duplex kidney",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "VACTERL syndrome",
-      "isCorrect": null
+      "text": "Simple renal cyst",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Posterior urethral valves occur in boys and can cause lower urinary tract obstruction with bilateral hydronephrosis, a thick-walled bladder and poor urinary stream.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Monash Children's Hospital",
+      "url": "https://www.monashchildrenshospital.org/wp-content/uploads/2016/10/puv-posterior-urethral-valves.pdf",
+      "title": "Posterior urethral valves"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antenatal_urinary_tract_dilation/",
+      "title": "Clinical Practice Guidelines: Antenatal urinary tract dilation"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/urology"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.076Z",
   "sourceFingerprint": "013b5644a6ea9327a8810548",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Posterior urethral valves occur in boys and can cause lower urinary tract obstruction with bilateral hydronephrosis, a thick-walled bladder and poor urinary stream.",
+  "optionExplanations": {
+    "A": "Posterior urethral valves occur in boys and can cause lower urinary tract obstruction with bilateral hydronephrosis, a thick-walled bladder and poor urinary stream.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.023Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "17518e6a7df34b52db7d"
+    "stemHash": "17518e6a7df34b52db7d",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Posterior urethral valves",
+          "url": "https://www.monashchildrenshospital.org/wp-content/uploads/2016/10/puv-posterior-urethral-valves.pdf",
+          "organization": "Monash Children's Hospital",
+          "sourceType": "australian_health",
+          "supports": "Supports posterior urethral valves as a male infant obstructive cause with urinary tract dilation."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Antenatal urinary tract dilation",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antenatal_urinary_tract_dilation/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports postnatal evaluation of urinary tract dilation and obstructive uropathy."
+        }
+      ],
+      "preRepair": {
+        "stem": "Boy 7 days, has bilateral hydronephrosis. What is the most likely cause:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Posterior urethral valves",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Malignancy",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Urethroceole",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Kidney stones",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "VACTERL syndrome",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

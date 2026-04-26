@@ -1,47 +1,68 @@
 {
   "id": "cdef8b4b-e36a-4cf6-9add-a62d3dfb2920",
-  "stem": "4 year old boy with a peanut allergy, has not had a reaction in the last 3 years. He comes to ED after eating a biscuit containing peanut. He has a tickly throat, cough, urticarial rash on face/body, angioedema, soft wheeze. But he is allergy and looking around. BP – 89/40, RR – 30. What is your initial management",
+  "stem": "A child develops wheeze, urticaria and hypotension minutes after eating peanut. What is the first-line treatment?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Glucocorticoids",
-      "isCorrect": null
+      "text": "Oral antihistamine",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Antihistamines",
-      "isCorrect": null
+      "text": "Nebulised salbutamol alone",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Give O2",
-      "isCorrect": null
+      "text": "Intravenous fluids alone",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "IM adrenaline",
-      "isCorrect": null
+      "text": "Intramuscular adrenaline",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "IV access",
-      "isCorrect": null
+      "text": "Oral prednisolone alone",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Anaphylaxis with respiratory and cardiovascular features requires immediate intramuscular adrenaline. Antihistamines, steroids and salbutamol do not replace adrenaline.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/anaphylaxis/",
+      "title": "Clinical Practice Guidelines: Anaphylaxis"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+      "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/allergy"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.944Z",
   "sourceFingerprint": "93e7c57d6aa359624f093890",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Anaphylaxis with respiratory and cardiovascular features requires immediate intramuscular adrenaline. Antihistamines, steroids and salbutamol do not replace adrenaline.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Anaphylaxis with respiratory and cardiovascular features requires immediate intramuscular adrenaline. Antihistamines, steroids and salbutamol do not replace adrenaline.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.966Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8c8b0fd44855a087367c"
+    "stemHash": "8c8b0fd44855a087367c",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.95,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Anaphylaxis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/anaphylaxis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports intramuscular adrenaline as first-line treatment of anaphylaxis."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports immediate urticaria, wheeze and other IgE-mediated food allergy presentations."
+        }
+      ],
+      "preRepair": {
+        "stem": "4 year old boy with a peanut allergy, has not had a reaction in the last 3 years. He comes to ED after eating a biscuit containing peanut. He has a tickly throat, cough, urticarial rash on face/body, angioedema, soft wheeze. But he is allergy and looking around. BP – 89/40, RR – 30. What is your initial management",
+        "options": [
+          {
+            "key": "A",
+            "text": "Glucocorticoids",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Antihistamines",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Give O2",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "IM adrenaline",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "IV access",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

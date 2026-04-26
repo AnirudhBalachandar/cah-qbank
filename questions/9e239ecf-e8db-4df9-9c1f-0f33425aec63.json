@@ -1,32 +1,62 @@
 {
   "id": "9e239ecf-e8db-4df9-9c1f-0f33425aec63",
-  "stem": "1 month child weighed 5kg, needs maintenance fluids, what do you want to give. Guidelines are;",
+  "stem": "A 1-month-old infant weighing 5 kg requires maintenance intravenous fluids and has normal electrolytes. Which prescription is most appropriate?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "For children under 3 months use 0.9% NaCl + 10% glucose",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 10% glucose at 20 mL/hour",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "To make up glucose use 50% glucose solution, work out volume by (% needed - %in solution used) X 20, for 1L normal saline",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 5% glucose at 20 mL/hour",
+      "isCorrect": false
+    },
+    {
+      "key": "C",
+      "text": "0.45% sodium chloride with 5% glucose at 20 mL/hour",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Hartmann solution at 100 mL/hour",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5% glucose alone at 20 mL/hour",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Young infants commonly require isotonic sodium chloride with 10% glucose for maintenance because of glucose needs. A 5 kg infant needs about 100 mL/kg/day, or roughly 20 mL/hour.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/intravenous-fluids"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.045Z",
   "sourceFingerprint": "9b93c206fc553f3d0df600a5",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Young infants commonly require isotonic sodium chloride with 10% glucose for maintenance because of glucose needs. A 5 kg infant needs about 100 mL/kg/day, or roughly 20 mL/hour.",
+  "optionExplanations": {
+    "A": "Young infants commonly require isotonic sodium chloride with 10% glucose for maintenance because of glucose needs. A 5 kg infant needs about 100 mL/kg/day, or roughly 20 mL/hour.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.011Z",
@@ -41,6 +71,46 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "0e56f28834c6e3764483"
+    "stemHash": "0e56f28834c6e3764483",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.86,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        }
+      ],
+      "preRepair": {
+        "stem": "1 month child weighed 5kg, needs maintenance fluids, what do you want to give. Guidelines are;",
+        "options": [
+          {
+            "key": "A",
+            "text": "For children under 3 months use 0.9% NaCl + 10% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "To make up glucose use 50% glucose solution, work out volume by (% needed - %in solution used) X 20, for 1L normal saline",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

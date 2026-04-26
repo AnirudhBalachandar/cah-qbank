@@ -1,47 +1,68 @@
 {
   "id": "849d231e-eb8c-4b1a-9f21-ba84e25f8fac",
-  "stem": "Child presents with a sub-mandibular lump as well as inguinal lumps, red lips, vomiting",
+  "stem": "A febrile child is systemically unwell with acute unilateral tender cervical lymphadenitis. What is the most appropriate management?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "IV Fluclox",
-      "isCorrect": null
+      "text": "Intravenous antibiotics targeting Staphylococcus aureus and group A streptococcus",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "IV Prednisone",
-      "isCorrect": null
+      "text": "Intravenous prednisolone alone",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Chemotherapy",
-      "isCorrect": null
+      "text": "Immediate chemotherapy",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "IV Fluids",
-      "isCorrect": null
+      "text": "Intravenous fluids only with no antibiotics",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "PO paracetamol",
-      "isCorrect": null
+      "text": "Oral paracetamol only",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "An unwell child with acute bacterial cervical lymphadenitis requires antibiotic therapy targeting common organisms such as Staphylococcus aureus and group A streptococcus, with intravenous therapy when systemically unwell.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_lymphadenopathy/",
+      "title": "Clinical Practice Guidelines: Cervical lymphadenopathy"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/",
+      "title": "Clinical Practice Guidelines: Antibiotic prescribing in children"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/infection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.182Z",
   "sourceFingerprint": "264721c108bad15c44982c16",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "An unwell child with acute bacterial cervical lymphadenitis requires antibiotic therapy targeting common organisms such as Staphylococcus aureus and group A streptococcus, with intravenous therapy when systemically unwell.",
+  "optionExplanations": {
+    "A": "An unwell child with acute bacterial cervical lymphadenitis requires antibiotic therapy targeting common organisms such as Staphylococcus aureus and group A streptococcus, with intravenous therapy when systemically unwell.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.592Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "d8b972c64c3473423262"
+    "stemHash": "d8b972c64c3473423262",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.89,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Cervical lymphadenopathy",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_lymphadenopathy/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports antibiotic management for acute bacterial cervical lymphadenitis."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Antibiotic prescribing in children",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports antimicrobial selection principles in children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Child presents with a sub-mandibular lump as well as inguinal lumps, red lips, vomiting",
+        "options": [
+          {
+            "key": "A",
+            "text": "IV Fluclox",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "IV Prednisone",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Chemotherapy",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "IV Fluids",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "PO paracetamol",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

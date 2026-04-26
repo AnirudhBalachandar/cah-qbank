@@ -1,45 +1,68 @@
 {
   "id": "b48c3a36-f683-4876-b193-ba424101516b",
-  "stem": "Kid with diarrhoea and vomiting in ED, vitals stable, kid happy, not feeding but tolerating oral rehydration fluids – best course of action",
+  "stem": "A child with gastroenteritis is alert, well perfused and tolerating oral rehydration solution. What is the most appropriate management?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "IV rehydration",
-      "isCorrect": null
+      "text": "Intravenous fluids for all cases",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Admit and trial fluid rehydration",
-      "isCorrect": null
+      "text": "Oral antibiotics",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Discharge on fluid rehydration",
-      "isCorrect": null
+      "text": "Discharge with oral rehydration advice and safety-netting",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Nasogastric rehydration",
-      "isCorrect": null
+      "text": "No fluids for 12 hours",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Immediate abdominal CT",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A child with gastroenteritis who is clinically well and tolerating oral rehydration can usually be managed with oral rehydration, caregiver advice and clear return precautions.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/gastroenteritis/",
+      "title": "Clinical Practice Guidelines: Gastroenteritis"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+      "title": "Clinical Practice Guidelines: Dehydration"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+    "general-paediatrics/gastroenteritis"
   ],
   "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.994Z",
   "sourceFingerprint": "3bd28b284f24fcecfef733c0",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A child with gastroenteritis who is clinically well and tolerating oral rehydration can usually be managed with oral rehydration, caregiver advice and clear return precautions.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "A child with gastroenteritis who is clinically well and tolerating oral rehydration can usually be managed with oral rehydration, caregiver advice and clear return precautions.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.345Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "fd022b0bc307fae2f158"
+    "stemHash": "fd022b0bc307fae2f158",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Gastroenteritis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/gastroenteritis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports oral rehydration when tolerated and IV rehydration when oral rehydration fails or dehydration is significant."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports dehydration assessment and deficit plus maintenance fluid calculations."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid with diarrhoea and vomiting in ED, vitals stable, kid happy, not feeding but tolerating oral rehydration fluids – best course of action",
+        "options": [
+          {
+            "key": "A",
+            "text": "IV rehydration",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Admit and trial fluid rehydration",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Discharge on fluid rehydration",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Nasogastric rehydration",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

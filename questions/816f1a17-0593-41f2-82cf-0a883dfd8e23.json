@@ -1,55 +1,68 @@
 {
   "id": "816f1a17-0593-41f2-82cf-0a883dfd8e23",
-  "stem": "Surgery",
+  "stem": "An infant has a painless, soft, fluctuant scrotal swelling that transilluminates and the testis is otherwise normal. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Hydorcoele",
-      "isCorrect": null
+      "text": "Hydrocele",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Reducible right inguinal hernia",
-      "isCorrect": null
+      "text": "Reducible inguinal hernia",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Varicocoele",
-      "isCorrect": null
+      "text": "Varicocele",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Encysted hydrocele of the cord",
-      "isCorrect": null
+      "text": "Testicular torsion",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Testicular torsion",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Baby, mum noticed changing nappy today that right side was twice the size of the leg, non-tender, non-erythematoous, can get above it",
-      "isCorrect": null
+      "text": "Epididymo-orchitis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A hydrocele is typically a non-tender, soft, fluctuant scrotal swelling that transilluminates. Pain, erythema or acute systemic symptoms would suggest other diagnoses such as torsion or infection.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Perth Children's Hospital",
+      "url": "https://pch.health.wa.gov.au/For-health-professionals/Referrals-to-PCH/Prereferral-guidelines/Hydrocele",
+      "title": "Pre-referral guideline: Hydrocele"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/",
+      "title": "Clinical Practice Guidelines: Acute scrotal pain or swelling"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/urology"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.127Z",
   "sourceFingerprint": "050e07dbb1445a8b94e036fd",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A hydrocele is typically a non-tender, soft, fluctuant scrotal swelling that transilluminates. Pain, erythema or acute systemic symptoms would suggest other diagnoses such as torsion or infection.",
+  "optionExplanations": {
+    "A": "A hydrocele is typically a non-tender, soft, fluctuant scrotal swelling that transilluminates. Pain, erythema or acute systemic symptoms would suggest other diagnoses such as torsion or infection.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.043Z",
@@ -64,6 +77,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "fc00eb484b582cfb374e"
+    "stemHash": "fc00eb484b582cfb374e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.89,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Pre-referral guideline: Hydrocele",
+          "url": "https://pch.health.wa.gov.au/For-health-professionals/Referrals-to-PCH/Prereferral-guidelines/Hydrocele",
+          "organization": "Perth Children's Hospital",
+          "sourceType": "australian_guideline",
+          "supports": "Supports hydrocele as a non-tender, soft, fluctuant scrotal swelling that transilluminates."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Acute scrotal pain or swelling",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports testicular torsion features and urgency of surgical assessment."
+        }
+      ],
+      "preRepair": {
+        "stem": "Surgery",
+        "options": [
+          {
+            "key": "A",
+            "text": "Hydorcoele",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Reducible right inguinal hernia",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Varicocoele",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Encysted hydrocele of the cord",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Testicular torsion",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Baby, mum noticed changing nappy today that right side was twice the size of the leg, non-tender, non-erythematoous, can get above it",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,42 +1,68 @@
 {
   "id": "ea6fd8ba-85dd-43f7-8a6e-4011aee8eb66",
-  "stem": "answers:",
+  "stem": "A child with chronic diarrhoea and poor growth has duodenal villous atrophy on biopsy. Which diagnosis is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "coeliacs",
-      "isCorrect": null
+      "text": "Coeliac disease",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "chrohns",
-      "isCorrect": null
+      "text": "Crohn disease",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "uc",
-      "isCorrect": null
+      "text": "Ulcerative colitis",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "meckels",
-      "isCorrect": null
+      "text": "Meckel diverticulum",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Giardiasis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Duodenal villous atrophy with compatible symptoms is most consistent with coeliac disease, especially when supported by coeliac serology or IgA-adjusted testing.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+      "title": "Primary Care Liaison: Coeliac disease or abnormal coeliac serology"
+    },
+    {
+      "type": "external",
+      "source": "ESPGHAN",
+      "url": "https://www.espghan.org/dam/jcr%3Abebe51d4-8cde-4d20-90d1-815b4a6c76a9/2019_ESPGHAN_guidelines_for_diagnosing_coeliac_disease.pdf",
+      "title": "ESPGHAN guidelines for diagnosing coeliac disease 2020"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/gastroenterology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.123Z",
   "sourceFingerprint": "9c28eabca6aa84f3a9dd3538",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Duodenal villous atrophy with compatible symptoms is most consistent with coeliac disease, especially when supported by coeliac serology or IgA-adjusted testing.",
+  "optionExplanations": {
+    "A": "Duodenal villous atrophy with compatible symptoms is most consistent with coeliac disease, especially when supported by coeliac serology or IgA-adjusted testing.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.988Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8d0ff910dc2909961eb6"
+    "stemHash": "8d0ff910dc2909961eb6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Primary Care Liaison: Coeliac disease or abnormal coeliac serology",
+          "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports coeliac disease assessment and the role of serology and duodenal histology."
+        },
+        {
+          "title": "ESPGHAN guidelines for diagnosing coeliac disease 2020",
+          "url": "https://www.espghan.org/dam/jcr%3Abebe51d4-8cde-4d20-90d1-815b4a6c76a9/2019_ESPGHAN_guidelines_for_diagnosing_coeliac_disease.pdf",
+          "organization": "ESPGHAN",
+          "sourceType": "international_guideline",
+          "supports": "Supports diagnostic interpretation of villous atrophy and serology in coeliac disease, including IgA issues."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers:",
+        "options": [
+          {
+            "key": "A",
+            "text": "coeliacs",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "chrohns",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "uc",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "meckels",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

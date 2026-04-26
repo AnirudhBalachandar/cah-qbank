@@ -1,42 +1,62 @@
 {
   "id": "6c3243cb-1bc3-4933-be5d-9d6c914d4077",
-  "stem": "Mother calls asking for advice after kid spilt hot coffee on themselves",
+  "stem": "What is the recommended first aid for a child with a thermal burn?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Remove clothes, 20 mins cold water over burn, keep warm",
-      "isCorrect": null
+      "text": "Cool running water for 20 minutes while keeping the child warm",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Rush to ED",
-      "isCorrect": null
+      "text": "Apply ice directly for 20 minutes",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Cold shower",
-      "isCorrect": null
+      "text": "Apply butter or oil to the burn",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Remove clothes, 5-10 mins cold water over burn, keep warm",
-      "isCorrect": null
+      "text": "Cover the burn without cooling",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Break all blisters immediately",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Burn first aid is cooling the burn with cool running water for 20 minutes while preventing hypothermia by keeping the rest of the child warm.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+      "title": "Clinical Practice Guidelines: Burns - acute management"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/burns"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.985Z",
   "sourceFingerprint": "f18dcbabfcbc39e18bc34c17",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Burn first aid is cooling the burn with cool running water for 20 minutes while preventing hypothermia by keeping the rest of the child warm.",
+  "optionExplanations": {
+    "A": "Burn first aid is cooling the burn with cool running water for 20 minutes while preventing hypothermia by keeping the rest of the child warm.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.331Z",
@@ -51,6 +71,56 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "96738841fc4f00e39958"
+    "stemHash": "96738841fc4f00e39958",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Burns - acute management",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports burn first aid, cooling, keeping the child warm and acute burn resuscitation principles."
+        }
+      ],
+      "preRepair": {
+        "stem": "Mother calls asking for advice after kid spilt hot coffee on themselves",
+        "options": [
+          {
+            "key": "A",
+            "text": "Remove clothes, 20 mins cold water over burn, keep warm",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Rush to ED",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Cold shower",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Remove clothes, 5-10 mins cold water over burn, keep warm",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

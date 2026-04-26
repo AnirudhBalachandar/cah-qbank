@@ -1,47 +1,68 @@
 {
   "id": "af18b73f-2b6a-4ef9-9b13-0083981bb306",
-  "stem": "What is this structure? (picture of ear drum, pointing at top)",
+  "stem": "On otoscopy, the handle of which structure is attached to the tympanic membrane and forms a key landmark?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Umbo",
-      "isCorrect": null
+      "text": "Incus",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Incus",
-      "isCorrect": null
+      "text": "Stapes",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Stapes",
-      "isCorrect": null
+      "text": "Eustachian tube",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Malleus",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "Light reflex",
-      "isCorrect": null
+      "text": "Round window",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "The handle of the malleus is attached to the tympanic membrane and is a key otoscopic landmark.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448117/",
+      "title": "Anatomy, Head and Neck, Ear Tympanic Membrane"
+    },
+    {
+      "type": "external",
+      "source": "Kenhub",
+      "url": "https://www.kenhub.com/en/library/anatomy/tympanic-membrane",
+      "title": "Tympanic membrane anatomy"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/ear-anatomy"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.997Z",
   "sourceFingerprint": "d0e272ef9136af291f665e36",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The handle of the malleus is attached to the tympanic membrane and is a key otoscopic landmark.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "The handle of the malleus is attached to the tympanic membrane and is a key otoscopic landmark.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.354Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "40f5adb1763f5fa4770e"
+    "stemHash": "40f5adb1763f5fa4770e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Anatomy, Head and Neck, Ear Tympanic Membrane",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK448117/",
+          "organization": "NCBI Bookshelf",
+          "sourceType": "other_reputable",
+          "supports": "Supports tympanic membrane anatomy, including malleus attachment and key landmarks."
+        },
+        {
+          "title": "Tympanic membrane anatomy",
+          "url": "https://www.kenhub.com/en/library/anatomy/tympanic-membrane",
+          "organization": "Kenhub",
+          "sourceType": "other_reputable",
+          "supports": "Supports the umbo as the central attachment point of the malleus on the tympanic membrane."
+        }
+      ],
+      "preRepair": {
+        "stem": "What is this structure? (picture of ear drum, pointing at top)",
+        "options": [
+          {
+            "key": "A",
+            "text": "Umbo",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Incus",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Stapes",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Malleus",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Light reflex",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,55 +1,62 @@
 {
   "id": "3b08fcf3-6bfc-4d04-896f-ea58635fc713",
-  "stem": "Hip pain",
+  "stem": "A 6-year-old child has a painless limp, limited hip abduction, thigh wasting and a flattened femoral head on x-ray. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Perthes",
-      "isCorrect": null
+      "text": "Perthes disease",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "DDH",
-      "isCorrect": null
+      "text": "Developmental dysplasia of the hip",
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Transient synovitis",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "SCFE",
-      "isCorrect": null
+      "text": "Slipped upper femoral epiphysis",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Child abuse",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Fractures",
-      "isCorrect": null
+      "text": "Non-accidental injury",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Perthes disease typically affects children aged about 4 to 10 years and can present with limp, limited hip movement and femoral head changes. SUFE is more typical in older adolescents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+      "title": "Clinical Practice Guidelines: The limping or non-weight bearing child"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/orthopaedics"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.827Z",
   "sourceFingerprint": "4da732a9cca61917e738bb1f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Perthes disease typically affects children aged about 4 to 10 years and can present with limp, limited hip movement and femoral head changes. SUFE is more typical in older adolescents.",
+  "optionExplanations": {
+    "A": "Perthes disease typically affects children aged about 4 to 10 years and can present with limp, limited hip movement and femoral head changes. SUFE is more typical in older adolescents.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.648Z",
@@ -64,6 +71,69 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "a9a96677f2d9763a15ac"
+    "stemHash": "a9a96677f2d9763a15ac",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: The limping or non-weight bearing child",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports age-based differential diagnosis for limp, including Perthes disease and SUFE."
+        }
+      ],
+      "preRepair": {
+        "stem": "Hip pain",
+        "options": [
+          {
+            "key": "A",
+            "text": "Perthes",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "DDH",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Transient synovitis",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "SCFE",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Child abuse",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Fractures",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -18,8 +18,8 @@ final class iOSBootstrapTests: XCTestCase {
         await model.bootstrapIfNeeded()
 
         XCTAssertTrue(model.hasLinkedRepo)
-        XCTAssertEqual(model.dashboard?.publishedCount, 2_099)
-        XCTAssertEqual(model.dashboard?.answerableCount, 1_921)
+        XCTAssertEqual(model.dashboard?.publishedCount, 3_060)
+        XCTAssertEqual(model.dashboard?.answerableCount, 3_056)
         XCTAssertEqual(model.practiceTags.isEmpty, false)
         XCTAssertNil(model.errorMessage)
     }

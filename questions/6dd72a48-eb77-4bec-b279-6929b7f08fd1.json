@@ -1,50 +1,62 @@
 {
   "id": "6dd72a48-eb77-4bec-b279-6929b7f08fd1",
-  "stem": "answers:",
+  "stem": "A toddler has a barking cough, hoarse voice and inspiratory stridor after a viral prodrome. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "croup",
-      "isCorrect": null
+      "text": "Croup",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "bronchitis",
-      "isCorrect": null
+      "text": "Acute bronchitis",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "cardiac failure",
-      "isCorrect": null
+      "text": "Cardiac failure",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "metabolic disorder",
-      "isCorrect": null
+      "text": "Metabolic acidosis",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "pneumonia",
-      "isCorrect": null
+      "text": "Pneumonia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Croup typically presents with a barking cough, hoarse voice and inspiratory stridor, often after a viral prodrome.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis/",
+      "title": "Clinical Practice Guidelines: Croup"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/airway"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.134Z",
   "sourceFingerprint": "3ac5d1c70ecc7dfe7478145b",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Croup typically presents with a barking cough, hoarse voice and inspiratory stridor, often after a viral prodrome.",
+  "optionExplanations": {
+    "A": "Croup typically presents with a barking cough, hoarse voice and inspiratory stridor, often after a viral prodrome.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.992Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8d0ff910dc2909961eb6"
+    "stemHash": "8d0ff910dc2909961eb6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Croup",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports recognition of croup with barking cough and inspiratory stridor."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers:",
+        "options": [
+          {
+            "key": "A",
+            "text": "croup",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "bronchitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "cardiac failure",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "metabolic disorder",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "pneumonia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,47 +1,68 @@
 {
   "id": "d6e140eb-d49a-4174-a614-b8590a816054",
-  "stem": "Which is most likely to increase the risk of cyber bullying:",
+  "stem": "Which school-level factor most increases the risk that cyberbullying will be poorly managed?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Going to a school with no cyberbullying policy",
-      "isCorrect": null
+      "text": "No clear school policy or reporting process for cyberbullying",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Not having access to personal social media",
-      "isCorrect": null
+      "text": "A whole-school prevention program",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Being a high achiever",
-      "isCorrect": null
+      "text": "Clear pathways for students to report concerns",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Parent always at home",
-      "isCorrect": null
+      "text": "Parent and student education about online safety",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Being male",
-      "isCorrect": null
+      "text": "Prompt support for affected students",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "A lack of clear school policy and reporting pathways makes cyberbullying harder to prevent, identify and respond to effectively. Whole-school approaches and clear reporting are protective.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "NSW Government",
+      "url": "https://www.nsw.gov.au/sites/default/files/2024-08/protecting-children-and-adolescents-from-cyberbullying.pdf",
+      "title": "Protecting children and adolescents from cyberbullying"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://blogs.rch.org.au/cah/2018/06/25/rch-national-child-health-poll/",
+      "title": "RCH National Child Health Poll: Bullying"
+    }
+  ],
+  "tags": [
+    "adolescent-medicine/mental-health"
+  ],
+  "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.061Z",
   "sourceFingerprint": "f36035320553b937d797d36a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A lack of clear school policy and reporting pathways makes cyberbullying harder to prevent, identify and respond to effectively. Whole-school approaches and clear reporting are protective.",
+  "optionExplanations": {
+    "A": "A lack of clear school policy and reporting pathways makes cyberbullying harder to prevent, identify and respond to effectively. Whole-school approaches and clear reporting are protective.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.016Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "67072c75d3c700416bbc"
+    "stemHash": "67072c75d3c700416bbc",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.86,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Protecting children and adolescents from cyberbullying",
+          "url": "https://www.nsw.gov.au/sites/default/files/2024-08/protecting-children-and-adolescents-from-cyberbullying.pdf",
+          "organization": "NSW Government",
+          "sourceType": "australian_health",
+          "supports": "Supports whole-school policy and protective approaches for cyberbullying."
+        },
+        {
+          "title": "RCH National Child Health Poll: Bullying",
+          "url": "https://blogs.rch.org.au/cah/2018/06/25/rch-national-child-health-poll/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports impact of bullying and need for school-level prevention."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which is most likely to increase the risk of cyber bullying:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Going to a school with no cyberbullying policy",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Not having access to personal social media",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Being a high achiever",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Parent always at home",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Being male",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,47 +1,62 @@
 {
   "id": "88aaded7-333d-4792-a860-19e5483edda7",
-  "stem": "Number of items in AGREE II criteria",
+  "stem": "How many items are included in the AGREE II guideline appraisal instrument?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "3",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "5",
-      "isCorrect": null
+      "text": "7",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "7",
-      "isCorrect": null
+      "text": "11",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "18",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
       "text": "23",
-      "isCorrect": null
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "The AGREE II instrument contains 23 items organised across six quality domains, plus overall assessment items.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "AGREE Enterprise",
+      "url": "https://www.agreetrust.org/wp-content/uploads/2017/12/AGREE-II-Users-Manual-and-23-item-Instrument-2009-Update-2017.pdf",
+      "title": "AGREE II User Manual and 23-item Instrument"
+    }
+  ],
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.971Z",
   "sourceFingerprint": "8a5fc7deea47c0efe8577826",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The AGREE II instrument contains 23 items organised across six quality domains, plus overall assessment items.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "The AGREE II instrument contains 23 items organised across six quality domains, plus overall assessment items."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.301Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "7f40a38b6f1087882698"
+    "stemHash": "7f40a38b6f1087882698",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "selected_existing_option",
+      "confidence": 0.95,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "AGREE II User Manual and 23-item Instrument",
+          "url": "https://www.agreetrust.org/wp-content/uploads/2017/12/AGREE-II-Users-Manual-and-23-item-Instrument-2009-Update-2017.pdf",
+          "organization": "AGREE Enterprise",
+          "sourceType": "international_guideline",
+          "supports": "Supports the 23-item structure and domains including rigour of development."
+        }
+      ],
+      "preRepair": {
+        "stem": "Number of items in AGREE II criteria",
+        "options": [
+          {
+            "key": "A",
+            "text": "3",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "5",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "7",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "18",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "23",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

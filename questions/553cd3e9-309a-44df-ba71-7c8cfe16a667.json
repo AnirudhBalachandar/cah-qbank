@@ -1,42 +1,62 @@
 {
   "id": "553cd3e9-309a-44df-ba71-7c8cfe16a667",
-  "stem": "child has HIV, dad wants to know how common this is.",
+  "stem": "In diagnostic testing, what does pre-test probability mean?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Sensitivity",
-      "isCorrect": null
+      "text": "The chance of disease after a positive test",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "PPV",
-      "isCorrect": null
+      "text": "The chance of a negative test in someone without disease",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Likelihood ratio",
-      "isCorrect": null
+      "text": "The ratio of sensitivity to specificity",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Pretest probability",
-      "isCorrect": null
+      "text": "The estimated probability of disease before the test result is known",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "The chance of a positive test in someone with disease",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Pre-test probability is the estimated likelihood that a patient has the condition before the test result is available. It influences how predictive a positive or negative result will be.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "MedCalc",
+      "url": "https://www.medcalc.org/en/manual/diagnostic-test.php",
+      "title": "Diagnostic test evaluation calculator"
+    }
+  ],
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.330Z",
   "sourceFingerprint": "00fa79591ca084bfafad14ad",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Pre-test probability is the estimated likelihood that a patient has the condition before the test result is available. It influences how predictive a positive or negative result will be.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Pre-test probability is the estimated likelihood that a patient has the condition before the test result is available. It influences how predictive a positive or negative result will be.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2011 Term D.docx",
     "importedAt": "2026-03-16T02:22:41.094Z",
@@ -51,6 +71,56 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1680e424f0f911713b0a"
+    "stemHash": "1680e424f0f911713b0a",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Diagnostic test evaluation calculator",
+          "url": "https://www.medcalc.org/en/manual/diagnostic-test.php",
+          "organization": "MedCalc",
+          "sourceType": "other_reputable",
+          "supports": "Supports definitions of sensitivity, specificity, predictive values and likelihood ratios."
+        }
+      ],
+      "preRepair": {
+        "stem": "child has HIV, dad wants to know how common this is.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Sensitivity",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "PPV",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Likelihood ratio",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Pretest probability",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

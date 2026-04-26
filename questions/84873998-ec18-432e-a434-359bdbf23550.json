@@ -1,47 +1,62 @@
 {
   "id": "84873998-ec18-432e-a434-359bdbf23550",
-  "stem": "You are an intern. The registrar asks you ‘yo homie fill her up with \"half maintenance fluids”’. What do you chart?",
+  "stem": "Which intravenous fluid order corresponds to half-normal saline with 5 percent glucose?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "N/2 + 5% glucose",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "0.45% NaCl + 5% glucose",
-      "isCorrect": null
+      "text": "0.45% sodium chloride with 5% glucose",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "0.225% NaCl + 2.5% glucose",
-      "isCorrect": null
+      "text": "0.45% sodium chloride with 2.5% glucose",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "0.9% NaCl + 2.5% glucose",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 2.5% glucose",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "0.9% NaCl + 5% glucose",
-      "isCorrect": null
+      "text": "5% glucose alone",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Half-normal saline means 0.45% sodium chloride. With 5 percent glucose, the order is 0.45% sodium chloride with 5% glucose.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/intravenous-fluids"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.158Z",
   "sourceFingerprint": "10a29b1dea83774835b29275",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Half-normal saline means 0.45% sodium chloride. With 5 percent glucose, the order is 0.45% sodium chloride with 5% glucose.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Half-normal saline means 0.45% sodium chloride. With 5 percent glucose, the order is 0.45% sodium chloride with 5% glucose.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.559Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "80ff931451a57709e70d"
+    "stemHash": "80ff931451a57709e70d",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        }
+      ],
+      "preRepair": {
+        "stem": "You are an intern. The registrar asks you ‘yo homie fill her up with \"half maintenance fluids”’. What do you chart?",
+        "options": [
+          {
+            "key": "A",
+            "text": "N/2 + 5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "0.45% NaCl + 5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "0.225% NaCl + 2.5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "0.9% NaCl + 2.5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "0.9% NaCl + 5% glucose",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

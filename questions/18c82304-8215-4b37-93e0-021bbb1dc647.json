@@ -1,55 +1,62 @@
 {
   "id": "18c82304-8215-4b37-93e0-021bbb1dc647",
-  "stem": "Respiratory",
+  "stem": "A 5-month-old infant has two days of coryza followed by cough, tachypnoea, wheeze, fine crackles and reduced feeding. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Croup",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Bronchiolitis",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Bronchitis",
-      "isCorrect": null
+      "text": "Acute bronchitis",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Pneumonia",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Inhaled foreign object",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Asthma",
-      "isCorrect": null
+      "text": "Inhaled foreign body",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Bronchiolitis is a common viral lower respiratory tract illness in infants and typically follows coryza with cough, tachypnoea, wheeze or crackles and feeding difficulty.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis_Guideline/",
+      "title": "Clinical Practice Guidelines: Bronchiolitis"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/respiratory"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.620Z",
   "sourceFingerprint": "b71188f97aeb357f336cdce9",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Bronchiolitis is a common viral lower respiratory tract illness in infants and typically follows coryza with cough, tachypnoea, wheeze or crackles and feeding difficulty.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Bronchiolitis is a common viral lower respiratory tract illness in infants and typically follows coryza with cough, tachypnoea, wheeze or crackles and feeding difficulty.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.451Z",
@@ -64,6 +71,69 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "9cb1c9c5f6adf8156964"
+    "stemHash": "9cb1c9c5f6adf8156964",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Bronchiolitis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis_Guideline/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and supportive management of bronchiolitis in infants with viral prodrome, wheeze, crackles and feeding difficulty."
+        }
+      ],
+      "preRepair": {
+        "stem": "Respiratory",
+        "options": [
+          {
+            "key": "A",
+            "text": "Croup",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Bronchiolitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Bronchitis",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Pneumonia",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Inhaled foreign object",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Asthma",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

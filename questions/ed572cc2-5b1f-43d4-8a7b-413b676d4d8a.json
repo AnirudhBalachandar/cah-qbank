@@ -1,45 +1,68 @@
 {
   "id": "ed572cc2-5b1f-43d4-8a7b-413b676d4d8a",
-  "stem": "Kid hit by car 65km/hr, trauma, nonrebreather mask 10L, C spine collar, rigid backboard, GCS7, evidence of shock/hypotension. what’s first?",
+  "stem": "A child arrives after a high-speed car crash with multiple injuries, hypotension and a Glasgow Coma Scale score of 7. What is the best immediate management priority?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Call Trauma team, IV line, bolus fluids, morphine",
-      "isCorrect": null
+      "text": "Call the trauma team and wait for their arrival before intervening",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Guedel’s airway, IV line",
-      "isCorrect": null
+      "text": "Give morphine before assessing airway and breathing",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Intubate…",
-      "isCorrect": null
+      "text": "Secure the airway with cervical spine protection and give high-flow oxygen",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Secure airway, sats, log roll",
-      "isCorrect": null
+      "text": "Log roll the child before airway assessment",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Transfer directly to CT before stabilisation",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A child with major trauma and a GCS of 7 needs immediate airway management with cervical spine protection as part of the primary survey. Analgesia, imaging and secondary survey steps are important but must not precede airway and oxygenation priorities.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_primary_survey/",
+      "title": "Clinical Practice Guidelines: Major paediatric trauma - the primary survey"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_spine_assessment/",
+      "title": "Clinical Practice Guidelines: Cervical spine assessment"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/trauma"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:05.655Z",
   "sourceFingerprint": "abe2607ca3656bad98cb6bd3",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A child with major trauma and a GCS of 7 needs immediate airway management with cervical spine protection as part of the primary survey. Analgesia, imaging and secondary survey steps are important but must not precede airway and oxygenation priorities.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "A child with major trauma and a GCS of 7 needs immediate airway management with cervical spine protection as part of the primary survey. Analgesia, imaging and secondary survey steps are important but must not precede airway and oxygenation priorities.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds exam MCQs.docx",
     "importedAt": "2026-03-16T02:22:40.722Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "be73994be8f39c11690d"
+    "stemHash": "be73994be8f39c11690d",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Major paediatric trauma - the primary survey",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_primary_survey/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports ABCDE priorities, airway protection, cervical spine protection and early trauma team activation in major paediatric trauma."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Cervical spine assessment",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_spine_assessment/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports cervical spine protection and assessment in injured children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid hit by car 65km/hr, trauma, nonrebreather mask 10L, C spine collar, rigid backboard, GCS7, evidence of shock/hypotension. what’s first?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Call Trauma team, IV line, bolus fluids, morphine",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Guedel’s airway, IV line",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Intubate…",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Secure airway, sats, log roll",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

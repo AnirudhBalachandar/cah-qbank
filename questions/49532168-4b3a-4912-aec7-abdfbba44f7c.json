@@ -1,67 +1,62 @@
 {
   "id": "49532168-4b3a-4912-aec7-abdfbba44f7c",
-  "stem": "In 2001-2004, what were the most common causes of hospital admissions for 12-24 year olds:",
+  "stem": "Which diagnostic group is a leading cause of hospitalisation for adolescent males in Australia?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Injury &amp; poisoning",
-      "isCorrect": null
+      "text": "Endocrine disease",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Musucloskeltal injury",
-      "isCorrect": null
+      "text": "Neurological disease",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Endocrine",
-      "isCorrect": null
+      "text": "Genitourinary disease",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Genitourinary",
-      "isCorrect": null
+      "text": "Musculoskeletal disease",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Pregnancy &amp; infertility",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Infection",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Nervous system",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "Males 12-24",
-      "isCorrect": null
-    },
-    {
-      "key": "I",
-      "text": "Females 12-24",
-      "isCorrect": null
+      "text": "Injury and poisoning",
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Injury and poisoning is a leading cause of hospital separation among young males and adolescents, reflecting the high injury burden in this age group.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Institute of Health and Welfare",
+      "url": "https://www.aihw.gov.au/getmedia/125d75eb-5220-499b-9dba-0b7925008853/yathaw07.pdf.aspx?inline=true",
+      "title": "Young Australians: their health and wellbeing 2007"
+    }
+  ],
+  "tags": [
+    "adolescent-medicine/population-health"
+  ],
+  "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.094Z",
   "sourceFingerprint": "04d775330b3b6c23998e30aa",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Injury and poisoning is a leading cause of hospital separation among young males and adolescents, reflecting the high injury burden in this age group.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "Injury and poisoning is a leading cause of hospital separation among young males and adolescents, reflecting the high injury burden in this age group."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.031Z",
@@ -76,6 +71,81 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "6209d55ae526b839aad1"
+    "stemHash": "6209d55ae526b839aad1",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.82,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Young Australians: their health and wellbeing 2007",
+          "url": "https://www.aihw.gov.au/getmedia/125d75eb-5220-499b-9dba-0b7925008853/yathaw07.pdf.aspx?inline=true",
+          "organization": "Australian Institute of Health and Welfare",
+          "sourceType": "australian_health",
+          "supports": "Supports injury and poisoning as a leading reason for hospital separation among young males and young people."
+        }
+      ],
+      "preRepair": {
+        "stem": "In 2001-2004, what were the most common causes of hospital admissions for 12-24 year olds:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Injury &amp; poisoning",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Musucloskeltal injury",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Endocrine",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Genitourinary",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Pregnancy &amp; infertility",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Infection",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Nervous system",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "Males 12-24",
+            "isCorrect": null
+          },
+          {
+            "key": "I",
+            "text": "Females 12-24",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

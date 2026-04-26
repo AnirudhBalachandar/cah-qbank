@@ -1,47 +1,62 @@
 {
   "id": "abb1b0e8-02a7-4552-91a9-198053a352b3",
-  "stem": "Mum calls ambulance because her child has split hot coffee over himself. Which of the following is the most common complication of first aid:",
+  "stem": "What is an important complication to prevent when applying burn first aid with cool running water to a child?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Hyperthermia",
-      "isCorrect": null
+      "text": "Hyperglycaemia",
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Hypothermia",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Fluid-Electrolyte imbalance",
-      "isCorrect": null
+      "text": "Hypertension",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Infection",
-      "isCorrect": null
+      "text": "Hypercalcaemia",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Worsening the pain",
-      "isCorrect": null
+      "text": "Seizure from cooling alone",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Burns should be cooled with cool running water, but children are vulnerable to hypothermia, so the rest of the child should be kept warm during first aid.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+      "title": "Clinical Practice Guidelines: Burns - acute management"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/burns"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.012Z",
   "sourceFingerprint": "d0d91a7f3a0c8d07c530b27e",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Burns should be cooled with cool running water, but children are vulnerable to hypothermia, so the rest of the child should be kept warm during first aid.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Burns should be cooled with cool running water, but children are vulnerable to hypothermia, so the rest of the child should be kept warm during first aid.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.993Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "c0d8e05d796a1a0e37fd"
+    "stemHash": "c0d8e05d796a1a0e37fd",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Burns - acute management",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/burns/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports burn first aid, cooling, keeping the child warm and acute burn resuscitation principles."
+        }
+      ],
+      "preRepair": {
+        "stem": "Mum calls ambulance because her child has split hot coffee over himself. Which of the following is the most common complication of first aid:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Hyperthermia",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Hypothermia",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Fluid-Electrolyte imbalance",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Infection",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Worsening the pain",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

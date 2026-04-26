@@ -1,50 +1,62 @@
 {
   "id": "66090801-2df2-4233-a808-d5535c83ada1",
-  "stem": "Which of the following is the most likely to decrease the risk of adolescent smoking:",
+  "stem": "Which factor is most protective against adolescent smoking?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Fear of future effects",
-      "isCorrect": null
+      "text": "Parental disapproval of smoking",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Parental disapproval",
-      "isCorrect": null
+      "text": "Easy access to cigarettes",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Co-commitant cannibas smoking",
-      "isCorrect": null
+      "text": "Peer smoking",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Poor social skills",
-      "isCorrect": null
+      "text": "Low school connectedness",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Friends who smoke",
-      "isCorrect": null
+      "text": "Exposure to tobacco advertising",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Parental disapproval and supportive family norms reduce the likelihood of adolescent smoking, while peer smoking and easy access increase risk.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://ww2.rch.org.au/emplibrary/ccch/PR_Prevent_Smoke_KM_Mngrs.pdf",
+      "title": "Policy brief: Preventing smoking in young people"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+    "adolescent-medicine/prevention"
   ],
   "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.065Z",
   "sourceFingerprint": "2755c328b989fd49b47f4709",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Parental disapproval and supportive family norms reduce the likelihood of adolescent smoking, while peer smoking and easy access increase risk.",
+  "optionExplanations": {
+    "A": "Parental disapproval and supportive family norms reduce the likelihood of adolescent smoking, while peer smoking and easy access increase risk.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.018Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "2c018f1e0d1030bea453"
+    "stemHash": "2c018f1e0d1030bea453",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.86,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Policy brief: Preventing smoking in young people",
+          "url": "https://ww2.rch.org.au/emplibrary/ccch/PR_Prevent_Smoke_KM_Mngrs.pdf",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports family and parental attitudes as protective influences against adolescent smoking."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which of the following is the most likely to decrease the risk of adolescent smoking:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Fear of future effects",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Parental disapproval",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Co-commitant cannibas smoking",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Poor social skills",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Friends who smoke",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/adolescent-medicine"
+        ],
+        "curriculum": "Adolescent Medicine",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,57 +1,68 @@
 {
   "id": "ee2bbab1-7914-4b42-8d52-8b005c68950b",
-  "stem": "Pediatrics Q’s hospital day 2",
+  "stem": "At what age does uncomplicated physiological infant reflux usually substantially improve or resolve?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Age kids should stop spitting up? Peak at about 4 months, stops by about 12",
-      "isCorrect": null
+      "text": "6 weeks",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Recommended fluid for well child with hydration issues? 0.9% NaCL and 5% glucose + 20mmol KCL. Adjust if K or gluc is high, etc.",
-      "isCorrect": null
+      "text": "4 months",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "T/F Osgood Schlatter is almost never seen in adults? T, peaks between 10-15, is an often bilateral inflammation of the insertion of the patellar tendon into the tibial tubercle. Radiographs are rarely indicated, management is conservative with slow return to activity (i.e. RICE)",
-      "isCorrect": null
+      "text": "12 months",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "RF’s for SIDS? Smoking! Over wrapping the baby, sleep on stomach, soft bedding",
-      "isCorrect": null
+      "text": "3 years",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Be on the lookout for infections several weeks ago (i.e. glomerulonephritis)",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Red cell casts indicate? Bleeding is glomerular – glomerulonephritis, GAS beta hemolytic is most common in kids, can be asymptomatic or have general signs (malaise, fatigue, etc.)",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Turner syndrome associated with what abnormalities of each system:",
-      "isCorrect": null
+      "text": "It never resolves spontaneously",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Physiological infant reflux is common in early infancy, often peaks around 4 months and usually improves substantially by about 12 months of age.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "NASPGHAN/ESPGHAN",
+      "url": "https://www.naspghan.org/files/Pediatric_Gastroesophageal_Reflux_Clinical.33.pdf",
+      "title": "Pediatric gastroesophageal reflux clinical practice guidelines"
+    },
+    {
+      "type": "external",
+      "source": "American Academy of Pediatrics",
+      "url": "https://publications.aap.org/pediatriccare/book/348/chapter/5780442/Gastroesophageal-Reflux-Disease-Chapter-255",
+      "title": "Pediatric Care Online: Gastroesophageal reflux disease"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/gastroenterology"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.316Z",
   "sourceFingerprint": "b10c7b4cdbb449b83fb4930a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Physiological infant reflux is common in early infancy, often peaks around 4 months and usually improves substantially by about 12 months of age.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Physiological infant reflux is common in early infancy, often peaks around 4 months and usually improves substantially by about 12 months of age.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Summary of Remembered Exam Questions - 2013.docx",
     "importedAt": "2026-03-16T02:22:42.160Z",
@@ -66,6 +77,78 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "454424fc2bdf9c4fe23c"
+    "stemHash": "454424fc2bdf9c4fe23c",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Pediatric gastroesophageal reflux clinical practice guidelines",
+          "url": "https://www.naspghan.org/files/Pediatric_Gastroesophageal_Reflux_Clinical.33.pdf",
+          "organization": "NASPGHAN/ESPGHAN",
+          "sourceType": "international_guideline",
+          "supports": "Supports physiologic infant reflux and its natural history."
+        },
+        {
+          "title": "Pediatric Care Online: Gastroesophageal reflux disease",
+          "url": "https://publications.aap.org/pediatriccare/book/348/chapter/5780442/Gastroesophageal-Reflux-Disease-Chapter-255",
+          "organization": "American Academy of Pediatrics",
+          "sourceType": "other_reputable",
+          "supports": "Supports reflux peak in early infancy and typical resolution by 12 to 14 months."
+        }
+      ],
+      "preRepair": {
+        "stem": "Pediatrics Q’s hospital day 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "Age kids should stop spitting up? Peak at about 4 months, stops by about 12",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Recommended fluid for well child with hydration issues? 0.9% NaCL and 5% glucose + 20mmol KCL. Adjust if K or gluc is high, etc.",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "T/F Osgood Schlatter is almost never seen in adults? T, peaks between 10-15, is an often bilateral inflammation of the insertion of the patellar tendon into the tibial tubercle. Radiographs are rarely indicated, management is conservative with slow return to activity (i.e. RICE)",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "RF’s for SIDS? Smoking! Over wrapping the baby, sleep on stomach, soft bedding",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Be on the lookout for infections several weeks ago (i.e. glomerulonephritis)",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Red cell casts indicate? Bleeding is glomerular – glomerulonephritis, GAS beta hemolytic is most common in kids, can be asymptomatic or have general signs (malaise, fatigue, etc.)",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Turner syndrome associated with what abnormalities of each system:",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

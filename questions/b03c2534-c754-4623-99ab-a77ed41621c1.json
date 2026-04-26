@@ -1,57 +1,62 @@
 {
   "id": "b03c2534-c754-4623-99ab-a77ed41621c1",
-  "stem": "They provide a bunch of random hospital guidelines on use of antibiotics, cant remember.",
+  "stem": "A child has suspected bacterial meningitis and no contraindication to cephalosporins. Which empirical antibiotic is most appropriate while urgent investigations proceed?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "No antibiotics",
-      "isCorrect": null
+      "text": "No antibiotics until culture confirmation",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Gentamicin",
-      "isCorrect": null
+      "text": "Gentamicin alone",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Ampicillin",
-      "isCorrect": null
+      "text": "Ampicillin alone",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Clindamycin",
-      "isCorrect": null
+      "text": "Clindamycin alone",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Benzylpenicillin",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
       "text": "Ceftriaxone",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Erythromycin",
-      "isCorrect": null
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Suspected bacterial meningitis requires prompt empirical intravenous antibiotics. A third-generation cephalosporin such as ceftriaxone is a standard initial choice in many paediatric settings, adjusted for age and local protocols.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+      "title": "Clinical Practice Guidelines: Meningitis and encephalitis"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/infection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.846Z",
   "sourceFingerprint": "3d721f8d2a5db385d78e88bd",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Suspected bacterial meningitis requires prompt empirical intravenous antibiotics. A third-generation cephalosporin such as ceftriaxone is a standard initial choice in many paediatric settings, adjusted for age and local protocols.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "Suspected bacterial meningitis requires prompt empirical intravenous antibiotics. A third-generation cephalosporin such as ceftriaxone is a standard initial choice in many paediatric settings, adjusted for age and local protocols."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.664Z",
@@ -66,6 +71,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "59fc93ed3bbff1ab13dc"
+    "stemHash": "59fc93ed3bbff1ab13dc",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Meningitis and encephalitis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports empirical treatment and likely organisms in paediatric meningitis."
+        }
+      ],
+      "preRepair": {
+        "stem": "They provide a bunch of random hospital guidelines on use of antibiotics, cant remember.",
+        "options": [
+          {
+            "key": "A",
+            "text": "No antibiotics",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Gentamicin",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Ampicillin",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Clindamycin",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Benzylpenicillin",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Ceftriaxone",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Erythromycin",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

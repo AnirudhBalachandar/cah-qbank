@@ -1,37 +1,68 @@
 {
   "id": "95044743-062f-4379-8249-095c94dc9f31",
-  "stem": "Microbiology",
+  "stem": "A skin abscess culture shows Gram-positive cocci in clusters. Which organism is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "S.aureus",
-      "isCorrect": null
+      "text": "Staphylococcus aureus",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "S.pyogenes",
-      "isCorrect": null
+      "text": "Streptococcus pyogenes",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "E.coli",
-      "isCorrect": null
+      "text": "Escherichia coli",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Neisseria meningitidis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Staphylococcus aureus is a Gram-positive coccus that characteristically forms clusters and commonly causes skin abscesses.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cellulitis_and_skin_infections/",
+      "title": "Clinical Practice Guidelines: Cellulitis and other bacterial skin infections"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/",
+      "title": "Clinical Practice Guidelines: Antibiotic prescribing in children"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/infection"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.623Z",
   "sourceFingerprint": "cb1f2de7b3028bb0fc9f8ef8",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Staphylococcus aureus is a Gram-positive coccus that characteristically forms clusters and commonly causes skin abscesses.",
+  "optionExplanations": {
+    "A": "Staphylococcus aureus is a Gram-positive coccus that characteristically forms clusters and commonly causes skin abscesses.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.455Z",
@@ -46,6 +77,58 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "fe2136cb18b34bc7d246"
+    "stemHash": "fe2136cb18b34bc7d246",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Cellulitis and other bacterial skin infections",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cellulitis_and_skin_infections/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports Staphylococcus aureus and Streptococcus pyogenes as common skin infection pathogens."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Antibiotic prescribing in children",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports antimicrobial selection principles in children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Microbiology",
+        "options": [
+          {
+            "key": "A",
+            "text": "S.aureus",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "S.pyogenes",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "E.coli",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

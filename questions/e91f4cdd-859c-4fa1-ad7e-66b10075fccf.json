@@ -1,42 +1,68 @@
 {
   "id": "e91f4cdd-859c-4fa1-ad7e-66b10075fccf",
-  "stem": "Fluids",
+  "stem": "A child is in shock with hypotension and capillary refill of 4 seconds. Which intravenous fluid is most appropriate for initial resuscitation?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "NS",
-      "isCorrect": null
+      "text": "0.9% sodium chloride",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "NS + 5%",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "N/2 + 5%",
-      "isCorrect": null
+      "text": "0.45% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "N/2 + 2.5%",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 2.5% glucose",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "5% glucose alone",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Initial fluid resuscitation for shock uses isotonic crystalloid such as 0.9% sodium chloride. Glucose-containing or hypotonic fluids are not used as the initial resuscitation bolus for shock.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+      "title": "Clinical Practice Guidelines: Dehydration"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/fluids-shock"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.625Z",
   "sourceFingerprint": "873396ad155f57654e6d9d04",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Initial fluid resuscitation for shock uses isotonic crystalloid such as 0.9% sodium chloride. Glucose-containing or hypotonic fluids are not used as the initial resuscitation bolus for shock.",
+  "optionExplanations": {
+    "A": "Initial fluid resuscitation for shock uses isotonic crystalloid such as 0.9% sodium chloride. Glucose-containing or hypotonic fluids are not used as the initial resuscitation bolus for shock.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.456Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e817554809a544bd0a89"
+    "stemHash": "e817554809a544bd0a89",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports dehydration assessment and deficit plus maintenance fluid calculations."
+        }
+      ],
+      "preRepair": {
+        "stem": "Fluids",
+        "options": [
+          {
+            "key": "A",
+            "text": "NS",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "NS + 5%",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "N/2 + 5%",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "N/2 + 2.5%",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,42 +1,68 @@
 {
   "id": "dd385943-65b3-4e43-b2ab-dbfd85e77b22",
-  "stem": "15 year old girl, abdo pain, having sex (discloses when mum not in room). What do you need to do:",
+  "stem": "A 15-year-old who appears mature and competent discloses consensual sex with a similar-aged partner and denies coercion or safety concerns. What is the most appropriate approach?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "DOCS if she is having sex with someone 18",
-      "isCorrect": null
+      "text": "Automatically notify police in every case",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "DOCS regardless of age of partner",
-      "isCorrect": null
+      "text": "Tell the parents immediately without discussion",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "No referral if gillick competent",
-      "isCorrect": null
+      "text": "Provide confidential assessment, contraception and STI care while assessing capacity and safeguarding concerns",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Tell mum",
-      "isCorrect": null
+      "text": "Refuse care unless a parent is present",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Ignore the disclosure because it is not medical",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Adolescent sexual health care should be confidential where appropriate, with assessment of maturity, consent, coercion, exploitation and safety. Mandatory reporting depends on jurisdiction and risk, not the mere fact of every consensual similar-age relationship.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sexual_health_history_taking_in_the_adolescent/",
+      "title": "Clinical Practice Guidelines: Sexual health history taking in the adolescent"
+    },
+    {
+      "type": "external",
+      "source": "Medical Journal of Australia",
+      "url": "https://www.mja.com.au/journal/2005/183/8/confidential-health-care-adolescents-reconciling-clinical-evidence-family-values",
+      "title": "Confidential health care for adolescents"
+    }
+  ],
+  "tags": [
+    "adolescent-medicine/sexual-health"
+  ],
+  "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.068Z",
   "sourceFingerprint": "92e0000f3c2f066284c77492",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Adolescent sexual health care should be confidential where appropriate, with assessment of maturity, consent, coercion, exploitation and safety. Mandatory reporting depends on jurisdiction and risk, not the mere fact of every consensual similar-age relationship.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Adolescent sexual health care should be confidential where appropriate, with assessment of maturity, consent, coercion, exploitation and safety. Mandatory reporting depends on jurisdiction and risk, not the mere fact of every consensual similar-age relationship.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.020Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "ea896600da85ea1e4028"
+    "stemHash": "ea896600da85ea1e4028",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Sexual health history taking in the adolescent",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sexual_health_history_taking_in_the_adolescent/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports confidential adolescent sexual health assessment and safeguarding enquiry."
+        },
+        {
+          "title": "Confidential health care for adolescents",
+          "url": "https://www.mja.com.au/journal/2005/183/8/confidential-health-care-adolescents-reconciling-clinical-evidence-family-values",
+          "organization": "Medical Journal of Australia",
+          "sourceType": "australian_specialty",
+          "supports": "Supports confidentiality and mature-minor principles in adolescent healthcare."
+        }
+      ],
+      "preRepair": {
+        "stem": "15 year old girl, abdo pain, having sex (discloses when mum not in room). What do you need to do:",
+        "options": [
+          {
+            "key": "A",
+            "text": "DOCS if she is having sex with someone 18",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "DOCS regardless of age of partner",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "No referral if gillick competent",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Tell mum",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

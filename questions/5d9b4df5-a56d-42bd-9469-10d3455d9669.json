@@ -1,50 +1,62 @@
 {
   "id": "5d9b4df5-a56d-42bd-9469-10d3455d9669",
-  "stem": "5 year old boy developed loud breathing and cough. His mother gave him salbumatol 4 times but did not improve. His loud breathing (not sure if wheeze or stridor in original question) was persistent. An expiratory CXR showed a hyperinflated lung that did not decrease in size on expiration CXR (can’t remember if bilateral or unilateral air trapping – anyone?).",
+  "stem": "A toddler has sudden cough while eating, persistent unilateral wheeze and unilateral hyperinflation on chest x-ray. Symptoms do not improve with salbutamol. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Pneumothorax",
-      "isCorrect": null
+      "text": "Asthma",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Asthma",
-      "isCorrect": null
+      "text": "Inhaled foreign body",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Foreign body",
-      "isCorrect": null
+      "text": "Bronchiolitis",
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Croup",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Bronchiolitis",
-      "isCorrect": null
+      "text": "Pneumonia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+      "title": "Clinical Practice Guidelines: Foreign bodies inhaled"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/respiratory"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.174Z",
   "sourceFingerprint": "0aa28501ebe7360094bc4d03",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.586Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "201ccdc9c455269ad5dd"
+    "stemHash": "201ccdc9c455269ad5dd",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Foreign bodies inhaled",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and imaging of suspected inhaled foreign body, including hyperinflation and decubitus/expiratory views."
+        }
+      ],
+      "preRepair": {
+        "stem": "5 year old boy developed loud breathing and cough. His mother gave him salbumatol 4 times but did not improve. His loud breathing (not sure if wheeze or stridor in original question) was persistent. An expiratory CXR showed a hyperinflated lung that did not decrease in size on expiration CXR (can’t remember if bilateral or unilateral air trapping – anyone?).",
+        "options": [
+          {
+            "key": "A",
+            "text": "Pneumothorax",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Asthma",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Foreign body",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Croup",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Bronchiolitis",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,55 +1,68 @@
 {
   "id": "acaf2222-0763-4e67-995c-7cecc16c29ae",
-  "stem": "Food allergy",
+  "stem": "A child develops urticaria, wheeze and facial swelling within minutes of eating peanut. What mechanism best explains this reaction?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Coeliac disease",
-      "isCorrect": null
+      "text": "Non-IgE-mediated food allergy",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Milk intolerance",
-      "isCorrect": null
+      "text": "Food protein-induced enterocolitis syndrome",
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "IgE-mediated food allergy",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Non-IgE-mediated food allergy",
-      "isCorrect": null
+      "text": "Lactose intolerance",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Eosinophilic oesophagitis",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Eosinophilic colitis",
-      "isCorrect": null
+      "text": "Coeliac disease",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  "explanation": "Immediate urticaria, wheeze and swelling after a food exposure are typical of IgE-mediated food allergy, and respiratory involvement raises concern for anaphylaxis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+      "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/anaphylaxis/",
+      "title": "Clinical Practice Guidelines: Anaphylaxis"
+    }
   ],
-  "curriculum": "Paediatric Sub-specialties",
+  "tags": [
+    "general-paediatrics/allergy"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.646Z",
   "sourceFingerprint": "3abc071e039ea8cef49e0076",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Immediate urticaria, wheeze and swelling after a food exposure are typical of IgE-mediated food allergy, and respiratory involvement raises concern for anaphylaxis.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Immediate urticaria, wheeze and swelling after a food exposure are typical of IgE-mediated food allergy, and respiratory involvement raises concern for anaphylaxis.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.474Z",
@@ -64,6 +77,76 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "2d9503000edeefec5968"
+    "stemHash": "2d9503000edeefec5968",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Food allergy - IgE mediated food allergy",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports immediate urticaria, wheeze and other IgE-mediated food allergy presentations."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Anaphylaxis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/anaphylaxis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports intramuscular adrenaline as first-line treatment of anaphylaxis."
+        }
+      ],
+      "preRepair": {
+        "stem": "Food allergy",
+        "options": [
+          {
+            "key": "A",
+            "text": "Coeliac disease",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Milk intolerance",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "IgE-mediated food allergy",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Non-IgE-mediated food allergy",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Eosinophilic oesophagitis",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Eosinophilic colitis",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,62 +1,68 @@
 {
   "id": "9bbb4772-fdbb-4880-b1c3-529db8c8c28e",
-  "stem": "Vaccination",
+  "stem": "A mother says her infant vomited after a routine immunisation and asks which vaccine in the routine infant schedule is given orally. Which vaccine was it?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Hib",
-      "isCorrect": null
+      "text": "Haemophilus influenzae type b vaccine",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Pneumococcal",
-      "isCorrect": null
+      "text": "Pneumococcal vaccine",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Rotavirus",
-      "isCorrect": null
+      "text": "Rotavirus vaccine",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Varicella",
-      "isCorrect": null
+      "text": "Varicella vaccine",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Polio",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Pertussis",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "3 months old who has one week history of fever, cough. Saturations dropped to 85 during episodes but normal between events. What vaccination should they be given:",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "Kid had routine vaccination yesterday, vomited in the car on the way home. Mum is worried, he had an oral vaccine. What was it?",
-      "isCorrect": null
+      "text": "Pertussis-containing vaccine",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Rotavirus vaccine is administered orally in infancy. Hib, pneumococcal, varicella and pertussis-containing vaccines are not the routine oral vaccine in this context.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/rotavirus",
+      "title": "Australian Immunisation Handbook: Rotavirus"
+    },
+    {
+      "type": "external",
+      "source": "Australian Government Department of Health and Aged Care",
+      "url": "https://www.health.gov.au/topics/immunisation/vaccines/rotavirus-vaccine",
+      "title": "Rotavirus vaccine"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/immunisation"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.108Z",
   "sourceFingerprint": "57ead54dc9ee8f4d0fc34722",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Rotavirus vaccine is administered orally in infancy. Hib, pneumococcal, varicella and pertussis-containing vaccines are not the routine oral vaccine in this context.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Rotavirus vaccine is administered orally in infancy. Hib, pneumococcal, varicella and pertussis-containing vaccines are not the routine oral vaccine in this context.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.037Z",
@@ -71,6 +77,83 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "61b43ea1f6043e3ce51f"
+    "stemHash": "61b43ea1f6043e3ce51f",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.95,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Australian Immunisation Handbook: Rotavirus",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/rotavirus",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports rotavirus as an orally administered routine infant vaccine."
+        },
+        {
+          "title": "Rotavirus vaccine",
+          "url": "https://www.health.gov.au/topics/immunisation/vaccines/rotavirus-vaccine",
+          "organization": "Australian Government Department of Health and Aged Care",
+          "sourceType": "australian_health",
+          "supports": "Supports oral rotavirus vaccination in infancy."
+        }
+      ],
+      "preRepair": {
+        "stem": "Vaccination",
+        "options": [
+          {
+            "key": "A",
+            "text": "Hib",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Pneumococcal",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Rotavirus",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Varicella",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Polio",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Pertussis",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "3 months old who has one week history of fever, cough. Saturations dropped to 85 during episodes but normal between events. What vaccination should they be given:",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "Kid had routine vaccination yesterday, vomited in the car on the way home. Mum is worried, he had an oral vaccine. What was it?",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

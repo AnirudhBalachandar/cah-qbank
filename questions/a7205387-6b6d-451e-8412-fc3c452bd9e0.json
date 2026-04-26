@@ -1,42 +1,68 @@
 {
   "id": "a7205387-6b6d-451e-8412-fc3c452bd9e0",
-  "stem": "Kid with vomiting, mum has been giving oral rehydration fluids at 50-100mL/hour. Now hypernatremic, high urea, high creatinine – cause?",
+  "stem": "What is the key fluid abnormality in hypernatraemic dehydration?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Water more deficient than Na",
-      "isCorrect": null
+      "text": "Water deficit greater than sodium deficit",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Na more deficient than water",
-      "isCorrect": null
+      "text": "Sodium deficit greater than water deficit",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Insufficient oral rehydration",
-      "isCorrect": null
+      "text": "Excess free water intake",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Too much oral rehydration",
-      "isCorrect": null
+      "text": "Normal total body sodium and water",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Primary potassium deficit only",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Hypernatraemic dehydration occurs when water loss exceeds sodium loss, causing an elevated serum sodium concentration. Fluid correction must be cautious to avoid rapid shifts.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+      "title": "Clinical Practice Guidelines: Dehydration"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/fluids-dehydration"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.595Z",
   "sourceFingerprint": "a9d42176f095b22dfeb68437",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Hypernatraemic dehydration occurs when water loss exceeds sodium loss, causing an elevated serum sodium concentration. Fluid correction must be cautious to avoid rapid shifts.",
+  "optionExplanations": {
+    "A": "Hypernatraemic dehydration occurs when water loss exceeds sodium loss, causing an elevated serum sodium concentration. Fluid correction must be cautious to avoid rapid shifts.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.419Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8b0ab578a6142dd0f692"
+    "stemHash": "8b0ab578a6142dd0f692",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports dehydration assessment and deficit plus maintenance fluid calculations."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid with vomiting, mum has been giving oral rehydration fluids at 50-100mL/hour. Now hypernatremic, high urea, high creatinine – cause?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Water more deficient than Na",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Na more deficient than water",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Insufficient oral rehydration",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Too much oral rehydration",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

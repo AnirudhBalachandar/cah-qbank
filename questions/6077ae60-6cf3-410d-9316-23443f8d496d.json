@@ -1,70 +1,68 @@
 {
   "id": "6077ae60-6cf3-410d-9316-23443f8d496d",
-  "stem": "Infections:",
+  "stem": "A child from a community with higher MRSA prevalence has hip pain, fever and cough and has not improved on flucloxacillin. Which pathogen should be considered?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "TB",
-      "isCorrect": null
+      "text": "Mycobacterium tuberculosis",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "MRSA",
-      "isCorrect": null
+      "text": "Methicillin-resistant Staphylococcus aureus",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Methicillin resistant S. aureus",
-      "isCorrect": null
+      "text": "Streptococcus pyogenes",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "S. pyogenes",
-      "isCorrect": null
+      "text": "Enterovirus",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Enterovirus",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Varicella",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Herpes zoster",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "12 year old tongan boy, playing rugby on Sunday and fell on hip. Tuesday had a sore hip, fever, and cough. Treated with amoxicillin, changed to flucloxacillin on Wednesday because not getting better. Now Friday he has high fevers, very sore hip and cough",
-      "isCorrect": null
-    },
-    {
-      "key": "I",
-      "text": "Girl who had HFMD – vesicular rash on hands/feet, mouth ulcers",
-      "isCorrect": null
+      "text": "Varicella-zoster virus",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  "explanation": "Staphylococcus aureus is a common cause of paediatric bone and joint infection, and MRSA should be considered when there are risk factors or failure of narrow anti-staphylococcal therapy.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/",
+      "title": "Clinical Practice Guidelines: Bone and joint infection"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/",
+      "title": "Clinical Practice Guidelines: Antibiotic prescribing in children"
+    }
   ],
-  "curriculum": "General Paediatrics",
+  "tags": [
+    "emergency-paediatrics/bone-joint-infection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.738Z",
   "sourceFingerprint": "04d8b807a69745590875b8ba",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Staphylococcus aureus is a common cause of paediatric bone and joint infection, and MRSA should be considered when there are risk factors or failure of narrow anti-staphylococcal therapy.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Staphylococcus aureus is a common cause of paediatric bone and joint infection, and MRSA should be considered when there are risk factors or failure of narrow anti-staphylococcal therapy.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.302Z",
@@ -79,6 +77,91 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8f3dac1a7fc9b560783e"
+    "stemHash": "8f3dac1a7fc9b560783e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Bone and joint infection",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports Staphylococcus aureus, including MRSA considerations, in paediatric bone and joint infection."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Antibiotic prescribing in children",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports antimicrobial selection principles in children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Infections:",
+        "options": [
+          {
+            "key": "A",
+            "text": "TB",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "MRSA",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Methicillin resistant S. aureus",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "S. pyogenes",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Enterovirus",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Varicella",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Herpes zoster",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "12 year old tongan boy, playing rugby on Sunday and fell on hip. Tuesday had a sore hip, fever, and cough. Treated with amoxicillin, changed to flucloxacillin on Wednesday because not getting better. Now Friday he has high fevers, very sore hip and cough",
+            "isCorrect": null
+          },
+          {
+            "key": "I",
+            "text": "Girl who had HFMD – vesicular rash on hands/feet, mouth ulcers",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

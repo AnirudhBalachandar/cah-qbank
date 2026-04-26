@@ -75,9 +75,9 @@ final class AppViewModelTests: XCTestCase {
         await model.bootstrapIfNeeded()
 
         XCTAssertTrue(model.hasLoadedLibrary)
-        XCTAssertEqual(model.dashboard?.publishedCount, 2_099)
-        XCTAssertEqual(model.dashboard?.answerableCount, 1_921)
-        XCTAssertEqual(model.libraryStatusDetail, "1921 practice-ready questions from 2099 published questions")
+        XCTAssertEqual(model.dashboard?.publishedCount, 3_060)
+        XCTAssertEqual(model.dashboard?.answerableCount, 3_056)
+        XCTAssertEqual(model.libraryStatusDetail, "3056 practice-ready questions from 3060 published questions")
         XCTAssertTrue(FileManager.default.fileExists(atPath: storageRoot.appendingPathComponent("cah.db").path))
         XCTAssertNil(model.errorMessage)
     }

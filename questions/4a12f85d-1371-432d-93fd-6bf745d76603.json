@@ -1,45 +1,68 @@
 {
   "id": "4a12f85d-1371-432d-93fd-6bf745d76603",
-  "stem": "13 y.o. Aboriginal girl has respiratory illness not responding to amoxicillin, CXR shows diffuse RML and RLL opacification, pneumatocele – most likely organism?",
+  "stem": "A child with severe pneumonia has pneumatoceles on chest imaging and has not improved with amoxicillin. Which organism is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Mycoplasma",
-      "isCorrect": null
+      "text": "Mycoplasma pneumoniae",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Untypeable H.influenzae",
-      "isCorrect": null
+      "text": "Non-typeable Haemophilus influenzae",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "S.pneumonia",
-      "isCorrect": null
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "S.aureus",
-      "isCorrect": null
+      "text": "Staphylococcus aureus",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Respiratory syncytial virus",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+  "explanation": "Pneumatoceles are classically associated with staphylococcal pneumonia. Failure to respond to amoxicillin also supports considering Staphylococcus aureus, including resistant strains depending on context.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pneumonia_Guideline/",
+      "title": "Clinical Practice Guidelines: Community acquired pneumonia"
+    },
+    {
+      "type": "external",
+      "source": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK556146/",
+      "title": "StatPearls: Pneumatocele"
+    }
   ],
-  "curriculum": "Community-based Paediatrics",
+  "tags": [
+    "emergency-paediatrics/respiratory-infection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.998Z",
   "sourceFingerprint": "f6cc026babda94be9ea33000",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Pneumatoceles are classically associated with staphylococcal pneumonia. Failure to respond to amoxicillin also supports considering Staphylococcus aureus, including resistant strains depending on context.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Pneumatoceles are classically associated with staphylococcal pneumonia. Failure to respond to amoxicillin also supports considering Staphylococcus aureus, including resistant strains depending on context.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.356Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "55bfb48da2f96f51aebe"
+    "stemHash": "55bfb48da2f96f51aebe",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Community acquired pneumonia",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pneumonia_Guideline/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports common bacterial causes and management approach for community-acquired pneumonia in children."
+        },
+        {
+          "title": "StatPearls: Pneumatocele",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK556146/",
+          "organization": "NCBI Bookshelf",
+          "sourceType": "other_reputable",
+          "supports": "Supports association between pneumatoceles and staphylococcal pneumonia."
+        }
+      ],
+      "preRepair": {
+        "stem": "13 y.o. Aboriginal girl has respiratory illness not responding to amoxicillin, CXR shows diffuse RML and RLL opacification, pneumatocele – most likely organism?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Mycoplasma",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Untypeable H.influenzae",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "S.pneumonia",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "S.aureus",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/community-based-paediatrics"
+        ],
+        "curriculum": "Community-based Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

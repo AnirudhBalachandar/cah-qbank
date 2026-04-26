@@ -1,47 +1,68 @@
 {
   "id": "28996322-0d43-435d-ac92-8090cabd5a50",
-  "stem": "2 pictures: gram neg urine sample (A) and gram positive diplococcic from csf (B)",
+  "stem": "A cerebrospinal fluid Gram stain from a febrile infant shows Gram-positive diplococci. Which organism is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "ecoli",
-      "isCorrect": null
+      "text": "Escherichia coli",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "strep pneum",
-      "isCorrect": null
+      "text": "Streptococcus pneumoniae",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "staph aureus",
-      "isCorrect": null
+      "text": "Staphylococcus aureus",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "staph epidermis",
-      "isCorrect": null
+      "text": "Staphylococcus epidermidis",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "nesseria men",
-      "isCorrect": null
+      "text": "Neisseria meningitidis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Streptococcus pneumoniae is a Gram-positive diplococcus and is an important cause of bacterial meningitis. E. coli is Gram-negative, and Neisseria meningitidis is a Gram-negative diplococcus.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/CSF_Interpretation/",
+      "title": "Clinical Practice Guidelines: CSF interpretation"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+      "title": "Clinical Practice Guidelines: Meningitis and encephalitis"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/infection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.103Z",
   "sourceFingerprint": "61dc6fb085e3c4169024762f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Streptococcus pneumoniae is a Gram-positive diplococcus and is an important cause of bacterial meningitis. E. coli is Gram-negative, and Neisseria meningitidis is a Gram-negative diplococcus.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Streptococcus pneumoniae is a Gram-positive diplococcus and is an important cause of bacterial meningitis. E. coli is Gram-negative, and Neisseria meningitidis is a Gram-negative diplococcus.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:40.976Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "c38540916392b6391147"
+    "stemHash": "c38540916392b6391147",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: CSF interpretation",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/CSF_Interpretation/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports CSF interpretation, including low glucose and raised protein in bacterial meningitis."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Meningitis and encephalitis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports empirical treatment and likely organisms in paediatric meningitis."
+        }
+      ],
+      "preRepair": {
+        "stem": "2 pictures: gram neg urine sample (A) and gram positive diplococcic from csf (B)",
+        "options": [
+          {
+            "key": "A",
+            "text": "ecoli",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "strep pneum",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "staph aureus",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "staph epidermis",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "nesseria men",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

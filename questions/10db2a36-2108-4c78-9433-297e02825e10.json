@@ -1,40 +1,74 @@
 {
   "id": "10db2a36-2108-4c78-9433-297e02825e10",
-  "stem": "Kid had been in trauma, resp distress, abdo pain, deformed right arm. You are asked to call radiology and organise ‘trauma series’ – what do you order?",
+  "stem": "In the initial imaging assessment of a child with major trauma, which set of plain radiographs makes up the standard trauma series when imaging is required?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Lateral C-spine, AP CXR, AP pelvis xrays",
-      "isCorrect": null
+      "text": "Lateral cervical spine, AP chest and AP pelvis radiographs",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "AP C-spine, AP CXR, AP pelvis xrays",
-      "isCorrect": null
+      "text": "AP cervical spine, AP chest and AP pelvis radiographs",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "AP CXR, AP pelvis, lateral R arm",
-      "isCorrect": null
+      "text": "AP chest, AP pelvis and lateral right arm radiographs",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "CT head, CT cervical spine and CT abdomen",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "AP chest, lateral chest and abdominal radiographs",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "The plain trauma series in the initial trauma assessment classically includes a lateral cervical spine film, an AP chest radiograph and an AP pelvis radiograph. Limb radiographs are directed by findings after the primary survey, and CT is not a replacement for immediate resuscitation priorities.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_primary_survey/",
+      "title": "Clinical Practice Guidelines: Major paediatric trauma - the primary survey"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/trauma-service/manual/Radiology/",
+      "title": "Trauma Service: Radiology"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_spine_assessment/",
+      "title": "Clinical Practice Guidelines: Cervical spine assessment"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/trauma"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.019Z",
   "sourceFingerprint": "85ce0522d90e2348e356ad96",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The plain trauma series in the initial trauma assessment classically includes a lateral cervical spine film, an AP chest radiograph and an AP pelvis radiograph. Limb radiographs are directed by findings after the primary survey, and CT is not a replacement for immediate resuscita",
+  "optionExplanations": {
+    "A": "The plain trauma series in the initial trauma assessment classically includes a lateral cervical spine film, an AP chest radiograph and an AP pelvis radiograph. Limb radiographs are directed by findings after the primary survey, and CT is not a replacement for immediate resuscitation priorities.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.374Z",
@@ -49,6 +83,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "727ffb1807572902ce02"
+    "stemHash": "727ffb1807572902ce02",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.92,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Major paediatric trauma - the primary survey",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_primary_survey/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports ABCDE priorities, airway protection, cervical spine protection and early trauma team activation in major paediatric trauma."
+        },
+        {
+          "title": "Trauma Service: Radiology",
+          "url": "https://www.rch.org.au/trauma-service/manual/Radiology/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports trauma imaging principles and the plain-film trauma series used during initial assessment."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Cervical spine assessment",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/cervical_spine_assessment/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports cervical spine protection and assessment in injured children."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid had been in trauma, resp distress, abdo pain, deformed right arm. You are asked to call radiology and organise ‘trauma series’ – what do you order?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Lateral C-spine, AP CXR, AP pelvis xrays",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "AP C-spine, AP CXR, AP pelvis xrays",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "AP CXR, AP pelvis, lateral R arm",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

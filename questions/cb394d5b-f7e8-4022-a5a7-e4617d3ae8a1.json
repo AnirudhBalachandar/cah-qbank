@@ -1,50 +1,62 @@
 {
   "id": "cb394d5b-f7e8-4022-a5a7-e4617d3ae8a1",
-  "stem": "A child has cleft palate and conotruncal defects. What is the likely diagnosis?",
+  "stem": "A child has conotruncal congenital heart disease, palatal abnormality, immune problems and characteristic facial features. Which genetic syndrome is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Turner syndrome",
-      "isCorrect": null
+      "text": "22q11.2 deletion syndrome",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "William syndrome",
-      "isCorrect": null
+      "text": "Turner syndrome",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Velocardiofacial Syndrome",
-      "isCorrect": null
+      "text": "Noonan syndrome",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Fragile X",
-      "isCorrect": null
+      "text": "Williams syndrome",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Down syndrome",
-      "isCorrect": null
+      "text": "Fragile X syndrome",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  "explanation": "22q11.2 deletion syndrome can present with conotruncal heart defects, palatal abnormalities, immune deficiency and characteristic facial features.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "GeneReviews",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1523/",
+      "title": "22q11.2 deletion syndrome"
+    }
   ],
-  "curriculum": "General Paediatrics",
+  "tags": [
+    "paediatric-sub-specialties/genetics"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.173Z",
   "sourceFingerprint": "a3bec8bc9075b6acb9b16b12",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "22q11.2 deletion syndrome can present with conotruncal heart defects, palatal abnormalities, immune deficiency and characteristic facial features.",
+  "optionExplanations": {
+    "A": "22q11.2 deletion syndrome can present with conotruncal heart defects, palatal abnormalities, immune deficiency and characteristic facial features.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.583Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "92ec0737e1345d9c7e24"
+    "stemHash": "92ec0737e1345d9c7e24",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "22q11.2 deletion syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK1523/",
+          "organization": "GeneReviews",
+          "sourceType": "other_reputable",
+          "supports": "Supports 22q11.2 deletion syndrome features including cardiac defects, palatal abnormalities and facial features."
+        }
+      ],
+      "preRepair": {
+        "stem": "A child has cleft palate and conotruncal defects. What is the likely diagnosis?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Turner syndrome",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "William syndrome",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Velocardiofacial Syndrome",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Fragile X",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Down syndrome",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

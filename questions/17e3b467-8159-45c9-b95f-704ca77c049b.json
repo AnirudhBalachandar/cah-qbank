@@ -1,62 +1,68 @@
 {
   "id": "17e3b467-8159-45c9-b95f-704ca77c049b",
-  "stem": "Hearing/autism",
+  "stem": "A 6-year-old girl has speech delay and only follows classroom instructions when the teacher speaks close to her face. She plays well with peers and has otherwise normal gross and fine motor development. What is the most likely explanation?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Autism",
-      "isCorrect": null
+      "text": "Autism spectrum disorder",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "ADHD",
-      "isCorrect": null
+      "text": "Attention deficit hyperactivity disorder",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Aspergers",
-      "isCorrect": null
+      "text": "Asperger syndrome",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "GDD",
-      "isCorrect": null
+      "text": "Global developmental delay",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Hearing problem",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Isolated speech problem",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "6 year old girl, not disruptive. Doesn’t cause trouble at home. Only pays attention to teacher when she speaks face to face up close. Doesn’t pay attention during reading time in class. All gross motor/fine motor skills normal milestones. Plays well. Delayed speech, knows colours. Has 20 words but does not form sentences, only 4 word phrases.",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "3 year old, shy, quiet. Does not make eye contact well, loves Thomas the tank engine. Does not like it when people move his Thomas the tank engine out of the line with the other trains. Does not talk",
-      "isCorrect": null
+      "text": "Hearing impairment",
+      "isCorrect": true
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Hearing impairment can present as speech delay and apparent inattention, particularly when the child responds better to face-to-face speech. Preserved social play and normal motor milestones make autism or global developmental delay less likely.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Hearing Australia",
+      "url": "https://www.hearing.com.au/children-young-adult-services/hearing-loss/",
+      "title": "Childhood hearing loss"
+    },
+    {
+      "type": "external",
+      "source": "Sydney Children's Hospitals Network",
+      "url": "https://www.schn.health.nsw.gov.au/factsheets/developmental-delay",
+      "title": "Developmental delay"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/development-hearing"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.112Z",
   "sourceFingerprint": "f85c133f913f058fecdc25b1",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Hearing impairment can present as speech delay and apparent inattention, particularly when the child responds better to face-to-face speech. Preserved social play and normal motor milestones make autism or global developmental delay less likely.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "Hearing impairment can present as speech delay and apparent inattention, particularly when the child responds better to face-to-face speech. Preserved social play and normal motor milestones make autism or global developmental delay less likely."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.038Z",
@@ -71,6 +77,83 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "b4b8305480068d11dd9b"
+    "stemHash": "b4b8305480068d11dd9b",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Childhood hearing loss",
+          "url": "https://www.hearing.com.au/children-young-adult-services/hearing-loss/",
+          "organization": "Hearing Australia",
+          "sourceType": "australian_health",
+          "supports": "Supports hearing loss presenting with speech delay and difficulty hearing at school."
+        },
+        {
+          "title": "Developmental delay",
+          "url": "https://www.schn.health.nsw.gov.au/factsheets/developmental-delay",
+          "organization": "Sydney Children's Hospitals Network",
+          "sourceType": "australian_health",
+          "supports": "Supports global developmental delay as delay in multiple developmental domains."
+        }
+      ],
+      "preRepair": {
+        "stem": "Hearing/autism",
+        "options": [
+          {
+            "key": "A",
+            "text": "Autism",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "ADHD",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Aspergers",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "GDD",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Hearing problem",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Isolated speech problem",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "6 year old girl, not disruptive. Doesn’t cause trouble at home. Only pays attention to teacher when she speaks face to face up close. Doesn’t pay attention during reading time in class. All gross motor/fine motor skills normal milestones. Plays well. Delayed speech, knows colours. Has 20 words but does not form sentences, only 4 word phrases.",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "3 year old, shy, quiet. Does not make eye contact well, loves Thomas the tank engine. Does not like it when people move his Thomas the tank engine out of the line with the other trains. Does not talk",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

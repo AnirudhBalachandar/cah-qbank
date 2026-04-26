@@ -1,47 +1,62 @@
 {
   "id": "d435ad95-0a49-419d-b3ed-d713759eb4c7",
-  "stem": "Compensation for anemia",
+  "stem": "Which physiological adaptation improves tissue oxygen unloading in chronic anaemia?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Increased RR",
-      "isCorrect": null
+      "text": "Increased respiratory rate alone",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Increased stroke volume",
-      "isCorrect": null
+      "text": "Increased stroke volume alone",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Increased 2,3-DPG",
-      "isCorrect": null
+      "text": "Increased red-cell 2,3-diphosphoglycerate",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Lowers metabolism",
-      "isCorrect": null
+      "text": "Lowered cellular metabolism",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "?",
-      "isCorrect": null
+      "text": "Reduced erythropoietin production",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "In chronic anaemia, increased red-cell 2,3-diphosphoglycerate lowers haemoglobin oxygen affinity and shifts the oxygen dissociation curve to favour tissue oxygen unloading.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Frontiers in Physiology",
+      "url": "https://www.frontiersin.org/articles/10.3389/fphys.2021.578708/pdf",
+      "title": "The Affinity of Hemoglobin for Oxygen Is Not Altered During COVID-19"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/haematology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.400Z",
   "sourceFingerprint": "fb98c56cd0839663afa37d03",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "In chronic anaemia, increased red-cell 2,3-diphosphoglycerate lowers haemoglobin oxygen affinity and shifts the oxygen dissociation curve to favour tissue oxygen unloading.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "In chronic anaemia, increased red-cell 2,3-diphosphoglycerate lowers haemoglobin oxygen affinity and shifts the oxygen dissociation curve to favour tissue oxygen unloading.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2011 Term D.docx",
     "importedAt": "2026-03-16T02:22:41.123Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "f9f5c9b5847946974587"
+    "stemHash": "f9f5c9b5847946974587",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.84,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "The Affinity of Hemoglobin for Oxygen Is Not Altered During COVID-19",
+          "url": "https://www.frontiersin.org/articles/10.3389/fphys.2021.578708/pdf",
+          "organization": "Frontiers in Physiology",
+          "sourceType": "other_reputable",
+          "supports": "Supports that anaemia and chronic hypoxia can increase 2,3-DPG and shift oxygen dissociation physiology."
+        }
+      ],
+      "preRepair": {
+        "stem": "Compensation for anemia",
+        "options": [
+          {
+            "key": "A",
+            "text": "Increased RR",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Increased stroke volume",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Increased 2,3-DPG",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Lowers metabolism",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "?",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

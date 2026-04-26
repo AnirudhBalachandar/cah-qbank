@@ -1,47 +1,68 @@
 {
   "id": "d4df7bfe-f98a-4d2a-b04e-0177312f5551",
-  "stem": "Young infant brought in with seizure by mum. Supposedly fell off change table. When you plot Head circumference, it has shot up above 97th centile (had been tracking along 50th). What is the most likely cause:",
+  "stem": "An infant is reported to have fallen from a low height but has seizures, increasing head circumference and intracranial injury. What diagnosis must be considered?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Non-accidental injury- that’s what I put",
-      "isCorrect": null
+      "text": "Non-accidental injury",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Hydrocephalus",
-      "isCorrect": null
+      "text": "Simple breath-holding episode",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "?",
-      "isCorrect": null
+      "text": "Benign macrocephaly only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "?",
-      "isCorrect": null
+      "text": "Transient synovitis",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "?",
-      "isCorrect": null
+      "text": "Viral croup",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Seizures, increasing head circumference and intracranial injury that are not explained by the history are red flags for abusive head trauma and non-accidental injury.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_abuse/",
+      "title": "Clinical Practice Guidelines: Child abuse"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/",
+      "title": "Clinical Practice Guidelines: Head injury"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/child-protection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.347Z",
   "sourceFingerprint": "027c85ebf81c987faebda1b5",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Seizures, increasing head circumference and intracranial injury that are not explained by the history are red flags for abusive head trauma and non-accidental injury.",
+  "optionExplanations": {
+    "A": "Seizures, increasing head circumference and intracranial injury that are not explained by the history are red flags for abusive head trauma and non-accidental injury.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - 2012 July.docx",
     "importedAt": "2026-03-16T02:22:40.863Z",
@@ -57,6 +78,68 @@
       "html-fallback"
     ],
     "sectionTitle": "SBA",
-    "stemHash": "1096b249b3e935772da7"
+    "stemHash": "1096b249b3e935772da7",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.92,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Child abuse",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_abuse/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports red flags for child abuse, including concerning fractures or intracranial injury."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Head injury",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports observation and risk stratification after paediatric head injury."
+        }
+      ],
+      "preRepair": {
+        "stem": "Young infant brought in with seizure by mum. Supposedly fell off change table. When you plot Head circumference, it has shot up above 97th centile (had been tracking along 50th). What is the most likely cause:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Non-accidental injury- that’s what I put",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Hydrocephalus",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "?",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "?",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "?",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

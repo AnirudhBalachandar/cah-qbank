@@ -1,50 +1,68 @@
 {
   "id": "6c737807-9bd2-4c91-bc85-7561114baad7",
-  "stem": "Glu – cant remember (important since Glucose < 0.3 CSF/blood is suggestive of bacterial meningitis)",
+  "stem": "A child with fever and meningism has CSF with low glucose and raised protein. Which diagnosis is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Viral meningitis",
-      "isCorrect": null
+      "text": "Subdural haematoma",
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Bacterial meningitis",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Blood contamination",
-      "isCorrect": null
+      "text": "Viral meningitis",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Normal",
-      "isCorrect": null
+      "text": "Normal cerebrospinal fluid",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Acute lymphoblastic leukaemia",
-      "isCorrect": null
+      "text": "Traumatic lumbar puncture",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Low CSF glucose with raised protein is most consistent with bacterial meningitis. Viral meningitis more commonly has normal glucose, and a traumatic tap primarily explains red cells rather than low glucose.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/CSF_Interpretation/",
+      "title": "Clinical Practice Guidelines: CSF interpretation"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+      "title": "Clinical Practice Guidelines: Meningitis and encephalitis"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/infection"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.156Z",
   "sourceFingerprint": "afcdd2006b15c71084b84070",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Low CSF glucose with raised protein is most consistent with bacterial meningitis. Viral meningitis more commonly has normal glucose, and a traumatic tap primarily explains red cells rather than low glucose.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Low CSF glucose with raised protein is most consistent with bacterial meningitis. Viral meningitis more commonly has normal glucose, and a traumatic tap primarily explains red cells rather than low glucose.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.553Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e71d40ac798cb0688d70"
+    "stemHash": "e71d40ac798cb0688d70",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: CSF interpretation",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/CSF_Interpretation/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports CSF interpretation, including low glucose and raised protein in bacterial meningitis."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Meningitis and encephalitis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports empirical treatment and likely organisms in paediatric meningitis."
+        }
+      ],
+      "preRepair": {
+        "stem": "Glu – cant remember (important since Glucose < 0.3 CSF/blood is suggestive of bacterial meningitis)",
+        "options": [
+          {
+            "key": "A",
+            "text": "Viral meningitis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Bacterial meningitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Blood contamination",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Normal",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Acute lymphoblastic leukaemia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

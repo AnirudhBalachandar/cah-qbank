@@ -1,45 +1,68 @@
 {
   "id": "c114c98e-8f26-4a55-832e-a6c2dd069d94",
-  "stem": "Best test in anorexia + correct reasoning",
+  "stem": "A medically compromised adolescent with anorexia nervosa is admitted for nutritional rehabilitation. Which investigation is most important for assessing immediate refeeding risk?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Wrist x-ray for bone age",
-      "isCorrect": null
+      "text": "Serum ferritin only",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "LH/FSH for amenorrhoea",
-      "isCorrect": null
+      "text": "Thyroid antibodies",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Zn for nutrition",
-      "isCorrect": null
+      "text": "Coeliac serology only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Electrolytes for hyperkalaemia",
-      "isCorrect": null
+      "text": "Serum electrolytes including phosphate, magnesium and potassium",
+      "isCorrect": true
+    },
+    {
+      "key": "E",
+      "text": "Urea breath test",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Refeeding syndrome risk is assessed with electrolytes, particularly phosphate, magnesium and potassium, because dangerous shifts can occur during nutritional rehabilitation.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/",
+      "title": "Clinical Practice Guidelines: Management of eating disorders in the emergency department"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/uploadedFiles/Main/Content/gastro/Refeeding%20syndrome%20guideline.pdf",
+      "title": "Refeeding syndrome guideline"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/adolescent-medicine"
+    "adolescent-medicine/eating-disorders"
   ],
   "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.963Z",
   "sourceFingerprint": "5a8182e5c205e7e80edec6e3",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Refeeding syndrome risk is assessed with electrolytes, particularly phosphate, magnesium and potassium, because dangerous shifts can occur during nutritional rehabilitation.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Refeeding syndrome risk is assessed with electrolytes, particularly phosphate, magnesium and potassium, because dangerous shifts can occur during nutritional rehabilitation.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.269Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "f038d4f163cdd29f3204"
+    "stemHash": "f038d4f163cdd29f3204",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Management of eating disorders in the emergency department",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports assessment of restrictive eating disorders and medical instability."
+        },
+        {
+          "title": "Refeeding syndrome guideline",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/gastro/Refeeding%20syndrome%20guideline.pdf",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports electrolyte monitoring and refeeding risk in malnourished adolescents."
+        }
+      ],
+      "preRepair": {
+        "stem": "Best test in anorexia + correct reasoning",
+        "options": [
+          {
+            "key": "A",
+            "text": "Wrist x-ray for bone age",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "LH/FSH for amenorrhoea",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Zn for nutrition",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Electrolytes for hyperkalaemia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/adolescent-medicine"
+        ],
+        "curriculum": "Adolescent Medicine",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

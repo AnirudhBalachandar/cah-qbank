@@ -1,65 +1,74 @@
 {
   "id": "98010d8a-2e3f-45f7-9382-878c073d9792",
-  "stem": "ED/abdo question; what test would you like to do:",
+  "stem": "A 15-year-old girl presents with right iliac fossa pain. Which investigation is essential early in the assessment?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Beta hcg",
-      "isCorrect": null
+      "text": "Urine or serum beta-hCG",
+      "isCorrect": true
     },
     {
       "key": "B",
       "text": "Urea breath test",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "FBC",
-      "isCorrect": null
+      "text": "Full blood count only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Coeliac antibodies",
-      "isCorrect": null
+      "text": "Coeliac serology",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Yersinia culture",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "CRP &amp; ESR",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "15 year old with severe RIF pain, 1 day history, vomited once at school. abdomen slightly distended",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "9 year old girl, 4 month history of episodic epigastric pain with no radiation. Examination normal. Stool cultures for ova, cysts and parasites negative",
-      "isCorrect": null
+      "text": "Yersinia stool culture",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  "explanation": "Pregnancy must be considered in an adolescent with lower abdominal pain because ectopic pregnancy and other pregnancy-related diagnoses can be life-threatening and change management.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Abdominal_pain/",
+      "title": "Clinical Practice Guidelines: Abdominal pain - acute"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Adolescent_gynaecology_lower_abdominal_pain/",
+      "title": "Clinical Practice Guidelines: Adolescent gynaecology - lower abdominal pain"
+    },
+    {
+      "type": "external",
+      "source": "Children's Health Queensland",
+      "url": "https://www.childrens.health.qld.gov.au/__data/assets/pdf_file/0022/180193/gdl-00704.pdf",
+      "title": "Acute abdominal pain - Emergency management in children"
+    }
   ],
-  "curriculum": "Paediatric Sub-specialties",
+  "tags": [
+    "adolescent-medicine/abdominal-pain"
+  ],
+  "curriculum": "Adolescent Medicine",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.719Z",
   "sourceFingerprint": "f7222fba779fad6d7e985d95",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Pregnancy must be considered in an adolescent with lower abdominal pain because ectopic pregnancy and other pregnancy-related diagnoses can be life-threatening and change management.",
+  "optionExplanations": {
+    "A": "Pregnancy must be considered in an adolescent with lower abdominal pain because ectopic pregnancy and other pregnancy-related diagnoses can be life-threatening and change management.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.296Z",
@@ -74,6 +83,93 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "213da216a783c5a41622"
+    "stemHash": "213da216a783c5a41622",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Abdominal pain - acute",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Abdominal_pain/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports assessment priorities for acute abdominal pain in children and adolescents."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Adolescent gynaecology - lower abdominal pain",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Adolescent_gynaecology_lower_abdominal_pain/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports pregnancy and gynaecological emergencies in adolescent lower abdominal pain."
+        },
+        {
+          "title": "Acute abdominal pain - Emergency management in children",
+          "url": "https://www.childrens.health.qld.gov.au/__data/assets/pdf_file/0022/180193/gdl-00704.pdf",
+          "organization": "Children's Health Queensland",
+          "sourceType": "australian_guideline",
+          "supports": "Supports pregnancy testing and surgical differentials in paediatric/adolescent abdominal pain."
+        }
+      ],
+      "preRepair": {
+        "stem": "ED/abdo question; what test would you like to do:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Beta hcg",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Urea breath test",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "FBC",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Coeliac antibodies",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Yersinia culture",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "CRP &amp; ESR",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "15 year old with severe RIF pain, 1 day history, vomited once at school. abdomen slightly distended",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "9 year old girl, 4 month history of episodic epigastric pain with no radiation. Examination normal. Stool cultures for ova, cysts and parasites negative",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

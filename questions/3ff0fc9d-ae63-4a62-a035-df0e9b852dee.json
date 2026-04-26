@@ -1,57 +1,62 @@
 {
   "id": "3ff0fc9d-ae63-4a62-a035-df0e9b852dee",
-  "stem": "Fluids",
+  "stem": "A well child with normal electrolytes is fasting before surgery and needs maintenance intravenous fluids. Which fluid is most appropriate?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "0.9% S + 5% G",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "0.45% S + 5% G",
-      "isCorrect": null
+      "text": "0.45% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "0.45% S + 2.5% G",
-      "isCorrect": null
+      "text": "0.45% sodium chloride with 2.5% glucose",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "0.9% S + 5%G + 20mM K",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 5% glucose and potassium chloride when passing urine",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "0.45% S + 5% G + 20mM K",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "0.9% S + 2.5% G",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "No fluids",
-      "isCorrect": null
+      "text": "5% glucose alone",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Children needing maintenance IV fluids usually require isotonic fluid with glucose, with potassium added once renal function and urine output are adequate. Hypotonic fluids increase hyponatraemia risk.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/intravenous-fluids"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.834Z",
   "sourceFingerprint": "b620a284ff5d7994ecf8a35a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Children needing maintenance IV fluids usually require isotonic fluid with glucose, with potassium added once renal function and urine output are adequate. Hypotonic fluids increase hyponatraemia risk.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "Children needing maintenance IV fluids usually require isotonic fluid with glucose, with potassium added once renal function and urine output are adequate. Hypotonic fluids increase hyponatraemia risk.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.655Z",
@@ -66,6 +71,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e817554809a544bd0a89"
+    "stemHash": "e817554809a544bd0a89",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        }
+      ],
+      "preRepair": {
+        "stem": "Fluids",
+        "options": [
+          {
+            "key": "A",
+            "text": "0.9% S + 5% G",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "0.45% S + 5% G",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "0.45% S + 2.5% G",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "0.9% S + 5%G + 20mM K",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "0.45% S + 5% G + 20mM K",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "0.9% S + 2.5% G",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "No fluids",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

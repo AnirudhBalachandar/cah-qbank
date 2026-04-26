@@ -1,47 +1,68 @@
 {
   "id": "1870d4cd-eeb5-4694-8f5b-1877e6f749d3",
-  "stem": "answers:",
+  "stem": "A newborn has hypotonia, upslanting palpebral fissures, a single palmar crease and a protruding tongue. Which diagnosis best fits these findings?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "noonans",
-      "isCorrect": null
+      "text": "Noonan syndrome",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "marfans",
-      "isCorrect": null
+      "text": "Marfan syndrome",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "trisomy",
-      "isCorrect": null
+      "text": "Trisomy 21",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "fragile x",
-      "isCorrect": null
+      "text": "Fragile X syndrome",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "achondroplasia",
-      "isCorrect": null
+      "text": "Achondroplasia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Hypotonia, upslanting palpebral fissures, a single palmar crease and a protruding tongue are typical clinical features of Down syndrome, most commonly caused by trisomy 21.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "CDC",
+      "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/birthdefects/surveillancemanual/quick-reference-handbook/trisomy-21-down-syndrome.html",
+      "title": "Birth Defects Surveillance Toolkit: Trisomy 21"
+    },
+    {
+      "type": "external",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15244118/",
+      "title": "Clinical features of Down syndrome"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/genetics"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.155Z",
   "sourceFingerprint": "270c6a35b7101c779e525958",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Hypotonia, upslanting palpebral fissures, a single palmar crease and a protruding tongue are typical clinical features of Down syndrome, most commonly caused by trisomy 21.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Hypotonia, upslanting palpebral fissures, a single palmar crease and a protruding tongue are typical clinical features of Down syndrome, most commonly caused by trisomy 21.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Questions (with Answers) - Block E 2012.docx",
     "importedAt": "2026-03-16T02:22:41.001Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8d0ff910dc2909961eb6"
+    "stemHash": "8d0ff910dc2909961eb6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Birth Defects Surveillance Toolkit: Trisomy 21",
+          "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/birthdefects/surveillancemanual/quick-reference-handbook/trisomy-21-down-syndrome.html",
+          "organization": "CDC",
+          "sourceType": "other_reputable",
+          "supports": "Supports common clinical features of Down syndrome, including upslanting palpebral fissures and single palmar crease."
+        },
+        {
+          "title": "Clinical features of Down syndrome",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15244118/",
+          "organization": "PubMed",
+          "sourceType": "other_reputable",
+          "supports": "Supports phenotype-based recognition of trisomy 21."
+        }
+      ],
+      "preRepair": {
+        "stem": "answers:",
+        "options": [
+          {
+            "key": "A",
+            "text": "noonans",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "marfans",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "trisomy",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "fragile x",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "achondroplasia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

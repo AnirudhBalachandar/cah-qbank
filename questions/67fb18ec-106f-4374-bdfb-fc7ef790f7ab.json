@@ -1,47 +1,62 @@
 {
   "id": "67fb18ec-106f-4374-bdfb-fc7ef790f7ab",
-  "stem": "Which of the following is a domain of the AGREE II tool?",
+  "stem": "Which AGREE II domain assesses whether the guideline development process used systematic, transparent methods to identify and appraise evidence?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Jadad criteria",
-      "isCorrect": null
+      "text": "Scope and purpose",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Cost-benefit analysis",
-      "isCorrect": null
+      "text": "Stakeholder involvement",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Rigor of development",
-      "isCorrect": null
+      "text": "Rigour of development",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Plan for update",
-      "isCorrect": null
+      "text": "Applicability",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "..",
-      "isCorrect": null
+      "text": "Editorial independence",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "The AGREE II domain called rigour of development assesses the methods used to gather and synthesise evidence and to formulate recommendations.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "AGREE Enterprise",
+      "url": "https://www.agreetrust.org/wp-content/uploads/2017/12/AGREE-II-Users-Manual-and-23-item-Instrument-2009-Update-2017.pdf",
+      "title": "AGREE II User Manual and 23-item Instrument"
+    }
+  ],
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.086Z",
   "sourceFingerprint": "216007ab37a33e0c9a9786c1",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The AGREE II domain called rigour of development assesses the methods used to gather and synthesise evidence and to formulate recommendations.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "The AGREE II domain called rigour of development assesses the methods used to gather and synthesise evidence and to formulate recommendations.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.027Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1d3720c3e96e0de3749d"
+    "stemHash": "1d3720c3e96e0de3749d",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "AGREE II User Manual and 23-item Instrument",
+          "url": "https://www.agreetrust.org/wp-content/uploads/2017/12/AGREE-II-Users-Manual-and-23-item-Instrument-2009-Update-2017.pdf",
+          "organization": "AGREE Enterprise",
+          "sourceType": "international_guideline",
+          "supports": "Supports the 23-item structure and domains including rigour of development."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which of the following is a domain of the AGREE II tool?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Jadad criteria",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Cost-benefit analysis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Rigor of development",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Plan for update",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "..",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,60 +1,68 @@
 {
   "id": "2d56cfba-8d4b-422e-9380-4507ee4a4213",
-  "stem": "Fluids",
+  "stem": "A child is in shock with hypotension and capillary refill of 4 seconds. Which intravenous fluid is most appropriate for initial resuscitation?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Normal saline",
-      "isCorrect": null
+      "text": "0.9% sodium chloride",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "0.9% NaCl + 5% glucose",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "0.45% NaCl + 5% glucose",
-      "isCorrect": null
+      "text": "0.45% sodium chloride with 5% glucose",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "0.9% NaCl + 2.5% glucose",
-      "isCorrect": null
+      "text": "0.9% sodium chloride with 2.5% glucose",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "…",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "9 year old girl going into surgery, has been NBM. You don’t know when her surgery is going to be today. What fluids?",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Boy, in shock, capillary refill 4 seconds, low BP…",
-      "isCorrect": null
+      "text": "5% glucose alone",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Initial fluid resuscitation for shock uses isotonic crystalloid such as 0.9% sodium chloride. Glucose-containing or hypotonic fluids are not used as the initial resuscitation bolus for shock.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+      "title": "Clinical Practice Guidelines: Intravenous fluids"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+      "title": "Clinical Practice Guidelines: Dehydration"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/fluids-shock"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.104Z",
   "sourceFingerprint": "d6ced14d7e33e8ffce4a0c7d",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Initial fluid resuscitation for shock uses isotonic crystalloid such as 0.9% sodium chloride. Glucose-containing or hypotonic fluids are not used as the initial resuscitation bolus for shock.",
+  "optionExplanations": {
+    "A": "Initial fluid resuscitation for shock uses isotonic crystalloid such as 0.9% sodium chloride. Glucose-containing or hypotonic fluids are not used as the initial resuscitation bolus for shock.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.035Z",
@@ -69,6 +77,81 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e817554809a544bd0a89"
+    "stemHash": "e817554809a544bd0a89",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Intravenous fluids",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intravenous_fluids/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports isotonic bolus resuscitation and isotonic maintenance fluids with glucose and potassium when appropriate."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/dehydration/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports dehydration assessment and deficit plus maintenance fluid calculations."
+        }
+      ],
+      "preRepair": {
+        "stem": "Fluids",
+        "options": [
+          {
+            "key": "A",
+            "text": "Normal saline",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "0.9% NaCl + 5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "0.45% NaCl + 5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "0.9% NaCl + 2.5% glucose",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "…",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "9 year old girl going into surgery, has been NBM. You don’t know when her surgery is going to be today. What fluids?",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Boy, in shock, capillary refill 4 seconds, low BP…",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

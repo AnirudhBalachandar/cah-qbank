@@ -1,45 +1,68 @@
 {
   "id": "3908838a-83e0-42e7-b51e-6bb4a05fc173",
-  "stem": "Kid exposed to varicella yesterday and not immunised – best treatment",
+  "stem": "An unimmunised immunocompetent child was exposed to chickenpox yesterday. What is the most appropriate post-exposure intervention?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Varicella immunoglobulin",
-      "isCorrect": null
+      "text": "Varicella-zoster immunoglobulin",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "VZV vaccine",
-      "isCorrect": null
+      "text": "Varicella vaccine",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "PRN paracetamol",
-      "isCorrect": null
+      "text": "Paracetamol only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Aciclovir",
-      "isCorrect": null
+      "text": "Oral aciclovir for all contacts",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "No intervention is possible",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Susceptible immunocompetent contacts can receive varicella vaccine after exposure if given promptly. Varicella-zoster immunoglobulin is reserved for selected high-risk susceptible contacts.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/varicella-chickenpox",
+      "title": "Australian Immunisation Handbook: Varicella (chickenpox)"
+    },
+    {
+      "type": "external",
+      "source": "Victorian Department of Health",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/chickenpox-and-shingles-varicella-herpes-zoster",
+      "title": "Chickenpox and shingles (varicella / herpes zoster)"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+    "general-paediatrics/immunisation"
   ],
   "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.007Z",
   "sourceFingerprint": "3be3dc6f5988eb3f63af56ea",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Susceptible immunocompetent contacts can receive varicella vaccine after exposure if given promptly. Varicella-zoster immunoglobulin is reserved for selected high-risk susceptible contacts.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Susceptible immunocompetent contacts can receive varicella vaccine after exposure if given promptly. Varicella-zoster immunoglobulin is reserved for selected high-risk susceptible contacts.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.366Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8ce24589431cffc37c6b"
+    "stemHash": "8ce24589431cffc37c6b",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.89,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Australian Immunisation Handbook: Varicella (chickenpox)",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/varicella-chickenpox",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports post-exposure varicella vaccination for susceptible immunocompetent contacts when timely."
+        },
+        {
+          "title": "Chickenpox and shingles (varicella / herpes zoster)",
+          "url": "https://www.health.vic.gov.au/infectious-diseases/chickenpox-and-shingles-varicella-herpes-zoster",
+          "organization": "Victorian Department of Health",
+          "sourceType": "australian_health",
+          "supports": "Supports public-health advice on infectious period and management after exposure to varicella."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid exposed to varicella yesterday and not immunised – best treatment",
+        "options": [
+          {
+            "key": "A",
+            "text": "Varicella immunoglobulin",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "VZV vaccine",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "PRN paracetamol",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Aciclovir",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,50 +1,68 @@
 {
   "id": "ecb8b696-2c04-4303-9b01-6d88c1ec9f34",
-  "stem": "child born – midwife calls you b/c concerned he’s trisomy 21. What are the features?",
+  "stem": "Which set of physical findings is most typical of trisomy 21 in a newborn?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "simian crease, upslanting eyes, macroglossia",
-      "isCorrect": null
+      "text": "Single palmar crease, downslanting palpebral fissures and micrognathia",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "single palmar crease, downslanting eyes, macroglossia",
-      "isCorrect": null
+      "text": "Tall stature, arachnodactyly and lens dislocation",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "simian crease, upslanting eyes, protruding tongue",
-      "isCorrect": null
+      "text": "Single palmar crease, upslanting palpebral fissures and protruding tongue",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "single palmar crease, downslanting eyes, protruding tongue",
-      "isCorrect": null
+      "text": "Macrocephaly, cafe-au-lait spots and axillary freckling",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "distractor for Wilson’s disease",
-      "isCorrect": null
+      "text": "Short limbs, frontal bossing and trident hands",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Trisomy 21 is associated with features such as hypotonia, single palmar crease, upslanting palpebral fissures and a protruding tongue.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "CDC",
+      "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/birthdefects/surveillancemanual/quick-reference-handbook/trisomy-21-down-syndrome.html",
+      "title": "Birth Defects Surveillance Toolkit: Trisomy 21"
+    },
+    {
+      "type": "external",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15244118/",
+      "title": "Clinical features of Down syndrome"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+    "general-paediatrics/genetics"
   ],
   "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:05.596Z",
   "sourceFingerprint": "317472b1192197e68fda81e7",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Trisomy 21 is associated with features such as hypotonia, single palmar crease, upslanting palpebral fissures and a protruding tongue.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Trisomy 21 is associated with features such as hypotonia, single palmar crease, upslanting palpebral fissures and a protruding tongue.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds exam MCQs.docx",
     "importedAt": "2026-03-16T02:22:40.696Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1ab3dccd7e85b6dbc62a"
+    "stemHash": "1ab3dccd7e85b6dbc62a",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Birth Defects Surveillance Toolkit: Trisomy 21",
+          "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/birthdefects/surveillancemanual/quick-reference-handbook/trisomy-21-down-syndrome.html",
+          "organization": "CDC",
+          "sourceType": "other_reputable",
+          "supports": "Supports common clinical features of Down syndrome, including upslanting palpebral fissures and single palmar crease."
+        },
+        {
+          "title": "Clinical features of Down syndrome",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15244118/",
+          "organization": "PubMed",
+          "sourceType": "other_reputable",
+          "supports": "Supports phenotype-based recognition of trisomy 21."
+        }
+      ],
+      "preRepair": {
+        "stem": "child born – midwife calls you b/c concerned he’s trisomy 21. What are the features?",
+        "options": [
+          {
+            "key": "A",
+            "text": "simian crease, upslanting eyes, macroglossia",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "single palmar crease, downslanting eyes, macroglossia",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "simian crease, upslanting eyes, protruding tongue",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "single palmar crease, downslanting eyes, protruding tongue",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "distractor for Wilson’s disease",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

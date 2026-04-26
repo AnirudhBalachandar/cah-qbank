@@ -1,57 +1,62 @@
 {
   "id": "aeeca2ef-a5ab-4391-ac38-da4905a16673",
-  "stem": "Haematology",
+  "stem": "A toddler with pallor has microcytic anaemia, low ferritin and high cow milk intake. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Hereditary spherocytosis",
-      "isCorrect": null
+      "text": "Thalassaemia major",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Fe deficiency",
-      "isCorrect": null
+      "text": "Iron deficiency anaemia",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Malaria",
-      "isCorrect": null
+      "text": "Anaemia of chronic disease",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "G6PD deficiency",
-      "isCorrect": null
+      "text": "Vitamin B12 deficiency",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Paroxysmal nocturnal hemoglobinura",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Sickle cell disease",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "Malignancy",
-      "isCorrect": null
+      "text": "Acute leukaemia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Microcytic anaemia with low ferritin in a toddler, especially with excessive cow milk intake, is most consistent with iron deficiency anaemia.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/iron_deficiency/",
+      "title": "Clinical Practice Guidelines: Iron deficiency"
+    }
+  ],
+  "tags": [
+    "general-paediatrics/haematology"
+  ],
+  "curriculum": "General Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.833Z",
   "sourceFingerprint": "76f91d2cd640279198002e3d",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Microcytic anaemia with low ferritin in a toddler, especially with excessive cow milk intake, is most consistent with iron deficiency anaemia.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Microcytic anaemia with low ferritin in a toddler, especially with excessive cow milk intake, is most consistent with iron deficiency anaemia.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.654Z",
@@ -66,6 +71,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e3dd6b5c880600d46653"
+    "stemHash": "e3dd6b5c880600d46653",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Iron deficiency",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/iron_deficiency/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports iron deficiency anaemia management with iron therapy and limiting excessive cow milk intake."
+        }
+      ],
+      "preRepair": {
+        "stem": "Haematology",
+        "options": [
+          {
+            "key": "A",
+            "text": "Hereditary spherocytosis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Fe deficiency",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Malaria",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "G6PD deficiency",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Paroxysmal nocturnal hemoglobinura",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Sickle cell disease",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Malignancy",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

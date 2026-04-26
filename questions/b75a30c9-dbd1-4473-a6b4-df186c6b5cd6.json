@@ -1,45 +1,62 @@
 {
   "id": "b75a30c9-dbd1-4473-a6b4-df186c6b5cd6",
-  "stem": "VBG interpretation for a kid who has picture of pyloric stenosis",
+  "stem": "A 5-week-old infant with projectile non-bilious vomiting has blood gas pH 7.50, low chloride, low potassium and base excess +10. Which diagnosis is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Respiratory acidosis",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Metabolic acidosis",
-      "isCorrect": null
+      "text": "Viral gastroenteritis",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Metabolic alkalosis with hyponatremia and hypokalaemia",
-      "isCorrect": null
+      "text": "Pyloric stenosis",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "Metabolic alkalosis with hypernatremia",
-      "isCorrect": null
+      "text": "Duodenal atresia",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Projectile non-bilious vomiting with hypochloraemic, hypokalaemic metabolic alkalosis in early infancy is typical of pyloric stenosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+      "title": "Clinical Practice Guidelines: Pyloric stenosis"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/vomiting-infant"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.996Z",
   "sourceFingerprint": "bdc56611bf14589b18a2e16f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Projectile non-bilious vomiting with hypochloraemic, hypokalaemic metabolic alkalosis in early infancy is typical of pyloric stenosis.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Projectile non-bilious vomiting with hypochloraemic, hypokalaemic metabolic alkalosis in early infancy is typical of pyloric stenosis.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.350Z",
@@ -54,6 +71,59 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "b771d1b17ccd137a15f4"
+    "stemHash": "b771d1b17ccd137a15f4",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Pyloric stenosis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports non-bilious projectile vomiting in early infancy and hypochloraemic metabolic alkalosis."
+        }
+      ],
+      "preRepair": {
+        "stem": "VBG interpretation for a kid who has picture of pyloric stenosis",
+        "options": [
+          {
+            "key": "A",
+            "text": "Respiratory acidosis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Metabolic acidosis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Metabolic alkalosis with hyponatremia and hypokalaemia",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Metabolic alkalosis with hypernatremia",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,50 +1,62 @@
 {
   "id": "631c8bdf-3b7d-4419-8bd5-9bf66dad4fcb",
-  "stem": "What percentage of JIA presents with systemic illness:",
+  "stem": "Approximately what proportion of children with juvenile idiopathic arthritis have systemic-onset disease?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "1%",
-      "isCorrect": null
+      "text": "1 percent",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "10%",
-      "isCorrect": null
+      "text": "10 percent",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "25%",
-      "isCorrect": null
+      "text": "30 percent",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "60%",
-      "isCorrect": null
+      "text": "50 percent",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "90%",
-      "isCorrect": null
+      "text": "90 percent",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Systemic-onset juvenile idiopathic arthritis accounts for about 10 percent of juvenile idiopathic arthritis, with oligoarticular disease being more common overall.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "RACGP",
+      "url": "https://www.racgp.org.au/getattachment/e443085a-a6ed-492e-98b1-def69b369aa9/Juvenile-idiopathic-arthritis.aspx",
+      "title": "Juvenile idiopathic arthritis"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "paediatric-sub-specialties/rheumatology"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.939Z",
   "sourceFingerprint": "e6e19c973004c001586ffadc",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Systemic-onset juvenile idiopathic arthritis accounts for about 10 percent of juvenile idiopathic arthritis, with oligoarticular disease being more common overall.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Systemic-onset juvenile idiopathic arthritis accounts for about 10 percent of juvenile idiopathic arthritis, with oligoarticular disease being more common overall.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.962Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "51e0a0456a2df761e26e"
+    "stemHash": "51e0a0456a2df761e26e",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.85,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Juvenile idiopathic arthritis",
+          "url": "https://www.racgp.org.au/getattachment/e443085a-a6ed-492e-98b1-def69b369aa9/Juvenile-idiopathic-arthritis.aspx",
+          "organization": "RACGP",
+          "sourceType": "australian_specialty",
+          "supports": "Supports JIA subtypes, epidemiology and the need for uveitis screening in oligoarticular JIA."
+        }
+      ],
+      "preRepair": {
+        "stem": "What percentage of JIA presents with systemic illness:",
+        "options": [
+          {
+            "key": "A",
+            "text": "1%",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "10%",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "25%",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "60%",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "90%",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

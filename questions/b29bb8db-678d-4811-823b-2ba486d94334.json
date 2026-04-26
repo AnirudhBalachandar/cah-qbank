@@ -1,50 +1,62 @@
 {
   "id": "b29bb8db-678d-4811-823b-2ba486d94334",
-  "stem": "18m old, just started walking, fell over and hit head. Cried for 10 mins, vomited twice. Has 4cm boggy mass over occiput. Now stable and well + happy. Next course of action?",
+  "stem": "An 18-month-old has a minor head injury with an occipital scalp haematoma and vomiting but is currently alert and haemodynamically stable. What is the most appropriate initial management?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Skull xray",
-      "isCorrect": null
+      "text": "Immediate discharge without advice",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Head CT",
-      "isCorrect": null
+      "text": "Immediate neurosurgery in all cases",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Neurosurgical consult",
-      "isCorrect": null
+      "text": "Routine skull x-ray only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Neuro observations",
-      "isCorrect": null
+      "text": "Observation with serial neurological assessments",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "Discharge and reassure",
-      "isCorrect": null
+      "text": "Oral antibiotics",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "A young child with vomiting and a scalp haematoma after head injury needs risk stratification and observation with serial neurological assessments when not clearly requiring immediate imaging or intervention.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/",
+      "title": "Clinical Practice Guidelines: Head injury"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/head-injury"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.979Z",
   "sourceFingerprint": "2dd4c5cc80145da87b6850f6",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A young child with vomiting and a scalp haematoma after head injury needs risk stratification and observation with serial neurological assessments when not clearly requiring immediate imaging or intervention.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "A young child with vomiting and a scalp haematoma after head injury needs risk stratification and observation with serial neurological assessments when not clearly requiring immediate imaging or intervention.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.312Z",
@@ -59,6 +71,64 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "199967d3506f6be641c7"
+    "stemHash": "199967d3506f6be641c7",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.85,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Head injury",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports observation and risk stratification after paediatric head injury."
+        }
+      ],
+      "preRepair": {
+        "stem": "18m old, just started walking, fell over and hit head. Cried for 10 mins, vomited twice. Has 4cm boggy mass over occiput. Now stable and well + happy. Next course of action?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Skull xray",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Head CT",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Neurosurgical consult",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Neuro observations",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Discharge and reassure",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

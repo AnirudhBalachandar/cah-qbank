@@ -1,40 +1,68 @@
 {
   "id": "a95a4740-5900-4d56-91c7-315782727243",
-  "stem": "Paediatric surgery",
+  "stem": "An infant has intermittent severe abdominal pain with drawing up of the legs, vomiting, pallor and episodes of lethargy. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Hirschprungs",
-      "isCorrect": null
+      "text": "Hirschsprung disease",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Volvulus",
-      "isCorrect": null
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Intusussception",
-      "isCorrect": null
+      "text": "Intussusception",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Intussusception commonly presents with episodic abdominal pain, vomiting, pallor and lethargy. Currant-jelly stool can occur but is not required for the diagnosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/intussusception/",
+      "title": "Clinical Practice Guidelines: Intussusception"
+    },
+    {
+      "type": "external",
+      "source": "Perth Children's Hospital",
+      "url": "https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Intussusception",
+      "title": "Emergency Department Guideline: Intussusception"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/gastrointestinal"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.640Z",
   "sourceFingerprint": "918467ecbbf575c6398c81a6",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Intussusception commonly presents with episodic abdominal pain, vomiting, pallor and lethargy. Currant-jelly stool can occur but is not required for the diagnosis.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Intussusception commonly presents with episodic abdominal pain, vomiting, pallor and lethargy. Currant-jelly stool can occur but is not required for the diagnosis.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.468Z",
@@ -49,6 +77,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "85db0823c641dcb65ab6"
+    "stemHash": "85db0823c641dcb65ab6",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Intussusception",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/intussusception/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports episodic pain, vomiting, lethargy and currant-jelly stool in intussusception."
+        },
+        {
+          "title": "Emergency Department Guideline: Intussusception",
+          "url": "https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Intussusception",
+          "organization": "Perth Children's Hospital",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and emergency management of paediatric intussusception."
+        }
+      ],
+      "preRepair": {
+        "stem": "Paediatric surgery",
+        "options": [
+          {
+            "key": "A",
+            "text": "Hirschprungs",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Volvulus",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Intusussception",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

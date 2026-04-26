@@ -1,45 +1,68 @@
 {
   "id": "e53e9202-e1c8-4824-819d-8501798611ee",
-  "stem": "Kid with bucchal white spots, 2 days later developed blanchingrash on scalp spreading down to torso. Cause?",
+  "stem": "An unimmunised child has fever, cough, coryza, conjunctivitis and a generalised maculopapular rash. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Measles",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "B",
       "text": "Rubella",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Scarlett fever",
-      "isCorrect": null
+      "text": "Varicella",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Kawasaki",
-      "isCorrect": null
+      "text": "Roseola",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Hand, foot and mouth disease",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  "explanation": "Measles classically presents with fever, cough, coryza, conjunctivitis and a maculopapular rash. It is highly contagious and should prompt infection-control measures.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Perth Children's Hospital",
+      "url": "https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Measles",
+      "title": "Emergency Department Guideline: Measles"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Measles/",
+      "title": "Kids Health Info: Measles"
+    }
   ],
-  "curriculum": "General Paediatrics",
+  "tags": [
+    "emergency-paediatrics/infectious-diseases"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.005Z",
   "sourceFingerprint": "b0bbfb42ecb586dd1a599b3a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Measles classically presents with fever, cough, coryza, conjunctivitis and a maculopapular rash. It is highly contagious and should prompt infection-control measures.",
+  "optionExplanations": {
+    "A": "Measles classically presents with fever, cough, coryza, conjunctivitis and a maculopapular rash. It is highly contagious and should prompt infection-control measures.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.364Z",
@@ -54,6 +77,66 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "fcee4a01baf06ae0acd2"
+    "stemHash": "fcee4a01baf06ae0acd2",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Emergency Department Guideline: Measles",
+          "url": "https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Measles",
+          "organization": "Perth Children's Hospital",
+          "sourceType": "australian_guideline",
+          "supports": "Supports measles clinical features and infection-control considerations."
+        },
+        {
+          "title": "Kids Health Info: Measles",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Measles/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports measles presentation with fever, cough, conjunctivitis and rash."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid with bucchal white spots, 2 days later developed blanchingrash on scalp spreading down to torso. Cause?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Measles",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Rubella",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Scarlett fever",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Kawasaki",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

@@ -1,47 +1,68 @@
 {
   "id": "e040307e-82a8-4d2e-be69-935a1c4510b3",
-  "stem": "Which aspect of a history of a seizure is most associated with an increased risk of a brain lesion?",
+  "stem": "Which seizure description is most suggestive of a focal structural brain lesion?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Longer than 30 mins of seizure",
-      "isCorrect": null
+      "text": "A brief generalised tonic-clonic seizure during fever",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Focal tonic or clonic seizure",
-      "isCorrect": null
+      "text": "A focal tonic-clonic seizure beginning in one arm",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Fever &gt; 38.5",
-      "isCorrect": null
+      "text": "A typical absence seizure with brief staring",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Family history of epilepsy",
-      "isCorrect": null
+      "text": "A myoclonic jerk just after falling asleep",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Loss of conscioussness",
-      "isCorrect": null
+      "text": "A benign shuddering episode in infancy",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "A seizure that begins focally in one limb suggests a focal onset and raises concern for a structural brain lesion or other focal pathology, particularly when afebrile or recurrent.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/afebrile_seizures/",
+      "title": "Clinical Practice Guidelines: Afebrile seizures"
+    },
+    {
+      "type": "external",
+      "source": "Children's Health Queensland",
+      "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/first-afebrile-seizure",
+      "title": "First afebrile seizure - Emergency management in children"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/neurology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.171Z",
   "sourceFingerprint": "a268d4665a78166ecfab7d4e",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "A seizure that begins focally in one limb suggests a focal onset and raises concern for a structural brain lesion or other focal pathology, particularly when afebrile or recurrent.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "A seizure that begins focally in one limb suggests a focal onset and raises concern for a structural brain lesion or other focal pathology, particularly when afebrile or recurrent.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.580Z",
@@ -56,6 +77,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "d110d036d9c1e8197d80"
+    "stemHash": "d110d036d9c1e8197d80",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.87,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Afebrile seizures",
+          "url": "https://www.rch.org.au/afebrile_seizures/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports evaluation of afebrile seizures and focal seizures as concerning for structural pathology."
+        },
+        {
+          "title": "First afebrile seizure - Emergency management in children",
+          "url": "https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/first-afebrile-seizure",
+          "organization": "Children's Health Queensland",
+          "sourceType": "australian_guideline",
+          "supports": "Supports neuroimaging considerations for focal or neonatal seizures."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which aspect of a history of a seizure is most associated with an increased risk of a brain lesion?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Longer than 30 mins of seizure",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Focal tonic or clonic seizure",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Fever &gt; 38.5",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Family history of epilepsy",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Loss of conscioussness",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

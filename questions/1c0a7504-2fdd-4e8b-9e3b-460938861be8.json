@@ -1,40 +1,74 @@
 {
   "id": "1c0a7504-2fdd-4e8b-9e3b-460938861be8",
-  "stem": "Kid with bowel symptoms, low total IgA, low TTG IgA levels, bowel biopsy showed villous atrophy – what is it?",
+  "stem": "A child has chronic bowel symptoms, low total IgA, low tTG-IgA and small-bowel biopsy showing villous atrophy. Which diagnosis best fits these findings?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Coeliac disease",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Crohns",
-      "isCorrect": null
+      "text": "Crohn disease",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Gastro",
-      "isCorrect": null
+      "text": "Acute gastroenteritis",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Ulcerative colitis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Irritable bowel syndrome",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Villous atrophy on small-bowel biopsy is a key feature of coeliac disease. Low total IgA can make tTG-IgA falsely low, so the biopsy result is important in this scenario.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+      "title": "Primary Care Liaison: Coeliac disease or abnormal coeliac serology"
+    },
+    {
+      "type": "external",
+      "source": "ESPGHAN",
+      "url": "https://www.espghan.org/dam/jcr%3Abebe51d4-8cde-4d20-90d1-815b4a6c76a9/2019_ESPGHAN_guidelines_for_diagnosing_coeliac_disease.pdf",
+      "title": "ESPGHAN guidelines for diagnosing coeliac disease 2020"
+    },
+    {
+      "type": "external",
+      "source": "NASPGHAN",
+      "url": "https://naspghan.org/files/documents/pdfs/position-papers/celiac_guideline_2004_jpgn.pdf",
+      "title": "Guideline for the diagnosis and treatment of celiac disease in children"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+    "paediatric-sub-specialties/gastroenterology"
   ],
   "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.003Z",
   "sourceFingerprint": "9a4ae8a8f93c007865eb3bb1",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Villous atrophy on small-bowel biopsy is a key feature of coeliac disease. Low total IgA can make tTG-IgA falsely low, so the biopsy result is important in this scenario.",
+  "optionExplanations": {
+    "A": "Villous atrophy on small-bowel biopsy is a key feature of coeliac disease. Low total IgA can make tTG-IgA falsely low, so the biopsy result is important in this scenario.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.363Z",
@@ -49,6 +83,68 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e97bbb23a0f797d010e1"
+    "stemHash": "e97bbb23a0f797d010e1",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Primary Care Liaison: Coeliac disease or abnormal coeliac serology",
+          "url": "https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Coeliac_disease_abnormal_coeliac_serology/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports coeliac disease assessment and the role of serology and duodenal histology."
+        },
+        {
+          "title": "ESPGHAN guidelines for diagnosing coeliac disease 2020",
+          "url": "https://www.espghan.org/dam/jcr%3Abebe51d4-8cde-4d20-90d1-815b4a6c76a9/2019_ESPGHAN_guidelines_for_diagnosing_coeliac_disease.pdf",
+          "organization": "ESPGHAN",
+          "sourceType": "international_guideline",
+          "supports": "Supports diagnostic interpretation of villous atrophy and serology in coeliac disease, including IgA issues."
+        },
+        {
+          "title": "Guideline for the diagnosis and treatment of celiac disease in children",
+          "url": "https://naspghan.org/files/documents/pdfs/position-papers/celiac_guideline_2004_jpgn.pdf",
+          "organization": "NASPGHAN",
+          "sourceType": "international_guideline",
+          "supports": "Supports biopsy features and differential diagnosis of coeliac disease."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid with bowel symptoms, low total IgA, low TTG IgA levels, bowel biopsy showed villous atrophy – what is it?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Coeliac disease",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Crohns",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Gastro",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

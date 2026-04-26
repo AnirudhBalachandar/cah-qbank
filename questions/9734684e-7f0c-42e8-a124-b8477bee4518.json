@@ -1,42 +1,68 @@
 {
   "id": "9734684e-7f0c-42e8-a124-b8477bee4518",
-  "stem": "Fracture indicative of non-accidental injury",
+  "stem": "An infant is found to have posterior rib fractures on imaging. What is the most important diagnosis to consider?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Posterior rib # found incidentally on CXR",
-      "isCorrect": null
+      "text": "Accidental fall from standing height",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Femoral neck # in kid on 5th centile for growth",
-      "isCorrect": null
+      "text": "Non-accidental injury",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Ulna + radius",
-      "isCorrect": null
+      "text": "Rickets alone",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Supracondylar",
-      "isCorrect": null
+      "text": "Osteogenesis imperfecta alone",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Transient synovitis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Posterior rib fractures in an infant are highly concerning for non-accidental injury, particularly when the history does not adequately explain the injuries.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_abuse/",
+      "title": "Clinical Practice Guidelines: Child abuse"
+    },
+    {
+      "type": "external",
+      "source": "PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5378682/",
+      "title": "Rib fractures in infants: red flags and child abuse"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/child-protection"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:41.983Z",
   "sourceFingerprint": "a7a624757150f0e71ab3058f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Posterior rib fractures in an infant are highly concerning for non-accidental injury, particularly when the history does not adequately explain the injuries.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Posterior rib fractures in an infant are highly concerning for non-accidental injury, particularly when the history does not adequately explain the injuries.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.328Z",
@@ -51,6 +77,63 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "4ad5aa6455afaa308bd7"
+    "stemHash": "4ad5aa6455afaa308bd7",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Child abuse",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_abuse/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports red flags for child abuse, including concerning fractures or intracranial injury."
+        },
+        {
+          "title": "Rib fractures in infants: red flags and child abuse",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5378682/",
+          "organization": "PMC",
+          "sourceType": "other_reputable",
+          "supports": "Supports posterior rib fractures as highly suspicious for non-accidental injury."
+        }
+      ],
+      "preRepair": {
+        "stem": "Fracture indicative of non-accidental injury",
+        "options": [
+          {
+            "key": "A",
+            "text": "Posterior rib # found incidentally on CXR",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Femoral neck # in kid on 5th centile for growth",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Ulna + radius",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Supracondylar",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

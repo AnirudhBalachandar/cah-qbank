@@ -1,40 +1,62 @@
 {
   "id": "8f9175db-6f73-437f-9bcf-76e4071a8ebe",
-  "stem": "Vomiting in the older child",
+  "stem": "An older child with eczema has recurrent dysphagia and food sticking in the oesophagus. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Food protein induced enterocolitis",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux alone",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Eosinophilic esophagitis",
-      "isCorrect": null
+      "text": "Eosinophilic oesophagitis",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Eosinpphilic gastroenteritis",
-      "isCorrect": null
+      "text": "Coeliac disease",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Pyloric stenosis",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Viral gastroenteritis",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  "explanation": "Eosinophilic oesophagitis often occurs in atopic children and can present with dysphagia, food impaction or food sticking, particularly in older children and adolescents.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "ASCIA",
+      "url": "https://www.allergy.org.au/patients/food-other-adverse-reactions/eosinophilic-oesophagitis",
+      "title": "Eosinophilic oesophagitis"
+    }
   ],
-  "curriculum": "General Paediatrics",
+  "tags": [
+    "paediatric-sub-specialties/gastroenterology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.839Z",
   "sourceFingerprint": "58ad79f4a0dac98d47d2e3e4",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Eosinophilic oesophagitis often occurs in atopic children and can present with dysphagia, food impaction or food sticking, particularly in older children and adolescents.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Eosinophilic oesophagitis often occurs in atopic children and can present with dysphagia, food impaction or food sticking, particularly in older children and adolescents.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.660Z",
@@ -49,6 +71,54 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "290d24e3a2a413121939"
+    "stemHash": "290d24e3a2a413121939",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.89,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Eosinophilic oesophagitis",
+          "url": "https://www.allergy.org.au/patients/food-other-adverse-reactions/eosinophilic-oesophagitis",
+          "organization": "ASCIA",
+          "sourceType": "australian_specialty",
+          "supports": "Supports eosinophilic oesophagitis symptoms including dysphagia, food impaction and atopy."
+        }
+      ],
+      "preRepair": {
+        "stem": "Vomiting in the older child",
+        "options": [
+          {
+            "key": "A",
+            "text": "Food protein induced enterocolitis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Eosinophilic esophagitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Eosinpphilic gastroenteritis",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

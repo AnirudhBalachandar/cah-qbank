@@ -1,60 +1,62 @@
 {
   "id": "828f5b21-481e-4ddd-af2e-beb649e0a566",
-  "stem": "Wheeze:",
+  "stem": "A 5-year-old develops sudden coughing while eating and later has persistent unilateral wheeze. What diagnosis should be suspected?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Bronchitis",
-      "isCorrect": null
+      "text": "Asthma",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Bronchiolitis",
-      "isCorrect": null
+      "text": "Inhaled foreign body",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Inhaled foreign body",
-      "isCorrect": null
+      "text": "Bronchiolitis",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Asthma",
-      "isCorrect": null
+      "text": "Croup",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Croup",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "5 months, wheezy etc… decreased air entry bilaterally, wheeze, crackles",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
-      "text": "5 year old, was well, then wheezy. Not responding to ventolin via spacer. Otherwise well, tachypnoic, reduced air entry on right upper lobe. Chest expansion normal. Xray showed hyperinflation",
-      "isCorrect": null
+      "text": "Pneumonia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+      "title": "Clinical Practice Guidelines: Foreign bodies inhaled"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/respiratory"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.145Z",
   "sourceFingerprint": "88e8691efb466f82e7b21c67",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.050Z",
@@ -69,6 +71,74 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "28c01a22041e472ecda2"
+    "stemHash": "28c01a22041e472ecda2",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Foreign bodies inhaled",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and imaging of suspected inhaled foreign body, including hyperinflation and decubitus/expiratory views."
+        }
+      ],
+      "preRepair": {
+        "stem": "Wheeze:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Bronchitis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Bronchiolitis",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Inhaled foreign body",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Asthma",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Croup",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "5 months, wheezy etc… decreased air entry bilaterally, wheeze, crackles",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "5 year old, was well, then wheezy. Not responding to ventolin via spacer. Otherwise well, tachypnoic, reduced air entry on right upper lobe. Chest expansion normal. Xray showed hyperinflation",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

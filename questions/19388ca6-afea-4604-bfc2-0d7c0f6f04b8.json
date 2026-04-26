@@ -1,37 +1,68 @@
 {
   "id": "19388ca6-afea-4604-bfc2-0d7c0f6f04b8",
-  "stem": "Risk reduction from 19% to 13%.",
+  "stem": "A trial reports that recurrence fell from 19 percent in the placebo group to 13 percent in the treatment group. Which statement correctly describes the result?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Absolute reduction of 13%",
-      "isCorrect": null
+      "text": "The absolute risk reduction is 6 percent",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Relative reduction of 6%",
-      "isCorrect": null
+      "text": "The absolute risk reduction is 13 percent",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Likelihood ratio",
-      "isCorrect": null
+      "text": "The relative risk reduction is 6 percent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "The likelihood ratio is 6 percent",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "The number needed to treat is 6",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Absolute risk reduction is the difference between event rates. Here, 19 percent minus 13 percent equals 6 percent. The approximate number needed to treat would be 1 divided by 0.06, or about 17.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Prescriber",
+      "url": "https://australianprescriber.tg.org.au/articles/evidence-risk-and-the-patient.html",
+      "title": "Evidence, risk and the patient"
+    },
+    {
+      "type": "external",
+      "source": "Australian Prescriber",
+      "url": "https://australianprescriber.tg.org.au/articles/prescribing-by-numbers.html",
+      "title": "Prescribing by numbers"
+    }
+  ],
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.820Z",
   "sourceFingerprint": "bd4f8fd899e8b7dfa0830a33",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Absolute risk reduction is the difference between event rates. Here, 19 percent minus 13 percent equals 6 percent. The approximate number needed to treat would be 1 divided by 0.06, or about 17.",
+  "optionExplanations": {
+    "A": "Absolute risk reduction is the difference between event rates. Here, 19 percent minus 13 percent equals 6 percent. The approximate number needed to treat would be 1 divided by 0.06, or about 17.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term I 2012.docx",
     "importedAt": "2026-03-16T02:22:41.640Z",
@@ -46,6 +77,58 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "3e37253537b0fe24cb22"
+    "stemHash": "3e37253537b0fe24cb22",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Evidence, risk and the patient",
+          "url": "https://australianprescriber.tg.org.au/articles/evidence-risk-and-the-patient.html",
+          "organization": "Australian Prescriber",
+          "sourceType": "australian_specialty",
+          "supports": "Supports interpreting absolute risk reduction and risk communication."
+        },
+        {
+          "title": "Prescribing by numbers",
+          "url": "https://australianprescriber.tg.org.au/articles/prescribing-by-numbers.html",
+          "organization": "Australian Prescriber",
+          "sourceType": "australian_specialty",
+          "supports": "Supports number needed to treat as reciprocal of absolute risk reduction."
+        }
+      ],
+      "preRepair": {
+        "stem": "Risk reduction from 19% to 13%.",
+        "options": [
+          {
+            "key": "A",
+            "text": "Absolute reduction of 13%",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Relative reduction of 6%",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Likelihood ratio",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

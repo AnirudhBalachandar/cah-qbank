@@ -1,65 +1,68 @@
 {
   "id": "48d9d22b-b329-449f-996d-cc1c9dbdfc6c",
-  "stem": "Respiratory paeds",
+  "stem": "An unimmunised child has high fever, drooling, muffled voice, tripod posture and minimal cough. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
       "text": "Epiglottitis",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Tracheoesophageal fistula",
-      "isCorrect": null
+      "text": "Tracheo-oesophageal fistula",
+      "isCorrect": false
     },
     {
       "key": "C",
       "text": "Pneumonia",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "D",
       "text": "Laryngomalacia",
-      "isCorrect": null
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Asthma",
-      "isCorrect": null
-    },
-    {
-      "key": "F",
-      "text": "Foreign body",
-      "isCorrect": null
-    },
-    {
-      "key": "G",
       "text": "Croup",
-      "isCorrect": null
-    },
-    {
-      "key": "H",
-      "text": "Tracheitis",
-      "isCorrect": null
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "Epiglottitis classically presents with toxic appearance, high fever, drooling, muffled voice and tripod posture. Croup usually has a barking cough and is generally less toxic.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/acute_upper_airway_obstruction/",
+      "title": "Clinical Practice Guidelines: Acute upper airway obstruction"
+    },
+    {
+      "type": "external",
+      "source": "Australian Immunisation Handbook",
+      "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/haemophilus-influenzae-type-b-hib",
+      "title": "Australian Immunisation Handbook: Haemophilus influenzae type b (Hib)"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+    "emergency-paediatrics/airway"
   ],
   "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.205Z",
   "sourceFingerprint": "a823f37fa48d06c5171bd241",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Epiglottitis classically presents with toxic appearance, high fever, drooling, muffled voice and tripod posture. Croup usually has a barking cough and is generally less toxic.",
+  "optionExplanations": {
+    "A": "Epiglottitis classically presents with toxic appearance, high fever, drooling, muffled voice and tripod posture. Croup usually has a barking cough and is generally less toxic.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.608Z",
@@ -74,6 +77,86 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "7b9429516681163cb290"
+    "stemHash": "7b9429516681163cb290",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Acute upper airway obstruction",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/acute_upper_airway_obstruction/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports recognition of epiglottitis as a severe upper-airway illness with fever, drooling, tripod posture and muffled voice."
+        },
+        {
+          "title": "Australian Immunisation Handbook: Haemophilus influenzae type b (Hib)",
+          "url": "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/haemophilus-influenzae-type-b-hib",
+          "organization": "Australian Immunisation Handbook",
+          "sourceType": "australian_guideline",
+          "supports": "Supports Hib vaccination and Hib-related invasive disease such as epiglottitis."
+        }
+      ],
+      "preRepair": {
+        "stem": "Respiratory paeds",
+        "options": [
+          {
+            "key": "A",
+            "text": "Epiglottitis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Tracheoesophageal fistula",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Pneumonia",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Laryngomalacia",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Asthma",
+            "isCorrect": null
+          },
+          {
+            "key": "F",
+            "text": "Foreign body",
+            "isCorrect": null
+          },
+          {
+            "key": "G",
+            "text": "Croup",
+            "isCorrect": null
+          },
+          {
+            "key": "H",
+            "text": "Tracheitis",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/emergency-paediatrics"
+        ],
+        "curriculum": "Emergency Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

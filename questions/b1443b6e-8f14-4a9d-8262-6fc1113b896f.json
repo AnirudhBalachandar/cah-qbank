@@ -1,37 +1,68 @@
 {
   "id": "b1443b6e-8f14-4a9d-8262-6fc1113b896f",
-  "stem": "What do the test for on neonatal screening for CF?",
+  "stem": "Which analyte is used as the primary first-tier newborn screening marker for cystic fibrosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Immunoreactive trypsin",
-      "isCorrect": null
+      "text": "Immunoreactive trypsinogen",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Delta F508 gene",
-      "isCorrect": null
+      "text": "Sweat chloride",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Chloride and salt levels",
-      "isCorrect": null
+      "text": "Faecal elastase",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Serum sodium",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "C-reactive protein",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Newborn screening for cystic fibrosis commonly uses immunoreactive trypsinogen as the initial marker, followed by further testing according to the screening algorithm.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Sydney Children's Hospitals Network",
+      "url": "https://resources.schn.health.nsw.gov.au/policies/policies/pdf/2025-030.pdf",
+      "title": "Cystic fibrosis: diagnosis and management"
+    },
+    {
+      "type": "external",
+      "source": "Medical Journal of Australia",
+      "url": "https://www.mja.com.au/journal/2012/196/1/lessons-learned-20-years-newborn-screening-cystic-fibrosis",
+      "title": "Lessons learned from 20 years of newborn screening for cystic fibrosis"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/respiratory"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.090Z",
   "sourceFingerprint": "1e7633c888e131cae2ad2ec8",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Newborn screening for cystic fibrosis commonly uses immunoreactive trypsinogen as the initial marker, followed by further testing according to the screening algorithm.",
+  "optionExplanations": {
+    "A": "Newborn screening for cystic fibrosis commonly uses immunoreactive trypsinogen as the initial marker, followed by further testing according to the screening algorithm.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.029Z",
@@ -46,6 +77,58 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "10d7831ddc0aebbb6191"
+    "stemHash": "10d7831ddc0aebbb6191",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.88,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Cystic fibrosis: diagnosis and management",
+          "url": "https://resources.schn.health.nsw.gov.au/policies/policies/pdf/2025-030.pdf",
+          "organization": "Sydney Children's Hospitals Network",
+          "sourceType": "australian_guideline",
+          "supports": "Supports newborn screening and diagnostic workup for cystic fibrosis."
+        },
+        {
+          "title": "Lessons learned from 20 years of newborn screening for cystic fibrosis",
+          "url": "https://www.mja.com.au/journal/2012/196/1/lessons-learned-20-years-newborn-screening-cystic-fibrosis",
+          "organization": "Medical Journal of Australia",
+          "sourceType": "australian_specialty",
+          "supports": "Supports immunoreactive trypsinogen as part of newborn screening for cystic fibrosis."
+        }
+      ],
+      "preRepair": {
+        "stem": "What do the test for on neonatal screening for CF?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Immunoreactive trypsin",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Delta F508 gene",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Chloride and salt levels",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

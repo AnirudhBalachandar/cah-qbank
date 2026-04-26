@@ -1,47 +1,62 @@
 {
   "id": "70711fe7-ec46-4c25-badf-ea18ca7a5651",
-  "stem": "Respiratory",
+  "stem": "A toddler has sudden cough while eating, persistent unilateral wheeze and unilateral hyperinflation on chest x-ray. Symptoms do not improve with salbutamol. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Anaphylaxis",
-      "isCorrect": null
+      "text": "Asthma",
+      "isCorrect": false
     },
     {
       "key": "B",
       "text": "Inhaled foreign body",
-      "isCorrect": null
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "Life-threatening asthma",
-      "isCorrect": null
+      "text": "Bronchiolitis",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Laryngomalacia",
-      "isCorrect": null
+      "text": "Croup",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Tracheo-oesophageal fistula",
-      "isCorrect": null
+      "text": "Pneumonia",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+      "title": "Clinical Practice Guidelines: Foreign bodies inhaled"
+    }
+  ],
+  "tags": [
+    "emergency-paediatrics/respiratory"
+  ],
+  "curriculum": "Emergency Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.638Z",
   "sourceFingerprint": "9c624519b39e5435f30fee68",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Sudden cough or choking followed by persistent unilateral wheeze or hyperinflation is strongly suggestive of an inhaled foreign body, especially when bronchodilator therapy does not help.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - Term H 2012.docx",
     "importedAt": "2026-03-16T02:22:41.465Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "9cb1c9c5f6adf8156964"
+    "stemHash": "9cb1c9c5f6adf8156964",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Foreign bodies inhaled",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports diagnosis and imaging of suspected inhaled foreign body, including hyperinflation and decubitus/expiratory views."
+        }
+      ],
+      "preRepair": {
+        "stem": "Respiratory",
+        "options": [
+          {
+            "key": "A",
+            "text": "Anaphylaxis",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Inhaled foreign body",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Life-threatening asthma",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Laryngomalacia",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Tracheo-oesophageal fistula",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

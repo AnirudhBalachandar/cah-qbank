@@ -1,47 +1,62 @@
 {
   "id": "497b8d18-001a-4151-9d0d-d4990d7e0751",
-  "stem": "A 2 week old presents with profuse vomiting. What would a VBG show?",
+  "stem": "A 5-week-old infant with projectile non-bilious vomiting has blood gas pH 7.50, low chloride, low potassium and base excess +10. Which diagnosis is most likely?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "pH 7.2, hypernatremia 155, hypokalemia 6, BE -4",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "pH 7.5, hypernatremia 155, hyperkalemia 3, BE 3",
-      "isCorrect": null
+      "text": "Viral gastroenteritis",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "pH 7.5, hyponatremia 129, hypokalemia 3, BE 10",
-      "isCorrect": null
+      "text": "Pyloric stenosis",
+      "isCorrect": true
     },
     {
       "key": "D",
-      "text": "pH 7.4, normal Na 136, normal K 4.5, normal BE 1.5",
-      "isCorrect": null
+      "text": "Duodenal atresia",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "pH 7.2, hyponatremia 129, hyperkalemia 6, BE -5",
-      "isCorrect": null
+      "text": "Malrotation with volvulus",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Projectile non-bilious vomiting with hypochloraemic, hypokalaemic metabolic alkalosis in early infancy is typical of pyloric stenosis.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+      "title": "Clinical Practice Guidelines: Pyloric stenosis"
+    }
+  ],
+  "tags": [
+    "paediatric-surgery/vomiting-infant"
+  ],
+  "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.169Z",
   "sourceFingerprint": "f220e83b229c910d4e45fc4f",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Projectile non-bilious vomiting with hypochloraemic, hypokalaemic metabolic alkalosis in early infancy is typical of pyloric stenosis.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Projectile non-bilious vomiting with hypochloraemic, hypokalaemic metabolic alkalosis in early infancy is typical of pyloric stenosis.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/Paeds Exam July TERM I 2012.docx",
     "importedAt": "2026-03-16T02:22:40.579Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "e5ccdff986605369c4f9"
+    "stemHash": "e5ccdff986605369c4f9",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Pyloric stenosis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports non-bilious projectile vomiting in early infancy and hypochloraemic metabolic alkalosis."
+        }
+      ],
+      "preRepair": {
+        "stem": "A 2 week old presents with profuse vomiting. What would a VBG show?",
+        "options": [
+          {
+            "key": "A",
+            "text": "pH 7.2, hypernatremia 155, hypokalemia 6, BE -4",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "pH 7.5, hypernatremia 155, hyperkalemia 3, BE 3",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "pH 7.5, hyponatremia 129, hypokalemia 3, BE 10",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "pH 7.4, normal Na 136, normal K 4.5, normal BE 1.5",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "pH 7.2, hyponatremia 129, hyperkalemia 6, BE -5",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

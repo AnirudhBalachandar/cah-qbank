@@ -1,32 +1,68 @@
 {
   "id": "c1b24cac-eaff-432b-9faf-a28c8897c2a5",
-  "stem": "1 year RCT of Abs for prophylaxis of UTIs. Results were:",
+  "stem": "In a one-year UTI prophylaxis trial, recurrent UTI occurred in 19 percent on placebo and 13 percent on antibiotics. What is the approximate number needed to treat?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "19% of children treated with placebo did not have a UTI",
-      "isCorrect": null
+      "text": "6",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "13% of children treated with Abs did not have UTI",
-      "isCorrect": null
+      "text": "17",
+      "isCorrect": true
+    },
+    {
+      "key": "C",
+      "text": "13",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "19",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "32",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "The absolute risk reduction is 6 percent, or 0.06. The number needed to treat is 1 divided by 0.06, which is approximately 16.7 and rounds to 17.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Australian Prescriber",
+      "url": "https://australianprescriber.tg.org.au/articles/evidence-risk-and-the-patient.html",
+      "title": "Evidence, risk and the patient"
+    },
+    {
+      "type": "external",
+      "source": "Australian Prescriber",
+      "url": "https://australianprescriber.tg.org.au/articles/prescribing-by-numbers.html",
+      "title": "Prescribing by numbers"
+    }
+  ],
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.971Z",
   "sourceFingerprint": "6fe453f57c84101a60cf87a9",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "The absolute risk reduction is 6 percent, or 0.06. The number needed to treat is 1 divided by 0.06, which is approximately 16.7 and rounds to 17.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "The absolute risk reduction is 6 percent, or 0.06. The number needed to treat is 1 divided by 0.06, which is approximately 16.7 and rounds to 17.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.978Z",
@@ -41,6 +77,53 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "8fce749067099c994269"
+    "stemHash": "8fce749067099c994269",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Evidence, risk and the patient",
+          "url": "https://australianprescriber.tg.org.au/articles/evidence-risk-and-the-patient.html",
+          "organization": "Australian Prescriber",
+          "sourceType": "australian_specialty",
+          "supports": "Supports interpreting absolute risk reduction and risk communication."
+        },
+        {
+          "title": "Prescribing by numbers",
+          "url": "https://australianprescriber.tg.org.au/articles/prescribing-by-numbers.html",
+          "organization": "Australian Prescriber",
+          "sourceType": "australian_specialty",
+          "supports": "Supports number needed to treat as reciprocal of absolute risk reduction."
+        }
+      ],
+      "preRepair": {
+        "stem": "1 year RCT of Abs for prophylaxis of UTIs. Results were:",
+        "options": [
+          {
+            "key": "A",
+            "text": "19% of children treated with placebo did not have a UTI",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "13% of children treated with Abs did not have UTI",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

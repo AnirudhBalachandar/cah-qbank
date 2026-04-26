@@ -1,50 +1,68 @@
 {
   "id": "bd3698cb-32cc-4450-a08b-87e131382c93",
-  "stem": "Which of the following is the best supporting evidence for Hirschsprung’s disease:",
+  "stem": "A term neonate fails to pass meconium within 48 hours and develops abdominal distension and bilious vomiting. What is the most likely diagnosis?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "First passage of meconium at 48 hours",
-      "isCorrect": null
+      "text": "Hirschsprung disease",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Vomiting",
-      "isCorrect": null
+      "text": "Pyloric stenosis",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Constipation",
-      "isCorrect": null
+      "text": "Gastro-oesophageal reflux",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Recurrent soiling of underpants",
-      "isCorrect": null
+      "text": "Intussusception",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Frequent passage of large stools",
-      "isCorrect": null
+      "text": "Coeliac disease",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/general-paediatrics"
+  "explanation": "Delayed passage of meconium with abdominal distension and vomiting in a neonate is classic for Hirschsprung disease and neonatal bowel obstruction.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/uploadedFiles/Main/Content/cprs/CPRS%20Booklet%20-%20Hirschsprung%20Disease.pdf",
+      "title": "Hirschsprung disease information"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/",
+      "title": "Clinical Practice Guidelines: Recognition of the seriously unwell neonate and young infant"
+    }
   ],
-  "curriculum": "General Paediatrics",
+  "tags": [
+    "paediatric-surgery/neonatal-bowel"
+  ],
+  "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.083Z",
   "sourceFingerprint": "c1a5c41206c6d532dd772a41",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Delayed passage of meconium with abdominal distension and vomiting in a neonate is classic for Hirschsprung disease and neonatal bowel obstruction.",
+  "optionExplanations": {
+    "A": "Delayed passage of meconium with abdominal distension and vomiting in a neonate is classic for Hirschsprung disease and neonatal bowel obstruction.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.025Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "9810c7762196d05995ce"
+    "stemHash": "9810c7762196d05995ce",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.91,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Hirschsprung disease information",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/cprs/CPRS%20Booklet%20-%20Hirschsprung%20Disease.pdf",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports delayed meconium passage and neonatal obstruction in Hirschsprung disease."
+        },
+        {
+          "title": "Clinical Practice Guidelines: Recognition of the seriously unwell neonate and young infant",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports urgent assessment of bilious vomiting and serious neonatal presentations."
+        }
+      ],
+      "preRepair": {
+        "stem": "Which of the following is the best supporting evidence for Hirschsprung’s disease:",
+        "options": [
+          {
+            "key": "A",
+            "text": "First passage of meconium at 48 hours",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Vomiting",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Constipation",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Recurrent soiling of underpants",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Frequent passage of large stools",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/general-paediatrics"
+        ],
+        "curriculum": "General Paediatrics",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

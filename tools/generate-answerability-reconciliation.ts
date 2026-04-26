@@ -84,6 +84,9 @@ async function main() {
   const publishedRows = rows.filter((row) => row.status === "published")
   const publishedNotAnswerable = publishedRows.filter((row) => !row.answerable)
   const publishedCahKatNotAnswerable = publishedNotAnswerable.filter((row) => row.isCahKat)
+  const allQuestionsFileName = `all-${rows.length}-questions.csv`
+  const publishedNotAnswerableFileName = `published-not-answerable-${publishedNotAnswerable.length}.csv`
+  const publishedCahKatNotAnswerableFileName = `published-cah-kat-not-answerable-${publishedCahKatNotAnswerable.length}.csv`
 
   const summaryLines = [
     "# Answerability Reconciliation Report",
@@ -111,9 +114,9 @@ async function main() {
     "",
     "## Artifacts",
     "",
-    "- `reports/answerability-reconciliation/all-1107-questions.csv`: file-by-file status for all question files.",
-    "- `reports/answerability-reconciliation/published-not-answerable-178.csv`: exact published questions that are not answerable and reason.",
-    "- `reports/answerability-reconciliation/published-cah-kat-not-answerable-71.csv`: exact published CAH-KAT questions that are not answerable and reason.",
+    `- \`reports/answerability-reconciliation/${allQuestionsFileName}\`: file-by-file status for all question files.`,
+    `- \`reports/answerability-reconciliation/${publishedNotAnswerableFileName}\`: exact published questions that are not answerable and reason.`,
+    `- \`reports/answerability-reconciliation/${publishedCahKatNotAnswerableFileName}\`: exact published CAH-KAT questions that are not answerable and reason.`,
     "",
   ]
 
@@ -151,9 +154,9 @@ async function main() {
 
   await fs.mkdir(outDir, { recursive: true })
   await fs.writeFile(path.join(outDir, "report.md"), `${summaryLines.join("\n")}\n`, "utf8")
-  await fs.writeFile(path.join(outDir, "all-1107-questions.csv"), rowsToCsv(rows), "utf8")
-  await fs.writeFile(path.join(outDir, "published-not-answerable-178.csv"), rowsToCsv(publishedNotAnswerable), "utf8")
-  await fs.writeFile(path.join(outDir, "published-cah-kat-not-answerable-71.csv"), rowsToCsv(publishedCahKatNotAnswerable), "utf8")
+  await fs.writeFile(path.join(outDir, allQuestionsFileName), rowsToCsv(rows), "utf8")
+  await fs.writeFile(path.join(outDir, publishedNotAnswerableFileName), rowsToCsv(publishedNotAnswerable), "utf8")
+  await fs.writeFile(path.join(outDir, publishedCahKatNotAnswerableFileName), rowsToCsv(publishedCahKatNotAnswerable), "utf8")
 
   console.log(`Wrote reconciliation report to ${outDir}`)
 }

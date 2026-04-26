@@ -1,47 +1,62 @@
 {
   "id": "a1f89ee1-9f68-4ef4-8c4d-8a2a66a0b0f3",
-  "stem": "7 year old boy, a week of fevers over 39, with red eyes and mouth. He was difficult to cannulate because of puffy hands. He has a generalised macular-papular rash. What is your first treatment:",
+  "stem": "What is the key initial disease-modifying treatment for Kawasaki disease?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "IV gammaglobulin",
-      "isCorrect": null
+      "text": "Intravenous immunoglobulin",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Corticosteroids",
-      "isCorrect": null
+      "text": "Oral amoxicillin",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Antihistamines",
-      "isCorrect": null
+      "text": "Inhaled salbutamol",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Supportive care",
-      "isCorrect": null
+      "text": "Intravenous gentamicin",
+      "isCorrect": false
     },
     {
       "key": "E",
-      "text": "Ampicillin",
-      "isCorrect": null
+      "text": "Oral montelukast",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Intravenous immunoglobulin is the key early treatment for Kawasaki disease to reduce the risk of coronary artery complications.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Kawasaki_disease/",
+      "title": "Clinical Practice Guidelines: Kawasaki disease"
+    }
+  ],
+  "tags": [
+    "paediatric-sub-specialties/cardiology"
+  ],
+  "curriculum": "Paediatric Sub-specialties",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.023Z",
   "sourceFingerprint": "5909938f71c2bb6b6a975dc5",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Intravenous immunoglobulin is the key early treatment for Kawasaki disease to reduce the risk of coronary artery complications.",
+  "optionExplanations": {
+    "A": "Intravenous immunoglobulin is the key early treatment for Kawasaki disease to reduce the risk of coronary artery complications.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.997Z",
@@ -56,6 +71,61 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "1d057701f2251b31b542"
+    "stemHash": "1d057701f2251b31b542",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.94,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Kawasaki disease",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Kawasaki_disease/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports coronary artery aneurysm/dilatation risk and treatment with intravenous immunoglobulin."
+        }
+      ],
+      "preRepair": {
+        "stem": "7 year old boy, a week of fevers over 39, with red eyes and mouth. He was difficult to cannulate because of puffy hands. He has a generalised macular-papular rash. What is your first treatment:",
+        "options": [
+          {
+            "key": "A",
+            "text": "IV gammaglobulin",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Corticosteroids",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Antihistamines",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Supportive care",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Ampicillin",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

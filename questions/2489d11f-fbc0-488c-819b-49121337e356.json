@@ -1,42 +1,62 @@
 {
   "id": "2489d11f-fbc0-488c-819b-49121337e356",
-  "stem": "Kid with constipation, non-bilious vomiting, has swallowed magnets – best management",
+  "stem": "A child with constipation and non-bilious vomiting is found to have swallowed multiple magnets. What is the most appropriate management?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Laxatives + review",
-      "isCorrect": null
+      "text": "Give laxatives and review as an outpatient",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Laparotomy",
-      "isCorrect": null
+      "text": "Urgent specialist operative or endoscopic removal",
+      "isCorrect": true
     },
     {
       "key": "C",
-      "text": "IV fluids",
-      "isCorrect": null
+      "text": "Intravenous fluids only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Supportive",
-      "isCorrect": null
+      "text": "Supportive care at home",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Induce vomiting",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Multiple swallowed magnets can attract across bowel walls and cause obstruction, perforation or fistula. Symptomatic ingestion requires urgent specialist management rather than outpatient observation alone.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/",
+      "title": "Clinical Practice Guidelines: Foreign body ingestion"
+    }
+  ],
+  "tags": [
+    "paediatric-surgery/foreign-body-ingestion"
+  ],
+  "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T00:56:42.017Z",
   "sourceFingerprint": "c860b1a514728bcf6b76c19a",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Multiple swallowed magnets can attract across bowel walls and cause obstruction, perforation or fistula. Symptomatic ingestion requires urgent specialist management rather than outpatient observation alone.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "Multiple swallowed magnets can attract across bowel walls and cause obstruction, perforation or fistula. Symptomatic ingestion requires urgent specialist management rather than outpatient observation alone.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Paeds/Past Questions/CAH MCQs - Term H.docx",
     "importedAt": "2026-03-16T02:22:40.372Z",
@@ -51,6 +71,56 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "f672ea2afcc2e0d9ae99"
+    "stemHash": "f672ea2afcc2e0d9ae99",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "normalized_existing_question",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Clinical Practice Guidelines: Foreign body ingestion",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports urgent specialist management when multiple magnets are ingested or obstructive symptoms occur."
+        }
+      ],
+      "preRepair": {
+        "stem": "Kid with constipation, non-bilious vomiting, has swallowed magnets – best management",
+        "options": [
+          {
+            "key": "A",
+            "text": "Laxatives + review",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Laparotomy",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "IV fluids",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Supportive",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

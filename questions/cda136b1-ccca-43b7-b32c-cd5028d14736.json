@@ -1,50 +1,68 @@
 {
   "id": "cda136b1-ccca-43b7-b32c-cd5028d14736",
-  "stem": "Baby in the country, firm, red, tender lump in groin, not eating/drinking as much as normal, vomiting, some bowel changes. There is no paediatric surgeon in the town but he is coming tomorrow for a clinic. You have got IV access. What would you like to do next:",
+  "stem": "A child in a remote hospital has a painful irreducible inguinal hernia and no local paediatric surgeon. What is the best management?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Give analgesia, make an appointment for paeds clinic tomorrow",
-      "isCorrect": null
+      "text": "Discharge and review in one week",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "Give analgesia, refer to adult surgeons in the town",
-      "isCorrect": null
+      "text": "Apply a truss and observe at home",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Give fluids",
-      "isCorrect": null
+      "text": "Give laxatives only",
+      "isCorrect": false
     },
     {
       "key": "D",
-      "text": "Give analgesia and transfer to a paediatric surgery facility",
-      "isCorrect": null
+      "text": "Provide analgesia, keep fasting and arrange urgent transfer to paediatric surgery",
+      "isCorrect": true
     },
     {
       "key": "E",
-      "text": "Try to reduce the lump",
-      "isCorrect": null
+      "text": "Perform routine outpatient ultrasound before referral",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
+  "explanation": "An irreducible inguinal hernia is an urgent surgical problem. The child needs analgesia, fasting status and urgent transfer or consultation with paediatric surgery when local expertise is unavailable.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsconnect/prereferral_guidelines/Irreducible_inguinal_hernia_prereferral/",
+      "title": "Irreducible inguinal hernia - pre-referral"
+    },
+    {
+      "type": "external",
+      "source": "Royal Children's Hospital Melbourne",
+      "url": "https://www.rch.org.au/kidsinfo/fact_sheets/inguinal_hernia/",
+      "title": "Kids Health Info: Inguinal hernia"
+    }
+  ],
   "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-surgery"
+    "paediatric-surgery/hernia"
   ],
   "curriculum": "Paediatric Surgery",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:08.040Z",
   "sourceFingerprint": "a9ba797ce70f3357fb43f686",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "An irreducible inguinal hernia is an urgent surgical problem. The child needs analgesia, fasting status and urgent transfer or consultation with paediatric surgery when local expertise is unavailable.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "An irreducible inguinal hernia is an urgent surgical problem. The child needs analgesia, fasting status and urgent transfer or consultation with paediatric surgery when local expertise is unavailable.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:42.009Z",
@@ -59,6 +77,71 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "ace15d90d440e890e2de"
+    "stemHash": "ace15d90d440e890e2de",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.92,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Irreducible inguinal hernia - pre-referral",
+          "url": "https://www.rch.org.au/kidsconnect/prereferral_guidelines/Irreducible_inguinal_hernia_prereferral/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_guideline",
+          "supports": "Supports urgent management and transfer for irreducible inguinal hernia."
+        },
+        {
+          "title": "Kids Health Info: Inguinal hernia",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/inguinal_hernia/",
+          "organization": "Royal Children's Hospital Melbourne",
+          "sourceType": "australian_health",
+          "supports": "Supports clinical distinction of paediatric groin/scrotal swelling and hernia features."
+        }
+      ],
+      "preRepair": {
+        "stem": "Baby in the country, firm, red, tender lump in groin, not eating/drinking as much as normal, vomiting, some bowel changes. There is no paediatric surgeon in the town but he is coming tomorrow for a clinic. You have got IV access. What would you like to do next:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Give analgesia, make an appointment for paeds clinic tomorrow",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Give analgesia, refer to adult surgeons in the town",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Give fluids",
+            "isCorrect": null
+          },
+          {
+            "key": "D",
+            "text": "Give analgesia and transfer to a paediatric surgery facility",
+            "isCorrect": null
+          },
+          {
+            "key": "E",
+            "text": "Try to reduce the lump",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-surgery"
+        ],
+        "curriculum": "Paediatric Surgery",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

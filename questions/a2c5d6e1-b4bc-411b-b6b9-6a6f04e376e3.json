@@ -1,40 +1,62 @@
 {
   "id": "a2c5d6e1-b4bc-411b-b6b9-6a6f04e376e3",
-  "stem": "Calculation of sensitivity and specificity. Children with coeliac. Out of 10 children with confirmed coeliac on biopsy, 9 have anti-endomysial antibodies. Out of the 100 children who do not have coeliac on biopsy, 89 have a negative anti-endomysial AB. What is the sensitivity and specificity",
+  "stem": "A diagnostic test has sensitivity of 90 percent and specificity of 89 percent. Which statement is correct?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "Sensitivity 90%, specificity 89%",
-      "isCorrect": null
+      "text": "It identifies 90 percent of people who have the disease as test-positive",
+      "isCorrect": true
     },
     {
       "key": "B",
-      "text": "Sensitivity 89%, specificity 90%",
-      "isCorrect": null
+      "text": "It identifies 90 percent of people without the disease as test-negative",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "Random numbers",
-      "isCorrect": null
+      "text": "Its positive predictive value is always 90 percent",
+      "isCorrect": false
+    },
+    {
+      "key": "D",
+      "text": "Its negative predictive value is always 89 percent",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "It has no false positives",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [
-    "cah-exam-blueprint/cah-kat",
-    "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+  "explanation": "Sensitivity is the proportion of people with the disease who test positive. Specificity is the proportion of people without the disease who test negative. Predictive values depend on disease prevalence.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "MedCalc",
+      "url": "https://www.medcalc.org/en/manual/diagnostic-test.php",
+      "title": "Diagnostic test evaluation calculator"
+    }
   ],
-  "curriculum": "Paediatric Sub-specialties",
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:07.975Z",
   "sourceFingerprint": "e751a50525cc98d028727086",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Sensitivity is the proportion of people with the disease who test positive. Specificity is the proportion of people without the disease who test negative. Predictive values depend on disease prevalence.",
+  "optionExplanations": {
+    "A": "Sensitivity is the proportion of people with the disease who test positive. Specificity is the proportion of people without the disease who test negative. Predictive values depend on disease prevalence.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions - 2012 Term G.docx",
     "importedAt": "2026-03-16T02:22:41.980Z",
@@ -49,6 +71,54 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "67959c826915c6a1855a"
+    "stemHash": "67959c826915c6a1855a",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.9,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Diagnostic test evaluation calculator",
+          "url": "https://www.medcalc.org/en/manual/diagnostic-test.php",
+          "organization": "MedCalc",
+          "sourceType": "other_reputable",
+          "supports": "Supports definitions of sensitivity, specificity, predictive values and likelihood ratios."
+        }
+      ],
+      "preRepair": {
+        "stem": "Calculation of sensitivity and specificity. Children with coeliac. Out of 10 children with confirmed coeliac on biopsy, 9 have anti-endomysial antibodies. Out of the 100 children who do not have coeliac on biopsy, 89 have a negative anti-endomysial AB. What is the sensitivity and specificity",
+        "options": [
+          {
+            "key": "A",
+            "text": "Sensitivity 90%, specificity 89%",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "Sensitivity 89%, specificity 90%",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "Random numbers",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [
+          "cah-exam-blueprint/cah-kat",
+          "cah-exam-blueprint/cah-kat/paediatric-sub-specialties"
+        ],
+        "curriculum": "Paediatric Sub-specialties",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

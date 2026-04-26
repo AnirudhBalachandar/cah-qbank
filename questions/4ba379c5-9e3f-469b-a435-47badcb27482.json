@@ -1,37 +1,62 @@
 {
   "id": "4ba379c5-9e3f-469b-a435-47badcb27482",
-  "stem": "Question was either... what’s the percentage who test positive for the disease who actually have the disease (PPV)? OR was what’s the probability that the pt will have a +ve test result if they have the disease (sensitivity)?",
+  "stem": "Which diagnostic-test measure is the probability that a person with a positive test result truly has the disease?",
   "questionType": "SBA",
   "options": [
     {
       "key": "A",
-      "text": "sensitivity",
-      "isCorrect": null
+      "text": "Sensitivity",
+      "isCorrect": false
     },
     {
       "key": "B",
-      "text": "specificity",
-      "isCorrect": null
+      "text": "Specificity",
+      "isCorrect": false
     },
     {
       "key": "C",
-      "text": "positive predictive value",
-      "isCorrect": null
+      "text": "Positive predictive value",
+      "isCorrect": true
+    },
+    {
+      "key": "D",
+      "text": "Negative predictive value",
+      "isCorrect": false
+    },
+    {
+      "key": "E",
+      "text": "Positive likelihood ratio",
+      "isCorrect": false
     }
   ],
-  "explanation": null,
-  "citations": [],
-  "tags": [],
-  "curriculum": "Unclassified",
+  "explanation": "Positive predictive value is the probability that disease is present given a positive test result. Sensitivity is the probability of a positive result when disease is present.",
+  "citations": [
+    {
+      "type": "external",
+      "source": "MedCalc",
+      "url": "https://www.medcalc.org/en/manual/diagnostic-test.php",
+      "title": "Diagnostic test evaluation calculator"
+    }
+  ],
+  "tags": [
+    "community-based-paediatrics/evidence-based-medicine"
+  ],
+  "curriculum": "Community-based Paediatrics",
   "status": "published",
   "createdBy": "import",
   "createdAt": "2026-03-16T02:10:06.326Z",
   "sourceFingerprint": "dd9eb8deec22b79d63435fea",
-  "rationale": null,
-  "optionExplanations": {},
+  "rationale": "Positive predictive value is the probability that disease is present given a positive test result. Sensitivity is the probability of a positive result when disease is present.",
+  "optionExplanations": {
+    "A": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "B": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "C": "Positive predictive value is the probability that disease is present given a positive test result. Sensitivity is the probability of a positive result when disease is present.",
+    "D": "This option does not best match the clinical features or evidence point asked in the stem.",
+    "E": "This option does not best match the clinical features or evidence point asked in the stem."
+  },
   "moduleCode": "CAH 00",
-  "difficulty": null,
-  "ausScore": null,
+  "difficulty": "Intermediate",
+  "ausScore": 3,
   "source": {
     "file": "import_source/questions/Stage 3 HMD Notes + Questions/Old exam questions/Stage 3 - Past Papers/cah/MCQs/Stage 3 CAH - Remembered Questions (with Answers) - 2011 Term D.docx",
     "importedAt": "2026-03-16T02:22:41.091Z",
@@ -46,6 +71,51 @@
     "parseNotes": [
       "html-fallback"
     ],
-    "stemHash": "ac590bccd01697d0e540"
+    "stemHash": "ac590bccd01697d0e540",
+    "answerRecovery": {
+      "status": "repaired",
+      "method": "rewritten_to_complete_sba",
+      "confidence": 0.93,
+      "repairedAt": "2026-04-25T00:00:00.000Z",
+      "model": "gpt-5.5-pro",
+      "evidenceSources": [
+        {
+          "title": "Diagnostic test evaluation calculator",
+          "url": "https://www.medcalc.org/en/manual/diagnostic-test.php",
+          "organization": "MedCalc",
+          "sourceType": "other_reputable",
+          "supports": "Supports definitions of sensitivity, specificity, predictive values and likelihood ratios."
+        }
+      ],
+      "preRepair": {
+        "stem": "Question was either... what’s the percentage who test positive for the disease who actually have the disease (PPV)? OR was what’s the probability that the pt will have a +ve test result if they have the disease (sensitivity)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "sensitivity",
+            "isCorrect": null
+          },
+          {
+            "key": "B",
+            "text": "specificity",
+            "isCorrect": null
+          },
+          {
+            "key": "C",
+            "text": "positive predictive value",
+            "isCorrect": null
+          }
+        ],
+        "explanation": null,
+        "citations": [],
+        "tags": [],
+        "curriculum": "Unclassified",
+        "rationale": null,
+        "optionExplanations": {},
+        "difficulty": null,
+        "ausScore": null
+      },
+      "notes": "Repaired into a complete single-best-answer question using online clinical sources."
+    }
   }
 }

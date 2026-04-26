@@ -3,6 +3,10 @@ import SwiftUI
 struct ProgressView: View {
     @ObservedObject var model: AppViewModel
 
+    private let metricColumns = [
+        GridItem(.adaptive(minimum: 170), spacing: 12, alignment: .top),
+    ]
+
     private var attemptedRows: [ProgressRow] {
         model.progressRows.filter { $0.attemptCount > 0 }
     }
@@ -17,11 +21,10 @@ struct ProgressView: View {
                 header
                 metrics
 
-                HStack(alignment: .top, spacing: 18) {
-                    performancePanel
-                    reviewPanel
-                        .frame(width: 340)
+                GeometryReader { proxy in
+                    progressPanels(width: proxy.size.width)
                 }
+                .frame(maxWidth: .infinity, minHeight: 420)
             }
             .padding(24)
         }
@@ -46,11 +49,31 @@ struct ProgressView: View {
     }
 
     private var metrics: some View {
-        HStack(spacing: 14) {
+        LazyVGrid(columns: metricColumns, spacing: 12) {
             NativeMetricCard(title: "Accuracy", value: percent(model.dashboard?.accuracyPercent ?? 0), detail: "All recorded attempts")
             NativeMetricCard(title: "Questions", value: "\(model.dashboard?.answerableCount ?? 0)", detail: "Practice-ready")
             NativeMetricCard(title: "Streak", value: "\(model.dashboard?.currentStreak ?? 0)", detail: "Current correct streak")
             NativeMetricCard(title: "Flagged", value: "\(model.dashboard?.flaggedCount ?? 0)", detail: "Marked for review")
+        }
+    }
+
+    @ViewBuilder
+    private func progressPanels(width: CGFloat) -> some View {
+        if width >= 860 {
+            HStack(alignment: .top, spacing: 16) {
+                performancePanel
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                reviewPanel
+                    .frame(width: min(max(width * 0.3, 280), 360))
+                    .frame(maxHeight: .infinity)
+            }
+        } else {
+            VStack(alignment: .leading, spacing: 16) {
+                performancePanel
+                    .frame(minHeight: 360)
+                reviewPanel
+                    .frame(minHeight: 260)
+            }
         }
     }
 
@@ -67,13 +90,18 @@ struct ProgressView: View {
                             .foregroundStyle(.secondary)
                     }
 
-                    if model.progressRows.isEmpty {
-                        ContentUnavailableView("No Progress Yet", systemImage: "chart.line.downtrend.xyaxis", description: Text("Answer a few practice questions to start building mastery history."))
-                    } else {
-                        ForEach(model.progressRows.prefix(26)) { row in
-                            NativeProgressRow(row: row)
+                    ScrollView {
+                        if model.progressRows.isEmpty {
+                            ContentUnavailableView("No Progress Yet", systemImage: "chart.line.downtrend.xyaxis", description: Text("Answer a few practice questions to start building mastery history."))
+                        } else {
+                            LazyVStack(alignment: .leading, spacing: 10) {
+                                ForEach(model.progressRows.prefix(40)) { row in
+                                    NativeProgressRow(row: row)
+                                }
+                            }
                         }
                     }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
                 .padding(4)
             }
@@ -92,31 +120,36 @@ struct ProgressView: View {
                             .font(.callout)
                             .foregroundStyle(.secondary)
                     } else {
-                        ForEach(weakestRows) { row in
-                            Button {
-                                model.practiceTagID = row.slug
-                                model.selectSection(.practice)
-                            } label: {
-                                HStack {
-                                    Text("\(accuracy(row))%")
-                                        .font(.caption.bold())
-                                        .foregroundStyle(.red)
-                                        .padding(.horizontal, 8)
-                                        .padding(.vertical, 5)
-                                        .background(.red.opacity(0.1), in: RoundedRectangle(cornerRadius: 6, style: .continuous))
-                                    Text(row.name)
-                                        .font(.callout.weight(.semibold))
-                                        .lineLimit(1)
-                                    Spacer()
-                                    Text("Practice")
-                                        .font(.caption.weight(.semibold))
-                                        .foregroundStyle(.blue)
+                        ScrollView {
+                            VStack(alignment: .leading, spacing: 10) {
+                                ForEach(weakestRows) { row in
+                                    Button {
+                                        model.selectSinglePracticeTag(row.slug)
+                                        model.selectSection(.practice)
+                                    } label: {
+                                        HStack {
+                                            Text("\(accuracy(row))%")
+                                                .font(.caption.bold())
+                                                .foregroundStyle(.red)
+                                                .padding(.horizontal, 8)
+                                                .padding(.vertical, 5)
+                                                .background(.red.opacity(0.1), in: RoundedRectangle(cornerRadius: 6, style: .continuous))
+                                            Text(row.name)
+                                                .font(.callout.weight(.semibold))
+                                                .lineLimit(1)
+                                            Spacer()
+                                            Text("Practice")
+                                                .font(.caption.weight(.semibold))
+                                                .foregroundStyle(.blue)
+                                        }
+                                        .padding(10)
+                                        .background(Color(nsColor: .textBackgroundColor), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                                    }
+                                    .buttonStyle(.plain)
                                 }
-                                .padding(10)
-                                .background(Color(nsColor: .textBackgroundColor), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
                             }
-                            .buttonStyle(.plain)
                         }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
                     }
                 }
                 .padding(4)

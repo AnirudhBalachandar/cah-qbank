@@ -32,6 +32,8 @@ final class AppViewModel: ObservableObject {
         case browse
         case practice
         case progress
+        case notebook
+        case profile
 
         var id: String { rawValue }
     }
@@ -41,6 +43,7 @@ final class AppViewModel: ObservableObject {
     @Published var browseSnapshot = BrowseSnapshot(page: 1, total: 0, pageCount: 1, questions: [], tagOptions: [])
     @Published var progressRows: [ProgressRow] = []
     @Published var practiceTags: [PracticeTagSummary] = []
+    @Published var practiceBlueprint: [PracticeBlueprintNode] = []
     @Published var selectedQuestion: QBankQuestion?
     @Published var selectedQuestionID: String?
     @Published var activeSession: SessionSnapshot?
@@ -53,12 +56,19 @@ final class AppViewModel: ObservableObject {
     @Published var browseSearch = ""
     @Published var browseCurriculum = ""
     @Published var browseTag = ""
-    @Published var practiceTagID = ""
+    @Published var practiceTagID = "" {
+        didSet {
+            guard !isReconcilingPracticeSelection, practiceTagID != oldValue else { return }
+            replacePracticeSelection(with: practiceTagID.isEmpty ? [] : [practiceTagID])
+        }
+    }
+    @Published var selectedPracticeTagIDs: Set<String> = []
     @Published var practiceQuestionCount = 20
 
     private let userDefaults: UserDefaults
     private let serviceProvider: QBankServiceProviding
     private var service: QBankService?
+    private var isReconcilingPracticeSelection = false
     private var bootstrapped = false
     private var loadingOperationCount = 0 {
         didSet { isLoading = loadingOperationCount > 0 }
@@ -123,12 +133,56 @@ final class AppViewModel: ObservableObject {
         return "Local question library not loaded"
     }
 
+    var selectedPracticeQuestionCount: Int {
+        guard !selectedPracticeTagIDs.isEmpty else {
+            return dashboard?.answerableCount ?? 0
+        }
+        return uniqueQuestionIDs(for: selectedPracticeTagIDs).count
+    }
+
+    var practiceSelectionSummary: String {
+        guard !selectedPracticeTagIDs.isEmpty else {
+            let count = dashboard?.answerableCount ?? 0
+            return count > 0 ? "All answerable questions (\(count))" : "All answerable questions"
+        }
+
+        let count = selectedPracticeQuestionCount
+        if selectedPracticeTagIDs.count == 1,
+           let slug = selectedPracticeTagIDs.first,
+           let node = practiceBlueprintNode(slug: slug) {
+            return "\(node.name) (\(count))"
+        }
+        return "\(selectedPracticeTagIDs.count) blueprint scopes · \(count) unique questions"
+    }
+
     func selectSection(_ section: NavigationSection) {
         selection = section
     }
 
     func clearError() {
         errorMessage = nil
+    }
+
+    func isPracticeTagSelected(_ slug: String) -> Bool {
+        selectedPracticeTagIDs.contains(slug)
+    }
+
+    func togglePracticeTagSelection(_ slug: String) {
+        var nextSelection = selectedPracticeTagIDs
+        if nextSelection.contains(slug) {
+            nextSelection.remove(slug)
+        } else {
+            nextSelection.insert(slug)
+        }
+        replacePracticeSelection(with: nextSelection)
+    }
+
+    func selectSinglePracticeTag(_ slug: String) {
+        replacePracticeSelection(with: slug.isEmpty ? [] : [slug])
+    }
+
+    func clearPracticeSelection() {
+        replacePracticeSelection(with: [])
     }
 
     func setPreferredRepoRoot(_ url: URL) async {
@@ -214,8 +268,9 @@ final class AppViewModel: ObservableObject {
         beginLoading()
         defer { endLoading() }
         do {
+            let selectedTagIDs = Array(selectedPracticeTagIDs).sorted()
             let sessionID = try await service.startSession(
-                tagID: practiceTagID.isEmpty ? nil : practiceTagID,
+                tagIDs: selectedTagIDs,
                 questionCount: practiceQuestionCount
             )
             activeSession = try await service.fetchSession(id: sessionID)
@@ -329,6 +384,7 @@ final class AppViewModel: ObservableObject {
             let report = try await service.syncIfNeeded(force: forceSync)
             let dashboard = try await service.fetchDashboard()
             let practiceTags = try await service.fetchPracticeTags()
+            let practiceBlueprint = try await service.fetchPracticeBlueprint()
             let progressRows = try await service.fetchProgress()
             let browseSnapshot = try await fetchBrowseSnapshot(using: service, page: preferredBrowsePage)
             let refreshedSession: SessionSnapshot?
@@ -349,6 +405,8 @@ final class AppViewModel: ObservableObject {
             repoRootPath = resolvedRepoRootPath
             self.dashboard = dashboard
             self.practiceTags = practiceTags
+            self.practiceBlueprint = practiceBlueprint
+            reconcilePracticeSelectionWithAvailableTags()
             self.progressRows = progressRows
             self.activeSession = refreshedSession
             let selectedQuestionWasCleared = applyBrowseState(
@@ -493,6 +551,8 @@ final class AppViewModel: ObservableObject {
         browseSnapshot = Self.emptyBrowseSnapshot
         progressRows = []
         practiceTags = []
+        practiceBlueprint = []
+        clearPracticeSelection()
         selectedQuestion = nil
         selectedQuestionID = nil
         activeSession = nil
@@ -518,6 +578,40 @@ final class AppViewModel: ObservableObject {
 
     private func makeLibraryFailureMessage() -> String {
         "Unable to load the local question library"
+    }
+
+    private func replacePracticeSelection<S: Sequence>(with slugs: S) where S.Element == String {
+        let normalized = Set(slugs.map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }.filter { !$0.isEmpty })
+        isReconcilingPracticeSelection = true
+        selectedPracticeTagIDs = normalized
+        practiceTagID = normalized.sorted().first ?? ""
+        isReconcilingPracticeSelection = false
+    }
+
+    private func reconcilePracticeSelectionWithAvailableTags() {
+        let availableSlugs = Set(practiceTags.map(\.slug)).union(Set(flattenPracticeBlueprint().map(\.slug)))
+        guard !availableSlugs.isEmpty else { return }
+        let retainedSelection = selectedPracticeTagIDs.intersection(availableSlugs)
+        if retainedSelection != selectedPracticeTagIDs {
+            replacePracticeSelection(with: retainedSelection)
+        }
+    }
+
+    private func flattenPracticeBlueprint() -> [PracticeBlueprintNode] {
+        func collect(_ node: PracticeBlueprintNode) -> [PracticeBlueprintNode] {
+            [node] + node.children.flatMap(collect)
+        }
+        return practiceBlueprint.flatMap(collect)
+    }
+
+    private func practiceBlueprintNode(slug: String) -> PracticeBlueprintNode? {
+        flattenPracticeBlueprint().first { $0.slug == slug }
+    }
+
+    private func uniqueQuestionIDs(for slugs: Set<String>) -> Set<String> {
+        Set(flattenPracticeBlueprint()
+            .filter { slugs.contains($0.slug) }
+            .flatMap(\.questionIDs))
     }
 
     private func replaceQuestion(_ question: QBankQuestion) {

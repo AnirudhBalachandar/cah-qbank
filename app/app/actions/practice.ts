@@ -12,10 +12,20 @@ import {
 } from "@/lib/qbank"
 
 export async function startSessionAction(formData: FormData) {
-  const tagId = String(formData.get("tagId") ?? "").trim() || null
+  const legacyTagId = String(formData.get("tagId") ?? "").trim()
+  const tagIds = Array.from(
+    new Set(
+      formData
+        .getAll("tagIds")
+        .map((value) => String(value).trim())
+        .concat(legacyTagId)
+        .filter(Boolean),
+    ),
+  )
   const questionId = String(formData.get("questionId") ?? "").trim() || null
   const questionCount = Number(formData.get("questionCount") ?? 20)
-  const sessionId = await startPracticeSession({ tagId, questionCount, questionId })
+  const reviewMode = String(formData.get("reviewMode") ?? "all").trim()
+  const sessionId = await startPracticeSession({ tagIds, questionCount, questionId, reviewMode })
 
   if (!sessionId) {
     redirect("/practice/new?error=no-questions")

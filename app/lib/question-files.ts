@@ -3,6 +3,13 @@ import path from "node:path"
 
 import { Question, findCurriculumByLabel, humanizeTagSlug, normalizeTagSlug, questionSchema } from "@cah/domain"
 
+import {
+  blueprintSlugsForQuestion,
+  blueprintTagDescriptors,
+  isBlueprintSlug,
+  isNoisyLearnerTagSlug,
+} from "./cah-kat-blueprint"
+
 const repoRoot = path.resolve(process.cwd(), "..")
 const questionsDir = path.join(repoRoot, "questions")
 const draftsDir = path.join(repoRoot, "drafts")
@@ -80,7 +87,7 @@ export function projectLearnerTagSlug(rawTag: string) {
   if (!slug) {
     return null
   }
-  if (hiddenLearnerFacingTags.has(slug)) {
+  if (hiddenLearnerFacingTags.has(slug) || isNoisyLearnerTagSlug(slug)) {
     return null
   }
 
@@ -95,7 +102,10 @@ export function projectLearnerTagSlug(rawTag: string) {
   return slug
 }
 
-export function projectLearnerTagSlugs(question: Pick<Question, "curriculum" | "tags">) {
+export function projectLearnerTagSlugs(
+  question: Pick<Question, "curriculum" | "tags"> &
+    Partial<Pick<Question, "stem" | "explanation" | "rationale" | "moduleCode" | "source">>,
+) {
   const slugs = new Set<string>()
   const curriculumSlug = curriculumSlugFor(question.curriculum)
 
@@ -109,6 +119,20 @@ export function projectLearnerTagSlugs(question: Pick<Question, "curriculum" | "
       continue
     }
     slugs.add(projected)
+  }
+
+  if (question.stem) {
+    for (const blueprintSlug of blueprintSlugsForQuestion({
+      curriculum: question.curriculum,
+      tags: question.tags,
+      stem: question.stem,
+      explanation: question.explanation ?? null,
+      rationale: question.rationale ?? null,
+      moduleCode: question.moduleCode ?? null,
+      source: question.source ?? {},
+    })) {
+      slugs.add(blueprintSlug)
+    }
   }
 
   return Array.from(slugs).sort((left, right) => left.localeCompare(right))
@@ -129,8 +153,15 @@ function inferTagKind(slug: string): TagDescriptor["kind"] {
 export function collectTagDescriptors(questions: Question[]) {
   const descriptors = new Map<string, TagDescriptor>()
 
+  for (const descriptor of blueprintTagDescriptors()) {
+    descriptors.set(descriptor.slug, descriptor)
+  }
+
   for (const question of questions) {
     for (const slug of projectLearnerTagSlugs(question)) {
+      if (isNoisyLearnerTagSlug(slug)) {
+        continue
+      }
       const parts = slug.split("/").filter(Boolean)
       for (let index = 0; index < parts.length; index += 1) {
         const currentSlug = parts.slice(0, index + 1).join("/")
@@ -139,7 +170,7 @@ export function collectTagDescriptors(questions: Question[]) {
         descriptors.set(currentSlug, {
           slug: currentSlug,
           name: humanizeTagSlug(currentSlug),
-          kind: inferTagKind(currentSlug),
+          kind: isBlueprintSlug(currentSlug) ? inferTagKind(currentSlug) : inferTagKind(currentSlug),
           parentSlug: index === 0 ? null : parts.slice(0, index).join("/"),
         })
       }

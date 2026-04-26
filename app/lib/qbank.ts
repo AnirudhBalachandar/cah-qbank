@@ -1,11 +1,13 @@
 import { Prisma, PrismaClient, PracticeMode, TagKind } from "@prisma/client"
 
+import { blueprintCategories, isNoisyLearnerTagSlug } from "./cah-kat-blueprint"
 import { BASE_RATING, updateEloRating } from "./elo"
 import { prisma as defaultPrisma } from "./prisma"
 
 type DB = PrismaClient | Prisma.TransactionClient
 
 const DEFAULT_QUESTION_COUNT = 20
+const MAX_PRACTICE_QUESTION_COUNT = 500
 const DEFAULT_RECENT_SESSION_LIMIT = 6
 const QUESTION_PAGE_SIZE = 30
 const MAX_QUESTION_PAGE_SIZE = 50
@@ -43,6 +45,7 @@ type DashboardAttempt = Prisma.AttemptGetPayload<{
 
 export type QuestionSortField = "createdAt" | "stem" | "curriculum" | "difficulty" | "score" | "attempts"
 export type SortDirection = "asc" | "desc"
+export type PracticeReviewMode = "all" | "new" | "incorrect"
 
 export type QuestionRecord = {
   id: string
@@ -141,6 +144,20 @@ export type DashboardData = {
   sessionsBarData: DashboardSessionBarPoint[]
 }
 
+export type PracticeBlueprintNode = {
+  slug: string
+  name: string
+  kind: TagKind
+  questionCount: number
+  questionIds: string[]
+  newQuestionIds: string[]
+  incorrectQuestionIds: string[]
+  elo: number
+  examQuestionCount: number | null
+  examPercent: number | null
+  children: PracticeBlueprintNode[]
+}
+
 function clamp(value: number, min: number, max: number) {
   return Math.min(Math.max(value, min), max)
 }
@@ -194,6 +211,10 @@ function normalizeQuestionListInput(input: QuestionListInput = {}) {
   }
 }
 
+function normalizePracticeReviewMode(value: string | null | undefined): PracticeReviewMode {
+  return value === "new" || value === "incorrect" ? value : "all"
+}
+
 function getCorrectOptionKey(question: Pick<DbQuestion, "options">) {
   const options = question.options as Array<{ key: string; isCorrect: boolean | null }>
   const correct = options.find((option) => option.isCorrect === true)
@@ -220,11 +241,13 @@ function mapQuestion(question: DbQuestion): QuestionRecord {
     source: question.source as Record<string, unknown>,
     isAnswerable: question.isAnswerable,
     correctKey: getCorrectOptionKey(question),
-    tags: question.tags.map((entry) => ({
-      slug: entry.tag.slug,
-      name: entry.tag.name,
-      kind: entry.tag.kind,
-    })),
+    tags: question.tags
+      .filter((entry) => !isNoisyLearnerTagSlug(entry.tag.slug))
+      .map((entry) => ({
+        slug: entry.tag.slug,
+        name: entry.tag.name,
+        kind: entry.tag.kind,
+      })),
     flagged: Boolean(question.flag),
     noteMarkdown: question.note?.noteMarkdown ?? "",
     attemptCount: question.attempts.length,
@@ -509,15 +532,115 @@ export async function listPracticeTags(db: DB = defaultPrisma) {
     orderBy: [{ kind: "asc" }, { name: "asc" }],
   })
 
-  return tags.map((tag) => ({
-    slug: tag.slug,
-    name: tag.name,
-    kind: tag.kind,
-    questionCount: tag.questions.filter(
-      (entry) => entry.question.status === "published" && entry.question.isAnswerable,
-    ).length,
-    elo: tag.mastery?.elo ?? BASE_RATING,
-  }))
+  return tags
+    .filter((tag) => !isNoisyLearnerTagSlug(tag.slug))
+    .map((tag) => ({
+      slug: tag.slug,
+      name: tag.name,
+      kind: tag.kind,
+      questionCount: tag.questions.filter(
+        (entry) => entry.question.status === "published" && entry.question.isAnswerable,
+      ).length,
+      elo: tag.mastery?.elo ?? BASE_RATING,
+    }))
+}
+
+export async function listPracticeBlueprint(db: DB = defaultPrisma): Promise<PracticeBlueprintNode[]> {
+  const tags = await db.tag.findMany({
+    where: {
+      slug: {
+        in: blueprintCategories.flatMap((category) => [
+          category.slug,
+          ...category.subtopics.map((topic) => topic.slug),
+        ]),
+      },
+    },
+    include: {
+      mastery: true,
+      questions: {
+        include: {
+          question: {
+            select: {
+              id: true,
+              isAnswerable: true,
+              status: true,
+              attempts: {
+                select: {
+                  isCorrect: true,
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+
+  const tagBySlug = new Map(tags.map((tag) => [tag.slug, tag]))
+  const nodeFor = (
+    slug: string,
+    name: string,
+    kind: TagKind,
+    examQuestionCount: number | null,
+    examPercent: number | null,
+    children: PracticeBlueprintNode[] = [],
+  ): PracticeBlueprintNode => {
+    const tag = tagBySlug.get(slug)
+    const questionIds =
+      tag?.questions
+        .filter((entry) => entry.question.status === "published" && entry.question.isAnswerable)
+        .map((entry) => entry.question.id)
+        .sort((left, right) => left.localeCompare(right)) ?? []
+    const newQuestionIds =
+      tag?.questions
+        .filter(
+          (entry) =>
+            entry.question.status === "published" &&
+            entry.question.isAnswerable &&
+            entry.question.attempts.length === 0,
+        )
+        .map((entry) => entry.question.id)
+        .sort((left, right) => left.localeCompare(right)) ?? []
+    const incorrectQuestionIds =
+      tag?.questions
+        .filter(
+          (entry) =>
+            entry.question.status === "published" &&
+            entry.question.isAnswerable &&
+            entry.question.attempts.some((attempt) => !attempt.isCorrect),
+        )
+        .map((entry) => entry.question.id)
+        .sort((left, right) => left.localeCompare(right)) ?? []
+
+    return {
+      slug,
+      name,
+      kind,
+      questionCount: questionIds.length,
+      questionIds,
+      newQuestionIds,
+      incorrectQuestionIds,
+      elo: tag?.mastery?.elo ?? BASE_RATING,
+      examQuestionCount,
+      examPercent,
+      children,
+    }
+  }
+
+  return blueprintCategories.map((category) => {
+    const children = category.subtopics
+      .map((topic) => nodeFor(topic.slug, topic.name, TagKind.topic, null, null))
+      .filter((node) => node.questionCount > 0)
+
+    return nodeFor(
+      category.slug,
+      category.name,
+      TagKind.curriculum,
+      category.examQuestionCount,
+      category.examPercent,
+      children,
+    )
+  })
 }
 
 async function listBrowseTags(db: DB = defaultPrisma) {
@@ -617,30 +740,45 @@ export async function getDashboardData(db: DB = defaultPrisma): Promise<Dashboar
 }
 
 export async function startPracticeSession(
-  input: { tagId?: string | null; questionCount?: number; questionId?: string | null },
+  input: {
+    tagId?: string | null
+    tagIds?: string[] | null
+    questionCount?: number
+    questionId?: string | null
+    reviewMode?: PracticeReviewMode | string | null
+  },
   db: DB = defaultPrisma,
 ) {
-  const count = Math.max(1, Math.min(input.questionCount ?? DEFAULT_QUESTION_COUNT, 100))
+  const parsedQuestionCount = Number.isFinite(input.questionCount)
+    ? Math.trunc(input.questionCount ?? DEFAULT_QUESTION_COUNT)
+    : DEFAULT_QUESTION_COUNT
+  const count = Math.max(1, Math.min(parsedQuestionCount, MAX_PRACTICE_QUESTION_COUNT))
   const questionId = input.questionId?.trim() ?? ""
+  const reviewMode = questionId ? "all" : normalizePracticeReviewMode(input.reviewMode)
+  const tagIds = Array.from(
+    new Set([...(input.tagIds ?? []), input.tagId ?? ""].map((tagId) => tagId.trim()).filter(Boolean)),
+  ).sort((left, right) => left.localeCompare(right))
 
   const where: Prisma.QuestionWhereInput = {
     status: "published",
     isAnswerable: true,
-    ...(input.tagId
+    ...(tagIds.length > 0
       ? {
           tags: {
-            some: { tagId: input.tagId },
+            some: { tagId: { in: tagIds } },
           },
         }
       : {}),
     ...(questionId ? { id: questionId } : {}),
+    ...(!questionId && reviewMode === "new" ? { attempts: { none: {} } } : {}),
+    ...(!questionId && reviewMode === "incorrect" ? { attempts: { some: { isCorrect: false } } } : {}),
   }
 
   const [questions, currentMastery] = await Promise.all([
     db.question.findMany({
       where,
       include: questionWithRelations,
-      take: questionId ? 1 : 1500,
+      take: questionId ? 1 : 5000,
     }),
     masteryMap(db),
   ])
@@ -662,7 +800,7 @@ export async function startPracticeSession(
 
   const session = await db.practiceSession.create({
     data: {
-      mode: input.tagId || questionId ? PracticeMode.custom : PracticeMode.revision,
+      mode: tagIds.length > 0 || questionId || reviewMode !== "all" ? PracticeMode.custom : PracticeMode.revision,
       questionIds: orderedQuestions.map((question) => question.id),
     },
   })

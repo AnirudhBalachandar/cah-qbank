@@ -187,6 +187,20 @@ struct PracticeTagSummary: Identifiable, Equatable, Sendable {
     var id: String { slug }
 }
 
+struct PracticeBlueprintNode: Identifiable, Equatable, Sendable {
+    let slug: String
+    let name: String
+    let kind: TagKind
+    let questionCount: Int
+    let questionIDs: [String]
+    let elo: Double
+    let examQuestionCount: Int?
+    let examPercent: Double?
+    let children: [PracticeBlueprintNode]
+
+    var id: String { slug }
+}
+
 struct WeakTagSnapshot: Identifiable, Equatable, Sendable {
     let slug: String
     let name: String

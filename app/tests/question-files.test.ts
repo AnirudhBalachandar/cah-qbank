@@ -47,6 +47,7 @@ describe("question file tag descriptors", () => {
         "cah-exam-blueprint/cah-kat/paediatric-sub-specialties",
         "cah-exam-blueprint/cah-kat/paediatric-sub-specialties/respiratory",
         "notebooklm",
+        "combined-import/import-set/combined-canvas-notebooklm-v1",
       ],
       curriculum: "Paediatric Sub-specialties",
     })
@@ -71,6 +72,20 @@ describe("question file tag descriptors", () => {
       ]),
     )
     expect(descriptors.some((descriptor) => descriptor.slug.includes("cah-exam-blueprint"))).toBe(false)
+    expect(descriptors.some((descriptor) => descriptor.slug.includes("combined-import"))).toBe(false)
     expect(descriptors.some((descriptor) => descriptor.kind === "meta")).toBe(false)
+  })
+
+  it("derives conservative blueprint subtopics from question text", () => {
+    const question = makeQuestion({
+      curriculum: "General Paediatrics",
+      tags: ["notebooklm"],
+      stem: "A child is assessed for faltering growth and feeding requirements.",
+    })
+
+    expect(projectLearnerTagSlugs(question)).toEqual([
+      "general-paediatrics",
+      "general-paediatrics/growth-and-nutrition",
+    ])
   })
 })

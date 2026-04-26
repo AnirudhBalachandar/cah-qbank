@@ -8,6 +8,7 @@ import {
   getQuestionListCsv,
   getQuestionListData,
   getSession,
+  listPracticeBlueprint,
   listPracticeTags,
   startPracticeSession,
   toggleFlag,
@@ -189,8 +190,9 @@ describe("practice service", () => {
       tags: [
         { slug: "general-paediatrics", name: "General Paediatrics" },
         { slug: "respiratory", name: "Respiratory", kind: "topic" as const },
+        { slug: "combined-import/import-set/noisy", name: "Noisy", kind: "topic" as const },
       ],
-      questions: [{ id: "q1", stem: "Question 1", tagSlugs: ["general-paediatrics", "respiratory"] }],
+      questions: [{ id: "q1", stem: "Question 1", tagSlugs: ["general-paediatrics", "respiratory", "combined-import/import-set/noisy"] }],
     })
 
     const practiceTags = await listPracticeTags(testDb.prisma)
@@ -200,6 +202,143 @@ describe("practice service", () => {
     expect(practiceTags.map((tag) => tag.slug)).toEqual(["general-paediatrics", "respiratory"])
     expect(browse.tagOptions.map((tag) => tag.slug)).toEqual(["respiratory"])
     expect(detail?.tags.map((tag) => tag.slug)).toEqual(["general-paediatrics", "respiratory"])
+  })
+
+  it("builds an ordered blueprint tree with question counts", async () => {
+    const testDb = await createTestDb()
+    cleanup = testDb.cleanup
+
+    await seedQuestionSet(testDb.prisma, {
+      tags: [
+        { slug: "general-paediatrics", name: "General Paediatrics" },
+        { slug: "general-paediatrics/growth-and-nutrition", name: "Growth and Nutrition", kind: "topic" as const },
+        { slug: "paediatric-sub-specialties", name: "Paediatric Sub-specialties" },
+      ],
+      questions: [
+        { id: "q1", stem: "Growth", tagSlugs: ["general-paediatrics", "general-paediatrics/growth-and-nutrition"] },
+        { id: "q2", stem: "Specialty", tagSlugs: ["paediatric-sub-specialties"] },
+      ],
+    })
+
+    const blueprint = await listPracticeBlueprint(testDb.prisma)
+
+    expect(blueprint.map((node) => node.slug)).toEqual([
+      "general-paediatrics",
+      "paediatric-sub-specialties",
+      "paediatric-surgery",
+      "emergency-paediatrics",
+      "adolescent-medicine",
+      "community-based-paediatrics",
+    ])
+    expect(blueprint[0]?.examQuestionCount).toBe(16)
+    expect(blueprint[0]?.questionCount).toBe(1)
+    expect(blueprint[0]?.newQuestionIds).toEqual(["q1"])
+    expect(blueprint[0]?.incorrectQuestionIds).toEqual([])
+    expect(blueprint[0]?.children.map((node) => node.slug)).toEqual([
+      "general-paediatrics/growth-and-nutrition",
+    ])
+  })
+
+  it("filters practice sessions to new or previously incorrect questions within the selected tags", async () => {
+    const testDb = await createTestDb()
+    cleanup = testDb.cleanup
+
+    await seedQuestionSet(testDb.prisma, {
+      tags: [{ slug: "general-paediatrics", name: "General Paediatrics" }],
+      questions: [
+        { id: "q1", stem: "Correct before", tagSlugs: ["general-paediatrics"], correctKey: "A" },
+        { id: "q2", stem: "Incorrect before", tagSlugs: ["general-paediatrics"], correctKey: "B" },
+        { id: "q3", stem: "Mixed history", tagSlugs: ["general-paediatrics"], correctKey: "C" },
+        { id: "q4", stem: "New question", tagSlugs: ["general-paediatrics"], correctKey: "D" },
+      ],
+    })
+
+    await testDb.prisma.practiceSession.create({
+      data: {
+        id: "history-1",
+        mode: "revision",
+        questionIds: ["q1", "q2"],
+        attempts: {
+          create: [
+            { questionId: "q1", selectedKey: "A", isCorrect: true },
+            { questionId: "q2", selectedKey: "A", isCorrect: false },
+          ],
+        },
+      },
+    })
+    await testDb.prisma.practiceSession.create({
+      data: {
+        id: "history-2",
+        mode: "revision",
+        questionIds: ["q3"],
+        attempts: {
+          create: [{ questionId: "q3", selectedKey: "A", isCorrect: false }],
+        },
+      },
+    })
+    await testDb.prisma.practiceSession.create({
+      data: {
+        id: "history-3",
+        mode: "revision",
+        questionIds: ["q3"],
+        attempts: {
+          create: [{ questionId: "q3", selectedKey: "C", isCorrect: true }],
+        },
+      },
+    })
+
+    const newSessionId = await startPracticeSession(
+      { tagId: "general-paediatrics", questionCount: 10, reviewMode: "new" },
+      testDb.prisma,
+    )
+    const incorrectSessionId = await startPracticeSession(
+      { tagId: "general-paediatrics", questionCount: 10, reviewMode: "incorrect" },
+      testDb.prisma,
+    )
+
+    const newSession = await testDb.prisma.practiceSession.findUniqueOrThrow({
+      where: { id: newSessionId! },
+    })
+    const incorrectSession = await testDb.prisma.practiceSession.findUniqueOrThrow({
+      where: { id: incorrectSessionId! },
+    })
+
+    expect(newSession.mode).toBe("custom")
+    expect(newSession.questionIds).toEqual(["q4"])
+    expect(incorrectSession.mode).toBe("custom")
+    expect(incorrectSession.questionIds).toEqual(["q2", "q3"])
+  })
+
+  it("starts sessions from the union of multiple selected tags without duplicate questions", async () => {
+    const testDb = await createTestDb()
+    cleanup = testDb.cleanup
+
+    await seedQuestionSet(testDb.prisma, {
+      tags: [
+        { slug: "general-paediatrics/growth-and-nutrition", name: "Growth and Nutrition", kind: "topic" as const },
+        { slug: "general-paediatrics/child-development", name: "Child Development", kind: "topic" as const },
+      ],
+      questions: [
+        { id: "q1", stem: "Growth", tagSlugs: ["general-paediatrics/growth-and-nutrition"] },
+        { id: "q2", stem: "Development", tagSlugs: ["general-paediatrics/child-development"] },
+        { id: "q3", stem: "Both", tagSlugs: ["general-paediatrics/growth-and-nutrition", "general-paediatrics/child-development"] },
+      ],
+    })
+
+    const sessionId = await startPracticeSession(
+      {
+        tagIds: ["general-paediatrics/growth-and-nutrition", "general-paediatrics/child-development"],
+        questionCount: 10,
+      },
+      testDb.prisma,
+    )
+    expect(sessionId).toBeTruthy()
+
+    const session = await testDb.prisma.practiceSession.findUniqueOrThrow({
+      where: { id: sessionId! },
+    })
+    expect(session.mode).toBe("custom")
+    expect(session.questionIds).toEqual(["q1", "q2", "q3"])
   })
 
   it("builds dashboard analytics from live attempts, sessions, notes, and curriculum mastery", async () => {

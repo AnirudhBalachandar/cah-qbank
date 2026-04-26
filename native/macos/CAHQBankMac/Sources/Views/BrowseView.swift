@@ -14,16 +14,10 @@ struct BrowseView: View {
         VStack(alignment: .leading, spacing: 18) {
             header
 
-            HSplitView {
-                filterRail
-                    .frame(minWidth: 300, idealWidth: 330, maxWidth: 380)
-
-                questionList
-                    .frame(minWidth: 360, idealWidth: 430)
-
-                detailPane
-                    .frame(minWidth: 460)
+            GeometryReader { proxy in
+                browseWorkspace(width: proxy.size.width)
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .padding(24)
         .background(Color(nsColor: .controlBackgroundColor))
@@ -44,69 +38,146 @@ struct BrowseView: View {
         }
     }
 
+    @ViewBuilder
+    private func browseWorkspace(width: CGFloat) -> some View {
+        if width >= 1120 {
+            HStack(alignment: .top, spacing: 16) {
+                filterRail
+                    .frame(width: min(max(width * 0.24, 250), 310))
+
+                questionList
+                    .frame(width: min(max(width * 0.3, 300), 390))
+
+                detailPane
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        } else {
+            VStack(alignment: .leading, spacing: 14) {
+                compactFilterBar
+
+                if width >= 760 {
+                    HStack(alignment: .top, spacing: 16) {
+                        questionList
+                            .frame(width: min(max(width * 0.42, 300), 380))
+
+                        detailPane
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    }
+                } else {
+                    VStack(alignment: .leading, spacing: 14) {
+                        questionList
+                            .frame(minHeight: 300)
+                        detailPane
+                            .frame(minHeight: 360)
+                    }
+                }
+            }
+        }
+    }
+
     private var filterRail: some View {
         VStack(alignment: .leading, spacing: 14) {
             GroupBox {
-                VStack(alignment: .leading, spacing: 12) {
-                    TextField("Search question stems", text: $model.browseSearch)
-                        .textFieldStyle(.roundedBorder)
-                        .onSubmit {
-                            Task { await model.loadBrowse(page: 1) }
-                        }
-
-                    Picker("Curriculum", selection: $model.browseCurriculum) {
-                        Text("All curricula").tag("")
-                        ForEach(model.curriculumOptions, id: \.self) { curriculum in
-                            Text(curriculum).tag(curriculum)
-                        }
-                    }
-
-                    Picker("Topic", selection: $model.browseTag) {
-                        Text("All topics").tag("")
-                        ForEach(model.browseSnapshot.tagOptions) { tag in
-                            Text(tag.name).tag(tag.slug)
-                        }
-                    }
-
-                    HStack {
-                        Button("Apply") {
-                            Task { await model.loadBrowse(page: 1) }
-                        }
-                        .keyboardShortcut(.return, modifiers: [.command])
-
-                        Button("Clear") {
-                            model.browseSearch = ""
-                            model.browseCurriculum = ""
-                            model.browseTag = ""
-                            Task { await model.loadBrowse(page: 1) }
-                        }
-                        .disabled(model.browseSearch.isEmpty && model.browseCurriculum.isEmpty && model.browseTag.isEmpty)
-                    }
-                }
+                filterControls
                 .padding(4)
             } label: {
                 Label("Filters", systemImage: "line.3.horizontal.decrease.circle")
             }
 
             GroupBox {
-                VStack(alignment: .leading, spacing: 10) {
-                    ForEach(model.practiceTags.prefix(10)) { tag in
-                        Button {
-                            model.browseTag = tag.kind == .topic ? tag.slug : model.browseTag
-                            model.browseCurriculum = tag.kind == .curriculum ? tag.name : model.browseCurriculum
-                            Task { await model.loadBrowse(page: 1) }
-                        } label: {
-                            NativeTopicProgressRow(tag: tag)
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 10) {
+                        ForEach(model.practiceTags.prefix(24)) { tag in
+                            Button {
+                                model.browseTag = tag.kind == .topic ? tag.slug : model.browseTag
+                                model.browseCurriculum = tag.kind == .curriculum ? tag.name : model.browseCurriculum
+                                Task { await model.loadBrowse(page: 1) }
+                            } label: {
+                                NativeTopicProgressRow(tag: tag)
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
                     }
+                    .padding(4)
                 }
-                .padding(4)
             } label: {
                 Label("Coverage", systemImage: "chart.bar.doc.horizontal")
             }
 
             Spacer()
+        }
+    }
+
+    private var compactFilterBar: some View {
+        GroupBox {
+            ViewThatFits(in: .horizontal) {
+                HStack(alignment: .bottom, spacing: 12) {
+                    searchField
+                        .frame(minWidth: 220)
+                    curriculumPicker
+                        .frame(minWidth: 190)
+                    topicPicker
+                        .frame(minWidth: 220)
+                    filterButtons
+                }
+
+                filterControls
+            }
+            .padding(4)
+        } label: {
+            Label("Filters", systemImage: "line.3.horizontal.decrease.circle")
+        }
+    }
+
+    private var filterControls: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            searchField
+            curriculumPicker
+            topicPicker
+            filterButtons
+        }
+    }
+
+    private var searchField: some View {
+        TextField("Search question stems", text: $model.browseSearch)
+            .textFieldStyle(.roundedBorder)
+            .onSubmit {
+                Task { await model.loadBrowse(page: 1) }
+            }
+    }
+
+    private var curriculumPicker: some View {
+        Picker("Curriculum", selection: $model.browseCurriculum) {
+            Text("All curricula").tag("")
+            ForEach(model.curriculumOptions, id: \.self) { curriculum in
+                Text(curriculum).tag(curriculum)
+            }
+        }
+    }
+
+    private var topicPicker: some View {
+        Picker("Topic", selection: $model.browseTag) {
+            Text("All topics").tag("")
+            ForEach(model.browseSnapshot.tagOptions) { tag in
+                Text(tag.name).tag(tag.slug)
+            }
+        }
+    }
+
+    private var filterButtons: some View {
+        HStack {
+            Button("Apply") {
+                Task { await model.loadBrowse(page: 1) }
+            }
+            .keyboardShortcut(.return, modifiers: [.command])
+
+            Button("Clear") {
+                model.browseSearch = ""
+                model.browseCurriculum = ""
+                model.browseTag = ""
+                Task { await model.loadBrowse(page: 1) }
+            }
+            .disabled(model.browseSearch.isEmpty && model.browseCurriculum.isEmpty && model.browseTag.isEmpty)
         }
     }
 
@@ -148,6 +219,7 @@ struct BrowseView: View {
                 .disabled(model.browseSnapshot.page >= model.browseSnapshot.pageCount)
             }
         }
+        .frame(maxHeight: .infinity)
     }
 
     private var detailPane: some View {
@@ -169,6 +241,7 @@ struct BrowseView: View {
         }
         .padding(18)
         .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .frame(maxHeight: .infinity)
     }
 }
 

@@ -71,6 +71,10 @@ private enum iOSAppTab: String, CaseIterable, Identifiable {
             self = .practice
         case .progress:
             self = .progress
+        case .notebook:
+            self = .notebook
+        case .profile:
+            self = .profile
         }
     }
 
@@ -102,8 +106,10 @@ private enum iOSAppTab: String, CaseIterable, Identifiable {
             return .practice
         case .progress:
             return .progress
-        case .notebook, .profile:
-            return nil
+        case .notebook:
+            return .notebook
+        case .profile:
+            return .profile
         }
     }
 }
@@ -205,7 +211,7 @@ private struct iOSTodayView: View {
                     title: "Weak topics",
                     weakTags: dashboard.weakTags,
                     onSelect: { tag in
-                        model.practiceTagID = tag.slug
+                        model.selectSinglePracticeTag(tag.slug)
                         model.selectSection(.practice)
                     }
                 )
@@ -327,7 +333,7 @@ private struct iOSBrowseView: View {
                         iOSQuestionCard(question: question) {
                             Task {
                                 model.practiceQuestionCount = 1
-                                model.practiceTagID = ""
+                                model.clearPracticeSelection()
                                 await model.selectQuestion(id: question.id)
                                 await model.startPractice()
                             }
@@ -640,6 +646,7 @@ private struct iOSQuestionDetailView: View {
 
 private struct iOSPracticeView: View {
     @ObservedObject var model: AppViewModel
+    @State private var expandedSlugs: Set<String> = []
 
     var body: some View {
         List {
@@ -654,7 +661,7 @@ private struct iOSPracticeView: View {
                         .font(.headline)
                     Spacer()
                     Button("Reset") {
-                        model.practiceTagID = ""
+                        model.clearPracticeSelection()
                         model.practiceQuestionCount = 20
                     }
                     .font(.caption.weight(.semibold))
@@ -668,42 +675,16 @@ private struct iOSPracticeView: View {
             Section {
                 VStack(alignment: .leading, spacing: 12) {
                     iOSNumberedHeader(number: 1, title: "Choose your scope")
-                    ForEach(Array(model.practiceTags.prefix(4))) { tag in
-                        Button {
-                            model.practiceTagID = tag.slug
-                        } label: {
-                            iOSTopicSelectionRow(
-                                title: tag.name,
-                                detail: "\(tag.questionCount) questions",
-                                progress: min(max((tag.elo - 800) / 600, 0.08), 1),
-                                selected: model.practiceTagID == tag.slug
-                            )
-                        }
-                        .buttonStyle(.plain)
-                    }
-                    Button("Show more topics") {}
-                        .font(.caption.weight(.semibold))
+                    iOSPracticeBlueprintTree(model: model, expandedSlugs: $expandedSlugs)
                 }
             }
 
             Section {
                 VStack(alignment: .leading, spacing: 12) {
-                    iOSNumberedHeader(number: 2, title: "Choose session type")
-                    HStack(spacing: 0) {
-                        ForEach(["Revision", "Timed", "Incorrect", "Flagged"], id: \.self) { item in
-                            Text(item)
-                                .font(.caption.weight(.semibold))
-                                .frame(maxWidth: .infinity, minHeight: 38)
-                                .background(item == "Revision" ? Color.blue.opacity(0.12) : Color.clear)
-                                .foregroundStyle(item == "Revision" ? .blue : .primary)
-                                .overlay {
-                                    Rectangle()
-                                        .stroke(Color(.separator).opacity(0.5), lineWidth: 0.5)
-                                }
-                        }
-                    }
-                    .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
-                    Text("Study at your own pace and build knowledge.")
+                    iOSNumberedHeader(number: 2, title: "Session mode")
+                    Text("Adaptive revision")
+                        .font(.subheadline.weight(.semibold))
+                    Text("Selected blueprint scopes are combined, then unseen and lower-mastery questions are prioritised.")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
@@ -728,31 +709,6 @@ private struct iOSPracticeView: View {
                 }
             }
 
-            Section {
-                VStack(alignment: .leading, spacing: 12) {
-                    iOSNumberedHeader(number: 4, title: "Question selection")
-                    ForEach([
-                        ("New questions only", "Questions you have not attempted before"),
-                        ("Unanswered questions", "Questions you have not answered yet"),
-                        ("Incorrect questions", "Questions you answered incorrectly"),
-                        ("Review due", "Questions due for spaced repetition")
-                    ], id: \.0) { item in
-                        Label {
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(item.0)
-                                    .font(.subheadline.weight(.semibold))
-                                Text(item.1)
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                            }
-                        } icon: {
-                            Image(systemName: "checkmark.square.fill")
-                                .foregroundStyle(.blue)
-                        }
-                    }
-                }
-            }
-
             iOSStatusSection(model: model)
         }
         .listStyle(.insetGrouped)
@@ -771,15 +727,25 @@ private struct iOSPracticeView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .accessibilityIdentifier("start-practice-session")
-                .disabled(model.isBusy || model.practiceTags.isEmpty)
+                .disabled(model.isBusy || !model.hasLoadedLibrary)
 
-                Text("Estimated time: 30-40 min    Questions: \(model.practiceQuestionCount)")
+                Text("\(model.practiceSelectionSummary) · \(model.practiceQuestionCount) questions")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.center)
             }
             .padding(.horizontal, 16)
             .padding(.top, 10)
             .background(.regularMaterial)
+        }
+        .onAppear {
+            if expandedSlugs.isEmpty {
+                expandedSlugs = Set(model.practiceBlueprint.map(\.slug))
+            }
+        }
+        .onChange(of: model.practiceBlueprint) { _, newValue in
+            expandedSlugs.formUnion(newValue.map(\.slug))
         }
     }
 }
@@ -797,6 +763,163 @@ private struct iOSNumberedHeader: View {
                 .foregroundStyle(.white)
             Text(title)
                 .font(.subheadline.bold())
+        }
+    }
+}
+
+private struct iOSPracticeBlueprintTree: View {
+    @ObservedObject var model: AppViewModel
+    @Binding var expandedSlugs: Set<String>
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            VStack(alignment: .leading, spacing: 3) {
+                Text(model.practiceSelectionSummary)
+                    .font(.subheadline.weight(.semibold))
+                Text(selectionDetail)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            .padding(10)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Color(.tertiarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+
+            Button {
+                model.clearPracticeSelection()
+            } label: {
+                iOSTopicSelectionRow(
+                    title: "All answerable questions",
+                    detail: allQuestionsDetail,
+                    progress: 1,
+                    selected: model.selectedPracticeTagIDs.isEmpty
+                )
+            }
+            .buttonStyle(.plain)
+
+            if model.practiceBlueprint.isEmpty {
+                ForEach(Array(model.practiceTags.prefix(12))) { tag in
+                    Button {
+                        model.togglePracticeTagSelection(tag.slug)
+                    } label: {
+                        iOSTopicSelectionRow(
+                            title: tag.name,
+                            detail: "\(tag.questionCount) questions",
+                            progress: min(max((tag.elo - 800) / 600, 0.08), 1),
+                            selected: model.isPracticeTagSelected(tag.slug)
+                        )
+                    }
+                    .buttonStyle(.plain)
+                }
+            } else {
+                ForEach(model.practiceBlueprint) { node in
+                    iOSPracticeBlueprintNodeRow(
+                        node: node,
+                        level: 0,
+                        expandedSlugs: $expandedSlugs,
+                        isSelected: model.isPracticeTagSelected(node.slug),
+                        toggleSelection: { model.togglePracticeTagSelection(node.slug) },
+                        childSelected: { model.isPracticeTagSelected($0) },
+                        childToggle: { model.togglePracticeTagSelection($0) }
+                    )
+                }
+            }
+        }
+    }
+
+    private var selectionDetail: String {
+        if model.selectedPracticeTagIDs.isEmpty {
+            return "Empty selection uses the full bank."
+        }
+        return "Selected blueprint areas are combined as a union."
+    }
+
+    private var allQuestionsDetail: String {
+        let count = model.dashboard?.answerableCount ?? 0
+        return count > 0 ? "\(count) questions" : "Full bank"
+    }
+}
+
+private struct iOSPracticeBlueprintNodeRow: View {
+    let node: PracticeBlueprintNode
+    let level: Int
+    @Binding var expandedSlugs: Set<String>
+    let isSelected: Bool
+    let toggleSelection: () -> Void
+    let childSelected: (String) -> Bool
+    let childToggle: (String) -> Void
+
+    private var hasChildren: Bool {
+        !node.children.isEmpty
+    }
+
+    private var isExpanded: Bool {
+        expandedSlugs.contains(node.slug)
+    }
+
+    private var detailText: String {
+        var parts: [String] = ["\(node.questionCount) questions"]
+        if let examQuestionCount = node.examQuestionCount, let examPercent = node.examPercent {
+            parts.append("\(examQuestionCount)/60")
+            parts.append("\(examPercent.formatted(.number.precision(.fractionLength(0...1))))%")
+        }
+        return parts.joined(separator: " · ")
+    }
+
+    private var progress: Double {
+        min(max((node.elo - 800) / 600, 0.08), 1)
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 8) {
+                if hasChildren {
+                    Button {
+                        toggleExpanded()
+                    } label: {
+                        Image(systemName: isExpanded ? "chevron.down" : "chevron.right")
+                            .font(.caption.weight(.semibold))
+                            .frame(width: 18, height: 18)
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundStyle(.secondary)
+                    .accessibilityLabel(isExpanded ? "Collapse \(node.name)" : "Expand \(node.name)")
+                } else {
+                    Color.clear.frame(width: 18, height: 18)
+                }
+
+                Button(action: toggleSelection) {
+                    iOSTopicSelectionRow(
+                        title: node.name,
+                        detail: detailText,
+                        progress: progress,
+                        selected: isSelected
+                    )
+                }
+                .buttonStyle(.plain)
+            }
+            .padding(.leading, CGFloat(level * 14))
+
+            if hasChildren && isExpanded {
+                ForEach(node.children) { child in
+                    iOSPracticeBlueprintNodeRow(
+                        node: child,
+                        level: level + 1,
+                        expandedSlugs: $expandedSlugs,
+                        isSelected: childSelected(child.slug),
+                        toggleSelection: { childToggle(child.slug) },
+                        childSelected: childSelected,
+                        childToggle: childToggle
+                    )
+                }
+            }
+        }
+    }
+
+    private func toggleExpanded() {
+        if isExpanded {
+            expandedSlugs.remove(node.slug)
+        } else {
+            expandedSlugs.insert(node.slug)
         }
     }
 }
@@ -1052,7 +1175,7 @@ private struct iOSProgressView: View {
                     title: "Recovery areas",
                     weakTags: dashboard.weakTags,
                     onSelect: { tag in
-                        model.practiceTagID = tag.slug
+                        model.selectSinglePracticeTag(tag.slug)
                         model.selectSection(.practice)
                     }
                 )
@@ -1074,7 +1197,7 @@ private struct iOSProgressView: View {
                 } else {
                     ForEach(reviewDueRows.prefix(8)) { row in
                         Button {
-                            model.practiceTagID = row.slug
+                            model.selectSinglePracticeTag(row.slug)
                             model.selectSection(.practice)
                         } label: {
                             HStack {

@@ -486,12 +486,85 @@ final class ServiceTests: XCTestCase {
         let browse = try await service.fetchBrowse(search: nil, curriculum: nil, tag: nil, page: 1)
         let detail = try await service.fetchQuestionDetail(id: "q-blueprint-1")
 
-        XCTAssertEqual(practiceTags.filter { $0.kind == .curriculum }.map(\.slug), ["general-paediatrics"])
+        XCTAssertEqual(practiceTags.filter { $0.kind == .curriculum }.map(\.slug), ["general-paediatrics", "paediatric-sub-specialties"])
         XCTAssertEqual(practiceTags.first(where: { $0.slug == "general-paediatrics" })?.questionCount, 3)
         XCTAssertNil(practiceTags.first(where: { $0.slug == "cah-exam-blueprint" }))
         XCTAssertNil(practiceTags.first(where: { $0.slug == "cah-exam-blueprint/cah-kat" }))
         XCTAssertEqual(browse.tagOptions.map(\.slug), ["respiratory"])
         XCTAssertFalse(detail?.tags.contains(where: { $0.slug.contains("cah-exam-blueprint") }) ?? true)
+    }
+
+    func testFetchPracticeBlueprintOrdersExamCategoriesAndCountsChildren() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(
+                id: "q-growth",
+                stem: "Faltering growth and feeding requirements",
+                tags: ["general-paediatrics/growth-and-nutrition"],
+                curriculum: .generalPaediatrics
+            ),
+            fixtureQuestion(
+                id: "q-ent",
+                stem: "Acute otitis media",
+                tags: ["paediatric-sub-specialties/ent"],
+                curriculum: .paediatricSubSpecialties,
+                createdAt: Date(timeIntervalSince1970: 1_700_000_100)
+            ),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let blueprint = try await service.fetchPracticeBlueprint()
+
+        XCTAssertEqual(blueprint.map(\.slug), [
+            "general-paediatrics",
+            "paediatric-sub-specialties",
+            "paediatric-surgery",
+            "emergency-paediatrics",
+            "adolescent-medicine",
+            "community-based-paediatrics",
+        ])
+        XCTAssertEqual(blueprint.first?.examQuestionCount, 16)
+        XCTAssertEqual(blueprint.first?.questionCount, 1)
+        XCTAssertEqual(blueprint.first?.children.map(\.slug), ["general-paediatrics/growth-and-nutrition"])
+        XCTAssertEqual(blueprint[1].children.map(\.slug), ["paediatric-sub-specialties/ent"])
+    }
+
+    func testStartSessionAcceptsMultipleTagsAsUnionWithoutDuplicates() async throws {
+        let repo = try TemporaryRepo(questions: [
+            fixtureQuestion(
+                id: "q-growth",
+                stem: "Growth",
+                tags: ["general-paediatrics/growth-and-nutrition"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_000)
+            ),
+            fixtureQuestion(
+                id: "q-development",
+                stem: "Development",
+                tags: ["general-paediatrics/child-development"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_100)
+            ),
+            fixtureQuestion(
+                id: "q-both",
+                stem: "Growth and development",
+                tags: ["general-paediatrics/growth-and-nutrition", "general-paediatrics/child-development"],
+                createdAt: Date(timeIntervalSince1970: 1_700_000_200)
+            ),
+        ])
+        defer { try? repo.cleanup() }
+
+        let service = try QBankService(context: repo.context)
+        _ = try await service.syncIfNeeded(force: true)
+
+        let sessionID = try await service.startSession(
+            tagIDs: ["general-paediatrics/growth-and-nutrition", "general-paediatrics/child-development"],
+            questionCount: 10
+        )
+        let session = try await service.fetchSession(id: sessionID)
+
+        XCTAssertEqual(session?.mode, .custom)
+        XCTAssertEqual(session?.questions.map(\.id), ["q-growth", "q-development", "q-both"])
     }
 
     func testFlagsNotesAndBrowseRoundTrip() async throws {

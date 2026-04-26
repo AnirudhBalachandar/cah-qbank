@@ -1,11 +1,66 @@
 # CAH QBank Apple Release
 
-This project has two separate Apple distribution tracks:
+This project has three Apple distribution lanes:
 
-- Mac direct distribution: Developer ID signed, notarized, stapled DMG.
-- iPhone distribution: iOS archive for TestFlight or App Store. Developer ID notarization does not apply to iPhone apps.
+- Primary Mac beta distribution: App Store Connect upload for internal TestFlight on macOS.
+- Secondary Mac direct distribution: Developer ID signed, notarized, stapled DMG.
+- iPhone distribution: App Store Connect upload for internal TestFlight on iOS.
 
-## Mac Developer ID DMG
+The Mac and iPhone App Store Connect lanes use the same high-level workflow:
+
+1. Regenerate the Xcode project from `project.yml`.
+2. Run a release preflight for the target platform.
+3. Archive a Release build with automatic Apple signing.
+4. Export locally or upload to App Store Connect after explicit confirmation.
+
+## Mac App Store Connect And TestFlight
+
+Current Mac App Store Connect settings:
+
+- Scheme: `CAHQBankMac`
+- Display name: `CAH QBank`
+- Bundle identifier: `com.anirudhbalachandar.CAHQBank`
+- Team ID: `3DELSD6G98`
+- Version: `1.0`
+- Build: `5`
+- Entitlements: App Sandbox enabled at `Sources/Mac/CAHQBankMac.entitlements`
+- Bundled library: `3,060` published questions, including `3,056` practice-ready and `4` browse-only questions.
+
+Run the Mac App Store/TestFlight preflight:
+
+```bash
+native/macos/CAHQBankMac/scripts/preflight-mac-appstore-release.sh
+```
+
+Archive for Mac App Store Connect distribution:
+
+```bash
+native/macos/CAHQBankMac/scripts/release-mac-appstore.sh
+```
+
+Create a local App Store Connect export without uploading:
+
+```bash
+native/macos/CAHQBankMac/scripts/release-mac-appstore.sh --export --skip-archive
+```
+
+Expected local export folder:
+
+```text
+native/macos/CAHQBankMac/build/mac-appstore-release/export/
+```
+
+Upload the archived Mac build to App Store Connect for internal TestFlight only after confirming the App Store Connect app record:
+
+```bash
+CONFIRM_MAC_UPLOAD=YES native/macos/CAHQBankMac/scripts/release-mac-appstore.sh --upload --skip-archive
+```
+
+Do not treat a successful upload as TestFlight availability. App Store Connect can still be processing the uploaded build after `xcodebuild -exportArchive` completes.
+
+## Mac Direct Distribution DMG
+
+The direct-distribution lane remains available for sharing a notarized app outside the Mac App Store. It is not the primary beta/review path.
 
 Prerequisites:
 
@@ -15,58 +70,6 @@ Prerequisites:
 - A valid `Developer ID Application` certificate in the login keychain.
 - Notary credentials, either a notarytool keychain profile or an App Store Connect API key.
 
-### One-time Developer ID certificate setup
-
-Apple requires a Developer ID certificate for apps distributed outside the Mac App Store. Apple also limits Developer ID certificate creation to the Apple Developer Program Account Holder. The App Store Connect API can manage many certificate types, but Apple requires Developer ID certificates for macOS to be created through the Apple Developer website or Xcode.
-
-The simplest path is:
-
-1. Open Xcode Settings, then Accounts.
-2. Sign in to the Apple Developer account and select the correct team.
-3. Open Manage Certificates.
-4. Add a `Developer ID Application` certificate.
-5. Confirm the identity exists locally:
-
-```bash
-security find-identity -p codesigning -v | grep "Developer ID Application"
-```
-
-If you are not the Account Holder, ask the Account Holder to create and export a Developer ID Application certificate with its private key as a `.p12`, then import it into the login keychain.
-
-If more than one Developer ID Application certificate is installed, set the exact identity:
-
-```bash
-export DEVELOPER_ID_APPLICATION="Developer ID Application: Your Name (TEAMID)"
-```
-
-### Notary credentials
-
-Use either a saved notarytool keychain profile or an App Store Connect team API key.
-
-Option A: create a notary profile once on the release Mac:
-
-```bash
-xcrun notarytool store-credentials "CAH_QBANK_NOTARY"
-```
-
-Then run with:
-
-```bash
-NOTARYTOOL_PROFILE="CAH_QBANK_NOTARY" \
-native/macos/CAHQBankMac/scripts/release-mac.sh
-```
-
-Option B: use an App Store Connect team API key:
-
-```bash
-APP_STORE_CONNECT_API_KEY_PATH="$HOME/private_keys/AuthKey_ABC123DEFG.p8" \
-APP_STORE_CONNECT_KEY_ID="ABC123DEFG" \
-APP_STORE_CONNECT_ISSUER_ID="00000000-0000-0000-0000-000000000000" \
-native/macos/CAHQBankMac/scripts/release-mac.sh
-```
-
-Do not commit `.p8`, `.p12`, or password files to the repository.
-
 Build the signed and notarized DMG:
 
 ```bash
@@ -74,16 +77,13 @@ NOTARYTOOL_PROFILE="CAH_QBANK_NOTARY" \
 native/macos/CAHQBankMac/scripts/release-mac.sh
 ```
 
-Current Mac release settings:
+If more than one Developer ID Application certificate is installed, set the exact identity:
 
-- Display name: `CAH QBank`
-- Bundle identifier: `com.anirudhbalachandar.CAHQBank`
-- Minimum macOS version: `26.0`
-- Version: `1.0`
-- Build: `2`
-- Bundled library: `2,099` published questions, including `1,921` practice-ready and `178` browse-only questions.
+```bash
+export DEVELOPER_ID_APPLICATION="Developer ID Application: Your Name (TEAMID)"
+```
 
-Expected outputs are written under:
+Expected direct-distribution outputs are written under:
 
 ```text
 native/macos/CAHQBankMac/build/release/
@@ -105,7 +105,16 @@ The manifest records version, build, final artifact paths, SHA-256 checksums, an
 
 ## Mac Verification
 
-The release script runs these checks after signing and notarization:
+For the primary Mac App Store Connect lane, verify:
+
+```bash
+make -C native/macos/CAHQBankMac build
+make -C native/macos/CAHQBankMac test
+native/macos/CAHQBankMac/scripts/preflight-mac-appstore-release.sh
+native/macos/CAHQBankMac/scripts/release-mac-appstore.sh
+```
+
+For the secondary DMG lane, `release-mac.sh` runs these distribution checks after signing and notarization:
 
 ```bash
 codesign --verify --strict --verbose=2 "native/macos/CAHQBankMac/build/release/CAH QBank.app"
@@ -116,33 +125,19 @@ xcrun stapler validate "native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg
 spctl -a -vv -t install "native/macos/CAHQBankMac/build/release/CAH-QBank-1.0.dmg"
 ```
 
-Common failures:
-
-- No Developer ID Application certificate: create it in Xcode Accounts, or import an exported `.p12` from the Account Holder.
-- `No Account for Team`: sign in to Xcode Settings > Accounts with the Apple Developer account for that team.
-- Missing notary profile: run `xcrun notarytool store-credentials "CAH_QBANK_NOTARY"`.
-- API key failure: confirm the `.p8` path, key ID, issuer ID, App Store Connect permissions, and that the key is a team key rather than an individual key.
-- Gatekeeper rejection: inspect `codesign -dvvv --entitlements :-` and confirm the app was signed with Developer ID and hardened runtime.
-- Notary rejection: retrieve the notary log from the failed submission and fix the binary or signing issue it names.
+Manual app verification should launch the built or released Mac app itself and check Dashboard, Browse, Practice, Progress, Notebook, and Profile. Build success alone is not enough.
 
 ## iPhone Build And Distribution
 
-Current bundle identifier:
+Current iPhone settings:
 
-```text
-com.anirudhbalachandar.CAHQBank.iOS
-```
-
-The current iPhone target is an iPhone-only target named `CAHQBankiOS`. It shares the Swift model/service layer with the Mac app and has its own SwiftUI shell.
-
-Current release settings:
-
+- Scheme: `CAHQBankiOS`
 - Display name: `CAH QBank`
 - Bundle identifier: `com.anirudhbalachandar.CAHQBank.iOS`
 - Team ID: `3DELSD6G98`
 - Version: `1.0`
-- Build: `3`
-- Distribution goal: internal TestFlight first.
+- Build: `5`
+- Target device family: iPhone
 
 Simulator verification:
 

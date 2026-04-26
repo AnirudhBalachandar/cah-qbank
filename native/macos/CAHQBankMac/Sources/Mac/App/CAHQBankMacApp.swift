@@ -14,7 +14,7 @@ struct CAHQBankMacApp: App {
     var body: some Scene {
         WindowGroup("CAH QBank") {
             RootView(model: model)
-                .frame(minWidth: 1180, minHeight: 780)
+                .frame(minWidth: 980, minHeight: 680)
                 .preferredColorScheme(appearanceMode.colorScheme)
                 .task {
                     await model.bootstrapIfNeeded()
@@ -42,12 +42,12 @@ struct CAHQBankMacApp: App {
                 }
                 .keyboardShortcut("1", modifiers: [.command])
 
-                Button("Browse Questions") {
+                Button("Browse") {
                     model.selectSection(.browse)
                 }
                 .keyboardShortcut("2", modifiers: [.command])
 
-                Button("Start Practice") {
+                Button("Practice") {
                     model.selectSection(.practice)
                 }
                 .keyboardShortcut("3", modifiers: [.command])
@@ -56,6 +56,16 @@ struct CAHQBankMacApp: App {
                     model.selectSection(.progress)
                 }
                 .keyboardShortcut("4", modifiers: [.command])
+
+                Button("Notebook") {
+                    model.selectSection(.notebook)
+                }
+                .keyboardShortcut("5", modifiers: [.command])
+
+                Button("Profile") {
+                    model.selectSection(.profile)
+                }
+                .keyboardShortcut("6", modifiers: [.command])
             }
         }
     }

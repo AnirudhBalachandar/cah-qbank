@@ -170,6 +170,73 @@ actor QBankService {
         try fetchTagSummaries(kinds: [.curriculum, .topic])
     }
 
+    func fetchPracticeBlueprint() throws -> [PracticeBlueprintNode] {
+        let slugs = CAHBlueprint.allSlugs
+        guard !slugs.isEmpty else { return [] }
+        let placeholders = Array(repeating: "?", count: slugs.count).joined(separator: ", ")
+        let rows = try database.query(
+            """
+            SELECT t.slug, COALESCE(tm.elo, 1000) AS elo, GROUP_CONCAT(q.id) AS questionIDs
+            FROM Tag t
+            LEFT JOIN TagMastery tm ON tm.tagId = t.slug
+            LEFT JOIN QuestionTag qt ON qt.tagId = t.slug
+            LEFT JOIN Question q ON q.id = qt.questionId AND q.status = 'published' AND q.isAnswerable = 1
+            WHERE t.slug IN (\(placeholders))
+            GROUP BY t.slug, tm.elo;
+            """,
+            bindings: slugs.map(SQLiteBindValue.text)
+        )
+        var idsBySlug: [String: [String]] = [:]
+        var eloBySlug: [String: Double] = [:]
+        for row in rows {
+            let slug = try row.string("slug")
+            eloBySlug[slug] = try row.double("elo")
+            let ids = try row.optionalString("questionIDs")?
+                .split(separator: ",")
+                .map(String.init)
+                .sorted() ?? []
+            idsBySlug[slug] = ids
+        }
+
+        func node(
+            slug: String,
+            name: String,
+            kind: TagKind,
+            examQuestionCount: Int?,
+            examPercent: Double?,
+            children: [PracticeBlueprintNode] = []
+        ) -> PracticeBlueprintNode {
+            let questionIDs = idsBySlug[slug] ?? []
+            return PracticeBlueprintNode(
+                slug: slug,
+                name: name,
+                kind: kind,
+                questionCount: questionIDs.count,
+                questionIDs: questionIDs,
+                elo: eloBySlug[slug] ?? baseRating,
+                examQuestionCount: examQuestionCount,
+                examPercent: examPercent,
+                children: children
+            )
+        }
+
+        return CAHBlueprint.categories.map { category in
+            let children = category.subtopics
+                .map { topic in
+                    node(slug: topic.slug, name: topic.name, kind: .topic, examQuestionCount: nil, examPercent: nil)
+                }
+                .filter { $0.questionCount > 0 }
+            return node(
+                slug: category.slug,
+                name: category.name,
+                kind: .curriculum,
+                examQuestionCount: category.examQuestionCount,
+                examPercent: category.examPercent,
+                children: children
+            )
+        }
+    }
+
     func fetchBrowse(search: String?, curriculum: String?, tag: String?, page: Int) throws -> BrowseSnapshot {
         let nextPage = max(1, page)
         var clauses = ["q.status = 'published'"]
@@ -212,12 +279,18 @@ actor QBankService {
     }
 
     func startSession(tagID: String?, questionCount: Int?) throws -> String {
+        try startSession(tagIDs: tagID.map { [$0] } ?? [], questionCount: questionCount)
+    }
+
+    func startSession(tagIDs: [String], questionCount: Int?) throws -> String {
         let count = min(max(questionCount ?? defaultQuestionCount, 1), 100)
         var clauses = ["q.status = 'published'", "q.isAnswerable = 1"]
         var bindings: [SQLiteBindValue] = []
-        if let tagID, !tagID.isEmpty {
-            clauses.append("EXISTS (SELECT 1 FROM QuestionTag qt WHERE qt.questionId = q.id AND qt.tagId = ?)")
-            bindings.append(.text(tagID))
+        let selectedTagIDs = Array(Set(tagIDs.map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }.filter { !$0.isEmpty })).sorted()
+        if !selectedTagIDs.isEmpty {
+            let placeholders = Array(repeating: "?", count: selectedTagIDs.count).joined(separator: ", ")
+            clauses.append("EXISTS (SELECT 1 FROM QuestionTag qt WHERE qt.questionId = q.id AND qt.tagId IN (\(placeholders)))")
+            bindings.append(contentsOf: selectedTagIDs.map(SQLiteBindValue.text))
         }
 
         let questions = try loadQuestions(
@@ -262,7 +335,7 @@ actor QBankService {
             """,
             bindings: [
                 .text(sessionID),
-                .text((tagID?.isEmpty == false ? PracticeMode.custom : PracticeMode.revision).rawValue),
+                .text((selectedTagIDs.isEmpty ? PracticeMode.revision : PracticeMode.custom).rawValue),
                 .text(questionIDsJSON),
                 .text(QuestionFileCodec.formatDate(Date())),
             ]
@@ -757,9 +830,11 @@ actor QBankService {
             """
         )
 
-        return try rows.map { row in
-            PracticeTagSummary(
-                slug: try row.string("slug"),
+        return try rows.compactMap { row in
+            let slug = try row.string("slug")
+            guard !LearnerTagProjector.isHiddenLearnerSlug(slug) else { return nil }
+            return PracticeTagSummary(
+                slug: slug,
                 name: try row.string("name"),
                 kind: try TagKind(rawValue: row.string("kind")).unwrap("tag kind"),
                 questionCount: try row.int("questionCount"),
@@ -877,8 +952,10 @@ actor QBankService {
             )
             for row in rows {
                 let questionID = try row.string("questionId")
+                let slug = try row.string("slug")
+                guard !LearnerTagProjector.isHiddenLearnerSlug(slug) else { continue }
                 let tag = QuestionTag(
-                    slug: try row.string("slug"),
+                    slug: slug,
                     name: try row.string("name"),
                     kind: try TagKind(rawValue: row.string("kind")).unwrap("tag kind")
                 )

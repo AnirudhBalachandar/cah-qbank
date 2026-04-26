@@ -191,6 +191,21 @@ enum LearnerTagProjector {
         blueprintNamespace,
         "\(blueprintNamespace)/cah-kat",
         "notebooklm",
+        "combined-import",
+    ]
+    private static let hiddenPrefixes = [
+        "combined-import/",
+        "notebooklm/",
+        "canvas-import/",
+        "canvas-practice-quiz/",
+        "source/",
+        "source-system/",
+        "source-collection/",
+        "import-set/",
+        "promotion/",
+        "question-type/",
+        "repair-method/",
+        "readiness/",
     ]
 
     static func projectedSlugs(for question: QuestionFile) -> [String] {
@@ -207,7 +222,15 @@ enum LearnerTagProjector {
             slugs.insert(projected)
         }
 
+        for blueprintSlug in CAHBlueprint.projectedSlugs(for: question) {
+            slugs.insert(blueprintSlug)
+        }
+
         return slugs.sorted()
+    }
+
+    static func isHiddenLearnerSlug(_ slug: String) -> Bool {
+        hiddenScaffoldTags.contains(slug) || hiddenPrefixes.contains(where: { slug.hasPrefix($0) })
     }
 
     static func displayName(for slug: String) -> String {
@@ -231,7 +254,7 @@ enum LearnerTagProjector {
             .lowercased()
 
         guard !slug.isEmpty else { return nil }
-        if hiddenScaffoldTags.contains(slug) {
+        if isHiddenLearnerSlug(slug) {
             return nil
         }
         let parts = slug.split(separator: "/").map(String.init)
@@ -257,9 +280,10 @@ enum LearnerTagProjector {
 
 enum TagDescriptorCollector {
     static func collect(from questions: [QuestionFile]) -> [TagDescriptor] {
-        var descriptors: [String: TagDescriptor] = [:]
+        var descriptors = Dictionary(uniqueKeysWithValues: CAHBlueprint.descriptors().map { ($0.slug, $0) })
         for question in questions {
             for slug in LearnerTagProjector.projectedSlugs(for: question) {
+                guard !slug.hasPrefix("combined-import") else { continue }
                 let parts = slug.split(separator: "/").map(String.init)
                 for index in parts.indices {
                     let currentSlug = parts[0...index].joined(separator: "/")

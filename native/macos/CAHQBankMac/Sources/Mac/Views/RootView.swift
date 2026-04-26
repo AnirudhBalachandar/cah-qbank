@@ -10,12 +10,16 @@ struct RootView: View {
                 Section("Learner") {
                     Label("Dashboard", systemImage: "rectangle.grid.2x2")
                         .tag(AppViewModel.NavigationSection.dashboard)
-                    Label("Browse Questions", systemImage: "book")
+                    Label("Browse", systemImage: "book")
                         .tag(AppViewModel.NavigationSection.browse)
-                    Label("Start Practice", systemImage: "play.circle")
+                    Label("Practice", systemImage: "play.circle")
                         .tag(AppViewModel.NavigationSection.practice)
                     Label("Progress", systemImage: "chart.bar")
                         .tag(AppViewModel.NavigationSection.progress)
+                    Label("Notebook", systemImage: "text.book.closed")
+                        .tag(AppViewModel.NavigationSection.notebook)
+                    Label("Profile", systemImage: "person.crop.circle")
+                        .tag(AppViewModel.NavigationSection.profile)
                 }
                 Section("Status") {
                     VStack(alignment: .leading, spacing: 6) {
@@ -44,7 +48,7 @@ struct RootView: View {
                 }
             }
             .listStyle(.sidebar)
-            .navigationSplitViewColumnWidth(min: 250, ideal: 280)
+            .navigationSplitViewColumnWidth(min: 210, ideal: 230)
         } detail: {
             ZStack {
                 detailView
@@ -104,6 +108,10 @@ struct RootView: View {
                 PracticeView(model: model)
             case .progress:
                 ProgressView(model: model)
+            case .notebook:
+                NotebookView(model: model)
+            case .profile:
+                ProfileView(model: model)
             }
         }
     }

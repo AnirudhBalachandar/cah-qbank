@@ -152,85 +152,24 @@ private struct DashboardHeroCard: View {
     let onRefresh: () -> Void
 
     var body: some View {
-        ZStack(alignment: .topTrailing) {
-            RoundedRectangle(cornerRadius: 26, style: .continuous)
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            DashboardPalette.surface,
-                            DashboardPalette.surfaceEmphasis,
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 26, style: .continuous)
-                        .stroke(DashboardPalette.border.opacity(0.7), lineWidth: 1)
-                )
-
-            Circle()
-                .fill(DashboardPalette.accent.opacity(0.18))
-                .frame(width: 240, height: 240)
-                .blur(radius: 20)
-                .offset(x: 80, y: -60)
-
-            VStack(alignment: .leading, spacing: 18) {
+        VStack(alignment: .leading, spacing: 16) {
+            ViewThatFits(in: .horizontal) {
                 HStack(alignment: .top) {
-                    VStack(alignment: .leading, spacing: 10) {
-                        HStack(spacing: 10) {
-                            DashboardChip(
-                                title: hasLoadedLibrary ? "Local library ready" : "Library loading",
-                                symbol: hasLoadedLibrary ? "checkmark.circle.fill" : "arrow.triangle.2.circlepath.circle.fill",
-                                tint: hasLoadedLibrary ? DashboardPalette.success : DashboardPalette.accent
-                            )
-                            DashboardChip(
-                                title: "Offline study workspace",
-                                symbol: "sparkline",
-                                tint: DashboardPalette.accent
-                            )
-                        }
+                    heroCopy
 
-                        Text("CAH QBank analytics")
-                            .font(.system(size: 34, weight: .bold, design: .rounded))
-                            .foregroundStyle(DashboardPalette.copy)
+                    Spacer(minLength: 20)
 
-                        Text("A dense learner dashboard for volume, performance, recovery areas, and recent session behaviour inside the local macOS app.")
-                            .font(.title3)
-                            .foregroundStyle(DashboardPalette.copyMuted)
-                            .fixedSize(horizontal: false, vertical: true)
-
-                        Text(libraryStatusDetail)
-                            .font(.callout.weight(.semibold))
-                            .foregroundStyle(DashboardPalette.copy.opacity(0.92))
-
-                        Text(infoMessage)
-                            .font(.callout)
-                            .foregroundStyle(DashboardPalette.copy.opacity(0.88))
-                    }
-
-                    Spacer(minLength: 24)
-
-                    VStack(alignment: .trailing, spacing: 10) {
-                        DashboardSummaryPill(
-                            title: "Accuracy",
-                            value: formatPercent(dashboard?.accuracyPercent ?? 0),
-                            tint: DashboardPalette.success
-                        )
-                        DashboardSummaryPill(
-                            title: "Streak",
-                            value: "\(dashboard?.currentStreak ?? 0)",
-                            tint: DashboardPalette.accent
-                        )
-                        DashboardSummaryPill(
-                            title: "Completed",
-                            value: "\(dashboard?.modulesCompleted ?? 0)",
-                            tint: DashboardPalette.teal
-                        )
-                    }
+                    heroSummary
                 }
 
-                HStack(spacing: 12) {
+                VStack(alignment: .leading, spacing: 12) {
+                    heroCopy
+                    heroSummary
+                }
+            }
+
+            ViewThatFits(in: .horizontal) {
+                HStack(spacing: 10) {
                     Button("Browse Questions", action: onBrowse)
                         .buttonStyle(DashboardPrimaryButtonStyle())
 
@@ -240,10 +179,84 @@ private struct DashboardHeroCard: View {
                     Button("Refresh Library", action: onRefresh)
                         .buttonStyle(DashboardGhostButtonStyle())
                 }
+
+                VStack(alignment: .leading, spacing: 10) {
+                    Button("Browse Questions", action: onBrowse)
+                        .buttonStyle(DashboardPrimaryButtonStyle())
+
+                    Button("Start Practice", action: onPractice)
+                        .buttonStyle(DashboardSecondaryButtonStyle())
+
+                    Button("Refresh Library", action: onRefresh)
+                        .buttonStyle(DashboardGhostButtonStyle())
+                }
+                .frame(maxWidth: 340)
             }
-            .padding(24)
         }
+        .padding(18)
+        .background(
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                .fill(DashboardPalette.surface)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+                        .stroke(DashboardPalette.border.opacity(0.7), lineWidth: 1)
+                )
+        )
         .frame(maxWidth: .infinity)
+    }
+
+    private var heroCopy: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(spacing: 8) {
+                DashboardChip(
+                    title: hasLoadedLibrary ? "Local library ready" : "Library loading",
+                    symbol: hasLoadedLibrary ? "checkmark.circle.fill" : "arrow.triangle.2.circlepath.circle.fill",
+                    tint: hasLoadedLibrary ? DashboardPalette.success : DashboardPalette.accent
+                )
+                DashboardChip(
+                    title: "Offline study workspace",
+                    symbol: "sparkline",
+                    tint: DashboardPalette.accent
+                )
+            }
+
+            Text("CAH QBank analytics")
+                .font(.title.bold())
+                .foregroundStyle(DashboardPalette.copy)
+
+            Text("Volume, performance, recovery areas, and recent session behaviour inside the local macOS app.")
+                .font(.callout)
+                .foregroundStyle(DashboardPalette.copyMuted)
+                .fixedSize(horizontal: false, vertical: true)
+
+            Text(libraryStatusDetail)
+                .font(.callout.weight(.semibold))
+                .foregroundStyle(DashboardPalette.copy.opacity(0.92))
+
+            Text(infoMessage)
+                .font(.callout)
+                .foregroundStyle(DashboardPalette.copy.opacity(0.88))
+        }
+    }
+
+    private var heroSummary: some View {
+        HStack(spacing: 8) {
+            DashboardSummaryPill(
+                title: "Accuracy",
+                value: formatPercent(dashboard?.accuracyPercent ?? 0),
+                tint: DashboardPalette.success
+            )
+            DashboardSummaryPill(
+                title: "Streak",
+                value: "\(dashboard?.currentStreak ?? 0)",
+                tint: DashboardPalette.accent
+            )
+            DashboardSummaryPill(
+                title: "Completed",
+                value: "\(dashboard?.modulesCompleted ?? 0)",
+                tint: DashboardPalette.teal
+            )
+        }
     }
 }
 
@@ -295,10 +308,10 @@ private struct DashboardMetricCard: View {
         .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
-            RoundedRectangle(cornerRadius: 22, style: .continuous)
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
                 .fill(DashboardPalette.surface)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
                         .stroke(DashboardPalette.border, lineWidth: 1)
                 )
         )

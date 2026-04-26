@@ -3,107 +3,343 @@ import SwiftUI
 struct PracticeView: View {
     @ObservedObject var model: AppViewModel
 
-    private var selectedTagSummary: String {
-        guard !model.practiceTagID.isEmpty,
-              let tag = model.practiceTags.first(where: { $0.slug == model.practiceTagID }) else {
-            return "All answerable questions"
-        }
-        return "\(tag.name) (\(tag.questionCount))"
-    }
-
     private var startButtonTitle: String {
         model.activeSession == nil ? "Start Session" : "Start New Session"
     }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            VStack(alignment: .leading, spacing: 6) {
-                Text("Start Practice")
-                    .font(.largeTitle.bold())
-                Text(model.hasLoadedLibrary ? model.libraryStatusDetail : "Load the local question library to launch practice sessions.")
-                    .font(.callout)
-                    .foregroundStyle(.secondary)
+            practiceHeader
+
+            GeometryReader { proxy in
+                practiceWorkspace(width: proxy.size.width)
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .padding(24)
+    }
 
-            HStack(alignment: .top, spacing: 20) {
-                VStack(alignment: .leading, spacing: 14) {
-                    GroupBox {
-                        VStack(alignment: .leading, spacing: 12) {
-                            Label("Choose your scope", systemImage: "1.circle.fill")
-                                .font(.headline)
-                            Picker("Tag Focus", selection: $model.practiceTagID) {
-                                Text("All answerable questions").tag("")
-                                ForEach(model.practiceTags) { tag in
-                                    Text("\(tag.name) (\(tag.questionCount))").tag(tag.slug)
-                                }
-                            }
-                            .accessibilityHint("Choose which tag to prioritize for the session.")
+    private var practiceHeader: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Text("Start Practice")
+                .font(.largeTitle.bold())
+            Text(model.hasLoadedLibrary ? model.libraryStatusDetail : "Load the local question library to launch practice sessions.")
+                .font(.callout)
+                .foregroundStyle(.secondary)
+        }
+    }
 
-                            ForEach(model.practiceTags.prefix(5)) { tag in
-                                NativePracticeTopicRow(
-                                    tag: tag,
-                                    selected: model.practiceTagID == tag.slug,
-                                    action: { model.practiceTagID = tag.slug }
-                                )
-                            }
-                        }
-                        .padding(4)
-                    }
+    @ViewBuilder
+    private func practiceWorkspace(width: CGFloat) -> some View {
+        if width >= 980 {
+            HStack(alignment: .top, spacing: 18) {
+                practiceSetupPane
+                    .frame(width: min(max(width * 0.38, 360), 500))
 
-                    GroupBox {
-                        VStack(alignment: .leading, spacing: 12) {
-                            Label("Session settings", systemImage: "slider.horizontal.3")
-                                .font(.headline)
-                            Picker("Mode", selection: .constant("Revision")) {
-                                Text("Revision").tag("Revision")
-                                Text("Timed").tag("Timed")
-                                Text("Incorrect").tag("Incorrect")
-                                Text("Flagged").tag("Flagged")
-                            }
-                            .pickerStyle(.segmented)
-
-                            Stepper(value: $model.practiceQuestionCount, in: 1...100) {
-                                Text("Question count: \(model.practiceQuestionCount)")
-                            }
-
-                            VStack(alignment: .leading, spacing: 6) {
-                                Label(selectedTagSummary, systemImage: "tag")
-                                Label("\(model.practiceQuestionCount) questions per session", systemImage: "number")
-                                if !model.hasLoadedLibrary {
-                                    Label("Practice is unavailable until the local question library is ready.", systemImage: "externaldrive.badge.exclamationmark")
-                                        .foregroundStyle(.orange)
-                                }
-                            }
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-
-                            Button(startButtonTitle) {
-                                Task {
-                                    await model.startPractice()
-                                }
-                            }
-                            .buttonStyle(.borderedProminent)
-                            .keyboardShortcut(.defaultAction)
-                            .disabled(!model.hasLoadedLibrary || model.isBusy)
-                        }
-                        .padding(4)
-                    }
-                }
-                .frame(width: 340)
-
-                if let session = model.activeSession {
-                    SessionView(model: model, session: session)
-                } else {
-                    ContentUnavailableView(
-                        "No Active Session",
-                        systemImage: "play.circle",
-                        description: Text("Pick a tag focus and question count to launch a native practice run.")
-                    )
+                practiceSessionPane
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        } else {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    practiceSetupPane
+                        .frame(minHeight: 560)
+
+                    practiceSessionPane
+                        .frame(maxWidth: .infinity, minHeight: 520)
                 }
             }
         }
-        .padding(24)
+    }
+
+    private var practiceSetupPane: some View {
+        VSplitView {
+            GroupBox {
+                VStack(alignment: .leading, spacing: 12) {
+                    Label("Choose your scope", systemImage: "1.circle.fill")
+                        .font(.headline)
+                    NativePracticeBlueprintTree(model: model)
+                }
+                .padding(4)
+            }
+            .frame(minHeight: 260, idealHeight: 560)
+
+            GroupBox {
+                VStack(alignment: .leading, spacing: 12) {
+                    Label("Session settings", systemImage: "slider.horizontal.3")
+                        .font(.headline)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Adaptive revision")
+                            .font(.callout.weight(.semibold))
+                        Text("Selected blueprint scopes are combined, then unseen and lower-mastery questions are prioritised.")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(10)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+
+                    Stepper(value: $model.practiceQuestionCount, in: 1...100) {
+                        Text("Question count: \(model.practiceQuestionCount)")
+                    }
+
+                    VStack(alignment: .leading, spacing: 6) {
+                        Label(model.practiceSelectionSummary, systemImage: "tag")
+                        Label("\(model.practiceQuestionCount) questions per session", systemImage: "number")
+                        if !model.hasLoadedLibrary {
+                            Label("Practice is unavailable until the local question library is ready.", systemImage: "externaldrive.badge.exclamationmark")
+                                .foregroundStyle(.orange)
+                        }
+                    }
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+
+                    Button(startButtonTitle) {
+                        Task {
+                            await model.startPractice()
+                        }
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .keyboardShortcut(.defaultAction)
+                    .disabled(!model.hasLoadedLibrary || model.isBusy)
+                }
+                .padding(4)
+            }
+            .frame(minHeight: 190, idealHeight: 260)
+        }
+        .frame(maxHeight: .infinity)
+    }
+
+    @ViewBuilder
+    private var practiceSessionPane: some View {
+        if let session = model.activeSession {
+            SessionView(model: model, session: session)
+        } else {
+            ContentUnavailableView(
+                "No Active Session",
+                systemImage: "play.circle",
+                description: Text("Pick blueprint areas or subtopics and a question count to launch a native practice run.")
+            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+    }
+}
+
+private struct NativePracticeBlueprintTree: View {
+    @ObservedObject var model: AppViewModel
+    @State private var expandedSlugs: Set<String> = []
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .center) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(model.practiceSelectionSummary)
+                        .font(.callout.weight(.semibold))
+                    Text(selectionDetail)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Button("Clear") {
+                    model.clearPracticeSelection()
+                }
+                .controlSize(.small)
+                .disabled(model.selectedPracticeTagIDs.isEmpty)
+            }
+
+            if model.practiceBlueprint.isEmpty {
+                fallbackTagList
+            } else {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Button {
+                            model.clearPracticeSelection()
+                        } label: {
+                            NativePracticeAllQuestionsRow(
+                                questionCount: model.dashboard?.answerableCount ?? 0,
+                                selected: model.selectedPracticeTagIDs.isEmpty
+                            )
+                        }
+                        .buttonStyle(.plain)
+
+                        ForEach(model.practiceBlueprint) { node in
+                            NativePracticeBlueprintNodeRow(
+                                node: node,
+                                level: 0,
+                                expandedSlugs: $expandedSlugs,
+                                isSelected: model.isPracticeTagSelected(node.slug),
+                                toggleSelection: { model.togglePracticeTagSelection(node.slug) },
+                                childSelected: { model.isPracticeTagSelected($0) },
+                                childToggle: { model.togglePracticeTagSelection($0) }
+                            )
+                        }
+                    }
+                    .padding(.vertical, 2)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+        .onAppear {
+            if expandedSlugs.isEmpty {
+                expandedSlugs = Set(model.practiceBlueprint.map(\.slug))
+            }
+        }
+        .onChange(of: model.practiceBlueprint) { _, newValue in
+            expandedSlugs.formUnion(newValue.map(\.slug))
+        }
+    }
+
+    private var selectionDetail: String {
+        if model.selectedPracticeTagIDs.isEmpty {
+            return "No topic filter applied; sessions draw from the full answerable bank."
+        }
+        return "Multiple selections are combined as a union with duplicate questions removed."
+    }
+
+    private var fallbackTagList: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Button {
+                model.clearPracticeSelection()
+            } label: {
+                NativePracticeAllQuestionsRow(
+                    questionCount: model.dashboard?.answerableCount ?? 0,
+                    selected: model.selectedPracticeTagIDs.isEmpty
+                )
+            }
+            .buttonStyle(.plain)
+
+            ForEach(model.practiceTags.prefix(12)) { tag in
+                NativePracticeFallbackTopicRow(
+                    tag: tag,
+                    selected: model.isPracticeTagSelected(tag.slug),
+                    action: { model.togglePracticeTagSelection(tag.slug) }
+                )
+            }
+        }
+    }
+}
+
+private struct NativePracticeBlueprintNodeRow: View {
+    let node: PracticeBlueprintNode
+    let level: Int
+    @Binding var expandedSlugs: Set<String>
+    let isSelected: Bool
+    let toggleSelection: () -> Void
+    let childSelected: (String) -> Bool
+    let childToggle: (String) -> Void
+
+    private var hasChildren: Bool {
+        !node.children.isEmpty
+    }
+
+    private var isExpanded: Bool {
+        expandedSlugs.contains(node.slug)
+    }
+
+    private var progress: Double {
+        min(max((node.elo - 800) / 600, 0.08), 1)
+    }
+
+    private var examDetail: String? {
+        guard let examQuestionCount = node.examQuestionCount, let examPercent = node.examPercent else { return nil }
+        return "\(examQuestionCount)/60 · \(examPercent.formatted(.number.precision(.fractionLength(0...1))))%"
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 8) {
+                if hasChildren {
+                    Button {
+                        toggleExpanded()
+                    } label: {
+                        Image(systemName: isExpanded ? "chevron.down" : "chevron.right")
+                            .font(.caption.weight(.semibold))
+                            .frame(width: 16, height: 16)
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundStyle(.secondary)
+                    .accessibilityLabel(isExpanded ? "Collapse \(node.name)" : "Expand \(node.name)")
+                } else {
+                    Color.clear.frame(width: 16, height: 16)
+                }
+
+                Button(action: toggleSelection) {
+                    HStack(spacing: 10) {
+                        Image(systemName: isSelected ? "checkmark.square.fill" : "square")
+                            .foregroundStyle(isSelected ? .blue : .secondary)
+                        VStack(alignment: .leading, spacing: 5) {
+                            HStack(alignment: .firstTextBaseline) {
+                                Text(node.name)
+                                    .font(level == 0 ? .callout.weight(.semibold) : .caption.weight(.semibold))
+                                    .lineLimit(2)
+                                Spacer()
+                                Text("\(node.questionCount)")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                            HStack(spacing: 8) {
+                                if let examDetail {
+                                    Text(examDetail)
+                                }
+                                Text("\(node.questionCount) available")
+                            }
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                            SwiftUI.ProgressView(value: progress)
+                                .tint(level == 0 ? .blue : .green)
+                        }
+                    }
+                    .padding(10)
+                    .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                }
+                .buttonStyle(.plain)
+            }
+            .padding(.leading, CGFloat(level * 18))
+
+            if hasChildren && isExpanded {
+                ForEach(node.children) { child in
+                    NativePracticeBlueprintNodeRow(
+                        node: child,
+                        level: level + 1,
+                        expandedSlugs: $expandedSlugs,
+                        isSelected: childSelected(child.slug),
+                        toggleSelection: { childToggle(child.slug) },
+                        childSelected: childSelected,
+                        childToggle: childToggle
+                    )
+                }
+            }
+        }
+    }
+
+    private func toggleExpanded() {
+        if isExpanded {
+            expandedSlugs.remove(node.slug)
+        } else {
+            expandedSlugs.insert(node.slug)
+        }
+    }
+}
+
+private struct NativePracticeAllQuestionsRow: View {
+    let questionCount: Int
+    let selected: Bool
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Image(systemName: selected ? "checkmark.circle.fill" : "circle")
+                .foregroundStyle(selected ? .blue : .secondary)
+            VStack(alignment: .leading, spacing: 3) {
+                Text("All answerable questions")
+                    .font(.callout.weight(.semibold))
+                Text(questionCount > 0 ? "\(questionCount) available" : "Full bank")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+        }
+        .padding(10)
+        .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
     }
 }
 
@@ -130,7 +366,7 @@ enum PracticeSessionNavigation {
     }
 }
 
-private struct NativePracticeTopicRow: View {
+private struct NativePracticeFallbackTopicRow: View {
     let tag: PracticeTagSummary
     let selected: Bool
     let action: () -> Void

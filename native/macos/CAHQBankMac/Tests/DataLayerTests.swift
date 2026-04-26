@@ -277,7 +277,11 @@ final class DataLayerTests: XCTestCase {
         let tagRows = try database.query("SELECT slug FROM Tag ORDER BY slug;")
         let masteryRows = try database.query("SELECT tagId FROM TagMastery ORDER BY tagId;")
 
-        XCTAssertEqual(try tagRows.map { try $0.string("slug") }, ["cardiology", "general-paediatrics"])
+        let tagSlugs = try tagRows.map { try $0.string("slug") }
+        XCTAssertTrue(tagSlugs.contains("cardiology"))
+        XCTAssertTrue(tagSlugs.contains("general-paediatrics"))
+        XCTAssertTrue(tagSlugs.contains("paediatric-sub-specialties"))
+        XCTAssertFalse(tagSlugs.contains("respiratory"))
         XCTAssertTrue(try masteryRows.map { try $0.string("tagId") }.isEmpty)
     }
 
@@ -302,12 +306,14 @@ final class DataLayerTests: XCTestCase {
         let tagRows = try database.query("SELECT slug, kind FROM Tag ORDER BY slug;")
         let questionTagRows = try database.query("SELECT tagId FROM QuestionTag ORDER BY tagId;")
 
-        XCTAssertEqual(
-            try tagRows.map { row in
-                try row.string("slug") + "|" + row.string("kind")
-            },
-            ["general-paediatrics|curriculum"]
-        )
+        let tagDescriptors = try tagRows.map { row in
+            try row.string("slug") + "|" + row.string("kind")
+        }
+        XCTAssertTrue(tagDescriptors.contains("general-paediatrics|curriculum"))
+        XCTAssertTrue(tagDescriptors.contains("paediatric-sub-specialties|curriculum"))
+        XCTAssertTrue(tagDescriptors.contains("general-paediatrics/growth-and-nutrition|topic"))
+        XCTAssertFalse(tagDescriptors.contains { $0.contains("cah-exam-blueprint") })
+        XCTAssertFalse(tagDescriptors.contains { $0.contains("notebooklm") })
         XCTAssertEqual(try questionTagRows.map { try $0.string("tagId") }, ["general-paediatrics"])
     }
 }

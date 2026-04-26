@@ -21,6 +21,7 @@
     "prepare:combined-import-promotion": "pnpm exec tsx tools/prepare-combined-import-for-promotion.ts",
     "promote:combined-import": "pnpm exec tsx tools/promote-combined-import.ts",
     "analyze:cah-kat": "pnpm exec tsx tools/analyze-cah-kat-blueprint.ts",
+    "report:cah-kat-blueprint": "pnpm exec tsx tools/report-cah-kat-blueprint-taxonomy.ts",
     "validate:questions": "pnpm exec tsx tools/validate-questions.ts",
     "build:cli": "pnpm --filter @cah/cli build",
     "build:generate": "pnpm --filter @cah/generate build",

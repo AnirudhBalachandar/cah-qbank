@@ -82,6 +82,112 @@ final class AppViewModelTests: XCTestCase {
         XCTAssertNil(model.errorMessage)
     }
 
+    func testBundledDatabaseProviderRefreshesStaleLocalContentAndPreservesUserData() async throws {
+        let fileManager = FileManager.default
+        let storageName = "CAHQBankMacMigrationTests-\(UUID().uuidString)"
+        let storageRoot = try XCTUnwrap(
+            fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
+        ).appendingPathComponent(storageName, isDirectory: true)
+        let databaseURL = storageRoot.appendingPathComponent("cah.db")
+        let bundleRoot = fileManager.temporaryDirectory.appendingPathComponent(UUID().uuidString, isDirectory: true)
+        let bundledDatabaseURL = bundleRoot.appendingPathComponent("bundled-cah.db")
+        defer {
+            try? fileManager.removeItem(at: storageRoot)
+            try? fileManager.removeItem(at: bundleRoot)
+        }
+
+        try fileManager.createDirectory(at: storageRoot, withIntermediateDirectories: true)
+        try fileManager.createDirectory(at: bundleRoot, withIntermediateDirectories: true)
+        try writeProjectedDatabase(
+            at: databaseURL,
+            questions: [
+                fixtureQuestion(id: "q-1", stem: "Old bundled question"),
+            ]
+        )
+        try writeProjectedDatabase(
+            at: bundledDatabaseURL,
+            questions: [
+                fixtureQuestion(id: "q-1", stem: "Updated bundled question"),
+                fixtureQuestion(id: "q-2", stem: "New bundled question", createdAt: Date(timeIntervalSince1970: 1_700_000_100)),
+            ]
+        )
+
+        let database = try SQLiteDatabase(path: databaseURL.path)
+        try database.execute(
+            """
+            INSERT INTO PracticeSession (id, mode, questionIds, currentIndex, createdAt, completedAt)
+            VALUES ('session-1', 'revision', '["q-1"]', 1, ?, NULL);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(Date(timeIntervalSince1970: 1_700_001_000)))]
+        )
+        try database.execute(
+            """
+            INSERT INTO Attempt (id, questionId, sessionId, selectedKey, isCorrect, timeSpentMs, confidence, createdAt)
+            VALUES ('attempt-1', 'q-1', 'session-1', 'B', 1, 12000, 4, ?);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(Date(timeIntervalSince1970: 1_700_001_030)))]
+        )
+        try database.execute(
+            """
+            INSERT INTO Flag (questionId, createdAt)
+            VALUES ('q-1', ?);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(Date(timeIntervalSince1970: 1_700_001_040)))]
+        )
+        try database.execute(
+            """
+            INSERT INTO UserNote (questionId, noteMarkdown, updatedAt)
+            VALUES ('q-1', 'Keep this note', ?);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(Date(timeIntervalSince1970: 1_700_001_050)))]
+        )
+        try database.execute(
+            """
+            INSERT INTO TagMastery (tagId, elo, attemptCount, correctCount, updatedAt)
+            VALUES ('general-paediatrics', 1110, 1, 1, ?);
+            """,
+            bindings: [.text(QuestionFileCodec.formatDate(Date(timeIntervalSince1970: 1_700_001_060)))]
+        )
+
+        let provider = BundledDatabaseQBankServiceProvider(
+            storageDirectoryName: storageName,
+            bundledDatabaseURL: bundledDatabaseURL,
+            bundledContentVersion: "2"
+        )
+        let service = try provider.connectedService(configuration: RepoLinkConfiguration())
+        _ = try await service.syncIfNeeded(force: true)
+
+        let dashboard = try await service.fetchDashboard()
+        let migratedDatabase = try SQLiteDatabase(path: databaseURL.path)
+        let questionRows = try migratedDatabase.query("SELECT id, stem FROM Question ORDER BY id;")
+        let sessionRows = try migratedDatabase.query("SELECT id FROM PracticeSession;")
+        let attemptRows = try migratedDatabase.query("SELECT id, timeSpentMs, confidence FROM Attempt;")
+        let flagRows = try migratedDatabase.query("SELECT questionId FROM Flag;")
+        let noteRows = try migratedDatabase.query("SELECT noteMarkdown FROM UserNote;")
+        let masteryRows = try migratedDatabase.query("SELECT tagId, elo, attemptCount, correctCount FROM TagMastery;")
+        let metadataRows = try migratedDatabase.query(
+            "SELECT value FROM LibraryMetadata WHERE key = 'bundledContentVersion';"
+        )
+
+        XCTAssertEqual(dashboard.publishedCount, 2)
+        XCTAssertEqual(dashboard.answerableCount, 2)
+        XCTAssertEqual(dashboard.flaggedCount, 1)
+        XCTAssertEqual(dashboard.noteCount, 1)
+        XCTAssertEqual(try questionRows.map { try $0.string("id") }, ["q-1", "q-2"])
+        XCTAssertEqual(try questionRows.first?.string("stem"), "Updated bundled question")
+        XCTAssertEqual(try sessionRows.first?.string("id"), "session-1")
+        XCTAssertEqual(try attemptRows.first?.string("id"), "attempt-1")
+        XCTAssertEqual(try attemptRows.first?.int("timeSpentMs"), 12000)
+        XCTAssertEqual(try attemptRows.first?.int("confidence"), 4)
+        XCTAssertEqual(try flagRows.first?.string("questionId"), "q-1")
+        XCTAssertEqual(try noteRows.first?.string("noteMarkdown"), "Keep this note")
+        XCTAssertEqual(try masteryRows.first?.string("tagId"), "general-paediatrics")
+        XCTAssertEqual(try masteryRows.first?.double("elo"), 1110)
+        XCTAssertEqual(try masteryRows.first?.int("attemptCount"), 1)
+        XCTAssertEqual(try masteryRows.first?.int("correctCount"), 1)
+        XCTAssertEqual(try metadataRows.first?.string("value"), "2")
+    }
+
     func testBundledDatabaseProviderReportsMissingBundledDatabase() throws {
         let provider = BundledDatabaseQBankServiceProvider(
             bundle: Bundle(for: AppViewModelTests.self),

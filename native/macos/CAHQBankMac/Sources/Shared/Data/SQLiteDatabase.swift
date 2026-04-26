@@ -91,12 +91,18 @@ struct SQLiteRow: Sendable {
 final class SQLiteDatabase {
     private let handle: OpaquePointer
 
-    init(path: String) throws {
+    init(path: String, readOnly: Bool = false) throws {
         let directory = URL(fileURLWithPath: path).deletingLastPathComponent()
-        try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+        if !readOnly {
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+        }
 
         var db: OpaquePointer?
-        let flags = SQLITE_OPEN_CREATE | SQLITE_OPEN_READWRITE | SQLITE_OPEN_FULLMUTEX
+        let flags = if readOnly {
+            SQLITE_OPEN_READONLY | SQLITE_OPEN_FULLMUTEX | SQLITE_OPEN_URI
+        } else {
+            SQLITE_OPEN_CREATE | SQLITE_OPEN_READWRITE | SQLITE_OPEN_FULLMUTEX | SQLITE_OPEN_URI
+        }
         if sqlite3_open_v2(path, &db, flags, nil) != SQLITE_OK || db == nil {
             let message = db.flatMap { sqlite3_errmsg($0).map { String(cString: $0) } } ?? "Unable to open database"
             if let db {
@@ -294,4 +300,8 @@ CREATE INDEX IF NOT EXISTS "Tag_slug_idx" ON "Tag"("slug");
 CREATE INDEX IF NOT EXISTS "Attempt_sessionId_createdAt_idx" ON "Attempt"("sessionId", "createdAt");
 CREATE INDEX IF NOT EXISTS "TagMastery_tagId_idx" ON "TagMastery"("tagId");
 CREATE UNIQUE INDEX IF NOT EXISTS "Attempt_sessionId_questionId_key" ON "Attempt"("sessionId", "questionId");
+CREATE TABLE IF NOT EXISTS "LibraryMetadata" (
+    "key" TEXT NOT NULL PRIMARY KEY,
+    "value" TEXT NOT NULL
+);
 """

@@ -70,3 +70,12 @@ func fixtureQuestion(
         source: ["kind": .string("fixture")]
     )
 }
+
+func writeProjectedDatabase(at databaseURL: URL, questions: [QuestionFile]) throws {
+    let repo = try TemporaryRepo(questions: questions)
+    defer { try? repo.cleanup() }
+
+    let database = try SQLiteDatabase(path: databaseURL.path)
+    let synchronizer = ContentSynchronizer()
+    _ = try synchronizer.sync(using: repo.context, database: database)
+}
